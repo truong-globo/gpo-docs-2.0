@@ -121,9 +121,3 @@ With **View in Store**, using a realistic entry rather than "test".
 * The builder's preview panel shows the personalised result as you configure it, so most of the work can be done without leaving the app.
 * Positions are percentages, not pixels, so a layer stays in the same relative place whatever size the image is displayed at.
 * Performance is worth watching: many layers on a large image on an old phone is slower than one layer.
-
-## Next steps
-
-* [Set the preview background](set-the-background.md)
-* [Enable personalizer on an option](enable-on-an-option.md)
-* [Walkthrough: custom printed mug](walkthrough-custom-mug.md)

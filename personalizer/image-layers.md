@@ -13,7 +13,7 @@ An image layer draws a picture onto the product photograph — either a file the
 
 <table><thead><tr><th width="290">Option type</th><th>The layer draws</th></tr></thead><tbody><tr><td>File upload</td><td>The file the customer uploaded</td></tr><tr><td>The eight selection types</td><td>The image attached to the option value they selected</td></tr></tbody></table>
 
-For selection types that means each value needs its own image in the values table. See [Working with option values](../concepts/option-values.md).
+For selection types that means each value needs its own image in the values table. See [Working with option values](../option-sets/option-values.md).
 
 ## The two settings unique to image layers
 
@@ -145,9 +145,3 @@ The file is smaller than the size it is drawn at. Ask for a minimum resolution i
 
 A multi-select option is contributing one layer per selection. Limit it to one selection, or position for the overlap.
 </details>
-
-## Next steps
-
-* [Customer controls](customer-controls.md)
-* [Clip area](clip-area.md)
-* [File upload](../option-types/input-types/file-upload.md)

@@ -151,9 +151,3 @@ Support is per version. A new theme version may not be covered yet — tell us w
 
 It always will. The preview uses the app's own styling by design.
 </details>
-
-## Next steps
-
-* [Colors](colors.md)
-* [Borders and typography](borders-and-typography.md)
-* [Custom CSS](custom-css.md)

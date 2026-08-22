@@ -13,7 +13,7 @@ Option values are attached to the cart line as **line item properties** — Shop
 
 <table><thead><tr><th width="290">Place</th><th>Shows</th></tr></thead><tbody><tr><td>The cart page</td><td>Each option's <strong>Name</strong> and the customer's value, under the item</td></tr><tr><td>Checkout</td><td>The same</td></tr><tr><td>The order in Shopify admin</td><td>The same, per line item</td></tr><tr><td>Order confirmation emails</td><td>Usually, depending on your notification templates</td></tr><tr><td>Uploaded files</td><td>As links, so your team can download the originals</td></tr></tbody></table>
 
-The label shown is the option's **Name**, not its Label — which is why the Name matters. `Engraving text: Forever yours` is actionable; `text: Forever yours` is not. See [Label vs Name](../concepts/label-vs-name.md).
+The label shown is the option's **Name**, not its Label — which is why the Name matters. `Engraving text: Forever yours` is actionable; `text: Forever yours` is not. See [Label and Name](../option-types/shared-settings/labels-and-visibility.md).
 
 <!-- SCREENSHOT: store-order-details | Shopify admin → 1 order có option | Line item với danh sách option properties bên dưới | Khoanh phần properties -->
 
@@ -177,7 +177,7 @@ The snippet renders them as links. If you wrote your own loop, add the same hand
 <details>
 <summary>Option names on orders are unhelpful</summary>
 
-They are the options' **Name** values. Set them to something readable — for future orders. See [Label vs Name](../concepts/label-vs-name.md).
+They are the options' **Name** values. Set them to something readable — for future orders. See [Label and Name](../option-types/shared-settings/labels-and-visibility.md).
 </details>
 
 <details>
@@ -185,9 +185,3 @@ They are the options' **Name** values. Set them to something readable — for fu
 
 Use an [Update order notes](../automations/update-order-notes.md) workflow, or ask support for ready-made templates.
 </details>
-
-## Next steps
-
-* [Automations](../automations/README.md) — the no-Liquid route.
-* [Line item properties](../reference/line-item-properties.md) — what each property is.
-* [Cart page](cart-page.md)

@@ -196,9 +196,3 @@ Reopen the option's price dialog and set the price again, then save — a new pr
 
 Filter your Shopify products by the `globo-product-options` tag, and give your options meaningful labels before generating in future.
 </details>
-
-## Next steps
-
-* [Stock and inventory](stock-and-inventory.md) — the follow-up step.
-* [Merge main product and add-ons](merge-as-bundle.md) — tidying up the cart.
-* [Advanced add-on modes](advanced-add-on-modes.md)

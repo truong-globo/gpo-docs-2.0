@@ -74,7 +74,7 @@ Yes, and both render. That is often not what people intend — if options are ap
 <details>
 <summary>What is the difference between Label and Name?</summary>
 
-**Label** is what the shopper reads on the page. **Name** is what appears on the cart, the order, and your paperwork. They can differ, which is useful when the shopper-facing wording is long. See [Label vs Name](../concepts/label-vs-name.md).
+**Label** is what the shopper reads on the page. **Name** is what appears on the cart, the order, and your paperwork. They can differ, which is useful when the shopper-facing wording is long. See [Label and Name](../option-types/shared-settings/labels-and-visibility.md).
 
 </details>
 
@@ -337,7 +337,7 @@ Yes, for option sets published to the Point of Sale channel. See [Point of Sale]
 <details>
 <summary>How do I see what my plan includes?</summary>
 
-Open **Pricing** in the app. Locked features are marked in the builder too. See [Plans and locked features](../concepts/plans-and-feature-gating.md).
+Open **Pricing** in the app. Locked features are marked in the builder too. See [Locked features](../plans/locked-features.md).
 
 </details>
 
@@ -354,9 +354,3 @@ It is kept, but features the lower plan does not include stop working on your st
 Through Shopify, on your Shopify invoice. See [Change your plan](../plans/change-your-plan.md).
 
 </details>
-
-## Next steps
-
-* [Options are not showing up](troubleshooting-not-showing.md)
-* [Glossary](glossary.md)
-* [Contact support](contact-support.md)

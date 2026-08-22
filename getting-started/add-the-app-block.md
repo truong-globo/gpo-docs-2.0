@@ -151,9 +151,3 @@ Automatic placement and the app block are both placing it. Remove one of them.
 
 Theme updates can reset a section's blocks. Re-add the app block, or switch to automatic placement, which survives theme updates.
 </details>
-
-## Next steps
-
-* [Widget placement](../storefront/widget-placement.md) — the eight automatic positions and the CSS-selector options.
-* [Quickview and other pages](../storefront/quickview-and-other-pages.md) — where else the widget can appear.
-* [Walkthrough: engraving and gift wrap](first-option-set-walkthrough.md) — build something real.

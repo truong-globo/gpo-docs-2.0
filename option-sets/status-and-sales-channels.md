@@ -75,7 +75,7 @@ A **Draft** set never renders. See above.
 {% step %}
 ### Does a rule match?
 
-The product rule must match the product you are looking at, and if you set customer or country rules, those must match the visitor too. See [Assign to products](../option-sets/assign-to-products.md), [Assign to customers](../option-sets/assign-to-customers.md), and [Assign to countries](../option-sets/assign-to-countries.md).
+The product rule must match the product you are looking at, and if you set customer or country rules, those must match the visitor too. See [Assign to products](assign-to-products.md), [Assign to customers](assign-to-customers.md), and [Assign to countries](assign-to-countries.md).
 {% endstep %}
 {% endstepper %}
 
@@ -121,9 +121,3 @@ It did not flip back — the change was not saved. Change the status, then selec
 
 Set the option set to **Draft**. Everything is preserved, and switching it back to **Active** restores it exactly.
 </details>
-
-## Next steps
-
-* [Plans and locked features](plans-and-feature-gating.md)
-* [Manage option sets](../option-sets/manage-option-sets.md) — the list page and its bulk actions.
-* [Options are not showing up](../help/troubleshooting-not-showing.md)

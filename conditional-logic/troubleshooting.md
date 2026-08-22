@@ -34,7 +34,7 @@ In order:
 1. The conditions are always true — for example **number of characters is greater than** `-1`, or a value that is also the default.
 2. You have **Show** with **Any** and one condition that is always satisfied.
 3. Conditional logic is not actually on. Check the switch, and check the option set was saved.
-4. Your plan may not include conditional logic, in which case rules are stored but not applied. See [Plans and locked features](../concepts/plans-and-feature-gating.md).
+4. Your plan may not include conditional logic, in which case rules are stored but not applied. See [Locked features](../plans/locked-features.md).
 
 </details>
 
@@ -181,9 +181,3 @@ Conditional logic changes the page height as options appear. Check the result is
 ## Still stuck?
 
 Include these when you [contact support](../help/contact-support.md): the option set name, the option carrying the rule, the exact rule as it reads in the app, and what you expected against what happened. If it is a variant condition, add the product and variant names.
-
-## Next steps
-
-* [Build a condition](build-a-condition.md)
-* [Operators reference](operators-reference.md)
-* [Examples and recipes](examples-and-recipes.md)

@@ -135,9 +135,3 @@ Add two Size chart options and use conditional logic to show the right one.
 
 It is on the Advanced plan. See [Compare plans](../../plans/compare-plans.md).
 </details>
-
-## Next steps
-
-* [Pop-up modal](pop-up-modal.md) — for non-table content.
-* [Tabs](tabs.md) — chart plus care plus delivery in one place.
-* [Conditional logic](../../conditional-logic/README.md) — the right chart for the right product.

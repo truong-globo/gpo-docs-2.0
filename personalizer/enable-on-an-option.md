@@ -124,9 +124,3 @@ Three things: the option set needs a background; a text layer needs either a def
 
 They share the same position. Change one layer's **Y-Axis**.
 </details>
-
-## Next steps
-
-* [Text layers](text-layers.md) or [Image layers](image-layers.md)
-* [Position, size, and rotation](position-size-rotation.md)
-* [Set the preview background](set-the-background.md)

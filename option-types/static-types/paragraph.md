@@ -82,9 +82,3 @@ Check the address in the editor's link dialog, including the protocol for extern
 
 Put the same conditional rule on the paragraph, or move both into a [Section](section.md) with one rule on it.
 </details>
-
-## Next steps
-
-* [Pop-up modal](pop-up-modal.md) — for longer text.
-* [Tabs](tabs.md) — for several blocks of content.
-* [Placeholder and help text](../shared-settings/placeholder-and-help-text.md) — for one-line guidance.

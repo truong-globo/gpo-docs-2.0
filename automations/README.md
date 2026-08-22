@@ -89,9 +89,3 @@ Duplicating is useful for order tags, where you may want several rules — one p
 * They run after the order is created, so there is a short delay before an email arrives or a tag appears.
 * A workflow set to **Draft** does nothing.
 * Workflows are configured per store, and are not included in option set or settings exports.
-
-## Next steps
-
-* [Email notification](email-notification.md)
-* [Update order notes](update-order-notes.md)
-* [Update order tags](update-order-tags.md)

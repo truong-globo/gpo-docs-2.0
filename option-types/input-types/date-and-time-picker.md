@@ -152,9 +152,3 @@ Set **Date format** to the convention your team uses, and show it in the **Place
 
 It only applies to the **Date** and **Date & time** formats, and is plan-gated.
 </details>
-
-## Next steps
-
-* [Conditional logic](../../conditional-logic/README.md) — reveal a date field only when delivery is chosen.
-* [Switch](switch.md) — where to put an express-delivery charge.
-* [Automations](../../automations/README.md) — get the chosen date emailed to you with the order.

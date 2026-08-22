@@ -67,9 +67,3 @@ Turn on **Hide quantity box and remove button for add-on products** in **Setting
 
 Not possible — the setting is store-wide. Choose whichever suits the majority of your catalogue.
 </details>
-
-## Next steps
-
-* [Add-on price display settings](price-display-settings.md) — how prices are shown on the product page.
-* [Cart page](../storefront/cart-page.md) — the rest of the cart settings.
-* [How pricing is applied](how-pricing-is-applied.md)

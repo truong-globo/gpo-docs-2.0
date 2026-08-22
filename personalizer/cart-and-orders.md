@@ -43,7 +43,7 @@ The order in Shopify admin shows the item with its option details: the text, the
 
 That is what your production team works from. Two things make the difference between an order they can act on and one they have to ask about:
 
-<table><thead><tr><th width="290">Do this</th><th>Because</th></tr></thead><tbody><tr><td>Give every option a readable <strong>Name</strong></td><td>The Name is what appears on the order. <code>Engraving text: Forever yours</code> is actionable; <code>text: Forever yours</code> is not. See <a href="../concepts/label-vs-name.md">Label vs Name</a></td></tr><tr><td>Include everything production needs as an option</td><td>If the font matters, ask for it as a <a href="../option-types/selection-types/font-picker.md">Font picker</a> option so it is recorded, rather than relying on a default nobody wrote down</td></tr></tbody></table>
+<table><thead><tr><th width="290">Do this</th><th>Because</th></tr></thead><tbody><tr><td>Give every option a readable <strong>Name</strong></td><td>The Name is what appears on the order. <code>Engraving text: Forever yours</code> is actionable; <code>text: Forever yours</code> is not. See <a href="../option-types/shared-settings/labels-and-visibility.md">Label and Name</a></td></tr><tr><td>Include everything production needs as an option</td><td>If the font matters, ask for it as a <a href="../option-types/selection-types/font-picker.md">Font picker</a> option so it is recorded, rather than relying on a default nobody wrote down</td></tr></tbody></table>
 
 ## Getting the details out of Shopify admin
 
@@ -114,9 +114,3 @@ It is attached to the order in Shopify admin, alongside the option details for t
 
 Set expectations in help text, and consider offering a proofing step for high-value items.
 </details>
-
-## Next steps
-
-* [Show options on orders](../storefront/show-options-on-orders.md)
-* [Automations](../automations/README.md) — get the details to your team automatically.
-* [Cart page](../storefront/cart-page.md)

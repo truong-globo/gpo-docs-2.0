@@ -130,9 +130,3 @@ The inspector is off. Turn it on with the inspector control in the header.
 
 No background image is configured for this option set. Set one in the personalizer background settings — see [Set the preview background](../personalizer/set-the-background.md).
 </details>
-
-## Next steps
-
-* [Assign to products](assign-to-products.md) — then use Preview matching products to check it.
-* [Conditional logic](../conditional-logic/README.md)
-* [Match your theme style](../storefront/match-your-theme-style.md) — close the gap between preview and storefront.

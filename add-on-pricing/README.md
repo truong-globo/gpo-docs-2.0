@@ -42,9 +42,3 @@ The price shown on your product page is a **preview**, calculated in the shopper
 That is not a workaround — it is how Shopify works, and it is what makes the pricing tamper-proof. But it explains several things that would otherwise be puzzling: why add-on products appear as separate cart lines, why the displayed total can be configured independently, and why a shopper cannot edit prices in their browser.
 
 See [How pricing is applied](how-pricing-is-applied.md).
-
-## Next steps
-
-* [Where you can set add-ons](where-you-can-set-add-ons.md) — start here.
-* [Advanced add-on modes](advanced-add-on-modes.md) — the second decision after the mode.
-* [Walkthrough: engraving and gift wrap](../getting-started/first-option-set-walkthrough.md) — two modes used side by side.

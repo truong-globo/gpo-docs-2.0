@@ -147,9 +147,3 @@ They are exported separately. See [Import and export](../option-sets/import-and-
 
 Import your own export to restore them. If you have no export, the settings must be rebuilt — which is the argument for exporting before you change anything.
 </details>
-
-## Next steps
-
-* [Import and export](../option-sets/import-and-export.md) — for option sets.
-* [Custom templates](../templates/custom-templates.md) — templates move separately again.
-* [Settings overview](README.md)

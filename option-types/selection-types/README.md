@@ -23,7 +23,7 @@ Three of them also offer **Not allow deselect**, which stops the shopper clearin
 
 ## What they all share
 
-* **Option values** — the list itself, with per-value prices, colours, images, and help text. See [Working with option values](../../concepts/option-values.md).
+* **Option values** — the list itself, with per-value prices, colours, images, and help text. See [Working with option values](../../option-sets/option-values.md).
 * [Label](../shared-settings/labels-and-visibility.md#label), [Name](../shared-settings/labels-and-visibility.md#name), [Hidden label](../shared-settings/labels-and-visibility.md#hidden-label)
 * [Required field](../shared-settings/required-and-default-value.md#required-field) and [Default value](../shared-settings/required-and-default-value.md#default-value) — except Product links, which collects nothing
 * [Help text](../shared-settings/placeholder-and-help-text.md#help-text) and its [position](../shared-settings/placeholder-and-help-text.md#help-text-position)
@@ -49,9 +49,3 @@ So do not choose Color swatch purely because you want colours — choose it beca
 
 * **Product links** is the odd one out: it does not collect an answer, and it is not supported on Shopify POS. Only one per option set is recommended. See [Product links](product-links.md).
 * Long lists have three answers: [search](../shared-settings/selection-behaviour.md#search-suggestion), a [collapsible layout or slider](../shared-settings/collapsible-layouts-and-sliders.md), or splitting the list across two options with [conditional logic](../../conditional-logic/README.md).
-
-## Next steps
-
-* [Choose the right option type](../choose-the-right-type.md) — including Select against Dropdown and Radio against Button.
-* [Working with option values](../../concepts/option-values.md) — building the list.
-* [Add-on pricing](../../add-on-pricing/README.md) — pricing the choices.

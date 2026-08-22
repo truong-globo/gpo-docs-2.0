@@ -76,9 +76,9 @@ Add as many as you need. Full detail on adding, reordering, duplicating, and gro
 
 For each option, at minimum set:
 
-<table><thead><tr><th width="200">Field</th><th>Notes</th></tr></thead><tbody><tr><td><strong>Label</strong></td><td>What shoppers read. No restrictions.</td></tr><tr><td><strong>Name</strong></td><td>What appears on the cart and order. Must be unique in this option set and cannot contain <code>.</code> <code>:</code> <code>"</code> <code>'</code> <code>\</code> <code>|</code>. See <a href="../concepts/label-vs-name.md">Label vs Name</a>.</td></tr><tr><td><strong>Required field</strong></td><td>Whether the customer must fill it in before adding to cart.</td></tr></tbody></table>
+<table><thead><tr><th width="200">Field</th><th>Notes</th></tr></thead><tbody><tr><td><strong>Label</strong></td><td>What shoppers read. No restrictions.</td></tr><tr><td><strong>Name</strong></td><td>What appears on the cart and order. Must be unique in this option set and cannot contain <code>.</code> <code>:</code> <code>"</code> <code>'</code> <code>\</code> <code>|</code>. See <a href="../option-types/shared-settings/labels-and-visibility.md">Label and Name</a>.</td></tr><tr><td><strong>Required field</strong></td><td>Whether the customer must fill it in before adding to cart.</td></tr></tbody></table>
 
-Selection-style options also need their **Option values** — see [Working with option values](../concepts/option-values.md).
+Selection-style options also need their **Option values** — see [Working with option values](option-values.md).
 {% endstep %}
 
 {% step %}
@@ -132,7 +132,7 @@ A new option set is created as **Draft** and does not render on any channel.
 
 Set the status to **Active**, then check **Sales channels**: **Online Store** for your storefront, **Point of Sale** if you also sell in person.
 
-See [Status and sales channels](../concepts/status-and-sales-channels.md).
+See [Status and sales channels](status-and-sales-channels.md).
 {% endstep %}
 
 {% step %}
@@ -183,9 +183,3 @@ Work through the four switches: app embed enabled, status **Active**, **Online S
 
 The preview uses the app's own styling. To make the widget inherit your theme's look on the storefront, turn on **Match theme style** in **Settings > Design**. See [Match your theme style](../storefront/match-your-theme-style.md).
 </details>
-
-## Next steps
-
-* [Build your options](build-options.md) — the builder in depth.
-* [Assign to products](assign-to-products.md) — targeting in depth.
-* [Walkthrough: engraving and gift wrap](../getting-started/first-option-set-walkthrough.md) — a full worked example.

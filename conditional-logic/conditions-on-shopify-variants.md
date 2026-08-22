@@ -197,9 +197,3 @@ The variant name is translated, and the condition stores a value per language. S
 
 A renamed variant breaks every condition referring to it. Update the conditions to the new name.
 </details>
-
-## Next steps
-
-* [Examples and recipes](examples-and-recipes.md) — including variant-based recipes.
-* [Operators reference](operators-reference.md) — the text operator set in full.
-* [Troubleshooting conditional logic](troubleshooting.md)

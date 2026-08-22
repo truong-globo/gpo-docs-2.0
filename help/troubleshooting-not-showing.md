@@ -25,7 +25,7 @@ See [Enable the app embed](../getting-started/enable-the-app-embed.md).
 
 A **Draft** option set never renders. On the **Option Sets** list, filter to **Draft** to catch anything you forgot to activate.
 
-See [Status and sales channels](../concepts/status-and-sales-channels.md).
+See [Status and sales channels](../option-sets/status-and-sales-channels.md).
 {% endstep %}
 
 {% step %}
@@ -75,7 +75,7 @@ Three causes, in order of likelihood:
 
 1. **Conditional logic** is hiding them. Check the rules on the missing options — see [Troubleshooting conditional logic](../conditional-logic/troubleshooting.md).
 2. **The Hide action** is applied to them.
-3. **Your plan** does not include those option types, so they are configured but not rendered. See [Plans and locked features](../concepts/plans-and-feature-gating.md).
+3. **Your plan** does not include those option types, so they are configured but not rendered. See [Locked features](../plans/locked-features.md).
 
 </details>
 
@@ -152,9 +152,3 @@ Two possibilities: a trial ended, returning you to a plan without those features
 ## What to send if you contact us
 
 <table><thead><tr><th width="290">Include</th><th>Why</th></tr></thead><tbody><tr><td>Your theme's name</td><td>Most rendering problems are theme-specific</td></tr><tr><td>The option set's name</td><td>So we can look at the right one</td></tr><tr><td>A link to the product page</td><td>So we can see what you see</td></tr><tr><td>Your storefront password, if the store is protected</td><td>Otherwise we cannot open the page</td></tr><tr><td>Which of the six steps above you have checked</td><td>Saves a round trip</td></tr></tbody></table>
-
-## Next steps
-
-* [Pricing and add-on problems](troubleshooting-pricing.md)
-* [Cart and checkout problems](troubleshooting-cart-checkout.md)
-* [Contact support](contact-support.md)

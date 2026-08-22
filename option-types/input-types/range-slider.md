@@ -108,9 +108,3 @@ Its three colours are in **Settings > Design**. See [Colors](../../storefront/co
 
 It is on the Advanced plan. See [Compare plans](../../plans/compare-plans.md).
 </details>
-
-## Next steps
-
-* [Number](number.md) — precise, and can be priced.
-* [Dimension](dimension.md) — several measurements with a pricing formula.
-* [Colors](../../storefront/colors.md) — the slider's own colour settings.

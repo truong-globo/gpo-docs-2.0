@@ -141,9 +141,3 @@ Then consider an [automation](../automations/README.md) so those details reach y
 ## What to change for other products
 
 <table><thead><tr><th width="290">Product</th><th>Differences</th></tr></thead><tbody><tr><td>A photo frame</td><td>No curve. One image layer, clip area matching the aperture, both customer controls on</td></tr><tr><td>An engraved pen</td><td>Curve for the barrel, a very tight character limit, no image layer</td></tr><tr><td>A t-shirt</td><td>No curve, larger print area, artwork upload plus optional text</td></tr><tr><td>A ring band</td><td>A strong curve, a five-character limit, auto-fit essential</td></tr><tr><td>A jersey</td><td>A <a href="../option-types/input-types/number.md">Number</a> layer for the number and a Text layer for the name, positioned separately</td></tr></tbody></table>
-
-## Next steps
-
-* [Troubleshooting personalizer](troubleshooting.md)
-* [Personalized templates](personalized-templates.md) — twenty starting points.
-* [Designs in cart and orders](cart-and-orders.md)

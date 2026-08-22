@@ -134,9 +134,3 @@ Delete the rows you do not need. A single-axis Dimension works, and gives you th
 
 It is on the Advanced plan. See [Compare plans](../../plans/compare-plans.md).
 </details>
-
-## Next steps
-
-* [Dimension add-on formula](../../add-on-pricing/dimension-formula.md) — the formula in depth.
-* [Number](number.md) — a single measurement, and POS-safe.
-* [Limits](../shared-settings/limits.md) — the rest of the validation settings.

@@ -158,9 +158,3 @@ You are on **All** and the two conditions contradict each other. Switch to **Any
 
 It is hidden by the rule, and hidden options are not validated. Either make it visible in that branch, or accept that it is optional there.
 </details>
-
-## Next steps
-
-* [Build a condition](build-a-condition.md)
-* [Operators reference](operators-reference.md)
-* [Examples and recipes](examples-and-recipes.md)

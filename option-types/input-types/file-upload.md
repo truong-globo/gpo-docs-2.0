@@ -129,9 +129,3 @@ Turn on **Personalizer Settings** for this option, and make sure the option set 
 
 State the minimum in help text with a real number, and turn on **Enable image editor** so they can crop rather than resize badly.
 </details>
-
-## Next steps
-
-* [Image layers](../../personalizer/image-layers.md) — put the upload on the product photo.
-* [Limits](../shared-settings/limits.md#min-and-max-number-of-files) — file count rules.
-* [Conditional logic](../../conditional-logic/README.md) — ask for a file only when needed.

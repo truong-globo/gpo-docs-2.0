@@ -32,9 +32,3 @@ Each setting is documented with the same three facts before the explanation:
 * **Tab** — Basic Settings or Advanced Settings.
 * **Default** — what a new option starts with.
 * **Available on** — which option types offer it. Where a setting is on nearly everything, the list says which types *lack* it instead, because that is shorter and more useful.
-
-## Next steps
-
-* [Option types](../README.md) — which settings each type has.
-* [Labels and visibility](labels-and-visibility.md) — the two fields every option has.
-* [Conditional logic](../../conditional-logic/README.md) and [Add-on pricing](../../add-on-pricing/README.md) — the two big features these fields lead into.

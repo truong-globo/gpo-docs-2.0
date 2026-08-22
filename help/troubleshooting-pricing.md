@@ -170,9 +170,3 @@ Remove the `-`. Use multiplication, addition, and division instead.
 Your rate is out by an order of magnitude. Work it back from a size you know the price of: for a 60 × 90 piece selling at $54, the rate is 54 ÷ 5400 = 0.01. See [Dimension add-on formula](../add-on-pricing/dimension-formula.md).
 
 </details>
-
-## Next steps
-
-* [Add-on pricing](../add-on-pricing/README.md)
-* [How pricing is applied](../add-on-pricing/how-pricing-is-applied.md)
-* [Add-on pricing limitations](../add-on-pricing/limitations.md)

@@ -23,7 +23,7 @@ The snippet in [Show options on orders](../storefront/show-options-on-orders.md)
 
 <table><thead><tr><th width="290">Kind</th><th>Name</th><th>Example</th></tr></thead><tbody><tr><td><strong>Your options</strong></td><td>The option's <strong>Name</strong></td><td><code>Engraving text</code> → <code>Forever yours</code></td></tr><tr><td><strong>The app's bookkeeping</strong></td><td>Starts with <code>_</code></td><td><code>_gpo_product_group</code> → <code>1703752870644</code></td></tr></tbody></table>
 
-The first kind is what you want on your paperwork, and the reason it is worth setting the **Name** on every option rather than leaving `text` or `checkbox`. See [Label vs Name](../concepts/label-vs-name.md).
+The first kind is what you want on your paperwork, and the reason it is worth setting the **Name** on every option rather than leaving `text` or `checkbox`. See [Label and Name](../option-types/shared-settings/labels-and-visibility.md).
 
 ## Properties on the main product line
 
@@ -127,9 +127,3 @@ The item was not added through the widget — usually a quickview or a sticky ad
 
 Its `_gpo_parent_product_group` is missing, which means something rewrote the line. Usually another cart app.
 </details>
-
-## Next steps
-
-* [Show options on orders](../storefront/show-options-on-orders.md)
-* [How it works in detail](how-it-works-technical.md)
-* [Merge main product and add-ons](../add-on-pricing/merge-as-bundle.md)

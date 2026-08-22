@@ -38,10 +38,4 @@ See [Compare plans](compare-plans.md) for what each group covers.
 * Billing goes through Shopify. Charges appear on your Shopify invoice, not separately.
 * Starting a paid plan or a trial requires Shopify's own charge approval.
 * On a new install the app opens on **Pricing** and requires you to choose a plan — the free plan counts.
-* Locked features are visible with an upgrade prompt rather than hidden. See [Plans and locked features](../concepts/plans-and-feature-gating.md).
-
-## Next steps
-
-* [Compare plans](compare-plans.md)
-* [Change your plan](change-your-plan.md)
-* [Plans and locked features](../concepts/plans-and-feature-gating.md)
+* Locked features are visible with an upgrade prompt rather than hidden. See [Locked features](locked-features.md).

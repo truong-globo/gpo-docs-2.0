@@ -146,9 +146,3 @@ Three things to check: the option set is saved; the option is not hidden by a co
 
 Set **Character counter** to **Show**. If it shows but the wording looks wrong, check the `char_counter` message in **Settings > Translations**.
 </details>
-
-## Next steps
-
-* [Text input rules](text-input-rules.md) — restrict *what* can be typed, not just how much.
-* [Selection behaviour](selection-behaviour.md) — turn on multiple selection first.
-* [Validation messages](../../reference/validation-messages.md) — the full list.

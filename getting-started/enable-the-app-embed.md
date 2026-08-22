@@ -176,9 +176,3 @@ App embeds require an Online Store 2.0 theme. If your theme is older, the panel 
 
 The embed decides *whether* the app runs, not *where* the widget goes. Change the position in **Settings > Settings > General**, or pin it exactly with an app block. See [Widget placement](../storefront/widget-placement.md) and [Add the app block](add-the-app-block.md).
 </details>
-
-## Next steps
-
-* [Add the app block](add-the-app-block.md) — for exact control over where the widget sits.
-* [Widget placement](../storefront/widget-placement.md) — the eight built-in placement options.
-* [Options are not showing up](../help/troubleshooting-not-showing.md) — the full diagnostic checklist.

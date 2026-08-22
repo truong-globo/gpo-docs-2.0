@@ -40,7 +40,7 @@ Line items need a loop. Everything inside it uses `line`.
 
 `line.properties` is where the options are. Each entry has a name and a value.
 
-<table><thead><tr><th width="230">Inside the loop</th><th>Contains</th></tr></thead><tbody><tr><td><code>{{ p.first }}</code></td><td>The option's <strong>Name</strong> — which is why <a href="../concepts/label-vs-name.md">Name</a> matters</td></tr><tr><td><code>{{ p.last }}</code></td><td>What the customer entered or chose</td></tr></tbody></table>
+<table><thead><tr><th width="230">Inside the loop</th><th>Contains</th></tr></thead><tbody><tr><td><code>{{ p.first }}</code></td><td>The option's <strong>Name</strong> — which is why <a href="../option-types/shared-settings/labels-and-visibility.md">Name</a> matters</td></tr><tr><td><code>{{ p.last }}</code></td><td>What the customer entered or chose</td></tr></tbody></table>
 
 {% hint style="warning" %}
 **Skip properties whose name begins with an underscore.** Those are the app's internal properties — they link add-ons to their parent item and carry pricing data, and they are not for your team to read.
@@ -115,11 +115,5 @@ Use the file handling shown above to render them as links.
 <details>
 <summary>Option names read badly</summary>
 
-They are the options' **Name** values. See [Label vs Name](../concepts/label-vs-name.md).
+They are the options' **Name** values. See [Label and Name](../option-types/shared-settings/labels-and-visibility.md).
 </details>
-
-## Next steps
-
-* [Email notification](email-notification.md)
-* [Update order notes](update-order-notes.md)
-* [Line item properties](../reference/line-item-properties.md)

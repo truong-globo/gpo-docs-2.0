@@ -94,9 +94,3 @@ Textarea uses **Width** and **Height** rather than auto-fit. Increase them, redu
 
 **Curve** exists on Text only. Use a Text option for curved single lines.
 </details>
-
-## Next steps
-
-* [Text](text.md) — the single-line version.
-* [Text layers](../../personalizer/text-layers.md)
-* [Conditional logic](../../conditional-logic/README.md) — reveal a message box only when it is wanted.

@@ -103,9 +103,3 @@ The font has no real bold or italic cut. Choose a different font, or upload the 
 
 Not possible — settings apply to the whole layer. Use two options, each its own layer.
 </details>
-
-## Next steps
-
-* [Fonts](fonts.md)
-* [Text effects](effects.md)
-* [Curve and auto-fit width](curve-and-auto-fit.md)

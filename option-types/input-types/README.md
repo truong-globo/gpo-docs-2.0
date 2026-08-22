@@ -34,9 +34,3 @@ If you need a price on a type that cannot carry one — a fee for a specific del
 ## Choosing between them
 
 The close calls are covered in [Choose the right option type](../choose-the-right-type.md): Text against Textarea, Number against Range slider against Dimension, and Switch against a single Checkbox.
-
-## Next steps
-
-* [Text](text.md) — the most used type in the app.
-* [Selection types](../selection-types/README.md) — when the customer should choose rather than type.
-* [Shared settings](../shared-settings/README.md)

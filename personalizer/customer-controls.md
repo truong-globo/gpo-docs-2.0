@@ -109,9 +109,3 @@ Make the starting position and size close to what most customers want, so adjust
 
 Reword them in **Settings > Translations**. See [Translate widget text](../translations/translate-widget-text.md).
 </details>
-
-## Next steps
-
-* [Clip area](clip-area.md) — set one before enabling any of this.
-* [Designs in cart and orders](cart-and-orders.md)
-* [Image layers](image-layers.md)

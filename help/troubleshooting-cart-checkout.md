@@ -113,7 +113,7 @@ Your template is printing every property, including the app's internal ones. The
 <details>
 <summary>Order lines read as "text" or "checkbox"</summary>
 
-Those are the options' **Name** values, left at their defaults. Set them to something readable — it applies to future orders. See [Label vs Name](../concepts/label-vs-name.md).
+Those are the options' **Name** values, left at their defaults. Set them to something readable — it applies to future orders. See [Label and Name](../option-types/shared-settings/labels-and-visibility.md).
 
 </details>
 
@@ -137,9 +137,3 @@ It is attached to the order in Shopify admin, with the option details for that l
 Check the workflow is **Active**, the order contained app options, and order data access was approved. Then use the workflow's own test against a recent order. See [Automations](../automations/README.md).
 
 </details>
-
-## Next steps
-
-* [Options are not showing up](troubleshooting-not-showing.md)
-* [Pricing and add-on problems](troubleshooting-pricing.md)
-* [Show options on orders](../storefront/show-options-on-orders.md)

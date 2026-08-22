@@ -197,9 +197,3 @@ You are using **Apply to All Products**. Switch to an automatic rule, or add a *
 
 That is correct behaviour — the three methods are mutually exclusive. Only one can be active at a time.
 </details>
-
-## Next steps
-
-* [Assign to customers](assign-to-customers.md) — narrow further, by shopper.
-* [Assign to countries](assign-to-countries.md) — narrow further, by country.
-* [Live preview and inspector](live-preview-and-inspector.md) — check your rule against your real catalogue.

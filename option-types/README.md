@@ -48,9 +48,3 @@ Every setting that appears on more than one type is documented once in [Shared s
 **POS.** [Dimension](input-types/dimension.md) and [Product links](selection-types/product-links.md) do not work in the Shopify POS app, and the app warns you when you add them. If you sell in person, avoid both. See [POS limitations](../pos/limitations.md).
 
 **Add-on pricing.** Where the price lives depends on the shape of the type. Input types take one price for the whole option; selection types take a price per value. A few types cannot carry a price at all. See [Where you can set add-ons](../add-on-pricing/where-you-can-set-add-ons.md).
-
-## Next steps
-
-* [Choose the right option type](choose-the-right-type.md) — a decision table by what you are asking for.
-* [Shared settings](shared-settings/README.md) — every common setting explained.
-* [Input types](input-types/README.md), [Selection types](selection-types/README.md), [Static types](static-types/README.md)

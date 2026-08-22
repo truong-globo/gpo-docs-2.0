@@ -216,7 +216,7 @@ Check **Personalize preview mode** in **Settings > Settings > General > Cart pag
 <details>
 <summary>My order line is unreadable</summary>
 
-The option's **Name** is still at its default. See [Label vs Name](../concepts/label-vs-name.md).
+The option's **Name** is still at its default. See [Label and Name](../option-types/shared-settings/labels-and-visibility.md).
 
 </details>
 
@@ -246,9 +246,3 @@ Very large option sets disable the in-app preview. Test with **View in Store** i
 ## Still stuck?
 
 Include these when you [contact support](../help/contact-support.md): the option set name, the option, its Personalizer settings, the product you are testing on, and a screenshot of what you see against what you expected.
-
-## Next steps
-
-* [Set the preview background](set-the-background.md) — the first thing to check.
-* [Walkthrough: custom printed mug](walkthrough-custom-mug.md)
-* [Personalized templates](personalized-templates.md)

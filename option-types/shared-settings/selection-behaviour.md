@@ -121,9 +121,3 @@ That is what **Allow multiple** does — every selected value with a price is ch
 
 Search matches the value text as displayed, including any translation for the current language. Check the value in the language you are browsing in.
 </details>
-
-## Next steps
-
-* [Limits](limits.md) — min and max selections.
-* [Collapsible layouts and sliders](collapsible-layouts-and-sliders.md) — the other answer to a long list.
-* [Advanced add-on modes](../../add-on-pricing/advanced-add-on-modes.md) — including Mixed quantity.

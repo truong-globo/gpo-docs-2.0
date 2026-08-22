@@ -113,9 +113,3 @@ That is a separate switch. See [Quickview and other pages](quickview-and-other-p
 
 Not possible — the setting is store-wide. Use an app block in a product template that only those products use.
 </details>
-
-## Next steps
-
-* [Add the app block](../getting-started/add-the-app-block.md) — the more robust route.
-* [Quickview and other pages](quickview-and-other-pages.md)
-* [Widget behavior](widget-behavior.md)

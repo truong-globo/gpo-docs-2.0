@@ -23,7 +23,7 @@ The choices offered differ by type, because some types already imply a style:
 
 <table><thead><tr><th width="180">Choice</th><th>Result</th><th>Values table gains</th></tr></thead><tbody><tr><td><strong>Default</strong></td><td>Text only, in the type's normal appearance</td><td>Nothing</td></tr><tr><td><strong>Color</strong></td><td>Each value shows a colour chip</td><td>A <strong>Color</strong> column, where you set one colour or two for a split swatch</td></tr><tr><td><strong>Image</strong></td><td>Each value shows a picture</td><td>An <strong>Image</strong> column, where you upload an image or reuse one of the product's own images</td></tr></tbody></table>
 
-Changing the style changes the columns in the option values table, so set the style first and then fill in the values. See [Working with option values](../../concepts/option-values.md).
+Changing the style changes the columns in the option values table, so set the style first and then fill in the values. See [Working with option values](../../option-sets/option-values.md).
 
 {% hint style="info" %}
 This means a **Checkbox** can look like a row of colour swatches, and a **Button** can look like a row of images. The type controls the selection behaviour; **Swatch style** controls the appearance. If a swatch layout is what you want from the start, use [Color swatch](../selection-types/color-swatch.md) or [Image swatch](../selection-types/image-swatch.md), which are built for it.
@@ -58,7 +58,7 @@ Choosing **Text & image** reveals two more settings, **Tooltip image width** and
 This pairing is the answer to "I want lots of choices *and* I want shoppers to see the detail": keep the swatches small so the list stays compact, and let the tooltip do the zooming.
 
 {% hint style="warning" %}
-Hover does not exist on touch devices the way it does with a mouse. Do not rely on a tooltip to carry information a mobile shopper needs — put that in the value's own help text instead. See [Working with option values](../../concepts/option-values.md).
+Hover does not exist on touch devices the way it does with a mouse. Do not rely on a tooltip to carry information a mobile shopper needs — put that in the value's own help text instead. See [Working with option values](../../option-sets/option-values.md).
 {% endhint %}
 
 Whether swatch tooltips appear at all is also controlled store-wide by **Show tooltip when hovering over options** in **Settings > Settings > General**. See [Widget behavior](../../storefront/widget-behavior.md).
@@ -132,9 +132,3 @@ The uploaded file is smaller than the tooltip size. Upload a larger image, or re
 
 Set **Select text box** as well — the preview needs to know which text option it is colouring.
 </details>
-
-## Next steps
-
-* [Collapsible layouts and sliders](collapsible-layouts-and-sliders.md) — for lists of many swatches.
-* [Color swatch](../selection-types/color-swatch.md) and [Image swatch](../selection-types/image-swatch.md)
-* [Working with option values](../../concepts/option-values.md) — filling in the colours and images.

@@ -101,9 +101,3 @@ Phone has none by design. Put the charge on a Switch or Checkbox beside it.
 
 Turn validation fully on, which normalises entries by country, and set a **Placeholder** showing the format you expect.
 </details>
-
-## Next steps
-
-* [Email](email.md) — the other contact field.
-* [Switch](switch.md) — where to put a related charge.
-* [Conditional logic](../../conditional-logic/README.md) — ask for a number only when it is needed.

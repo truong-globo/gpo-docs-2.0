@@ -100,9 +100,3 @@ Make the label explicit — `Recipient's email address` rather than `Email` — 
 
 Not from the option itself. Workflows email **you** when an order arrives. See [Automations](../../automations/README.md).
 </details>
-
-## Next steps
-
-* [Phone](phone.md) — the other contact field.
-* [Automations](../../automations/README.md) — what the app can email.
-* [Conditional logic](../../conditional-logic/README.md) — ask only when needed.

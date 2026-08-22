@@ -117,9 +117,3 @@ Rule on the warning paragraph: Show · **Any** ·
 ## Patterns worth stealing
 
 <table><thead><tr><th width="290">Pattern</th><th>Why it works</th></tr></thead><tbody><tr><td>A <strong>Switch</strong> at the top of a form, with a <strong>Section</strong> below it carrying one rule</td><td>The cleanest possible "do you want to personalise this?" flow. Two objects, one rule.</td></tr><tr><td><strong>number of characters is greater than 0</strong> as a "did they fill this in" test</td><td>Works whatever they typed, and needs no maintenance when your wording changes.</td></tr><tr><td>Rules on <strong>Paragraph</strong> options for contextual warnings</td><td>Says the right thing at the right moment, instead of a wall of caveats nobody reads.</td></tr><tr><td>One rule on a <strong>Section</strong> instead of the same rule on six options</td><td>Faster to build, and impossible to get half-right.</td></tr><tr><td>Two option sets rather than one heavily branched set</td><td>When almost everything differs, targeting by product tag is clearer than logic.</td></tr></tbody></table>
-
-## Next steps
-
-* [Troubleshooting conditional logic](troubleshooting.md)
-* [Section](../option-types/static-types/section.md) — the container these recipes lean on.
-* [Walkthrough: engraving and gift wrap](../getting-started/first-option-set-walkthrough.md) — recipe 1 built end to end.

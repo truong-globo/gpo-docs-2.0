@@ -133,9 +133,3 @@ That is the **Background mode**, not the clip area. Try **Cover**. See [Image la
 
 Use **Clip area rotation**.
 </details>
-
-## Next steps
-
-* [Customer controls](customer-controls.md) — the reason clip areas exist.
-* [Image layers](image-layers.md)
-* [Curve and auto-fit width](curve-and-auto-fit.md)

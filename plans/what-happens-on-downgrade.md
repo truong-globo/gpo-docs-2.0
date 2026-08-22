@@ -122,9 +122,3 @@ No. The settings are kept and resume drawing when you upgrade again.
 
 You are at the lower plan's limit. Delete one you no longer use, or upgrade.
 </details>
-
-## Next steps
-
-* [Change your plan](change-your-plan.md)
-* [Compare plans](compare-plans.md)
-* [Import and export](../option-sets/import-and-export.md) — take the backup first.

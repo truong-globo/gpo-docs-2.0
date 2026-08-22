@@ -111,9 +111,3 @@ Nothing. Option sets created from a template are independent of it.
 
 Option templates are not in your plan. See [Compare plans](../plans/compare-plans.md).
 </details>
-
-## Next steps
-
-* [Build your options](../option-sets/build-options.md) — inserting templates while building.
-* [Duplicate and delete](../option-sets/duplicate-and-delete.md) — the alternative to templates for one-off copies.
-* [Pre-designed templates](pre-designed-templates.md)

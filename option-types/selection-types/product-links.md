@@ -122,9 +122,3 @@ Option sets apply per product. Make sure your product rules cover the linked pro
 
 That is an add-on, not a link. See [Add-on pricing](../../add-on-pricing/README.md).
 </details>
-
-## Next steps
-
-* [Add-on pricing](../../add-on-pricing/README.md) — when the choice should change this product's price.
-* [POS limitations](../../pos/limitations.md)
-* [Section](../static-types/section.md) — separate navigation from the form.

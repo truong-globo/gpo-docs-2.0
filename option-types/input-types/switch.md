@@ -114,9 +114,3 @@ That is the **Switch label**. Change it to something descriptive.
 
 Check the add-on mode. **Add price** is not supported on POS — use a product-backed mode. See [POS limitations](../../pos/limitations.md).
 </details>
-
-## Next steps
-
-* [Checkbox](../selection-types/checkbox.md) — for more than one extra.
-* [Advanced add-on modes](../../add-on-pricing/advanced-add-on-modes.md) — especially One time charge.
-* [Conditional logic](../../conditional-logic/README.md) — use a switch as a trigger for other options.

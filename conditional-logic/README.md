@@ -59,9 +59,3 @@ On a Basic plan you can still select **Shopify variant** as a source, but the op
 ## Where to put the rule
 
 If several options should appear together, put one rule on the [Section](../option-types/static-types/section.md) around them rather than the same rule on each option. One rule is faster to build, easier to read, and impossible to get half-right.
-
-## Next steps
-
-* [Turn on conditional logic](turn-it-on.md)
-* [Examples and recipes](examples-and-recipes.md) — if you would rather start from a working rule.
-* [Conditional logic and add-on fields](../option-types/shared-settings/conditional-logic-and-add-on-fields.md#conditional-logic) — the settings reference.

@@ -113,9 +113,3 @@ Increase the **Swatch** border size and set a distinct **Swatch border active** 
 
 The font lacks those glyphs. See [Right-to-left and non-Latin text](../translations/rtl-and-non-latin.md).
 </details>
-
-## Next steps
-
-* [Colors](colors.md)
-* [Custom CSS](custom-css.md)
-* [Custom fonts](../settings/custom-fonts.md)

@@ -110,9 +110,3 @@ The template's line item loop is not printing properties. Check it against the [
 
 Test sending is rate-limited. Wait a moment and try again.
 </details>
-
-## Next steps
-
-* [Liquid variables reference](liquid-variables-reference.md)
-* [Update order notes](update-order-notes.md) — an alternative that needs no email setup.
-* [Show options on orders](../storefront/show-options-on-orders.md)

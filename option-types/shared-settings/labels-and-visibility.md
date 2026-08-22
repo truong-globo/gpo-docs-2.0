@@ -9,7 +9,9 @@ icon: tag
 
 Every option that collects something from the customer has a **Label** and a **Name**, and most also offer **Hidden label**. These three decide what an option is called on the product page and on the order.
 
-For the conceptual difference between Label and Name, and the reasoning behind it, see [Label vs Name](../../concepts/label-vs-name.md). This page is the settings reference.
+They are the most common source of confusion in the app, so start with the difference:
+
+<table><thead><tr><th width="150"></th><th width="290">Label</th><th>Name</th></tr></thead><tbody><tr><td>Who reads it</td><td>The shopper, on the product page</td><td>You and your team — and the shopper, once the item is in their cart</td></tr><tr><td>Where it appears</td><td>Above the option field in the widget</td><td>Cart page, checkout, order details in Shopify admin, order emails, invoices, packing slips</td></tr><tr><td>Required</td><td>Yes</td><td>Yes</td></tr><tr><td>Must be unique</td><td>No</td><td><strong>Yes</strong>, within the option set</td></tr><tr><td>Restricted characters</td><td>No</td><td><strong>Yes</strong></td></tr><tr><td>Can be hidden</td><td>Yes, with <strong>Hidden label</strong></td><td>No — it always travels with the order</td></tr><tr><td>Translatable per language</td><td>Yes</td><td>No</td></tr></tbody></table>
 
 ## Label
 
@@ -55,7 +57,12 @@ Name has three rules:
 
 Change it from the default before you go live. An order line reading `text: Forever yours` is accurate and useless; `Engraving text: Forever yours` is obvious to whoever is packing the box.
 
-The simplest approach is to make Name the same as Label, and only diverge when Label contains a blocked character or when two options share a Label.
+The simplest approach is to make Name the same as Label. Diverge when:
+
+* The Label is long or decorated for the storefront (`Add an engraving ✨ (optional)`) but you want a clean order line (`Engraving text`).
+* The Label uses a character Name does not allow — an apostrophe or a colon.
+* Two options share a Label on the page but must be told apart on the order: `Colour` in two sections, named `Front colour` and `Back colour`.
+* Your storefront is translated. The Label is translated per language; the Name stays in one language so your team always reads the same thing.
 
 ## Hidden label
 
@@ -111,13 +118,13 @@ Expected — turn **Hidden label** back off, or add a [Heading](../static-types/
 </details>
 
 <details>
+<summary>I renamed an option and an automation stopped working</summary>
+
+Workflows that target a specific option identify it by Name. Open **Automations**, edit the workflow, and select the option again. See [Update order tags](../../automations/update-order-tags.md).
+</details>
+
+<details>
 <summary>I translated the Label but the cart is still in English</summary>
 
 The cart shows the **Name**, which is not translatable by design. See [Translate option content](../../translations/translate-option-content.md).
 </details>
-
-## Next steps
-
-* [Placeholder and help text](placeholder-and-help-text.md) — the other text a shopper reads.
-* [Required field and default value](required-and-default-value.md)
-* [Label vs Name](../../concepts/label-vs-name.md) — the concept page.

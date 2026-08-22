@@ -99,9 +99,3 @@ Its **Placeholder** is empty. Set it to something like `Choose a size` and the u
 
 **Select**, **Product links**, and **Tabs** support help text only at the option level. Use a type that supports per-value help text — Dropdown, Radio, Checkbox, Button, or a swatch type.
 </details>
-
-## Next steps
-
-* [Required field and default value](required-and-default-value.md)
-* [Limits](limits.md) — enforce what the help text promises.
-* [Translate widget text](../../translations/translate-widget-text.md) — for the error messages.

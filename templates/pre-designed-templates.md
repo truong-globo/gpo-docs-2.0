@@ -7,7 +7,7 @@ icon: shapes
 
 Twenty option sets built for particular kinds of product. They cover the option structure — the fields, the values, the layout — without the live preview.
 
-For setups that include the live preview, see [Personalized templates](personalized-templates.md).
+For setups that include the live preview, see [Personalized templates](../personalizer/personalized-templates.md).
 
 ## The twenty
 
@@ -92,7 +92,7 @@ Edit them. It is an ordinary option set once created — add, remove, and change
 <details>
 <summary>My orders read oddly</summary>
 
-The options still have template **Name** values. See [Label vs Name](../concepts/label-vs-name.md).
+The options still have template **Name** values. See [Label and Name](../option-types/shared-settings/labels-and-visibility.md).
 </details>
 
 <details>
@@ -100,9 +100,3 @@ The options still have template **Name** values. See [Label vs Name](../concepts
 
 Option templates are not in your plan. See [Compare plans](../plans/compare-plans.md).
 </details>
-
-## Next steps
-
-* [Personalized templates](personalized-templates.md) — the same idea with the live preview.
-* [Custom templates](custom-templates.md)
-* [Build your options](../option-sets/build-options.md)

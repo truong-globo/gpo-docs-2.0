@@ -99,9 +99,3 @@ Expected. HTML blocks collect nothing. Use a real [input type](../input-types/RE
 
 It is on the Advanced plan. See [Compare plans](../../plans/compare-plans.md).
 </details>
-
-## Next steps
-
-* [Paragraph](paragraph.md) — formatted text without the maintenance.
-* [Size chart](size-chart.md) — for size tables.
-* [Custom CSS](../../storefront/custom-css.md) — the right place for styling.

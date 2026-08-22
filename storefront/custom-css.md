@@ -105,9 +105,3 @@ The selector is too broad. Add an HTML class to the specific option and target t
 
 That is the option's HTML class field, not the CSS editor. Remove the offending character — usually a leading dot.
 </details>
-
-## Next steps
-
-* [HTML class](../option-types/shared-settings/direction-width-and-css.md#html-class)
-* [Colors](colors.md) and [Borders and typography](borders-and-typography.md) — try these first.
-* [Match your theme style](match-your-theme-style.md)

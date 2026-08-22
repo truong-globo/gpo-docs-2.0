@@ -106,9 +106,3 @@ Check the effect colour against the text colour and the background together. A s
 
 Compare on the same background. If it genuinely differs, check the option set was saved.
 </details>
-
-## Next steps
-
-* [Position, size, and rotation](position-size-rotation.md)
-* [Curve and auto-fit width](curve-and-auto-fit.md)
-* [Text layers](text-layers.md)

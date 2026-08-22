@@ -141,9 +141,3 @@ Expected — **Add price** is not supported there. Switch the affected values to
 
 There is no product, so no stock. Use a product-backed mode if you need stock behaviour.
 </details>
-
-## Next steps
-
-* [Use an existing product](use-an-existing-product.md) and [Automatically generate a product](auto-generate-a-product.md)
-* [Advanced add-on modes](advanced-add-on-modes.md)
-* [Add-on price display settings](price-display-settings.md)

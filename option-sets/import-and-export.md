@@ -136,7 +136,7 @@ Expect to do some tidying. Different apps model options differently, so check in
 
 * **Add-on pricing** — how the other app charged may not map exactly. Review every price and pick the right mode. See [Add-on pricing](../add-on-pricing/README.md).
 * **Conditional logic** — rules may need rebuilding, since operators differ between apps.
-* **Names** — check every option's **Name**, and that none clash. See [Label vs Name](../concepts/label-vs-name.md).
+* **Names** — check every option's **Name**, and that none clash. See [Label and Name](../option-types/shared-settings/labels-and-visibility.md).
 * **Product rules** — confirm each set targets what you expect.
 * **Images** — swatch images may need re-uploading if the old app hosted them itself.
 {% endstep %}
@@ -222,9 +222,3 @@ Expected unless you ticked **Set all imported option sets as Active**. Activate 
 
 Your plan does not include that action. They are gated separately, so you may have one and not the other. See [Compare plans](../plans/compare-plans.md).
 </details>
-
-## Next steps
-
-* [Option set analytics](analytics.md)
-* [Import and export settings](../settings/import-export-settings.md) — for the store-wide settings.
-* [Custom templates](../templates/custom-templates.md) — reuse within one store, without files.

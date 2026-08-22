@@ -28,8 +28,3 @@ An option only appears to a shopper when **all four** of these are true. Most "w
 {% hint style="info" %}
 Nothing in this section changes your theme's code. The app renders through Shopify's theme app extension system, which you switch on and off from the theme editor.
 {% endhint %}
-
-## Next steps
-
-* [Install the app](install-the-app.md)
-* If the app is already installed: [Quickstart](quickstart.md)

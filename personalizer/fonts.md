@@ -147,9 +147,3 @@ The preview font and your production font are not the same file. Upload your pro
 
 Point **Select text box** on the Font picker at the text option, and check both are in the same option set. See [Font picker](../option-types/selection-types/font-picker.md).
 </details>
-
-## Next steps
-
-* [Custom fonts](../settings/custom-fonts.md) — uploading your own.
-* [Font picker](../option-types/selection-types/font-picker.md) — letting the customer choose.
-* [Text effects](effects.md)

@@ -29,7 +29,7 @@ The difference between a one-reply answer and four days of back and forth is alm
 
 Most reports resolve to one of six things. Two minutes here often saves a wait:
 
-<table><thead><tr><th width="330">If</th><th>Read</th></tr></thead><tbody><tr><td>Options are not appearing at all</td><td><a href="troubleshooting-not-showing.md">Options are not showing up</a></td></tr><tr><td>A charge is wrong, missing, or doubled</td><td><a href="troubleshooting-pricing.md">Pricing and add-on problems</a></td></tr><tr><td>Add to cart does nothing</td><td><a href="troubleshooting-cart-checkout.md">Cart and checkout problems</a></td></tr><tr><td>The live preview is not behaving</td><td><a href="troubleshooting-personalizer.md">Personalizer problems</a></td></tr><tr><td>Options show or hide at the wrong moment</td><td><a href="../conditional-logic/troubleshooting.md">Troubleshooting conditional logic</a></td></tr><tr><td>You want to know whether something is possible</td><td><a href="faq.md">FAQ</a></td></tr></tbody></table>
+<table><thead><tr><th width="330">If</th><th>Read</th></tr></thead><tbody><tr><td>Options are not appearing at all</td><td><a href="troubleshooting-not-showing.md">Options are not showing up</a></td></tr><tr><td>A charge is wrong, missing, or doubled</td><td><a href="troubleshooting-pricing.md">Pricing and add-on problems</a></td></tr><tr><td>Add to cart does nothing</td><td><a href="troubleshooting-cart-checkout.md">Cart and checkout problems</a></td></tr><tr><td>The live preview is not behaving</td><td><a href="../personalizer/troubleshooting.md">Troubleshooting personalizer</a></td></tr><tr><td>Options show or hide at the wrong moment</td><td><a href="../conditional-logic/troubleshooting.md">Troubleshooting conditional logic</a></td></tr><tr><td>You want to know whether something is possible</td><td><a href="faq.md">FAQ</a></td></tr></tbody></table>
 
 And the single most common cause of all: **the app embed is not enabled on the theme you just published.** It is per theme, so publishing a theme turns it off again. See [Enable the app embed](../getting-started/enable-the-app-embed.md).
 
@@ -46,9 +46,3 @@ If you need something the app does not do — a bespoke layout, an unusual prici
 Deleting an option set is permanent, and support cannot restore one.
 
 Export it to CSV first. It takes seconds and gives you a file you can import back. See [Import and export](../option-sets/import-and-export.md) and [Duplicate and delete](../option-sets/duplicate-and-delete.md).
-
-## Next steps
-
-* [FAQ](faq.md)
-* [Glossary](glossary.md)
-* [How it works in detail](../reference/how-it-works-technical.md)

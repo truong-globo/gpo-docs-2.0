@@ -110,9 +110,3 @@ Shorten it, or move it to the label. Prefixes are best at one or two characters.
 
 Only nine types have it. On others, put the equivalent information in the [Label](labels-and-visibility.md#label) or [Help text](placeholder-and-help-text.md#help-text).
 </details>
-
-## Next steps
-
-* [Placeholder and help text](placeholder-and-help-text.md)
-* [Limits](limits.md) — enforce what the unit implies.
-* [Dimension](../input-types/dimension.md) — purpose-built for measurements with units.

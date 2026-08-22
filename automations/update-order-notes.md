@@ -96,9 +96,3 @@ Notes are usually printed as plain text, so HTML formatting may be stripped. Kee
 
 **Revert to default**.
 </details>
-
-## Next steps
-
-* [Update order tags](update-order-tags.md)
-* [Liquid variables reference](liquid-variables-reference.md)
-* [Show options on orders](../storefront/show-options-on-orders.md)

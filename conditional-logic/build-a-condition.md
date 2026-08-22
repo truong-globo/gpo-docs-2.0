@@ -122,9 +122,3 @@ The source option was deleted, so the condition became invalid. Rebuild it again
 
 You changed its type, which changes the operator set. Reselect the operator.
 </details>
-
-## Next steps
-
-* [Operators reference](operators-reference.md) — every operator in full.
-* [Conditions based on Shopify variants](conditions-on-shopify-variants.md)
-* [Examples and recipes](examples-and-recipes.md)

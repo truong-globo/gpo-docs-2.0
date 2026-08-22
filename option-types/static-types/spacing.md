@@ -73,9 +73,3 @@ The Spacing option is still visible while the group is not. Put the same conditi
 
 Reduce the height and check the mobile preview in the builder.
 </details>
-
-## Next steps
-
-* [Divider](divider.md) — a visible break.
-* [Section](section.md) — proper grouping.
-* [Custom CSS](../../storefront/custom-css.md) — for spacing everywhere.

@@ -64,9 +64,3 @@ They work together rather than competing. **File upload** collects the file. Tur
 ## A rule of thumb
 
 Fewer, simpler options sell better than more, cleverer ones. Before adding a type, ask whether the answer changes what you make or ship. If it does not, leave it out — and if it only matters sometimes, put it behind [conditional logic](../conditional-logic/README.md) so most shoppers never see it.
-
-## Next steps
-
-* [Input types](input-types/README.md), [Selection types](selection-types/README.md), [Static types](static-types/README.md)
-* [Shared settings](shared-settings/README.md)
-* [Walkthrough: engraving and gift wrap](../getting-started/first-option-set-walkthrough.md) — several types working together.

@@ -91,7 +91,7 @@ Set **Label** to `Gift wrap` and **Name** to `Gift wrap`.
 
 In the **Option values** table there is one starter row. Change its **Value** to `Yes, wrap it as a gift`.
 
-Values have their own rules: each must be unique within the option, cannot be empty, and cannot contain `,` `:` `"` `'` or `|`. See [Working with option values](../concepts/option-values.md).
+Values have their own rules: each must be unique within the option, cannot be empty, and cannot contain `,` `:` `"` `'` or `|`. See [Working with option values](../option-sets/option-values.md).
 
 <!-- SCREENSHOT: start-wt-checkbox-values | App admin → builder → option Checkbox | Bảng Option values với các cột Value / Price / Product / Action, 1 dòng "Yes, wrap it as a gift" | Khoanh cả bảng Option values -->
 
@@ -242,10 +242,3 @@ Add-on products the app generates are meant to be invisible to browsing. Open th
 
 Confirm the tag is spelled exactly as in the rule, including case, and that the product is saved. Automatic rules are evaluated against the product's current tags.
 </details>
-
-## Next steps
-
-* [Option types](../option-types/README.md) — all 32 types, with every setting explained.
-* [Add-on pricing](../add-on-pricing/README.md) — the three modes compared in depth.
-* [Conditional logic](../conditional-logic/README.md) — including variant-based conditions.
-* [Product Personalizer](../personalizer/README.md) — show the customer's text on the product photo.

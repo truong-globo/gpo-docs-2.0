@@ -97,9 +97,3 @@ Then start its 14-day trial and build the real thing before the trial ends. See 
 * Shopify Plus stores have their own pricing.
 * Locked features are visible in the app with an upgrade prompt, so you can always see what you are missing.
 * A trial gives you that plan's features in full, which is the best way to find out whether you need them.
-
-## Next steps
-
-* [Change your plan](change-your-plan.md)
-* [What happens when you downgrade](what-happens-on-downgrade.md)
-* [Plans and locked features](../concepts/plans-and-feature-gating.md)

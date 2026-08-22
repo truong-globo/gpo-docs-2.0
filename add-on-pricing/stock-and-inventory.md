@@ -69,7 +69,7 @@ That has three consequences worth knowing:
 
 ## Keeping the counts honest
 
-<table><thead><tr><th width="290">Habit</th><th>Why</th></tr></thead><tbody><tr><td>Find your generated products by the <code>globo-product-options</code> tag</td><td>It is the only reliable way to see them all at once</td></tr><tr><td>Set a low-stock alert where your tools allow it</td><td>Add-ons run out quietly — nobody notices ribbon until it is gone</td></tr><tr><td>Use <strong>Blur</strong> rather than <strong>Hide</strong> for colours</td><td>Shoppers can see the colour exists and may come back for it</td></tr><tr><td>Put "back in stock soon" in the value's own help text</td><td>Turns a dead end into a reason to return. See <a href="../concepts/option-values.md">Working with option values</a></td></tr><tr><td>Review after a busy period</td><td>Add-on stock is the easiest thing to forget to restock</td></tr></tbody></table>
+<table><thead><tr><th width="290">Habit</th><th>Why</th></tr></thead><tbody><tr><td>Find your generated products by the <code>globo-product-options</code> tag</td><td>It is the only reliable way to see them all at once</td></tr><tr><td>Set a low-stock alert where your tools allow it</td><td>Add-ons run out quietly — nobody notices ribbon until it is gone</td></tr><tr><td>Use <strong>Blur</strong> rather than <strong>Hide</strong> for colours</td><td>Shoppers can see the colour exists and may come back for it</td></tr><tr><td>Put "back in stock soon" in the value's own help text</td><td>Turns a dead end into a reason to return. See <a href="../option-sets/option-values.md">Working with option values</a></td></tr><tr><td>Review after a busy period</td><td>Add-on stock is the easiest thing to forget to restock</td></tr></tbody></table>
 
 ## Weight, SKU, and tax
 
@@ -124,9 +124,3 @@ Your add-on products have no weight. Set it on each variant in Shopify.
 
 Filter your Shopify products by the tag `globo-product-options`.
 </details>
-
-## Next steps
-
-* [Out of stock options](../option-types/shared-settings/out-of-stock-options.md) — the display setting in full.
-* [Automatically generate a product](auto-generate-a-product.md)
-* [Merge main product and add-ons](merge-as-bundle.md)

@@ -126,9 +126,3 @@ Alignment is store-wide. Use [custom CSS](../storefront/custom-css.md) keyed on 
 
 Set it per date option with **Other language** and **Localization**.
 </details>
-
-## Next steps
-
-* [Widget behavior](../storefront/widget-behavior.md) — the alignment setting.
-* [Borders and typography](../storefront/borders-and-typography.md)
-* [Custom fonts](../settings/custom-fonts.md)

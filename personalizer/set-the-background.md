@@ -107,9 +107,3 @@ The position number counts through the product's gallery, and your galleries are
 
 The background image is too small for the size it is displayed at. Upload a larger one.
 </details>
-
-## Next steps
-
-* [Enable personalizer on an option](enable-on-an-option.md)
-* [Position, size, and rotation](position-size-rotation.md)
-* [Image layers](image-layers.md)

@@ -9,7 +9,7 @@ A template is a saved option set you can copy. It saves rebuilding the same stru
 
 **Templates** in the app menu has three tabs.
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Pre-designed Templates</strong></td><td>Twenty complete option sets for common product types, without personalisation.</td><td><a href="pre-designed-templates.md">pre-designed-templates.md</a></td></tr><tr><td><strong>Personalized Templates</strong></td><td>Twenty setups with the live preview already configured.</td><td><a href="personalized-templates.md">personalized-templates.md</a></td></tr><tr><td><strong>Custom Templates</strong></td><td>Templates you create, or save from an existing option set.</td><td><a href="custom-templates.md">custom-templates.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Pre-designed Templates</strong></td><td>Twenty complete option sets for common product types, without personalisation.</td><td><a href="pre-designed-templates.md">pre-designed-templates.md</a></td></tr><tr><td><strong>Personalized Templates</strong></td><td>Twenty setups with the live preview already configured.</td><td><a href="../personalizer/personalized-templates.md">personalized-templates.md</a></td></tr><tr><td><strong>Custom Templates</strong></td><td>Templates you create, or save from an existing option set.</td><td><a href="custom-templates.md">custom-templates.md</a></td></tr></tbody></table>
 
 <!-- SCREENSHOT: tpl-tabs | App admin → Templates | 3 tab với badge số lượng, grid template có ảnh xem trước | Khoanh hàng 3 tab -->
 
@@ -39,9 +39,3 @@ See [Build your options](../option-sets/build-options.md).
 * Using a template never modifies the template. You can use the same one as often as you like.
 * A new option set created from a template arrives as **Draft** with no product rule, so nothing reaches your storefront until you set that up.
 * Custom templates can be imported and exported, separately from option sets.
-
-## Next steps
-
-* [Pre-designed templates](pre-designed-templates.md)
-* [Personalized templates](personalized-templates.md)
-* [Custom templates](custom-templates.md)

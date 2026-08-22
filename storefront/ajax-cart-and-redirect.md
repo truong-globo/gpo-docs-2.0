@@ -82,9 +82,3 @@ Turn the setting off, then test thoroughly with add-ons on desktop and mobile be
 
 Expected on products with options — it would skip the option form. It still works on products without options.
 </details>
-
-## Next steps
-
-* [Cart page](cart-page.md)
-* [Show options on orders](show-options-on-orders.md)
-* [How pricing is applied](../add-on-pricing/how-pricing-is-applied.md)

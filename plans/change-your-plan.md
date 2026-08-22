@@ -82,7 +82,7 @@ If you might come back, [export your option sets and settings](../option-sets/im
 * Billing goes through Shopify and appears on your Shopify invoice.
 * Any plan change needs Shopify's approval screen to be completed. Abandoning it leaves you on your current plan.
 * On a new install the app requires a plan to be chosen before anything else. The free plan counts.
-* When a trial ends without a change, you return to your previous plan — which can make a feature stop working without you doing anything. See [Plans and locked features](../concepts/plans-and-feature-gating.md).
+* When a trial ends without a change, you return to your previous plan — which can make a feature stop working without you doing anything. See [Locked features](locked-features.md).
 
 ## Troubleshooting
 
@@ -121,9 +121,3 @@ Start the trial on the plan that includes it. There is no charge for fourteen da
 
 No. Option sets are kept. Features the lower plan does not include stop working. See [What happens when you downgrade](what-happens-on-downgrade.md).
 </details>
-
-## Next steps
-
-* [What happens when you downgrade](what-happens-on-downgrade.md)
-* [Compare plans](compare-plans.md)
-* [Import and export](../option-sets/import-and-export.md) — take a backup first.

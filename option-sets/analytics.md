@@ -109,9 +109,3 @@ The set may consist only of input-type options — text, numbers, uploads — wh
 
 They measure different things. Shopify reports cover all orders; this page covers only orders containing this option set, and splits out the add-on portion. Use Shopify for accounting and this page for comparing options.
 </details>
-
-## Next steps
-
-* [Add-on pricing](../add-on-pricing/README.md) — act on what the numbers tell you.
-* [Advanced add-on modes](../add-on-pricing/advanced-add-on-modes.md) — change how a charge scales.
-* [Manage option sets](manage-option-sets.md)

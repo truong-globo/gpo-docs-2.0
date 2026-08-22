@@ -118,9 +118,3 @@ You set the price on the option rather than on each value — or every value hap
 
 The option has no price attached, so there is nothing to scale.
 </details>
-
-## Next steps
-
-* [Add price directly](add-price-directly.md), [Use an existing product](use-an-existing-product.md), [Automatically generate a product](auto-generate-a-product.md)
-* [Advanced add-on modes](advanced-add-on-modes.md)
-* [Working with option values](../concepts/option-values.md)

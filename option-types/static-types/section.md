@@ -141,9 +141,3 @@ It is on the Advanced plan. See [Compare plans](../../plans/compare-plans.md).
 
 Its colours are store-wide: **Group label**, **Group icon**, and **Group chevron** in **Settings > Design**. See [Colors](../../storefront/colors.md).
 </details>
-
-## Next steps
-
-* [Heading](heading.md) — a heading without a container.
-* [Conditional logic](../../conditional-logic/README.md) — one rule for a whole group.
-* [Build your options](../../option-sets/build-options.md)

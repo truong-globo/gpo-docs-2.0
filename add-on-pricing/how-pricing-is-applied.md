@@ -95,9 +95,3 @@ Turn on **Hide quantity box and remove button for add-on products** in **Setting
 
 Run **Sync Add-on data** from the builder's more-actions menu.
 </details>
-
-## Next steps
-
-* [Limitations](limitations.md) — everything add-on pricing cannot do, in one place.
-* [Line item properties](../reference/line-item-properties.md)
-* [How the app works](../concepts/how-the-app-works.md)

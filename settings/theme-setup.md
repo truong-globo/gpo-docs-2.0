@@ -87,9 +87,3 @@ It only appears when the selected theme shows **Deactivated**. If it already say
 
 The list comes from your Shopify themes. If it is missing, reload the page.
 </details>
-
-## Next steps
-
-* [Enable the app embed](../getting-started/enable-the-app-embed.md) — all three methods.
-* [Add the app block](../getting-started/add-the-app-block.md)
-* [Match your theme style](../storefront/match-your-theme-style.md)

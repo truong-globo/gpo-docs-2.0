@@ -41,9 +41,3 @@ Both target the same products, and only one ever renders for a given shopper. Se
 * Which quote app you use is your choice; the app's job is the specification.
 * Options are collected before the cart, so they are available whatever happens next — a normal checkout or a draft order.
 * If the flow does not work end to end on your theme, that is integration work. See [Contact support](../help/contact-support.md).
-
-## Next steps
-
-* [Assign to customers](../option-sets/assign-to-customers.md)
-* [Dimension](../option-types/input-types/dimension.md)
-* [Automations](../automations/README.md) — get each request emailed to you.

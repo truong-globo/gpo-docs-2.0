@@ -157,9 +157,3 @@ Your customer rule excludes them. A tag, name, or email condition can never matc
 
 Set **Customers** back to **Everyone** and confirm the set appears. If it does, your customer condition is too narrow — most often a tag that does not exist on any customer record.
 </details>
-
-## Next steps
-
-* [Assign to countries](assign-to-countries.md)
-* [Duplicate and delete](duplicate-and-delete.md) — for the two-versions pattern.
-* [Assign to products](assign-to-products.md)

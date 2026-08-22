@@ -131,9 +131,3 @@ Create two workflows, one per option. Each adds its own tag.
 
 Not supported here — the source is always an app option. Shopify Flow or a similar tool can tag on other conditions.
 </details>
-
-## Next steps
-
-* [Update order notes](update-order-notes.md)
-* [Email notification](email-notification.md)
-* [Label vs Name](../concepts/label-vs-name.md) — the Name identifies the option a workflow points at.

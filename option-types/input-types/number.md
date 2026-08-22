@@ -101,9 +101,3 @@ Add a **Suffix** with the unit so there is nothing to type, and mention it in he
 
 The field accepts decimal entries. If you need a fixed step such as 0.5, use [Range slider](range-slider.md), which has a **Step** setting.
 </details>
-
-## Next steps
-
-* [Dimension](dimension.md) — several measurements with a pricing formula.
-* [Range slider](range-slider.md) — the same value, dragged.
-* [Advanced add-on modes](../../add-on-pricing/advanced-add-on-modes.md)

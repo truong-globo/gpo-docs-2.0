@@ -27,7 +27,7 @@ Tabs are managed in a values table, like a selection type's option values — bu
 
 <table><thead><tr><th width="230">Action</th><th>How</th></tr></thead><tbody><tr><td>Add a tab</td><td><strong>Add another tab</strong> below the table.</td></tr><tr><td>Set a tab's title</td><td>The value field on its row.</td></tr><tr><td>Write a tab's content</td><td>Open the content editor on that row. Rich text, like a <a href="paragraph.md">Paragraph</a>.</td></tr><tr><td>Reorder tabs</td><td>Drag the rows. The first tab is the one open by default.</td></tr><tr><td>Delete a tab</td><td>The remove action on its row.</td></tr><tr><td>Start over</td><td><strong>Delete all tabs</strong>, which asks you to confirm.</td></tr></tbody></table>
 
-Tab titles follow the same character rules as option values — no `,` `:` `"` `'` or `|`. See [Working with option values](../../concepts/option-values.md).
+Tab titles follow the same character rules as option values — no `,` `:` `"` `'` or `|`. See [Working with option values](../../option-sets/option-values.md).
 
 ### Horizontal or vertical
 
@@ -97,9 +97,3 @@ Their five colours are in **Settings > Design**. See [Colors](../../storefront/c
 
 It is on the Advanced plan. See [Compare plans](../../plans/compare-plans.md).
 </details>
-
-## Next steps
-
-* [Pop-up modal](pop-up-modal.md) — for one block of content.
-* [Size chart](size-chart.md) — often one of the things you would put in a tab.
-* [Colors](../../storefront/colors.md) — the tab colour settings.

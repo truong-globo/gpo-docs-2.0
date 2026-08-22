@@ -98,9 +98,3 @@ Set **Text transform**. If they are already arriving transformed but wrongly —
 
 Confirm you are looking at a Text or Textarea option, save the option set, and refresh the product page. Existing cart items keep the value they were added with.
 </details>
-
-## Next steps
-
-* [Limits](limits.md) — how much they can type.
-* [Placeholder and help text](placeholder-and-help-text.md) — explain the rules.
-* [Text](../input-types/text.md) and [Textarea](../input-types/textarea.md) — the two types these apply to.

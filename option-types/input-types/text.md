@@ -100,9 +100,3 @@ Set **Character counter** to **Show**. Its wording is editable in **Settings > T
 
 Set **Text transform**. Note that **Capitalized** flattens unusual names such as `McDonald`.
 </details>
-
-## Next steps
-
-* [Textarea](textarea.md) — the multi-line version.
-* [Advanced add-on modes](../../add-on-pricing/advanced-add-on-modes.md) — including Per character.
-* [Product Personalizer](../../personalizer/README.md) — show the text on the product photo.

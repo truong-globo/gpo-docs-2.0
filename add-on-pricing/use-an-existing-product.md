@@ -141,9 +141,3 @@ Search by an exact word from the title. If it is a draft product it can still be
 
 Expected — they link to the same product. If you want separate counts, generate a product for one of them.
 </details>
-
-## Next steps
-
-* [Automatically generate a product](auto-generate-a-product.md) — when you do not have a product to link.
-* [Stock and inventory](stock-and-inventory.md)
-* [Advanced add-on modes](advanced-add-on-modes.md)

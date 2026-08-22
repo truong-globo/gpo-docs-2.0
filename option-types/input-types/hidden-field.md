@@ -101,9 +101,3 @@ It shows like any other option, using its **Label**. If the label is still at it
 
 It is on the Advanced plan. See [Compare plans](../../plans/compare-plans.md).
 </details>
-
-## Next steps
-
-* [Show options on orders](../../storefront/show-options-on-orders.md) — where the value appears.
-* [Update order tags](../../automations/update-order-tags.md) — an alternative way to stamp orders.
-* [Conditional logic](../../conditional-logic/README.md)

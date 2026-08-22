@@ -46,9 +46,3 @@ Both also need the [app block](../getting-started/add-the-app-block.md) placed i
 * All store-wide.
 * Several are plan-gated and show an upgrade prompt rather than being hidden.
 * Changes need saving, and the app warns you before you navigate away with unsaved work.
-
-## Next steps
-
-* [Design settings](design-settings.md)
-* [Add-on price settings](add-on-price-settings.md)
-* [Widget placement](../storefront/widget-placement.md)

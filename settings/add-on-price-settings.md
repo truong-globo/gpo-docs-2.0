@@ -22,9 +22,3 @@ The settings are documented in full under [Add-on price display settings](../add
 ## What is not here
 
 <table><thead><tr><th width="290">Setting</th><th>Where it is</th></tr></thead><tbody><tr><td>The price itself</td><td>On each option, or each option value. See <a href="../add-on-pricing/where-you-can-set-add-ons.md">Where you can set add-ons</a></td></tr><tr><td>How a charge scales with quantity</td><td>The option's <strong>Advanced settings</strong>. See <a href="../add-on-pricing/advanced-add-on-modes.md">Advanced add-on modes</a></td></tr><tr><td>The add-on message's wording</td><td><strong>Settings &gt; Translations</strong>, per language</td></tr><tr><td>Cart controls for add-on lines</td><td><strong>Settings &gt; General &gt; Cart page</strong>. See <a href="../storefront/cart-page.md">Cart page</a></td></tr></tbody></table>
-
-## Next steps
-
-* [Add-on price display settings](../add-on-pricing/price-display-settings.md) — the same settings in depth.
-* [Add-on pricing](../add-on-pricing/README.md)
-* [Cart page](../storefront/cart-page.md)

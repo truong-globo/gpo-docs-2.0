@@ -26,9 +26,3 @@ That is deliberate — a shop where different products had differently styled op
 ## Saving
 
 Changes are saved explicitly. The app warns you if you try to leave with unsaved changes, and offers to discard them.
-
-## Next steps
-
-* [General settings](general-settings.md)
-* [Theme setup](theme-setup.md)
-* [Storefront display and design](../storefront/README.md) — the same settings, organised by what you are trying to achieve.

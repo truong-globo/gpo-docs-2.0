@@ -145,9 +145,3 @@ Three things: the class is on the option and saved; the CSS is in **Settings > D
 
 The value names are too long for the width available. Shorten them, switch to **Vertical**, or give the option a wider column.
 </details>
-
-## Next steps
-
-* [Collapsible layouts and sliders](collapsible-layouts-and-sliders.md) — for long lists.
-* [Custom CSS](../../storefront/custom-css.md)
-* [Colors](../../storefront/colors.md) — before reaching for CSS.

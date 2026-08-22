@@ -40,9 +40,3 @@ The order below is the order you would actually build in.
 {% hint style="info" %}
 The fastest way in is a [personalized template](personalized-templates.md). Twenty complete setups ship with the app, already positioned, and you can adapt one rather than starting from an empty canvas.
 {% endhint %}
-
-## Next steps
-
-* [How the live preview works](how-it-works.md)
-* [Personalized templates](personalized-templates.md) — start from something that already works.
-* [Walkthrough: custom printed mug](walkthrough-custom-mug.md)

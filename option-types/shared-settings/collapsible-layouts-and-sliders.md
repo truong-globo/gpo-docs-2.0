@@ -120,9 +120,3 @@ Turn on **Show navigation arrows** or **Show indicators**, or lower **Swatches p
 
 Check the preview at mobile width in the builder. **Swatches per row** applies to both widths, so a value that works on desktop can be cramped on a phone — reduce it, or increase **Number of rows**.
 </details>
-
-## Next steps
-
-* [Swatch style and previews](swatch-style-and-previews.md) — swatch sizes and tooltips.
-* [Direction, width, and CSS](direction-width-and-css.md) — the other layout levers.
-* [Section](../static-types/section.md) — collapse a whole group rather than one option.

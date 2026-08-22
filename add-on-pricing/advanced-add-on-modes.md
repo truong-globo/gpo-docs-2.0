@@ -170,9 +170,3 @@ Only the two "by customer" modes and **Mixed quantity** show one. The others tak
 
 There is no **Max character** limit. Set one, and show the counter.
 </details>
-
-## Next steps
-
-* [Dimension add-on formula](dimension-formula.md) — pricing by size instead of by quantity.
-* [Add-on price display settings](price-display-settings.md) — how the total is shown.
-* [How pricing is applied](how-pricing-is-applied.md)

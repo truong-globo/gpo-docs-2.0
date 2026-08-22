@@ -24,9 +24,3 @@ The pattern for all of these is the same: put the charge on a [Switch](../option
 ## Things people expect that are not add-on features
 
 <table><thead><tr><th width="330">You want</th><th>The right tool</th></tr></thead><tbody><tr><td>A discount when several options are chosen</td><td>A Shopify discount, or a bundle app. Add-ons only add</td></tr><tr><td>A price that goes down</td><td>Not possible — negative prices are rejected. Price the base product lower and charge for upgrades instead</td></tr><tr><td>Tiered pricing — cheaper per unit at volume</td><td>Size or quantity bands as separate priced values on a <a href="../option-types/selection-types/radio-button.md">Radio button</a></td></tr><tr><td>A minimum order charge</td><td>A Shopify setting or app, not an option</td></tr><tr><td>Different prices for different customers</td><td>Two option sets with different prices, split by <a href="../option-sets/assign-to-customers.md">customer rules</a></td></tr><tr><td>Different prices per country</td><td>Two option sets split by <a href="../option-sets/assign-to-countries.md">country rules</a>, or Shopify Markets pricing on the add-on products</td></tr><tr><td>Add-ons on a subscription</td><td>Depends on your subscription app — test before promising it to customers</td></tr></tbody></table>
-
-## Next steps
-
-* [Where you can set add-ons](where-you-can-set-add-ons.md)
-* [How pricing is applied](how-pricing-is-applied.md)
-* [POS limitations](../pos/limitations.md)

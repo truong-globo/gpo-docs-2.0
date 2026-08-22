@@ -61,8 +61,3 @@ Expected. This setting is for the admin only. See [Translate option content](tra
 
 Occasionally new features reach English first. Tell us and we will get them translated.
 </details>
-
-## Next steps
-
-* [Translate option content](translate-option-content.md) — for your customers.
-* [Translate widget text](translate-widget-text.md) — for the app's storefront messages.

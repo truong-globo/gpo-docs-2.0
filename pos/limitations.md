@@ -69,10 +69,4 @@ Where your online form is long or uses unsupported types, run two option sets:
 
 Both target the same products. Because each is published to one channel only, they never collide.
 
-See [Status and sales channels](../concepts/status-and-sales-channels.md).
-
-## Next steps
-
-* [Set up and use options in POS](set-up-and-use.md)
-* [Add-on pricing limitations](../add-on-pricing/limitations.md)
-* [Status and sales channels](../concepts/status-and-sales-channels.md)
+See [Status and sales channels](../option-sets/status-and-sales-channels.md).

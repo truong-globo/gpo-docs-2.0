@@ -135,9 +135,3 @@ Check the formula refers to the axes you actually kept — a formula using `z` o
 
 **Min** and **Max** are empty on one of the axes. Set both on every axis.
 </details>
-
-## Next steps
-
-* [Dimension](../option-types/input-types/dimension.md) — the option type in full.
-* [Advanced add-on modes](advanced-add-on-modes.md) — quantity-based pricing instead.
-* [How pricing is applied](how-pricing-is-applied.md)

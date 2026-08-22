@@ -79,7 +79,7 @@ With **View in Store**.
 
 ## What to check after using a template
 
-<table><thead><tr><th width="290">Check</th><th>Why</th></tr></thead><tbody><tr><td>The background is your product</td><td>Otherwise every layer is positioned for somebody else's photograph</td></tr><tr><td>Every layer's position</td><td>The single biggest source of "the template looks wrong"</td></tr><tr><td>Character limits</td><td>The template's limit reflects its example product, not your engraving area</td></tr><tr><td>Fonts</td><td>Change them to fonts you can actually produce. See <a href="fonts.md">Fonts</a></td></tr><tr><td>Prices</td><td>Templates carry example prices, or none</td></tr><tr><td>Option <strong>Name</strong> fields</td><td>So your orders read properly. See <a href="../concepts/label-vs-name.md">Label vs Name</a></td></tr><tr><td>The product rule</td><td>A template arrives unassigned</td></tr></tbody></table>
+<table><thead><tr><th width="290">Check</th><th>Why</th></tr></thead><tbody><tr><td>The background is your product</td><td>Otherwise every layer is positioned for somebody else's photograph</td></tr><tr><td>Every layer's position</td><td>The single biggest source of "the template looks wrong"</td></tr><tr><td>Character limits</td><td>The template's limit reflects its example product, not your engraving area</td></tr><tr><td>Fonts</td><td>Change them to fonts you can actually produce. See <a href="fonts.md">Fonts</a></td></tr><tr><td>Prices</td><td>Templates carry example prices, or none</td></tr><tr><td>Option <strong>Name</strong> fields</td><td>So your orders read properly. See <a href="../option-types/shared-settings/labels-and-visibility.md">Label and Name</a></td></tr><tr><td>The product rule</td><td>A template arrives unassigned</td></tr></tbody></table>
 
 ## Choosing which template to start from
 
@@ -125,9 +125,3 @@ The template has no product rule and is created as **Draft**. Assign products an
 
 Save it as a custom template. See [Custom templates](../templates/custom-templates.md).
 </details>
-
-## Next steps
-
-* [Walkthrough: custom printed mug](walkthrough-custom-mug.md) — the same job done by hand.
-* [Templates](../templates/README.md)
-* [Set the preview background](set-the-background.md)

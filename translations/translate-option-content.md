@@ -69,7 +69,7 @@ Switch language on your storefront and work through the product page in each one
 
 The **Name** is what appears on the cart, the order, and your packing slips. It is not translatable on purpose: your production team should read `Engraving text` whatever language the shopper bought in.
 
-If a customer asks why their cart shows English, that is why. See [Label vs Name](../concepts/label-vs-name.md).
+If a customer asks why their cart shows English, that is why. See [Label and Name](../option-types/shared-settings/labels-and-visibility.md).
 
 ### Variant conditions need translating too
 
@@ -89,7 +89,7 @@ A practical habit: finish an option set completely in your primary language, the
 
 * Untranslated text falls back to your primary language rather than showing blank, so a partially translated store still works.
 * The builder preview renders in the selected language, which is the quickest way to check a translation reads well in context.
-* Option values keep their character rules in every language — no `,` `:` `"` `'` `|`. See [Working with option values](../concepts/option-values.md).
+* Option values keep their character rules in every language — no `,` `:` `"` `'` `|`. See [Working with option values](../option-sets/option-values.md).
 * CSV export includes translations, so a translated option set can be moved between stores. See [Import and export](../option-sets/import-and-export.md).
 
 ## Troubleshooting
@@ -129,9 +129,3 @@ You were on your primary language rather than the translation. Switch language f
 
 Those are widget text, not option content. See [Translate widget text](translate-widget-text.md).
 </details>
-
-## Next steps
-
-* [Translate widget text](translate-widget-text.md)
-* [Right-to-left and non-Latin text](rtl-and-non-latin.md)
-* [Conditions based on Shopify variants](../conditional-logic/conditions-on-shopify-variants.md)

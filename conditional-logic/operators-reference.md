@@ -104,9 +104,3 @@ If you find yourself writing complicated rules against a text field to detect "d
 ## Choosing the right operator
 
 <table><thead><tr><th width="330">You want to detect</th><th>Use</th></tr></thead><tbody><tr><td>They filled in a text field at all</td><td><strong>number of characters is greater than</strong> <code>0</code></td></tr><tr><td>They picked a specific value, single-select</td><td><strong>is equal to</strong></td></tr><tr><td>They picked a specific value, multi-select</td><td><strong>contains</strong></td></tr><tr><td>They picked several things</td><td><strong>number of selections is greater than</strong></td></tr><tr><td>They uploaded something</td><td><strong>has file</strong></td></tr><tr><td>They said yes to one thing</td><td>A Switch with <strong>is enabled</strong></td></tr><tr><td>Their number is above a threshold</td><td><strong>is greater than</strong></td></tr><tr><td>They chose a particular Shopify variant</td><td><strong>Shopify variant</strong> with <strong>is equal to</strong> — see <a href="conditions-on-shopify-variants.md">Conditions based on Shopify variants</a></td></tr></tbody></table>
-
-## Next steps
-
-* [Conditions based on Shopify variants](conditions-on-shopify-variants.md)
-* [Examples and recipes](examples-and-recipes.md) — these operators in complete rules.
-* [Troubleshooting conditional logic](troubleshooting.md)

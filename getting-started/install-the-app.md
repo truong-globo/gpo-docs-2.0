@@ -94,7 +94,7 @@ In both cases the app shows you what it is asking for and you approve it in Shop
 
 * Installing does not add, remove, or edit any of your theme files.
 * Installing does not create products. Products are only created if you later choose the **Automatically generate product** add-on mode — see [Automatically generate a product](../add-on-pricing/auto-generate-a-product.md).
-* The plan you choose controls which option types and features are available. Locked items still appear in the app, greyed out, with an upgrade prompt — see [Plans and locked features](../concepts/plans-and-feature-gating.md).
+* The plan you choose controls which option types and features are available. Locked items still appear in the app, greyed out, with an upgrade prompt — see [Locked features](../plans/locked-features.md).
 
 ## Troubleshooting
 
@@ -121,9 +121,3 @@ Go to **Apps** in your Shopify admin — installed apps are listed there. If you
 
 Uninstall it from that store's **Apps** page, sign in to the correct store, then install again. Uninstalling removes the app's access to that store.
 </details>
-
-## Next steps
-
-* [Tour of the app](admin-tour.md) — get your bearings before you build anything.
-* [Quickstart](quickstart.md) — create your first option set now.
-* [Compare plans](../plans/compare-plans.md) — see what each plan includes.

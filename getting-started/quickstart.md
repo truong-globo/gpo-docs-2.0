@@ -69,7 +69,7 @@ The option's settings open on the **Basic Settings** tab. Two fields decide what
 Optionally turn on **Required field** if customers must fill it in before adding to cart.
 
 {% hint style="info" %}
-**Label** and **Name** look similar but do different jobs, and **Name** has rules — it must be unique within the option set and cannot contain `.` `:` `"` `'` `\` or `|`. See [Label vs Name](../concepts/label-vs-name.md).
+**Label** and **Name** look similar but do different jobs, and **Name** has rules — it must be unique within the option set and cannot contain `.` `:` `"` `'` `\` or `|`. See [Label and Name](../option-types/shared-settings/labels-and-visibility.md).
 {% endhint %}
 
 <!-- SCREENSHOT: start-qs-basic-settings | App admin → builder → chọn option Text | Tab Basic Settings với Label và Name đã điền "Engraving text" | Khoanh 2 field Label và Name -->
@@ -176,9 +176,3 @@ The app places itself above the **Add to cart** button by default, which most th
 
 You most likely have both the app embed placing the widget automatically and an app block placed in your template. Pick one — see [Add the app block](add-the-app-block.md).
 </details>
-
-## Next steps
-
-* [Walkthrough: engraving and gift wrap](first-option-set-walkthrough.md) — the same flow, but with pricing and conditional logic.
-* [Option types](../option-types/README.md) — all 32 types and what each is for.
-* [Core concepts](../concepts/README.md) — the vocabulary used throughout these docs.

@@ -136,9 +136,3 @@ Font picker has none. Put any surcharge on a separate option.
 
 Confirm your production font is the same file as the one offered. Uploading your real font as a custom font is the way to guarantee it.
 </details>
-
-## Next steps
-
-* [Custom fonts](../../settings/custom-fonts.md) — uploading your own.
-* [Fonts](../../personalizer/fonts.md) — fonts in the live preview.
-* [Text](../input-types/text.md) — the option the font applies to.

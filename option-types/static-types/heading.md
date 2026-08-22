@@ -76,9 +76,3 @@ Headings are plain text. Use a [Paragraph](paragraph.md), which has a rich-text 
 
 Save the option set and refresh the product page. If your theme forces heading colours, use an [HTML class](../shared-settings/direction-width-and-css.md#html-class) and [custom CSS](../../storefront/custom-css.md).
 </details>
-
-## Next steps
-
-* [Section](section.md) — group options as well as label them.
-* [Paragraph](paragraph.md) — formatted text.
-* [Divider](divider.md) and [Spacing](spacing.md) — breaks without words.

@@ -53,7 +53,7 @@ Two things are editable directly on the row, which is faster than opening the bu
 * **Status** — flip a set between **Active** and **Draft** in place.
 * **Sales channels** — open the row's channels control, switch **Online Store** or **Point of Sale**, then save.
 
-See [Status and sales channels](../concepts/status-and-sales-channels.md).
+See [Status and sales channels](status-and-sales-channels.md).
 
 ## Import and export
 
@@ -90,7 +90,7 @@ Check the status tab you are on — you may be filtered to **Active** while the 
 <details>
 <summary>Create from scratch is disabled</summary>
 
-You are at your plan's limit on option sets. Delete one you no longer need, or upgrade. See [Plans and locked features](../concepts/plans-and-feature-gating.md).
+You are at your plan's limit on option sets. Delete one you no longer need, or upgrade. See [Locked features](../plans/locked-features.md).
 </details>
 
 <details>
@@ -116,9 +116,3 @@ Deletion cannot be undone. If you exported previously, re-import that file. Othe
 
 Two active option sets both match that product. Filter the list to **Active** and check which sets could apply — particularly any using **Apply to All Products**. See [Assign to products](assign-to-products.md).
 </details>
-
-## Next steps
-
-* [Duplicate and delete](duplicate-and-delete.md)
-* [Import and export](import-and-export.md)
-* [Option set analytics](analytics.md)

@@ -132,9 +132,3 @@ The update moved you to a version the app does not carry styling for yet. Tell u
 
 Matching is by the theme itself rather than its name, so a renamed copy is still recognised. A theme heavily rebuilt from a supported one may not be.
 </details>
-
-## Next steps
-
-* [Match your theme style](../storefront/match-your-theme-style.md) — the setting itself.
-* [Colors](../storefront/colors.md) and [Borders and typography](../storefront/borders-and-typography.md) — the manual route.
-* [Custom CSS](../storefront/custom-css.md)

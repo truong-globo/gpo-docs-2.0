@@ -116,9 +116,3 @@ Do the option details reach the order?
 {% endstepper %}
 
 Five minutes, and it catches the problems that otherwise surface as unfulfillable orders.
-
-## Next steps
-
-* [Options are not showing up](../help/troubleshooting-not-showing.md)
-* [Widget placement](../storefront/widget-placement.md)
-* [Contact support](../help/contact-support.md)

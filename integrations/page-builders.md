@@ -95,9 +95,3 @@ Your builder probably has a separate mobile layout that needs its own app block 
 
 The builder is using its own gallery. Contact support with the page.
 </details>
-
-## Next steps
-
-* [Add the app block](../getting-started/add-the-app-block.md)
-* [Widget placement](../storefront/widget-placement.md)
-* [Theme and third-party notes](theme-and-third-party-notes.md)

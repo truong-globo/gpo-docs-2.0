@@ -100,9 +100,3 @@ Not supported — the rule is by country. For language, translate the option con
 
 The feature is not included in your plan. See [Compare plans](../plans/compare-plans.md).
 </details>
-
-## Next steps
-
-* [Manage option sets](manage-option-sets.md)
-* [Assign to customers](assign-to-customers.md)
-* [Translate option content](../translations/translate-option-content.md) — often the better answer for a multi-country store.

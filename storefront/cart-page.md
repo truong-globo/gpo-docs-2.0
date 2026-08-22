@@ -107,9 +107,3 @@ Turn on [Merge main product and add-ons](../add-on-pricing/merge-as-bundle.md).
 
 That is not a setting — they travel automatically. Check the item was added through the widget rather than through a dynamic checkout button that bypasses it.
 </details>
-
-## Next steps
-
-* [Show options on orders](show-options-on-orders.md)
-* [Merge main product and add-ons](../add-on-pricing/merge-as-bundle.md)
-* [Ajax cart and redirect to cart](ajax-cart-and-redirect.md)

@@ -26,7 +26,7 @@ Leave it on. A grid of colour chips with no names forces shoppers to guess, and 
 Related: [Image swatch](../option-types/selection-types/image-swatch.md) can also show a zoomed image in its tooltip, controlled per option. See [Tooltip style](../option-types/shared-settings/swatch-style-and-previews.md#tooltip-style).
 
 {% hint style="warning" %}
-Hover does not exist in the same way on touch devices. Anything a mobile shopper must know belongs in per-value help text rather than a tooltip. See [Working with option values](../concepts/option-values.md).
+Hover does not exist in the same way on touch devices. Anything a mobile shopper must know belongs in per-value help text rather than a tooltip. See [Working with option values](../option-sets/option-values.md).
 {% endhint %}
 
 ## Display selected value next to label
@@ -100,9 +100,3 @@ Set **Alignment** to **Right to left**.
 
 Turn on **Auto-scroll to first error message** so the page moves to the problem.
 </details>
-
-## Next steps
-
-* [Widget placement](widget-placement.md)
-* [Quickview and other pages](quickview-and-other-pages.md)
-* [General settings](../settings/general-settings.md) — every setting on that page.

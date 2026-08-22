@@ -12,25 +12,17 @@
 * [Add the app block](getting-started/add-the-app-block.md)
 * [Walkthrough: engraving and gift wrap](getting-started/first-option-set-walkthrough.md)
 
-## Core concepts
-
-* [Overview](concepts/README.md)
-* [How the app works](concepts/how-the-app-works.md)
-* [Option sets, options, and values](concepts/option-set-option-value.md)
-* [Label vs Name](concepts/label-vs-name.md)
-* [Working with option values](concepts/option-values.md)
-* [Status and sales channels](concepts/status-and-sales-channels.md)
-* [Plans and locked features](concepts/plans-and-feature-gating.md)
-
 ## Option sets
 
 * [Overview](option-sets/README.md)
 * [Create an option set](option-sets/create-an-option-set.md)
 * [Build your options](option-sets/build-options.md)
+* [Working with option values](option-sets/option-values.md)
 * [Live preview and inspector](option-sets/live-preview-and-inspector.md)
 * [Assign to products](option-sets/assign-to-products.md)
 * [Assign to customers](option-sets/assign-to-customers.md)
 * [Assign to countries](option-sets/assign-to-countries.md)
+* [Status and sales channels](option-sets/status-and-sales-channels.md)
 * [Manage option sets](option-sets/manage-option-sets.md)
 * [Duplicate and delete](option-sets/duplicate-and-delete.md)
 * [Import and export](option-sets/import-and-export.md)
@@ -137,7 +129,6 @@
 
 * [Overview](templates/README.md)
 * [Pre-designed templates](templates/pre-designed-templates.md)
-* [Personalized templates](templates/personalized-templates.md)
 * [Custom templates](templates/custom-templates.md)
 
 ## Translations and languages
@@ -200,20 +191,20 @@
 * [Compare plans](plans/compare-plans.md)
 * [Change your plan](plans/change-your-plan.md)
 * [What happens when you downgrade](plans/what-happens-on-downgrade.md)
+* [Locked features](plans/locked-features.md)
 
 ## Help
 
 * [Options are not showing up](help/troubleshooting-not-showing.md)
 * [Pricing and add-on problems](help/troubleshooting-pricing.md)
 * [Cart and checkout problems](help/troubleshooting-cart-checkout.md)
-* [Personalizer problems](help/troubleshooting-personalizer.md)
 * [FAQ](help/faq.md)
 * [Glossary](help/glossary.md)
 * [Contact support](help/contact-support.md)
 
 ## Reference
 
-* [How it works in detail](reference/how-it-works-technical.md)
+* [How the app works](reference/how-it-works.md)
 * [Line item properties](reference/line-item-properties.md)
 * [Permissions and data](reference/permissions-and-data.md)
 * [Option type support matrix](reference/option-type-support-matrix.md)

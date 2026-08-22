@@ -63,9 +63,3 @@ The builder's preview panel never reflects these settings. That is by design —
 * **Match theme style** and the manual settings work together: use the switch as a base and adjust individual values from there.
 * The Personalizer's own colours and fonts are set per layer, separately from these. See [Text layers](../personalizer/text-layers.md) and [Fonts](../personalizer/fonts.md).
 * Custom fonts must be uploaded in **General** before they can be selected here. See [Custom fonts](custom-fonts.md).
-
-## Next steps
-
-* [Colors](../storefront/colors.md)
-* [Borders and typography](../storefront/borders-and-typography.md)
-* [Match your theme style](../storefront/match-your-theme-style.md)

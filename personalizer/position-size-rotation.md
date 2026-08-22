@@ -129,9 +129,3 @@ Check the mobile width in the builder preview. Percentages hold, but legibility 
 
 That is the **Background mode**, not the size. See [Image layers](image-layers.md).
 </details>
-
-## Next steps
-
-* [Curve and auto-fit width](curve-and-auto-fit.md) — for single-line text.
-* [Clip area](clip-area.md)
-* [Customer controls](customer-controls.md)

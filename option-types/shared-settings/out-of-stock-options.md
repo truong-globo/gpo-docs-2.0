@@ -83,9 +83,3 @@ The setting is on **Show**, which leaves them selectable. Change it to **Hide**,
 
 Not available as a setting. Set the option to **Hide** so the list empties, or set the option set to **Draft** while you restock.
 </details>
-
-## Next steps
-
-* [Stock and inventory](../../add-on-pricing/stock-and-inventory.md) — managing the products behind your options.
-* [Swatch style and previews](swatch-style-and-previews.md)
-* [Add-on pricing](../../add-on-pricing/README.md) — which modes carry stock.

@@ -40,9 +40,3 @@ A few habits that make a long form readable:
 * **Prefer Spacing to empty paragraphs.** It is what it says, and it is easier to adjust.
 * **Use Divider sparingly.** A rule between every option is noise; a rule between two groups is structure.
 * **Reach for HTML last.** If a native type can do it, use the native type — it will keep working when your theme changes.
-
-## Next steps
-
-* [Section](section.md) — the one you will use most.
-* [Build your options](../../option-sets/build-options.md) — arranging them.
-* [Conditional logic](../../conditional-logic/README.md) — showing them only when relevant.

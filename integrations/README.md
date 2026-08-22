@@ -31,9 +31,3 @@ Worth asking about:
 * Anything that works on one theme and not on another
 
 Include your theme name, the app involved, and a link to the page. See [Contact support](../help/contact-support.md).
-
-## Next steps
-
-* [Page builders](page-builders.md)
-* [Theme and third-party notes](theme-and-third-party-notes.md)
-* [Enable the app embed](../getting-started/enable-the-app-embed.md)

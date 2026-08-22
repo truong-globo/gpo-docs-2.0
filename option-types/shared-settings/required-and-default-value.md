@@ -104,9 +104,3 @@ It is hidden by a conditional logic rule. Hidden options are not validated, by d
 
 Its colour is store-wide: **Required character** in **Settings > Design**. See [Colors](../../storefront/colors.md).
 </details>
-
-## Next steps
-
-* [Limits](limits.md) — the rest of the validation settings.
-* [Conditional logic and add-on fields](conditional-logic-and-add-on-fields.md)
-* [Translate widget text](../../translations/translate-widget-text.md) — reword the validation messages.

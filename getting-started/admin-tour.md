@@ -92,9 +92,3 @@ Plan comparison with a **Monthly** / **Yearly** switch, a full feature-by-featur
 A support form. It asks for your name and email, a reason for contacting, the page you are having trouble with, your store password if the storefront is password-protected, and your message. Sending it also passes along your store details so we do not have to ask.
 
 If you want us to look inside your admin, the form explains where to find your 4-digit collaborator request code: **Settings > Users and permissions > Collaborators** in Shopify admin.
-
-## Next steps
-
-* [Quickstart](quickstart.md) — build something now.
-* [Core concepts](../concepts/README.md) — the vocabulary the rest of these docs uses.
-* [Settings overview](../settings/README.md) — the store-wide settings in detail.

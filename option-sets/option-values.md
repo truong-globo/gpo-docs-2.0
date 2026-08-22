@@ -145,9 +145,3 @@ Storefront order follows table order exactly. Drag the rows into the order you w
 
 That value is linked to an add-on product that is out of stock, and the option's **Out of stock options** setting decides how it looks. See [Out of stock options](../option-types/shared-settings/out-of-stock-options.md#out-of-stock-options).
 </details>
-
-## Next steps
-
-* [Selection types](../option-types/selection-types/README.md) — all eleven types that use option values.
-* [Add-on pricing](../add-on-pricing/README.md) — charging for a value.
-* [Status and sales channels](status-and-sales-channels.md)

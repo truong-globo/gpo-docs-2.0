@@ -109,9 +109,3 @@ The list comes from your Shopify storefront languages. Add it in Shopify first.
 
 Labels are option content, edited in the builder. See [Translate option content](translate-option-content.md).
 </details>
-
-## Next steps
-
-* [Validation messages](../reference/validation-messages.md) — the full list.
-* [Translate option content](translate-option-content.md)
-* [Right-to-left and non-Latin text](rtl-and-non-latin.md)

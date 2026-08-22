@@ -44,9 +44,10 @@ Every task page follows this order. Skip a section only if it genuinely does not
 8. `## What customers see` — the storefront result.
 9. `## Limits and notes` — plan gating, POS support, theme dependencies, interactions with other features.
 10. `## Troubleshooting` — 2–4 items as symptom → cause → fix.
-11. `## Next steps` — 2–4 links.
 
 Reference pages (shared settings, operator tables, matrices) may drop steps 5 and 8.
+
+Pages do **not** end with a "Next steps" list — GitBook provides previous/next navigation and the section hub pages do the routing.
 
 ## 4. GitBook blocks
 
@@ -95,7 +96,8 @@ Rules:
 
 - Internal links are relative and always include `.md`: `[Label](../option-types/shared-settings/label.md)`.
 - Link the first meaningful mention on a page, not every mention.
-- Every page ends with **Next steps**. No page is an orphan: everything is reachable from `SUMMARY.md`.
+- No page is an orphan: everything is reachable from `SUMMARY.md`, which is the navigation.
+- Do not add a "Next steps" list at the end of a page. Cross-link inline instead, where the reader actually needs the link.
 - External links: Shopify Help Center is fine. Do not link to the old docs site.
 
 ## 8. Never include

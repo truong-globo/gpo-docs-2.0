@@ -159,9 +159,3 @@ Correct — add-on lines cannot be personalised. Select the main item instead.
 
 Try again from the app. If it persists, note what you were doing and [contact support](../help/contact-support.md).
 </details>
-
-## Next steps
-
-* [POS limitations](limitations.md)
-* [Status and sales channels](../concepts/status-and-sales-channels.md)
-* [Add-on pricing](../add-on-pricing/README.md)

@@ -50,9 +50,3 @@ Where most of your shoppers are.
 There is no per-option-set styling or placement. One widget position, one colour scheme, one set of fonts, for every option set in the store.
 
 If you genuinely need one option set to look different, the route is an [HTML class](../option-types/shared-settings/direction-width-and-css.md#html-class) on its options plus [custom CSS](custom-css.md).
-
-## Next steps
-
-* [Widget placement](widget-placement.md)
-* [Match your theme style](match-your-theme-style.md)
-* [Settings overview](../settings/README.md)

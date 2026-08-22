@@ -118,9 +118,3 @@ Your theme's own CSS may be more specific. Override with [custom CSS](custom-css
 
 Not possible here. Use an HTML class and custom CSS.
 </details>
-
-## Next steps
-
-* [Borders and typography](borders-and-typography.md)
-* [Match your theme style](match-your-theme-style.md)
-* [Custom CSS](custom-css.md)

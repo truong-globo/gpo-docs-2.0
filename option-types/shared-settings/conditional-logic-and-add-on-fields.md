@@ -134,9 +134,3 @@ It requires a multi-select option. Turn on [Allow multiple](selection-behaviour.
 
 It exists on **Text** and **Textarea** only — the two types where there are characters to count.
 </details>
-
-## Next steps
-
-* [Conditional logic](../../conditional-logic/README.md)
-* [Add-on pricing](../../add-on-pricing/README.md)
-* [Advanced add-on modes](../../add-on-pricing/advanced-add-on-modes.md)

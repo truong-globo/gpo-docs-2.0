@@ -37,9 +37,3 @@ See [Contact support](../help/contact-support.md).
 ## Practical advice
 
 <table><thead><tr><th width="290">Do</th><th>Why</th></tr></thead><tbody><tr><td>Say the lead time in the option's help text</td><td>A customer ordering a personalised pre-order needs to know both waits</td></tr><tr><td>Use an <a href="../automations/update-order-tags.md">order tag</a> for pre-orders with options</td><td>So you can find them when stock arrives and production starts</td></tr><tr><td>Consider a proofing step for long lead times</td><td>A design approved four weeks ago may need re-confirming</td></tr></tbody></table>
-
-## Next steps
-
-* [Theme and third-party notes](theme-and-third-party-notes.md)
-* [Update order tags](../automations/update-order-tags.md)
-* [Contact support](../help/contact-support.md)

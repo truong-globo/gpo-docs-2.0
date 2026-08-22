@@ -105,9 +105,3 @@ Switch **Add-on money format** between **Without currency** and **With currency*
 
 The page shows a preview; checkout applies the real amounts. If they genuinely disagree, see [How pricing is applied](how-pricing-is-applied.md).
 </details>
-
-## Next steps
-
-* [How pricing is applied](how-pricing-is-applied.md)
-* [Merge main product and add-ons](merge-as-bundle.md)
-* [Translate widget text](../translations/translate-widget-text.md) — the add-on message wording.

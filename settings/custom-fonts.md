@@ -117,9 +117,3 @@ The uploaded file and your production font are not the same file. Upload the pro
 
 Not included in your plan. See [Compare plans](../plans/compare-plans.md).
 </details>
-
-## Next steps
-
-* [Fonts](../personalizer/fonts.md) — using them in the live preview.
-* [Font picker](../option-types/selection-types/font-picker.md) — offering them to customers.
-* [Borders and typography](../storefront/borders-and-typography.md) — using them in the widget.

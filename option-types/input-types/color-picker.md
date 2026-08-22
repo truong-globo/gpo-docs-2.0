@@ -123,9 +123,3 @@ Expected — screens are not calibrated. Explain your matching policy in help te
 
 That is the Personalizer, applied to the text or image option, not to the picker. See [Product Personalizer](../../personalizer/README.md).
 </details>
-
-## Next steps
-
-* [Color swatch](../selection-types/color-swatch.md) — a fixed palette instead.
-* [Swatch style and previews](../shared-settings/swatch-style-and-previews.md#color-preview)
-* [Conditional logic](../../conditional-logic/README.md) — offer the picker only to those who want bespoke.

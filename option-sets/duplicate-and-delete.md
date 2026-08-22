@@ -204,9 +204,3 @@ It cannot be recovered from within the app. If you exported it before, re-import
 
 Expected. Generated add-on products are ordinary Shopify products and are not removed with the option set. Delete or archive them in Shopify admin.
 </details>
-
-## Next steps
-
-* [Import and export](import-and-export.md) — how to take that backup.
-* [Custom templates](../templates/custom-templates.md) — the better tool for reuse.
-* [Manage option sets](manage-option-sets.md)

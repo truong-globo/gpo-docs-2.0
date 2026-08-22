@@ -73,9 +73,3 @@ Its colour is close to the widget background, or the thickness is very low. Try 
 
 Not supported. Use [Column width](../shared-settings/direction-width-and-css.md#column-width) to place options side by side, with [custom CSS](../../storefront/custom-css.md) for a vertical rule.
 </details>
-
-## Next steps
-
-* [Spacing](spacing.md) — a gap without a line.
-* [Section](section.md) — separation with a heading.
-* [Heading](heading.md)

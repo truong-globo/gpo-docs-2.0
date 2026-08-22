@@ -129,9 +129,3 @@ Adjust by eye, and try the negative equivalent — the arc may need to bend the 
 
 With curve on, max width is the curve's diameter rather than a plain width limit. Adjust the two together rather than independently.
 </details>
-
-## Next steps
-
-* [Clip area](clip-area.md) — a harder boundary than auto-fit.
-* [Limits](../option-types/shared-settings/limits.md#min-and-max-character) — character limits.
-* [Walkthrough: custom printed mug](walkthrough-custom-mug.md) — curve and auto-fit in use.

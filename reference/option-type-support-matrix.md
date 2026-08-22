@@ -240,10 +240,4 @@ Most types work in Shopify POS. Two do not:
 
 Some types and some settings are only on higher plans. The matrix above says what **exists in the app**; your plan decides what you can use.
 
-Locked items are marked in the builder itself, which is the reliable check. See [Plans and locked features](../concepts/plans-and-feature-gating.md) and the **Pricing** page in the app.
-
-## Next steps
-
-* [Choose the right type](../option-types/choose-the-right-type.md) — the same information as advice rather than a table.
-* [Shared settings](../option-types/shared-settings/README.md) — what each setting actually does.
-* [Operators reference](../conditional-logic/operators-reference.md)
+Locked items are marked in the builder itself, which is the reliable check. See [Locked features](../plans/locked-features.md) and the **Pricing** page in the app.

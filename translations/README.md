@@ -57,16 +57,10 @@ Switch language on your storefront and work through a product page in each one.
 
 ## What is never translated
 
-<table><thead><tr><th width="290">Not translatable</th><th>Why</th></tr></thead><tbody><tr><td>Option <strong>Name</strong></td><td>It appears on your orders. Keeping it in one language means your team reads one consistent name whatever language the shopper used. See <a href="../concepts/label-vs-name.md">Label vs Name</a></td></tr><tr><td>Prefix and suffix text</td><td>Units and symbols. For units that differ by market, use separate option sets with <a href="../option-sets/assign-to-countries.md">country rules</a></td></tr><tr><td>Option set names</td><td>Internal only</td></tr><tr><td>Add-on product titles</td><td>They are Shopify products — translate them with Shopify's own tools</td></tr></tbody></table>
+<table><thead><tr><th width="290">Not translatable</th><th>Why</th></tr></thead><tbody><tr><td>Option <strong>Name</strong></td><td>It appears on your orders. Keeping it in one language means your team reads one consistent name whatever language the shopper used. See <a href="../option-types/shared-settings/labels-and-visibility.md">Label and Name</a></td></tr><tr><td>Prefix and suffix text</td><td>Units and symbols. For units that differ by market, use separate option sets with <a href="../option-sets/assign-to-countries.md">country rules</a></td></tr><tr><td>Option set names</td><td>Internal only</td></tr><tr><td>Add-on product titles</td><td>They are Shopify products — translate them with Shopify's own tools</td></tr></tbody></table>
 
 ## Notes
 
 * Translating option content is plan-gated. See [Compare plans](../plans/compare-plans.md).
 * The languages available for translation are your **storefront** languages, as configured in Shopify.
 * The date picker's calendar has its own language setting, separate from all of this. See [Date and time picker](../option-types/input-types/date-and-time-picker.md).
-
-## Next steps
-
-* [App admin language](app-admin-language.md)
-* [Translate option content](translate-option-content.md)
-* [Translate widget text](translate-widget-text.md)

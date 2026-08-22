@@ -59,7 +59,7 @@ A pre-filled answer. If it carries an add-on price, that price is charged from p
 An option type collecting two or more measurements and pricing them with a formula. See [Dimension](../option-types/input-types/dimension.md).
 
 **Draft**\
-An option set's inactive status. Draft sets never render on the storefront. See [Status and sales channels](../concepts/status-and-sales-channels.md).
+An option set's inactive status. Draft sets never render on the storefront. See [Status and sales channels](../option-sets/status-and-sales-channels.md).
 
 ## F
 
@@ -82,7 +82,7 @@ An option type where the customer types, picks, or uploads something rather than
 ## L
 
 **Label**\
-What the shopper reads. Distinct from **Name**. See [Label vs Name](../concepts/label-vs-name.md).
+What the shopper reads. Distinct from **Name**. See [Label and Name](../option-types/shared-settings/labels-and-visibility.md).
 
 **Layer** (Personalizer)\
 One element drawn on the preview canvas — text from a text option, or an image from a file upload or an image swatch. See [Text layers](../personalizer/text-layers.md) and [Image layers](../personalizer/image-layers.md).
@@ -104,7 +104,7 @@ Presenting the main product and its add-on products as one cart item rather than
 ## N
 
 **Name**\
-What appears on the cart, the order, and your paperwork. Distinct from **Label**. See [Label vs Name](../concepts/label-vs-name.md).
+What appears on the cart, the order, and your paperwork. Distinct from **Label**. See [Label and Name](../option-types/shared-settings/labels-and-visibility.md).
 
 ## O
 
@@ -115,13 +115,13 @@ The add-on mode charging once per order, whatever the quantity. What gift wrap a
 A single question in an option set — one field, one swatch grid, one date picker.
 
 **Option set**\
-A group of options assigned to products, with its own status, rules, and sales channels. The unit you build and assign. See [Option set, option, value](../concepts/option-set-option-value.md).
+A group of options assigned to products, with its own status, rules, and sales channels. The unit you build and assign. See [Option set, option, value](../option-sets/README.md).
 
 **Option type**\
 What kind of control an option is. Thirty-two of them, in three families: input, selection, and static. See [Option types](../option-types/README.md).
 
 **Option value**\
-One choice within a selection option — one colour, one size. Values carry their own prices, images, and stock. See [Option values](../concepts/option-values.md).
+One choice within a selection option — one colour, one size. Values carry their own prices, images, and stock. See [Option values](../option-sets/option-values.md).
 
 **Out of stock options**\
 The setting deciding what shoppers see when an add-on product runs out — hide it, blur it, or strike it through. Needs a product-backed add-on and inventory tracking. See [Out of stock options](../option-types/shared-settings/out-of-stock-options.md).
@@ -153,7 +153,7 @@ An option that must be answered before the product can be added to the cart — 
 ## S
 
 **Sales channel** (option set)\
-Whether the option set applies to the Online Store, Point of Sale, or both. See [Status and sales channels](../concepts/status-and-sales-channels.md).
+Whether the option set applies to the Online Store, Point of Sale, or both. See [Status and sales channels](../option-sets/status-and-sales-channels.md).
 
 **Section**\
 A visual group inside an option set, used to break long forms into headed blocks. Sections can have their own conditional logic. See [Build your options](../option-sets/build-options.md#sections).
@@ -190,9 +190,3 @@ Where on the product page the widget appears. See [Widget placement](../storefro
 
 **Workflow** (automation)\
 A rule that acts on orders containing app options — tagging them, or writing the options into the order note. See [Automations](../automations/README.md).
-
-## Next steps
-
-* [How the app works](../concepts/how-the-app-works.md)
-* [FAQ](faq.md)
-* [Contact support](contact-support.md)

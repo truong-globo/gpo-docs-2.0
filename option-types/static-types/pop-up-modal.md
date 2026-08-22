@@ -85,9 +85,3 @@ Expected — most shoppers do not open modals. Anything essential belongs in a [
 
 Reduce **Modal width** and avoid wide tables inside it.
 </details>
-
-## Next steps
-
-* [Tabs](tabs.md) — several blocks of content.
-* [Paragraph](paragraph.md) — for text nobody should miss.
-* [Size chart](size-chart.md) — purpose-built for size tables.

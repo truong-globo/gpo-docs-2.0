@@ -111,9 +111,3 @@ They are separate switches. Turn on **Show widget on regular page** too, and add
 
 Turn **Show options on Quickview popups** off — but make sure your quickview cannot add to cart, or you will take orders without options.
 </details>
-
-## Next steps
-
-* [Add the app block](../getting-started/add-the-app-block.md)
-* [Cart page](cart-page.md)
-* [Widget placement](widget-placement.md)

@@ -11,7 +11,7 @@ icon: house
 
 Shopify limits a product to 3 options and 100 variants. This app is not limited by that: it adds its own option fields on top of your product, so you can ask for as many details as your product needs and charge extra for the choices that cost you more.
 
-<!-- SCREENSHOT: home-dashboard | App admin → Dashboard, full page, 1920×1400, chụp toàn trang có Setup guide card + chart. Không khoanh vùng. -->
+<!-- SCREENSHOT: home-dashboard | App admin → Dashboard | Toàn trang 1920×1400: Setup guide card + chart analytics | Không khoanh vùng -->
 
 <figure><img src=".gitbook/assets/placeholder.png" alt="The Globo Product Options, Variant dashboard inside Shopify admin"><figcaption><p>The app dashboard is where you land after opening the app from Shopify admin.</p></figcaption></figure>
 

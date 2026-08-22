@@ -80,7 +80,7 @@ See [How pricing is applied](../add-on-pricing/how-pricing-is-applied.md).
 
 <table><thead><tr><th width="330">Because…</th><th>…this happens</th></tr></thead><tbody><tr><td>The app embed is what runs the app</td><td>Nothing appears on the storefront until it is enabled — and it must be enabled again on any new theme you publish.</td></tr><tr><td>Option sets are published to your store</td><td>Changes appear on the storefront within seconds, not instantly. If you do not see a change, refresh the page.</td></tr><tr><td>Selections become line item properties</td><td>Option details reach the cart, order, invoice, packing slip, and emails with no extra configuration.</td></tr><tr><td>Add-on products are separate cart lines</td><td>They can have their own stock, SKU, and weight — and they can be merged visually with the main item if you prefer. See <a href="../add-on-pricing/merge-as-bundle.md">Merge main product and add-ons</a>.</td></tr><tr><td>Final pricing happens at checkout</td><td>A shopper cannot tamper with add-on prices in the browser, and the price shown while shopping is a preview.</td></tr><tr><td>Validation runs in the browser before add to cart</td><td>Error messages are yours to word — see <a href="../translations/translate-widget-text.md">Translate widget text</a>.</td></tr></tbody></table>
 
-<!-- SCREENSHOT-OPTIONAL: concept-flow-diagram | Sơ đồ 5 bước từ builder → storefront → cart → checkout. Nếu vẽ thì dùng SVG, không cần screenshot app. -->
+<!-- SCREENSHOT-OPTIONAL: concept-flow-diagram | Không phải ảnh app — sơ đồ tự vẽ | Sơ đồ 5 bước: builder → storefront → cart → checkout | Không khoanh vùng, ưu tiên SVG -->
 
 ## What the app does not do
 

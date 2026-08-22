@@ -43,7 +43,7 @@ Allow only what you can actually use. Accepting `heic` means iPhone photos arriv
 
 ## Personalizer Settings
 
-File upload is one of the four types with live preview support, and the most impressive of them: the customer's uploaded image appears on the product photo immediately.
+File upload is one of the twelve types the live preview supports, and the only one that draws an image the customer supplies: their upload appears on the product photo immediately.
 
 Its personalizer settings are:
 

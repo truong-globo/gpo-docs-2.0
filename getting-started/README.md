@@ -9,6 +9,8 @@ icon: flag-checkered
 
 This section takes you from an empty store to a working option on a live product page. Read the pages in order the first time — each one assumes the previous one is done.
 
+If you would rather see the whole app before doing anything, [Tour of the app](../reference/tour-of-the-app.md) maps every screen and menu item.
+
 ## The four things that must happen
 
 An option only appears to a shopper when **all four** of these are true. Most "why can't I see my options?" questions are one of these four being missing.
@@ -17,7 +19,7 @@ An option only appears to a shopper when **all four** of these are true. Most "w
 
 ## Pages in this section
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Install the app</strong></td><td>Install from the Shopify App Store, review permissions, and choose your plan.</td><td><a href="install-the-app.md">install-the-app.md</a></td></tr><tr><td><strong>Tour of the app</strong></td><td>What every screen and menu item in the app is for, so you know where to go later.</td><td><a href="admin-tour.md">admin-tour.md</a></td></tr><tr><td><strong>Quickstart</strong></td><td>The shortest path: one option set, one option, live on the storefront.</td><td><a href="quickstart.md">quickstart.md</a></td></tr><tr><td><strong>Enable the app embed</strong></td><td>Three ways to switch the app on in your theme, and how to confirm it worked.</td><td><a href="enable-the-app-embed.md">enable-the-app-embed.md</a></td></tr><tr><td><strong>Add the app block</strong></td><td>Optional. Pin the widget to an exact spot in your product template.</td><td><a href="add-the-app-block.md">add-the-app-block.md</a></td></tr><tr><td><strong>Walkthrough</strong></td><td>A complete real example: engraving text plus a paid gift-wrap option.</td><td><a href="first-option-set-walkthrough.md">first-option-set-walkthrough.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Install the app</strong></td><td>Install from the Shopify App Store, review permissions, and choose your plan.</td><td><a href="install-the-app.md">install-the-app.md</a></td></tr><tr><td><strong>Quickstart</strong></td><td>The shortest path: one option set, one option, live on the storefront.</td><td><a href="quickstart.md">quickstart.md</a></td></tr><tr><td><strong>Enable the app embed</strong></td><td>Three ways to switch the app on in your theme, and how to confirm it worked.</td><td><a href="enable-the-app-embed.md">enable-the-app-embed.md</a></td></tr><tr><td><strong>Add the app block</strong></td><td>Optional. Pin the widget to an exact spot in your product template.</td><td><a href="add-the-app-block.md">add-the-app-block.md</a></td></tr></tbody></table>
 
 ## What you need before you begin
 

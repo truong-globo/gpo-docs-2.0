@@ -6,11 +6,9 @@
 
 * [Overview](getting-started/README.md)
 * [Install the app](getting-started/install-the-app.md)
-* [Tour of the app](getting-started/admin-tour.md)
 * [Quickstart](getting-started/quickstart.md)
 * [Enable the app embed](getting-started/enable-the-app-embed.md)
 * [Add the app block](getting-started/add-the-app-block.md)
-* [Walkthrough: engraving and gift wrap](getting-started/first-option-set-walkthrough.md)
 
 ## Option sets
 
@@ -204,6 +202,7 @@
 
 ## Reference
 
+* [Tour of the app](reference/tour-of-the-app.md)
 * [How the app works](reference/how-it-works.md)
 * [Line item properties](reference/line-item-properties.md)
 * [Permissions and data](reference/permissions-and-data.md)

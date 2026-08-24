@@ -79,7 +79,7 @@ Where the number drives a price, this is also your protection against a zero or 
 <table><thead><tr><th width="290">Situation</th><th>Min</th><th>Max</th></tr></thead><tbody><tr><td>Pick any three toppings</td><td><code>3</code></td><td><code>3</code></td></tr><tr><td>Up to two free extras</td><td>—</td><td><code>2</code></td></tr><tr><td>At least one flavour in a box of six</td><td><code>1</code></td><td><code>6</code></td></tr><tr><td>Choose two to four colours</td><td><code>2</code></td><td><code>4</code></td></tr></tbody></table>
 
 {% hint style="info" %}
-When the option has add-on prices and the mode is **Default** or **One time charge**, the app also checks your min and max against the number of values the option actually has, and warns if the limit is impossible — "The value must be between 1 and the number of option values."
+The app also checks your limits against the number of values the option actually has. You cannot require five choices from four values: doing so gives you "The value must be between 1 and the number of option values."
 {% endhint %}
 
 ## Min and max number of files

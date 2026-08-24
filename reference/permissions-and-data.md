@@ -26,10 +26,14 @@ In both cases the app explains what it is asking for and Shopify shows its own a
 
 ## Your customers' data
 
-The app sees customer data only where it has to, and only through Shopify: the answers a customer gives, files they upload, the design they created, and — at page load — their tags, account status, and country, to evaluate your [customer](../option-sets/assign-to-customers.md) and [country](../option-sets/assign-to-countries.md) rules.
+The app sees customer data only where it has to, and only through Shopify:
+
+* the answers a customer gives, and any file they upload
+* the design they created, if you use the Personalizer
+* their tags, account status, and country, read at page load to evaluate your [customer](../option-sets/assign-to-customers.md) and [country](../option-sets/assign-to-countries.md) rules
 
 {% hint style="warning" %}
-**You decide what customers are asked for.** If you add a field asking for a date of birth, an ID number, or a phone number, that data ends up on your orders, and handling it appropriately is your responsibility as the merchant. Ask for what you need to fulfil the order, and no more.
+**You decide what customers are asked for.** A field asking for a date of birth, an ID number, or a phone number puts that data on your orders, and handling it appropriately is your responsibility as the merchant. Ask for what you need to fulfil the order, and no more.
 {% endhint %}
 
 The app supports Shopify's mandatory privacy notifications, so a customer data request, a customer erasure request, or a store erasure request raised through Shopify is handled. Raise these through Shopify's own privacy tooling rather than by email — that way they reach every app on your store, not just this one.

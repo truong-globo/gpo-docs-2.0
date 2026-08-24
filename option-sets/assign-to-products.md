@@ -7,7 +7,7 @@ icon: bullseye
 
 # Assign to products
 
-Every option set needs a product rule. Without one it cannot be saved, and it would have nowhere to appear anyway.
+Every option set needs a product rule — it is what tells the app which products to show the options on. The builder will not let you save without one.
 
 You choose one of three methods. They are **mutually exclusive** — turning one on turns the other two off.
 

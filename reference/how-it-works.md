@@ -5,7 +5,12 @@ icon: diagram-project
 
 # How it works
 
-You do not need this to use the app. It is worth reading once, because it explains four things that otherwise look like faults: why the app embed matters, why the price on the product page is only a preview, why your option details reach the order with no setup, and why a change sometimes needs a refresh to appear.
+You do not need this to use the app. It is worth reading once, because it explains four things that otherwise look like faults:
+
+* why the app embed matters
+* why the price on the product page is only a preview
+* why your option details reach the order with no setup from you
+* why a change sometimes needs a refresh before it appears
 
 {% stepper %}
 {% step %}
@@ -19,7 +24,7 @@ That publish step is why a change appears within seconds rather than instantly �
 {% step %}
 ### The theme app embed renders it
 
-Once the [app embed](../getting-started/enable-the-app-embed.md) is enabled on your theme, it checks each page a shopper visits, works out which of your option sets apply — by product, by customer, by country, and by status and sales channel — and renders them as the widget.
+Once the [app embed](../getting-started/enable-the-app-embed.md) is enabled on your theme, it checks every page a shopper visits and works out which of your option sets apply. Four things decide that: the product, the customer, their country, and whether the set is active on this sales channel. Matching sets are rendered as the widget.
 
 If nothing applies, it does nothing and gets out of the way.
 {% endstep %}

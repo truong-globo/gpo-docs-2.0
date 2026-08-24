@@ -37,7 +37,7 @@ The check is on the format only. It confirms the address is shaped like an email
 
 Email cannot carry an add-on price.
 
-If the thing being paid for is the email delivery itself — a digital gift card sent to a recipient — put the charge on the [Switch](switch.md) or [Checkbox](../selection-types/checkbox.md) that turns the feature on, and reveal the email field with [conditional logic](../../conditional-logic/README.md).
+When the thing being paid for is the email delivery itself — a digital gift card sent to a recipient — put the charge on the [Switch](switch.md) or [Checkbox](../selection-types/checkbox.md) that turns the feature on. Then reveal the email field with [conditional logic](../../conditional-logic/README.md).
 
 ## Personalizer Settings
 

@@ -9,7 +9,7 @@ A template is a saved option set you can copy. It saves rebuilding the same stru
 
 **Templates** in the app menu has three tabs.
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Pre-designed Templates</strong></td><td>Twenty complete option sets for common product types, without personalisation.</td><td><a href="pre-designed-templates.md">pre-designed-templates.md</a></td></tr><tr><td><strong>Personalized Templates</strong></td><td>Twenty setups with the live preview already configured.</td><td><a href="personalized-templates.md">personalized-templates.md</a></td></tr><tr><td><strong>Custom Templates</strong></td><td>Templates you create, or save from an existing option set.</td><td><a href="custom-templates.md">custom-templates.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Pre-designed Templates</strong></td><td>Start from one of twenty ready-made option sets for common product types.</td><td><a href="pre-designed-templates.md">pre-designed-templates.md</a></td></tr><tr><td><strong>Personalized Templates</strong></td><td>Start from a setup that already has the live preview configured.</td><td><a href="personalized-templates.md">personalized-templates.md</a></td></tr><tr><td><strong>Custom Templates</strong></td><td>Templates you create, or save from an existing option set.</td><td><a href="custom-templates.md">custom-templates.md</a></td></tr></tbody></table>
 
 <!-- SCREENSHOT: tpl-tabs | App admin → Templates | 3 tab với badge số lượng, grid template có ảnh xem trước | Khoanh hàng 3 tab -->
 

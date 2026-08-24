@@ -104,7 +104,11 @@ Either the type cannot carry a price — see the list above — or you are looki
 <details>
 <summary>I set a price but nothing is charged</summary>
 
-Three things: the option is not hidden by a conditional rule, since hidden options are not charged; the option set is saved; and **Show add-on for inputs** or **Show add-on for options** is on in **Settings > Settings > Add-on price** if you expected to see the price on the page. See [Add-on price display settings](price-display-settings.md).
+Three things:
+
+1. The option is not hidden by a conditional rule. Hidden options are not charged.
+2. The option set is saved.
+3. If you expected to see the price on the page, **Show add-on for inputs** or **Show add-on for options** is on in **Settings > Settings > Add-on price** — see [Add-on price display settings](price-display-settings.md).
 </details>
 
 <details>

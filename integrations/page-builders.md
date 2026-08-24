@@ -27,7 +27,7 @@ This is by far the most robust route: no selector to maintain, and the position 
 {% step %}
 ### If the builder has an embed or HTML element, use a CSS selector
 
-Add an element to the builder's layout where the options should appear, give it an id you choose, then in **Settings** > **Settings** > **General** set **Widget placement** to **At the start of an HTML element** with that id as the selector.
+Add an element to the builder's layout where the options should appear and give it an id of your choosing. Then in **Settings** > **Settings** > **General**, set **Widget placement** to **At the start of an HTML element**, using that id as the selector.
 
 That way the anchor is something *you* created, so a builder update cannot rename it. See [Widget placement](../storefront/widget-placement.md).
 {% endstep %}

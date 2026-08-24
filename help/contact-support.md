@@ -22,7 +22,15 @@ And the single most common cause of all: **the app embed is not enabled on the t
 
 ## What we can help with
 
-We can diagnose why options are not rendering, explain or check any setting, help design an option set for what you sell, look at a specific order and explain what was charged, advise on CSS for the widget, help move option sets between stores, and pass feature requests to the product team.
+We can:
+
+* diagnose why options are not rendering
+* explain or check any setting in the app
+* help design an option set for what you sell
+* look at a specific order and explain what was charged
+* advise on CSS for the widget
+* help move option sets between stores
+* pass feature requests to the product team
 
 We cannot rewrite your theme, support another app's behaviour (though we will help identify a conflict), advise on tax or shipping rules, change your Shopify billing, or recover a deleted option set.
 

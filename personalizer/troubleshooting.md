@@ -18,7 +18,7 @@ Most Personalizer problems are one of four things: no background, no content to 
 
 In order:
 
-1. **No background.** Open **Change background** and select one. See [Set the preview background](set-the-background.md).
+1. **No background.** Open **Change background** and select one. See [Choosing the background](setup.md#choosing-the-background).
 2. **Enable personalize is off** on the option.
 3. **Nothing to draw.** A text layer with no **Default value** draws nothing until the customer types. An image layer draws nothing until a file is uploaded or a value with an image is chosen.
 4. **The layer is outside the image**, or outside its [clip area](clip-area.md). Bring the axes towards 50.

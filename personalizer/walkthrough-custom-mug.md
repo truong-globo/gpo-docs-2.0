@@ -31,7 +31,7 @@ Then, before anything else, open **Change background** in the preview panel:
 * **Apply to**: **First product image only**
 * Select your mug product to preview against
 
-Everything you position from here is measured against that photograph, which is why this comes first. See [Set the preview background](set-the-background.md).
+Everything you position from here is measured against that photograph, which is why this comes first. See [Choosing the background](setup.md#choosing-the-background).
 {% endstep %}
 
 {% step %}

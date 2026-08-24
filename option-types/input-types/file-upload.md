@@ -121,7 +121,7 @@ File upload has none. Put the fee on a Switch or Checkbox beside it.
 <details>
 <summary>The uploaded image does not appear on the product photo</summary>
 
-Turn on **Personalizer Settings** for this option, and make sure the option set has a background image configured. See [Set the preview background](../../personalizer/set-the-background.md).
+Turn on **Personalizer Settings** for this option, and make sure the option set has a background image configured. See [Choosing the background](../../personalizer/setup.md#choosing-the-background).
 </details>
 
 <details>

@@ -49,7 +49,7 @@ Give it a name that describes your products rather than the template.
 
 This is the step that matters most. The template is positioned against its own demo image, so the layers will not line up with your photograph.
 
-Open **Change background**, select **Product image**, and choose one of your own products. See [Set the preview background](set-the-background.md).
+Open **Change background**, select **Product image**, and choose one of your own products. See [Choosing the background](setup.md#choosing-the-background).
 {% endstep %}
 
 {% step %}

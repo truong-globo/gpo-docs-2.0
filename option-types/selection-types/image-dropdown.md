@@ -103,5 +103,5 @@ Use [Image swatch](image-swatch.md), which has adjustable swatch sizes and a zoo
 <details>
 <summary>The design does not appear on the product photo</summary>
 
-Turn on **Personalizer Settings** and configure a background for the option set. See [Set the preview background](../../personalizer/set-the-background.md).
+Turn on **Personalizer Settings** and configure a background for the option set. See [Choosing the background](../../personalizer/setup.md#choosing-the-background).
 </details>

@@ -87,7 +87,7 @@ For text following a curved surface — around a mug or a ring — use [Curve](c
 
 ## Notes
 
-* Percentages are relative to the background image, so consistent product photography is what keeps positions accurate across products. See [Set the preview background](set-the-background.md).
+* Percentages are relative to the background image, so consistent product photography is what keeps positions accurate across products. See [Choosing the background](setup.md#choosing-the-background).
 * If you let customers move a layer, your position is their starting point. See [Customer controls](customer-controls.md).
 * A [clip area](clip-area.md) constrains where a layer can appear, which is what makes customer freedom safe.
 * Changing the background afterwards will move everything. Set the background first.

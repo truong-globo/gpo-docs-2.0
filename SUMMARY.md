@@ -106,9 +106,7 @@
 ## Product Personalizer
 
 * [Overview](personalizer/README.md)
-* [How the live preview works](personalizer/how-it-works.md)
-* [Set the preview background](personalizer/set-the-background.md)
-* [Enable personalizer on an option](personalizer/enable-on-an-option.md)
+* [Set up the Personalizer](personalizer/setup.md)
 * [Text layers](personalizer/text-layers.md)
 * [Fonts](personalizer/fonts.md)
 * [Text effects](personalizer/effects.md)

@@ -2,7 +2,7 @@
 
 Internal working file — not part of the published documentation and not listed in `SUMMARY.md`.
 
-**136 required shots**, 2 optional, across 107 pages. Generated from the `<!-- SCREENSHOT: ... -->` markers in the pages, in `SUMMARY.md` order.
+**136 required shots**, 2 optional, across 106 pages. Generated from the `<!-- SCREENSHOT: ... -->` markers in the pages, in `SUMMARY.md` order.
 
 Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace that path with the real file as each shot is taken.
 
@@ -956,20 +956,15 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 * Outline: Khoanh vùng preview trên ảnh sản phẩm
 
 
-### Set the preview background
+### Set up the Personalizer
 
-`personalizer/set-the-background.md`
+`personalizer/setup.md`
 
 **99. `pp-background-panel`**
 
 * Where: App admin → builder → preview → Change background
 * Must show: Panel với nhóm Background (Product image/Custom image) và Apply to (4 lựa chọn)
 * Outline: Khoanh 2 nhóm lựa chọn
-
-
-### Enable personalizer on an option
-
-`personalizer/enable-on-an-option.md`
 
 **100. `pp-enable-tab`**
 

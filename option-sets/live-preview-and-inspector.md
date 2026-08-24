@@ -128,5 +128,5 @@ The inspector is off. Turn it on with the inspector control in the header.
 <details>
 <summary>The Personalizer preview shows no background</summary>
 
-No background image is configured for this option set. Set one in the personalizer background settings — see [Set the preview background](../personalizer/set-the-background.md).
+No background image is configured for this option set. Set one in the personalizer background settings — see [Choosing the background](../personalizer/setup.md#choosing-the-background).
 </details>

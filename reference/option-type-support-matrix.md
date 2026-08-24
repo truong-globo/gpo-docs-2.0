@@ -218,9 +218,9 @@ Twelve types can drive a Personalizer layer. They split in two:
 
 Three settings are text-layer only, which is the most common surprise:
 
-<table><thead><tr><th width="290">Setting</th><th>Available on</th></tr></thead><tbody><tr><td><a href="../personalizer/curve-and-auto-fit.md">Curve</a></td><td>Text and Number</td></tr><tr><td><a href="../personalizer/curve-and-auto-fit.md#auto-fit-max-width">Auto-fit</a></td><td>Text and Number</td></tr><tr><td>Alignment, and Width and Height</td><td>Textarea</td></tr></tbody></table>
+<table><thead><tr><th width="290">Setting</th><th>Available on</th></tr></thead><tbody><tr><td><a href="../personalizer/layer-settings/curve-and-auto-fit.md">Curve</a></td><td>Text and Number</td></tr><tr><td><a href="../personalizer/layer-settings/curve-and-auto-fit.md#auto-fit-max-width">Auto-fit</a></td><td>Text and Number</td></tr><tr><td>Alignment, and Width and Height</td><td>Textarea</td></tr></tbody></table>
 
-See [Text layers](../personalizer/text-layers.md) and [Image layers](../personalizer/image-layers.md).
+See [Text layers](../personalizer/layer-settings/text-layers.md) and [Image layers](../personalizer/layer-settings/image-layers.md).
 
 ## What conditional logic can and cannot reference
 

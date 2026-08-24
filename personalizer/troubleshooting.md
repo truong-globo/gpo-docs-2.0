@@ -21,7 +21,7 @@ In order:
 1. **No background.** Open **Change background** and select one. See [Choosing the background](setup.md#choosing-the-background).
 2. **Enable personalize is off** on the option.
 3. **Nothing to draw.** A text layer with no **Default value** draws nothing until the customer types. An image layer draws nothing until a file is uploaded or a value with an image is chosen.
-4. **The layer is outside the image**, or outside its [clip area](clip-area.md). Bring the axes towards 50.
+4. **The layer is outside the image**, or outside its [clip area](layer-settings/clip-area.md). Bring the axes towards 50.
 5. **Opacity is at 0.**
 
 </details>
@@ -84,7 +84,7 @@ They share a position. Give them different **Y-Axis** values, or use [conditiona
 <details>
 <summary>Long text runs off the product</summary>
 
-Turn on [Auto-fit max width](curve-and-auto-fit.md#auto-fit-max-width), and set a **Max character** limit matching what physically fits.
+Turn on [Auto-fit max width](layer-settings/curve-and-auto-fit.md#auto-fit-max-width), and set a **Max character** limit matching what physically fits.
 
 </details>
 
@@ -98,14 +98,14 @@ Your character limit is too generous for the printable area. Lower **Max charact
 <details>
 <summary>The text is invisible</summary>
 
-Contrast against the background, or **Opacity** turned down. Check the colour against your real background image rather than the builder panel. Over customer photos, add a thin [stroke](effects.md#stroke).
+Contrast against the background, or **Opacity** turned down. Check the colour against your real background image rather than the builder panel. Over customer photos, add a thin [stroke](layer-settings/effects.md#stroke).
 
 </details>
 
 <details>
 <summary>The font is not the one I chose</summary>
 
-Confirm it is still selected, save, and reload. For custom fonts, check the font is uploaded in **Settings > Settings > General > Custom fonts** and that custom fonts are in your plan. See [Fonts](fonts.md).
+Confirm it is still selected, save, and reload. For custom fonts, check the font is uploaded in **Settings > Settings > General > Custom fonts** and that custom fonts are in your plan. See [Fonts](layer-settings/fonts.md).
 
 </details>
 
@@ -179,7 +179,7 @@ Turn on **Change position** under **Allow customers to**.
 <details>
 <summary>Customers place designs where I cannot print</summary>
 
-Add a [clip area](clip-area.md) and leave its outline visible so they can see the boundary.
+Add a [clip area](layer-settings/clip-area.md) and leave its outline visible so they can see the boundary.
 
 </details>
 

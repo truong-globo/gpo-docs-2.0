@@ -7,7 +7,7 @@ icon: font-awesome
 
 The **Font family** setting on a text layer decides which typeface the preview draws in. It matters more than it sounds: the font is most of what makes an engraving preview look real.
 
-**Applies to:** [Text](../option-types/input-types/text.md), [Textarea](../option-types/input-types/textarea.md), [Number](../option-types/input-types/number.md).
+**Applies to:** [Text](../../option-types/input-types/text.md), [Textarea](../../option-types/input-types/textarea.md), [Number](../../option-types/input-types/number.md).
 
 ## The three choices
 
@@ -15,7 +15,7 @@ The **Font family** setting on a text layer decides which typeface the preview d
 
 <!-- SCREENSHOT: pp-font-family | App admin → builder → option Text → Personalizer Settings | Font family với 3 lựa chọn Default/Google/Custom và picker font đang mở | Khoanh Font family và picker -->
 
-<figure><img src="../.gitbook/assets/placeholder.png" alt="The font family setting with Google selected and the font picker open"><figcaption><p>Choosing Google or Custom reveals a picker for the font itself.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/placeholder.png" alt="The font family setting with Google selected and the font picker open"><figcaption><p>Choosing Google or Custom reveals a picker for the font itself.</p></figcaption></figure>
 
 ## Default
 
@@ -41,7 +41,7 @@ This is the right choice whenever the font is part of what you sell. If your eng
 {% step %}
 ### Upload the font
 
-**Settings** > **Settings** > **General** > **Custom fonts**. See [Custom fonts](../settings/custom-fonts.md).
+**Settings** > **Settings** > **General** > **Custom fonts**. See [Custom fonts](../../settings/custom-fonts.md).
 {% endstep %}
 
 {% step %}
@@ -63,11 +63,11 @@ Upload-and-test is the only reliable check. Try accented letters, punctuation, a
 {% endstep %}
 {% endstepper %}
 
-Custom fonts are plan-gated. See [Compare plans](../plans/compare-plans.md).
+Custom fonts are plan-gated. See [Compare plans](../../plans/compare-plans.md).
 
 ## Letting the customer choose the font
 
-The layer's font is fixed. To let shoppers pick, add a [Font picker](../option-types/selection-types/font-picker.md) option alongside.
+The layer's font is fixed. To let shoppers pick, add a [Font picker](../../option-types/selection-types/font-picker.md) option alongside.
 
 {% stepper %}
 {% step %}
@@ -145,5 +145,5 @@ The preview font and your production font are not the same file. Upload your pro
 <details>
 <summary>The customer's font choice does not change the preview</summary>
 
-Point **Select text box** on the Font picker at the text option, and check both are in the same option set. See [Font picker](../option-types/selection-types/font-picker.md).
+Point **Select text box** on the Font picker at the text option, and check both are in the same option set. See [Font picker](../../option-types/selection-types/font-picker.md).
 </details>

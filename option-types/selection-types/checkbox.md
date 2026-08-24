@@ -45,7 +45,7 @@ See [Advanced add-on modes](../../add-on-pricing/advanced-add-on-modes.md).
 
 ## Personalizer Settings
 
-Supported as an **image layer**: ticked values can each draw an image onto the product photo. Settings are image shape, background mode, size, position, rotation, clip area, and customer controls. See [Image layers](../../personalizer/image-layers.md).
+Supported as an **image layer**: ticked values can each draw an image onto the product photo. Settings are image shape, background mode, size, position, rotation, clip area, and customer controls. See [Image layers](../../personalizer/layer-settings/image-layers.md).
 
 Bear in mind that several ticks means several layers, which can overlap. Use the position settings to place them deliberately.
 

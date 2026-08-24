@@ -35,7 +35,7 @@ Use it when the colour applies to text — thread colour, ink colour, foil colou
 
 Supported as an **image layer**: each colour value can carry an image that appears on the product photo when chosen. Settings are image shape, background mode, size, position, rotation, clip area, and customer controls.
 
-Useful when each colour has a photograph of the product in that colour. See [Image layers](../../personalizer/image-layers.md).
+Useful when each colour has a photograph of the product in that colour. See [Image layers](../../personalizer/layer-settings/image-layers.md).
 
 ## Add-on pricing
 

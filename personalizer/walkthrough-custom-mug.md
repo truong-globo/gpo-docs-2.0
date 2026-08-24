@@ -47,7 +47,7 @@ Add a [Text](../option-types/input-types/text.md) option and set, on **Basic Set
 
 Open **Personalizer Settings** and turn on **Enable personalize**. Then style it:
 
-<table><thead><tr><th width="230">Setting</th><th width="180">Value</th><th>Why</th></tr></thead><tbody><tr><td><strong>Text color</strong></td><td>Your print colour</td><td>Realistic rather than decorative</td></tr><tr><td><strong>Font size</strong></td><td><code>7</code>, adjusted by eye</td><td>Set it against your real photo</td></tr><tr><td><strong>Font family</strong></td><td><strong>Custom</strong>, your print font</td><td>The preview then matches production. See <a href="fonts.md">Fonts</a></td></tr><tr><td><strong>Custom Effect</strong></td><td><strong>No effect</strong></td><td>Printing is flat</td></tr></tbody></table>
+<table><thead><tr><th width="230">Setting</th><th width="180">Value</th><th>Why</th></tr></thead><tbody><tr><td><strong>Text color</strong></td><td>Your print colour</td><td>Realistic rather than decorative</td></tr><tr><td><strong>Font size</strong></td><td><code>7</code>, adjusted by eye</td><td>Set it against your real photo</td></tr><tr><td><strong>Font family</strong></td><td><strong>Custom</strong>, your print font</td><td>The preview then matches production. See <a href="layer-settings/fonts.md">Fonts</a></td></tr><tr><td><strong>Custom Effect</strong></td><td><strong>No effect</strong></td><td>Printing is flat</td></tr></tbody></table>
 {% endstep %}
 
 {% step %}
@@ -62,7 +62,7 @@ Still on **Personalizer Settings**:
 
 Then test in the preview with a one-character name and a twelve-character one. The short one should look right; the long one should shrink rather than overflow.
 
-See [Curve and auto-fit width](curve-and-auto-fit.md).
+See [Curve and auto-fit width](layer-settings/curve-and-auto-fit.md).
 {% endstep %}
 
 {% step %}
@@ -80,7 +80,7 @@ On its **Personalizer Settings**:
 
 <table><thead><tr><th width="230">Setting</th><th width="180">Value</th><th>Why</th></tr></thead><tbody><tr><td><strong>Image shape</strong></td><td>A rectangle matching your print panel</td><td>The photo reads as printed, not pasted</td></tr><tr><td><strong>Background mode</strong></td><td><strong>Cover</strong></td><td>Fills the panel whatever shape they upload</td></tr><tr><td><strong>Width</strong> / <strong>Height</strong></td><td>Sized to the panel</td><td></td></tr><tr><td><strong>X-Axis</strong> / <strong>Y-Axis</strong></td><td>Positioned on the panel, below the name</td><td>So the two layers do not overlap</td></tr><tr><td><strong>Enable clip area</strong></td><td>On, matching the print panel, outline visible</td><td>Nothing can stray off the printable area</td></tr><tr><td><strong>Allow customers to</strong></td><td><strong>Change position</strong>, <strong>Resize</strong></td><td>Only they know which part of their photo matters</td></tr><tr><td><strong>Rotate</strong></td><td>Off</td><td>A rotated photo on a mug looks like a mistake</td></tr></tbody></table>
 
-See [Image layers](image-layers.md), [Clip area](clip-area.md), and [Customer controls](customer-controls.md).
+See [Image layers](layer-settings/image-layers.md), [Clip area](layer-settings/clip-area.md), and [Customer controls](layer-settings/customer-controls.md).
 {% endstep %}
 
 {% step %}

@@ -19,7 +19,7 @@ All values are percentages of the image, like [layer positions](position-size-ro
 
 <!-- SCREENSHOT: pp-clip-area | App admin → builder → option có personalizer | Nhóm setting clip area + preview hiện vùng clip có viền | Khoanh vùng clip trong preview -->
 
-<figure><img src="../.gitbook/assets/placeholder.png" alt="The clip area settings with the region outlined on the product preview"><figcaption><p>The clip area is visible while you position it, and can be hidden from shoppers.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/placeholder.png" alt="The clip area settings with the region outlined on the product preview"><figcaption><p>The clip area is visible while you position it, and can be hidden from shoppers.</p></figcaption></figure>
 
 ## What it is for
 
@@ -85,7 +85,7 @@ If you let shoppers move a layer, leaving the outline **visible** is usually kin
 
 Both stop text escaping, differently.
 
-<table><thead><tr><th width="230"></th><th width="290">Clip area</th><th>Auto-fit max width</th></tr></thead><tbody><tr><td>What it does</td><td>Cuts off whatever is outside the region</td><td>Shrinks the text so it fits</td></tr><tr><td>Applies to</td><td>Text and image layers</td><td><a href="../option-types/input-types/text.md">Text</a> and <a href="../option-types/input-types/number.md">Number</a> only</td></tr><tr><td>Result with a long entry</td><td>Truncated in the preview</td><td>Smaller but complete</td></tr><tr><td>Best for</td><td>Enforcing a boundary, especially with customer controls</td><td>Keeping the whole entry visible</td></tr></tbody></table>
+<table><thead><tr><th width="230"></th><th width="290">Clip area</th><th>Auto-fit max width</th></tr></thead><tbody><tr><td>What it does</td><td>Cuts off whatever is outside the region</td><td>Shrinks the text so it fits</td></tr><tr><td>Applies to</td><td>Text and image layers</td><td><a href="../../option-types/input-types/text.md">Text</a> and <a href="../../option-types/input-types/number.md">Number</a> only</td></tr><tr><td>Result with a long entry</td><td>Truncated in the preview</td><td>Smaller but complete</td></tr><tr><td>Best for</td><td>Enforcing a boundary, especially with customer controls</td><td>Keeping the whole entry visible</td></tr></tbody></table>
 
 For engraving text, [auto-fit](curve-and-auto-fit.md#auto-fit-max-width) is usually the better first choice — shrinking is friendlier than cutting. Use a clip area as well when customers can move things, or when the boundary is a hard production limit.
 

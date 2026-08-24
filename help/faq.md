@@ -217,21 +217,21 @@ It draws the customer's text and images onto your product photo, live, as they t
 <details>
 <summary>Can customers upload their own image?</summary>
 
-Yes, with a File upload option enabled for the Personalizer. See [Image layers](../personalizer/image-layers.md).
+Yes, with a File upload option enabled for the Personalizer. See [Image layers](../personalizer/layer-settings/image-layers.md).
 
 </details>
 
 <details>
 <summary>Can I use my own fonts?</summary>
 
-Yes, custom fonts can be uploaded on qualifying plans. See [Fonts](../personalizer/fonts.md).
+Yes, custom fonts can be uploaded on qualifying plans. See [Fonts](../personalizer/layer-settings/fonts.md).
 
 </details>
 
 <details>
 <summary>How do I stop customers dragging text off the printable area?</summary>
 
-Set a [clip area](../personalizer/clip-area.md). Any customer control — drag, resize, rotate — needs one.
+Set a [clip area](../personalizer/layer-settings/clip-area.md). Any customer control — drag, resize, rotate — needs one.
 
 </details>
 
@@ -245,7 +245,7 @@ Yes, the design is available from the order. See [Cart and orders](../personaliz
 <details>
 <summary>Can text follow a curve?</summary>
 
-Yes, on Text and Number layers. See [Curve and auto-fit](../personalizer/curve-and-auto-fit.md).
+Yes, on Text and Number layers. See [Curve and auto-fit](../personalizer/layer-settings/curve-and-auto-fit.md).
 
 </details>
 

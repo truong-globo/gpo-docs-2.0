@@ -59,13 +59,13 @@ To let customers choose a font and see their text in it on the product photo:
 {% step %}
 ### Add a text option and turn on its Personalizer
 
-Set it up as a text layer. See [Text layers](../../personalizer/text-layers.md).
+Set it up as a text layer. See [Text layers](../../personalizer/layer-settings/text-layers.md).
 {% endstep %}
 
 {% step %}
 ### Set its Font family
 
-Choose **Google** or **Custom** and pick the font, which becomes the starting font. See [Fonts](../../personalizer/fonts.md).
+Choose **Google** or **Custom** and pick the font, which becomes the starting font. See [Fonts](../../personalizer/layer-settings/fonts.md).
 {% endstep %}
 
 {% step %}

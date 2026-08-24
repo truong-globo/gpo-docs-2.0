@@ -37,7 +37,7 @@ Without it, the closed field shows only the value's name, and the shopper has to
 
 Supported as an **image layer**. Each value's image can be drawn onto the product photo when it is selected, with image shape, background mode, size, position, rotation, a clip area, and customer controls.
 
-This is the combination behind "choose a design and see it on the product": an Image dropdown for the list, Personalizer for the preview. See [Image layers](../../personalizer/image-layers.md).
+This is the combination behind "choose a design and see it on the product": an Image dropdown for the list, Personalizer for the preview. See [Image layers](../../personalizer/layer-settings/image-layers.md).
 
 ## Add-on pricing
 

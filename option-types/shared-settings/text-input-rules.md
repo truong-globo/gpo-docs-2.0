@@ -69,7 +69,7 @@ They are independent and combine cleanly. A typical engraving field:
 
 ## Notes
 
-* The Personalizer live preview draws the transformed text, so what the customer sees on the product photo matches what you will produce. See [Text layers](../../personalizer/text-layers.md).
+* The Personalizer live preview draws the transformed text, so what the customer sees on the product photo matches what you will produce. See [Text layers](../../personalizer/layer-settings/text-layers.md).
 * Neither setting affects the option's **Label**, **Name**, or **Help text** — only the shopper's entry.
 * Neither applies to any other option type. A dropdown's values are text you control, so there is nothing to restrict or normalise.
 

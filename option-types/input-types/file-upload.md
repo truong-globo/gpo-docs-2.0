@@ -53,7 +53,7 @@ Its personalizer settings are:
 * **Clip area** — a region the image cannot escape
 * **Allow customers to** — change position, resize, rotate
 
-That combination is how "upload your photo and see it in the frame" works. See [Image layers](../../personalizer/image-layers.md) and [Customer controls](../../personalizer/customer-controls.md).
+That combination is how "upload your photo and see it in the frame" works. See [Image layers](../../personalizer/layer-settings/image-layers.md) and [Customer controls](../../personalizer/layer-settings/customer-controls.md).
 
 ## Add-on pricing
 

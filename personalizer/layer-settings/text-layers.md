@@ -7,7 +7,7 @@ icon: font
 
 A text layer draws what the customer typed onto the product image. These are the settings that decide how it looks.
 
-**Applies to:** [Text](../option-types/input-types/text.md), [Textarea](../option-types/input-types/textarea.md), [Number](../option-types/input-types/number.md).
+**Applies to:** [Text](../../option-types/input-types/text.md), [Textarea](../../option-types/input-types/textarea.md), [Number](../../option-types/input-types/number.md).
 
 ## The settings
 
@@ -17,7 +17,7 @@ Everything else about a text layer lives on its own page: [effects](effects.md),
 
 <!-- SCREENSHOT: pp-text-layer-settings | App admin → builder → option Text → Personalizer Settings | Nhóm setting Text color, Font size, Font style, Font family | Khoanh nhóm này -->
 
-<figure><img src="../.gitbook/assets/placeholder.png" alt="The text layer settings for colour, font size, font style, and font family"><figcaption><p>The first group on the Personalizer tab styles the text itself.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/placeholder.png" alt="The text layer settings for colour, font size, font style, and font family"><figcaption><p>The first group on the Personalizer tab styles the text itself.</p></figcaption></figure>
 
 ## Font size
 
@@ -37,7 +37,7 @@ Two things worth thinking about:
 
 **Realism.** The colour should be one you can actually produce. If you engrave in silver, a preview in black is closer to the truth than a preview in bright blue.
 
-If the customer chooses the colour, pair this layer with a [Color picker](../option-types/input-types/color-picker.md) or [Color swatch](../option-types/selection-types/color-swatch.md) — but note that the layer's colour here is fixed. To let the shopper's chosen colour drive the preview text, use the **Color preview** and **Select text box** settings on the colour option. See [Swatch style and previews](../option-types/shared-settings/swatch-style-and-previews.md#color-preview).
+If the customer chooses the colour, pair this layer with a [Color picker](../../option-types/input-types/color-picker.md) or [Color swatch](../../option-types/selection-types/color-swatch.md) — but note that the layer's colour here is fixed. To let the shopper's chosen colour drive the preview text, use the **Color preview** and **Select text box** settings on the colour option. See [Swatch style and previews](../../option-types/shared-settings/swatch-style-and-previews.md#color-preview).
 
 ## Text alignment
 
@@ -62,7 +62,7 @@ An engraved bracelet:
 ## Notes
 
 * Set a **Default value** on **Basic Settings** so the preview is never empty.
-* [Text transform](../option-types/shared-settings/text-input-rules.md#text-transform) applies before the text is drawn, so a layer shows the transformed version — which is what you will produce.
+* [Text transform](../../option-types/shared-settings/text-input-rules.md#text-transform) applies before the text is drawn, so a layer shows the transformed version — which is what you will produce.
 * The layer draws the current entry, so a **Max character** limit is also a limit on how much can overflow.
 * Number layers behave exactly like Text layers, which is what makes jersey numbers and years straightforward.
 

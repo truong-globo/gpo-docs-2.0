@@ -13,7 +13,7 @@ Adapting one is much faster than starting from an empty canvas, and it shows you
 
 **Templates** in the app menu, then the **Personalized Templates** tab.
 
-The other two tabs are [Pre-designed templates](../templates/pre-designed-templates.md), which are option sets without personalisation, and [Custom templates](../templates/custom-templates.md), which are your own.
+The other two tabs are [Pre-designed templates](pre-designed-templates.md), which are option sets without personalisation, and [Custom templates](custom-templates.md), which are your own.
 
 <!-- SCREENSHOT: pp-templates-tab | App admin → Templates → tab Personalized Templates | Grid các template có ảnh xem trước và nút Use template | Không khoanh -->
 
@@ -49,7 +49,7 @@ Give it a name that describes your products rather than the template.
 
 This is the step that matters most. The template is positioned against its own demo image, so the layers will not line up with your photograph.
 
-Open **Change background**, select **Product image**, and choose one of your own products. See [Choosing the background](setup.md#choosing-the-background).
+Open **Change background**, select **Product image**, and choose one of your own products. See [Choosing the background](../personalizer/setup.md#choosing-the-background).
 {% endstep %}
 
 {% step %}
@@ -79,7 +79,7 @@ With **View in Store**.
 
 ## What to check after using a template
 
-<table><thead><tr><th width="290">Check</th><th>Why</th></tr></thead><tbody><tr><td>The background is your product</td><td>Otherwise every layer is positioned for somebody else's photograph</td></tr><tr><td>Every layer's position</td><td>The single biggest source of "the template looks wrong"</td></tr><tr><td>Character limits</td><td>The template's limit reflects its example product, not your engraving area</td></tr><tr><td>Fonts</td><td>Change them to fonts you can actually produce. See <a href="fonts.md">Fonts</a></td></tr><tr><td>Prices</td><td>Templates carry example prices, or none</td></tr><tr><td>Option <strong>Name</strong> fields</td><td>So your orders read properly. See <a href="../option-types/shared-settings/labels-and-visibility.md">Label and Name</a></td></tr><tr><td>The product rule</td><td>A template arrives unassigned</td></tr></tbody></table>
+<table><thead><tr><th width="290">Check</th><th>Why</th></tr></thead><tbody><tr><td>The background is your product</td><td>Otherwise every layer is positioned for somebody else's photograph</td></tr><tr><td>Every layer's position</td><td>The single biggest source of "the template looks wrong"</td></tr><tr><td>Character limits</td><td>The template's limit reflects its example product, not your engraving area</td></tr><tr><td>Fonts</td><td>Change them to fonts you can actually produce. See <a href="../personalizer/layer-settings/fonts.md">Fonts</a></td></tr><tr><td>Prices</td><td>Templates carry example prices, or none</td></tr><tr><td>Option <strong>Name</strong> fields</td><td>So your orders read properly. See <a href="../option-types/shared-settings/labels-and-visibility.md">Label and Name</a></td></tr><tr><td>The product rule</td><td>A template arrives unassigned</td></tr></tbody></table>
 
 ## Choosing which template to start from
 
@@ -92,7 +92,7 @@ Pick by **shape of the problem**, not by product name. If you sell engraved hip 
 * Using a template creates a new option set. It does not modify the template, and you can use the same one repeatedly.
 * Templates arrive as **Draft** with no product rule, so nothing reaches your storefront until you set that up.
 * Personalized templates need the Personalizer on your plan. Without it the option sets are created but the layers do not draw.
-* Once you have adapted one to your products, save it as a [custom template](../templates/custom-templates.md) so your next product starts from your version rather than ours.
+* Once you have adapted one to your products, save it as a [custom template](custom-templates.md) so your next product starts from your version rather than ours.
 
 ## Troubleshooting
 
@@ -123,5 +123,5 @@ The template has no product rule and is created as **Draft**. Assign products an
 <details>
 <summary>I want my adapted version as a starting point next time</summary>
 
-Save it as a custom template. See [Custom templates](../templates/custom-templates.md).
+Save it as a custom template. See [Custom templates](custom-templates.md).
 </details>

@@ -79,7 +79,7 @@ Text that is comfortable on a monitor can be tight on a phone.
 
 * Both groups work alongside [Match theme style](match-your-theme-style.md) — use the switch as a base and adjust from here.
 * Store-wide, with no per-option-set override. Use an [HTML class](../option-types/shared-settings/direction-width-and-css.md#html-class) and [custom CSS](custom-css.md) if you need one.
-* The Personalizer's fonts are set per layer and are separate from these. See [Fonts](../personalizer/fonts.md).
+* The Personalizer's fonts are set per layer and are separate from these. See [Fonts](../personalizer/layer-settings/fonts.md).
 * Custom fonts must be uploaded before they appear here. See [Custom fonts](../settings/custom-fonts.md).
 
 ## Troubleshooting

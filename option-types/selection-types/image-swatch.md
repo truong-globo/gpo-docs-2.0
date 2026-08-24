@@ -41,7 +41,7 @@ Remember that hover does not exist in the same way on touch devices. Anything es
 
 Supported as an **image layer**: the selected value's image is drawn onto the product photo. Settings are image shape, background mode, size, position, rotation, clip area, and customer controls.
 
-This is one of the strongest combinations in the app — a grid of designs, and the chosen design appearing on the product immediately. See [Image layers](../../personalizer/image-layers.md).
+This is one of the strongest combinations in the app — a grid of designs, and the chosen design appearing on the product immediately. See [Image layers](../../personalizer/layer-settings/image-layers.md).
 
 ## Add-on pricing
 

@@ -51,7 +51,7 @@ Pre-fills the option so a customer who changes nothing still submits something.
 * **A default value with an add-on price charges immediately.** The shopper sees the higher price the moment the page loads, without having chosen anything. That may be exactly what you want for a paid upgrade you expect most people to take — but it is the most common cause of "why is my product more expensive than the listed price?".
 * On a value-picker type, the default must be one of the option's current values. If you rename or delete that value, revisit the default.
 * On a Number field, a default outside the min and max is rejected while you edit, with "The value must be between min and max."
-* The Personalizer draws the default value in the live preview, so a text layer has something to show before the customer types. See [Text layers](../../personalizer/text-layers.md).
+* The Personalizer draws the default value in the live preview, so a text layer has something to show before the customer types. See [Text layers](../../personalizer/layer-settings/text-layers.md).
 
 **Good uses**
 

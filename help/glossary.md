@@ -28,7 +28,7 @@ The Shopify mechanism that switches the app on for a theme. Nothing renders with
 The app choosing where to put the widget on your product page, used when you have not placed an app block. See [Widget placement](../storefront/widget-placement.md).
 
 **Auto-fit**\
-A Personalizer setting that shrinks text so it stays inside a set width instead of running off the product. See [Curve and auto-fit](../personalizer/curve-and-auto-fit.md).
+A Personalizer setting that shrinks text so it stays inside a set width instead of running off the product. See [Curve and auto-fit](../personalizer/layer-settings/curve-and-auto-fit.md).
 
 ## C
 
@@ -36,7 +36,7 @@ A Personalizer setting that shrinks text so it stays inside a set width instead 
 The `12 / 30` indicator under a text field. See [Limits](../option-types/shared-settings/limits.md#character-counter).
 
 **Clip area**\
-A boundary on the Personalizer canvas that a layer cannot be dragged outside. Essential whenever customers can move layers. See [Clip area](../personalizer/clip-area.md).
+A boundary on the Personalizer canvas that a layer cannot be dragged outside. Essential whenever customers can move layers. See [Clip area](../personalizer/layer-settings/clip-area.md).
 
 **Collapsible**\
 A section or option that starts folded and opens when selected. See [Collapsible layouts and sliders](../option-types/shared-settings/collapsible-layouts-and-sliders.md).
@@ -85,7 +85,7 @@ An option type where the customer types, picks, or uploads something rather than
 What the shopper reads. Distinct from **Name**. See [Label and Name](../option-types/shared-settings/labels-and-visibility.md).
 
 **Layer** (Personalizer)\
-One element drawn on the preview canvas — text from a text option, or an image from a file upload or an image swatch. See [Text layers](../personalizer/text-layers.md) and [Image layers](../personalizer/image-layers.md).
+One element drawn on the preview canvas — text from a text option, or an image from a file upload or an image swatch. See [Text layers](../personalizer/layer-settings/text-layers.md) and [Image layers](../personalizer/layer-settings/image-layers.md).
 
 **Line item property**\
 The mechanism Shopify uses to carry extra information on a cart line. Every option a customer fills in becomes one. See [Line item properties](../reference/line-item-properties.md).

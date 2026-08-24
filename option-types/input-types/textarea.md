@@ -33,7 +33,7 @@ Text and Textarea diverge in the live preview, because one is a line and the oth
 
 That means a Textarea layer is a text box you size and align, and the customer's lines wrap inside it. A Text layer is a single line you can bend along a curve.
 
-See [Text layers](../../personalizer/text-layers.md) and [Position, size, and rotation](../../personalizer/position-size-rotation.md).
+See [Text layers](../../personalizer/layer-settings/text-layers.md) and [Position, size, and rotation](../../personalizer/layer-settings/position-size-rotation.md).
 
 ## Add-on pricing
 

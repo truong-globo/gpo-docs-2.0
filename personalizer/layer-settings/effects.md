@@ -7,7 +7,7 @@ icon: sparkles
 
 **Custom Effect** applies a visual treatment to a text layer. Used well it makes a preview look like a real engraved or printed product; used carelessly it makes it look like a word-processor.
 
-**Applies to:** [Text](../option-types/input-types/text.md), [Textarea](../option-types/input-types/textarea.md), [Number](../option-types/input-types/number.md).
+**Applies to:** [Text](../../option-types/input-types/text.md), [Textarea](../../option-types/input-types/textarea.md), [Number](../../option-types/input-types/number.md).
 
 ## The five effects
 
@@ -15,7 +15,7 @@ icon: sparkles
 
 <!-- SCREENSHOT: pp-effects | App admin → builder → option Text → Personalizer Settings | Custom Effect với 5 lựa chọn dạng image button | Khoanh nhóm Custom Effect -->
 
-<figure><img src="../.gitbook/assets/placeholder.png" alt="The Custom Effect setting showing the five available text effects"><figcaption><p>Each effect is previewed as you select it, so choose by eye.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/placeholder.png" alt="The Custom Effect setting showing the five available text effects"><figcaption><p>Each effect is previewed as you select it, so choose by eye.</p></figcaption></figure>
 
 ## Stroke
 

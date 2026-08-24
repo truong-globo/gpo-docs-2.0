@@ -7,7 +7,7 @@ icon: bezier-curve
 
 Two settings that exist only on single-line text layers, because they are the answers to the two problems single lines have: curved surfaces, and text that gets longer than the space.
 
-**Applies to:** [Text](../option-types/input-types/text.md) and [Number](../option-types/input-types/number.md) only. [Textarea](../option-types/input-types/textarea.md) has **Width** and **Height** instead — see [Position, size, and rotation](position-size-rotation.md).
+**Applies to:** [Text](../../option-types/input-types/text.md) and [Number](../../option-types/input-types/number.md) only. [Textarea](../../option-types/input-types/textarea.md) has **Width** and **Height** instead — see [Position, size, and rotation](position-size-rotation.md).
 
 ## Curve
 
@@ -27,7 +27,7 @@ Set it by eye against your real product photograph. The correct value is entirel
 
 <!-- SCREENSHOT: pp-curve | App admin → builder → option Text → Personalizer Settings | Slider Curve và preview text đang uốn theo cung trên ảnh sản phẩm | Khoanh slider Curve và text uốn trong preview -->
 
-<figure><img src="../.gitbook/assets/placeholder.png" alt="The Curve slider with the preview text bent along an arc on the product photo"><figcaption><p>Curve is what makes text on a mug or a ring look printed rather than pasted on.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/placeholder.png" alt="The Curve slider with the preview text bent along an arc on the product photo"><figcaption><p>Curve is what makes text on a mug or a ring look printed rather than pasted on.</p></figcaption></figure>
 
 ## Auto-fit max width
 
@@ -83,7 +83,7 @@ So on a curved product the two settings work as a pair — the max width defines
 
 These settings make long entries *fit*; they do not make long entries *sensible*. A twelve-character plate with a forty-character entry will shrink the text to something unreadable and unproducible.
 
-Always set a [Max character](../option-types/shared-settings/limits.md#min-and-max-character) limit that matches what you can physically produce, and turn on the [Character counter](../option-types/shared-settings/limits.md#character-counter) so the customer can see it.
+Always set a [Max character](../../option-types/shared-settings/limits.md#min-and-max-character) limit that matches what you can physically produce, and turn on the [Character counter](../../option-types/shared-settings/limits.md#character-counter) so the customer can see it.
 
 ## Notes
 

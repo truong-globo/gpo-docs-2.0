@@ -31,7 +31,7 @@ Button is one of only three types with a **Slider** layout, alongside [Color swa
 
 ## Personalizer Settings
 
-Supported as an **image layer**: each value can draw an image onto the product photo when selected. Settings are image shape, background mode, size, position, rotation, clip area, and customer controls. See [Image layers](../../personalizer/image-layers.md).
+Supported as an **image layer**: each value can draw an image onto the product photo when selected. Settings are image shape, background mode, size, position, rotation, clip area, and customer controls. See [Image layers](../../personalizer/layer-settings/image-layers.md).
 
 ## Add-on pricing
 

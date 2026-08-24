@@ -33,7 +33,7 @@ Dropdown has no collapsible or slider layout — those belong to the grid types.
 
 Dropdown supports the live preview as an **image layer**: each value can carry an image that appears on the product photo when it is selected.
 
-Settings are **Image shape**, **Background mode**, width, height, position, opacity, rotation, clip area, and customer controls. See [Image layers](../../personalizer/image-layers.md).
+Settings are **Image shape**, **Background mode**, width, height, position, opacity, rotation, clip area, and customer controls. See [Image layers](../../personalizer/layer-settings/image-layers.md).
 
 That makes a Dropdown a compact way to offer many visual designs — the list stays small, but the product photo updates with each choice.
 

@@ -43,7 +43,7 @@ Text is fully supported by the live preview: the customer's words appear on the 
 
 Its personalizer settings are colour, font size, font style, font family — default, a Google font, or one of your uploaded fonts — plus position, opacity, rotation, five text effects, a clip area, and which transformations the customer may apply.
 
-Two settings are specific to Text and Number, because they are single-line: **Curve**, which bends the text along an arc, and **Auto-fit max width**, which shrinks the font when the text gets too long for the space. See [Curve and auto-fit width](../../personalizer/curve-and-auto-fit.md).
+Two settings are specific to Text and Number, because they are single-line: **Curve**, which bends the text along an arc, and **Auto-fit max width**, which shrinks the font when the text gets too long for the space. See [Curve and auto-fit width](../../personalizer/layer-settings/curve-and-auto-fit.md).
 
 Full detail: [Product Personalizer](../../personalizer/README.md).
 

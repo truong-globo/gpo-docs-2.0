@@ -43,19 +43,19 @@ The **Personalizer Settings** tab, then **Enable personalize**. See [Turning it 
 {% step %}
 ### Style each layer
 
-Colour, size, style, font, and effects for text; shape and fit mode for images. See [Text layers](text-layers.md), [Fonts](fonts.md), [Text effects](effects.md), and [Image layers](image-layers.md).
+Colour, size, style, font, and effects for text; shape and fit mode for images. See [Text layers](layer-settings/text-layers.md), [Fonts](layer-settings/fonts.md), [Text effects](layer-settings/effects.md), and [Image layers](layer-settings/image-layers.md).
 {% endstep %}
 
 {% step %}
 ### Position each layer
 
-Set the axes and, where the type offers it, the size. Then check a very long entry and a very short one. See [Position, size, and rotation](position-size-rotation.md).
+Set the axes and, where the type offers it, the size. Then check a very long entry and a very short one. See [Position, size, and rotation](layer-settings/position-size-rotation.md).
 {% endstep %}
 
 {% step %}
 ### Decide what the customer may adjust
 
-[Customer controls](customer-controls.md) — and a [clip area](clip-area.md) if you are giving them any freedom at all, so they cannot place a design where you cannot print.
+[Customer controls](layer-settings/customer-controls.md) — and a [clip area](layer-settings/clip-area.md) if you are giving them any freedom at all, so they cannot place a design where you cannot print.
 {% endstep %}
 
 {% step %}
@@ -137,7 +137,7 @@ The default is also what the customer submits if they change nothing, so choose 
 
 Normal, and where most of the design effort goes. Layers are drawn together on one background, and they can overlap.
 
-<table><thead><tr><th width="290">Combination</th><th>What to watch</th></tr></thead><tbody><tr><td>A name and a date</td><td>Different <strong>Y-Axis</strong> values so they sit on separate lines</td></tr><tr><td>Text over an uploaded photo</td><td>Contrast — dark text on a dark photo disappears. Consider a <a href="effects.md">stroke effect</a></td></tr><tr><td>Two alternative designs, never both</td><td><a href="../conditional-logic/README.md">Conditional logic</a>, so only one is ever visible</td></tr><tr><td>Layers that must stay inside a printable area</td><td>Give each one a <a href="clip-area.md">clip area</a></td></tr><tr><td>Many layers</td><td>Performance on older phones. Keep it to what the product really needs</td></tr></tbody></table>
+<table><thead><tr><th width="290">Combination</th><th>What to watch</th></tr></thead><tbody><tr><td>A name and a date</td><td>Different <strong>Y-Axis</strong> values so they sit on separate lines</td></tr><tr><td>Text over an uploaded photo</td><td>Contrast — dark text on a dark photo disappears. Consider a <a href="layer-settings/effects.md">stroke effect</a></td></tr><tr><td>Two alternative designs, never both</td><td><a href="../conditional-logic/README.md">Conditional logic</a>, so only one is ever visible</td></tr><tr><td>Layers that must stay inside a printable area</td><td>Give each one a <a href="layer-settings/clip-area.md">clip area</a></td></tr><tr><td>Many layers</td><td>Performance on older phones. Keep it to what the product really needs</td></tr></tbody></table>
 
 A hidden option draws no layer, which makes conditional logic the clean way to switch between alternative designs.
 

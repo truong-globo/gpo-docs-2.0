@@ -7,7 +7,7 @@ icon: shapes
 
 Twenty option sets built for particular kinds of product. They cover the option structure — the fields, the values, the layout — without the live preview.
 
-For setups that include the live preview, see [Personalized templates](../personalizer/personalized-templates.md).
+For setups that include the live preview, see [Personalized templates](personalized-templates.md).
 
 ## The twenty
 

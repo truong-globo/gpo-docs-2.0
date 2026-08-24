@@ -107,16 +107,16 @@
 
 * [Overview](personalizer/README.md)
 * [Set up the Personalizer](personalizer/setup.md)
-* [Text layers](personalizer/text-layers.md)
-* [Fonts](personalizer/fonts.md)
-* [Text effects](personalizer/effects.md)
-* [Position, size, and rotation](personalizer/position-size-rotation.md)
-* [Curve and auto-fit width](personalizer/curve-and-auto-fit.md)
-* [Clip area](personalizer/clip-area.md)
-* [Image layers](personalizer/image-layers.md)
-* [Customer controls](personalizer/customer-controls.md)
+* [Layer settings](personalizer/layer-settings/README.md)
+  * [Text layers](personalizer/layer-settings/text-layers.md)
+  * [Fonts](personalizer/layer-settings/fonts.md)
+  * [Text effects](personalizer/layer-settings/effects.md)
+  * [Position, size, and rotation](personalizer/layer-settings/position-size-rotation.md)
+  * [Curve and auto-fit width](personalizer/layer-settings/curve-and-auto-fit.md)
+  * [Clip area](personalizer/layer-settings/clip-area.md)
+  * [Image layers](personalizer/layer-settings/image-layers.md)
+  * [Customer controls](personalizer/layer-settings/customer-controls.md)
 * [Designs in cart and orders](personalizer/cart-and-orders.md)
-* [Personalized templates](personalizer/personalized-templates.md)
 * [Walkthrough: custom printed mug](personalizer/walkthrough-custom-mug.md)
 * [Troubleshooting personalizer](personalizer/troubleshooting.md)
 
@@ -124,6 +124,7 @@
 
 * [Overview](templates/README.md)
 * [Pre-designed templates](templates/pre-designed-templates.md)
+* [Personalized templates](templates/personalized-templates.md)
 * [Custom templates](templates/custom-templates.md)
 
 ## Translations and languages

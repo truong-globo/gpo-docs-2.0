@@ -7,13 +7,13 @@ icon: images
 
 An image layer draws a picture onto the product photograph — either a file the customer uploaded, or an image attached to the value they chose.
 
-**Applies to:** [File upload](../option-types/input-types/file-upload.md), and eight selection types: [Dropdown](../option-types/selection-types/dropdown.md), [Color dropdown](../option-types/selection-types/color-dropdown.md), [Image dropdown](../option-types/selection-types/image-dropdown.md), [Radio button](../option-types/selection-types/radio-button.md), [Checkbox](../option-types/selection-types/checkbox.md), [Button](../option-types/selection-types/button.md), [Color swatch](../option-types/selection-types/color-swatch.md), [Image swatch](../option-types/selection-types/image-swatch.md).
+**Applies to:** [File upload](../../option-types/input-types/file-upload.md), and eight selection types: [Dropdown](../../option-types/selection-types/dropdown.md), [Color dropdown](../../option-types/selection-types/color-dropdown.md), [Image dropdown](../../option-types/selection-types/image-dropdown.md), [Radio button](../../option-types/selection-types/radio-button.md), [Checkbox](../../option-types/selection-types/checkbox.md), [Button](../../option-types/selection-types/button.md), [Color swatch](../../option-types/selection-types/color-swatch.md), [Image swatch](../../option-types/selection-types/image-swatch.md).
 
 ## Where the image comes from
 
 <table><thead><tr><th width="290">Option type</th><th>The layer draws</th></tr></thead><tbody><tr><td>File upload</td><td>The file the customer uploaded</td></tr><tr><td>The eight selection types</td><td>The image attached to the option value they selected</td></tr></tbody></table>
 
-For selection types that means each value needs its own image in the values table. See [Working with option values](../option-sets/option-values.md).
+For selection types that means each value needs its own image in the values table. See [Working with option values](../../option-sets/option-values.md).
 
 ## The two settings unique to image layers
 
@@ -23,7 +23,7 @@ Everything else — position, width, height, opacity, rotation, [clip area](clip
 
 <!-- SCREENSHOT: pp-image-layer | App admin → builder → option File upload → Personalizer Settings | Image shape picker và Background mode với 5 lựa chọn | Khoanh 2 setting -->
 
-<figure><img src="../.gitbook/assets/placeholder.png" alt="The image shape picker and background mode setting on an image layer"><figcaption><p>Shape decides the window; background mode decides how the image fills it.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/placeholder.png" alt="The image shape picker and background mode setting on an image layer"><figcaption><p>Shape decides the window; background mode decides how the image fills it.</p></figcaption></figure>
 
 ## Image shape
 
@@ -48,7 +48,7 @@ Five ways for the image to fit the shape. This is the setting that decides wheth
 {% hint style="warning" %}
 Avoid **Stretch** for customer uploads. Someone uploading a portrait photo into a landscape window gets a squashed picture — and either buys it and complains, or does not buy. **Cover** crops instead, which is almost always the lesser evil.
 
-Better still, combine **Cover** with the [image editor](../option-types/input-types/file-upload.md) on the upload option, so customers crop their own photo to the right shape before it ever reaches the preview.
+Better still, combine **Cover** with the [image editor](../../option-types/input-types/file-upload.md) on the upload option, so customers crop their own photo to the right shape before it ever reaches the preview.
 {% endhint %}
 
 ## The combination that works
@@ -65,7 +65,7 @@ For a chooser rather than an upload — "pick a design and see it on the product
 {% step %}
 ### Add a selection option with an image per value
 
-An [Image swatch](../option-types/selection-types/image-swatch.md) for a visible grid, or an [Image dropdown](../option-types/selection-types/image-dropdown.md) for a long list.
+An [Image swatch](../../option-types/selection-types/image-swatch.md) for a visible grid, or an [Image dropdown](../../option-types/selection-types/image-dropdown.md) for a long list.
 {% endstep %}
 
 {% step %}

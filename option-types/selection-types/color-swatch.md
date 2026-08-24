@@ -37,7 +37,7 @@ Bear in mind that larger chips push the **Add to cart** button further down the 
 
 ## Personalizer Settings
 
-Supported as an **image layer**: each colour value can carry an image drawn onto the product photo when selected — typically a photograph of the product in that colour. Settings are image shape, background mode, size, position, rotation, clip area, and customer controls. See [Image layers](../../personalizer/image-layers.md).
+Supported as an **image layer**: each colour value can carry an image drawn onto the product photo when selected — typically a photograph of the product in that colour. Settings are image shape, background mode, size, position, rotation, clip area, and customer controls. See [Image layers](../../personalizer/layer-settings/image-layers.md).
 
 ## Add-on pricing
 

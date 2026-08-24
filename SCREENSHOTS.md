@@ -975,7 +975,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 ### Text layers
 
-`personalizer/text-layers.md`
+`personalizer/layer-settings/text-layers.md`
 
 **101. `pp-text-layer-settings`**
 
@@ -986,7 +986,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 ### Fonts
 
-`personalizer/fonts.md`
+`personalizer/layer-settings/fonts.md`
 
 **102. `pp-font-family`**
 
@@ -997,7 +997,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 ### Text effects
 
-`personalizer/effects.md`
+`personalizer/layer-settings/effects.md`
 
 **103. `pp-effects`**
 
@@ -1008,7 +1008,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 ### Position, size, and rotation
 
-`personalizer/position-size-rotation.md`
+`personalizer/layer-settings/position-size-rotation.md`
 
 **104. `pp-position-settings`**
 
@@ -1019,7 +1019,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 ### Curve and auto-fit width
 
-`personalizer/curve-and-auto-fit.md`
+`personalizer/layer-settings/curve-and-auto-fit.md`
 
 **105. `pp-curve`**
 
@@ -1030,7 +1030,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 ### Clip area
 
-`personalizer/clip-area.md`
+`personalizer/layer-settings/clip-area.md`
 
 **106. `pp-clip-area`**
 
@@ -1041,7 +1041,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 ### Image layers
 
-`personalizer/image-layers.md`
+`personalizer/layer-settings/image-layers.md`
 
 **107. `pp-image-layer`**
 
@@ -1052,7 +1052,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 ### Customer controls
 
-`personalizer/customer-controls.md`
+`personalizer/layer-settings/customer-controls.md`
 
 **108. `pp-customer-controls`**
 
@@ -1072,26 +1072,26 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 * Outline: Khoanh link và modal
 
 
-### Personalized templates
-
-`personalizer/personalized-templates.md`
-
-**110. `pp-templates-tab`**
-
-* Where: App admin → Templates → tab Personalized Templates
-* Must show: Grid các template có ảnh xem trước và nút Use template
-* Outline: Không khoanh
-
-
 ### Overview
 
 `templates/README.md`
 
-**111. `tpl-tabs`**
+**110. `tpl-tabs`**
 
 * Where: App admin → Templates
 * Must show: 3 tab với badge số lượng, grid template có ảnh xem trước
 * Outline: Khoanh hàng 3 tab
+
+
+### Personalized templates
+
+`templates/personalized-templates.md`
+
+**111. `pp-templates-tab`**
+
+* Where: App admin → Templates → tab Personalized Templates
+* Must show: Grid các template có ảnh xem trước và nút Use template
+* Outline: Không khoanh
 
 
 ### Custom templates

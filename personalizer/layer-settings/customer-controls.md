@@ -19,7 +19,7 @@ All three are off by default, and you can enable any combination. With none on, 
 
 <!-- SCREENSHOT: pp-customer-controls | App admin → builder → option có personalizer | Nhóm "Allow customers to" với 3 checkbox | Khoanh nhóm này -->
 
-<figure><img src="../.gitbook/assets/placeholder.png" alt="The Allow customers to setting with change position, resize, and rotate"><figcaption><p>Three permissions, all off by default.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/placeholder.png" alt="The Allow customers to setting with change position, resize, and rotate"><figcaption><p>Three permissions, all off by default.</p></figcaption></figure>
 
 ## Always pair them with a clip area
 
@@ -49,7 +49,7 @@ Enable it only where an angled result is genuinely a valid product — a free-fo
 
 With any permission on, selecting the layer on the product image gives them handles to work with. The app also provides short on-screen guidance — telling them to drag to move, and to use the handles to resize or rotate.
 
-That wording is part of the widget text and can be reworded per language in **Settings > Translations**. See [Translate widget text](../translations/translate-widget-text.md).
+That wording is part of the widget text and can be reworded per language in **Settings > Translations**. See [Translate widget text](../../translations/translate-widget-text.md).
 
 ## Where their adjustments go
 
@@ -57,7 +57,7 @@ Their final arrangement is part of the design that reaches the order, so you can
 
 Your own position, size, and rotation settings become the **starting point** they adjust from — so it is still worth setting them sensibly. A layer that starts in the right place needs less adjusting, and a shopper who does not need to adjust anything is a shopper who does not get it wrong.
 
-See [Designs in cart and orders](cart-and-orders.md).
+See [Designs in cart and orders](../cart-and-orders.md).
 
 ## A worked configuration
 
@@ -107,5 +107,5 @@ Make the starting position and size close to what most customers want, so adjust
 <details>
 <summary>The on-screen instructions do not suit my store</summary>
 
-Reword them in **Settings > Translations**. See [Translate widget text](../translations/translate-widget-text.md).
+Reword them in **Settings > Translations**. See [Translate widget text](../../translations/translate-widget-text.md).
 </details>

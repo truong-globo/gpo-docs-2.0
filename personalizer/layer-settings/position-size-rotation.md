@@ -15,7 +15,7 @@ All the position values are **percentages of the image**, not pixels. That is wh
 
 <!-- SCREENSHOT: pp-position-settings | App admin → builder → option có personalizer | Nhóm X-Axis, Y-Axis, Opacity, Rotation dạng slider | Khoanh nhóm này -->
 
-<figure><img src="../.gitbook/assets/placeholder.png" alt="The position, opacity, and rotation sliders on the Personalizer Settings tab"><figcaption><p>Positions are percentages of the image, so they hold at any display size.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/placeholder.png" alt="The position, opacity, and rotation sliders on the Personalizer Settings tab"><figcaption><p>Positions are percentages of the image, so they hold at any display size.</p></figcaption></figure>
 
 ## Which types get width and height
 
@@ -87,7 +87,7 @@ For text following a curved surface — around a mug or a ring — use [Curve](c
 
 ## Notes
 
-* Percentages are relative to the background image, so consistent product photography is what keeps positions accurate across products. See [Choosing the background](setup.md#choosing-the-background).
+* Percentages are relative to the background image, so consistent product photography is what keeps positions accurate across products. See [Choosing the background](../setup.md#choosing-the-background).
 * If you let customers move a layer, your position is their starting point. See [Customer controls](customer-controls.md).
 * A [clip area](clip-area.md) constrains where a layer can appear, which is what makes customer freedom safe.
 * Changing the background afterwards will move everything. Set the background first.

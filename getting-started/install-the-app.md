@@ -24,8 +24,6 @@ Either open the listing directly at [apps.shopify.com/product-options-pro](https
 
 Make sure you are signed in to the correct store before installing — the App Store installs into whichever store you are currently signed in to.
 
-<!-- SCREENSHOT: start-appstore-listing | Shopify App Store, trang listing "Globo Product Options, Variant" | Tiêu đề app + nút Install | Khoanh nút Install -->
-
 <figure><img src="../.gitbook/assets/placeholder.png" alt="The Globo Product Options, Variant listing in the Shopify App Store with the Install button"><figcaption><p>Install the app from its Shopify App Store listing.</p></figcaption></figure>
 {% endstep %}
 
@@ -34,7 +32,7 @@ Make sure you are signed in to the correct store before installing — the App S
 
 Select **Install**. Shopify shows you a summary of what the app will be able to access and asks you to confirm.
 
-This screen comes from Shopify, not from the app. Read it, then select **Install** again to confirm. See [What the app can access](#what-the-app-can-access) below for what each item is used for.
+This screen comes from Shopify, not from the app. Read it, then select **Install** again to confirm. See [What the app can access](install-the-app.md#what-the-app-can-access) below for what each item is used for.
 {% endstep %}
 
 {% step %}
@@ -46,8 +44,6 @@ The app opens on the **Pricing** page. On a brand-new install you must choose a 
 * On the free plan the button reads **Continue as Free**. Select it to carry on without a charge.
 * On a paid plan the button reads **Start 14-day trial**. Select it to begin the trial. Shopify shows you its own approval screen for the recurring charge — you are not billed until the trial ends.
 * If you were given a discount code, enter it in the discount field before choosing a paid plan.
-
-<!-- SCREENSHOT: start-pricing-first-run | App admin → Pricing, lần đầu cài | 4 plan card + switch Monthly/Yearly + nút "Continue as Free" và "Start 14-day trial" | Khoanh switch Monthly/Yearly và 1 nút Start 14-day trial (có mũi tên nhỏ vì nhiều card giống nhau) -->
 
 <figure><img src="../.gitbook/assets/placeholder.png" alt="The Pricing page shown on first install, with plan cards and the monthly and yearly switch"><figcaption><p>On a new install the app opens on Pricing and asks you to choose a plan before anything else.</p></figcaption></figure>
 
@@ -67,8 +63,6 @@ After you pick a plan the app opens the **Dashboard**. At the top is the **Setup
 
 The card ticks each step off as you complete it. You can collapse it, and close it once you are done with it.
 
-<!-- SCREENSHOT: start-dashboard-setup-guide | App admin → Dashboard | Setup guide card mở, thấy 3 step + progress "0 / 3 completed" | Khoanh riêng card Setup guide -->
-
 <figure><img src="../.gitbook/assets/placeholder.png" alt="The Setup guide card on the dashboard showing three steps and a progress bar"><figcaption><p>The Setup guide tracks the three things you need to do after installing.</p></figcaption></figure>
 {% endstep %}
 {% endstepper %}
@@ -81,7 +75,7 @@ The app is installed when you can see the Dashboard. Nothing is visible to shopp
 
 Shopify asks you to approve this access during install. Here is what each item is for.
 
-<table><thead><tr><th width="250">Access</th><th>What the app uses it for</th></tr></thead><tbody><tr><td>Products</td><td>Showing your products and variants in the pickers when you assign an option set or link an add-on product, and creating add-on products when you ask the app to generate one for you.</td></tr><tr><td>Themes</td><td>Checking whether the app embed is enabled on a theme, and listing your themes on the <strong>Theme Setup</strong> page.</td></tr><tr><td>Files</td><td>Storing the images you upload for image swatches, custom preview backgrounds, and personalization shapes, and the fonts you upload.</td></tr><tr><td>Draft orders</td><td>An alternative checkout route, in which a cart is sent to a draft-order invoice rather than the standard checkout.</td></tr><tr><td>Orders</td><td>Reading order details so the app can show option data and power analytics.</td></tr><tr><td>Store languages</td><td>Listing your storefront languages so you can translate option content per language.</td></tr><tr><td>Sales channels</td><td>Publishing an option set to the Online Store and Point of Sale channels, and publishing add-on products it generates.</td></tr><tr><td>Storefront product data</td><td>Reading up-to-date variant and inventory data on the storefront so out-of-stock handling and pricing previews are correct.</td></tr><tr><td>Cart pricing</td><td>Applying add-on prices to the cart at checkout so the customer is charged the correct total. See <a href="../add-on-pricing/how-pricing-is-applied.md">How pricing is applied</a>.</td></tr></tbody></table>
+<table><thead><tr><th width="250">Access</th><th>What the app uses it for</th></tr></thead><tbody><tr><td>Products</td><td>Showing your products and variants in the pickers when you assign an option set or link an add-on product, and creating add-on products when you ask the app to generate one for you.</td></tr><tr><td>Themes</td><td>Checking whether the app embed is enabled on a theme, and listing your themes on the <strong>Theme Setup</strong> page.</td></tr><tr><td>Files</td><td>Storing the images you upload for image swatches, custom preview backgrounds, and personalization shapes, and the fonts you upload.</td></tr><tr><td>Orders</td><td>Reading order details so the app can show option data and power analytics.</td></tr><tr><td>Store languages</td><td>Listing your storefront languages so you can translate option content per language.</td></tr><tr><td>Sales channels</td><td>Publishing an option set to the Online Store and Point of Sale channels, and publishing add-on products it generates.</td></tr><tr><td>Storefront product data</td><td>Reading up-to-date variant and inventory data on the storefront so out-of-stock handling and pricing previews are correct.</td></tr><tr><td>Cart pricing</td><td>Applying add-on prices to the cart at checkout so the customer is charged the correct total. See <a href="../add-on-pricing/how-pricing-is-applied.md">How pricing is applied</a>.</td></tr></tbody></table>
 
 Some access is requested later, only if you use the feature that needs it:
 
@@ -99,25 +93,33 @@ In both cases the app shows you what it is asking for and you approve it in Shop
 ## Troubleshooting
 
 <details>
+
 <summary>The app keeps sending me back to the Pricing page</summary>
 
 That is expected until a plan is selected. Choose **Continue as Free** or start a trial on a paid plan. If you selected a paid plan but did not finish Shopify's charge approval screen, the selection did not complete — go back to **Pricing** and select the plan again.
+
 </details>
 
 <details>
+
 <summary>I cannot install the app — Shopify says I do not have permission</summary>
 
 You are signed in as a staff member or collaborator without app installation rights. Ask the store owner to install the app, or to grant you the **Apps** permission in **Settings > Users and permissions**.
+
 </details>
 
 <details>
+
 <summary>I installed it but I do not see it in my admin</summary>
 
 Go to **Apps** in your Shopify admin — installed apps are listed there. If you use the search bar at the top of Shopify admin, search for the app name and open it from the results.
+
 </details>
 
 <details>
+
 <summary>I installed it on the wrong store</summary>
 
 Uninstall it from that store's **Apps** page, sign in to the correct store, then install again. Uninstalling removes the app's access to that store.
+
 </details>

@@ -59,7 +59,7 @@ A pre-filled answer. If it carries an add-on price, that price is charged from p
 An option type collecting two or more measurements and pricing them with a formula. See [Dimension](../option-types/input-types/dimension.md).
 
 **Draft**\
-An option set's inactive status. Draft sets never render on the storefront. See [Status and sales channels](../option-sets/status-and-sales-channels.md).
+An option set's inactive status. Draft sets never render on the storefront. See [Activate and publish](../option-sets/create-an-option-set.md#activate-and-publish).
 
 ## F
 
@@ -153,7 +153,7 @@ An option that must be answered before the product can be added to the cart — 
 ## S
 
 **Sales channel** (option set)\
-Whether the option set applies to the Online Store, Point of Sale, or both. See [Status and sales channels](../option-sets/status-and-sales-channels.md).
+Whether the option set applies to the Online Store, Point of Sale, or both. See [Activate and publish](../option-sets/create-an-option-set.md#activate-and-publish).
 
 **Section**\
 A visual group inside an option set, used to break long forms into headed blocks. Sections can have their own conditional logic. See [Build your options](../option-sets/build-options.md#sections).

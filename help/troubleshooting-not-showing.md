@@ -25,7 +25,7 @@ See [Enable the app embed](../getting-started/enable-the-app-embed.md).
 
 A **Draft** option set never renders. On the **Option Sets** list, filter to **Draft** to catch anything you forgot to activate.
 
-See [Status and sales channels](../option-sets/status-and-sales-channels.md).
+See [Activate and publish](../option-sets/create-an-option-set.md#activate-and-publish).
 {% endstep %}
 
 {% step %}

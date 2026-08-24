@@ -128,11 +128,21 @@ If something is missing, the builder switches you to the step that needs attenti
 {% step %}
 ### Activate and publish
 
-A new option set is created as **Draft** and does not render on any channel.
+A new option set is created as **Draft** and does not render on any channel. Both controls sit next to the option set's name in the builder header.
 
-Set the status to **Active**, then check **Sales channels**: **Online Store** for your storefront, **Point of Sale** if you also sell in person.
+Set the status to **Active**, then check **Sales channels**:
 
-See [Status and sales channels](status-and-sales-channels.md).
+<table><thead><tr><th width="200">Channel</th><th>What it covers</th></tr></thead><tbody><tr><td><strong>Online Store</strong></td><td>Your storefront: product pages, quickview popups, and featured-product sections on other pages</td></tr><tr><td><strong>Point of Sale</strong></td><td>Orders you take in person through the Shopify POS app</td></tr></tbody></table>
+
+Both are on by default. Turning one off is how you say "these options are for in-store orders only" — or the reverse.
+
+<!-- SCREENSHOT: set-status-channels | App admin → builder | Khối Status cạnh tên option set (Active) và popover Sales channels với 2 switch | Khoanh khối Status và Sales channels -->
+
+<figure><img src="../.gitbook/assets/placeholder.png" alt="The status control and Sales channels popover in the builder header"><figcaption><p>Status and Sales channels sit next to the option set's name.</p></figcaption></figure>
+
+{% hint style="warning" %}
+Ticking **Point of Sale** is not enough on its own. Some option types do not work in POS, and one add-on mode is not supported there. Read [POS limitations](../pos/limitations.md) before relying on it.
+{% endhint %}
 {% endstep %}
 
 {% step %}
@@ -143,6 +153,16 @@ Use **View in Store** in the builder header to open a product that this option s
 If the option set is active and the [app embed](../getting-started/enable-the-app-embed.md) is enabled, your options render there.
 {% endstep %}
 {% endstepper %}
+
+## The status line in the builder
+
+Above the **Setup flow** panel the builder prints a one-line summary, so you can see the set's state without hunting for it:
+
+* what it is assigned to — "Not assigned yet", "Applies to all products", "Applies to 12 selected products", or a summary of the automatic conditions
+* when it was last updated, or that it has unsaved changes
+* its status, or a warning if a rule is incomplete
+
+If that line says the set is not assigned, or flags a problem, fix it before wondering why the storefront is empty.
 
 ## What Save actually stores
 
@@ -157,6 +177,10 @@ The builder tracks unsaved changes and warns you before you navigate away. If yo
 * There is no limit on how many option sets you can have on current plans, nor on how many options each contains.
 * Creating an option set does not create products. Products are only created if you use the **Automatically generate product** add-on mode — see [Automatically generate a product](../add-on-pricing/auto-generate-a-product.md).
 * Several option sets may apply to the same product. They all render, in the order the app loads them. If you see duplicates, look for a second overlapping set.
+* Status and sales channels are per option set. There is no store-wide "switch everything off" — for that, turn off the app embed.
+* Setting a set back to **Draft** deletes nothing. Options, rules, and prices are kept exactly as they were.
+* Add-on products the app generated stay in your Shopify catalogue when a set goes to draft. They simply stop being purchasable through the widget, because the option set no longer renders.
+* Point of Sale needs a plan that includes it. If the switch is unavailable, see [Compare plans](../plans/compare-plans.md).
 
 ## Troubleshooting
 
@@ -176,6 +200,12 @@ Two options in this set share a **Name**, ignoring capitalisation and spaces. Du
 <summary>I saved it, but nothing shows on my storefront</summary>
 
 Work through the four switches: app embed enabled, status **Active**, **Online Store** ticked, and a matching product rule. See [Options are not showing up](../help/troubleshooting-not-showing.md).
+</details>
+
+<details>
+<summary>I set it to Active but it flipped back to Draft</summary>
+
+It did not flip back — the change was not saved. Change the status, then select **Save**. Alternatively use the bulk action **Set as active** on the Option Sets list, which saves immediately.
 </details>
 
 <details>

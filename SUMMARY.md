@@ -20,7 +20,6 @@
 * [Assign to products](option-sets/assign-to-products.md)
 * [Assign to customers](option-sets/assign-to-customers.md)
 * [Assign to countries](option-sets/assign-to-countries.md)
-* [Status and sales channels](option-sets/status-and-sales-channels.md)
 * [Manage option sets](option-sets/manage-option-sets.md)
 * [Duplicate and delete](option-sets/duplicate-and-delete.md)
 * [Import and export](option-sets/import-and-export.md)

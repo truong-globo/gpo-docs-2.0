@@ -28,7 +28,7 @@ Point of Sale is plan-gated. See [Compare plans](../plans/compare-plans.md).
 {% step %}
 ### The option set is published to Point of Sale
 
-Each option set has its own **Sales channels** setting. Tick **Point of Sale**. See [Status and sales channels](../option-sets/status-and-sales-channels.md).
+Each option set has its own **Sales channels** setting. Tick **Point of Sale**. See [Activate and publish](../option-sets/create-an-option-set.md#activate-and-publish).
 {% endstep %}
 
 {% step %}

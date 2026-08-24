@@ -53,7 +53,11 @@ Two things are editable directly on the row, which is faster than opening the bu
 * **Status** — flip a set between **Active** and **Draft** in place.
 * **Sales channels** — open the row's channels control, switch **Online Store** or **Point of Sale**, then save.
 
-See [Status and sales channels](status-and-sales-channels.md).
+Unlike the builder, both of these save immediately.
+
+{% hint style="info" %}
+This is how you take options off your storefront temporarily — for a sale, or while you rework them. Set the option set to **Draft**; everything is preserved, and switching it back to **Active** restores it exactly. See [Create an option set](create-an-option-set.md) for what each status and channel means.
+{% endhint %}
 
 ## Import and export
 

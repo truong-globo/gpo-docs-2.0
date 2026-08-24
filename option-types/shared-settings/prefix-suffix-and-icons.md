@@ -78,35 +78,3 @@ Both use the same icon picker. A ruler icon on a size chart, or a paintbrush on 
 * Prefix and suffix text is not translatable per language, unlike labels and help text. For units that differ by market — `cm` against `in` — use separate option sets with [country rules](../../option-sets/assign-to-countries.md).
 * Neither is included in the value on the order. If your production team needs the unit recorded, put it in the option's **Name** — for example `Width (cm)`. See [Labels and visibility](labels-and-visibility.md#name).
 * Prefixes and suffixes do not validate anything. A `cm` suffix does not stop a shopper typing `30 inches`. Use [Limits](limits.md) and [Text input rules](text-input-rules.md) for that.
-
-## Troubleshooting
-
-<details>
-<summary>I chose Prefix but nothing appears</summary>
-
-**Prefix** only chooses the kind. Set **Prefix icon** or **Prefix text** underneath it as well.
-</details>
-
-<details>
-<summary>Prefix icon is missing from the panel</summary>
-
-**Prefix** is set to **Text**. Switch it to **Icon** and the picker appears.
-</details>
-
-<details>
-<summary>My suffix is being submitted with the value</summary>
-
-It is not — suffixes are display only. If a unit is appearing in your orders, the shopper typed it. Add a suffix and mention the unit in help text so they know not to.
-</details>
-
-<details>
-<summary>The prefix is squeezing the input on mobile</summary>
-
-Shorten it, or move it to the label. Prefixes are best at one or two characters.
-</details>
-
-<details>
-<summary>My option type has no Prefix setting</summary>
-
-Only nine types have it. On others, put the equivalent information in the [Label](labels-and-visibility.md#label) or [Help text](placeholder-and-help-text.md#help-text).
-</details>

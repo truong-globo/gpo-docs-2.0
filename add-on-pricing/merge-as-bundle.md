@@ -41,29 +41,3 @@ Two other settings shape the cart experience for add-ons. Both are in **Settings
 * Purely presentational. Stock, weight, tax, and reporting are unaffected.
 * Only applies to product-backed add-ons. An [Add price](add-price-directly.md) charge has no separate line to merge in the first place.
 * Test on your own cart page after changing it — themes render carts differently, and the result is worth seeing before customers do.
-
-## Troubleshooting
-
-<details>
-<summary>Nothing changed after turning it on</summary>
-
-Save the settings, then reload your cart page with an item that actually has a product-backed add-on. A cart whose add-ons all use **Add price** has nothing to merge.
-</details>
-
-<details>
-<summary>My theme's cart still shows separate lines</summary>
-
-Themes vary in how much of the cart they build themselves. If your theme does not reflect the setting, [contact support](../help/contact-support.md) with your theme name.
-</details>
-
-<details>
-<summary>Customers are removing add-on lines and breaking their order</summary>
-
-Turn on **Hide quantity box and remove button for add-on products** in **Settings > Settings > General**.
-</details>
-
-<details>
-<summary>I want this for some products only</summary>
-
-Not possible — the setting is store-wide. Choose whichever suits the majority of your catalogue.
-</details>

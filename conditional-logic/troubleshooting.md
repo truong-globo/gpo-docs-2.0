@@ -110,7 +110,7 @@ Duplicates and imports get renumbered names to stay unique, and rules pointing a
 <details>
 <summary>A variant condition never matches</summary>
 
-Work through the list in [Conditions based on Shopify variants](conditions-on-shopify-variants.md#troubleshooting). In short: exact name, full name on multi-dimension products, advanced plan, right language, tested on a real page — and if all of those are right, it is theme integration, which support can help with.
+Five things to check: the variant name is typed exactly as in Shopify admin; on a multi-dimension product it is the full name `Size / Colour`, not one part; your plan includes advanced conditional logic; the value is entered in the storefront language you are testing; and you are testing on a real product page, because variant conditions cannot evaluate in the builder preview. If all five are right, it is theme integration — see [Conditions based on Shopify variants](conditions-on-shopify-variants.md).
 
 </details>
 

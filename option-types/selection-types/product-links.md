@@ -76,49 +76,10 @@ Product links is for when the items really are separate products:
 
 **Display style** **Image Swatch** with a photo of each model.
 
-## Limits and notes
-
+## Notes
 * Available on paid plans.
 * **Not supported on Shopify POS.**
 * Only one Product links option per option set is recommended.
 * No required field, default value, add-on price, or Personalizer.
 * Selecting a value navigates away from the current page, so anything the shopper filled in on this page is lost. Put Product links **above** your other options, or in a [Section](../static-types/section.md) of its own at the top, so it reads as navigation rather than as part of the form.
 * Linked products are ordinary products with their own option sets — remember to apply the right ones to them too.
-
-## Troubleshooting
-
-<details>
-<summary>The option does not appear in POS</summary>
-
-Product links is not supported there. Remove it from option sets published to POS, or accept that it is web-only.
-</details>
-
-<details>
-<summary>Two Product links options conflict</summary>
-
-Only one per option set is supported. Remove the extra one.
-</details>
-
-<details>
-<summary>Shoppers lose what they typed when they select a link</summary>
-
-Expected — selecting a link is navigation. Move the Product links option to the top of the form so it is used before anything is filled in.
-</details>
-
-<details>
-<summary>A linked product page has no options</summary>
-
-Option sets apply per product. Make sure your product rules cover the linked products too. See [Assign to products](../../option-sets/assign-to-products.md).
-</details>
-
-<details>
-<summary>Out-of-stock products are still linked</summary>
-
-**Out of stock options** is on **Show**. Change it to **Hide**, **Blur**, or **Strike-through**.
-</details>
-
-<details>
-<summary>I wanted the choice to change this product's price</summary>
-
-That is an add-on, not a link. See [Add-on pricing](../../add-on-pricing/README.md).
-</details>

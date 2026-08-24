@@ -61,43 +61,10 @@ A hidden field with a conditional rule — for example Name `Rush`, value `Yes`,
 
 Name `Campaign`, value `Spring gifting`, on an option set targeted at a tagged group of products, so orders can be counted later.
 
-## Limits and notes
-
+## Notes
 * Available on the Advanced plan.
 * Works in Shopify POS.
 * The value is fixed by you. There is no way for a customer or a URL parameter to change it.
 * One value per hidden field. For several pieces of information, add several hidden fields.
 * Because it is invisible, it is easy to forget. Give it a clear **Label** so it reads sensibly in the builder's option list.
 * A hidden field with no **Default value** sends nothing and is pointless — always set the value.
-
-## Troubleshooting
-
-<details>
-<summary>Nothing appears on the order</summary>
-
-**Default value** is empty. A hidden field with no value has nothing to send.
-</details>
-
-<details>
-<summary>The customer can see it in their cart</summary>
-
-Expected. It is hidden from the product page, not from the order. Move anything confidential out of it.
-</details>
-
-<details>
-<summary>I want the value to change depending on what the customer chose</summary>
-
-Use several hidden fields, each with a different value and its own conditional rule so only one applies at a time.
-</details>
-
-<details>
-<summary>I cannot find the option in the builder list</summary>
-
-It shows like any other option, using its **Label**. If the label is still at its default it is easy to miss — rename it.
-</details>
-
-<details>
-<summary>Hidden field is greyed out</summary>
-
-It is on the Advanced plan. See [Compare plans](../../plans/compare-plans.md).
-</details>

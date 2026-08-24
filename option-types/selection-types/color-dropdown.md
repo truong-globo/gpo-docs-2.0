@@ -63,42 +63,9 @@ Each value set to a two-colour split chip, so `Black and gold` shows both.
 
 Standard colours free, metallics priced through **Automatically generate product** so you can track their stock.
 
-## Limits and notes
-
+## Notes
 * Available on the Advanced plan.
 * Works in Shopify POS.
 * No slider or collapsible layout — a dropdown is already compact.
 * Colour chips are set per value in the values table, not globally.
 * Colours on screen will not match a physical product exactly. Say so in help text if colour accuracy matters.
-
-## Troubleshooting
-
-<details>
-<summary>The values table has no Color column</summary>
-
-**Swatch style** is set to **Image**. Switch it to **Color**.
-</details>
-
-<details>
-<summary>Chips are all the same colour</summary>
-
-The values still have their default colour. Set each one in the **Color** column.
-</details>
-
-<details>
-<summary>Color preview does nothing</summary>
-
-Set **Select text box** as well, and make sure that text option exists in the same option set.
-</details>
-
-<details>
-<summary>Sold-out colours are still selectable</summary>
-
-**Out of stock options** is on **Show**, or the values have no add-on product behind them. See [Out of stock options](../shared-settings/out-of-stock-options.md).
-</details>
-
-<details>
-<summary>Color dropdown is greyed out</summary>
-
-It is on the Advanced plan. See [Compare plans](../../plans/compare-plans.md).
-</details>

@@ -77,35 +77,3 @@ Error messages are read at the moment a shopper is frustrated. Wording them like
 * Anything blank in a language falls back to the default set, so a partial translation still works.
 * This is separate from [option content](translate-option-content.md), which is your own labels and values, and from the [app admin language](app-admin-language.md), which is what you see.
 * The full list of validation messages and what triggers each is in [Validation messages](translate-widget-text.md).
-
-## Troubleshooting
-
-<details>
-<summary>My changes have not appeared on the storefront</summary>
-
-Save the settings, then reload the product page. If you have several languages, confirm you edited the one you are testing in.
-</details>
-
-<details>
-<summary>A message shows a gap where a number should be</summary>
-
-The `{{ }}` variable was removed in your translation. Put it back.
-</details>
-
-<details>
-<summary>Some messages are still in English on a translated storefront</summary>
-
-Those fields are blank for that language, so they fall back to the default. Fill them in.
-</details>
-
-<details>
-<summary>Add language does not list the language I want</summary>
-
-The list comes from your Shopify storefront languages. Add it in Shopify first.
-</details>
-
-<details>
-<summary>I cannot reword an option's label here</summary>
-
-Labels are option content, edited in the builder. See [Translate option content](translate-option-content.md).
-</details>

@@ -75,43 +75,10 @@ One value, `I confirm the spelling is correct`, **Required field** on, no price.
 
 **Enable custom layout** on, **Layout type** **Collapse**, **Scroll type** **By number of option values** showing six.
 
-## Limits and notes
-
+## Notes
 * Available on all plans.
 * Works in Shopify POS.
 * Always multi-select.
 * **Required field** means at least one tick. For "exactly two", use min and max selections.
 * No slider layout — use [Color swatch](color-swatch.md) or [Image swatch](image-swatch.md) for that.
 * Every ticked value appears on the order, so a shopper ticking five values produces five entries.
-
-## Troubleshooting
-
-<details>
-<summary>Shoppers tick everything and the price soars</summary>
-
-Set **Max selections**. Without it there is no ceiling.
-</details>
-
-<details>
-<summary>I want exactly one choice</summary>
-
-Use [Radio button](radio-button.md), or set **Min selections** and **Max selections** both to `1`.
-</details>
-
-<details>
-<summary>Mixed quantity is missing</summary>
-
-It is a multi-select-only mode and should be available here. If it is not listed, check that your plan includes advanced add-on modes.
-</details>
-
-<details>
-<summary>The charge multiplies with the product quantity</summary>
-
-That is **Default** mode. Switch to **One time charge** for per-order extras.
-</details>
-
-<details>
-<summary>The list is too long</summary>
-
-Use a collapsible layout or a scroll area — see [Collapsible layouts and sliders](../shared-settings/collapsible-layouts-and-sliders.md).
-</details>

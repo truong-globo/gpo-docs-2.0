@@ -63,43 +63,10 @@ Values `1 pack`, `3 pack`, `5 pack`, priced through **Use existing product** so 
 
 **Allow multiple** on, **Max selections** `2`, **Advanced settings** **Mixed quantity**.
 
-## Limits and notes
-
+## Notes
 * Available on all plans.
 * Works in Shopify POS.
 * Slider layout is plan-gated — see [Compare plans](../../plans/compare-plans.md).
 * Per-value help text exists but is cramped inside a button. Radio buttons show it better.
 * **Not allow deselect** disappears once **Allow multiple** is on.
 * Values follow the order of the values table. For sizes, use natural order rather than alphabetical.
-
-## Troubleshooting
-
-<details>
-<summary>Buttons wrap onto too many rows</summary>
-
-The values are too long, or there are too many. Shorten them, use a **Slider** layout, or switch to a [Dropdown](dropdown.md).
-</details>
-
-<details>
-<summary>The row looks cramped on mobile</summary>
-
-Check the mobile preview in the builder. Reduce **Swatches per row** if using a slider, or shorten the value names.
-</details>
-
-<details>
-<summary>Shoppers clear their size by accident</summary>
-
-Turn on **Not allow deselect**.
-</details>
-
-<details>
-<summary>Slider is missing from Layout type</summary>
-
-Turn on **Enable custom layout** first, and check your plan includes the slider.
-</details>
-
-<details>
-<summary>Sold-out sizes are still selectable</summary>
-
-**Out of stock options** is on **Show**, or the values have no add-on product behind them.
-</details>

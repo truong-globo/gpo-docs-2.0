@@ -49,36 +49,9 @@ A paragraph explaining that engraved items are non-returnable, shown by conditio
 
 Paired with a [Size chart](size-chart.md) in a collapsed [Section](section.md).
 
-## Limits and notes
-
+## Notes
 * Available on all plans.
 * Works in Shopify POS.
 * Collects nothing, so it never reaches the cart or order.
 * Translatable per storefront language, like other option content. See [Translate option content](../../translations/translate-option-content.md).
 * Formatting comes from the editor. For anything the editor cannot produce, use [HTML](html.md).
-
-## Troubleshooting
-
-<details>
-<summary>My formatting looks different on the storefront</summary>
-
-Your theme's own text styles apply to the widget. Use an [HTML class](../shared-settings/direction-width-and-css.md#html-class) and [custom CSS](../../storefront/custom-css.md) if you need to override them.
-</details>
-
-<details>
-<summary>The paragraph makes the page too long</summary>
-
-Move the text into a [Pop-up modal](pop-up-modal.md) or [Tabs](tabs.md), or shorten it.
-</details>
-
-<details>
-<summary>My link does not work</summary>
-
-Check the address in the editor's link dialog, including the protocol for external links.
-</details>
-
-<details>
-<summary>The paragraph shows when the related options are hidden</summary>
-
-Put the same conditional rule on the paragraph, or move both into a [Section](section.md) with one rule on it.
-</details>

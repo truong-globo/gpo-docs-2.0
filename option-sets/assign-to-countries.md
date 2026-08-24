@@ -68,35 +68,8 @@ That has two consequences worth knowing:
 If your store uses Shopify Markets, this rule works alongside it. Markets controls pricing and availability; this rule controls whether your option set renders. They are independent — a country can be in an active market and still be excluded here.
 {% endhint %}
 
-## Limits and notes
-
+## Notes
 * Country restrictions narrow an option set; they never widen it. The product rule still decides which products are in scope.
 * With **Include** selected and no countries chosen, the option set has nowhere to appear. Either select countries or turn the restriction off.
 * The builder's live preview does not apply country rules. Test on your storefront, switching country with your theme's country selector.
 * Country rules apply to the Online Store. POS orders are taken in person, so a country restriction is not a meaningful filter there.
-
-## Troubleshooting
-
-<details>
-<summary>My option set disappeared everywhere</summary>
-
-You likely have **Include** on with no countries selected, or with only countries you are not browsing from. Turn **Country restrictions** off to confirm the set reappears, then rebuild the list.
-</details>
-
-<details>
-<summary>The rule does not seem to apply when I test it</summary>
-
-You are probably still browsing as your own country. Use your theme's country selector to switch, then reload the product page. Testing in the builder preview will not work — country rules are only evaluated on the storefront.
-</details>
-
-<details>
-<summary>I want to target by currency or language instead</summary>
-
-Not supported — the rule is by country. For language, translate the option content instead so the same set reads correctly everywhere. See [Translate option content](../translations/translate-option-content.md).
-</details>
-
-<details>
-<summary>Country restrictions is greyed out</summary>
-
-The feature is not included in your plan. See [Compare plans](../plans/compare-plans.md).
-</details>

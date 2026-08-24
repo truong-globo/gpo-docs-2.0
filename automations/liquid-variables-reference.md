@@ -85,35 +85,3 @@ Compact on purpose: order notes are displayed and printed in small boxes.
 * Money values need the `money` filter to be formatted — without it you get a raw number.
 * Both templates have **Revert to default** if you break them.
 * Order notes are often printed as plain text, so keep HTML formatting minimal there. Emails can carry more.
-
-## Troubleshooting
-
-<details>
-<summary>A variable outputs nothing</summary>
-
-Check the spelling against the list above, and that it is in the right scope — `line` only exists inside the line items loop.
-</details>
-
-<details>
-<summary>Prices show as raw numbers</summary>
-
-Add the `money` filter: `{{ total_price | money }}`.
-</details>
-
-<details>
-<summary>Technical entries appear in my output</summary>
-
-You are printing every property. Add the underscore check shown above.
-</details>
-
-<details>
-<summary>Uploaded files show as long addresses</summary>
-
-Use the file handling shown above to render them as links.
-</details>
-
-<details>
-<summary>Option names read badly</summary>
-
-They are the options' **Name** values. See [Label and Name](../option-types/shared-settings/labels-and-visibility.md).
-</details>

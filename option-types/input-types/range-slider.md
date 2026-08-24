@@ -68,43 +68,10 @@ Min `1`, max `5`, step `1`, suffix ` / 5`, no price.
 
 Better as a [Number](number.md) field, so the figure can drive an add-on quantity — a slider cannot be priced.
 
-## Limits and notes
-
+## Notes
 * Available on the Advanced plan.
 * Works in Shopify POS.
 * Cannot carry an add-on price; no Personalizer support.
 * Both **Min value** and **Max value** are required, since they define the track.
 * Poorly suited to precise entry, especially on touch devices. Use Number for exact figures.
 * The chosen number reaches the order as a plain value, without the prefix or suffix.
-
-## Troubleshooting
-
-<details>
-<summary>Shoppers cannot land on the exact value they want</summary>
-
-**Step** is too coarse, or the range is too wide for a slider. Reduce the step, narrow the range, or switch to a [Number](number.md) field.
-</details>
-
-<details>
-<summary>I cannot find a Price field</summary>
-
-Range slider has none. Use Number if the value should drive a charge.
-</details>
-
-<details>
-<summary>The value has no unit on the order</summary>
-
-Prefix and suffix are display only. Put the unit in the option's **Name** — `Chain length (cm)`.
-</details>
-
-<details>
-<summary>The slider does not match my theme's colours</summary>
-
-Its three colours are in **Settings > Design**. See [Colors](../../storefront/colors.md).
-</details>
-
-<details>
-<summary>Range slider is greyed out</summary>
-
-It is on the Advanced plan. See [Compare plans](../../plans/compare-plans.md).
-</details>

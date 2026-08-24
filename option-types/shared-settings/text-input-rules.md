@@ -72,29 +72,3 @@ They are independent and combine cleanly. A typical engraving field:
 * The Personalizer live preview draws the transformed text, so what the customer sees on the product photo matches what you will produce. See [Text layers](../../personalizer/layer-settings/text-layers.md).
 * Neither setting affects the option's **Label**, **Name**, or **Help text** — only the shopper's entry.
 * Neither applies to any other option type. A dropdown's values are text you control, so there is nothing to restrict or normalise.
-
-## Troubleshooting
-
-<details>
-<summary>Shoppers say they cannot type certain characters</summary>
-
-**Allowed value** is set to **Letters** or **Letters & numbers**. Loosen it, or explain it in help text.
-</details>
-
-<details>
-<summary>Digits are being rejected in a name field</summary>
-
-**Letters** blocks digits. Switch to **Letters & numbers**.
-</details>
-
-<details>
-<summary>My orders arrive in the wrong capitalisation</summary>
-
-Set **Text transform**. If they are already arriving transformed but wrongly — `Mcdonald` instead of `McDonald` — switch back to **Default** and check those orders by hand.
-</details>
-
-<details>
-<summary>Text transform is not applying</summary>
-
-Confirm you are looking at a Text or Textarea option, save the option set, and refresh the product page. Existing cart items keep the value they were added with.
-</details>

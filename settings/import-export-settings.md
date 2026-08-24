@@ -115,35 +115,3 @@ Workflows are configured per store. See [Automations](../automations/README.md).
 * A custom **Widget placement** selector refers to a theme's markup, so it may need changing on a different store.
 * Custom CSS travels, but it refers to your theme's classes — check it on the new store.
 * Import and export of settings may be plan-gated. See [Compare plans](../plans/compare-plans.md).
-
-## Troubleshooting
-
-<details>
-<summary>The import did nothing visible</summary>
-
-Reload the Settings page, then check a real product page. Some settings only show their effect on the storefront.
-</details>
-
-<details>
-<summary>The widget is in the wrong place after importing</summary>
-
-A custom selector from the old store does not match the new theme. Choose one of the default placements, or find the new selector. See [Widget placement](../storefront/widget-placement.md).
-</details>
-
-<details>
-<summary>My fonts are missing</summary>
-
-Font files do not travel in the export. Re-upload them. See [Custom fonts](custom-fonts.md).
-</details>
-
-<details>
-<summary>My option sets did not come across</summary>
-
-They are exported separately. See [Import and export](../option-sets/import-and-export.md).
-</details>
-
-<details>
-<summary>I imported the wrong file and lost my settings</summary>
-
-Import your own export to restore them. If you have no export, the settings must be rebuilt — which is the argument for exporting before you change anything.
-</details>

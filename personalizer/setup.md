@@ -13,57 +13,18 @@ The background belongs to the **option set**. The layers belong to individual **
 
 ## The three parts
 
-<table><thead><tr><th width="180">Part</th><th width="230">What it is</th><th>Where you set it</th></tr></thead><tbody><tr><td><strong>The background</strong></td><td>The image the layers are drawn on — a product photo, or an image you upload</td><td>Once per option set, from the builder's preview panel</td></tr><tr><td><strong>The layers</strong></td><td>One per option with the Personalizer turned on. Text or image</td><td>Per option, on its <strong>Personalizer Settings</strong> tab</td></tr><tr><td><strong>Customer controls</strong></td><td>Which layers the shopper may move, resize, or rotate themselves</td><td>Per option, per layer</td></tr></tbody></table>
-
-On the storefront these combine into one thing: the product photo with the customer's content drawn on it, redrawing as they type or choose, with no reload and no button to press.
+<table><thead><tr><th width="180">Part</th><th width="230">What it is</th><th>Where you set it</th></tr></thead><tbody><tr><td><strong>The background</strong></td><td>The image the layers are drawn on — a product photo, or one you upload</td><td>Once per option set, from the builder's preview panel</td></tr><tr><td><strong>The layers</strong></td><td>One per option with the Personalizer on. Text or image</td><td>Per option, on its <strong>Personalizer Settings</strong> tab</td></tr><tr><td><strong>Customer controls</strong></td><td>Which layers the shopper may move, resize, or rotate</td><td>Per option, per layer</td></tr></tbody></table>
 
 ## The order to work in
 
-{% stepper %}
-{% step %}
-### Set the background
+Layer positions are measured against the background, so the background comes first. After that:
 
-In the builder's preview panel, select **Change background**. Full detail in [Choosing the background](#choosing-the-background) below.
-
-Everything else is positioned against this image, so it comes first.
-{% endstep %}
-
-{% step %}
-### Build the options normally
-
-Labels, limits, prices, conditional logic. Do the ordinary option work before the personalisation work — see [Build your options](../option-sets/build-options.md).
-{% endstep %}
-
-{% step %}
-### Turn the Personalizer on for each option
-
-The **Personalizer Settings** tab, then **Enable personalize**. See [Turning it on for an option](#turning-it-on-for-an-option) below.
-{% endstep %}
-
-{% step %}
-### Style each layer
-
-Colour, size, style, font, and effects for text; shape and fit mode for images. See [Text layers](layer-settings/text-layers.md), [Fonts](layer-settings/fonts.md), [Text effects](layer-settings/effects.md), and [Image layers](layer-settings/image-layers.md).
-{% endstep %}
-
-{% step %}
-### Position each layer
-
-Set the axes and, where the type offers it, the size. Then check a very long entry and a very short one. See [Position, size, and rotation](layer-settings/position-size-rotation.md).
-{% endstep %}
-
-{% step %}
-### Decide what the customer may adjust
-
-[Customer controls](layer-settings/customer-controls.md) — and a [clip area](layer-settings/clip-area.md) if you are giving them any freedom at all, so they cannot place a design where you cannot print.
-{% endstep %}
-
-{% step %}
-### Test on a real product page
-
-**View in Store**, with an entry a real customer would type — a full name, not `test`. Check it on a phone too.
-{% endstep %}
-{% endstepper %}
+1. **Set the background** — [Choosing the background](#choosing-the-background) below.
+2. **Build the options normally** — labels, limits, prices, conditional logic. See [Build your options](../option-sets/build-options.md).
+3. **Turn the Personalizer on for each option** — [Turning it on for an option](#turning-it-on-for-an-option) below.
+4. **Style and position each layer** — see [Layer settings](layer-settings/README.md).
+5. **Decide what the customer may adjust** — [Customer controls](layer-settings/customer-controls.md), plus a [clip area](layer-settings/clip-area.md) if you give them any freedom at all.
+6. **Test on a real product page** with **View in Store**, using an entry a real customer would type — a full name, not `test`. Check it on a phone too.
 
 ## Choosing the background
 
@@ -99,13 +60,16 @@ Appears only with **Custom image** selected. It decides when the shopper sees yo
 
 **Only after personalization** is usually better: shoppers see the real product first, and the mock-up appears exactly when it becomes useful.
 
-### What makes a good background
+<details>
+<summary>What makes a good background photograph</summary>
 
 The preview is only as convincing as this image.
 
 <table><thead><tr><th width="290">Do</th><th>Avoid</th></tr></thead><tbody><tr><td>A flat, front-on view of the surface being personalised</td><td>Angled or three-quarter shots — flat text on a perspective surface looks wrong</td></tr><tr><td>Even, diffuse lighting</td><td>Strong shadows or highlights across the personalisation area</td></tr><tr><td>A plain area where the text will sit</td><td>Busy patterns behind the text</td></tr><tr><td>Consistent framing across your products</td><td>Different crops per product, when one option set covers many</td></tr><tr><td>Large enough to stay sharp on a big screen</td><td>Small images that soften when scaled up</td></tr></tbody></table>
 
 If your products are photographed at an angle, a flat-shot **Custom image** mock-up is less authentic but far more convincing.
+
+</details>
 
 ## Turning it on for an option
 
@@ -133,7 +97,8 @@ Set a **Default value** on **Basic Settings** — `Your name`, `Your text` — a
 
 The default is also what the customer submits if they change nothing, so choose something sensible.
 
-## Several personalised options on one product
+<details>
+<summary>Several personalised options on one product</summary>
 
 Normal, and where most of the design effort goes. Layers are drawn together on one background, and they can overlap.
 
@@ -141,11 +106,16 @@ Normal, and where most of the design effort goes. Layers are drawn together on o
 
 A hidden option draws no layer, which makes conditional logic the clean way to switch between alternative designs.
 
-## What the preview is, and is not
+<details>
+<summary>What the preview is, and is not</summary>
 
 <table><thead><tr><th width="290">It is</th><th>It is not</th></tr></thead><tbody><tr><td>A representation of the finished product, good enough to sell from</td><td>A print-ready proof</td></tr><tr><td>Live, updating as the customer types</td><td>Colour-accurate — screens are not calibrated</td></tr><tr><td>A record of what the customer intended</td><td>A guarantee that production will match it exactly</td></tr></tbody></table>
 
 Say so where it matters. A line of [help text](../option-types/shared-settings/placeholder-and-help-text.md#help-text) — "the preview is a guide; final placement may vary slightly" — prevents disputes about millimetres.
+
+</details>
+
+</details>
 
 ## Notes
 

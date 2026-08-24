@@ -118,42 +118,9 @@ Customer rules are what make "different options for different shoppers" possible
 
 Both target the same products, but only one ever renders for a given shopper. See [Duplicate and delete](duplicate-and-delete.md).
 
-## Limits and notes
-
+## Notes
 * Customer rules narrow an option set; they never widen it. A product outside the product rule stays outside, whoever is looking.
 * Rules are evaluated on the storefront using the signed-in customer. A guest matches only **Everyone** or a **Guest** condition — a tag condition cannot match somebody the store does not know.
 * Customer tags are managed in Shopify admin on the customer's record, not in this app.
 * The live preview in the builder does not apply customer rules. Test by signing in to your storefront as a test customer.
 * Manual customer selection needs the customer data permission described above.
-
-## Troubleshooting
-
-<details>
-<summary>"Please select customer to apply this option set."</summary>
-
-**Manual Selection** is on with nobody selected. Select customers, or switch to **Everyone** or **Automatic Rules**.
-</details>
-
-<details>
-<summary>I cannot select customers — the picker is empty or does not open</summary>
-
-The customer data permission has not been approved yet. Turn the block on again and approve the access notice. If you dismissed it, reload the page and try once more.
-</details>
-
-<details>
-<summary>My tag rule does not match, even though the customer has the tag</summary>
-
-Three things to check: the shopper must be **signed in** for the app to know their tags; the tag must be spelled exactly as in the rule; and the tag lives on the customer record in Shopify, not on the order.
-</details>
-
-<details>
-<summary>Guests see nothing at all</summary>
-
-Your customer rule excludes them. A tag, name, or email condition can never match a visitor who is not signed in. Add a **Guest** condition with **any condition**, or switch to **Everyone**.
-</details>
-
-<details>
-<summary>The option set is missing for everybody after I set a customer rule</summary>
-
-Set **Customers** back to **Everyone** and confirm the set appears. If it does, your customer condition is too narrow — most often a tag that does not exist on any customer record.
-</details>

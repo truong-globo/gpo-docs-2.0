@@ -86,8 +86,7 @@ Color picker with **Color preview** on, **Select text box** pointing at the `Emb
 
 Default value set to your most common ink colour, not required, so most shoppers accept the default.
 
-## Limits and notes
-
+## Notes
 * Available on paid plans.
 * Works in Shopify POS.
 * No Personalizer settings on this type — apply the Personalizer to the text option instead.
@@ -97,29 +96,3 @@ Default value set to your most common ink colour, not required, so most shoppers
 {% hint style="warning" %}
 Screens differ. A colour the customer chose on their phone will not match your product exactly. Say so in help text — "we match to the nearest available shade" saves disputes.
 {% endhint %}
-
-## Troubleshooting
-
-<details>
-<summary>Color preview does nothing</summary>
-
-Set **Select text box** as well — the preview needs to know which text it is colouring, and that text option must exist in the same option set.
-</details>
-
-<details>
-<summary>Customers choose colours I cannot produce</summary>
-
-Switch to a [Color swatch](../selection-types/color-swatch.md) with your real palette, and offer the picker only behind a conditional rule for genuine bespoke work.
-</details>
-
-<details>
-<summary>The colour on the order does not match what they saw</summary>
-
-Expected — screens are not calibrated. Explain your matching policy in help text.
-</details>
-
-<details>
-<summary>I want the chosen colour drawn on the product photo</summary>
-
-That is the Personalizer, applied to the text or image option, not to the picker. See [Product Personalizer](../../personalizer/README.md).
-</details>

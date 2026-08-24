@@ -46,30 +46,9 @@ Nothing, which is the point. The options above and below it have more space betw
 
 Conditional logic matching the group below it, so you do not get an unexplained gap when that group is hidden.
 
-## Limits and notes
-
+## Notes
 * Available on all plans.
 * Works in Shopify POS.
 * Collects nothing, so it never reaches the cart or order.
 * Vertical only.
 * Renders the same on desktop and mobile, so a large value that looks right on desktop can look like a mistake on a phone. Check the mobile preview.
-
-## Troubleshooting
-
-<details>
-<summary>The spacing has no visible effect</summary>
-
-The height is very small, or your theme's own spacing already dominates. Increase the height, or set widget spacing with [custom CSS](../../storefront/custom-css.md).
-</details>
-
-<details>
-<summary>There is an odd gap when a group is hidden</summary>
-
-The Spacing option is still visible while the group is not. Put the same conditional rule on it, or move both into a [Section](section.md).
-</details>
-
-<details>
-<summary>Too much space on mobile</summary>
-
-Reduce the height and check the mobile preview in the builder.
-</details>

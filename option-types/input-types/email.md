@@ -57,8 +57,7 @@ Not required, help text `Optional — we will copy this address on the artwork p
 
 Not required, prefix an envelope icon, help text explaining that Shopify already emails the buyer and this is for somebody else.
 
-## Limits and notes
-
+## Notes
 * Available on paid plans.
 * Works in Shopify POS.
 * Cannot carry an add-on price.
@@ -68,35 +67,3 @@ Not required, prefix an envelope icon, help text explaining that Shopify already
 {% hint style="warning" %}
 An email address is personal data. Only collect it when you have a reason, say what the reason is in help text, and make sure your privacy policy covers it. See [Permissions and data](../../reference/permissions-and-data.md).
 {% endhint %}
-
-## Troubleshooting
-
-<details>
-<summary>"Invalid email" on an address that looks fine</summary>
-
-Check for a trailing space, a comma instead of a full stop, or two addresses in one field. Only one address per field is accepted.
-</details>
-
-<details>
-<summary>I want to collect several addresses</summary>
-
-Add one Email option per address, or use a Textarea and validate by hand.
-</details>
-
-<details>
-<summary>I cannot find a Price field</summary>
-
-Email has none. Put the charge on the option that turns the feature on.
-</details>
-
-<details>
-<summary>Customers enter their own email even though I asked for the recipient's</summary>
-
-Make the label explicit — `Recipient's email address` rather than `Email` — and explain it in help text.
-</details>
-
-<details>
-<summary>Can the app email this address automatically?</summary>
-
-Not from the option itself. Workflows email **you** when an order arrives. See [Automations](../../automations/README.md).
-</details>

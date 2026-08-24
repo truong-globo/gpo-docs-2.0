@@ -79,35 +79,3 @@ Weigh that against the risk: a quickview that can add to cart without showing op
 * Each option set's own rules still apply on these pages — status, sales channel, and product, customer, and country rules.
 * Quickview support depends on your theme, and on any quickview app you use.
 * The cart page has its own settings. See [Cart page](cart-page.md).
-
-## Troubleshooting
-
-<details>
-<summary>Options do not appear in my quickview</summary>
-
-Check **Show options on Quickview popups** is on. If it is, your theme's quickview may be built in a way the app does not yet recognise — report it with your theme name.
-</details>
-
-<details>
-<summary>Shoppers can add to cart from a quickview without choosing options</summary>
-
-That is what this setting prevents. Turn it on. If it is on and it still happens, contact support — this one matters.
-</details>
-
-<details>
-<summary>Nothing appears in my home page featured product</summary>
-
-Three things: the app block is placed inside that section; the block's **Product** setting points at a product your option set applies to; and **Show widget on home page** is on.
-</details>
-
-<details>
-<summary>Options appear on the home page but not on a regular page</summary>
-
-They are separate switches. Turn on **Show widget on regular page** too, and add the app block in that page's featured product section.
-</details>
-
-<details>
-<summary>I do not want the app running on my collection pages at all</summary>
-
-Turn **Show options on Quickview popups** off — but make sure your quickview cannot add to cart, or you will take orders without options.
-</details>

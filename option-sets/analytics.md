@@ -70,42 +70,9 @@ The **Dashboard** carries a smaller chart covering your whole store rather than 
 
 Use the dashboard for the overall picture and this page when you want to know about one option set.
 
-## Limits and notes
-
+## Notes
 * Figures are built from orders, so they only cover completed orders — not carts, and not views of the product page. The app does not measure how many shoppers saw an option and skipped it.
 * An order containing two option sets contributes to both sets' analytics.
 * Money is shown in your store's currency format.
 * Refunds and cancellations are reflected through the order data the app reads; expect figures for a recent period to settle over a day or two.
 * Basic and advanced analytics differ by plan. The per-option-set page requires advanced.
-
-## Troubleshooting
-
-<details>
-<summary>View Analytics shows an upgrade prompt</summary>
-
-Advanced analytics is not in your plan. See [Compare plans](../plans/compare-plans.md).
-</details>
-
-<details>
-<summary>Everything reads zero</summary>
-
-Either the option set has not sold in the chosen period, or it is newer than the period. Widen the range to **Last 90 days**. Confirm the set is **Active** and has actually been ordered.
-</details>
-
-<details>
-<summary>Revenue from add-ons is zero, but I charge for options</summary>
-
-Check that your add-ons are configured on the options themselves rather than being baked into the product price. Open an option and confirm its **Price** field is set. See [Where you can set add-ons](../add-on-pricing/where-you-can-set-add-ons.md).
-</details>
-
-<details>
-<summary>Most valued options is empty but I have sales</summary>
-
-The set may consist only of input-type options — text, numbers, uploads — which have no option values to rank. This chart ranks values from selection options.
-</details>
-
-<details>
-<summary>The numbers do not match my Shopify reports</summary>
-
-They measure different things. Shopify reports cover all orders; this page covers only orders containing this option set, and splits out the add-on portion. Use Shopify for accounting and this page for comparing options.
-</details>

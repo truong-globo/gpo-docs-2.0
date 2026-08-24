@@ -49,30 +49,9 @@ A Section labelled `Personalise your bracelet`, containing a **Heading 5** readi
 
 **Content** `Gift options`, with conditional logic so it appears only when the shopper is sending the item as a gift.
 
-## Limits and notes
-
+## Notes
 * Available on all plans.
 * Works in Shopify POS.
 * Collects nothing, so it never appears on the cart or order.
 * Its font comes from your typography settings; only the colour is set here. See [Borders and typography](../../storefront/borders-and-typography.md).
 * Plain text only. For bold, links, or lists, use a [Paragraph](paragraph.md).
-
-## Troubleshooting
-
-<details>
-<summary>The heading is much larger or smaller than expected</summary>
-
-Heading sizes come from your theme's typography. Try a different **Style**, or adjust the widget's typography in **Settings > Design**.
-</details>
-
-<details>
-<summary>I want bold or a link in the heading</summary>
-
-Headings are plain text. Use a [Paragraph](paragraph.md), which has a rich-text editor.
-</details>
-
-<details>
-<summary>The colour setting has no effect</summary>
-
-Save the option set and refresh the product page. If your theme forces heading colours, use an [HTML class](../shared-settings/direction-width-and-css.md#html-class) and [custom CSS](../../storefront/custom-css.md).
-</details>

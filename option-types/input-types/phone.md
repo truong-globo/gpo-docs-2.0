@@ -61,43 +61,10 @@ Validation on with **Only used to display country flags and codes** on, not requ
 
 Validation on, default country set to your own, help text explaining you only deliver domestically.
 
-## Limits and notes
-
+## Notes
 * Available on paid plans. International validation is separately plan-gated — see [Compare plans](../../plans/compare-plans.md).
 * Works in Shopify POS.
 * Cannot carry an add-on price.
 * No Personalizer support.
 * The number reaches the order as the shopper entered it, including the dialling code when validation is on.
 * Asking for a phone number reduces conversion. Only ask when you will use it, and say why in help text.
-
-## Troubleshooting
-
-<details>
-<summary>Valid numbers are being rejected</summary>
-
-The number is being checked against the selected country. Either the shopper needs to switch the country flag, or you should turn on **Only used to display country flags and codes** so nothing is rejected.
-</details>
-
-<details>
-<summary>No flag or dialling code appears</summary>
-
-**Validate international phone numbers** is off, or the feature is not in your plan.
-</details>
-
-<details>
-<summary>The field starts on the wrong country</summary>
-
-Set **Select default country**. Shoppers can still change it themselves.
-</details>
-
-<details>
-<summary>I cannot find a Price field</summary>
-
-Phone has none by design. Put the charge on a Switch or Checkbox beside it.
-</details>
-
-<details>
-<summary>Orders arrive with numbers in inconsistent formats</summary>
-
-Turn validation fully on, which normalises entries by country, and set a **Placeholder** showing the format you expect.
-</details>

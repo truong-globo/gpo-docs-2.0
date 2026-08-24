@@ -59,43 +59,10 @@ A two-column table of materials and measurements, where the content is fixed and
 
 A styled notice block, shown by conditional logic only when the shopper chooses an option with a long lead time.
 
-## Limits and notes
-
+## Notes
 * Available on the Advanced plan.
 * Works in Shopify POS.
 * Collects nothing, so it never reaches the cart or order.
 * Content is translatable per storefront language, like other option content.
 * Your theme's CSS applies to the block, so a class name that collides with a theme class can produce surprising results. Prefix your class names.
 * Test on mobile. Fixed widths and wide tables are the usual problems.
-
-## Troubleshooting
-
-<details>
-<summary>My HTML does not render as expected</summary>
-
-Check the markup is complete and well formed. Your theme's own styles also apply — inspect the element on the storefront to see what is overriding what.
-</details>
-
-<details>
-<summary>It looks broken on mobile</summary>
-
-Avoid fixed widths and wide tables. Test at mobile width in the builder preview and on a real phone.
-</details>
-
-<details>
-<summary>My styling is ignored</summary>
-
-Theme rules may be more specific. Move your styles into [custom CSS](../../storefront/custom-css.md) with a distinctive class name.
-</details>
-
-<details>
-<summary>I added a form field and nothing arrives on the order</summary>
-
-Expected. HTML blocks collect nothing. Use a real [input type](../input-types/README.md).
-</details>
-
-<details>
-<summary>HTML is greyed out</summary>
-
-It is on the Advanced plan. See [Compare plans](../../plans/compare-plans.md).
-</details>

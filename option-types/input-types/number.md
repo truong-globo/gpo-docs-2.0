@@ -61,43 +61,10 @@ Min `0`, max `99`, **Personalizer** on, drawn large and centred on the shirt bac
 
 Min `2`, max `12`, default `4`, no price — you only need the figure for production.
 
-## Limits and notes
-
+## Notes
 * Available on all plans.
 * Works in Shopify POS.
 * Only numbers can be entered — there is no need for an input rule.
 * A **Default value** outside min and max is rejected while you edit.
 * Negative numbers: set a **Min value** of `0` if you never want one.
 * For a value chosen by dragging rather than typing, see [Range slider](range-slider.md).
-
-## Troubleshooting
-
-<details>
-<summary>"The value must be between min and max"</summary>
-
-The **Default value** falls outside the limits. Change the default or widen the range.
-</details>
-
-<details>
-<summary>Customers enter values you cannot produce</summary>
-
-Set **Min value** and **Max value**, and repeat them in help text. Without limits the field accepts anything numeric.
-</details>
-
-<details>
-<summary>The add-on charge does not follow the number entered</summary>
-
-**Default** mode ignores the entered number. Use **Fixed quantity (by customer)** or **Dynamic quantity (by customer)**.
-</details>
-
-<details>
-<summary>Shoppers type the unit into the field</summary>
-
-Add a **Suffix** with the unit so there is nothing to type, and mention it in help text.
-</details>
-
-<details>
-<summary>I need decimals</summary>
-
-The field accepts decimal entries. If you need a fixed step such as 0.5, use [Range slider](range-slider.md), which has a **Step** setting.
-</details>

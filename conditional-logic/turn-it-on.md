@@ -120,41 +120,8 @@ Use it whenever more than two options share the same condition. One rule on the 
 
 See [Section](../option-types/static-types/section.md).
 
-## Limits and notes
-
+## Notes
 * A hidden option is **not validated**, so a required option currently hidden cannot block add to cart.
 * A hidden option with an add-on price is **not charged**. Hiding removes the charge.
 * Rules are evaluated live in the shopper's browser as they make choices — there is no page reload.
 * Rules are evaluated on the storefront and in the builder preview, but customer and country rules are not — those decide whether the whole option set renders.
-
-## Troubleshooting
-
-<details>
-<summary>The switch is greyed out</summary>
-
-Conditional logic is not in your plan. See [Compare plans](../plans/compare-plans.md).
-</details>
-
-<details>
-<summary>The rule builder is empty, or the source dropdown has nothing in it</summary>
-
-There is no eligible option above this one. Move the trigger option higher in the form, and check its type can be a trigger — twelve types cannot. See [Build a condition](build-a-condition.md#what-can-be-a-trigger).
-</details>
-
-<details>
-<summary>The option is always visible</summary>
-
-Either the conditions are always true, or you have **Hide** where you meant **Show**. Read the rule out loud as a sentence.
-</details>
-
-<details>
-<summary>Two conditions and it never fires</summary>
-
-You are on **All** and the two conditions contradict each other. Switch to **Any**, or fix the conditions.
-</details>
-
-<details>
-<summary>A required option is being skipped</summary>
-
-It is hidden by the rule, and hidden options are not validated. Either make it visible in that branch, or accept that it is optional there.
-</details>

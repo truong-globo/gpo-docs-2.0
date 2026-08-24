@@ -47,29 +47,8 @@ A dashed divider between two related sub-groups inside one section.
 
 Conditional logic so the divider shows only when the options below it are visible — otherwise you get a stray line with nothing under it.
 
-## Limits and notes
-
+## Notes
 * Available on all plans.
 * Works in Shopify POS.
 * Collects nothing, so it never reaches the cart or order.
 * Horizontal only.
-
-## Troubleshooting
-
-<details>
-<summary>A divider is left stranded with nothing below it</summary>
-
-The options under it are hidden by a rule, but the divider is not. Put the same conditional rule on the divider, or move both into a [Section](section.md) and put one rule on that.
-</details>
-
-<details>
-<summary>The line is invisible</summary>
-
-Its colour is close to the widget background, or the thickness is very low. Try a mid grey at 1px.
-</details>
-
-<details>
-<summary>I want a vertical divider</summary>
-
-Not supported. Use [Column width](../shared-settings/direction-width-and-css.md#column-width) to place options side by side, with [custom CSS](../../storefront/custom-css.md) for a vertical rule.
-</details>

@@ -96,42 +96,9 @@ One Size chart for clothing measurements and a second for shoe sizes, each shown
 
 From the **Pet Collar** preset, with your own neck measurements and a note on how to measure.
 
-## Limits and notes
-
+## Notes
 * Available on the Advanced plan.
 * Works in Shopify POS.
 * Collects nothing, so it never reaches the cart or order.
 * Content is translatable per storefront language — worth doing, since units differ by market. See [Translate option content](../../translations/translate-option-content.md).
 * One table per Size chart option. For several tables, add several options and reveal them with conditional logic.
-
-## Troubleshooting
-
-<details>
-<summary>Choosing a preset replaced what I had written</summary>
-
-Presets fill the table. Choose the preset first, then edit.
-</details>
-
-<details>
-<summary>The table is cramped on mobile</summary>
-
-Reduce the number of columns. Width alone will not fix a table with eight measurements on a phone.
-</details>
-
-<details>
-<summary>Shoppers still order the wrong size</summary>
-
-Check the chart matches what you ship, state the units, and say how to measure. Also make sure the link sits beside the size option rather than at the bottom of the form.
-</details>
-
-<details>
-<summary>I need two charts for different product types</summary>
-
-Add two Size chart options and use conditional logic to show the right one.
-</details>
-
-<details>
-<summary>Size chart is greyed out</summary>
-
-It is on the Advanced plan. See [Compare plans](../../plans/compare-plans.md).
-</details>

@@ -45,41 +45,8 @@ See [Stock and inventory](../../add-on-pricing/stock-and-inventory.md).
 
 <table><thead><tr><th width="290">Setting</th><th>Value</th></tr></thead><tbody><tr><td>Option type</td><td><a href="../selection-types/color-swatch.md">Color swatch</a></td></tr><tr><td><strong>Swatch style</strong></td><td><strong>Color</strong></td></tr><tr><td>Each value's <strong>Price</strong></td><td><strong>Automatically generate product</strong>, so each colour has its own inventory</td></tr><tr><td><strong>Out of stock options</strong></td><td><strong>Blur</strong></td></tr><tr><td>Value help text</td><td><code>Back in stock next week</code> on anything you know is returning</td></tr></tbody></table>
 
-## Limits and notes
-
+## Notes
 * Plan-gated. If the setting is greyed out, see [Compare plans](../../plans/compare-plans.md).
 * On **Product links** it works the same way, using the linked product's own availability.
 * The setting is per option, not per value. All values in one option share the same treatment.
 * It affects appearance and selectability only. It does not stop the customer buying the main product.
-
-## Troubleshooting
-
-<details>
-<summary>The setting makes no difference</summary>
-
-The values are not linked to add-on products, so there is no stock to read. Check each value's **Price** field — **Add price** carries no inventory. See [Add-on pricing](../../add-on-pricing/README.md).
-</details>
-
-<details>
-<summary>A value shows as out of stock when the product has stock</summary>
-
-Check the exact variant the value points at rather than the product as a whole.
-</details>
-
-<details>
-<summary>The setting is greyed out</summary>
-
-The feature is not in your plan. See [Compare plans](../../plans/compare-plans.md).
-</details>
-
-<details>
-<summary>Out-of-stock values still get ordered</summary>
-
-The setting is on **Show**, which leaves them selectable. Change it to **Hide**, **Blur**, or **Strike-through**.
-</details>
-
-<details>
-<summary>I want the whole option hidden when everything in it is out of stock</summary>
-
-Not available as a setting. Set the option to **Hide** so the list empties, or set the option set to **Draft** while you restock.
-</details>

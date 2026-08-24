@@ -50,35 +50,3 @@ The app hides those buttons where options are present, so shoppers cannot buy wi
 * Store-wide.
 * It applies to products with add-ons. A product with options but no add-ons behaves as your theme normally would.
 * It does not affect what is charged or what reaches the order — only where the shopper lands.
-
-## Troubleshooting
-
-<details>
-<summary>Adding to cart does nothing</summary>
-
-Usually a validation failure rather than a cart problem. Turn on **Auto-scroll to first error message** so the page shows you the blocked field.
-</details>
-
-<details>
-<summary>My cart drawer shows the wrong total after adding add-ons</summary>
-
-Turn **Go to cart immediately after adding to cart** on, so shoppers see the full cart page instead.
-</details>
-
-<details>
-<summary>Add-on products are missing from the cart drawer</summary>
-
-Same answer. If it happens on the full cart page too, that is worth reporting.
-</details>
-
-<details>
-<summary>Shoppers are redirected and I would rather they kept browsing</summary>
-
-Turn the setting off, then test thoroughly with add-ons on desktop and mobile before leaving it that way.
-</details>
-
-<details>
-<summary>My accelerated payment button has disappeared on some products</summary>
-
-Expected on products with options — it would skip the option form. It still works on products without options.
-</details>

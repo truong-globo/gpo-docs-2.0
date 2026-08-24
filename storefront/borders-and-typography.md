@@ -81,35 +81,3 @@ Text that is comfortable on a monitor can be tight on a phone.
 * Store-wide, with no per-option-set override. Use an [HTML class](../option-types/shared-settings/direction-width-and-css.md#html-class) and [custom CSS](custom-css.md) if you need one.
 * The Personalizer's fonts are set per layer and are separate from these. See [Fonts](../personalizer/layer-settings/fonts.md).
 * Custom fonts must be uploaded before they appear here. See [Custom fonts](../settings/custom-fonts.md).
-
-## Troubleshooting
-
-<details>
-<summary>My font is not applying</summary>
-
-Save, then reload a real product page — the builder preview uses the app's own styling. If it still does not apply, your theme's CSS may be more specific; override with [custom CSS](custom-css.md).
-</details>
-
-<details>
-<summary>The variant I want is not listed</summary>
-
-Variants depend on the font. Choose a font that has the weight you need, or upload it as a custom font.
-</details>
-
-<details>
-<summary>Corners look wrong against my theme</summary>
-
-Copy the radius from your theme's own settings rather than estimating.
-</details>
-
-<details>
-<summary>Selected swatches are hard to see</summary>
-
-Increase the **Swatch** border size and set a distinct **Swatch border active** colour.
-</details>
-
-<details>
-<summary>Some characters render in a different font</summary>
-
-The font lacks those glyphs. See [Right-to-left and non-Latin text](../translations/rtl-and-non-latin.md).
-</details>

@@ -79,29 +79,3 @@ The Theme Setup route above is the one to use, because it tells you whether it w
 
 * **The Setup guide** on the app's Dashboard has an **Enable app embed** button in step 2.
 * **Shopify directly**, without the app: **Online Store** > **Themes** > **Customize** > the app embeds icon in the left sidebar.
-
-## Troubleshooting
-
-<details>
-<summary>The badge still says Deactivated after I saved</summary>
-
-Two causes. Either **Save** was not selected in the theme editor — the toggle alone does not persist — or the embed was enabled on a different theme from the one selected in **Theme Setup**. Check the dropdown, then reload the app page.
-</details>
-
-<details>
-<summary>Options disappeared after I changed themes</summary>
-
-The new theme does not have the embed enabled. Enable it on that theme.
-</details>
-
-<details>
-<summary>I cannot find App embeds in the theme editor</summary>
-
-App embeds need an Online Store 2.0 theme. On an older theme the panel may not exist — see [Contact support](../help/contact-support.md).
-</details>
-
-<details>
-<summary>It is activated, but options appear only on some pages</summary>
-
-That is controlled by settings, not by the embed. Quickview, the home page, and regular pages each have their own switch in **Settings** > **Settings** > **General**. See [Quickview and other pages](../storefront/quickview-and-other-pages.md).
-</details>

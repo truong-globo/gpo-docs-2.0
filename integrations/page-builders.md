@@ -63,35 +63,3 @@ See [Quickview and other pages](../storefront/quickview-and-other-pages.md).
 * The app embed must be enabled on the theme, whatever the page is built with.
 * Option sets still need to be **Active**, published to **Online Store**, and matched by their product rule.
 * A builder page that does not use a real Shopify product cannot show options — there is nothing to attach them to.
-
-## Troubleshooting
-
-<details>
-<summary>Options do not appear on my builder page</summary>
-
-Add the app block if the builder supports it. If not, add your own element and target it with a CSS selector.
-</details>
-
-<details>
-<summary>Options appear but in the wrong place</summary>
-
-Move the app block, or change which of your own elements the selector targets.
-</details>
-
-<details>
-<summary>Add to cart ignores my required options</summary>
-
-The builder's button is not going through the app's validation. This needs looking at — contact support with the page and the builder name.
-</details>
-
-<details>
-<summary>It works on desktop but not on mobile</summary>
-
-Your builder probably has a separate mobile layout that needs its own app block or element.
-</details>
-
-<details>
-<summary>The Personalizer preview draws on the wrong image</summary>
-
-The builder is using its own gallery. Contact support with the page.
-</details>

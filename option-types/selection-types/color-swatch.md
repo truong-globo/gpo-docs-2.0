@@ -67,48 +67,9 @@ Each value set to a two-colour split chip.
 
 **Color preview** on, **Select text box** pointing at your engraving text option.
 
-## Limits and notes
-
+## Notes
 * Available on all plans. Slider layout is separately plan-gated.
 * Works in Shopify POS.
 * Colours are set per value in the values table.
 * Value names are shown on hover, so they still matter — a shopper on a phone may never see them, which is a reason to prefer [Color dropdown](color-dropdown.md) when names carry information.
 * Screen colours do not match physical products exactly. Say so in help text if it matters.
-
-## Troubleshooting
-
-<details>
-<summary>The values table has no Color column</summary>
-
-**Swatch style** is set to **Image**. Switch it to **Color**.
-</details>
-
-<details>
-<summary>All the chips look the same</summary>
-
-The values still hold their default colour. Set each one.
-</details>
-
-<details>
-<summary>The grid takes up too much of the page</summary>
-
-Reduce the chip size, or use the **Slider** layout. See [Collapsible layouts and sliders](../shared-settings/collapsible-layouts-and-sliders.md).
-</details>
-
-<details>
-<summary>Names do not appear on hover</summary>
-
-Check **Show tooltip when hovering over options** in **Settings > Settings > General**.
-</details>
-
-<details>
-<summary>Color preview does nothing</summary>
-
-Set **Select text box** as well, pointing at a text option in the same option set.
-</details>
-
-<details>
-<summary>Sold-out colours are still selectable</summary>
-
-**Out of stock options** is on **Show**, or the values are priced with **Add price**, which has no stock.
-</details>

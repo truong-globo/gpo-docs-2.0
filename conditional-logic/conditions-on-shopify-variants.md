@@ -31,49 +31,35 @@ A variant condition is the bridge between them.
 {% step %}
 ### Find the exact variant name in Shopify
 
-Open the product in Shopify admin and look at its variants. Note the name **exactly** — capitalisation, spacing, and punctuation all matter.
-
-For a product with one variant dimension, the name is that value: `Silver`, `Large`, `Oak`.
+Open the product in Shopify admin and note the variant name **exactly** — capitalisation, spacing, and punctuation all matter. With one variant dimension the name is just that value: `Silver`, `Large`, `Oak`.
 {% endstep %}
 
 {% step %}
-### Select the option that should appear or disappear
+### On the option you want to show or hide, turn on Conditional logic and pick Shopify variant
 
-The rule goes on the option whose visibility you are controlling.
+The rule goes on the option whose visibility you are controlling. **Shopify variant** is the first entry in the source dropdown, above your own options.
 {% endstep %}
 
 {% step %}
-### Turn on Conditional logic and choose Shopify variant
+### Choose an operator and type the variant name
 
-**Shopify variant** is the first entry in the source dropdown, above your own options.
-{% endstep %}
+Variant conditions use the text operators: **is equal to**, **is not equal to**, **starts with**, **ends with**, **contains**, **does not contain**, plus the character-count ones. Use **is equal to** for one specific variant, **contains** when the name has several parts and you only care about one.
 
-{% step %}
-### Choose an operator
-
-Variant conditions use the text operator set: **is equal to**, **is not equal to**, **starts with**, **ends with**, **contains**, **does not contain**, plus the character-count operators.
-
-**is equal to** for one specific variant. **contains** when the variant name has several parts and you only care about one of them.
-{% endstep %}
-
-{% step %}
-### Type the variant name
-
-The value is a text field, not a dropdown — the app cannot know which product the option set will be applied to, so it cannot offer a list.
+The value is a text field, not a dropdown — the app cannot know which products the option set will end up on, so it cannot offer a list.
 
 {% hint style="warning" %}
-Type it exactly as it appears in Shopify. `Large` and `large` are different; `Silver ` with a trailing space will not match.
+Type it exactly as Shopify shows it. `Large` and `large` are different, and `Silver ` with a trailing space will not match.
 {% endhint %}
 
-Notice the field shows your current storefront language as a suffix. That matters — see [Translated variant names](#translated-variant-names) below.
+The field shows your current storefront language as a suffix, which matters if your store is translated — see [Translated variant names](#translated-variant-names) below.
 {% endstep %}
 
 {% step %}
 ### Test on a real product page
 
-Use **View in Store**, then switch between variants and check the option appears and disappears as intended.
+**View in Store**, then switch between variants and check the option appears and disappears as intended.
 
-This step is not optional. The builder preview cannot test variant conditions.
+**This step is not optional** — the builder preview cannot test variant conditions, because no variant is selected there.
 {% endstep %}
 {% endstepper %}
 
@@ -95,39 +81,18 @@ Be careful with values that appear inside other values, though. **contains** `La
 
 ## Translated variant names
 
-The value field shows your current storefront language as a suffix, because variant names are text and text gets translated.
+Variant names are text, so they get translated — which means the shopper on your French storefront sees the French variant name, and your condition needs the French text to match it. The value field shows your current storefront language as a suffix for that reason.
 
-If your storefront has more than one language, the shopper on your French storefront sees the French variant name, and your condition needs the French text to match it.
+The condition stores **one value per language**, so:
 
-{% stepper %}
-{% step %}
-### Enter the value in your primary language first
-
-Type the variant name as it appears in your main storefront language.
-{% endstep %}
-
-{% step %}
-### Switch language with the builder's language switcher
-
-Use the language control in the builder header.
-{% endstep %}
-
-{% step %}
-### Re-enter the variant name in that language
-
-The condition stores a value per language, so each one needs the matching translated variant name.
-{% endstep %}
-
-{% step %}
-### Repeat for every storefront language
-
-And test on each storefront.
-{% endstep %}
-{% endstepper %}
+1. Type the variant name in your primary storefront language.
+2. Switch language with the control in the builder header, and re-enter the same variant name in that language.
+3. Repeat for every storefront language, then test on each storefront.
 
 See [Translate option content](../translations/translate-option-content.md).
 
-## Why this depends on your theme
+<details>
+<summary>Why this depends on your theme</summary>
 
 Reading the selected variant means listening to your theme's own variant picker, and themes build those very differently. The app handles this on a wide range of themes.
 
@@ -137,63 +102,18 @@ On a theme it cannot read, the condition never matches — the option either alw
 The app knows this is theme-dependent. When you add a variant condition and your plan does not include advanced conditional logic, it offers a direct link to contact support about integrating the feature with your theme. If a variant condition does not work on your theme, that is the right route — it is usually a small piece of integration work. See [Contact support](../help/contact-support.md).
 {% endhint %}
 
+</details>
+
 ## Variant condition or a separate option set?
 
 Sometimes the better answer is not a condition at all.
 
 <table><thead><tr><th width="290">Situation</th><th>Better approach</th></tr></thead><tbody><tr><td>One or two options differ by variant</td><td>Variant conditions</td></tr><tr><td>Almost the whole form differs by variant</td><td>Two option sets, targeted at different products by tag — see <a href="../option-sets/assign-to-products.md">Assign to products</a></td></tr><tr><td>The variant is really a product option, not a variant</td><td>Move it into the app as a real option, and free up the Shopify variant</td></tr><tr><td>You are past Shopify's variant limit</td><td>That is what this app is for — replace variants with options</td></tr></tbody></table>
 
-## Limits and notes
-
+## Notes
 * Requires the Advanced level of conditional logic.
 * The value is typed, not selected — the app has no way to list variants of a product it has not been applied to yet.
 * Matching is exact on characters, and language-specific.
 * The builder preview cannot evaluate variant conditions. Always test with **View in Store**.
 * If you rename a variant in Shopify, every condition referring to it stops matching. Search your option sets after renaming variants.
 * One condition reads one variant name. For several variants, add several conditions with **Any** matching, or use **contains** with a shared part of the name.
-
-## Troubleshooting
-
-<details>
-<summary>The condition never matches</summary>
-
-Work through these in order:
-
-1. Is the variant name typed exactly as in Shopify admin, including capitalisation and spacing?
-2. On a multi-dimension product, is the full name `Size / Colour` rather than just one part? Use **contains** if you only want one part.
-3. Are you testing on a real product page rather than the builder preview?
-4. Does your plan include advanced conditional logic?
-5. Does your storefront language match the language you typed the value in?
-
-If all five are right, it is likely theme integration — contact support.
-</details>
-
-<details>
-<summary>It works in the builder but not on the storefront</summary>
-
-It cannot have worked in the builder — the preview has no variant selected, so variant conditions do not evaluate there. Test only on a real product page.
-</details>
-
-<details>
-<summary>The operator and value fields are locked</summary>
-
-Variant conditions need advanced conditional logic. See [Compare plans](../plans/compare-plans.md).
-</details>
-
-<details>
-<summary>It works on my English storefront but not the French one</summary>
-
-The variant name is translated, and the condition stores a value per language. Switch language in the builder and enter the French variant name too.
-</details>
-
-<details>
-<summary>It matches more variants than I expected</summary>
-
-**contains** is matching a substring — `Large` also matches `Extra Large`. Use **is equal to** with the full name, or pick a more distinctive value.
-</details>
-
-<details>
-<summary>It stopped working after I edited my product</summary>
-
-A renamed variant breaks every condition referring to it. Update the conditions to the new name.
-</details>

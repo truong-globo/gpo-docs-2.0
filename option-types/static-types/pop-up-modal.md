@@ -51,37 +51,10 @@ Title `Care instructions`, content a short formatted list, placed at the bottom 
 
 Title `Important: engraved items cannot be returned`, shown by conditional logic only when the shopper has entered engraving text.
 
-## Limits and notes
-
+## Notes
 * Available on all plans.
 * Works in Shopify POS.
 * Collects nothing, so it never reaches the cart or order.
 * Content is translatable per storefront language. See [Translate option content](../../translations/translate-option-content.md).
 * The rich-text editor covers most formatting. For anything beyond it, use [HTML](html.md).
 * A modal is not the place for something a shopper must read before choosing — they may never open it. Use a [Paragraph](paragraph.md) for that.
-
-## Troubleshooting
-
-<details>
-<summary>The link says "Open modal"</summary>
-
-**Modal title** is still at its default. Change it to something meaningful.
-</details>
-
-<details>
-<summary>Content is cut off in the dialog</summary>
-
-Increase **Modal width**, or shorten the content. Long tables are better handled by [Size chart](size-chart.md).
-</details>
-
-<details>
-<summary>Shoppers miss important information in the modal</summary>
-
-Expected — most shoppers do not open modals. Anything essential belongs in a [Paragraph](paragraph.md) or in the option's help text.
-</details>
-
-<details>
-<summary>The dialog looks wrong on mobile</summary>
-
-Reduce **Modal width** and avoid wide tables inside it.
-</details>

@@ -89,8 +89,7 @@ Thirty Google fonts, **Style** **Dropdown**, **Search suggestion** on, **Font pr
 
 Uploaded custom fonts only, no Google fonts, **Style** **Button** so the three options are always visible.
 
-## Limits and notes
-
+## Notes
 * Available on the Advanced plan. Custom fonts are separately plan-gated.
 * Works in Shopify POS.
 * Up to 30 Google fonts per option.
@@ -98,41 +97,3 @@ Uploaded custom fonts only, no Google fonts, **Style** **Button** so the three o
 * No **Out of stock options** — fonts do not have stock.
 * Each font in the list is loaded by the browser when previewing, so a very long list is slower to render. Another reason to keep it short.
 * The chosen font's name reaches the order, so your team knows which to use.
-
-## Troubleshooting
-
-<details>
-<summary>Font names are not drawn in their fonts</summary>
-
-Turn on **Font preview**.
-</details>
-
-<details>
-<summary>Font preview does nothing visible</summary>
-
-Set **Select text box** as well, pointing at a text option in the same option set.
-</details>
-
-<details>
-<summary>My custom font is not in the list</summary>
-
-Upload it first in **Settings > Settings > General > Custom fonts**, then select it here. See [Custom fonts](../../settings/custom-fonts.md).
-</details>
-
-<details>
-<summary>"This element has reached the maximum number of font options (30)"</summary>
-
-Remove some fonts. Thirty is the ceiling per option — and far more than most shops need.
-</details>
-
-<details>
-<summary>I cannot find a Price field</summary>
-
-Font picker has none. Put any surcharge on a separate option.
-</details>
-
-<details>
-<summary>The font on the product does not match the preview</summary>
-
-Confirm your production font is the same file as the one offered. Uploading your real font as a custom font is the way to guarantee it.
-</details>

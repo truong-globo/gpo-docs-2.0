@@ -73,29 +73,3 @@ The **Tooltip** position hides the text until someone hovers, and hovering does 
 * Help text is not a substitute for validation. It tells shoppers the rule; the [limit settings](limits.md) enforce it. Use both.
 * Error messages are separate from help text, and are worded store-wide in **Settings > Translations**. See [Translate widget text](../../translations/translate-widget-text.md).
 * Help text does not appear on the cart or the order. Only the Name and the value the customer entered travel with the order.
-
-## Troubleshooting
-
-<details>
-<summary>My help text is not visible on the storefront</summary>
-
-Check **Help text position** — if it is set to **Tooltip**, the text only appears when hovering the icon next to the label. Also confirm the option's label is not hidden, since the tooltip icon sits next to it.
-</details>
-
-<details>
-<summary>The placeholder is being submitted as the answer</summary>
-
-It is not. If the order shows placeholder-looking text, the shopper typed it, or you set it as the **Default value** rather than the placeholder. See [Required field and default value](required-and-default-value.md#default-value).
-</details>
-
-<details>
-<summary>My dropdown has no prompt entry</summary>
-
-Its **Placeholder** is empty. Set it to something like `Choose a size` and the unselected prompt reappears.
-</details>
-
-<details>
-<summary>I set help text on a value but nothing shows</summary>
-
-**Select**, **Product links**, and **Tabs** support help text only at the option level. Use a type that supports per-value help text — Dropdown, Radio, Checkbox, Button, or a swatch type.
-</details>

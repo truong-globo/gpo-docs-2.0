@@ -75,42 +75,9 @@ Label `Spelling check`, switch label `I confirm the spelling above is correct`, 
 
 Label `Premium gift box`, **Selected by default** on, price attached, and help text stating the price plainly so nobody is surprised.
 
-## Limits and notes
-
+## Notes
 * Available on all plans.
 * Works in Shopify POS, provided the add-on is product-backed rather than **Add price**.
 * No Personalizer support.
 * The switch's state reaches the order as the **Switch label** text when on. Write a switch label that reads well on an order line — `Yes, wrap it` is clearer than `Yes`.
 * Conditional logic reading a Switch offers exactly two operators: **is enabled** and **is disabled**. See [Operators reference](../../conditional-logic/operators-reference.md).
-
-## Troubleshooting
-
-<details>
-<summary>Customers cannot add to cart without turning the switch on</summary>
-
-**Required field** is on. Turn it off for optional extras.
-</details>
-
-<details>
-<summary>The price is added before anybody chooses anything</summary>
-
-**Selected by default** is on and the option has a price. Turn the default off, or accept it and state the price in help text.
-</details>
-
-<details>
-<summary>The charge multiplies when somebody buys several</summary>
-
-That is **Default** mode. Switch **Advanced settings** to **One time charge**.
-</details>
-
-<details>
-<summary>The order line just says "Yes"</summary>
-
-That is the **Switch label**. Change it to something descriptive.
-</details>
-
-<details>
-<summary>It does not work on POS</summary>
-
-Check the add-on mode. **Add price** is not supported on POS — use a product-backed mode. See [POS limitations](../../pos/limitations.md).
-</details>

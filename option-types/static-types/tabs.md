@@ -57,43 +57,10 @@ Two tabs, `Materials` and `Specification`, each with a short formatted list. **V
 
 Tabs `How it works`, `Lead times`, `What we cannot engrave`, shown by conditional logic only when the shopper has chosen to personalise.
 
-## Limits and notes
-
+## Notes
 * Available on the Advanced plan.
 * Works in Shopify POS.
 * Collects nothing, so it never reaches the cart or order.
 * Titles and content are translatable per storefront language. See [Translate option content](../../translations/translate-option-content.md).
 * Tab colours are store-wide: **Tab title**, **Tab title active**, **Tab title hover**, **Tab content**, and **Tab border** in **Settings > Design**. See [Colors](../../storefront/colors.md).
 * No practical limit on the number of tabs, but past about five the row becomes unusable — switch to **Vertical** or split the content.
-
-## Troubleshooting
-
-<details>
-<summary>Tab titles wrap onto two lines</summary>
-
-Shorten them, or switch **Direction style** to **Vertical**.
-</details>
-
-<details>
-<summary>The wrong tab is open by default</summary>
-
-The first tab in the table opens first. Drag the one you want to the top.
-</details>
-
-<details>
-<summary>"Value can't contain any of the following characters , : " ' |"</summary>
-
-A tab title has a blocked character. Titles follow the option value rules.
-</details>
-
-<details>
-<summary>Tabs do not match my theme</summary>
-
-Their five colours are in **Settings > Design**. See [Colors](../../storefront/colors.md).
-</details>
-
-<details>
-<summary>Tabs is greyed out</summary>
-
-It is on the Advanced plan. See [Compare plans](../../plans/compare-plans.md).
-</details>

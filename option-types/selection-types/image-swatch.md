@@ -76,48 +76,9 @@ Swatches at `140` wide × `40` high, matching the shape of the material.
 
 Standard designs free, licensed artwork priced through **Use existing product** so it maps to a real SKU.
 
-## Limits and notes
-
+## Notes
 * Available on all plans. Slider layout is separately plan-gated.
 * Works in Shopify POS.
 * Every value needs an image; without one the swatch is blank.
 * Swatch sizes are display sizes — they do not resize the uploaded file.
 * Value names appear on hover only, so put anything essential in per-value help text.
-
-## Troubleshooting
-
-<details>
-<summary>Swatches are blank</summary>
-
-The values have no image. Upload one per value in the values table.
-</details>
-
-<details>
-<summary>The zoomed tooltip is blurry</summary>
-
-The uploaded file is smaller than the tooltip dimensions. Upload larger images, or reduce **Tooltip image width** and **Tooltip image height**.
-</details>
-
-<details>
-<summary>No tooltip appears</summary>
-
-Check **Tooltip style**, and **Show tooltip when hovering over options** in **Settings > Settings > General**. On touch devices hover behaves differently.
-</details>
-
-<details>
-<summary>Swatches look stretched</summary>
-
-Width and height do not match your images' proportions. Either match them, or crop your images consistently.
-</details>
-
-<details>
-<summary>The product page is slow</summary>
-
-Too many large images. Reduce file sizes, use the slider layout, or split the list across two options with conditional logic.
-</details>
-
-<details>
-<summary>The grid is too tall on mobile</summary>
-
-Check the mobile preview. Reduce swatch size, or use the slider with more rows and fewer per row.
-</details>

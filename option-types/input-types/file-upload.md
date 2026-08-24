@@ -83,49 +83,10 @@ To charge for an upload — an artwork setup fee, say — put the charge on a [S
 
 **Allow multiple** on, min `2`, max `6`, help text asking for one photo per angle.
 
-## Limits and notes
-
+## Notes
 * Available on paid plans. Multiple file upload and the per-file size limit are separately plan-gated.
 * Works in Shopify POS.
 * Cannot carry an add-on price.
 * Up to 20 files per option.
 * Uploaded files are attached to the order, so your team can download them from the order in Shopify admin.
 * Large uploads take time on a slow connection. Keep the allowed list tight and say what you need in help text.
-
-## Troubleshooting
-
-<details>
-<summary>The customer's file is rejected</summary>
-
-Its extension is not in **Allowed extensions**, or it is over your plan's size limit. Add the extension, or ask for a smaller file. `heic` from iPhones is the usual surprise.
-</details>
-
-<details>
-<summary>I cannot find Min or Max number of files</summary>
-
-Turn on **Allow multiple** first.
-</details>
-
-<details>
-<summary>Uploads show as links rather than images</summary>
-
-That is the store-wide **File preview** setting. Change it to show images where possible in **Settings > Settings > General**.
-</details>
-
-<details>
-<summary>I cannot find a Price field</summary>
-
-File upload has none. Put the fee on a Switch or Checkbox beside it.
-</details>
-
-<details>
-<summary>The uploaded image does not appear on the product photo</summary>
-
-Turn on **Personalizer Settings** for this option, and make sure the option set has a background image configured. See [Choosing the background](../../personalizer/setup.md#choosing-the-background).
-</details>
-
-<details>
-<summary>Customers send low-resolution photos</summary>
-
-State the minimum in help text with a real number, and turn on **Enable image editor** so they can crop rather than resize badly.
-</details>

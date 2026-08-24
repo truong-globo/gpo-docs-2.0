@@ -113,35 +113,3 @@ See [Swatch style](../option-types/shared-settings/swatch-style-and-previews.md#
 If your storefront has more than one language, values can be translated per language using the language switcher in the builder. The **Name** of the option stays untranslated so your order records remain consistent.
 
 See [Translate option content](../translations/translate-option-content.md).
-
-## Troubleshooting
-
-<details>
-<summary>"Value must be unique"</summary>
-
-Two rows have the same value once capitalisation and spaces are ignored. Look for a trailing space, or for `Red` and `RED` in the same table.
-</details>
-
-<details>
-<summary>"Value can't contain any of the following characters , : " ' |"</summary>
-
-Remove the character — see the substitutions table above. Commas and apostrophes are the usual culprits.
-</details>
-
-<details>
-<summary>Bulk add refuses my whole list</summary>
-
-One bad line blocks the entire paste. The error names the problem — a blocked character or a duplicate. Note that a duplicate can be against a value already in the table, not just within your pasted list.
-</details>
-
-<details>
-<summary>My values are in the wrong order on the storefront</summary>
-
-Storefront order follows table order exactly. Drag the rows into the order you want and save. If it looks scrambled, check whether you are looking at a slider layout, which lays values out in rows — see [Swatch slider](../option-types/shared-settings/collapsible-layouts-and-sliders.md#slider-settings).
-</details>
-
-<details>
-<summary>A value is greyed out or crossed through on the storefront</summary>
-
-That value is linked to an add-on product that is out of stock, and the option's **Out of stock options** setting decides how it looks. See [Out of stock options](../option-types/shared-settings/out-of-stock-options.md#out-of-stock-options).
-</details>

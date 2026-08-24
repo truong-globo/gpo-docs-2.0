@@ -61,37 +61,3 @@ Use it when an add-on's price or variant looks stale in the app — for example 
 * Discount codes apply to the order as Shopify calculates it, which includes add-on lines.
 * Taxes follow each product's own tax settings. That is one reason to prefer product-backed add-ons where tax treatment differs.
 * Shipping calculated by weight uses the add-on products' weights, so set them. See [Stock and inventory](stock-and-inventory.md).
-
-## Troubleshooting
-
-<details>
-<summary>The cart total does not match what the product page showed</summary>
-
-First check the display settings — **Add add-on price to the product price** changes what the page shows without changing what is charged. See [Add-on price display settings](price-display-settings.md).
-
-If the amounts genuinely disagree, check whether an option was hidden by a conditional rule between choosing and adding to cart, since hidden options are not charged.
-</details>
-
-<details>
-<summary>Nothing is charged for my add-ons at all</summary>
-
-Check the option is not hidden, that the option set is saved and **Active**, and that the price field actually holds a value. If all of that is right, contact support — this is not something to work around.
-</details>
-
-<details>
-<summary>Add-on lines appear in the cart and I did not expect them</summary>
-
-That is how product-backed add-ons work. Turn on [Merge main product and add-ons](merge-as-bundle.md) to present them as one item, or use **Add price** for add-ons that should not have their own line.
-</details>
-
-<details>
-<summary>A customer removed an add-on line and the order is now wrong</summary>
-
-Turn on **Hide quantity box and remove button for add-on products** in **Settings > Settings > General**. It is on by default.
-</details>
-
-<details>
-<summary>An add-on price in the app does not match the product in Shopify</summary>
-
-Run **Sync Add-on data** from the builder's more-actions menu.
-</details>

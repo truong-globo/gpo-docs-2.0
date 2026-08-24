@@ -61,49 +61,10 @@ See [Add-on pricing](../../add-on-pricing/README.md) and [Advanced add-on modes]
 
 Single-select, **Required field** on, **Not allow deselect** on, values linked to add-on products so sold-out sizes are hidden.
 
-## Limits and notes
-
+## Notes
 * Available on all plans.
 * Works in Shopify POS.
 * Values follow the order of the values table.
 * **Not allow deselect** disappears once **Allow multiple** is on — it only applies to single-select.
 * **Min selections** and **Max selections** only appear once **Allow multiple** is on.
 * For a grid of large swatches rather than a list, use [Color swatch](color-swatch.md) or [Image swatch](image-swatch.md), which support slider layouts.
-
-## Troubleshooting
-
-<details>
-<summary>The search box does not appear</summary>
-
-Turn on **Search suggestion** in Advanced Settings.
-</details>
-
-<details>
-<summary>I cannot find Min or Max selections</summary>
-
-Turn on **Allow multiple** first.
-</details>
-
-<details>
-<summary>Images do not show in the list</summary>
-
-Set **Swatch style** to **Image**, then upload an image on each value in the values table.
-</details>
-
-<details>
-<summary>Out-of-stock values still appear as normal</summary>
-
-**Out of stock options** is on **Show**, or the values are priced with **Add price**, which has no stock behind it. See [Out of stock options](../shared-settings/out-of-stock-options.md).
-</details>
-
-<details>
-<summary>Shoppers keep clearing their selection by accident</summary>
-
-Turn on **Not allow deselect**.
-</details>
-
-<details>
-<summary>The dropdown looks wrong against my theme</summary>
-
-Its colours are store-wide in **Settings > Design** — the **Dropdown text**, **border**, **background**, and **selected** colours. See [Colors](../../storefront/colors.md).
-</details>

@@ -115,35 +115,3 @@ Five fonts you can produce well beat thirty you cannot.
 * [Font style](text-layers.md#font-style) — bold and italic — is separate, and depends on the font having those cuts.
 * Google fonts load from Google when the page renders; custom fonts load from your store's files.
 * Each font in a Font picker list is loaded for the preview, so long lists are slower. Another reason to keep them short.
-
-## Troubleshooting
-
-<details>
-<summary>The preview font is not the one I selected</summary>
-
-The font may not have loaded. Check it is still selected, save the option set, and reload the product page.
-</details>
-
-<details>
-<summary>My custom font is not in the list</summary>
-
-Upload it first in **Settings > Settings > General > Custom fonts**, then reselect. Custom fonts are plan-gated.
-</details>
-
-<details>
-<summary>Some characters render in a different font</summary>
-
-The chosen font has no glyph for them, so a fallback is used. Choose a font with a fuller character set.
-</details>
-
-<details>
-<summary>The font looks different in production than in the preview</summary>
-
-The preview font and your production font are not the same file. Upload your production font as a custom font and use that.
-</details>
-
-<details>
-<summary>The customer's font choice does not change the preview</summary>
-
-Point **Select text box** on the Font picker at the text option, and check both are in the same option set. See [Font picker](../../option-types/selection-types/font-picker.md).
-</details>

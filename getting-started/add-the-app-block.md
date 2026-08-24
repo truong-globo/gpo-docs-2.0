@@ -74,35 +74,8 @@ In the theme editor, open the page you want, add a **Featured product** section 
 The block alone is not enough here. In the app, go to **Settings** > **Settings** > **General** > **Other pages** and turn on the matching switch — **Show widget on home page (featured product section only)** or **Show widget on regular page (featured product section only)**. With the switch off, the widget does not render even with the block in place.
 {% endhint %}
 
-## Limits and notes
-
+## Notes
 * Only the product template and **Featured product** sections make sense for the block — it needs a product in context to know which option sets apply.
 * Placing a block does **not** disable automatic placement. If the widget appears twice, remove the block or change **Widget placement** so the automatic position no longer applies.
 * App blocks are stored with the theme, like the embed. A new theme starts with none.
 * Blocks need an Online Store 2.0 theme. On an older theme, use automatic placement with a custom CSS selector instead.
-
-## Troubleshooting
-
-<details>
-<summary>Globo Product Options is not in the Add block list</summary>
-
-Check you are adding the block inside a section that accepts app blocks — usually the product information section on a product template, or a Featured product section. Some theme sections do not accept them at all. Also confirm the app is still installed.
-</details>
-
-<details>
-<summary>I added the block but nothing renders there</summary>
-
-Three things: is the [app embed](enable-the-app-embed.md) enabled on this theme; does an **Active** option set match this product; and for a home or regular page, is the matching **Other pages** switch on?
-</details>
-
-<details>
-<summary>The widget shows up twice</summary>
-
-Automatic placement and the app block are both placing it. Remove one.
-</details>
-
-<details>
-<summary>The widget disappeared after a theme update</summary>
-
-Theme updates can reset a section's blocks. Re-add the block, or switch to automatic placement, which survives theme updates.
-</details>

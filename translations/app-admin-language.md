@@ -35,29 +35,3 @@ This is the layer people change first and expect the most from. It does nothing 
 * Changing it reloads the app.
 * Your Shopify admin language is separate — set that in Shopify.
 * Screenshots in this documentation are in English. Menu names in these pages are the English ones, so if you work in another language you may need to match them by position.
-
-## Troubleshooting
-
-<details>
-<summary>My language is not in the list</summary>
-
-Eighteen are available. If yours is not among them, use English or the closest available and [tell us](../help/contact-support.md) which you would like added.
-</details>
-
-<details>
-<summary>The app is in the wrong language and I cannot find the control</summary>
-
-It is on the **Dashboard**, top right, showing a flag and the current language name. Go to the Dashboard first.
-</details>
-
-<details>
-<summary>I changed it but my storefront is still in English</summary>
-
-Expected. This setting is for the admin only. See [Translate option content](translate-option-content.md) and [Translate widget text](translate-widget-text.md).
-</details>
-
-<details>
-<summary>Some parts of the app are still in English</summary>
-
-Occasionally new features reach English first. Tell us and we will get them translated.
-</details>

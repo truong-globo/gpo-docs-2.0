@@ -86,35 +86,3 @@ Use **View in Store**. The builder preview does not use your theme's styling.
 * Store-wide. There is no per-option-set colour scheme — use an [HTML class](../option-types/shared-settings/direction-width-and-css.md#html-class) and [custom CSS](custom-css.md) for that.
 * These settings work alongside **Match theme style**, so you can use the switch as a base and adjust individual colours from there.
 * Colours apply to the storefront widget. The builder preview uses the app's own styling.
-
-## Troubleshooting
-
-<details>
-<summary>My changes have not appeared</summary>
-
-Save the settings, reload the product page, and make sure you are not looking at the builder preview.
-</details>
-
-<details>
-<summary>Selected swatches are hard to spot</summary>
-
-Set **Swatch border active** to something clearly distinct, and consider a thicker border in [Borders and typography](borders-and-typography.md).
-</details>
-
-<details>
-<summary>The required marker is invisible</summary>
-
-Change **Required character** to a colour that contrasts with your background.
-</details>
-
-<details>
-<summary>Some colours are ignored</summary>
-
-Your theme's own CSS may be more specific. Override with [custom CSS](custom-css.md).
-</details>
-
-<details>
-<summary>I want different colours per option set</summary>
-
-Not possible here. Use an HTML class and custom CSS.
-</details>

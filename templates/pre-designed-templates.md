@@ -74,29 +74,3 @@ Pick by the **shape of the form** rather than by the product name. If you sell e
 * Templates are plan-gated.
 * Once you have adapted one, save your version as a [custom template](custom-templates.md) so the next product starts from yours rather than ours.
 * A template's options can also be inserted into an option set you are already building, via **Add template** in the builder.
-
-## Troubleshooting
-
-<details>
-<summary>Nothing appears on my storefront</summary>
-
-The new option set is **Draft** and has no product rule. Assign products and set it to **Active**.
-</details>
-
-<details>
-<summary>The options are not quite what I sell</summary>
-
-Edit them. It is an ordinary option set once created — add, remove, and change anything.
-</details>
-
-<details>
-<summary>My orders read oddly</summary>
-
-The options still have template **Name** values. See [Label and Name](../option-types/shared-settings/labels-and-visibility.md).
-</details>
-
-<details>
-<summary>Templates is greyed out</summary>
-
-Option templates are not in your plan. See [Compare plans](../plans/compare-plans.md).
-</details>

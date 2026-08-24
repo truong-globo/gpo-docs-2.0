@@ -55,42 +55,9 @@ Min character `50` so you get something usable, max character `1000`, required o
 
 Max character `400`, **Personalizer** on with **Text alignment** centre and a **Width** and **Height** matching the printable area.
 
-## Limits and notes
-
+## Notes
 * Available on all plans.
 * Works in Shopify POS.
 * Line breaks are preserved and travel through to the order.
 * A very long entry is fine for the order but may not fit your printing area — set **Max character** to what you can actually produce.
 * **Allowed value** and **Text transform** apply to the whole entry, including across line breaks.
-
-## Troubleshooting
-
-<details>
-<summary>The box is too small or too large on the product page</summary>
-
-Its height comes from your theme and the widget's styling. Adjust with [custom CSS](../../storefront/custom-css.md) using an [HTML class](../shared-settings/direction-width-and-css.md#html-class), or set **Column width** to change its width.
-</details>
-
-<details>
-<summary>Line breaks are lost by the time the order reaches my team</summary>
-
-The value keeps its line breaks. Some order-printing tools collapse them — check the tool rather than the option.
-</details>
-
-<details>
-<summary>Per-character pricing produced a huge charge</summary>
-
-A Textarea with no **Max character** and per-character pricing is unbounded. Set a maximum, or switch to a flat charge.
-</details>
-
-<details>
-<summary>The preview text overflows its box</summary>
-
-Textarea uses **Width** and **Height** rather than auto-fit. Increase them, reduce **Font size**, or lower **Max character**.
-</details>
-
-<details>
-<summary>I want a curved message</summary>
-
-**Curve** exists on Text only. Use a Text option for curved single lines.
-</details>

@@ -71,29 +71,3 @@ Not the builder preview. Open a product the option set applies to and check it b
 ## Cancelling
 
 Uninstalling the app from Shopify admin ends the subscription. Your option sets stop rendering, and add-on products the app generated stay in your Shopify catalogue as ordinary products. See [Permissions and data](../reference/permissions-and-data.md).
-
-## Troubleshooting
-
-<details>
-<summary>I upgraded but a setting is still greyed out</summary>
-
-Reload the app. If it is still locked, confirm the upgrade completed — Shopify's charge approval screen has to be finished. The **Pricing** page marks your current plan.
-</details>
-
-<details>
-<summary>A feature stopped working and I changed nothing</summary>
-
-Check whether your plan changed. A trial ending returns you to your previous plan without warning you at that moment.
-</details>
-
-<details>
-<summary>I cannot add another option set</summary>
-
-You are at your plan's limit. Delete one you no longer use, or upgrade — the **Create option set** button shows an upgrade prompt at the ceiling.
-</details>
-
-<details>
-<summary>A "Powered by" line appears under my options</summary>
-
-That is the watermark, shown on plans without **Remove watermarks**. It disappears automatically on a plan that includes it. See [Compare plans](compare-plans.md).
-</details>

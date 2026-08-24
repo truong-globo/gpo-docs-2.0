@@ -78,47 +78,17 @@ Some practical advice:
 * With **All**, check your conditions can be true at the same time. `Size is equal to S` and `Size is equal to L` can never both be true.
 * With **Any**, check they are not so broad that the rule always fires.
 
-## What happens if the source option changes later
+<details>
+<summary>What happens if the source option changes later</summary>
 
 <table><thead><tr><th width="290">You do this</th><th>What happens to the rule</th></tr></thead><tbody><tr><td>Rename an option value</td><td>Conditions pointing at the old value stop matching. Reopen the rule and reselect the value.</td></tr><tr><td>Delete the source option</td><td>The condition is no longer valid and resets to an empty row. Rebuild it.</td></tr><tr><td>Change the source option's type</td><td>The operator set changes, so the existing operator may no longer be valid. Reopen the rule and reselect.</td></tr><tr><td>Move the source option below this one</td><td>It is no longer eligible as a source. Move it back, or rebuild the rule.</td></tr><tr><td>Duplicate or import options</td><td>Names are renumbered to stay unique, and rules pointing at them are repointed automatically.</td></tr></tbody></table>
 
 Get into the habit of testing your rules in the preview after editing option values.
 
-## Limits and notes
+</details>
 
+## Notes
 * Conditions can only read options in the **same option set**. A rule cannot look at an option in a different set that happens to apply to the same product.
 * A hidden option is not validated and not charged.
 * All conditions in one rule share the same matching mode — no mixed `and`/`or` in a single rule.
 * Variant conditions require the Advanced level of conditional logic.
-
-## Troubleshooting
-
-<details>
-<summary>The option I want is not in the source dropdown</summary>
-
-Either it sits below this option — move it up — or its type cannot be a trigger. See the list above.
-</details>
-
-<details>
-<summary>The value field disappeared</summary>
-
-Expected for **has file**, **no file**, **is enabled**, and **is disabled**. Those operators need no value.
-</details>
-
-<details>
-<summary>My typed value never matches</summary>
-
-The comparison is exact. Copy the value from the source option's values table rather than retyping it, or use the value dropdown, which is available whenever the source is a selection type.
-</details>
-
-<details>
-<summary>My condition reset itself to empty</summary>
-
-The source option was deleted, so the condition became invalid. Rebuild it against an option that still exists.
-</details>
-
-<details>
-<summary>The operator list changed after I edited the source option</summary>
-
-You changed its type, which changes the operator set. Reselect the operator.
-</details>

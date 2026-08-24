@@ -109,35 +109,3 @@ A Radio button with `Standard` free, `Priority` at $8.00, `Same day` at $20.00, 
 * A price attached to a **default value** is charged as soon as the page loads. See [Required field and default value](../option-types/shared-settings/required-and-default-value.md#default-value).
 * A hidden option is not charged — hiding an option with a conditional rule removes its price.
 * On a multi-select option, every selected value with a price is charged. Cap it with [Max selections](../option-types/shared-settings/limits.md#min-and-max-selections).
-
-## Troubleshooting
-
-<details>
-<summary>The price does not appear on the product page</summary>
-
-Check **Show add-on for inputs** and **Show add-on for options** in **Settings > Settings > Add-on price**. They control whether the preview is displayed at all. See [Add-on price display settings](price-display-settings.md).
-</details>
-
-<details>
-<summary>The product price on the page does not change</summary>
-
-That is **Add add-on price to the product price** in the same settings. With it off, the add-on is shown separately instead of being folded into the displayed price.
-</details>
-
-<details>
-<summary>Nothing is charged at checkout</summary>
-
-Check the option is not hidden by a conditional rule, and that the option set is saved and active. If it still does not charge, see [How pricing is applied](how-pricing-is-applied.md).
-</details>
-
-<details>
-<summary>It does not work in POS</summary>
-
-Expected — **Add price** is not supported there. Switch the affected values to a product-backed mode.
-</details>
-
-<details>
-<summary>Out of stock options does nothing</summary>
-
-There is no product, so no stock. Use a product-backed mode if you need stock behaviour.
-</details>

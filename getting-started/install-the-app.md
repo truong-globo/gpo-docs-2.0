@@ -84,42 +84,7 @@ Some access is requested later, only if you use the feature that needs it:
 
 In both cases the app shows you what it is asking for and you approve it in Shopify, exactly like the original install.
 
-## Limits and notes
-
+## Notes
 * Installing does not add, remove, or edit any of your theme files.
 * Installing does not create products. Products are only created if you later choose the **Automatically generate product** add-on mode — see [Automatically generate a product](../add-on-pricing/auto-generate-a-product.md).
 * The plan you choose controls which option types and features are available. Locked items still appear in the app, greyed out, with an upgrade prompt — see [Locked features](../plans/compare-plans.md).
-
-## Troubleshooting
-
-<details>
-
-<summary>The app keeps sending me back to the Pricing page</summary>
-
-That is expected until a plan is selected. Choose **Continue as Free** or start a trial on a paid plan. If you selected a paid plan but did not finish Shopify's charge approval screen, the selection did not complete — go back to **Pricing** and select the plan again.
-
-</details>
-
-<details>
-
-<summary>I cannot install the app — Shopify says I do not have permission</summary>
-
-You are signed in as a staff member or collaborator without app installation rights. Ask the store owner to install the app, or to grant you the **Apps** permission in **Settings > Users and permissions**.
-
-</details>
-
-<details>
-
-<summary>I installed it but I do not see it in my admin</summary>
-
-Go to **Apps** in your Shopify admin — installed apps are listed there. If you use the search bar at the top of Shopify admin, search for the app name and open it from the results.
-
-</details>
-
-<details>
-
-<summary>I installed it on the wrong store</summary>
-
-Uninstall it from that store's **Apps** page, sign in to the correct store, then install again. Uninstalling removes the app's access to that store.
-
-</details>

@@ -42,8 +42,8 @@ Every task page follows this order. Skip a section only if it genuinely does not
 6. `## Settings reference` — a table of every field on that screen: `Setting | Where | Default | What it does | Notes`.
 7. `## Example` — one or two realistic scenarios with real numbers.
 8. `## What customers see` — the storefront result.
-9. `## Limits and notes` — plan gating, POS support, theme dependencies, interactions with other features.
-10. `## Troubleshooting` — 2–4 items as symptom → cause → fix.
+9. `## Notes` — plan gating, POS support, theme dependencies, interactions with other features.
+10. `## Notes` — plan gating, POS support, theme dependencies, and anything that does not fit the main flow.
 
 Reference pages (shared settings, operator tables, matrices) may drop steps 5 and 8.
 
@@ -112,3 +112,15 @@ Rules:
 
 - These docs describe the current version of the app only. Do not mention or contrast with the older app version.
 - Support email: `contact@globo.io`.
+
+Call it `## Notes` — never "Limits and notes". One trailing notes section per page, five bullets at most.
+
+## 9. Troubleshooting
+
+Do **not** add a `## Troubleshooting` section to a normal page. Troubleshooting lives on three dedicated pages only:
+
+- `help/troubleshooting.md` — cross-cutting problems, plus the table of app messages.
+- `conditional-logic/troubleshooting.md`
+- `personalizer/troubleshooting.md`
+
+Anything a reader must know to avoid a mistake belongs inline, as a `hint`, at the point where they would make it — not in a list of symptoms at the bottom.

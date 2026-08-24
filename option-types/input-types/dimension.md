@@ -87,8 +87,7 @@ Width and height in centimetres, formula `(x + y) * 2 * {{addon}}`, since a fram
 
 One axis only — delete the other two rows — label `Length`, unit `m`, formula `x * {{addon}}`.
 
-## Limits and notes
-
+## Notes
 * Available on the Advanced plan.
 * **Not supported on Shopify POS.**
 * No Personalizer support.
@@ -96,41 +95,3 @@ One axis only — delete the other two rows — label `Length`, unit `m`, formul
 * The formula cannot contain subtraction.
 * Each measurement reaches the order as its own value, with the axis label, so your team sees `Width: 120` rather than a single combined string.
 * Set **Min** and **Max** on every axis. Without them a customer can order a size you cannot produce, at a price the formula happily calculates.
-
-## Troubleshooting
-
-<details>
-<summary>"Formula cannot contain subtraction"</summary>
-
-Remove the `-`. Rewrite the calculation using multiplication, addition, and division.
-</details>
-
-<details>
-<summary>The calculated price is wrong by a factor of ten or a hundred</summary>
-
-Your **Add-on price** rate is out by an order of magnitude. Work it back from a known size: for a 60 × 90 piece you want to sell at $54, the rate is 54 ÷ (60 × 90) = 0.01.
-</details>
-
-<details>
-<summary>Customers order impossible sizes</summary>
-
-**Min** and **Max** are empty on one of the axes. Set both on every axis you keep.
-</details>
-
-<details>
-<summary>The option does not appear in POS</summary>
-
-Dimension is not supported there. Use Number fields for in-person orders. See [POS limitations](../../pos/limitations.md).
-</details>
-
-<details>
-<summary>I only need one measurement</summary>
-
-Delete the rows you do not need. A single-axis Dimension works, and gives you the unit and formula that a plain Number field does not.
-</details>
-
-<details>
-<summary>Dimension is greyed out</summary>
-
-It is on the Advanced plan. See [Compare plans](../../plans/compare-plans.md).
-</details>

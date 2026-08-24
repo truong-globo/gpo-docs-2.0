@@ -61,29 +61,3 @@ Doing this before a theme launch avoids the most alarming version of this proble
 * Turning it off is a clean way to switch the app off storefront-wide without uninstalling.
 * The badge updates by itself when you come back from the theme editor — the app re-checks when the tab becomes visible again.
 * The **Dashboard** shows the same status, plus a count of any [app blocks](../getting-started/add-the-app-block.md) you have placed.
-
-## Troubleshooting
-
-<details>
-<summary>The badge says Deactivated after I enabled it</summary>
-
-Make sure you saved in the theme editor, and that you enabled it on the same theme the selector has chosen. Then return to the app tab, or reload it.
-</details>
-
-<details>
-<summary>Options disappeared after a theme change</summary>
-
-The new theme does not have the app embed enabled. Select it here and turn it on.
-</details>
-
-<details>
-<summary>Go to Theme Editor is not shown</summary>
-
-It only appears when the selected theme shows **Deactivated**. If it already says **Activated**, there is nothing to do.
-</details>
-
-<details>
-<summary>My theme is not in the list</summary>
-
-The list comes from your Shopify themes. If it is missing, reload the page.
-</details>

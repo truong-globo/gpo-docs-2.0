@@ -26,23 +26,12 @@ Each option in the panel shows a short summary so you can scan the form without 
 
 ## Adding options
 
-### Add an option
+Select the add button inside a section. The picker has two tabs — **Option Types** for all 32 types, grouped into **Input**, **Selection**, and **Static**; and **Option Templates** for a saved group of options inserted in one go. It also offers **Add section** and **Add template** directly.
 
-Select the add button inside a section. A picker opens with two tabs:
+Two shortcuts worth knowing:
 
-<table><thead><tr><th width="220">Tab</th><th>What it offers</th></tr></thead><tbody><tr><td><strong>Option Types</strong></td><td>All 32 types, grouped into <strong>Input</strong>, <strong>Selection</strong>, and <strong>Static</strong>.</td></tr><tr><td><strong>Option Templates</strong></td><td>A saved group of options inserted in one go, from our library or your own templates.</td></tr></tbody></table>
-
-The picker also offers **Add section** and **Add template** directly.
-
-### Add an option between two others
-
-Hover between two options in the list and an insert control appears. Use it to drop a new option exactly where you want it instead of adding at the end and dragging.
-
-### Add a whole template
-
-**Add template** inserts a ready-made group. Useful when you have already built, say, a monogram block and want it in another option set. Names that clash with existing options are renumbered automatically, and any conditional logic inside the template is repointed so it keeps working.
-
-See [Custom templates](../templates/custom-templates.md).
+* **Insert between two options.** Hover between them in the list and an insert control appears — quicker than adding at the end and dragging.
+* **Add template.** Inserts a ready-made group, so a monogram block you already built can be reused in another option set. Clashing names are renumbered automatically, and conditional logic inside the template is repointed so it keeps working. See [Custom templates](../templates/custom-templates.md).
 
 ## Editing an option
 
@@ -98,82 +87,32 @@ Some ordering advice:
 
 ## Sections
 
-A **Section** is a container with a visible heading, and optionally a collapsible one.
+A **Section** is a container with a visible heading, optionally collapsible. Add one with **Add section** from the add picker, then drag options into it. You can have any number of sections, holding any number of options.
 
-{% stepper %}
-{% step %}
-### Add a section
+Two settings matter:
 
-Use **Add section** from the add picker.
-{% endstep %}
+* **Label** — the heading shoppers read.
+* **Style** — **Default** (always open), **Expand** (collapsible, starts open), or **Collapse** (collapsible, starts closed).
 
-{% step %}
-### Give it a label and a style
+Sections also take a **Prefix icon** and an **HTML class** for custom CSS.
 
-**Label** is the heading shoppers read. **Style** is one of:
-
-* **Default** — always open, no toggle
-* **Expand** — collapsible, starts open
-* **Collapse** — collapsible, starts closed
-
-You can also give a section a **Prefix icon**, and an **HTML class** for custom CSS.
-{% endstep %}
-
-{% step %}
-### Move options into it
-
-Drag options into the section. A section can hold any number of options, and you can have any number of sections.
-{% endstep %}
-
-{% step %}
-### Optionally put a rule on the section itself
-
-Sections support conditional logic. A rule on a section shows or hides everything inside it at once, which is far less work than putting the same rule on eight options.
-{% endstep %}
-{% endstepper %}
+{% hint style="info" %}
+Sections support conditional logic, and a rule on the section shows or hides everything inside it at once. That is far less work than putting the same rule on eight options.
+{% endhint %}
 
 Full reference: [Section](../option-types/static-types/section.md).
 
-## Validation while you build
+<details>
+<summary>What the builder blocks while you work</summary>
 
 The builder validates as you type and blocks **Save** until the problems are fixed.
 
 <table><thead><tr><th width="300">Message</th><th>Cause</th></tr></thead><tbody><tr><td>Field is required</td><td><strong>Label</strong> or <strong>Name</strong> is empty.</td></tr><tr><td>Name must be unique</td><td>Another option in the set uses that <strong>Name</strong>, ignoring capitalisation and spaces.</td></tr><tr><td>Name cannot contain <code>.</code> <code>:</code> <code>"</code> <code>'</code> <code>\</code> <code>|</code></td><td>A blocked character in <strong>Name</strong>.</td></tr><tr><td>Value must be unique / Value can't be empty / Value can't contain <code>,</code> <code>:</code> <code>"</code> <code>'</code> <code>|</code></td><td>An option value breaks one of its three rules. See <a href="option-values.md">Working with option values</a>.</td></tr><tr><td>The value must be between min and max</td><td>A default value falls outside the limits you set.</td></tr><tr><td>The value must be less than max / greater than min</td><td><strong>Min</strong> and <strong>Max</strong> are the wrong way round.</td></tr><tr><td>HTML class only accepts letters, numbers, hyphens and underscore</td><td>A blocked character in <strong>HTML class</strong>.</td></tr><tr><td>Formula cannot contain subtraction</td><td>A <code>-</code> in a Dimension add-on formula. See <a href="../add-on-pricing/dimension-formula.md">Dimension add-on formula</a>.</td></tr><tr><td>You haven't added any options yet</td><td>The set has sections but no options inside them.</td></tr></tbody></table>
+
+</details>
 
 ## Working in another language
 
 If your storefront has more than one language, the language switcher in the builder header lets you enter translated labels, values, and help text per language. Switch language, edit the text, switch back.
 
 **Name** is deliberately not translatable, so your orders stay consistent. See [Translate option content](../translations/translate-option-content.md).
-
-## Troubleshooting
-
-<details>
-<summary>I cannot add an option — the type is greyed out</summary>
-
-That option type is not in your plan. See [Locked features](../plans/compare-plans.md).
-</details>
-
-<details>
-<summary>I duplicated an option and the order now shows "text-2"</summary>
-
-The copy's **Name** was renumbered to keep it unique. Open the copy and give **Name** a readable value.
-</details>
-
-<details>
-<summary>Drag and drop is not working</summary>
-
-Drag from the handle rather than from the middle of the row, and make sure you are not currently inside an option's settings panel — go back to the list first.
-</details>
-
-<details>
-<summary>I hid an option but it still shows on the storefront</summary>
-
-Save the option set after hiding, then refresh the product page. If it persists, check whether a second option set also contains a similar option.
-</details>
-
-<details>
-<summary>I changed an option's type and its conditional rules broke</summary>
-
-Operators are per type, so a rule written for a text option may no longer be valid against a dropdown. Reopen each rule that reads this option and reselect the operator. See [Operators reference](../conditional-logic/operators-reference.md).
-</details>

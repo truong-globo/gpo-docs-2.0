@@ -95,49 +95,10 @@ Label `Choose your size`, **Style** **Default**, containing a required size butt
 
 Label `Size guide and care`, **Style** **Collapse**, containing a size chart and a paragraph.
 
-## Limits and notes
-
+## Notes
 * Available on the Advanced plan.
 * Works in Shopify POS.
 * Sections cannot be nested inside each other.
 * Every option lives inside a section — there is no "loose" option outside one.
 * An option set with sections but no options inside them cannot be saved.
 * Sections collect nothing, so they never appear on the cart or the order.
-
-## Troubleshooting
-
-<details>
-<summary>An option set will not save, even though I added sections</summary>
-
-Sections are containers. You need at least one actual option inside one. See [Create an option set](../../option-sets/create-an-option-set.md).
-</details>
-
-<details>
-<summary>Shoppers are missing a required field</summary>
-
-It is inside a **Collapse** section they never opened. Move it, or change the style to **Expand**.
-</details>
-
-<details>
-<summary>I deleted a section and lost my options</summary>
-
-Deleting a section deletes its contents. Drag options out first next time.
-</details>
-
-<details>
-<summary>I cannot nest a section inside another</summary>
-
-Not supported. Use one level of sections, and [conditional logic](../../conditional-logic/README.md) for finer control.
-</details>
-
-<details>
-<summary>Section is greyed out</summary>
-
-It is on the Advanced plan. See [Compare plans](../../plans/compare-plans.md).
-</details>
-
-<details>
-<summary>The heading does not match my theme</summary>
-
-Its colours are store-wide: **Group label**, **Group icon**, and **Group chevron** in **Settings > Design**. See [Colors](../../storefront/colors.md).
-</details>

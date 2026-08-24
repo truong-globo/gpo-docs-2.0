@@ -93,35 +93,3 @@ Pick by **shape of the problem**, not by product name. If you sell engraved hip 
 * Templates arrive as **Draft** with no product rule, so nothing reaches your storefront until you set that up.
 * Personalized templates need the Personalizer on your plan. Without it the option sets are created but the layers do not draw.
 * Once you have adapted one to your products, save it as a [custom template](custom-templates.md) so your next product starts from your version rather than ours.
-
-## Troubleshooting
-
-<details>
-<summary>The layers are in the wrong place</summary>
-
-Expected — they were positioned against the template's own demo image. Change the background to your product and reposition.
-</details>
-
-<details>
-<summary>Nothing is drawn on the product photo</summary>
-
-Either no background is configured, or the Personalizer is not on your plan.
-</details>
-
-<details>
-<summary>The template has options I do not need</summary>
-
-Delete them. It is an ordinary option set once created.
-</details>
-
-<details>
-<summary>Nothing appears on my storefront</summary>
-
-The template has no product rule and is created as **Draft**. Assign products and set it to **Active**.
-</details>
-
-<details>
-<summary>I want my adapted version as a starting point next time</summary>
-
-Save it as a custom template. See [Custom templates](custom-templates.md).
-</details>

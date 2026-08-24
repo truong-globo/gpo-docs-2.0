@@ -69,7 +69,7 @@ Turn this on whenever a cut-off time matters. Without it, "today" and "after 4pm
 
 This translates the month and day names inside the calendar. It is separate from your option labels, which are translated per storefront language — see [Translate option content](../../translations/translate-option-content.md).
 
-### The rest
+### Layout and presentation
 
 <table><thead><tr><th width="250">Setting</th><th>What it does</th></tr></thead><tbody><tr><td><a href="../shared-settings/placeholder-and-help-text.md#help-text-position">Help text position</a></td><td>Where the help text sits.</td></tr><tr><td><a href="../shared-settings/prefix-suffix-and-icons.md#prefix">Prefix</a> / <a href="../shared-settings/prefix-suffix-and-icons.md#prefix-icon">Prefix icon</a> / <a href="../shared-settings/prefix-suffix-and-icons.md#prefix-text">Prefix text</a></td><td>An icon or text at the start — a calendar icon is the obvious choice.</td></tr><tr><td><a href="../shared-settings/prefix-suffix-and-icons.md#suffix">Suffix</a></td><td>Fixed text after the field.</td></tr><tr><td><a href="../shared-settings/direction-width-and-css.md#html-class">HTML class</a> / <a href="../shared-settings/direction-width-and-css.md#column-width">Column width</a></td><td>Styling hook and field width.</td></tr></tbody></table>
 
@@ -84,6 +84,9 @@ To charge for a date-related choice — express delivery, a weekend slot — put
 **Delivery date with three days' lead time and no weekends**
 
 <table><thead><tr><th width="290">Setting</th><th>Value</th></tr></thead><tbody><tr><td>Format</td><td><strong>Date</strong></td></tr><tr><td>Mode</td><td><strong>Single</strong></td></tr><tr><td>Date format</td><td><code>d/m/Y</code></td></tr><tr><td>Limit date picker</td><td>On, <strong>Disabling dates</strong></td></tr><tr><td>Disable past dates</td><td>On, <strong>Enable after X days</strong> <code>3</code></td></tr><tr><td>Days of week</td><td>Saturday, Sunday</td></tr><tr><td>Specific dates</td><td>Your public holidays</td></tr><tr><td>Custom time zone</td><td>On, your own zone</td></tr><tr><td>Help text</td><td><code>Orders take 3 working days to make. We do not deliver at weekends.</code></td></tr></tbody></table>
+
+<details>
+<summary>More examples: appointments, hire periods, cut-off times</summary>
 
 **Appointments on Tuesdays and Thursdays only**
 
@@ -101,54 +104,11 @@ To charge for a date-related choice — express delivery, a weekend slot — put
 
 **Format** set to **Time**, **Time format** **24h**, help text giving your opening hours.
 
-## Limits and notes
+</details>
 
+## Notes
 * Available on paid plans. **Limit date picker**, **Range** mode, and the custom calendar language are separately plan-gated — see [Compare plans](../../plans/compare-plans.md).
 * Works in Shopify POS.
 * Cannot carry an add-on price; no Personalizer support.
 * The date rules limit what the customer *can pick*. They do not check your real availability — a fully booked day stays selectable unless you add it to **Specific dates**.
 * Rules combine. Weekends blocked plus a three-day lead time plus a holiday list all apply together.
-
-## Troubleshooting
-
-<details>
-<summary>Every date is blocked</summary>
-
-You are almost certainly on **Enabling dates** with an incomplete list — only what you list is allowed. Switch to **Disabling dates**, or complete the list.
-</details>
-
-<details>
-<summary>Shoppers can still choose today, after my cut-off</summary>
-
-Turn on **Custom time zone** and set your own zone. Without it the cut-off is judged by the shopper's device clock.
-</details>
-
-<details>
-<summary>The lead time is not being applied</summary>
-
-**Enable after X days** only appears and applies when **Disable past dates** is on. Turn that on first.
-</details>
-
-<details>
-<summary>Customers are picking dates I cannot fulfil</summary>
-
-Add them to **Specific dates**, or block the weekday under **Days of week**. Also check the lead time is long enough.
-</details>
-
-<details>
-<summary>The calendar is in the wrong language</summary>
-
-Turn on **Other language** and set **Localization**. Your storefront language does not drive the calendar by itself.
-</details>
-
-<details>
-<summary>Dates arrive in a confusing order on my orders</summary>
-
-Set **Date format** to the convention your team uses, and show it in the **Placeholder**.
-</details>
-
-<details>
-<summary>Range mode is missing</summary>
-
-It only applies to the **Date** and **Date & time** formats, and is plan-gated.
-</details>

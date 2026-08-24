@@ -115,36 +115,3 @@ That is the whole loop: **build → assign → activate → embed → verify**. 
 {% endhint %}
 
 You can move the widget elsewhere on the page and restyle it to match your theme — see [Widget placement](../storefront/widget-placement.md) and [Match your theme style](../storefront/match-your-theme-style.md).
-
-## Troubleshooting
-
-<details>
-<summary>Save is not working, or the builder keeps switching tabs on me</summary>
-
-The option set is missing something required: at least one option in **Build option**, and a product rule turned on in **Assign products**. The builder switches you to whichever is missing.
-</details>
-
-<details>
-<summary>I saved it but nothing appears on my product page</summary>
-
-Check these in order:
-
-1. Is the app embed enabled on the theme that is actually live? See [Enable the app embed](enable-the-app-embed.md).
-2. Is the option set **Active**, not **Draft**?
-3. Is **Online Store** ticked under **Sales channels**?
-4. Does the product rule match the product you are looking at?
-
-The full checklist is in [Options are not showing up](../help/troubleshooting.md).
-</details>
-
-<details>
-<summary>The field appears, but in an odd place on the page</summary>
-
-Change the placement in **Settings > Settings > General**, or pin it exactly with an [app block](add-the-app-block.md).
-</details>
-
-<details>
-<summary>I see the field twice</summary>
-
-You most likely have both automatic placement and an app block placing the widget. Pick one — see [Add the app block](add-the-app-block.md).
-</details>

@@ -63,37 +63,10 @@ Long, plain, no prices. A Select is fine — although a [Dropdown](dropdown.md) 
 
 Values `1-10`, `11-50`, `51+`, no prices, used to route the enquiry rather than to charge.
 
-## Limits and notes
-
+## Notes
 * Available on all plans.
 * Works in Shopify POS.
 * No Personalizer support.
 * Values follow the order of the values table.
 * The chosen value reaches the order as its text.
 * Very long lists work, but the device's picker is the whole navigation experience — there is no search to help.
-
-## Troubleshooting
-
-<details>
-<summary>The dropdown does not match my theme</summary>
-
-Expected — it is drawn by the browser, not the app, so the design settings do not reach it. Use [Dropdown](dropdown.md) if appearance matters.
-</details>
-
-<details>
-<summary>I cannot find Swatch style, search, or out-of-stock settings</summary>
-
-Select does not have them. Switch the option's type to Dropdown, which keeps your values and labels.
-</details>
-
-<details>
-<summary>Shoppers pick sold-out values</summary>
-
-Select cannot show stock state. Use Dropdown with **Out of stock options** set to **Hide** or **Blur**.
-</details>
-
-<details>
-<summary>There is no prompt entry at the top</summary>
-
-Its **Placeholder** is empty. Set one.
-</details>

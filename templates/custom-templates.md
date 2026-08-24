@@ -79,35 +79,3 @@ Insert whichever you need into each new option set. Your wording, limits, and fo
 * A template has no product, customer, or country rules — only options.
 * Add-on products referenced by a template's options behave as they do anywhere else: an existing-product link points at the same product, and a generated product is shared. See [Add-on pricing](../add-on-pricing/README.md).
 * Templates import and export separately from option sets. See [Import and export](../option-sets/import-and-export.md) for the option set equivalent.
-
-## Troubleshooting
-
-<details>
-<summary>Save as Template did nothing visible</summary>
-
-Look under **Templates** > **Custom Templates** rather than in the option sets list.
-</details>
-
-<details>
-<summary>The template has no Setup flow or product rules</summary>
-
-Correct — templates have no targeting. Assign products on the option set you create from it.
-</details>
-
-<details>
-<summary>Inserting a template renamed my options</summary>
-
-Names must stay unique within an option set, so clashes are renumbered. Rename the copies to something readable.
-</details>
-
-<details>
-<summary>I deleted a template and want to know what happened to my option sets</summary>
-
-Nothing. Option sets created from a template are independent of it.
-</details>
-
-<details>
-<summary>Create template is unavailable</summary>
-
-Option templates are not in your plan. See [Compare plans](../plans/compare-plans.md).
-</details>

@@ -73,35 +73,3 @@ Custom CSS is yours to maintain. It is not covered by **Match theme style**, it 
 * Your theme's own CSS also applies, and may be more specific than your rules.
 * Nothing here changes what the options collect or how they behave.
 * If you would rather not write CSS, styling is something support can help with. See [Contact support](../help/contact-support.md).
-
-## Troubleshooting
-
-<details>
-<summary>My CSS has no effect</summary>
-
-Four things: it is saved; you are looking at the storefront rather than the builder preview; the selector matches — check in your browser's inspector; and your theme's rules are not more specific.
-</details>
-
-<details>
-<summary>It works on desktop but breaks the phone layout</summary>
-
-Fixed widths are the usual cause. Use relative units, and add a media query if a rule should only apply on larger screens.
-</details>
-
-<details>
-<summary>It stopped working after a theme update</summary>
-
-Your theme's markup changed. Re-inspect and update the selectors. Rules targeting your own **HTML class** values are the most durable.
-</details>
-
-<details>
-<summary>My rule affects more options than I intended</summary>
-
-The selector is too broad. Add an HTML class to the specific option and target that.
-</details>
-
-<details>
-<summary>"HTML class only accepts letters, numbers, hyphens and underscore"</summary>
-
-That is the option's HTML class field, not the CSS editor. Remove the offending character — usually a leading dot.
-</details>

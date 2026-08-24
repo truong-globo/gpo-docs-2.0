@@ -68,35 +68,3 @@ Not strictly behaviour, but they live in the same section and are worth knowing:
 * All store-wide, applying to every option set.
 * Alignment cannot be set per language. For a store selling in both directions, use [custom CSS](custom-css.md).
 * These are behaviour settings. Appearance is in **Design** — see [Colors](colors.md) and [Borders and typography](borders-and-typography.md).
-
-## Troubleshooting
-
-<details>
-<summary>Swatch names do not appear on hover</summary>
-
-Turn on **Show tooltip when hovering over options**. On a touch device, hover behaves differently — use per-value help text instead.
-</details>
-
-<details>
-<summary>Shoppers cannot tell what they selected</summary>
-
-Turn on **Display selected value next to label**, and make **Swatch border active** clearly distinct. See [Colors](colors.md#swatches).
-</details>
-
-<details>
-<summary>The widget scrolls inside itself and shoppers miss options</summary>
-
-Turn **Limit widget height** off, and shorten the form properly with sections and conditional logic.
-</details>
-
-<details>
-<summary>The widget reads left to right on my Arabic storefront</summary>
-
-Set **Alignment** to **Right to left**.
-</details>
-
-<details>
-<summary>Add to cart is blocked and nothing seems to happen</summary>
-
-Turn on **Auto-scroll to first error message** so the page moves to the problem.
-</details>

@@ -103,35 +103,3 @@ One axis only, label `Length`, unit `m`, rate `12`, formula `x * {{addon}}`.
 * Each axis keeps its own **Unit**, but the formula works on the numbers — it does not convert between units. If one axis is in centimetres and another in metres, do the conversion in the formula.
 * **Dimension is not supported in Shopify POS.** For in-person orders, ask for measurements with [Number](../option-types/input-types/number.md) fields and price them another way. See [POS limitations](../pos/limitations.md).
 * The measurements reach the order as separate values with their axis labels, so your workshop sees `Width: 100` and `Drop: 150`.
-
-## Troubleshooting
-
-<details>
-<summary>"Formula cannot contain subtraction"</summary>
-
-Remove the `-`. Rewrite using multiplication, addition, and division.
-</details>
-
-<details>
-<summary>The price is out by a factor of ten or a hundred</summary>
-
-The rate is out by an order of magnitude. Work it back from a size whose price you know — see [Working out your rate](#working-out-your-rate).
-</details>
-
-<details>
-<summary>Small sizes price at almost nothing</summary>
-
-Linear pricing does that. Add a base fee on a separate option, or switch to size bands.
-</details>
-
-<details>
-<summary>The price does not update as the customer types</summary>
-
-Check the formula refers to the axes you actually kept — a formula using `z` on a two-axis option cannot resolve.
-</details>
-
-<details>
-<summary>Customers order sizes I cannot make</summary>
-
-**Min** and **Max** are empty on one of the axes. Set both on every axis.
-</details>

@@ -117,16 +117,22 @@ This preview is unavailable when any condition uses **Collection** — verify th
 
 <figure><img src="../.gitbook/assets/placeholder.png" alt="Automatic rules with two conditions and the all conditions match setting"><figcaption><p>Conditions combine with all or any, and the operators change with the field.</p></figcaption></figure>
 
-### Worked examples
+<details>
+<summary>Worked examples of automatic rules</summary>
 
 <table><thead><tr><th width="300">You want</th><th>Set up</th></tr></thead><tbody><tr><td>Every product tagged <code>engravable</code></td><td>Product tag — is equal to — <code>engravable</code></td></tr><tr><td>Everything in the Wedding collection</td><td>Collection — is equal to — pick <em>Wedding</em></td></tr><tr><td>All t-shirts from one brand</td><td><strong>all conditions</strong>; Product type — is equal to — <code>T-Shirt</code>; Product vendor — is equal to — the brand name</td></tr><tr><td>Anything over $100, for insurance options</td><td>Product price — is greater than — <code>100</code></td></tr><tr><td>Anything tagged <code>custom</code> or <code>bespoke</code></td><td><strong>any condition</strong>; Product tag — is equal to — <code>custom</code>; Product tag — is equal to — <code>bespoke</code></td></tr><tr><td>Personalised products, except sale items</td><td><strong>all conditions</strong>; Product tag — is equal to — <code>personalised</code>; Product tag — is not equal to — <code>sale</code></td></tr><tr><td>Everything whose title mentions "Gift"</td><td>Product title — contains — <code>Gift</code></td></tr></tbody></table>
 
-### Practical notes on automatic rules
+</details>
 
-* **Tags are the most reliable lever.** You control them entirely, they are quick to bulk-edit in Shopify, and they read clearly in a rule. Consider a dedicated tag per option set, such as `opt-engraving`.
-* **Text matching is exact on characters.** `T-Shirt` and `T-shirt` are different values for **is equal to**. Use **contains** when you are unsure of the exact casing or wording.
-* **Price conditions test the variant price.** On a product whose variants differ in price, the condition matches if a variant price satisfies it. Prefer tags when precision matters.
-* **A product needs to exist and be saved** before a rule can see its tags or type.
+{% hint style="success" %}
+**Tags are the most reliable lever.** You control them entirely, they bulk-edit quickly in Shopify, and they read clearly in a rule. Consider a dedicated tag per option set, such as `opt-engraving`.
+{% endhint %}
+
+Three things to know about matching:
+
+* **Text matching is exact on characters.** `T-Shirt` and `T-shirt` are different values for **is equal to** — use **contains** when unsure of the casing.
+* **Price conditions test the variant price.** On a product whose variants differ in price, the rule matches if any variant price satisfies it.
+* **A product must be saved** in Shopify before a rule can see its tags or type.
 
 ## Apply to All Products
 
@@ -148,52 +154,8 @@ Where it goes wrong is by accident: two sets both containing a "Gift wrap" optio
 2. Check which sets could match that product — especially any using **Apply to All Products**.
 3. Narrow one of them, or remove the duplicated option from one.
 
-## Limits and notes
-
+## Notes
 * Current plans place no limit on how many products an option set may target. On a plan that does limit it, the manual selection block warns you when you reach the ceiling.
 * **Automatic Rules** and **Apply to All Products** are plan-gated on some plans. If a switch is unavailable, see [Compare plans](../plans/compare-plans.md).
 * Product rules are evaluated on the storefront each time a page loads, so a tag change takes effect on the next page load.
 * Draft products in Shopify can still match a rule. You will see the option set when previewing the draft product.
-
-## Troubleshooting
-
-<details>
-<summary>"Please select product to apply this option set."</summary>
-
-**Manual Selection** is on but no products are selected. Either select products, or switch to a different method.
-</details>
-
-<details>
-<summary>My automatic rule catches nothing</summary>
-
-Check in this order:
-
-1. Is the value spelled exactly as on the product, including capitalisation? Try **contains** instead of **is equal to**.
-2. Is the product saved in Shopify?
-3. With several conditions and **all conditions**, does one condition contradict another?
-4. Use **Preview matching products** to see the rule's real result.
-</details>
-
-<details>
-<summary>My automatic rule catches too much</summary>
-
-Switch **Products must match** to **all conditions** and add a narrowing condition, or move to a dedicated tag that only the right products carry.
-</details>
-
-<details>
-<summary>Preview matching products is unavailable</summary>
-
-One of your conditions uses **Collection**, which this preview cannot evaluate. Test with **View in Store** on a product from that collection.
-</details>
-
-<details>
-<summary>Options appear on my gift cards or add-on products</summary>
-
-You are using **Apply to All Products**. Switch to an automatic rule, or add a **Product tag — is not equal to** condition and tag the products to exclude.
-</details>
-
-<details>
-<summary>I turned on one method and another switched itself off</summary>
-
-That is correct behaviour — the three methods are mutually exclusive. Only one can be active at a time.
-</details>

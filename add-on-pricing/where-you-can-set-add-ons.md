@@ -92,33 +92,3 @@ A [Text](../option-types/input-types/text.md) option with **Price** $0.50 and **
 * The **Advanced settings** dropdown that controls how a charge scales is always at **option** level, even when the prices are on the values. It applies to all values in that option.
 * **Mixed quantity** is the exception that gives each value its own quantity box — multi-select options only. See [Advanced add-on modes](advanced-add-on-modes.md).
 * Once a value is linked to a product, a **Product** column appears in the values table with a link to open it in Shopify admin.
-
-## Troubleshooting
-
-<details>
-<summary>I cannot find a Price field</summary>
-
-Either the type cannot carry a price — see the list above — or you are looking at the wrong level. On a selection type the price is in the values table, not in Add-on Settings.
-</details>
-
-<details>
-<summary>I set a price but nothing is charged</summary>
-
-Three things:
-
-1. The option is not hidden by a conditional rule. Hidden options are not charged.
-2. The option set is saved.
-3. If you expected to see the price on the page, **Show add-on for inputs** or **Show add-on for options** is on in **Settings > Settings > Add-on price** — see [Add-on price display settings](price-display-settings.md).
-</details>
-
-<details>
-<summary>All my values are charging the same</summary>
-
-You set the price on the option rather than on each value — or every value happens to have the same price. Check the values table's **Price** column row by row.
-</details>
-
-<details>
-<summary>Advanced settings has no effect</summary>
-
-The option has no price attached, so there is nothing to scale.
-</details>

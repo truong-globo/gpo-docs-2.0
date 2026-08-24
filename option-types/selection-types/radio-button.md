@@ -82,43 +82,10 @@ Values `Basic`, `Plus`, `Premium`, each with help text listing what it includes,
 
 **Enable custom layout** on, **Layout type** **Collapse**, **Scroll type** **By number of option values** showing eight.
 
-## Limits and notes
-
+## Notes
 * Available on all plans.
 * Works in Shopify POS.
 * Single-select only.
 * No slider layout — that belongs to Button and the swatch types.
 * No **Not allow deselect** setting. Combine **Required field** with a **Default value** for a choice that can never be empty.
 * Values follow the order of the values table.
-
-## Troubleshooting
-
-<details>
-<summary>I need several choices</summary>
-
-Use [Checkbox](checkbox.md), or a [Dropdown](dropdown.md) with **Allow multiple**.
-</details>
-
-<details>
-<summary>The list is too tall</summary>
-
-Turn on **Enable custom layout** and use **Collapse**, or a scroll area. See [Collapsible layouts and sliders](../shared-settings/collapsible-layouts-and-sliders.md).
-</details>
-
-<details>
-<summary>Per-value help text is not showing</summary>
-
-Add it from the values table's **Action** column. Option-level help text is a separate field.
-</details>
-
-<details>
-<summary>Slider is missing from Layout type</summary>
-
-Radio button offers Expand and Collapse only. Use [Button](button.md) or a swatch type for a slider.
-</details>
-
-<details>
-<summary>Horizontal layout looks cramped</summary>
-
-Your value names are too long for a row. Switch **Direction style** back to **Vertical** — which is where radio buttons are strongest anyway.
-</details>

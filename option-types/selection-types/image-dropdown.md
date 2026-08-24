@@ -65,43 +65,10 @@ Standard fabrics free, premium ones priced through **Automatically generate prod
 
 Values with photographs of each moulding, **Image display outside dropdown** on, **Not allow deselect** on.
 
-## Limits and notes
-
+## Notes
 * Available on the Advanced plan.
 * Works in Shopify POS.
 * Always image-based — there is no text-only or colour mode.
 * Every value needs an image. Without one the entry shows a blank.
 * Use consistently sized, consistently lit images. A list of mismatched crops looks careless.
 * No slider or collapsible layout.
-
-## Troubleshooting
-
-<details>
-<summary>Entries have no picture</summary>
-
-Upload an image on each value in the values table's **Image** column, or reuse a product image.
-</details>
-
-<details>
-<summary>The chosen picture disappears when the list closes</summary>
-
-Turn on **Image display outside dropdown**.
-</details>
-
-<details>
-<summary>Thumbnails look stretched</summary>
-
-Your uploaded images have inconsistent proportions. Crop them to a consistent shape before uploading.
-</details>
-
-<details>
-<summary>I want bigger pictures</summary>
-
-Use [Image swatch](image-swatch.md), which has adjustable swatch sizes and a zooming tooltip.
-</details>
-
-<details>
-<summary>The design does not appear on the product photo</summary>
-
-Turn on **Personalizer Settings** and configure a background for the option set. See [Choosing the background](../../personalizer/setup.md#choosing-the-background).
-</details>

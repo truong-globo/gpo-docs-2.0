@@ -61,42 +61,9 @@ Min character `2`, max character `3`, **Text transform** UPPERCASE, **Allowed va
 
 Max character `2`, **Allowed value** Letters & numbers, placeholder `10`, **Column width** 25% so it sits beside the name field.
 
-## Limits and notes
-
+## Notes
 * Available on all plans.
 * Works in Shopify POS.
 * Character limits count spaces and punctuation.
 * Validation runs on **Add to cart**, not while typing — the counter is what gives live feedback.
 * An empty non-required Text option submits nothing, and no empty line appears on the order.
-
-## Troubleshooting
-
-<details>
-<summary>Customers cannot type certain characters</summary>
-
-**Allowed value** is set to **Letters** or **Letters & numbers**. Loosen it, and say so in help text. See [Text input rules](../shared-settings/text-input-rules.md).
-</details>
-
-<details>
-<summary>The price does not go up as they type</summary>
-
-**Per character** only applies when it is selected in **Advanced settings** and the option has a **Price**. Also check **Show add-on for inputs** in **Settings > Settings > Add-on price**.
-</details>
-
-<details>
-<summary>Long entries overflow the engraving area in the preview</summary>
-
-Turn on **Auto-fit max width** in Personalizer Settings, and set a **Max character** that matches what physically fits.
-</details>
-
-<details>
-<summary>The counter is not showing</summary>
-
-Set **Character counter** to **Show**. Its wording is editable in **Settings > Translations**.
-</details>
-
-<details>
-<summary>Text arrives in mixed capitalisation</summary>
-
-Set **Text transform**. Note that **Capitalized** flattens unusual names such as `McDonald`.
-</details>

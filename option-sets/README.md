@@ -7,42 +7,16 @@ icon: layer-group
 
 # Overview
 
-An **option set** is the unit of work in this app. It holds your options, and it holds the rules that decide which products, customers, and countries they appear for. You will spend most of your time in this section.
+An **option set** is a group of questions you ask the shopper on a product page — plus the rules for which products, customers, and countries it appears for.
 
-## The anatomy of an option set
+This is where you will spend most of your time in the app.
 
-<table><thead><tr><th width="220">Part</th><th>What it decides</th><th width="200">Where it lives</th></tr></thead><tbody><tr><td>Name</td><td>How you recognise it in your admin. Customers never see it.</td><td>Builder header</td></tr><tr><td>Options</td><td>What you ask the customer for.</td><td><strong>Setup flow</strong> → <strong>Build option</strong></td></tr><tr><td>Product rule</td><td>Which products it appears on. Required.</td><td><strong>Setup flow</strong> → <strong>Assign products</strong></td></tr><tr><td>Customer rule</td><td>Which shoppers see it. Optional.</td><td><strong>Customers</strong> tab</td></tr><tr><td>Country rule</td><td>Which countries it appears in. Optional.</td><td><strong>Countries</strong> tab</td></tr><tr><td>Status</td><td>Whether it is live at all.</td><td>Builder header</td></tr><tr><td>Sales channels</td><td>Storefront, POS, or both.</td><td>Builder header</td></tr></tbody></table>
+## What an option set is made of
 
-{% hint style="warning" %}
-Two of those are mandatory: an option set needs **at least one option** and **a product rule that is turned on** before it can be saved.
-{% endhint %}
-
-## The four levels
-
-Almost every question about where a setting lives is answered by knowing which level it belongs to.
-
-```text
-Option set  ──  "Bracelet personalization"
-│               applies to: products tagged "engravable"
-│               status: Active · Online Store, Point of Sale
-│
-├── Section  ──  "Personalize your bracelet"
-│   │
-│   ├── Option  ──  "Engraving text"  (Text)
-│   │                required: no · max 20 characters · +$5.00
-│   │
-│   └── Option  ──  "Gift wrap"  (Checkbox)
-│       │
-│       └── Option value  ──  "Yes, wrap it as a gift"   +$3.00
-│
-└── Option  ──  "Gift message"  (Textarea)
-                 shown only when Gift wrap is ticked
-```
-
-<table><thead><tr><th width="200">Level</th><th>Settings that live here</th></tr></thead><tbody><tr><td><strong>Whole store</strong></td><td>Where the widget appears, colours, borders, typography, custom CSS, how add-on prices are displayed, widget text and validation messages, custom fonts. All in <strong>Settings</strong>, and they apply to every option set</td></tr><tr><td><strong>Option set</strong></td><td>Name, status, sales channels, product rule, customer rule, country rule, and the personalizer background</td></tr><tr><td><strong>Option</strong></td><td>Type, label, name, required, help text, placeholder, limits, layout, column width, conditional logic, add-on settings, personalizer settings</td></tr><tr><td><strong>Option value</strong></td><td>The value text, its own help text, its own add-on price or add-on product, and its colour or image on swatch-style options</td></tr></tbody></table>
+<table><thead><tr><th width="220">Part</th><th>What it decides</th><th width="200">Where you set it</th></tr></thead><tbody><tr><td>Name</td><td>How you recognise it in your admin. Customers never see it.</td><td>Builder header</td></tr><tr><td>Options</td><td>What you ask the customer for.</td><td><strong>Setup flow</strong> → <strong>Build option</strong></td></tr><tr><td>Product rule</td><td>Which products it appears on. Required.</td><td><strong>Setup flow</strong> → <strong>Assign products</strong></td></tr><tr><td>Customer rule</td><td>Which shoppers see it. Optional.</td><td><strong>Customers</strong> tab</td></tr><tr><td>Country rule</td><td>Which countries it appears in. Optional.</td><td><strong>Countries</strong> tab</td></tr><tr><td>Status</td><td>Whether it is live at all.</td><td>Builder header</td></tr><tr><td>Sales channels</td><td>Storefront, POS, or both.</td><td>Builder header</td></tr></tbody></table>
 
 {% hint style="info" %}
-A common mix-up: colours and fonts are **store-wide**, not per option set. To make two option sets look different from each other, use [custom CSS](../storefront/custom-css.md) with the **HTML class** setting on an option — not separate colour settings, because there are none.
+Two of those are required: at least one **option**, and a **product rule**. The builder will not let you save without them.
 {% endhint %}
 
 ## Pages in this section
@@ -51,10 +25,10 @@ A common mix-up: colours and fonts are **store-wide**, not per option set. To ma
 
 ## How many option sets should I have?
 
-There is no limit, so the answer is whatever keeps your admin readable. Two patterns work well:
+There is no limit, so aim for whatever keeps your admin readable.
 
-**One set per product family.** A set for engravable jewellery, a set for printed t-shirts, a set for framed prints. Each targeted with an automatic rule on a product tag. This is the usual choice.
+The usual choice is **one set per product family** — one for engravable jewellery, one for printed t-shirts, one for framed prints — each targeted by a product tag.
 
-**One store-wide set, plus specific ones.** A small set applying to all products for things like delivery notes, plus focused sets for the products that need more. Remember that several option sets can apply to the same product at once — they all render.
+You can also keep **one store-wide set alongside specific ones**: a small set for something every product needs, like delivery notes, plus focused sets where you need more. Several option sets can apply to the same product, and they all render.
 
-What to avoid is one giant set with conditional logic doing all the work. It is harder to reason about, harder to hand over to a colleague, and slower on the product page.
+What to avoid is one giant set doing everything with conditional logic. It is harder to follow, harder to hand to a colleague, and slower on the product page.

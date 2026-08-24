@@ -9,8 +9,6 @@ icon: flag-checkered
 
 This section takes you from an empty store to a working option on a live product page. Read the pages in order the first time — each one assumes the previous one is done.
 
-If you would rather see the whole app before doing anything, [Tour of the app](../reference/tour-of-the-app.md) maps every screen and menu item.
-
 ## The four things that must happen
 
 An option only appears to a shopper when **all four** of these are true. Most "why can't I see my options?" questions are one of these four being missing.

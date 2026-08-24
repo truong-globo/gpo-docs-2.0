@@ -1,99 +1,41 @@
 ---
-description: How to read the plan comparison table, and what each feature group covers.
-icon: table-list
+description: What the plans differ on, and how to check what your own store includes.
+icon: table
 ---
 
 # Compare plans
 
-The comparison table lives on the **Pricing** page in the app, below the plan cards. It is the authoritative list for your store — this page explains how to read it.
+**Pricing** in the app is the authoritative comparison for your store. It marks your current plan and lists every feature with what each plan gives you — a tick, a number, or a level such as basic versus advanced.
+
+Check there rather than relying on a table in documentation: the split between plans changes as plans evolve, and it differs by pricing version, so two stores can legitimately see different tables.
+
+<!-- SCREENSHOT: plan-pricing-page | App admin → Pricing | Các plan card, switch Monthly/Yearly, plan hiện tại được đánh dấu, bảng so sánh feature bên dưới | Khoanh switch Monthly/Yearly -->
+
+<figure><img src="../.gitbook/assets/placeholder.png" alt="The Pricing page with plan cards, the monthly and yearly switch, and the feature comparison table"><figcaption><p>The Pricing page in the app is the authoritative comparison for your store.</p></figcaption></figure>
+
+## The groups it compares
+
+The comparison table is grouped the same way every time, which makes it quick to scan for the one thing you care about.
+
+<table><thead><tr><th width="200">Group</th><th>What varies</th></tr></thead><tbody><tr><td><strong>Option Set</strong></td><td>How many option sets and options, which product targeting methods you can use, duplicating, importing and exporting, and the <a href="../option-sets/assign-to-customers.md">customer</a> and <a href="../option-sets/assign-to-countries.md">country</a> rules</td></tr><tr><td><strong>Option Config</strong></td><td>The biggest group: <a href="../conditional-logic/README.md">conditional logic</a> level, <a href="../add-on-pricing/README.md">add-on pricing</a> and the advanced add-on modes, <a href="../translations/translate-option-content.md">multi-language content</a>, default values and <a href="../option-types/shared-settings/limits.md">limits</a>, swatch sliders, <a href="../personalizer/README.md">the Personalizer</a>, <a href="../settings/custom-fonts.md">custom fonts</a>, <a href="../option-types/shared-settings/out-of-stock-options.md">out of stock options</a>, multiple file upload and its size limit, date restrictions, and international phone validation</td></tr><tr><td><strong>Option Type</strong></td><td>One row per type, so you can see exactly which of the 32 a plan gives you. See <a href="../option-types/README.md">Option types</a></td></tr><tr><td><strong>Features</strong></td><td>Options in quickview, <a href="../templates/README.md">option templates</a>, custom widget styling, editing options in the cart, <a href="../pos/README.md">Point of Sale</a>, and <a href="../option-sets/analytics.md">analytics</a></td></tr><tr><td><strong>Automations</strong></td><td>The three workflow types. See <a href="../automations/README.md">Automations</a></td></tr><tr><td><strong>Support</strong></td><td>Priority support, and removing the app's watermark from the widget</td></tr></tbody></table>
+
+The **Monthly** and **Yearly** switch at the top changes the billing period only. Feature availability is identical either way.
+
+## Locked features in the app
+
+You do not have to memorise any of this. Anything your plan does not include is marked where you would use it:
+
+* a greyed-out field with an upgrade link beneath it
+* an option type that shows an upgrade prompt when you select it
+* on the free plan, premium settings folded into a collapsed group with a count
+* a banner when you reach a plan limit
+
+Selecting any of those upgrade links opens **Pricing** with the relevant feature in view.
 
 {% hint style="info" %}
-We do not reproduce the table here on purpose. Feature availability changes as plans evolve, and an out-of-date copy in documentation is worse than no copy. Open **Pricing** in the app for the current picture.
+A locked setting is still saved. Configure something, gain access later, and it starts working with nothing to rebuild — and the reverse is also true, which is why [Change your plan](change-your-plan.md) is worth reading before a downgrade.
 {% endhint %}
 
-## How to read it
+## The watermark
 
-The table is grouped, and each row shows what every plan gives you for that feature. A row's value is one of:
-
-<table><thead><tr><th width="230">Value</th><th>Means</th></tr></thead><tbody><tr><td>A tick</td><td>Included</td></tr><tr><td>Blank or a cross</td><td>Not included</td></tr><tr><td>A number</td><td>A limit — files, megabytes, option sets</td></tr><tr><td><strong>Unlimited</strong></td><td>No limit</td></tr><tr><td>A level, such as basic or advanced</td><td>The feature is included, at that level</td></tr></tbody></table>
-
-Rows also carry a link to the documentation for that feature, so you can read what something is before deciding whether you need it.
-
-## The groups
-
-### Option Set
-
-Counts and rules: how many option sets, how many options in each, and which product targeting methods you can use — manual, automatic, or all products. Plus duplicating, importing, and exporting, and the customer and country rules.
-
-See [Assign to products](../option-sets/assign-to-products.md), [Assign to customers](../option-sets/assign-to-customers.md), and [Assign to countries](../option-sets/assign-to-countries.md).
-
-### Option Config
-
-The biggest group, and where most of the difference between plans sits:
-
-<table><thead><tr><th width="290">Feature</th><th>Read about it in</th></tr></thead><tbody><tr><td>Conditional logic, at basic or advanced level</td><td><a href="../conditional-logic/README.md">Conditional logic</a>. Advanced is what adds <a href="../conditional-logic/conditions-on-shopify-variants.md">variant conditions</a></td></tr><tr><td>Price add-ons, and the advanced add-on modes</td><td><a href="../add-on-pricing/README.md">Add-on pricing</a></td></tr><tr><td>Multi-language option content</td><td><a href="../translations/translate-option-content.md">Translate option content</a></td></tr><tr><td>Default values, min and max limits, character limits</td><td><a href="../option-types/shared-settings/limits.md">Limits</a></td></tr><tr><td>Swatch sliders</td><td><a href="../option-types/shared-settings/collapsible-layouts-and-sliders.md">Collapsible layouts and sliders</a></td></tr><tr><td>Product personalize</td><td><a href="../personalizer/README.md">Product Personalizer</a></td></tr><tr><td>Option groups</td><td><a href="../option-types/static-types/section.md">Section</a></td></tr><tr><td>Out of stock options</td><td><a href="../option-types/shared-settings/out-of-stock-options.md">Out of stock options</a></td></tr><tr><td>Multiple file upload, and the file size limit</td><td><a href="../option-types/input-types/file-upload.md">File upload</a></td></tr><tr><td>Custom fonts</td><td><a href="../settings/custom-fonts.md">Custom fonts</a></td></tr><tr><td>Date restrictions, ranges, and calendar language</td><td><a href="../option-types/input-types/date-and-time-picker.md">Date and time picker</a></td></tr><tr><td>International phone validation</td><td><a href="../option-types/input-types/phone.md">Phone</a></td></tr></tbody></table>
-
-### Option Type
-
-One row per option type, so you can see exactly which of the 32 a plan gives you. See [Option types](../option-types/README.md).
-
-### Features
-
-Store-level capabilities: options in quickview, option templates, custom widget styling, editing options in the cart, Point of Sale, and analytics.
-
-### Automations
-
-The three workflow types. See [Automations](../automations/README.md).
-
-### Support
-
-Priority support, and removing the app's watermark from the widget.
-
-## Working out which plan you need
-
-Rather than comparing plans, list what you actually need and find the lowest plan that covers it.
-
-{% stepper %}
-{% step %}
-### List your must-have option types
-
-Look at what you need to ask customers. See [Choose the right option type](../option-types/choose-the-right-type.md).
-{% endstep %}
-
-{% step %}
-### Decide whether you need to charge for options
-
-If yes, you need add-on pricing — and if you sell in person, product-backed add-ons. See [Add-on pricing](../add-on-pricing/README.md).
-{% endstep %}
-
-{% step %}
-### Decide whether you need conditional logic, and at which level
-
-Variant-based conditions need the advanced level. See [Conditional logic](../conditional-logic/README.md).
-{% endstep %}
-
-{% step %}
-### Decide whether you need the Personalizer
-
-It is the single biggest feature in the app, and the one most likely to determine your plan. See [Product Personalizer](../personalizer/README.md).
-{% endstep %}
-
-{% step %}
-### Add the operational needs
-
-POS, automations, analytics, multi-language, import and export.
-{% endstep %}
-
-{% step %}
-### Find the lowest plan that covers the list
-
-Then start its 14-day trial and build the real thing before the trial ends. See [Change your plan](change-your-plan.md).
-{% endstep %}
-{% endstepper %}
-
-## Notes
-
-* Yearly and monthly billing include the same features. Only the price differs.
-* Shopify Plus stores have their own pricing.
-* Locked features are visible in the app with an upgrade prompt, so you can always see what you are missing.
-* A trial gives you that plan's features in full, which is the best way to find out whether you need them.
+On plans that do not include **Remove watermarks**, a small "Powered by" credit appears beneath the widget on your storefront. There is nothing to switch on or off: it disappears by itself on a plan that includes the feature.

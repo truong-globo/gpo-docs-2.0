@@ -2,7 +2,7 @@
 
 Internal working file — not part of the published documentation and not listed in `SUMMARY.md`.
 
-**136 required shots**, 2 optional, across 106 pages. Generated from the `<!-- SCREENSHOT: ... -->` markers in the pages, in `SUMMARY.md` order.
+**133 required shots**, 0 optional, across 103 pages. Generated from the `<!-- SCREENSHOT: ... -->` markers in the pages, in `SUMMARY.md` order.
 
 Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace that path with the real file as each shot is taken.
 
@@ -1309,53 +1309,23 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 * Outline: Khoanh khu vực upload
 
 
-### Overview
+### Compare plans
 
-`plans/README.md`
+`plans/compare-plans.md`
 
 **132. `plan-pricing-page`**
 
 * Where: App admin → Pricing
-* Must show: Các plan card, switch Monthly/Yearly, plan hiện tại được đánh dấu
+* Must show: Các plan card, switch Monthly/Yearly, plan hiện tại được đánh dấu, bảng so sánh feature bên dưới
 * Outline: Khoanh switch Monthly/Yearly
 
 
-### Locked features
+### Change your plan
 
-`plans/locked-features.md`
+`plans/change-your-plan.md`
 
-**133. `concept-locked-setting`**
+**133. `plan-choose-your-plan`**
 
-* Where: App admin → builder → 1 setting bị khoá (ví dụ Personalizer Settings trên plan thấp)
-* Must show: Field mờ + link upgrade
-* Outline: Khoanh field bị khoá và link upgrade
-
-
-### Tour of the app
-
-`reference/tour-of-the-app.md`
-
-**134. `start-nav-menu`**
-
-* Where: App admin, mở bất kỳ trang
-* Must show: Menu trái của app với đủ 7 item
-* Outline: Khoanh cả khối menu
-
-**135. `start-dashboard-full`**
-
-* Where: App admin → Dashboard
-* Must show: Toàn trang: setup guide, app embed status, app block status, chart, quick tutorial
-* Outline: Không khoanh
-
-**136. `start-builder-anatomy`**
-
-* Where: App admin → Option Sets → mở 1 option set
-* Must show: 4 vùng: header, left rail, panel Setup flow, preview
-* Outline: Khoanh 4 vùng, mỗi vùng 1 outline (dùng mũi tên nhỏ để phân biệt left rail và panel)
-
-## Optional shots
-
-Nice to have. The pages read correctly without them.
-
-* `help-chat-bubble` — help/contact-support.md — Chat bubble ở góc dưới phải
-* `concept-flow-diagram` — reference/how-it-works.md — Sơ đồ 5 bước: builder → storefront → cart → checkout
+* Where: App admin → Pricing
+* Must show: Các plan card cạnh nhau, switch Monthly/Yearly, ô discount code, plan hiện tại hiện "Current plan"
+* Outline: Khoanh nút hành động trên 1 plan (mũi tên nhỏ vì nhiều card giống nhau)

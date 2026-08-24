@@ -151,7 +151,7 @@ If your storefront has more than one language, the language switcher in the buil
 <details>
 <summary>I cannot add an option — the type is greyed out</summary>
 
-That option type is not in your plan. See [Locked features](../plans/locked-features.md).
+That option type is not in your plan. See [Locked features](../plans/compare-plans.md).
 </details>
 
 <details>

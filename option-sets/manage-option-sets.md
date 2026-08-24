@@ -94,7 +94,7 @@ Check the status tab you are on — you may be filtered to **Active** while the 
 <details>
 <summary>Create from scratch is disabled</summary>
 
-You are at your plan's limit on option sets. Delete one you no longer need, or upgrade. See [Locked features](../plans/locked-features.md).
+You are at your plan's limit on option sets. Delete one you no longer need, or upgrade. See [Locked features](../plans/compare-plans.md).
 </details>
 
 <details>

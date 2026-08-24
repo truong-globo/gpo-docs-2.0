@@ -94,7 +94,7 @@ In both cases the app shows you what it is asking for and you approve it in Shop
 
 * Installing does not add, remove, or edit any of your theme files.
 * Installing does not create products. Products are only created if you later choose the **Automatically generate product** add-on mode — see [Automatically generate a product](../add-on-pricing/auto-generate-a-product.md).
-* The plan you choose controls which option types and features are available. Locked items still appear in the app, greyed out, with an upgrade prompt — see [Locked features](../plans/locked-features.md).
+* The plan you choose controls which option types and features are available. Locked items still appear in the app, greyed out, with an upgrade prompt — see [Locked features](../plans/compare-plans.md).
 
 ## Troubleshooting
 

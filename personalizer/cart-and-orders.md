@@ -72,7 +72,7 @@ If you sell high-value personalised items, consider adding your own proofing ste
 
 ## Notes
 
-* Option values, including personalisation text, reach the order as line item properties. See [Line item properties](../reference/line-item-properties.md).
+* Option values, including personalisation text, reach the order as line item properties. See [Line item properties](../storefront/show-options-on-orders.md).
 * Add-on products attached to personalisation appear as their own cart lines unless you merge them. See [Merge main product and add-ons](../add-on-pricing/merge-as-bundle.md).
 * Orders already placed keep the option names they were placed with. Renaming an option later does not rewrite history.
 * The **Preview Your Design** and **Your Design** wording is editable per language in **Settings > Translations**.

@@ -48,7 +48,7 @@ The snippet is the same in every case:
 
 Two things it does that matter:
 
-* **It skips properties whose name starts with an underscore.** Those are the app's internal properties, which link add-ons to their parent item and carry pricing data. They are not for your team to read. See [Line item properties](../reference/line-item-properties.md).
+* **It skips properties whose name starts with an underscore.** Those are the app's internal properties, which link add-ons to their parent item and carry pricing data. They are not for your team to read. See [Line item properties](show-options-on-orders.md).
 * **It renders uploaded files as links** rather than as long addresses, so a packing slip stays readable.
 
 {% hint style="info" %}

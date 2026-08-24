@@ -47,7 +47,7 @@ If add-on pricing is not being applied at checkout at all — not a display prob
 
 <table><thead><tr><th width="290">On the order you see</th><th>Where it comes from</th></tr></thead><tbody><tr><td>The main product, at its price plus any <strong>Add price</strong> amounts</td><td>Your product, adjusted at checkout</td></tr><tr><td>The option details, listed under the item</td><td>The customer's choices, as line item properties</td></tr><tr><td>One line per product-backed add-on, at its own price</td><td>The linked or generated products</td></tr><tr><td>A few technical properties linking the add-ons to their parent item</td><td>The app, so the pieces stay associated</td></tr></tbody></table>
 
-Full detail on the last one: [Line item properties](../reference/line-item-properties.md).
+Full detail on the last one: [Line item properties](../storefront/show-options-on-orders.md).
 
 ## Sync Add-on data
 

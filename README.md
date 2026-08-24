@@ -44,16 +44,15 @@ Turn the app on in your theme so the options actually render for shoppers. Nothi
 {% endstepper %}
 
 {% hint style="warning" %}
-Two things must both be true before any option appears on your storefront: the **app embed is enabled** on your active theme, and the option set has a **product rule** that matches the product you are looking at. If options are missing, check those two first — see [Options are not showing up](help/troubleshooting-not-showing.md).
+Two things must both be true before any option appears on your storefront: the **app embed is enabled** on your active theme, and the option set has a **product rule** that matches the product you are looking at. If options are missing, check those two first — see [Options are not showing up](help/troubleshooting.md).
 {% endhint %}
 
 ## Find your way around
 
-<table><thead><tr><th width="230">I want to…</th><th>Go to</th></tr></thead><tbody><tr><td>Understand how the app works before I start</td><td><a href="reference/how-it-works.md">How the app works</a></td></tr><tr><td>Build and organise the option form</td><td><a href="option-sets/README.md">Option sets</a></td></tr><tr><td>Know exactly what every setting does</td><td><a href="option-types/shared-settings/README.md">Shared settings</a></td></tr><tr><td>Charge more for certain choices</td><td><a href="add-on-pricing/README.md">Add-on pricing</a></td></tr><tr><td>Make the widget match my theme</td><td><a href="storefront/README.md">Storefront display and design</a></td></tr><tr><td>Translate options for my other storefront languages</td><td><a href="translations/README.md">Translations and languages</a></td></tr><tr><td>Reuse a setup I already built</td><td><a href="templates/README.md">Templates</a></td></tr><tr><td>Look up a word I do not recognise</td><td><a href="help/glossary.md">Glossary</a></td></tr><tr><td>Compare what each plan includes</td><td><a href="plans/compare-plans.md">Compare plans</a></td></tr></tbody></table>
+<table><thead><tr><th width="230">I want to…</th><th>Go to</th></tr></thead><tbody><tr><td>Understand how the app works before I start</td><td><a href="reference/how-it-works.md">How the app works</a></td></tr><tr><td>Build and organise the option form</td><td><a href="option-sets/README.md">Option sets</a></td></tr><tr><td>Know exactly what every setting does</td><td><a href="option-types/shared-settings/README.md">Shared settings</a></td></tr><tr><td>Charge more for certain choices</td><td><a href="add-on-pricing/README.md">Add-on pricing</a></td></tr><tr><td>Make the widget match my theme</td><td><a href="storefront/README.md">Storefront display and design</a></td></tr><tr><td>Translate options for my other storefront languages</td><td><a href="translations/README.md">Translations and languages</a></td></tr><tr><td>Reuse a setup I already built</td><td><a href="templates/README.md">Templates</a></td></tr><tr><td>Compare what each plan includes</td><td><a href="plans/compare-plans.md">Compare plans</a></td></tr></tbody></table>
 
 ## Get help
 
-* **Something is broken** — start with [Options are not showing up](help/troubleshooting-not-showing.md), then the other troubleshooting pages.
+* **Something is broken** — start with [Options are not showing up](help/troubleshooting.md), then the other troubleshooting pages.
 * **Quick questions** — see the [FAQ](help/faq.md).
-* **A word you do not recognise** — see the [Glossary](help/glossary.md).
 * **Talk to us** — live chat inside the app, the **Contact Us** page in the app, or email [contact@globo.io](mailto:contact@globo.io). See [Contact support](help/contact-support.md).

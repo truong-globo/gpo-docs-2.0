@@ -186,24 +186,14 @@
 * [Overview](plans/README.md)
 * [Compare plans](plans/compare-plans.md)
 * [Change your plan](plans/change-your-plan.md)
-* [What happens when you downgrade](plans/what-happens-on-downgrade.md)
-* [Locked features](plans/locked-features.md)
 
 ## Help
 
-* [Options are not showing up](help/troubleshooting-not-showing.md)
-* [Pricing and add-on problems](help/troubleshooting-pricing.md)
-* [Cart and checkout problems](help/troubleshooting-cart-checkout.md)
+* [Troubleshooting](help/troubleshooting.md)
 * [FAQ](help/faq.md)
-* [Glossary](help/glossary.md)
 * [Contact support](help/contact-support.md)
 
 ## Reference
 
-* [Tour of the app](reference/tour-of-the-app.md)
-* [How the app works](reference/how-it-works.md)
-* [Line item properties](reference/line-item-properties.md)
+* [How it works](reference/how-it-works.md)
 * [Permissions and data](reference/permissions-and-data.md)
-* [Option type support matrix](reference/option-type-support-matrix.md)
-* [Validation messages](reference/validation-messages.md)
-* [Supported themes](reference/supported-themes.md)

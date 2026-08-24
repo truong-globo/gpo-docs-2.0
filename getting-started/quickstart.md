@@ -134,7 +134,7 @@ Check these in order:
 3. Is **Online Store** ticked under **Sales channels**?
 4. Does the product rule match the product you are looking at?
 
-The full checklist is in [Options are not showing up](../help/troubleshooting-not-showing.md).
+The full checklist is in [Options are not showing up](../help/troubleshooting.md).
 </details>
 
 <details>

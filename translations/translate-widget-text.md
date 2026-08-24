@@ -76,7 +76,7 @@ Error messages are read at the moment a shopper is frustrated. Wording them like
 * These settings are store-wide. There is no per-option-set override.
 * Anything blank in a language falls back to the default set, so a partial translation still works.
 * This is separate from [option content](translate-option-content.md), which is your own labels and values, and from the [app admin language](app-admin-language.md), which is what you see.
-* The full list of validation messages and what triggers each is in [Validation messages](../reference/validation-messages.md).
+* The full list of validation messages and what triggers each is in [Validation messages](translate-widget-text.md).
 
 ## Troubleshooting
 

@@ -64,7 +64,7 @@ The pattern that handles both that and uploaded files:
 
 Two things it does: it skips internal properties and empty values, and it renders an uploaded file as a link with a readable name rather than a long address.
 
-See [Line item properties](../reference/line-item-properties.md).
+See [Line item properties](../storefront/show-options-on-orders.md).
 
 ## A complete order note template
 

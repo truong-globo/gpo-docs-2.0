@@ -34,7 +34,7 @@ In order:
 1. The conditions are always true — for example **number of characters is greater than** `-1`, or a value that is also the default.
 2. You have **Show** with **Any** and one condition that is always satisfied.
 3. Conditional logic is not actually on. Check the switch, and check the option set was saved.
-4. Your plan may not include conditional logic, in which case rules are stored but not applied. See [Locked features](../plans/locked-features.md).
+4. Your plan may not include conditional logic, in which case rules are stored but not applied. See [Locked features](../plans/compare-plans.md).
 
 </details>
 

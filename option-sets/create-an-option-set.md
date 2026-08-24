@@ -199,7 +199,7 @@ Two options in this set share a **Name**, ignoring capitalisation and spaces. Du
 <details>
 <summary>I saved it, but nothing shows on my storefront</summary>
 
-Work through the four switches: app embed enabled, status **Active**, **Online Store** ticked, and a matching product rule. See [Options are not showing up](../help/troubleshooting-not-showing.md).
+Work through the four switches: app embed enabled, status **Active**, **Online Store** ticked, and a matching product rule. See [Options are not showing up](../help/troubleshooting.md).
 </details>
 
 <details>

@@ -1,7 +1,7 @@
 ---
 description: >-
-  Pin the option widget to an exact spot in your product template using the
-  theme app block, instead of letting the app place itself.
+  Pin the option widget to an exact spot in your product template using the theme
+  app block, instead of letting the app place itself.
 icon: thumbtack
 ---
 
@@ -19,10 +19,8 @@ The app block does not replace the app embed. If the embed is off, an app block 
 
 ## When to use it
 
-Use the app block when:
-
-* Automatic placement lands the widget somewhere unhelpful in your theme and none of the built-in positions fix it.
-* You want the widget between two specific blocks — for example under the variant picker but above a trust-badge block.
+* Automatic placement lands the widget somewhere unhelpful and none of the built-in positions fix it.
+* You want the widget between two specific blocks — under the variant picker but above a trust badge, say.
 * You want options on a **Featured product** section on your home page or another page.
 * You would rather not maintain a CSS selector in the app's settings.
 
@@ -34,33 +32,25 @@ Stick with automatic placement when one of the built-in positions already puts t
 {% step %}
 ### Open the theme editor at the product template
 
-You have three ways in. All three land in the same place.
+On the app's dashboard, select **Add app block** on the **Active app blocks** card. That opens the product template with the block ready to insert.
 
-* **From the dashboard** — on the **Active app blocks** card, select **Add app block**.
-* **From settings** — go to **Settings** > **Settings** > **General**. Under **Widget placement** there is a tip that says the app block is the easier and more reliable option. Select **Open theme editor**.
-* **Manually in Shopify** — **Online Store** > **Themes** > **Customize**, then switch the template dropdown at the top of the theme editor to **Products** > **Default product**.
-
-The first two routes open the product template with the block ready to insert.
+The same tip appears under **Widget placement** in **Settings** > **Settings** > **General**. Or open it yourself: **Online Store** > **Themes** > **Customize**, then switch the template dropdown to **Products** > **Default product**.
 
 <!-- SCREENSHOT: start-block-add-button | App admin → Dashboard | Card "Active app blocks" với số lượng và nút Add app block | Khoanh nút Add app block -->
 
-<figure><img src="../.gitbook/assets/placeholder.png" alt="The Active app blocks card on the dashboard with the Add app block button"><figcaption><p>The dashboard tracks how many app blocks you have placed and links straight to adding one.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/placeholder.png" alt="The Active app blocks card on the dashboard with the Add app block button"><figcaption><p>The dashboard counts your app blocks and links straight to adding one.</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
 ### Add the block
 
-In the theme editor's left sidebar, find the product information section (its name varies by theme — often **Product information** or **Product**), and select **Add block**.
-
-Under the **Apps** group, choose **Globo Product Options**.
+In the left sidebar, find the product information section — its name varies by theme, often **Product information** or **Product** — and select **Add block**. Under the **Apps** group, choose **Globo Product Options**.
 {% endstep %}
 
 {% step %}
 ### Drag it into position
 
-The block appears in the section's block list. Drag it up or down until it sits where you want the widget.
-
-The preview on the right redraws as you move it, so you can judge the position directly.
+The block appears in the section's block list. Drag it up or down until it sits where you want the widget. The preview redraws as you move it, so you can judge the position directly.
 
 <!-- SCREENSHOT: start-block-drag-position | Shopify theme editor → product template | Block "Globo Product Options" trong danh sách block của section, đang được đặt trên nút Add to cart | Khoanh dòng block Globo Product Options (mũi tên nhỏ vì nhiều block trong list) -->
 
@@ -68,86 +58,51 @@ The preview on the right redraws as you move it, so you can judge the position d
 {% endstep %}
 
 {% step %}
-### Save
+### Save, then check
 
-Select **Save** in the theme editor.
-{% endstep %}
-
-{% step %}
-### Check the count
-
-Back in the app, the **Active app blocks** card on the dashboard now counts your block. Open a product page on your storefront to confirm the widget renders in its new position.
+Select **Save** in the theme editor. Back in the app, the **Active app blocks** card counts your block — and a product page on your storefront shows the widget in its new position.
 {% endstep %}
 {% endstepper %}
 
-## Add it to a home page or regular page
+## Options on a home page or a regular page
 
 Options can also render inside a **Featured product** section outside the product template.
 
-{% stepper %}
-{% step %}
-### Add a Featured product section
+In the theme editor, open the page you want, add a **Featured product** section if there is not one, then **Add block** > **Globo Product Options** inside it. The block's **Product** setting fills itself in from the section, but confirm it points at the product you expect. Save.
 
-In the theme editor, open the page you want — your home page, or any page template — and add a **Featured product** section if there is not one already.
-{% endstep %}
-
-{% step %}
-### Add the app block inside it
-
-Select **Add block** inside that section, then choose **Globo Product Options** from the **Apps** group.
-{% endstep %}
-
-{% step %}
-### Check the product setting
-
-The block has a **Product** setting. It fills itself in from the section's product automatically, but confirm it points at the product you expect.
-{% endstep %}
-
-{% step %}
-### Save, then check the page setting in the app
-
-Save in the theme editor. Then in the app, go to **Settings** > **Settings** > **General** > **Other pages** and make sure the switch for that page type is on:
-
-* **Show widget on home page (featured product section only)**
-* **Show widget on regular page (featured product section only)**
-
-If the relevant switch is off, the widget will not render even with the block in place.
-{% endstep %}
-{% endstepper %}
+{% hint style="warning" %}
+The block alone is not enough here. In the app, go to **Settings** > **Settings** > **General** > **Other pages** and turn on the matching switch — **Show widget on home page (featured product section only)** or **Show widget on regular page (featured product section only)**. With the switch off, the widget does not render even with the block in place.
+{% endhint %}
 
 ## Limits and notes
 
 * Only the product template and **Featured product** sections make sense for the block — it needs a product in context to know which option sets apply.
-* Placing an app block does **not** disable automatic placement. If you see the widget twice, either remove the block, or set **Widget placement** so the automatic position no longer applies. See [Widget placement](../storefront/widget-placement.md).
+* Placing a block does **not** disable automatic placement. If the widget appears twice, remove the block or change **Widget placement** so the automatic position no longer applies.
 * App blocks are stored with the theme, like the embed. A new theme starts with none.
-* Blocks are supported on Online Store 2.0 themes. On older themes, use automatic placement with a custom CSS selector instead.
+* Blocks need an Online Store 2.0 theme. On an older theme, use automatic placement with a custom CSS selector instead.
 
 ## Troubleshooting
 
 <details>
 <summary>Globo Product Options is not in the Add block list</summary>
 
-Check that you are adding the block inside a section that supports app blocks — usually the product information section on a product template, or a Featured product section. Some theme sections do not accept app blocks at all. Also confirm the app is still installed.
+Check you are adding the block inside a section that accepts app blocks — usually the product information section on a product template, or a Featured product section. Some theme sections do not accept them at all. Also confirm the app is still installed.
 </details>
 
 <details>
 <summary>I added the block but nothing renders there</summary>
 
-Three things to check:
-
-1. Is the [app embed](enable-the-app-embed.md) enabled on this theme?
-2. Does an **Active** option set match this product?
-3. For a home page or regular page, is the matching **Other pages** switch on in **Settings > Settings > General**?
+Three things: is the [app embed](enable-the-app-embed.md) enabled on this theme; does an **Active** option set match this product; and for a home or regular page, is the matching **Other pages** switch on?
 </details>
 
 <details>
 <summary>The widget shows up twice</summary>
 
-Automatic placement and the app block are both placing it. Remove one of them.
+Automatic placement and the app block are both placing it. Remove one.
 </details>
 
 <details>
 <summary>The widget disappeared after a theme update</summary>
 
-Theme updates can reset a section's blocks. Re-add the app block, or switch to automatic placement, which survives theme updates.
+Theme updates can reset a section's blocks. Re-add the block, or switch to automatic placement, which survives theme updates.
 </details>

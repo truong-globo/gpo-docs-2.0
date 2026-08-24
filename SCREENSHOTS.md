@@ -2,7 +2,7 @@
 
 Internal working file — not part of the published documentation and not listed in `SUMMARY.md`.
 
-**133 required shots**, 0 optional, across 103 pages. Generated from the `<!-- SCREENSHOT: ... -->` markers in the pages, in `SUMMARY.md` order.
+**132 required shots**, 0 optional, across 103 pages. Generated from the `<!-- SCREENSHOT: ... -->` markers in the pages, in `SUMMARY.md` order.
 
 Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace that path with the real file as each shot is taken.
 
@@ -97,19 +97,13 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `getting-started/enable-the-app-embed.md`
 
-**11. `start-embed-setupguide-step2`**
-
-* Where: App admin → Dashboard
-* Must show: Setup guide card, step 2 đang mở với nút "Enable app embed"
-* Outline: Khoanh nút Enable app embed
-
-**12. `start-embed-theme-setup`**
+**11. `start-embed-theme-setup`**
 
 * Where: App admin → Settings → Theme Setup
 * Must show: Dropdown chọn theme + badge Deactivated + nút Go to Theme Editor
 * Outline: Khoanh badge và nút Go to Theme Editor
 
-**13. `start-embed-theme-editor-toggle`**
+**12. `start-embed-theme-editor-toggle`**
 
 * Where: Shopify theme editor → App embeds
 * Must show: Danh sách app embeds, toggle "Globo Product Options" đang bật
@@ -120,13 +114,13 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `getting-started/add-the-app-block.md`
 
-**14. `start-block-add-button`**
+**13. `start-block-add-button`**
 
 * Where: App admin → Dashboard
 * Must show: Card "Active app blocks" với số lượng và nút Add app block
 * Outline: Khoanh nút Add app block
 
-**15. `start-block-drag-position`**
+**14. `start-block-drag-position`**
 
 * Where: Shopify theme editor → product template
 * Must show: Block "Globo Product Options" trong danh sách block của section, đang được đặt trên nút Add to cart
@@ -137,13 +131,13 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `option-sets/create-an-option-set.md`
 
-**16. `set-create-setup-flow`**
+**15. `set-create-setup-flow`**
 
 * Where: App admin → builder mới tạo
 * Must show: Tab Setup flow với 2 step Build option / Assign products + dòng status phía trên
 * Outline: Khoanh 2 thẻ step
 
-**17. `set-status-channels`**
+**16. `set-status-channels`**
 
 * Where: App admin → builder
 * Must show: Khối Status cạnh tên option set (Active) và popover Sales channels với 2 switch
@@ -154,13 +148,13 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `option-sets/build-options.md`
 
-**18. `set-build-option-list`**
+**17. `set-build-option-list`**
 
 * Where: App admin → builder → Build option
 * Must show: Danh sách option với icon, title, description, badge Required và badge giá
 * Outline: Khoanh 1 dòng option kèm các badge (mũi tên nhỏ vì nhiều dòng)
 
-**19. `set-build-change-type`**
+**18. `set-build-change-type`**
 
 * Where: App admin → builder → panel setting của 1 option
 * Must show: Control đổi option type ở header panel đang mở
@@ -171,13 +165,13 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `option-sets/option-values.md`
 
-**20. `concept-ov-table`**
+**19. `concept-ov-table`**
 
 * Where: App admin → builder → 1 option kiểu Checkbox hoặc Dropdown
 * Must show: Bảng Option values đầy đủ cột + 3 nút Add value / Bulk add / Delete all option values
 * Outline: Khoanh hàng nút ở dưới bảng
 
-**21. `concept-ov-bulk-add`**
+**20. `concept-ov-bulk-add`**
 
 * Where: App admin → builder → dialog Bulk Add Values
 * Must show: Textarea nhiều dòng giá trị + nút Select
@@ -188,19 +182,19 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `option-sets/live-preview-and-inspector.md`
 
-**22. `set-preview-header-controls`**
+**21. `set-preview-header-controls`**
 
 * Where: App admin → builder
 * Must show: Header với các control: editor/preview, desktop/mobile, inspector, language
 * Outline: Khoanh nhóm control (mũi tên nhỏ vào nút inspector)
 
-**23. `set-preview-inspector`**
+**22. `set-preview-inspector`**
 
 * Where: App admin → builder, inspector đang bật
 * Must show: 1 option trong preview được highlight kèm thanh action Duplicate / Half width / Full width / Hide / Delete
 * Outline: Khoanh thanh action
 
-**24. `set-preview-matching-products`**
+**23. `set-preview-matching-products`**
 
 * Where: App admin → builder → modal Preview matching products
 * Must show: Danh sách sản phẩm khớp rule, mỗi dòng có ảnh, tên, vendor, type, status, nút Preview
@@ -211,19 +205,19 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `option-sets/assign-to-products.md`
 
-**25. `set-assign-three-methods`**
+**24. `set-assign-three-methods`**
 
 * Where: App admin → builder → Assign products
 * Must show: 3 khối Manual Selection / Automatic Rules / Apply to All Products, đều đang tắt
 * Outline: Khoanh 3 khối
 
-**26. `set-assign-manual-table`**
+**25. `set-assign-manual-table`**
 
 * Where: App admin → builder → Assign products → Manual Selection đang bật
 * Must show: Bảng sản phẩm đã chọn với ảnh, tên, status + nút Select products và Deselect all products
 * Outline: Khoanh bảng và 2 nút
 
-**27. `set-assign-automatic-conditions`**
+**26. `set-assign-automatic-conditions`**
 
 * Where: App admin → builder → Assign products → Automatic Rules đang bật
 * Must show: "Products must match: all conditions" + 2 điều kiện (Product tag is equal to ... và Product type is equal to ...) + nút Add another condition
@@ -234,13 +228,13 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `option-sets/assign-to-customers.md`
 
-**28. `set-customers-methods`**
+**27. `set-customers-methods`**
 
 * Where: App admin → builder → tab Customers
 * Must show: 3 khối Everyone / Manual Selection / Automatic Rules, Everyone đang bật
 * Outline: Khoanh 3 khối
 
-**29. `set-customers-automatic`**
+**28. `set-customers-automatic`**
 
 * Where: App admin → builder → tab Customers → Automatic Rules đang bật
 * Must show: Điều kiện "Customer tags is equal to wholesale" + selector all/any conditions
@@ -251,7 +245,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `option-sets/assign-to-countries.md`
 
-**30. `set-countries-panel`**
+**29. `set-countries-panel`**
 
 * Where: App admin → builder → tab Countries
 * Must show: Country restrictions đang bật, chọn Include, đã chọn vài quốc gia
@@ -262,13 +256,13 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `option-sets/manage-option-sets.md`
 
-**31. `set-list-overview`**
+**30. `set-list-overview`**
 
 * Where: App admin → Option Sets
 * Must show: Bảng danh sách với các cột, tab filter All/Active/Draft, ô search, nút Create option set
 * Outline: Không khoanh
 
-**32. `set-list-bulk-actions`**
+**31. `set-list-bulk-actions`**
 
 * Where: App admin → Option Sets, đã tick vài dòng
 * Must show: Thanh bulk action với Set as active / Set as draft / Duplicate + menu chứa Save as Template và Delete
@@ -279,7 +273,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `option-sets/duplicate-and-delete.md`
 
-**33. `set-duplicate-result`**
+**32. `set-duplicate-result`**
 
 * Where: App admin → Option Sets sau khi duplicate
 * Must show: 2 dòng cùng tên, cùng status Active
@@ -290,13 +284,13 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `option-sets/import-and-export.md`
 
-**34. `set-export-modal`**
+**33. `set-export-modal`**
 
 * Where: App admin → Option Sets → modal Export option sets
 * Must show: Nhóm "Export" với 3 lựa chọn và nhóm "Export as" với Plain CSV file
 * Outline: Không khoanh (modal đơn)
 
-**35. `set-import-modal`**
+**34. `set-import-modal`**
 
 * Where: App admin → Option Sets → modal Import
 * Must show: Drop zone + link sample CSV template + danh sách "Select app for import" 7 lựa chọn + checkbox Set all imported option sets as Active
@@ -307,19 +301,19 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `option-sets/analytics.md`
 
-**36. `set-analytics-open`**
+**35. `set-analytics-open`**
 
 * Where: App admin → Option Sets
 * Must show: Menu action của 1 dòng đang mở với mục View Analytics
 * Outline: Khoanh mục View Analytics
 
-**37. `set-analytics-summary`**
+**36. `set-analytics-summary`**
 
 * Where: App admin → Analytics của 1 option set
 * Must show: 5 ô số liệu Total revenue / Revenue from add-ons / Total products / Total orders / Average order value kèm chỉ số so sánh
 * Outline: Khoanh hàng 5 ô
 
-**38. `set-analytics-charts`**
+**37. `set-analytics-charts`**
 
 * Where: App admin → Analytics của 1 option set
 * Must show: Các chart: Total sales, Most valued options, Total products quantity, Orders revenue distribution, Average order value
@@ -330,7 +324,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `option-types/shared-settings/labels-and-visibility.md`
 
-**39. `type-shared-label-name`**
+**38. `type-shared-label-name`**
 
 * Where: App admin → builder → 1 option Text
 * Must show: Basic Settings: Label, Name, Required field, Hidden label
@@ -341,7 +335,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `option-types/shared-settings/placeholder-and-help-text.md`
 
-**40. `type-shared-helptext-positions`**
+**39. `type-shared-helptext-positions`**
 
 * Where: Storefront → trang sản phẩm
 * Must show: 4 option giống nhau minh hoạ 4 vị trí help text khác nhau
@@ -352,7 +346,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `option-types/shared-settings/required-and-default-value.md`
 
-**41. `type-shared-required-default`**
+**40. `type-shared-required-default`**
 
 * Where: App admin → builder → 1 option Select
 * Must show: Basic Settings với Required field bật và Default value đã chọn 1 giá trị
@@ -363,7 +357,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `option-types/shared-settings/limits.md`
 
-**42. `type-shared-limits`**
+**41. `type-shared-limits`**
 
 * Where: App admin → builder → option Text
 * Must show: Basic Settings với Min character, Max character, Character counter = Show
@@ -374,7 +368,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `option-types/shared-settings/text-input-rules.md`
 
-**43. `type-shared-text-rules`**
+**42. `type-shared-text-rules`**
 
 * Where: App admin → builder → option Text → tab Advanced Settings
 * Must show: Allowed value và Text transform
@@ -385,7 +379,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `option-types/shared-settings/selection-behaviour.md`
 
-**44. `type-shared-selection-behaviour`**
+**43. `type-shared-selection-behaviour`**
 
 * Where: App admin → builder → option Dropdown
 * Must show: Allow multiple ở Basic Settings; Search suggestion và Not allow deselect ở Advanced Settings
@@ -396,13 +390,13 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `option-types/shared-settings/swatch-style-and-previews.md`
 
-**45. `type-shared-swatch-style`**
+**44. `type-shared-swatch-style`**
 
 * Where: App admin → builder → option Checkbox
 * Must show: Swatch style ở Basic Settings với 3 lựa chọn Default / Color / Image
 * Outline: Khoanh field Swatch style
 
-**46. `type-shared-tooltip-zoom`**
+**45. `type-shared-tooltip-zoom`**
 
 * Where: Storefront → trang sản phẩm
 * Must show: Hover 1 image swatch, tooltip Text & image hiện ảnh phóng to
@@ -413,13 +407,13 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `option-types/shared-settings/collapsible-layouts-and-sliders.md`
 
-**47. `type-shared-slider-settings`**
+**46. `type-shared-slider-settings`**
 
 * Where: App admin → builder → option Image swatch → Advanced Settings
 * Must show: Enable custom layout bật, Layout type = Slider, các setting Number of rows / Swatches per row / arrows / indicators / Slider style
 * Outline: Khoanh nhóm slider
 
-**48. `type-shared-slider-storefront`**
+**47. `type-shared-slider-storefront`**
 
 * Where: Storefront → trang sản phẩm
 * Must show: Image swatch dạng slider 2 hàng, có arrow, thấy 1 swatch bị cắt ở mép
@@ -430,7 +424,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `option-types/shared-settings/direction-width-and-css.md`
 
-**49. `type-shared-width-css`**
+**48. `type-shared-width-css`**
 
 * Where: App admin → builder → 1 option → Advanced Settings
 * Must show: Direction style, Column width (6 lựa chọn), HTML class
@@ -441,13 +435,13 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `option-types/shared-settings/prefix-suffix-and-icons.md`
 
-**50. `type-shared-prefix-suffix`**
+**49. `type-shared-prefix-suffix`**
 
 * Where: App admin → builder → option Number → Advanced Settings
 * Must show: Prefix (Icon/Text), Prefix icon hoặc Prefix text, Suffix
 * Outline: Khoanh nhóm Prefix/Suffix
 
-**51. `type-shared-prefix-storefront`**
+**50. `type-shared-prefix-storefront`**
 
 * Where: Storefront → trang sản phẩm
 * Must show: 1 field Number có prefix "$" và suffix "cm" hiển thị trong ô input
@@ -458,7 +452,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `option-types/shared-settings/out-of-stock-options.md`
 
-**52. `type-shared-oos-storefront`**
+**51. `type-shared-oos-storefront`**
 
 * Where: Storefront → trang sản phẩm
 * Must show: 1 hàng color swatch trong đó 1 swatch hết hàng đang bị blur
@@ -469,13 +463,13 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `option-types/shared-settings/conditional-logic-and-add-on-fields.md`
 
-**53. `type-shared-clo-field`**
+**52. `type-shared-clo-field`**
 
 * Where: App admin → builder → 1 option
 * Must show: Switch Conditional logic đã bật, rule builder hiện bên dưới
 * Outline: Khoanh switch và rule builder
 
-**54. `type-shared-addon-fields`**
+**53. `type-shared-addon-fields`**
 
 * Where: App admin → builder → option Text
 * Must show: Add-on Settings với field Price và dropdown Advanced settings; nếu chọn Fixed quantity thì hiện Set quantity
@@ -486,7 +480,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `option-types/input-types/text.md`
 
-**55. `type-text-storefront`**
+**54. `type-text-storefront`**
 
 * Where: Storefront → trang sản phẩm
 * Must show: 1 field Text có label, placeholder, help text và character counter
@@ -497,7 +491,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `option-types/input-types/textarea.md`
 
-**56. `type-textarea-storefront`**
+**55. `type-textarea-storefront`**
 
 * Where: Storefront → trang sản phẩm
 * Must show: 1 field Textarea nhiều dòng đã nhập vài dòng chữ, có counter
@@ -508,7 +502,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `option-types/input-types/number.md`
 
-**57. `type-number-storefront`**
+**56. `type-number-storefront`**
 
 * Where: Storefront → trang sản phẩm
 * Must show: 1 field Number có prefix/suffix và help text nêu min-max
@@ -519,7 +513,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `option-types/input-types/phone.md`
 
-**58. `type-phone-storefront`**
+**57. `type-phone-storefront`**
 
 * Where: Storefront → trang sản phẩm
 * Must show: Field Phone có validate bật: cờ quốc gia + mã vùng ở đầu ô
@@ -530,7 +524,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `option-types/input-types/email.md`
 
-**59. `type-email-storefront`**
+**58. `type-email-storefront`**
 
 * Where: Storefront → trang sản phẩm
 * Must show: Field Email với help text, và trạng thái lỗi "Invalid email"
@@ -541,7 +535,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `option-types/input-types/date-and-time-picker.md`
 
-**60. `type-datetime-storefront`**
+**59. `type-datetime-storefront`**
 
 * Where: Storefront → trang sản phẩm
 * Must show: Field Date đang mở calendar, có ngày bị chặn (cuối tuần) không chọn được
@@ -552,7 +546,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `option-types/input-types/file-upload.md`
 
-**61. `type-file-storefront`**
+**60. `type-file-storefront`**
 
 * Where: Storefront → trang sản phẩm
 * Must show: Field File upload đã upload 1 ảnh, hiện thumbnail preview
@@ -563,7 +557,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `option-types/input-types/color-picker.md`
 
-**62. `type-colorpicker-storefront`**
+**61. `type-colorpicker-storefront`**
 
 * Where: Storefront → trang sản phẩm
 * Must show: Field Color picker đang mở bảng chọn màu
@@ -574,7 +568,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `option-types/input-types/switch.md`
 
-**63. `type-switch-storefront`**
+**62. `type-switch-storefront`**
 
 * Where: Storefront → trang sản phẩm
 * Must show: 1 Switch đã bật, có label và switch label, giá phụ phí hiện cạnh
@@ -585,7 +579,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `option-types/input-types/range-slider.md`
 
-**64. `type-range-storefront`**
+**63. `type-range-storefront`**
 
 * Where: Storefront → trang sản phẩm
 * Must show: 1 Range slider với giá trị hiện tại, prefix/suffix
@@ -596,13 +590,13 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `option-types/input-types/dimension.md`
 
-**65. `type-dimension-storefront`**
+**64. `type-dimension-storefront`**
 
 * Where: Storefront → trang sản phẩm
 * Must show: 1 option Dimension với 2-3 ô Width / Height / Depth kèm unit
 * Outline: Khoanh cả nhóm Dimension
 
-**66. `type-dimension-values`**
+**65. `type-dimension-values`**
 
 * Where: App admin → builder → option Dimension
 * Must show: Bảng option values với 3 hàng X/Y/Z và các cột Label / Placeholder / Unit / Default value / Min / Max
@@ -613,7 +607,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `option-types/selection-types/select.md`
 
-**67. `type-select-storefront`**
+**66. `type-select-storefront`**
 
 * Where: Storefront → trang sản phẩm
 * Must show: 1 native Select đang đóng và 1 đang mở
@@ -624,7 +618,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `option-types/selection-types/dropdown.md`
 
-**68. `type-dropdown-storefront`**
+**67. `type-dropdown-storefront`**
 
 * Where: Storefront → trang sản phẩm
 * Must show: Dropdown đang mở, có search box và vài entry, 1 entry hết hàng bị blur
@@ -635,7 +629,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `option-types/selection-types/color-dropdown.md`
 
-**69. `type-colordropdown-storefront`**
+**68. `type-colordropdown-storefront`**
 
 * Where: Storefront → trang sản phẩm
 * Must show: Color dropdown đang mở, mỗi entry có chip màu + tên
@@ -646,7 +640,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `option-types/selection-types/image-dropdown.md`
 
-**70. `type-imagedropdown-storefront`**
+**69. `type-imagedropdown-storefront`**
 
 * Where: Storefront → trang sản phẩm
 * Must show: Image dropdown đang mở, mỗi entry có ảnh nhỏ + tên
@@ -657,7 +651,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `option-types/selection-types/radio-button.md`
 
-**71. `type-radio-storefront`**
+**70. `type-radio-storefront`**
 
 * Where: Storefront → trang sản phẩm
 * Must show: Radio list dọc, mỗi value có help text riêng, 1 value đang chọn
@@ -668,7 +662,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `option-types/selection-types/checkbox.md`
 
-**72. `type-checkbox-storefront`**
+**71. `type-checkbox-storefront`**
 
 * Where: Storefront → trang sản phẩm
 * Must show: Checkbox list với vài value đã tick, mỗi value có giá phụ phí hiện cạnh
@@ -679,7 +673,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `option-types/selection-types/button.md`
 
-**73. `type-button-storefront`**
+**72. `type-button-storefront`**
 
 * Where: Storefront → trang sản phẩm
 * Must show: 1 hàng button size (S M L XL) với 1 button đang chọn và 1 button hết hàng bị strike-through
@@ -690,7 +684,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `option-types/selection-types/color-swatch.md`
 
-**74. `type-colorswatch-storefront`**
+**73. `type-colorswatch-storefront`**
 
 * Where: Storefront → trang sản phẩm
 * Must show: Grid color swatch, 1 chip đang chọn, 1 chip hết hàng bị blur, hover hiện tooltip tên màu
@@ -701,7 +695,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `option-types/selection-types/image-swatch.md`
 
-**75. `type-imageswatch-storefront`**
+**74. `type-imageswatch-storefront`**
 
 * Where: Storefront → trang sản phẩm
 * Must show: Grid image swatch, 1 swatch đang chọn, hover 1 swatch hiện tooltip Text & image phóng to
@@ -712,7 +706,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `option-types/selection-types/font-picker.md`
 
-**76. `type-fontpicker-storefront`**
+**75. `type-fontpicker-storefront`**
 
 * Where: Storefront → trang sản phẩm
 * Must show: Font picker đang mở, mỗi tên font được vẽ bằng chính font đó
@@ -723,7 +717,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `option-types/selection-types/product-links.md`
 
-**77. `type-productlinks-storefront`**
+**76. `type-productlinks-storefront`**
 
 * Where: Storefront → trang sản phẩm
 * Must show: Product links dạng button, mỗi button là 1 sản phẩm khác
@@ -734,7 +728,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `option-types/static-types/section.md`
 
-**78. `type-section-storefront`**
+**77. `type-section-storefront`**
 
 * Where: Storefront → trang sản phẩm
 * Must show: 2 Section: 1 style Default mở, 1 style Collapse đang đóng
@@ -745,7 +739,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `option-types/static-types/heading.md`
 
-**79. `type-heading-storefront`**
+**78. `type-heading-storefront`**
 
 * Where: Storefront → trang sản phẩm
 * Must show: 2 Heading khác cấp (h3 và h5) phân tách các nhóm option
@@ -756,7 +750,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `option-types/static-types/divider.md`
 
-**80. `type-divider-storefront`**
+**79. `type-divider-storefront`**
 
 * Where: Storefront → trang sản phẩm
 * Must show: 2 divider khác style (solid và dashed) phân tách các nhóm option
@@ -767,7 +761,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `option-types/static-types/paragraph.md`
 
-**81. `type-paragraph-storefront`**
+**80. `type-paragraph-storefront`**
 
 * Where: Storefront → trang sản phẩm
 * Must show: 1 Paragraph có chữ in đậm và 1 link, đặt trên nhóm option
@@ -778,7 +772,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `option-types/static-types/pop-up-modal.md`
 
-**82. `type-modal-storefront`**
+**81. `type-modal-storefront`**
 
 * Where: Storefront → trang sản phẩm
 * Must show: Link mở modal và modal đã mở với nội dung rich text
@@ -789,7 +783,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `option-types/static-types/html.md`
 
-**83. `type-html-storefront`**
+**82. `type-html-storefront`**
 
 * Where: Storefront → trang sản phẩm
 * Must show: 1 block HTML tuỳ chỉnh (ví dụ bảng nhỏ hoặc badge) trong widget
@@ -800,13 +794,13 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `option-types/static-types/size-chart.md`
 
-**84. `type-sizechart-storefront`**
+**83. `type-sizechart-storefront`**
 
 * Where: Storefront → trang sản phẩm
 * Must show: Link mở size chart và bảng size đã mở
 * Outline: Khoanh link và bảng
 
-**85. `type-sizechart-presets`**
+**84. `type-sizechart-presets`**
 
 * Where: App admin → builder → option Size chart
 * Must show: Danh sách 13 preset dạng icon để chọn
@@ -817,7 +811,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `option-types/static-types/tabs.md`
 
-**86. `type-tabs-storefront`**
+**85. `type-tabs-storefront`**
 
 * Where: Storefront → trang sản phẩm
 * Must show: Tabs ngang với 3 tab, tab đầu đang mở với nội dung
@@ -828,7 +822,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `conditional-logic/README.md`
 
-**87. `clo-rule-anatomy`**
+**86. `clo-rule-anatomy`**
 
 * Where: App admin → builder → 1 option có conditional logic bật
 * Must show: Toàn bộ rule builder: Show/Hide, All/Any, 1 dòng điều kiện
@@ -839,7 +833,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `conditional-logic/turn-it-on.md`
 
-**88. `clo-switch-on`**
+**87. `clo-switch-on`**
 
 * Where: App admin → builder → 1 option
 * Must show: Switch Conditional logic vừa bật, rule builder xuất hiện bên dưới
@@ -850,7 +844,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `conditional-logic/build-a-condition.md`
 
-**89. `clo-three-dropdowns`**
+**88. `clo-three-dropdowns`**
 
 * Where: App admin → builder → rule builder
 * Must show: 1 dòng điều kiện với 3 ô: source, operator, value
@@ -861,7 +855,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `conditional-logic/conditions-on-shopify-variants.md`
 
-**90. `clo-variant-condition`**
+**89. `clo-variant-condition`**
 
 * Where: App admin → builder → rule builder
 * Must show: Điều kiện với source "Shopify variant", operator "is equal to", value "Silver", ô value có suffix hiển thị locale
@@ -872,7 +866,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `add-on-pricing/where-you-can-set-add-ons.md`
 
-**91. `addon-two-levels`**
+**90. `addon-two-levels`**
 
 * Where: App admin → builder
 * Must show: Bên trái: option Text với field Price ở Add-on Settings. Bên phải: option Checkbox với cột Price trong bảng option values
@@ -883,7 +877,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `add-on-pricing/add-price-directly.md`
 
-**92. `addon-add-price-tab`**
+**91. `addon-add-price-tab`**
 
 * Where: App admin → builder → dialog Add-on Configuration
 * Must show: Tab "Add price" đang chọn, có banner giải thích và ô Price
@@ -894,7 +888,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `add-on-pricing/use-an-existing-product.md`
 
-**93. `addon-existing-product`**
+**92. `addon-existing-product`**
 
 * Where: App admin → builder → dialog Add-on Configuration
 * Must show: Tab "Use existing product": danh sách sản phẩm có search, đã chọn 1 sản phẩm và đang hiện danh sách variant
@@ -905,7 +899,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `add-on-pricing/auto-generate-a-product.md`
 
-**94. `addon-auto-generate`**
+**93. `addon-auto-generate`**
 
 * Where: App admin → builder → dialog Add-on Configuration
 * Must show: Tab "Automatically generate product": banner, Product title và Variant title readonly, ô Price
@@ -916,7 +910,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `add-on-pricing/advanced-add-on-modes.md`
 
-**95. `addon-advanced-modes`**
+**94. `addon-advanced-modes`**
 
 * Where: App admin → builder → option có Price → Advanced Settings
 * Must show: Dropdown "Advanced settings" đang mở với đủ các mode và help text
@@ -927,7 +921,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `add-on-pricing/merge-as-bundle.md`
 
-**96. `addon-merge-setting`**
+**95. `addon-merge-setting`**
 
 * Where: App admin → Settings → Add-on price
 * Must show: Switch "Merge Main product & Add-on products"
@@ -938,7 +932,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `add-on-pricing/price-display-settings.md`
 
-**97. `addon-price-settings`**
+**96. `addon-price-settings`**
 
 * Where: App admin → Settings → Add-on price
 * Must show: Toàn bộ các setting của tab
@@ -949,7 +943,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `personalizer/README.md`
 
-**98. `pp-storefront-hero`**
+**97. `pp-storefront-hero`**
 
 * Where: Storefront → trang sản phẩm có personalizer
 * Must show: Ảnh sản phẩm với text khách nhập được vẽ lên, cạnh là field nhập
@@ -960,13 +954,13 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `personalizer/setup.md`
 
-**99. `pp-background-panel`**
+**98. `pp-background-panel`**
 
 * Where: App admin → builder → preview → Change background
 * Must show: Panel với nhóm Background (Product image/Custom image) và Apply to (4 lựa chọn)
 * Outline: Khoanh 2 nhóm lựa chọn
 
-**100. `pp-enable-tab`**
+**99. `pp-enable-tab`**
 
 * Where: App admin → builder → option Text → tab Personalizer Settings
 * Must show: Switch "Enable personalize" đã bật, các nhóm setting hiện ra bên dưới
@@ -977,7 +971,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `personalizer/layer-settings/text-layers.md`
 
-**101. `pp-text-layer-settings`**
+**100. `pp-text-layer-settings`**
 
 * Where: App admin → builder → option Text → Personalizer Settings
 * Must show: Nhóm setting Text color, Font size, Font style, Font family
@@ -988,7 +982,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `personalizer/layer-settings/fonts.md`
 
-**102. `pp-font-family`**
+**101. `pp-font-family`**
 
 * Where: App admin → builder → option Text → Personalizer Settings
 * Must show: Font family với 3 lựa chọn Default/Google/Custom và picker font đang mở
@@ -999,7 +993,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `personalizer/layer-settings/effects.md`
 
-**103. `pp-effects`**
+**102. `pp-effects`**
 
 * Where: App admin → builder → option Text → Personalizer Settings
 * Must show: Custom Effect với 5 lựa chọn dạng image button
@@ -1010,7 +1004,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `personalizer/layer-settings/position-size-rotation.md`
 
-**104. `pp-position-settings`**
+**103. `pp-position-settings`**
 
 * Where: App admin → builder → option có personalizer
 * Must show: Nhóm X-Axis, Y-Axis, Opacity, Rotation dạng slider
@@ -1021,7 +1015,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `personalizer/layer-settings/curve-and-auto-fit.md`
 
-**105. `pp-curve`**
+**104. `pp-curve`**
 
 * Where: App admin → builder → option Text → Personalizer Settings
 * Must show: Slider Curve và preview text đang uốn theo cung trên ảnh sản phẩm
@@ -1032,7 +1026,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `personalizer/layer-settings/clip-area.md`
 
-**106. `pp-clip-area`**
+**105. `pp-clip-area`**
 
 * Where: App admin → builder → option có personalizer
 * Must show: Nhóm setting clip area + preview hiện vùng clip có viền
@@ -1043,7 +1037,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `personalizer/layer-settings/image-layers.md`
 
-**107. `pp-image-layer`**
+**106. `pp-image-layer`**
 
 * Where: App admin → builder → option File upload → Personalizer Settings
 * Must show: Image shape picker và Background mode với 5 lựa chọn
@@ -1054,7 +1048,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `personalizer/layer-settings/customer-controls.md`
 
-**108. `pp-customer-controls`**
+**107. `pp-customer-controls`**
 
 * Where: App admin → builder → option có personalizer
 * Must show: Nhóm "Allow customers to" với 3 checkbox
@@ -1065,7 +1059,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `personalizer/cart-and-orders.md`
 
-**109. `pp-cart-preview`**
+**108. `pp-cart-preview`**
 
 * Where: Storefront → trang cart
 * Must show: Line item có option details và link "Preview Your Design", modal preview đã mở
@@ -1076,7 +1070,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `templates/README.md`
 
-**110. `tpl-tabs`**
+**109. `tpl-tabs`**
 
 * Where: App admin → Templates
 * Must show: 3 tab với badge số lượng, grid template có ảnh xem trước
@@ -1087,7 +1081,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `templates/personalized-templates.md`
 
-**111. `pp-templates-tab`**
+**110. `pp-templates-tab`**
 
 * Where: App admin → Templates → tab Personalized Templates
 * Must show: Grid các template có ảnh xem trước và nút Use template
@@ -1098,7 +1092,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `templates/custom-templates.md`
 
-**112. `tpl-custom-list`**
+**111. `tpl-custom-list`**
 
 * Where: App admin → Templates → tab Custom Templates
 * Must show: Bảng danh sách template với cột ID, Name, Option elements, Date created, Actions
@@ -1109,7 +1103,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `translations/app-admin-language.md`
 
-**113. `trans-admin-language`**
+**112. `trans-admin-language`**
 
 * Where: App admin → Dashboard
 * Must show: Popover chọn ngôn ngữ đang mở với danh sách các ngôn ngữ kèm cờ
@@ -1120,7 +1114,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `translations/translate-option-content.md`
 
-**114. `trans-builder-switcher`**
+**113. `trans-builder-switcher`**
 
 * Where: App admin → builder
 * Must show: Language switcher ở header đang mở với danh sách ngôn ngữ storefront
@@ -1131,7 +1125,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `translations/translate-widget-text.md`
 
-**115. `trans-widget-text`**
+**114. `trans-widget-text`**
 
 * Where: App admin → Settings → Translations
 * Must show: 4 nhóm text với các field, nút Add language
@@ -1142,7 +1136,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `storefront/widget-placement.md`
 
-**116. `store-widget-placement`**
+**115. `store-widget-placement`**
 
 * Where: App admin → Settings → General → Widget Settings
 * Must show: Dropdown Widget placement đang mở với 8 lựa chọn chia nhóm Default và Custom
@@ -1153,7 +1147,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `storefront/match-your-theme-style.md`
 
-**117. `store-match-theme`**
+**116. `store-match-theme`**
 
 * Where: App admin → Settings → Design → Theme style
 * Must show: Switch Match theme style và tip banner có link View supported themes
@@ -1164,7 +1158,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `storefront/borders-and-typography.md`
 
-**118. `store-borders-typography`**
+**117. `store-borders-typography`**
 
 * Where: App admin → Settings → Design
 * Must show: Nhóm Border (3 family với size/radius) và nhóm Typography (4 style)
@@ -1175,7 +1169,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `storefront/widget-behavior.md`
 
-**119. `store-widget-behavior`**
+**118. `store-widget-behavior`**
 
 * Where: App admin → Settings → General → Widget Settings
 * Must show: Alignment, Show tooltip, Display selected value, Limit widget height
@@ -1186,7 +1180,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `storefront/quickview-and-other-pages.md`
 
-**120. `store-other-pages`**
+**119. `store-other-pages`**
 
 * Where: App admin → Settings → General
 * Must show: Nhóm Collection page và Other pages với các switch
@@ -1197,7 +1191,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `storefront/cart-page.md`
 
-**121. `store-cart-settings`**
+**120. `store-cart-settings`**
 
 * Where: App admin → Settings → General → Cart page
 * Must show: 3 setting: hide quantity/remove, Edit Options, Personalize preview mode
@@ -1208,7 +1202,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `storefront/show-options-on-orders.md`
 
-**122. `store-order-details`**
+**121. `store-order-details`**
 
 * Where: Shopify admin → 1 order có option
 * Must show: Line item với danh sách option properties bên dưới
@@ -1219,7 +1213,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `automations/README.md`
 
-**123. `auto-templates`**
+**122. `auto-templates`**
 
 * Where: App admin → Automations → Workflow templates
 * Must show: 3 thẻ workflow với icon và mô tả
@@ -1230,7 +1224,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `automations/email-notification.md`
 
-**124. `auto-email-tabs`**
+**123. `auto-email-tabs`**
 
 * Where: App admin → Automations → workflow Email notification
 * Must show: 3 tab Preview / Edit code / Configure, tab Preview đang mở
@@ -1241,7 +1235,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `automations/update-order-notes.md`
 
-**125. `auto-order-notes`**
+**124. `auto-order-notes`**
 
 * Where: App admin → Automations → workflow Order notes update
 * Must show: Editor Content (HTML), checkbox Keep existing order notes, nút Test và Revert to default
@@ -1252,7 +1246,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `automations/update-order-tags.md`
 
-**126. `auto-order-tags`**
+**125. `auto-order-tags`**
 
 * Where: App admin → Automations → workflow Order tags update
 * Must show: Dropdown Type với 2 mode, và field Tag name hoặc Option element
@@ -1263,13 +1257,13 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `pos/set-up-and-use.md`
 
-**127. `pos-sales-channel`**
+**126. `pos-sales-channel`**
 
 * Where: App admin → builder → popover Sales channels
 * Must show: Point of Sale đang được bật
 * Outline: Khoanh dòng Point of Sale
 
-**128. `pos-cart-items`**
+**127. `pos-cart-items`**
 
 * Where: Shopify POS → app
 * Must show: Danh sách line item trong cart, 1 item đang được chọn
@@ -1280,7 +1274,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `settings/README.md`
 
-**129. `settings-tabs`**
+**128. `settings-tabs`**
 
 * Where: App admin → Settings
 * Must show: 3 tab Settings / Translations / Theme Setup và 3 section trong tab Settings
@@ -1291,7 +1285,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `settings/theme-setup.md`
 
-**130. `settings-theme-setup`**
+**129. `settings-theme-setup`**
 
 * Where: App admin → Settings → Theme Setup
 * Must show: Dropdown theme, badge App embed, nút Go to Theme Editor
@@ -1302,7 +1296,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `settings/custom-fonts.md`
 
-**131. `settings-custom-fonts`**
+**130. `settings-custom-fonts`**
 
 * Where: App admin → Settings → General → Custom fonts
 * Must show: Khu vực upload font với Font name và Font file, danh sách font đã upload
@@ -1313,7 +1307,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `plans/compare-plans.md`
 
-**132. `plan-pricing-page`**
+**131. `plan-pricing-page`**
 
 * Where: App admin → Pricing
 * Must show: Các plan card, switch Monthly/Yearly, plan hiện tại được đánh dấu, bảng so sánh feature bên dưới
@@ -1324,7 +1318,7 @@ Every `<figure>` currently points at `.gitbook/assets/placeholder.png`. Replace 
 
 `plans/change-your-plan.md`
 
-**133. `plan-choose-your-plan`**
+**132. `plan-choose-your-plan`**
 
 * Where: App admin → Pricing
 * Must show: Các plan card cạnh nhau, switch Monthly/Yearly, ô discount code, plan hiện tại hiện "Current plan"

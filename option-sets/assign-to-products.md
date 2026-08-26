@@ -19,8 +19,6 @@ An option set is open in the builder, on **Setup flow** > **Assign products**.
 
 <table><thead><tr><th width="210">Method</th><th>How it decides</th><th>Best for</th></tr></thead><tbody><tr><td><strong>Manual Selection</strong></td><td>You pick products by hand.</td><td>A short, stable list. Options for one flagship product.</td></tr><tr><td><strong>Automatic Rules</strong></td><td>Conditions on product title, type, vendor, price, tag, or collection.</td><td>Anything that should keep working as you add products. The usual choice.</td></tr><tr><td><strong>Apply to All Products</strong></td><td>Every product in the store.</td><td>Store-wide options such as a delivery note or gift message.</td></tr></tbody></table>
 
-<!-- SCREENSHOT: set-assign-three-methods | App admin → builder → Assign products | 3 khối Manual Selection / Automatic Rules / Apply to All Products, đều đang tắt | Khoanh 3 khối -->
-
 <figure><img src="../.gitbook/assets/placeholder.png" alt="The Assign products step showing the Manual Selection, Automatic Rules, and Apply to All Products blocks"><figcaption><p>Three targeting methods; switching one on switches the others off.</p></figcaption></figure>
 
 ## Manual Selection
@@ -55,8 +53,6 @@ A manual rule with no products selected is incomplete. The builder shows "Please
 
 Manual selection has one downside worth understanding: it does not follow your catalogue. Add a new engravable bracelet next month and you have to come back here and add it. If that is going to happen, use an automatic rule instead.
 
-<!-- SCREENSHOT: set-assign-manual-table | App admin → builder → Assign products → Manual Selection đang bật | Bảng sản phẩm đã chọn với ảnh, tên, status + nút Select products và Deselect all products | Khoanh bảng và 2 nút -->
-
 <figure><img src="../.gitbook/assets/placeholder.png" alt="The manual selection product table with selected products and the select and deselect controls"><figcaption><p>Manually selected products are listed with their Shopify status.</p></figcaption></figure>
 
 ## Automatic Rules
@@ -83,7 +79,7 @@ With one condition the setting makes no difference. It matters as soon as you ad
 
 A condition is three parts: a product field, an operator, and a value.
 
-<table><thead><tr><th width="200">Field</th><th>Matches against</th></tr></thead><tbody><tr><td><strong>Product title</strong></td><td>The product's title in Shopify.</td></tr><tr><td><strong>Product type</strong></td><td>The product's <strong>Type</strong> field.</td></tr><tr><td><strong>Product vendor</strong></td><td>The product's <strong>Vendor</strong> field.</td></tr><tr><td><strong>Product price</strong></td><td>The product's variant price.</td></tr><tr><td><strong>Product tag</strong></td><td>Any one of the product's tags.</td></tr><tr><td><strong>Collection</strong></td><td>Membership of a collection you pick.</td></tr></tbody></table>
+<table><thead><tr><th width="200">Field</th><th>Matches against</th></tr></thead><tbody><tr><td><strong>Product title</strong></td><td>The product's title in Shopify.</td></tr><tr><td><strong>Product type</strong></td><td>The product's <strong>Type</strong> that set up in Shopify.</td></tr><tr><td><strong>Product vendor</strong></td><td>The product's <strong>Vendor</strong> that set up in Shopify.</td></tr><tr><td><strong>Product price</strong></td><td>The product's price.</td></tr><tr><td><strong>Product tag</strong></td><td>The product's tag that set up in Shopify</td></tr><tr><td><strong>Collection</strong></td><td>The products that are included in the collection.</td></tr></tbody></table>
 
 The available operators depend on the field:
 
@@ -113,11 +109,10 @@ This preview is unavailable when any condition uses **Collection** — verify th
 {% endstep %}
 {% endstepper %}
 
-<!-- SCREENSHOT: set-assign-automatic-conditions | App admin → builder → Assign products → Automatic Rules đang bật | "Products must match: all conditions" + 2 điều kiện (Product tag is equal to ... và Product type is equal to ...) + nút Add another condition | Khoanh vùng điều kiện -->
-
 <figure><img src="../.gitbook/assets/placeholder.png" alt="Automatic rules with two conditions and the all conditions match setting"><figcaption><p>Conditions combine with all or any, and the operators change with the field.</p></figcaption></figure>
 
 <details>
+
 <summary>Worked examples of automatic rules</summary>
 
 <table><thead><tr><th width="300">You want</th><th>Set up</th></tr></thead><tbody><tr><td>Every product tagged <code>engravable</code></td><td>Product tag — is equal to — <code>engravable</code></td></tr><tr><td>Everything in the Wedding collection</td><td>Collection — is equal to — pick <em>Wedding</em></td></tr><tr><td>All t-shirts from one brand</td><td><strong>all conditions</strong>; Product type — is equal to — <code>T-Shirt</code>; Product vendor — is equal to — the brand name</td></tr><tr><td>Anything over $100, for insurance options</td><td>Product price — is greater than — <code>100</code></td></tr><tr><td>Anything tagged <code>custom</code> or <code>bespoke</code></td><td><strong>any condition</strong>; Product tag — is equal to — <code>custom</code>; Product tag — is equal to — <code>bespoke</code></td></tr><tr><td>Personalised products, except sale items</td><td><strong>all conditions</strong>; Product tag — is equal to — <code>personalised</code>; Product tag — is not equal to — <code>sale</code></td></tr><tr><td>Everything whose title mentions "Gift"</td><td>Product title — contains — <code>Gift</code></td></tr></tbody></table>
@@ -144,17 +139,8 @@ Use it deliberately. It is right for a delivery note or a gift message, and wron
 If you want "almost all products", use **Automatic Rules** with a **Product tag — is not equal to** condition and tag the exceptions. That gives you a store-wide default with an escape hatch.
 {% endhint %}
 
-## When several option sets match the same product
-
-They all render, stacked in the order the app loads them. That is by design — you can layer a store-wide set with a product-specific one.
-
-Where it goes wrong is by accident: two sets both containing a "Gift wrap" option means the shopper sees it twice. If you see duplicated options on a product page:
-
-1. Filter the **Option Sets** list to **Active**.
-2. Check which sets could match that product — especially any using **Apply to All Products**.
-3. Narrow one of them, or remove the duplicated option from one.
-
 ## Notes
+
 * Current plans place no limit on how many products an option set may target. On a plan that does limit it, the manual selection block warns you when you reach the ceiling.
 * **Automatic Rules** and **Apply to All Products** are plan-gated on some plans. If a switch is unavailable, see [Compare plans](../plans/compare-plans.md).
 * Product rules are evaluated on the storefront each time a page loads, so a tag change takes effect on the next page load.

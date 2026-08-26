@@ -13,7 +13,7 @@ This is where you will spend most of your time in the app.
 
 ## What an option set is made of
 
-<table><thead><tr><th width="220">Part</th><th>What it decides</th><th width="200">Where you set it</th></tr></thead><tbody><tr><td>Name</td><td>How you recognise it in your admin. Customers never see it.</td><td>Builder header</td></tr><tr><td>Options</td><td>What you ask the customer for.</td><td><strong>Setup flow</strong> → <strong>Build option</strong></td></tr><tr><td>Product rule</td><td>Which products it appears on. Required.</td><td><strong>Setup flow</strong> → <strong>Assign products</strong></td></tr><tr><td>Customer rule</td><td>Which shoppers see it. Optional.</td><td><strong>Customers</strong> tab</td></tr><tr><td>Country rule</td><td>Which countries it appears in. Optional.</td><td><strong>Countries</strong> tab</td></tr><tr><td>Status</td><td>Whether it is live at all.</td><td>Builder header</td></tr><tr><td>Sales channels</td><td>Storefront, POS, or both.</td><td>Builder header</td></tr></tbody></table>
+<table><thead><tr><th width="220">Part</th><th>What it decides</th><th width="200">Where you set it</th></tr></thead><tbody><tr><td>Options</td><td>What you ask the customer for.</td><td><strong>Setup flow</strong> → <strong>Build option</strong></td></tr><tr><td>Product rule</td><td>Which products it appears on. Required.</td><td><strong>Setup flow</strong> → <strong>Assign products</strong></td></tr><tr><td>Customer rule</td><td>Which shoppers see it. Optional.</td><td><strong>Customers</strong> tab</td></tr><tr><td>Country rule</td><td>Which countries it appears in. Optional.</td><td><strong>Countries</strong> tab</td></tr><tr><td>Status</td><td>Whether it is live at all.</td><td>Builder header</td></tr><tr><td>Sales channels</td><td>Storefront, POS, or both.</td><td>Builder header</td></tr></tbody></table>
 
 {% hint style="info" %}
 Two of those are required: at least one **option**, and a **product rule**. The builder will not let you save without them.
@@ -27,8 +27,6 @@ Two of those are required: at least one **option**, and a **product rule**. The 
 
 There is no limit, so aim for whatever keeps your admin readable.
 
-The usual choice is **one set per product family** — one for engravable jewellery, one for printed t-shirts, one for framed prints — each targeted by a product tag.
+Please note that **each product can only be assigned to one option set**, and the app will always prioritize the **newest option set** when multiple option sets apply.
 
-You can also keep **one store-wide set alongside specific ones**: a small set for something every product needs, like delivery notes, plus focused sets where you need more. Several option sets can apply to the same product, and they all render.
-
-What to avoid is one giant set doing everything with conditional logic. It is harder to follow, harder to hand to a colleague, and slower on the product page.
+Therefore, please put **all products that use the same option elements into a single option set** to ensure the correct options are applied.

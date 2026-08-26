@@ -14,16 +14,6 @@ Everything in this page happens in **Setup flow** > **Build option**. It is the 
 * An option set is open in the builder — see [Create an option set](create-an-option-set.md).
 * If you are unsure which option type to use, see [Choose the right option type](../option-types/choose-the-right-type.md).
 
-## Reading the option list
-
-Each option in the panel shows a short summary so you can scan the form without opening anything.
-
-<table><thead><tr><th width="220">What you see</th><th>What it tells you</th></tr></thead><tbody><tr><td>Icon</td><td>The option's type.</td></tr><tr><td>Title</td><td>The option's <strong>Label</strong>, or the section's label for a section.</td></tr><tr><td>Description line</td><td>A plain-language summary — "Customers enter Engraving text", "Customers choose Gift wrap", "Separates content on the product page".</td></tr><tr><td><strong>Required</strong> badge</td><td>The option has <strong>Required field</strong> turned on.</td></tr><tr><td>Values badge</td><td>How many option values a selection option has.</td></tr><tr><td>Price badge</td><td>The add-on attached. A single price shows as <code>+ price</code>; a range across values shows as <code>From … to …</code>.</td></tr></tbody></table>
-
-<!-- SCREENSHOT: set-build-option-list | App admin → builder → Build option | Danh sách option với icon, title, description, badge Required và badge giá | Khoanh 1 dòng option kèm các badge (mũi tên nhỏ vì nhiều dòng) -->
-
-<figure><img src="../.gitbook/assets/placeholder.png" alt="The option list in the builder with type icons, descriptions, and required and price badges"><figcaption><p>Badges let you audit a whole form without opening each option.</p></figcaption></figure>
-
 ## Adding options
 
 Select the add button inside a section. The picker has two tabs — **Option Types** for all 32 types, grouped into **Input**, **Selection**, and **Static**; and **Option Templates** for a saved group of options inserted in one go. It also offers **Add section** and **Add template** directly.
@@ -37,9 +27,9 @@ Two shortcuts worth knowing:
 
 Select an option to open its settings. They are split across tabs:
 
-<table><thead><tr><th width="230">Tab</th><th>Contains</th></tr></thead><tbody><tr><td><strong>Basic Settings</strong></td><td>The essentials: label, name, required, values, limits, help text, placeholder, default value, add-on settings, and conditional logic.</td></tr><tr><td><strong>Advanced Settings</strong></td><td>Presentation and edge cases: layout, column width, prefix and suffix, HTML class, out-of-stock handling, tooltip style, scroll and slider behaviour, advanced add-on modes.</td></tr><tr><td><strong>Personalizer Settings</strong></td><td>Only on option types that can appear in the live preview. Fonts, effects, position, clip area, and customer controls. See <a href="../personalizer/README.md">Product Personalizer</a>.</td></tr></tbody></table>
+<table><thead><tr><th width="230">Tab</th><th>Contains</th></tr></thead><tbody><tr><td><strong>Basic Settings</strong></td><td>The essentials: label, name, required, values, limits, help text, placeholder, default value, add-on settings, and conditional logic.</td></tr><tr><td><strong>Advanced Settings</strong></td><td>Presentation and edge cases: layout, column width, prefix and suffix, HTML class, out-of-stock handling, tooltip style, scroll and slider behaviour, advanced add-on modes.</td></tr><tr><td><strong>Personalizer Settings</strong></td><td>Only on option types that can appear in the live preview. Fonts, effects, position, clip area, and customer controls. See <a href="../personalizer/">Product Personalizer</a>.</td></tr></tbody></table>
 
-Which settings appear depends on the type. Every shared setting has its own reference page — see [Shared settings](../option-types/shared-settings/README.md).
+Which settings appear depends on the type. Every shared setting has its own reference page — see [Shared settings](../option-types/shared-settings/).
 
 Use the back control at the top of the settings panel to return to the option list.
 
@@ -57,9 +47,7 @@ Changing type keeps the option in place, and keeps settings the new type also ha
 Switching between an input type and a selection type loses the parts that cannot carry over: option values and their prices when you move to an input type, or limits like **Max character** when you move to a selection type. Check the option afterwards, including its **Name**, and check any conditional logic rule that reads this option — the available operators change with the type.
 {% endhint %}
 
-<!-- SCREENSHOT: set-build-change-type | App admin → builder → panel setting của 1 option | Control đổi option type ở header panel đang mở | Khoanh control đổi type -->
-
-<figure><img src="../.gitbook/assets/placeholder.png" alt="The option type control at the top of an option's settings panel"><figcaption><p>An option's type can be changed after the fact, from its settings header.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/placeholder.png" alt="The option type control at the top of an option&#x27;s settings panel"><figcaption><p>An option's type can be changed after the fact, from its settings header.</p></figcaption></figure>
 
 ## Duplicate, hide, remove
 
@@ -103,6 +91,7 @@ Sections support conditional logic, and a rule on the section shows or hides eve
 Full reference: [Section](../option-types/static-types/section.md).
 
 <details>
+
 <summary>What the builder blocks while you work</summary>
 
 The builder validates as you type and blocks **Save** until the problems are fixed.

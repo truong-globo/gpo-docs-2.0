@@ -1,6 +1,5 @@
 ---
-description: >-
-  From an empty builder to a live option set on your storefront, in nine steps.
+description: From an empty builder to a live option set on your storefront, in a few steps.
 icon: pen-ruler
 ---
 
@@ -8,40 +7,22 @@ icon: pen-ruler
 
 The whole creation flow, once. Later pages go deeper on each part.
 
-**Before you start:** the app is installed and a plan is chosen ([Install the app](../getting-started/install-the-app.md)). If you are not sure what to ask customers yet, browse [Option types](../option-types/README.md) or start from a [template](../templates/README.md).
+**Before you start:** the app is installed and a plan is chosen ([Install the app](../getting-started/install-the-app.md)). If you are not sure what to ask customers yet, browse [Option types](../option-types/) or start from a [template](../templates/).
 
 ## Steps
 
 {% stepper %}
 {% step %}
-### Open the builder
+### Create from scratch
 
-**Option Sets** > **Create option set** > **Create from scratch**. (The other choice, **Use a template**, copies a complete option set you can then edit — see [Templates](../templates/README.md).)
+**Option Sets** > **Create option set** > **Create from scratch**. (The other choice, **Use a template**, copies a complete option set you can then edit — see [Templates](../templates/).)
 
 The builder opens on **Setup flow**, which has exactly two steps, because they are the two things an option set cannot go without:
 
 1. **Build option** — the fields you want to show
 2. **Assign products** — which products use them
 
-<!-- SCREENSHOT: set-create-setup-flow | App admin → builder mới tạo | Tab Setup flow với 2 step Build option / Assign products + dòng status phía trên | Khoanh 2 thẻ step -->
-
 <figure><img src="../.gitbook/assets/placeholder.png" alt="The Setup flow tab of a new option set showing the Build option and Assign products steps"><figcaption><p>Setup flow reduces the required work to two steps.</p></figcaption></figure>
-{% endstep %}
-
-{% step %}
-### Name it
-
-Replace the default name in the header. The name is internal — shoppers never see it, and it has no character restrictions.
-
-Name it after the products, not the options: `Engravable jewellery` reads better in a list of twenty than `Text field + checkbox`.
-{% endstep %}
-
-{% step %}
-### Set up the starting section
-
-A new option set contains one empty **Section** — a group with a heading, optionally collapsible.
-
-Give it a **Label** (shoppers see this as the heading) and pick a **Style**: **Default** always visible, **Expand** collapsible and open, **Collapse** collapsible and closed. See [Section](../option-types/static-types/section.md).
 {% endstep %}
 
 {% step %}
@@ -95,8 +76,6 @@ A new option set is **Draft**, which renders nowhere. Set the status to **Active
 
 Both are on by default. Turn one off to say "these options are for in-store orders only", or the reverse.
 
-<!-- SCREENSHOT: set-status-channels | App admin → builder | Khối Status cạnh tên option set (Active) và popover Sales channels với 2 switch | Khoanh khối Status và Sales channels -->
-
 <figure><img src="../.gitbook/assets/placeholder.png" alt="The status control and Sales channels popover in the builder header"><figcaption><p>Status and Sales channels sit next to the option set's name.</p></figcaption></figure>
 
 {% hint style="warning" %}
@@ -111,19 +90,11 @@ Ticking **Point of Sale** is not enough on its own — some option types and one
 {% endstep %}
 {% endstepper %}
 
-## Notes
-
-* Above **Setup flow**, the builder prints a one-line summary of the set: what it is assigned to, when it was last saved or that it has unsaved changes, and any incomplete rule. If that line flags a problem, fix it before wondering why the storefront is empty.
-* The builder warns before you navigate away with unsaved changes. **Discard changes** throws away everything since your last save.
-* No limit on option sets, or on options within one, on current plans.
-* Creating an option set does not create products. Only the **Automatically generate product** add-on mode does that.
-* Several option sets can apply to one product. They all render — so if you see options twice, look for a second overlapping set.
-* Setting a set back to **Draft** deletes nothing, and add-on products it generated stay in your catalogue.
-
 <details>
+
 <summary>What Save stores, and what lives elsewhere</summary>
 
-<table><thead><tr><th width="240">Saved with the option set</th><th>Store-wide, saved elsewhere</th></tr></thead><tbody><tr><td>Options and all their settings</td><td>Colours, borders, typography — <strong>Settings &gt; Design</strong></td></tr><tr><td>Option values, prices, and images</td><td>Widget position — <strong>Settings &gt; General</strong></td></tr><tr><td>Conditional logic rules</td><td>Widget text and validation messages — <strong>Settings &gt; Translations</strong></td></tr><tr><td>Product, customer, and country rules</td><td>Automations — <strong>Automations</strong></td></tr><tr><td>Status and sales channels</td><td></td></tr><tr><td>The Personalizer background for this set</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="240">Saved with the option set</th><th>Store-wide, saved elsewhere</th></tr></thead><tbody><tr><td>Options and all their settings</td><td>Colours, borders, typography — <strong>Settings > Design</strong></td></tr><tr><td>Option values, prices, and images</td><td>Widget position — <strong>Settings > General</strong></td></tr><tr><td>Conditional logic rules</td><td>Widget text and validation messages — <strong>Settings > Translations</strong></td></tr><tr><td>Product, customer, and country rules</td><td>Automations — <strong>Automations</strong></td></tr><tr><td>Status and sales channels</td><td></td></tr><tr><td>The Personalizer background for this set</td><td></td></tr></tbody></table>
 
 This is why copying an option set to another store does not copy its look. See [Import and export](import-and-export.md).
 

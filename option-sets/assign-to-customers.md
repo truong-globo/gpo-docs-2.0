@@ -21,13 +21,11 @@ Like product rules, these are **mutually exclusive**: turning one on turns the o
 
 <table><thead><tr><th width="210">Method</th><th>Shows the option set to</th></tr></thead><tbody><tr><td><strong>Everyone</strong></td><td>All visitors, signed in or not. This is the default.</td></tr><tr><td><strong>Manual Selection</strong></td><td>Only the specific customers you pick from your customer list.</td></tr><tr><td><strong>Automatic Rules</strong></td><td>Anyone matching your conditions — customer tag, name, email, logged-in, or guest.</td></tr></tbody></table>
 
-<!-- SCREENSHOT: set-customers-methods | App admin → builder → tab Customers | 3 khối Everyone / Manual Selection / Automatic Rules, Everyone đang bật | Khoanh 3 khối -->
-
 <figure><img src="../.gitbook/assets/placeholder.png" alt="The Customers tab with the Everyone, Manual Selection, and Automatic Rules blocks"><figcaption><p>Everyone is the default, so an option set reaches all shoppers until you narrow it.</p></figcaption></figure>
 
 ## Everyone
 
-Nothing to configure. The option set is visible to all visitors, including people who are not signed in.
+The option set is visible to all visitors, including people who are not signed in.
 
 Leave this on unless you have a reason not to. Most option sets should be visible to everybody.
 
@@ -101,24 +99,14 @@ For **Customer tags**, **Customer name**, and **Customer email** the operators a
 {% endstep %}
 {% endstepper %}
 
-<!-- SCREENSHOT: set-customers-automatic | App admin → builder → tab Customers → Automatic Rules đang bật | Điều kiện "Customer tags is equal to wholesale" + selector all/any conditions | Khoanh dòng điều kiện -->
-
 <figure><img src="../.gitbook/assets/placeholder.png" alt="A customer rule matching customers whose tags equal wholesale"><figcaption><p>Customer tags are the most practical field — you control them entirely.</p></figcaption></figure>
 
 ### Worked examples
 
 <table><thead><tr><th width="300">You want</th><th>Set up</th></tr></thead><tbody><tr><td>Wholesale-only bulk options</td><td>Customer tags — is equal to — <code>wholesale</code></td></tr><tr><td>Options only for signed-in shoppers</td><td>Logged-in customer</td></tr><tr><td>A "create an account for engraving" prompt for guests</td><td>Guest (non-logged in customer)</td></tr><tr><td>Free personalisation for VIPs</td><td>Customer tags — is equal to — <code>vip</code>, on a duplicate of your normal set with the add-on prices removed</td></tr><tr><td>One corporate client's branded options</td><td>Customer email — contains — <code>@theircompany.com</code></td></tr><tr><td>Trade customers except those on hold</td><td><strong>all conditions</strong>; Customer tags — is equal to — <code>trade</code>; Customer tags — is not equal to — <code>on-hold</code></td></tr></tbody></table>
 
-## A pattern worth knowing: two versions of the same set
-
-Customer rules are what make "different options for different shoppers" possible, and the cleanest way to do it is two option sets rather than one clever one:
-
-1. Build your normal option set. Set **Customers** to **Automatic Rules** with `Customer tags — is not equal to — wholesale`.
-2. Duplicate it. In the copy, change the prices or add the extra options, and set **Customers** to `Customer tags — is equal to — wholesale`.
-
-Both target the same products, but only one ever renders for a given shopper. See [Duplicate and delete](duplicate-and-delete.md).
-
 ## Notes
+
 * Customer rules narrow an option set; they never widen it. A product outside the product rule stays outside, whoever is looking.
 * Rules are evaluated on the storefront using the signed-in customer. A guest matches only **Everyone** or a **Guest** condition — a tag condition cannot match somebody the store does not know.
 * Customer tags are managed in Shopify admin on the customer's record, not in this app.

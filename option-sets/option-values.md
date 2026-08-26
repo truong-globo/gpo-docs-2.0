@@ -9,26 +9,14 @@ icon: list-ul
 
 Selection-style options — dropdowns, radio buttons, checkboxes, buttons, swatches — are lists. Each entry in the list is an **option value**. This page covers everything that is true of option values whatever type they belong to.
 
-Input-style options such as Text or Number have no option values, because the customer types instead of choosing.
-
-## The option values table
-
-When you select a selection-style option, its choices appear in a table. The columns you get depend on the option type.
-
-<table><thead><tr><th width="170">Column</th><th>What it is</th></tr></thead><tbody><tr><td>Drag handle</td><td>Grab it and drag to reorder. The table order is the order shoppers see.</td></tr><tr><td><strong>Color</strong> / <strong>Image</strong></td><td>Only on swatch-style options. Set the colour or upload the image for that choice.</td></tr><tr><td><strong>Value</strong></td><td>The text of the choice. This is what shoppers read and what lands on the order.</td></tr><tr><td><strong>Price</strong></td><td>The add-on for this choice. Selecting the cell opens the add-on dialog with its three modes.</td></tr><tr><td><strong>Product</strong></td><td>Appears once the value is linked to an add-on product. Opens that product in Shopify admin.</td></tr><tr><td><strong>Action</strong></td><td>Add help text for this value, or delete the row.</td></tr></tbody></table>
-
-Below the table are three controls: **Add value**, **Bulk add**, and **Delete all option values**.
-
-<!-- SCREENSHOT: concept-ov-table | App admin → builder → 1 option kiểu Checkbox hoặc Dropdown | Bảng Option values đầy đủ cột + 3 nút Add value / Bulk add / Delete all option values | Khoanh hàng nút ở dưới bảng -->
-
-<figure><img src="../.gitbook/assets/placeholder.png" alt="An option values table with its columns and the Add value, Bulk add, and Delete all buttons below it"><figcaption><p>Every selection option is managed from this table.</p></figcaption></figure>
+Input-style options such as Text or Number have no option values, because the customer types instead of choosing
 
 ## The three rules for a value
 
 {% hint style="warning" %}
 **A value cannot be empty.**
 
-**Values must be unique within the option.** The check ignores capitalisation and surrounding spaces, so `Red` and `red ` count as the same value.
+**Values must be unique within the option.** The check ignores capitalisation and surrounding spaces, so `Red` and `red` count as the same value.
 
 **A value cannot contain any of these characters:** `,` `:` `"` `'` `|`
 {% endhint %}
@@ -36,10 +24,6 @@ Below the table are three controls: **Add value**, **Bulk add**, and **Delete al
 The reason for the character restriction is that values are packed into the order record alongside other data, and those characters are used as separators there.
 
 The one exception is **Product links**, where values are products you pick rather than text you type, so the uniqueness check does not apply.
-
-### Working around a blocked character
-
-<table><thead><tr><th width="240">You wanted</th><th>Write this instead</th></tr></thead><tbody><tr><td><code>Blue, large</code></td><td><code>Blue - large</code> or <code>Blue / large</code></td></tr><tr><td><code>Size: XL</code></td><td><code>Size XL</code>, and put the word "Size" in the option's <strong>Label</strong></td></tr><tr><td><code>Men's</code></td><td><code>Mens</code></td></tr><tr><td><code>10" x 12"</code></td><td><code>10in x 12in</code></td></tr></tbody></table>
 
 ## Adding values
 
@@ -59,27 +43,7 @@ Bulk add checks the whole list before it will accept it:
 
 Fix the reported problem in the box and it accepts immediately.
 
-<!-- SCREENSHOT: concept-ov-bulk-add | App admin → builder → dialog Bulk Add Values | Textarea nhiều dòng giá trị + nút Select | Không khoanh (modal đơn) -->
-
 <figure><img src="../.gitbook/assets/placeholder.png" alt="The Bulk Add Values dialog with several values pasted one per line"><figcaption><p>Bulk add takes one value per line and appends them to the existing list.</p></figcaption></figure>
-
-### Starting over
-
-**Delete all option values** empties the table. You are asked to confirm first.
-
-{% hint style="danger" %}
-Deleting values also removes their add-on prices, images, and help text. Any conditional logic rule that referenced a deleted value stops matching — check your rules afterwards. See [Troubleshooting conditional logic](../conditional-logic/troubleshooting.md).
-{% endhint %}
-
-## Ordering values
-
-Drag rows by the handle on the left. The order in the table is exactly the order shoppers see, top to bottom or left to right depending on the option's layout.
-
-Some orderings are worth thinking about:
-
-* Put your most popular choice first — many shoppers take the first plausible option.
-* For sizes, use natural order (`S`, `M`, `L`, `XL`), not alphabetical.
-* Put free choices before paid ones so the cheapest option reads as the default.
 
 ## Help text on a value
 
@@ -97,7 +61,7 @@ Selecting the **Price** cell opens the add-on dialog, which offers three modes:
 
 Values with no price are free.
 
-See [Add-on pricing](../add-on-pricing/README.md) for all three in depth, and [Advanced add-on modes](../add-on-pricing/advanced-add-on-modes.md) for how the charge scales with quantity.
+See [Add-on pricing](../add-on-pricing/) for all three in depth, and [Advanced add-on modes](../add-on-pricing/advanced-add-on-modes.md) for how the charge scales with quantity.
 
 ## Colours and images on a value
 

@@ -1,7 +1,7 @@
 ---
 description: >-
-  Five steps from an empty app to a working option on your live product page,
-  in under ten minutes.
+  Five steps from an empty app to a working option on your live product page, in
+  under ten minutes.
 icon: rocket
 ---
 
@@ -29,15 +29,17 @@ Replace the default name in the builder header with something you will recognise
 
 The builder opens on **Build option**, with one empty **Section** already in place. A section is just a container — add your option inside it.
 
-<!-- SCREENSHOT: start-qs-create-from-scratch | App admin → Option Sets | Nút Create option set đang mở, thấy 2 lựa chọn Create from scratch và Use a template | Khoanh "Create from scratch" (mũi tên nhỏ vì có 2 mục giống nhau) -->
+<figure><img src="../.gitbook/assets/quick 1.png" alt="The Create option set menu open on the Option Sets page, showing Create from scratch and Use a template"><figcaption><p>Start a new option set from scratch on the Option Sets page.</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/placeholder.png" alt="The Create option set menu open on the Option Sets page, showing Create from scratch and Use a template"><figcaption><p>Start a new option set from scratch on the Option Sets page.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/os name.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 ### Add a Text option and label it
 
-Select the add button and pick **Text** — the simplest of the 32 [option types](../option-types/README.md): a single-line box.
+Select the add button and pick **Text** — the simplest of the 32 [option types](../option-types/): a single-line box.
+
+<figure><img src="../.gitbook/assets/add options.png" alt=""><figcaption></figcaption></figure>
 
 On **Basic Settings**, two fields matter:
 
@@ -46,17 +48,11 @@ On **Basic Settings**, two fields matter:
 
 The preview on the right updates as you type.
 
-<!-- SCREENSHOT: start-qs-add-option | App admin → builder → Build option | Popover chọn option type đang mở, thấy 3 nhóm Input / Selection / Static | Khoanh mục "Text" trong nhóm Input (mũi tên nhỏ vì danh sách dài) -->
-
-<figure><img src="../.gitbook/assets/placeholder.png" alt="The option type picker open in the builder, showing the Input, Selection, and Static groups"><figcaption><p>Option types are grouped into Input, Selection, and Static.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/text option.png" alt="The option type picker open in the builder, showing the Input, Selection, and Static groups"><figcaption><p>Option types are grouped into Input, Selection, and Static.</p></figcaption></figure>
 
 {% hint style="info" %}
 **Name** has rules that **Label** does not: it must be unique within the option set, and it cannot contain `.` `:` `"` `'` `\` or `|`. See [Label and Name](../option-types/shared-settings/labels-and-visibility.md).
 {% endhint %}
-
-<!-- SCREENSHOT: start-qs-basic-settings | App admin → builder → chọn option Text | Tab Basic Settings với Label và Name đã điền "Engraving text" | Khoanh 2 field Label và Name -->
-
-<figure><img src="../.gitbook/assets/placeholder.png" alt="Basic Settings for a Text option with Label and Name both set to Engraving text"><figcaption><p>Label is what shoppers read; Name is what appears on the cart and the order.</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -66,9 +62,7 @@ Switch to **Assign products** and turn on **Apply to All Products**.
 
 That is the fastest way to test. The other two methods — picking products by hand, or matching a tag, type, vendor, price, or collection — are what you will actually use in production. See [Assign to products](../option-sets/assign-to-products.md).
 
-<!-- SCREENSHOT: start-qs-assign-products | App admin → builder → Assign products | 3 khối Manual Selection / Automatic Rules / Apply to All Products, khối Apply to All Products đang bật | Khoanh khối Apply to All Products -->
-
-<figure><img src="../.gitbook/assets/placeholder.png" alt="The Assign products step with Apply to All Products turned on"><figcaption><p>Apply to All Products is the fastest way to test; narrow it down afterwards.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/assign prd.png" alt="The Assign products step with Apply to All Products turned on"><figcaption><p>Apply to All Products is the fastest way to test; narrow it down afterwards.</p></figcaption></figure>
 
 {% hint style="warning" %}
 An option set will not save without **at least one option** and **a product rule turned on**. If either is missing, the builder jumps you back to that step.
@@ -82,9 +76,7 @@ Select **Save**, then set the status beside the option set name to **Active** an
 
 A new option set is created as **Draft**, and a draft never appears on your storefront.
 
-<!-- SCREENSHOT: start-qs-status-active | App admin → builder → menu Status | Status đặt Active, Sales channels tick Online Store | Khoanh khối Status và Sales channels -->
-
-<figure><img src="../.gitbook/assets/placeholder.png" alt="The status menu in the builder with Active selected and Online Store ticked"><figcaption><p>An option set must be Active and published to Online Store to reach shoppers.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/save.png" alt="The status menu in the builder with Active selected and Online Store ticked"><figcaption><p>An option set must be Active and published to Online Store to reach shoppers.</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -93,6 +85,10 @@ A new option set is created as **Draft**, and a draft never appears on your stor
 **This is the step people miss.** Until the app embed is on in your theme, nothing you built appears on the storefront — however the option set is configured.
 
 Go to **Settings** > **Theme Setup**, confirm the theme shown is your live one, and select **Go to Theme Editor**. Turn on the **Globo Product Options** app embed and select **Save**.
+
+<figure><img src="../.gitbook/assets/app embed.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/app embed 2.png" alt=""><figcaption></figcaption></figure>
 
 Back in the app tab, the badge changes to **Activated** by itself within a few seconds.
 
@@ -106,9 +102,7 @@ Open any product page. Your **Engraving text** field is there, above the **Add t
 
 Type something in and add the product to your cart. The text travels with the item and appears under it on the cart page, at checkout, and on the order in your Shopify admin.
 
-<!-- SCREENSHOT: start-qs-storefront | Storefront → trang sản phẩm | Field "Engraving text" hiện phía trên nút Add to cart | Khoanh riêng field do app tạo, không khoanh cả form -->
-
-<figure><img src="../.gitbook/assets/placeholder.png" alt="A storefront product page with the Engraving text field above the Add to cart button"><figcaption><p>The option appears above Add to cart, which is the app's default position.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/frontstor.png" alt="A storefront product page with the Engraving text field above the Add to cart button"><figcaption><p>The option appears above Add to cart, which is the app's default position.</p></figcaption></figure>
 
 {% hint style="success" %}
 That is the whole loop: **build → assign → activate → embed → verify**. Everything else in these docs is a variation on it.

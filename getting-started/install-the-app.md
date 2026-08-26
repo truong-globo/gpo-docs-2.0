@@ -24,7 +24,7 @@ Either open the listing directly at [apps.shopify.com/product-options-pro](https
 
 Make sure you are signed in to the correct store before installing — the App Store installs into whichever store you are currently signed in to.
 
-<figure><img src="../.gitbook/assets/placeholder.png" alt="The Globo Product Options, Variant listing in the Shopify App Store with the Install button"><figcaption><p>Install the app from its Shopify App Store listing.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/install.png" alt="The Globo Product Options, Variant listing in the Shopify App Store with the Install button"><figcaption><p>Install the app from its Shopify App Store listing.</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -33,6 +33,8 @@ Make sure you are signed in to the correct store before installing — the App S
 Select **Install**. Shopify shows you a summary of what the app will be able to access and asks you to confirm.
 
 This screen comes from Shopify, not from the app. Read it, then select **Install** again to confirm. See [What the app can access](install-the-app.md#what-the-app-can-access) below for what each item is used for.
+
+<figure><img src="../.gitbook/assets/install 2.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -45,7 +47,7 @@ The app opens on the **Pricing** page. On a brand-new install you must choose a 
 * On a paid plan the button reads **Start 14-day trial**. Select it to begin the trial. Shopify shows you its own approval screen for the recurring charge — you are not billed until the trial ends.
 * If you were given a discount code, enter it in the discount field before choosing a paid plan.
 
-<figure><img src="../.gitbook/assets/placeholder.png" alt="The Pricing page shown on first install, with plan cards and the monthly and yearly switch"><figcaption><p>On a new install the app opens on Pricing and asks you to choose a plan before anything else.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/install 3.png" alt="The Pricing page shown on first install, with plan cards and the monthly and yearly switch"><figcaption><p>On a new install the app opens on Pricing and asks you to choose a plan before anything else.</p></figcaption></figure>
 
 {% hint style="info" %}
 Choosing the free plan now does not lock you in. You can start a trial or upgrade at any time from **Pricing** — see [Change your plan](../plans/change-your-plan.md).
@@ -63,7 +65,7 @@ After you pick a plan the app opens the **Dashboard**. At the top is the **Setup
 
 The card ticks each step off as you complete it. You can collapse it, and close it once you are done with it.
 
-<figure><img src="../.gitbook/assets/placeholder.png" alt="The Setup guide card on the dashboard showing three steps and a progress bar"><figcaption><p>The Setup guide tracks the three things you need to do after installing.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/install 4.png" alt="The Setup guide card on the dashboard showing three steps and a progress bar"><figcaption><p>The Setup guide tracks the three things you need to do after installing.</p></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -85,6 +87,7 @@ Some access is requested later, only if you use the feature that needs it:
 In both cases the app shows you what it is asking for and you approve it in Shopify, exactly like the original install.
 
 ## Notes
+
 * Installing does not add, remove, or edit any of your theme files.
 * Installing does not create products. Products are only created if you later choose the **Automatically generate product** add-on mode — see [Automatically generate a product](../add-on-pricing/auto-generate-a-product.md).
 * The plan you choose controls which option types and features are available. Locked items still appear in the app, greyed out, with an upgrade prompt — see [Locked features](../plans/compare-plans.md).

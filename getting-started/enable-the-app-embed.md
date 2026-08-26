@@ -1,5 +1,7 @@
 ---
-description: Turn on the app embed so your option sets can actually appear on the storefront.
+description: >-
+  Turn on the app embed so your option sets can actually appear on the
+  storefront.
 icon: toggle-on
 ---
 
@@ -19,15 +21,15 @@ In the app, go to **Settings**, then the **Theme Setup** tab.
 
 The page shows an **App embed** badge — **Activated** or **Deactivated** — for the theme selected in the dropdown below it. If you publish more than one theme, use the dropdown to check each.
 
-<!-- SCREENSHOT: start-embed-theme-setup | App admin → Settings → Theme Setup | Dropdown chọn theme + badge Deactivated + nút Go to Theme Editor | Khoanh badge và nút Go to Theme Editor -->
-
-<figure><img src="../.gitbook/assets/placeholder.png" alt="The Theme Setup page with a theme selected, a Deactivated badge, and the Go to Theme Editor button"><figcaption><p>Theme Setup shows whether the embed is on, for the theme you select.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/app embeds 3.png" alt="The Theme Setup page with a theme selected, a Deactivated badge, and the Go to Theme Editor button"><figcaption><p>Theme Setup shows whether the embed is on, for the theme you select.</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
 ### Select Go to Theme Editor
 
 This opens Shopify's theme editor for that theme, already scoped to the app embeds section.
+
+<figure><img src="../.gitbook/assets/app embeds 4.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 If app embeds are new to you, **How to enabled app embed?** on the same page opens a short walkthrough.
@@ -41,9 +43,7 @@ Find **Globo Product Options** in the **App embeds** list, turn its toggle on, a
 
 The toggle alone does not persist — the save is what matters.
 
-<!-- SCREENSHOT: start-embed-theme-editor-toggle | Shopify theme editor → App embeds | Danh sách app embeds, toggle "Globo Product Options" đang bật | Khoanh dòng Globo Product Options (mũi tên nhỏ vì nhiều dòng giống nhau) -->
-
-<figure><img src="../.gitbook/assets/placeholder.png" alt="The Shopify theme editor App embeds list with Globo Product Options toggled on"><figcaption><p>Turn the toggle on, then save in the theme editor.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/app embed 2.png" alt="The Shopify theme editor App embeds list with Globo Product Options toggled on"><figcaption><p>Turn the toggle on, then save in the theme editor.</p></figcaption></figure>
 {% endstep %}
 
 {% step %}

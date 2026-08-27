@@ -1,7 +1,7 @@
 ---
 description: >-
-  Test your option form inside the app before it reaches a shopper, and edit
-  options by clicking them in the preview.
+  Test your option form inside the app before it reaches your shoppers, and edit
+  options directly by selecting them in the preview.
 icon: eye
 ---
 
@@ -27,8 +27,6 @@ Because the preview does not use your theme's styling, differences in font and c
 
 <table><thead><tr><th width="230">Control</th><th>What it does</th></tr></thead><tbody><tr><td>Editor / preview toggle</td><td>On narrow screens, switches between the settings panel and the preview. On wide screens both are visible at once.</td></tr><tr><td>Desktop / mobile toggle</td><td>Renders the preview at desktop or mobile width. Worth checking both — column widths and swatch sliders behave differently.</td></tr><tr><td>Inspector toggle</td><td>Turns the click-to-edit overlay on and off. See below.</td></tr><tr><td>Language switcher</td><td>Renders the preview in one of your storefront languages, using your translated labels and values.</td></tr></tbody></table>
 
-<!-- SCREENSHOT: set-preview-header-controls | App admin → builder | Header với các control: editor/preview, desktop/mobile, inspector, language | Khoanh nhóm control (mũi tên nhỏ vào nút inspector) -->
-
 <figure><img src="../.gitbook/assets/placeholder.png" alt="The builder header controls for editor and preview, viewport, inspector, and language"><figcaption><p>The header controls change what the preview shows, not what shoppers get.</p></figcaption></figure>
 
 ## The inspector
@@ -40,8 +38,6 @@ The inspector also puts a small action bar on the highlighted option:
 <table><thead><tr><th width="200">Action</th><th>What it does</th></tr></thead><tbody><tr><td><strong>Duplicate</strong></td><td>Copies the option, exactly like the panel's duplicate action.</td></tr><tr><td><strong>Half width</strong></td><td>Sets the option's <strong>Column width</strong> to 50%.</td></tr><tr><td><strong>Full width</strong></td><td>Sets the option's <strong>Column width</strong> to 100%.</td></tr><tr><td><strong>Hide</strong></td><td>Hides the option from the storefront while keeping it in the set.</td></tr><tr><td><strong>Delete</strong></td><td>Removes the option.</td></tr></tbody></table>
 
 Half width and full width are the two column widths most people actually use, which is why they are here. The full range — 25%, 33%, 50%, 66%, 75%, 100% — is in the option's **Advanced Settings**. See [Column width](../option-types/shared-settings/direction-width-and-css.md#column-width).
-
-<!-- SCREENSHOT: set-preview-inspector | App admin → builder, inspector đang bật | 1 option trong preview được highlight kèm thanh action Duplicate / Half width / Full width / Hide / Delete | Khoanh thanh action -->
 
 <figure><img src="../.gitbook/assets/placeholder.png" alt="The inspector highlighting an option in the preview with its action bar"><figcaption><p>With the inspector on, the preview becomes a second way to edit.</p></figcaption></figure>
 
@@ -67,8 +63,6 @@ Open **Preview matching products** and the app lists the products your condition
 {% hint style="warning" %}
 This preview is unavailable when your automatic conditions include a **Collection** condition. The app tells you so with a notice. Verify collection-based rules by opening a product from that collection with **View in Store** instead.
 {% endhint %}
-
-<!-- SCREENSHOT: set-preview-matching-products | App admin → builder → modal Preview matching products | Danh sách sản phẩm khớp rule, mỗi dòng có ảnh, tên, vendor, type, status, nút Preview | Không khoanh (modal đơn) -->
 
 <figure><img src="../.gitbook/assets/placeholder.png" alt="The Preview matching products dialog listing the products an automatic rule catches"><figcaption><p>Check an automatic rule against your real catalogue before saving.</p></figcaption></figure>
 

@@ -7,12 +7,12 @@ icon: download
 
 # Install the app
 
-Installing takes about two minutes. At the end of it the app is in your Shopify admin, you have chosen a plan, and you are looking at the app dashboard.
+Installing the app takes about two minutes. When you’re done, the app will be installed in your Shopify admin, your plan will be selected, and you’ll be ready to start from the app dashboard.
 
 ## Before you start
 
-* You need permission to install apps on the store. Staff members need the **Apps** permission; collaborators need the store owner to approve the install.
-* Nothing on your storefront changes during install. Options appear later, after you [enable the app embed](enable-the-app-embed.md).
+* You need permission to install apps on the store. Staff members need the **Apps** permission; collaborators need the store owner to approve the installation.
+* Nothing on your storefront changes during installation. Your product options will appear later, after you [enable the app embed](enable-the-app-embed.md).
 
 ## Steps
 
@@ -20,19 +20,19 @@ Installing takes about two minutes. At the end of it the app is in your Shopify 
 {% step %}
 ### Find the app in the Shopify App Store
 
-Either open the listing directly at [apps.shopify.com/product-options-pro](https://apps.shopify.com/product-options-pro), or from your Shopify admin go to **Apps** > **Shopify App Store** and search for **Globo Product Options**.
+Either open the app listing directly at [apps.shopify.com/product-options-pro](https://apps.shopify.com/product-options-pro), or from your Shopify admin, go to **Apps** > **Shopify App Store** and search for **Globo Product Options**.
 
-Make sure you are signed in to the correct store before installing — the App Store installs into whichever store you are currently signed in to.
+Make sure you’re signed in to the correct store before installing. The App Store installs the app in whichever store you’re currently signed in to.
 
-<figure><img src="../.gitbook/assets/install.png" alt="The Globo Product Options, Variant listing in the Shopify App Store with the Install button"><figcaption><p>Install the app from its Shopify App Store listing.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-08-27_10-56-37.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 ### Install and approve the permissions
 
-Select **Install**. Shopify shows you a summary of what the app will be able to access and asks you to confirm.
+Shopify shows a summary of the data the app will be able to access and asks you to approve the installation.
 
-This screen comes from Shopify, not from the app. Read it, then select **Install** again to confirm. See [What the app can access](install-the-app.md#what-the-app-can-access) below for what each item is used for.
+This screen is provided by Shopify, not the app. Review the information, then select **Install** to proceed. See [What the app can access](install-the-app.md#what-the-app-can-access) below for details on how each permission is used.
 
 <figure><img src="../.gitbook/assets/install 2.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
@@ -40,17 +40,17 @@ This screen comes from Shopify, not from the app. Read it, then select **Install
 {% step %}
 ### Choose your plan
 
-The app opens on the **Pricing** page. On a brand-new install you must choose a plan before you can use anything else — the app sends you back to this page until you do.
+The app opens on the **Pricing** page. On a new installation, you must choose a plan before you can use the app. The app will keep you on this page until you select a plan.
 
 * Use the **Monthly** / **Yearly** switch at the top to compare billing periods. Yearly billing is discounted.
-* On the free plan the button reads **Continue as Free**. Select it to carry on without a charge.
-* On a paid plan the button reads **Start 14-day trial**. Select it to begin the trial. Shopify shows you its own approval screen for the recurring charge — you are not billed until the trial ends.
-* If you were given a discount code, enter it in the discount field before choosing a paid plan.
+* On the free plan, the button reads **Continue as Free**. Select it to continue without being charged.
+* On a paid plan, the button reads **Start 14-day trial**. Select it to start your trial. Shopify will show its own approval screen for the recurring charge. You won’t be charged until the trial ends.
+* If you have a discount code, enter it in the discount field before selecting a paid plan.
 
-<figure><img src="../.gitbook/assets/install 3.png" alt="The Pricing page shown on first install, with plan cards and the monthly and yearly switch"><figcaption><p>On a new install the app opens on Pricing and asks you to choose a plan before anything else.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-08-27_11-28-59.png" alt="The Pricing page shown on first install, with plan cards and the monthly and yearly switch"><figcaption><p>On a new install the app opens on Pricing and asks you to choose a plan before anything else.</p></figcaption></figure>
 
 {% hint style="info" %}
-Choosing the free plan now does not lock you in. You can start a trial or upgrade at any time from **Pricing** — see [Change your plan](../plans/change-your-plan.md).
+Choosing the free plan does not lock you in. You can start a trial or upgrade at any time from **Pricing** — see [Change your plan](../plans/change-your-plan.md).
 {% endhint %}
 {% endstep %}
 

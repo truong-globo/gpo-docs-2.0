@@ -25,9 +25,9 @@ Steps 2 and 3 are hard to get wrong because the builder won’t let you save an 
 
 ## What you need before you begin
 
-* A Shopify store you can install apps on. If you are a staff member, you need the **Apps** permission; if you are a collaborator, the store owner must approve app installation.
-* Access to the theme you want the options to appear on. You will open the Shopify theme editor once.
-* At least one product to test with. A draft product is fine for testing, as long as you can open its product page.
+* A Shopify store where you can install apps. If you’re a staff member, you need the **Apps** permission. If you’re a collaborator, the store owner must approve the app installation.
+* Access to the theme where you want the options to appear. You’ll need to open the Shopify theme editor to enable the app embed.
+* At least one product to test with. A draft product is fine for testing, as long as you can access its product page.
 
 {% hint style="info" %}
 Nothing in this section changes your theme's code. The app renders through Shopify's theme app extension system, which you switch on and off from the theme editor.

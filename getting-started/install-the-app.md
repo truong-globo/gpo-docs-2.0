@@ -75,19 +75,19 @@ The app is installed when you can see the Dashboard. Nothing is visible to shopp
 
 ## What the app can access
 
-Shopify asks you to approve this access during install. Here is what each item is for.
+Shopify asks you to approve these permissions during installation. Here’s what each permission is used for.
 
-<table><thead><tr><th width="250">Access</th><th>What the app uses it for</th></tr></thead><tbody><tr><td>Products</td><td>Showing your products and variants in the pickers when you assign an option set or link an add-on product, and creating add-on products when you ask the app to generate one for you.</td></tr><tr><td>Themes</td><td>Checking whether the app embed is enabled on a theme, and listing your themes on the <strong>Theme Setup</strong> page.</td></tr><tr><td>Files</td><td>Storing the images you upload for image swatches, custom preview backgrounds, and personalization shapes, and the fonts you upload.</td></tr><tr><td>Orders</td><td>Reading order details so the app can show option data and power analytics.</td></tr><tr><td>Store languages</td><td>Listing your storefront languages so you can translate option content per language.</td></tr><tr><td>Sales channels</td><td>Publishing an option set to the Online Store and Point of Sale channels, and publishing add-on products it generates.</td></tr><tr><td>Storefront product data</td><td>Reading up-to-date variant and inventory data on the storefront so out-of-stock handling and pricing previews are correct.</td></tr><tr><td>Cart pricing</td><td>Applying add-on prices to the cart at checkout so the customer is charged the correct total. See <a href="../add-on-pricing/how-pricing-is-applied.md">How pricing is applied</a>.</td></tr></tbody></table>
+<table><thead><tr><th width="250">Permission</th><th>What the app uses it for</th></tr></thead><tbody><tr><td>Products</td><td>Used to show your products and variants in pickers when you assign an option set or link an add-on product. This access is also used to create add-on products when you ask the app to generate them for you.</td></tr><tr><td>Themes</td><td>Checking whether the app embed is enabled on a theme, and listing your themes on the <strong>Theme Setup</strong> page.</td></tr><tr><td>Files</td><td>Storing the images you upload for image swatches, custom preview backgrounds, and personalization shapes, and the fonts you upload.</td></tr><tr><td>Orders</td><td>Reading order details so the app can show option data and power analytics.</td></tr><tr><td>Store languages</td><td>Listing your storefront languages so you can translate option content per language.</td></tr><tr><td>Sales channels</td><td>Publishing an option set to the Online Store and Point of Sale channels, and publishing add-on products it generates.</td></tr><tr><td>Storefront product data</td><td>Reading up-to-date variant and inventory data on the storefront so out-of-stock handling and pricing previews are correct.</td></tr><tr><td>Cart pricing</td><td>Applying add-on prices to the cart at checkout so the customer is charged the correct total. See <a href="../add-on-pricing/how-pricing-is-applied.md">How pricing is applied</a>.</td></tr></tbody></table>
 
-Some access is requested later, only if you use the feature that needs it:
+Some permissions are requested later, only when you use a feature that requires them:
 
-* **Permission to write to orders** is requested the first time you open **Automations**, because the order-note and order-tag workflows change the order. Reading orders is already covered above.
-* **Customer permissions** are requested the first time you pick specific customers in a customer rule.
+* **Permission to write to orders** is requested the first time you open **Automations**, because order-note and order-tag workflows modify orders. Permission to read orders is already covered above.
+* **Customer permissions** are requested the first time you select specific customers in a customer rule.
 
-In both cases the app shows you what it is asking for and you approve it in Shopify, exactly like the original install.
+In both cases, the app shows you what access it needs, and you approve it in Shopify, just as you did during the initial installation.
 
 ## Notes
 
-* Installing does not add, remove, or edit any of your theme files.
-* Installing does not create products. Products are only created if you later choose the **Automatically generate product** add-on mode — see [Automatically generate a product](../add-on-pricing/auto-generate-a-product.md).
-* The plan you choose controls which option types and features are available. Locked items still appear in the app, greyed out, with an upgrade prompt — see [Locked features](../plans/compare-plans.md).
+* Installing the app does not add, remove, or edit any of your theme files.
+* Installing the app does not create any products. Products are only created if you later choose the **Automatically generate product** add-on mode — see [Automatically generate a product](../add-on-pricing/auto-generate-a-product.md).
+* Your chosen plan determines which option types and features are available. Locked features remain visible in the app but are greyed out and show an upgrade prompt — see [Locked features](../plans/compare-plans.md).

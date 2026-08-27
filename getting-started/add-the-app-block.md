@@ -1,20 +1,25 @@
 ---
 description: >-
-  Pin the option widget to an exact spot in your product template using the
-  theme app block, instead of letting the app place itself.
+  Use the App Block to place the option widget exactly where you want it in your
+  product template, instead of letting the app position it automatically.
 icon: thumbtack
 ---
 
 # Add the app block
 
-The **app block** is an optional second piece of theme integration. Where the [app embed](enable-the-app-embed.md) decides _whether_ the app runs, the app block decides _exactly where_ the widget sits — you drag it into your product template like any other theme block.
+The **App Block** is an optional second part of the theme integration:
+
+* **App Embed** controls **whether the app runs** on your storefront.
+* **App Block** controls **where the widget appears**.
+
+You can simply drag the App Block to your preferred position in the product template, just like any other theme block.
 
 ## App embed vs app block
 
-<table><thead><tr><th width="180">Piece</th><th width="120">Required?</th><th>What it does</th></tr></thead><tbody><tr><td><strong>App embed</strong></td><td>Yes</td><td>Loads the app on your storefront. Without it nothing works. It also places the widget automatically, using the position you choose in <strong>Settings > Settings > General</strong>.</td></tr><tr><td><strong>App block</strong></td><td>No</td><td>A block you place in a section. The widget renders exactly where the block sits, so you control the position by dragging rather than by CSS selector.</td></tr></tbody></table>
+<table><thead><tr><th width="180">Piece</th><th width="120">Required?</th><th>What it does</th></tr></thead><tbody><tr><td><strong>App embed</strong></td><td>Yes</td><td>Loads the app on your storefront. Without it, the app won’t work. It also places the widget automatically based on the position selected in <strong>Settings → General</strong>.</td></tr><tr><td><strong>App block</strong></td><td>No</td><td>Lets you place the widget inside a specific section of your theme. The widget appears exactly where the block is placed, giving you direct control over its position without using a CSS selector.</td></tr></tbody></table>
 
 {% hint style="warning" %}
-The app block does not replace the app embed. If the embed is off, an app block renders nothing. Enable the embed first.
+The App Block does not replace the App Embed. If the App Embed is disabled, the App Block will not render anything. **Always enable the App Embed first.**
 {% endhint %}
 
 ## When to use it

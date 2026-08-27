@@ -60,6 +60,8 @@ If your options aren’t showing up, check these two settings first. See [Option
 
 ## Find your way around
 
+Use the sections below to quickly find the guide or feature you need.
+
 <table><thead><tr><th width="230">I want to…</th><th>Go to</th></tr></thead><tbody><tr><td>Understand how the app works before I start</td><td><a href="reference/how-it-works.md">How the app works</a></td></tr><tr><td>Build and organise the option form</td><td><a href="option-sets/">Option sets</a></td></tr><tr><td>Know exactly what every setting does</td><td><a href="option-types/shared-settings/">Shared settings</a></td></tr><tr><td>Charge more for certain choices</td><td><a href="add-on-pricing/">Add-on pricing</a></td></tr><tr><td>Make the widget match my theme</td><td><a href="storefront/">Storefront display and design</a></td></tr><tr><td>Translate options for my other storefront languages</td><td><a href="translations/">Translations and languages</a></td></tr><tr><td>Reuse a setup I already built</td><td><a href="templates/">Templates</a></td></tr><tr><td>Compare what each plan includes</td><td><a href="plans/compare-plans.md">Compare plans</a></td></tr></tbody></table>
 
 ## Get help

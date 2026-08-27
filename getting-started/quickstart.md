@@ -106,4 +106,4 @@ Enter some text and add the product to your cart. The text is saved with the ite
 That’s the complete workflow: **build → assign → activate → embed → verify**. Everything else in these docs is a variation of this process.
 {% endhint %}
 
-You can move the widget elsewhere on the page and restyle it to match your theme — see [Widget placement](../storefront/widget-placement.md) and [Match your theme style](../storefront/match-your-theme-style.md).
+You can move the widget to another position on the product detail page, and restyle it to match your theme — see [Widget placement](../storefront/widget-placement.md) and [Match your theme style](../storefront/match-your-theme-style.md).

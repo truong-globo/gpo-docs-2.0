@@ -7,7 +7,7 @@ icon: screwdriver-wrench
 
 # Build your options
 
-Everything in this page happens in **Setup flow** > **Build option**. It is the panel where your form takes shape.
+Everything on this page happens in the **Setup flow** > **Build option**. It is the panel where your form takes shape.
 
 ## Before you start
 
@@ -16,12 +16,16 @@ Everything in this page happens in **Setup flow** > **Build option**. It is the 
 
 ## Adding options
 
-Select the add button inside a section. The picker has two tabs — **Option Types** for all 32 types, grouped into **Input**, **Selection**, and **Static**; and **Option Templates** for a saved group of options inserted in one go. It also offers **Add section** and **Add template** directly.
+Select the **Add option** button inside a section. You will see two tabs — **Option Types** for all 32 types, grouped into **Input**, **Selection**, and **Static**; and **Option Templates** for a saved group of options inserted in one go.
 
-Two shortcuts worth knowing:
+<figure><img src="../.gitbook/assets/2026-08-27_14-52-56 (1).png" alt=""><figcaption></figcaption></figure>
 
-* **Insert between two options.** Hover between them in the list and an insert control appears — quicker than adding at the end and dragging.
-* **Add template.** Inserts a ready-made group, so a monogram block you already built can be reused in another option set. Clashing names are renumbered automatically, and conditional logic inside the template is repointed so it keeps working. See [Custom templates](../templates/custom-templates.md).
+Two shortcuts are worth knowing:
+
+* **Insert between two options.** Hover between two options in the list to reveal the insert control. This is faster than adding an option at the end and dragging it into place.
+* **Add template.** Insert a ready-made group of options and reuse it in another option set. For example, you can reuse a monogram block you’ve already built. If any names conflict, they are automatically renumbered, and conditional logic within the template is updated to keep working. See [Custom templates](../templates/custom-templates.md).
+
+<figure><img src="../.gitbook/assets/2026-08-27_15-30-49.png" alt=""><figcaption></figcaption></figure>
 
 ## Editing an option
 
@@ -29,9 +33,7 @@ Select an option to open its settings. They are split across tabs:
 
 <table><thead><tr><th width="230">Tab</th><th>Contains</th></tr></thead><tbody><tr><td><strong>Basic Settings</strong></td><td>The essentials: label, name, required, values, limits, help text, placeholder, default value, add-on settings, and conditional logic.</td></tr><tr><td><strong>Advanced Settings</strong></td><td>Presentation and edge cases: layout, column width, prefix and suffix, HTML class, out-of-stock handling, tooltip style, scroll and slider behaviour, advanced add-on modes.</td></tr><tr><td><strong>Personalizer Settings</strong></td><td>Only on option types that can appear in the live preview. Fonts, effects, position, clip area, and customer controls. See <a href="../personalizer/">Product Personalizer</a>.</td></tr></tbody></table>
 
-Which settings appear depends on the type. Every shared setting has its own reference page — see [Shared settings](../option-types/shared-settings/).
-
-Use the back control at the top of the settings panel to return to the option list.
+Which settings appear depends on the current option type. Every shared setting has its own reference page — see [Shared settings](../option-types/shared-settings/).
 
 {% hint style="info" %}
 On the free plan, premium settings are folded into a collapsed group at the bottom of the panel with a count, rather than shown greyed-out inline. Expand it to see what a higher plan would add.
@@ -39,53 +41,55 @@ On the free plan, premium settings are folded into a collapsed group at the bott
 
 ## Changing an option's type
 
-The settings panel header shows the current type and lets you switch it.
+The settings panel header shows the current option type and lets you change it.
 
-Changing type keeps the option in place, and keeps settings the new type also has — label, name, required, help text. Settings that do not exist on the new type are dropped.
+Changing the type keeps the option in the same position and preserves any settings that are also supported by the new type, such as **Label**, **Name**, **Required**, and **Help text**. Settings that are not available for the new type are removed.
 
 {% hint style="warning" %}
-Switching between an input type and a selection type loses the parts that cannot carry over: option values and their prices when you move to an input type, or limits like **Max character** when you move to a selection type. Check the option afterwards, including its **Name**, and check any conditional logic rule that reads this option — the available operators change with the type.
+Switching between an input type and a selection type can remove settings that cannot be carried over. When switching to an input type, **option values and their prices** are removed. When switching to a selection type, input-specific limits such as **Max character** are removed.
+
+After changing the type, review the option settings, especially its **Name**. Also check any conditional logic rules that use this option, as the available operators may change depending on the option type.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/placeholder.png" alt="The option type control at the top of an option&#x27;s settings panel"><figcaption><p>An option's type can be changed after the fact, from its settings header.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-08-27_15-36-40.png" alt="The option type control at the top of an option&#x27;s settings panel"><figcaption><p>An option's type can be changed from its settings header.</p></figcaption></figure>
 
-## Duplicate, hide, remove
+## Duplicate, hide, and remove actions
 
-Each option has an actions menu with three entries.
+Each option has an action menu with three entries.
 
-<table><thead><tr><th width="180">Action</th><th>What it does</th></tr></thead><tbody><tr><td><strong>Duplicate</strong></td><td>Copies the option with all its settings, values, prices, and rules, and places the copy directly below. The copy's <strong>Name</strong> is renumbered so it stays unique — rename it to something readable.</td></tr><tr><td><strong>Hide</strong> / <strong>Show</strong></td><td>Keeps the option in the set but stops it rendering on the storefront. Use it to park an option you might want back, or to test a form without one field.</td></tr><tr><td><strong>Remove</strong></td><td>Deletes the option from the set. You are asked to confirm.</td></tr></tbody></table>
+<table><thead><tr><th width="180">Action</th><th>What it does</th></tr></thead><tbody><tr><td><strong>Duplicate</strong></td><td>Creates a copy of the option with all its settings, values, prices, and rules, and places the copy directly below the original. The copy’s <strong>Name</strong> is automatically renumbered to keep it unique. Rename it to a meaningful name if needed.</td></tr><tr><td><strong>Hide</strong> / <strong>Show</strong></td><td>Keeps the option in the set but controls whether it appears on the storefront. Use <strong>Hide</strong> to temporarily remove an option without deleting it, such as when you want to keep it for later or test a form without a specific field.</td></tr><tr><td><strong>Remove</strong></td><td>Deletes the option from the option set. You’ll be asked to confirm before it is removed.</td></tr></tbody></table>
 
 {% hint style="danger" %}
-Removing an option also removes its add-on configuration and its values. Any conditional logic rule on another option that referenced it stops matching — review your rules after deleting. See [Troubleshooting conditional logic](../conditional-logic/troubleshooting.md).
+Removing an option also removes its add-on configuration and values. Any conditional logic rule on another option that references the deleted option will no longer match. Review your conditional logic rules after deleting an option. See [Troubleshooting conditional logic](../conditional-logic/troubleshooting.md).
 {% endhint %}
-
-**Hide** versus **Draft**: hiding affects one option, setting the option set to draft affects the whole set. Hiding is the right tool for retiring a single field.
 
 ## Reordering
 
-Drag an option by its handle to move it. The order in the panel is exactly the order shoppers see, top to bottom.
+Drag an option by its handle to move it. The order in the builder is the same order shoppers see on the storefront, from top to bottom.
 
-You can drag options within a section and between sections. Dragging a section moves it and everything inside it.
+You can drag options within a section or between sections. Dragging a section moves the section and all the options inside it.
 
-Some ordering advice:
+<figure><img src="../.gitbook/assets/2026-08-27_15-44-28.png" alt=""><figcaption></figcaption></figure>
 
-* Put required options before optional ones, so a customer who abandons the form has filled the important parts.
-* Put the option that a conditional rule depends on **above** the option it reveals. Technically it works either way, but a field appearing above where the customer is looking is confusing.
-* Group related options into sections rather than relying on one long list.
+Some ordering tips:
+
+* Put required options before optional ones so customers see the important fields first.
+* Put the option that a conditional rule depends on **above** the option it reveals. The rule works either way, but showing a dependent field above its trigger can be confusing for shoppers.
+* Group related options into sections instead of putting everything in one long list.
 
 ## Sections
 
-A **Section** is a container with a visible heading, optionally collapsible. Add one with **Add section** from the add picker, then drag options into it. You can have any number of sections, holding any number of options.
+A **Section** is a container with a visible heading that can optionally be collapsible. Add one using **Add section** in the add picker, then drag options into it. You can create any number of sections, with any number of options in each section.
 
-Two settings matter:
+Two settings control how a section appears:
 
-* **Label** — the heading shoppers read.
-* **Style** — **Default** (always open), **Expand** (collapsible, starts open), or **Collapse** (collapsible, starts closed).
+* **Label** — the heading shoppers see.
+* **Style** — **Default** (always open), **Expand** (collapsible and starts open), or **Collapse** (collapsible and starts closed).
 
-Sections also take a **Prefix icon** and an **HTML class** for custom CSS.
+Sections also support a **Prefix icon** and an **HTML class** for custom CSS.
 
 {% hint style="info" %}
-Sections support conditional logic, and a rule on the section shows or hides everything inside it at once. That is far less work than putting the same rule on eight options.
+Sections support conditional logic. A rule applied to a section can show or hide everything inside it at once, which is much easier than applying the same rule to multiple individual options.
 {% endhint %}
 
 Full reference: [Section](../option-types/static-types/section.md).
@@ -102,6 +106,10 @@ The builder validates as you type and blocks **Save** until the problems are fix
 
 ## Working in another language
 
-If your storefront has more than one language, the language switcher in the builder header lets you enter translated labels, values, and help text per language. Switch language, edit the text, switch back.
+If your storefront supports multiple languages, use the language switcher in the builder header to enter translated **labels**, **values**, and **help text** for each language. Select a language, edit the text, then switch to another language as needed.
 
-**Name** is deliberately not translatable, so your orders stay consistent. See [Translate option content](../translations/translate-option-content.md).
+**Name** is intentionally not translatable so your order data stays consistent across languages. See [Translate option content](../translations/translate-option-content.md).
+
+
+
+<figure><img src="../.gitbook/assets/2026-08-27_15-42-27.png" alt=""><figcaption></figcaption></figure>

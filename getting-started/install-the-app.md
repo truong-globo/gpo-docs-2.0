@@ -57,15 +57,15 @@ Choosing the free plan does not lock you in. You can start a trial or upgrade at
 {% step %}
 ### Land on the dashboard
 
-After you pick a plan the app opens the **Dashboard**. At the top is the **Setup guide** card with three steps and a progress bar:
+After you choose a plan, the app takes you to the **Dashboard**. At the top, you’ll see the **Setup guide** card with three steps and a progress bar:
 
 1. **Create your first option set**
-2. **Make options visible on your storefront** (this is the app embed)
+2. **Make options visible on your storefront** - this means enabling the app embed.
 3. **Customize the widget**
 
-The card ticks each step off as you complete it. You can collapse it, and close it once you are done with it.
+The card automatically marks each step as completed. You can collapse the card while you work and close it when you’re done.
 
-<figure><img src="../.gitbook/assets/install 4.png" alt="The Setup guide card on the dashboard showing three steps and a progress bar"><figcaption><p>The Setup guide tracks the three things you need to do after installing.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-08-27_11-37-45.png" alt="The Setup guide card on the dashboard showing three steps and a progress bar"><figcaption><p>The Setup guide tracks the three things you need to do after installing.</p></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 

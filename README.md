@@ -1,7 +1,7 @@
 ---
 description: >-
-  Unlimited custom product options for any store. Enable product personalization
-  with live preview
+  Unlimited custom product options for every store. Let customers personalize
+  products with a live preview.
 icon: house
 ---
 

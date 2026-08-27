@@ -22,64 +22,75 @@ You can simply drag the App Block to your preferred position in the product temp
 The App Block does not replace the App Embed. If the App Embed is disabled, the App Block will not render anything. **Always enable the App Embed first.**
 {% endhint %}
 
-## When to use it
+## When to use the App Block
 
-* Automatic placement lands the widget somewhere unhelpful and none of the built-in positions fix it.
-* You want the widget between two specific blocks — under the variant picker but above a trust badge, say.
-* You want options on a **Featured product** section on your home page or another page.
-* You would rather not maintain a CSS selector in the app's settings.
+Use the **App Block** when:
 
-Stick with automatic placement when one of the built-in positions already puts the widget where you want it. See [Widget placement](../storefront/widget-placement.md).
+* Automatic placement puts the widget in an inconvenient location, and none of the built-in positions work.
+* You want to place the widget **between two specific blocks** — for example, below the variant picker but above a trust badge.
+* You want to display the options on a **Featured product** section on your homepage or another page.
+* You prefer not to maintain a **CSS selector** in the app settings.
+
+Stick with **automatic placement** if one of the built-in positions already places the widget where you want it. See [Widget placement](../storefront/widget-placement.md).
 
 ## Add it to your product template
 
 {% stepper %}
 {% step %}
-### Open the theme editor at the product template
+### Open the Theme Customize editor
 
-On the app's dashboard, select **Add app block** on the **Active app blocks** card. That opens the product template with the block ready to insert.
+On the app’s dashboard, select **Add app block** on the **Active app blocks** card. This opens the product template with the app block ready to add.
 
-The same tip appears under **Widget placement** in **Settings** > **Settings** > **General**. Or open it yourself: **Online Store** > **Themes** > **Customize**, then switch the template dropdown to **Products** > **Default product**.
+You can also find the same shortcut under **Widget placement** in **Settings** > **General**.
 
-<figure><img src="../.gitbook/assets/app block.png" alt="The Active app blocks card on the dashboard with the Add app block button"><figcaption><p>The dashboard counts your app blocks and links straight to adding one.</p></figcaption></figure>
+Alternatively, open the theme editor from Shopify: **Online Store** > **Themes** > **Customize**, then use the template dropdown to select **Products** > **Default product**.
+
+<figure><img src="../.gitbook/assets/2026-08-27_14-13-07.png" alt="The Active app blocks card on the dashboard with the Add app block button"><figcaption><p>The dashboard counts your app blocks and links straight to adding one.</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Add the block
+### Add the App block
 
-In the left sidebar, find the product information section — its name varies by theme, often **Product information** or **Product** — and select **Add block**. Under the **Apps** group, choose **Globo Product Options**.
+In the left sidebar, find the product information section — its name varies by theme, often **Product information** or **Product** — and select **Add block**. Under the **Apps** tab, choose **Globo Product Options**.
 
-<figure><img src="../.gitbook/assets/app block 2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-08-27_14-15-27.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Drag it into position
+### Drag it to the expected position
 
 The block appears in the section's block list. Drag it up or down until it sits where you want the widget. The preview redraws as you move it, so you can judge the position directly.
 
-<figure><img src="../.gitbook/assets/app block 3.png" alt="The Globo Product Options block in a product section&#x27;s block list, positioned above the buy buttons"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-08-27_14-18-03.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 ### Save, then check
 
-Select **Save** in the theme editor. Back in the app, the **Active app blocks** card counts your block — and a product page on your storefront shows the widget in its new position.
+Select **Save** in the theme editor. Open a product page on your storefront to see the widget in its new position.
 {% endstep %}
 {% endstepper %}
 
 ## Options on a home page or a regular page
 
-Options can also render inside a **Featured product** section outside the product template.
+Options can also appear inside a **Featured product** section outside the product template.
 
-In the theme editor, open the page you want, add a **Featured product** section if there is not one, then **Add block** > **Globo Product Options** inside it. The block's **Product** setting fills itself in from the section, but confirm it points at the product you expect. Save.
+In the theme editor, open the page where you want the options to appear. If there isn’t a **Featured product** section, add one. Then select **Add block** > **Globo Product Options** inside the section.
+
+The block’s **Product** setting is automatically populated from the section, but make sure it points to the product you expect. Then select **Save**.
 
 {% hint style="warning" %}
-The block alone is not enough here. In the app, go to **Settings** > **Settings** > **General** > **Other pages** and turn on the matching switch — **Show widget on home page (featured product section only)** or **Show widget on regular page (featured product section only)**. With the switch off, the widget does not render even with the block in place.
+**Important:** Adding the block alone is not enough. In the app, go to **Settings** > **General** > **Other pages** and enable the matching setting:
+
+* **Show widget on home page (featured product section only)**
+* **Show widget on regular page (featured product section only)**
+
+If the setting is disabled, the widget won’t appear even when the app block has been added.
 {% endhint %}
 
 ## Notes
 
-* Only the product template and **Featured product** sections make sense for the block — it needs a product in context to know which option sets apply.
-* Placing a block does **not** disable automatic placement. If the widget appears twice, remove the block or change **Widget placement** so the automatic position no longer applies.
-* App blocks are stored with the theme, like the embed. A new theme starts with none.
-* Blocks need an Online Store 2.0 theme. On an older theme, use automatic placement with a custom CSS selector instead.
+* The product template and **Featured product** sections are the appropriate places to use the block. The block needs a product in context to determine which option sets apply.
+* Adding a block does **not** disable automatic placement. If the widget appears twice, remove the block or change **Widget placement** so the automatic placement no longer applies.
+* App blocks are saved with the theme, just like the app embed. A new theme does not include blocks from another theme.
+* App blocks require an **Online Store 2.0** theme. If you’re using an older theme, use automatic placement with a custom CSS selector instead.

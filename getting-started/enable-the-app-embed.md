@@ -7,9 +7,9 @@ icon: toggle-on
 
 # Enable the app embed
 
-The app renders its widget on your storefront through a Shopify **theme app embed**. Until it is turned on for your live theme, none of your option sets appear — even fully built and assigned to products.
+The app displays its widget on your storefront through a Shopify **Theme App Embed**. Until the embed is enabled on your **live theme**, none of your option sets will appear, even if they have already been fully configured and assigned to products.
 
-It takes about thirty seconds, and it does not touch your theme's code.
+The app does **not modify or add code to your theme**.
 
 ## Steps
 
@@ -20,20 +20,14 @@ It takes about thirty seconds, and it does not touch your theme's code.
 In the app, go to **Settings**, then the **Theme Setup** tab.
 
 The page shows an **App embed** badge — **Activated** or **Deactivated** — for the theme selected in the dropdown below it. If you publish more than one theme, use the dropdown to check each.
-
-<figure><img src="../.gitbook/assets/app embeds 3.png" alt="The Theme Setup page with a theme selected, a Deactivated badge, and the Go to Theme Editor button"><figcaption><p>Theme Setup shows whether the embed is on, for the theme you select.</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Select Go to Theme Editor
+### Click Go to Theme Editor button
 
 This opens Shopify's theme editor for that theme, already scoped to the app embeds section.
 
-<figure><img src="../.gitbook/assets/app embeds 4.png" alt=""><figcaption></figcaption></figure>
-
-{% hint style="info" %}
-If app embeds are new to you, **How to enabled app embed?** on the same page opens a short walkthrough.
-{% endhint %}
+<figure><img src="../.gitbook/assets/2026-08-27_13-31-37.png" alt="The Theme Setup page with a theme selected, a Deactivated badge, and the Go to Theme Editor button"><figcaption><p>Theme Setup shows whether the embed is on, for the theme you select.</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -41,41 +35,47 @@ If app embeds are new to you, **How to enabled app embed?** on the same page ope
 
 Find **Globo Product Options** in the **App embeds** list, turn its toggle on, and select **Save** in the theme editor.
 
-The toggle alone does not persist — the save is what matters.
-
-<figure><img src="../.gitbook/assets/app embed 2.png" alt="The Shopify theme editor App embeds list with Globo Product Options toggled on"><figcaption><p>Turn the toggle on, then save in the theme editor.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-08-27_13-33-31.png" alt="The Shopify theme editor App embeds list with Globo Product Options toggled on"><figcaption><p>Turn the toggle on, then save in the theme editor.</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
 ### Confirm it is activated
 
-Go back to the app tab. The **App embed** badge changes to **Activated** on its own once the app detects the change — no reload needed in most cases.
+Go back to the app tab. The **App embed** badge will automatically change to **Activated** once the app detects the change — in most cases, you don’t need to reload the page.
 
-Then open a product page that one of your active option sets applies to, and check the options render.
+Then open a product page where one of your active option sets is assigned and check that the options are displayed correctly.
 {% endstep %}
 {% endstepper %}
 
 {% hint style="success" %}
-Once the badge reads **Activated** you never need to come back here — unless you publish a different theme.
+Once the badge shows as **Activated,** you don't need to come back to this step anymore — unless you publish a different theme.
 {% endhint %}
 
 ## Two things worth knowing
 
 {% hint style="warning" %}
-**The embed is per theme.** Publishing a different theme — including a duplicate of the same one — leaves the new theme without it, and your options disappear the moment you publish. If you work on a duplicate, enable the embed on the duplicate before publishing it.
+The **App Embed is enabled separately for each theme**. If you publish a different theme — even a duplicate of your current theme — the App Embed will not be enabled on the new theme, so your options will stop appearing.
 
-This is the single most common reason options stop appearing.
+If you’re working on a duplicate theme, make sure to **enable the App Embed on that theme before publishing it**.
+
+This is the **most common reason** why options suddenly stop appearing.
 {% endhint %}
 
 {% hint style="info" %}
-**Enabling the embed makes the app available; it does not display anything by itself.** Each option set still needs to be **Active**, published to **Online Store**, and matched to the product by its product rule. See [Assign to products](../option-sets/assign-to-products.md).
+Enabling the App Embed only makes the app available on your storefront — **it does not display the options by itself**.
 
-The reverse is also useful: turning the toggle off is a clean way to switch the app off storefront-wide, without deleting option sets or uninstalling.
+For an option set to appear, it must also:
+
+* Be **Active**
+* Be published to the **Online Store**
+* Be correctly assigned to the product based on its rule. See [Assign to products](../option-sets/assign-to-products.md) for more details.
+
+Conversely, if you turn the App Embed off, this is a clean way to **disable the app across the storefront** without deleting your option sets or uninstalling the app.
 {% endhint %}
 
-## Other ways to reach the same switch
+## Other ways to access the same switch
 
-The Theme Setup route above is the one to use, because it tells you whether it worked. Two shortcuts do the same thing:
+The **Theme Setup** route above is the recommended method because it also confirms whether the App Embed was successfully activated. However, you can also enable it through either of these shortcuts:
 
-* **The Setup guide** on the app's Dashboard has an **Enable app embed** button in step 2.
-* **Shopify directly**, without the app: **Online Store** > **Themes** > **Customize** > the app embeds icon in the left sidebar.
+* **Setup guide:** On the app’s Dashboard, click **Enable app embed** in step 2.
+* **Shopify directly:** Go to **Online Store → Themes → Customize**, then click the **App embeds** icon in the left sidebar.

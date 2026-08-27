@@ -7,46 +7,55 @@ icon: house
 
 # Globo Product Options, Variant
 
-Shopify limit 2048 variants per product. This app helps you to create infinite custom product options like textbox, file upload, dropdown, etc... It also encourages buyers to personalize their products, which increases sales. Allow shoppers to design their own custom products based on flexible option choices. Apply particular option set to appropriate products. Your customer will be happy to pay a small extra amount for a custom option to have the most satisfied product.
+Shopify limits each product to 2,048 variants. Globo Product Options helps you overcome this limitation by adding unlimited custom product options, such as text fields, file uploads, dropdowns, checkboxes, color swatches, and more.
 
-* Text input field, file upload, color swatch, variant image, dropdown, checkbox
-* Add-on price - Additional cost when you customer choose a product variants
-* Conditional logic: Show/hide relevant options depending on the previously select
-* Import & Export product variants by CSV file. Complete product custom tool.
-* Powerful product personalization w/ text, images, custom fields & live preview.
+With flexible product options and personalization features, you can let customers customize products to their preferences, create personalized items, and add extra charges for selected options. You can also assign specific option sets to the products where they are needed.
 
-<figure><img src=".gitbook/assets/main.png" alt="The Globo Product Options, Variant dashboard inside Shopify admin"><figcaption><p>The app dashboard is where you land after opening the app from Shopify admin.</p></figcaption></figure>
+#### Key Features:
+
+* **Multiple product option types:** Text input, file upload, color swatch, variant image, dropdown, checkbox, and more.
+* **Add-on pricing:** Add an additional cost when customers select specific options.
+* **Conditional logic:** Show or hide options based on customers' previous selections.
+* **CSV import & export:** Import and export product options and variants using CSV files.
+* **Product personalization:** Let customers personalize products with text, images, custom fields, and live previews.
+
+<figure><img src=".gitbook/assets/2026-08-27_10-05-59.png" alt=""><figcaption></figcaption></figure>
 
 ## What you can build with it
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>32 option types</strong></td><td>Text, textarea, number, phone, email, date, file upload, colour picker, switch, range slider, dimension, dropdowns, radio, checkbox, buttons, colour and image swatches, font picker, and layout elements.</td><td><a href="option-types/">option-types</a></td></tr><tr><td><strong>Add-on pricing</strong></td><td>Charge extra for a choice in three different ways — a plain price, an existing Shopify product, or a product the app generates for you.</td><td><a href="add-on-pricing/">add-on-pricing</a></td></tr><tr><td><strong>Conditional logic</strong></td><td>Show or hide any option based on what the customer already chose — including based on the Shopify variant they picked.</td><td><a href="conditional-logic/">conditional-logic</a></td></tr><tr><td><strong>Product Personalizer</strong></td><td>Show the customer's own text and images live on the product photo, with fonts, effects, curves, and drag-to-position controls.</td><td><a href="personalizer/">personalizer</a></td></tr><tr><td><strong>Automations</strong></td><td>Email yourself when an order comes in with options, and write the selected options into order notes or order tags.</td><td><a href="automations/">automations</a></td></tr><tr><td><strong>Point of Sale</strong></td><td>Use the same option sets when you take an order in the Shopify POS app.</td><td><a href="pos/">pos</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>32 option types</strong></td><td>Text, textarea, number, phone, email, date, file upload, colour picker, switch, range slider, dimension, dropdowns, radio, checkbox, buttons, colour and image swatches, font picker, and layout elements.</td><td><a href="option-types/">option-types</a></td></tr><tr><td><strong>Add-on pricing</strong></td><td>Charge extra for a choice in three different ways: a plain price, an existing Shopify product, or a product the app generates for you.</td><td><a href="add-on-pricing/">add-on-pricing</a></td></tr><tr><td><strong>Conditional logic</strong></td><td>Show or hide any option based on what the customer already chose - including based on the Shopify variant they picked.</td><td><a href="conditional-logic/">conditional-logic</a></td></tr><tr><td><strong>Product Personalizer</strong></td><td>Show the customer's own text and images live on the product photo, with fonts, effects, curves, and drag-to-position controls.</td><td><a href="personalizer/">personalizer</a></td></tr><tr><td><strong>Automations</strong></td><td>Email yourself when an order comes in with options, and write the selected options into order notes or order tags.</td><td><a href="automations/">automations</a></td></tr><tr><td><strong>Point of Sale</strong></td><td>Use the same option sets when you take an order in the Shopify POS app.</td><td><a href="pos/">pos</a></td></tr></tbody></table>
 
 ## Start here
 
-If you have just installed the app, follow these three pages in order. Together they take about 15 minutes and end with a working option on your live product page.
+If you’ve just installed the app, follow these three steps below in order. They’ll guide you through setting up your first product option and getting it displayed on your live product page.
 
 {% stepper %}
 {% step %}
 ### [Install the app](getting-started/install-the-app.md)
 
-Install from the Shopify App Store, approve the permissions, and pick a plan or start the free trial.
+Install the app from the Shopify App Store, approve the required permissions, and choose a plan or start your free trial.
 {% endstep %}
 
 {% step %}
 ### [Quickstart](getting-started/quickstart.md)
 
-Create your first option set, add one option, and choose which products it applies to.
+Create your first option set, add an option, and choose which products the option set should apply to.
 {% endstep %}
 
 {% step %}
 ### [Enable the app embed](getting-started/enable-the-app-embed.md)
 
-Turn the app on in your theme so the options actually render for shoppers. Nothing appears on the storefront until this is done.
+Enable the app embed in your active theme so your product options can appear on the storefront. Options won’t be displayed until the app embed is enabled.
 {% endstep %}
 {% endstepper %}
 
 {% hint style="warning" %}
-Two things must both be true before any option appears on your storefront: the **app embed is enabled** on your active theme, and the option set has a **product rule** that matches the product you are looking at. If options are missing, check those two first — see [Options are not showing up](help/troubleshooting.md).
+**Important:** Two things must be in place before an option can appear on your storefront:
+
+* The **app embed** is enabled on your active theme.
+* The option set has a **product rule** that matches the product you’re viewing.
+
+If your options aren’t showing up, check these two settings first. See [Options are not showing up](help/troubleshooting.md) for more troubleshooting steps.
 {% endhint %}
 
 ## Find your way around
@@ -55,6 +64,6 @@ Two things must both be true before any option appears on your storefront: the *
 
 ## Get help
 
-* **Something is broken** — start with [Options are not showing up](help/troubleshooting.md), then the other troubleshooting pages.
-* **Quick questions** — see the [FAQ](help/faq.md).
-* **Talk to us** — live chat inside the app, the **Contact Us** page in the app, or email [contact@globo.io](mailto:contact@globo.io). See [Contact support](help/contact-support.md).
+* **Something isn't working** - start with [Options are not showing up](help/troubleshooting.md), then check the other troubleshooting guides if needed.
+* **Quick questions** - check the [FAQ](help/faq.md) for answers to common questions.
+* **Need to talk to us?** - Contact us through the Live Chat, the Contact Us page in the app, or email [contact@globo.io](mailto:contact@globo.io). See [Contact support](help/contact-support.md) for more details.

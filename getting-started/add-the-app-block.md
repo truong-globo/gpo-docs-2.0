@@ -79,15 +79,6 @@ In the theme editor, open the page where you want the options to appear. If ther
 
 The block’s **Product** setting is automatically populated from the section, but make sure it points to the product you expect. Then select **Save**.
 
-{% hint style="warning" %}
-**Important:** Adding the block alone is not enough. In the app, go to **Settings** > **General** > **Other pages** and enable the matching setting:
-
-* **Show widget on home page (featured product section only)**
-* **Show widget on regular page (featured product section only)**
-
-If the setting is disabled, the widget won’t appear even when the app block has been added.
-{% endhint %}
-
 ## Notes
 
 * The product template and **Featured product** sections are the appropriate places to use the block. The block needs a product in context to determine which option sets apply.

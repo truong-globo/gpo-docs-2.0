@@ -1,19 +1,20 @@
 ---
 description: >-
-  Test your option form inside the app before it reaches your shoppers, and edit
-  options directly by selecting them in the preview.
+  Preview your option form directly in the app before publishing it to your
+  store. You can also click any option in the preview to quickly find and edit
+  its settings.
 icon: eye
 ---
 
 # Live preview and inspector
 
-The right-hand side of the builder is a working copy of your widget. It is not a mock-up: it runs your conditional logic, previews your add-on prices, and renders the option types exactly as the storefront does.
+The preview on the right is a working version of your widget, not just a static mockup. It runs your conditional logic, updates add-on prices, and displays each option type as it will appear on your storefront.
 
-Using it properly saves a lot of switching between tabs.
+Using the live preview makes it easier to test your option form and fine-tune its settings without constantly switching between the builder and your storefront.
 
 ## Before you start
 
-An option set is open in the builder with at least one option in it.
+Make sure you have an option set open in the builder with at least one option added.
 
 ## What the preview does
 

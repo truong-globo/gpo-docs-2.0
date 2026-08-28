@@ -17,55 +17,55 @@ By default, an option set is shown to everyone. The **Customers** tab lets you n
 
 ## The three methods
 
-Like product rules, these are **mutually exclusive**: turning one on turns the other two off.
+Like product rules, the three customer assignment methods are **mutually exclusive** — enabling one automatically disables the other two.
 
-<table><thead><tr><th width="210">Method</th><th>Shows the option set to</th></tr></thead><tbody><tr><td><strong>Everyone</strong></td><td>All visitors, signed in or not. This is the default.</td></tr><tr><td><strong>Manual Selection</strong></td><td>Only the specific customers you pick from your customer list.</td></tr><tr><td><strong>Automatic Rules</strong></td><td>Anyone matching your conditions — customer tag, name, email, logged-in, or guest.</td></tr></tbody></table>
+<table><thead><tr><th width="210">Method</th><th>Shows the option set to</th></tr></thead><tbody><tr><td><strong>Everyone</strong></td><td>All visitors, whether signed in or not. This is the default.</td></tr><tr><td><strong>Manual Selection</strong></td><td>Only the specific customers you select from your customer list.</td></tr><tr><td><strong>Automatic Rules</strong></td><td>Customers who match your conditions — customer tag, name, email, logged-in status, or guest status.</td></tr></tbody></table>
 
-<figure><img src="../.gitbook/assets/placeholder.png" alt="The Customers tab with the Everyone, Manual Selection, and Automatic Rules blocks"><figcaption><p>Everyone is the default, so an option set reaches all shoppers until you narrow it.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-08-28_14-24-15.png" alt="The Customers tab with the Everyone, Manual Selection, and Automatic Rules blocks"><figcaption><p>Everyone is the default, so an option set reaches all shoppers until you narrow it.</p></figcaption></figure>
 
 ## Everyone
 
-The option set is visible to all visitors, including people who are not signed in.
+The option set is visible to all visitors, including those who are not signed in.
 
-Leave this on unless you have a reason not to. Most option sets should be visible to everybody.
+Keep this enabled unless you have a specific reason to limit visibility. Most option sets should be available to everyone.
 
 ## Manual Selection
 
-Pick individual customers from your Shopify customer list.
+Select individual customers from your Shopify customer list.
 
 {% stepper %}
 {% step %}
 ### Turn on Manual Selection
 
-The block expands with a customer table and a **Select customers** button.
+Enable **Manual Selection**. The section expands to show a customer table and a **Select customers** button.
 {% endstep %}
 
 {% step %}
 ### Approve customer data access, once
 
-The first time you use this, the app asks for permission to read your customer data, explaining that the data is used only for this feature and is not distributed.
+The first time you use Manual Selection, the app asks for permission to access your customer data. The permission notice explains that the data is used only for this feature and is not shared.
 
-Select **Update** to approve. This goes through Shopify, exactly like the original install. Until you approve it, you cannot pick customers.
+Click **Update** to approve the permission. This is handled through Shopify, similar to the initial app installation. You must approve access before you can select customers.
 {% endstep %}
 
 {% step %}
 ### Select customers
 
-**Select customers** opens a picker over your customer list. Search by name or email and select as many as you need.
+Selected customers appear in a table. To remove a customer, use the remove action on their row. To clear the entire list, click **Deselect all customers**. You'll be asked to confirm before the list is cleared.
 {% endstep %}
 
 {% step %}
 ### Review the list
 
-Selected customers appear in a table. Remove one with the remove action on its row, or clear the list with **Deselect all customers** — which asks you to confirm first.
+Selected customers appear in a table. To remove a customer, use the remove action on their row. To clear the entire list, click **Deselect all customers**. You'll be asked to confirm before the list is cleared.
 {% endstep %}
 {% endstepper %}
 
 {% hint style="warning" %}
-A manual customer rule with nobody selected is incomplete. The builder shows "Please select customer to apply this option set." and blocks **Save**.
+A manual customer rule must have at least one customer selected. If no customers are selected, the builder displays **“Please select customer to apply this option set.”** and disables **Save**.
 {% endhint %}
 
-Manual selection suits a genuinely fixed list — three trade accounts, say. For anything that grows, tag those customers in Shopify and use an automatic rule instead.
+Manual Selection works best for a fixed list of customers, such as a few wholesale accounts. If the list is likely to grow, tag those customers in Shopify and use an automatic rule instead.
 
 ## Automatic Rules
 

@@ -1,39 +1,43 @@
 ---
 description: >-
-  Copy an option set as a starting point, and remove one permanently — including
-  what a duplicate inherits that you probably did not expect.
+  Duplicate an option set to use it as a starting point, or permanently delete
+  an option set when you no longer need it.
 icon: copy
 ---
 
 # Duplicate and delete
 
-Both actions are bulk actions on the **Option Sets** list: tick the rows, then choose the action.
+Both actions are available as bulk actions on the **Option Sets** list. Select the option sets you want to manage, then choose the appropriate action.
 
 ## Duplicate
 
-Duplicating is the fastest way to build a variation — a version for a different customer group or country, or a safe copy before a big change.
+Duplicating is a quick way to create a variation — for example, a version for a different customer group or country, or a copy to use before making major changes.
 
 {% hint style="warning" %}
-**A duplicate is a complete copy — including its name, status, sales channels, and product rule.**
+**A duplicate is a complete copy of the original, including its name, status, sales channels, and product rules.**
 
-Duplicate an **Active** set that applies to all products and you instantly have two active sets applying to all products, with the same name. Shoppers see every option twice until you fix it.
+For example, if you duplicate an **Active** option set that applies to all products, the duplicate will also be **Active** and apply to all products. Both sets will have the same name, so shoppers may see the options twice until you update the duplicate.
 
-So do these two things immediately: **rename the copy**, and either **change its targeting** or **set it to Draft**.
+After duplicating, we recommend doing these two things immediately:
+
+1. **Rename the duplicate** so you can identify it easily.
+2. Either **change its targeting** or **set it to Draft** until you are ready to use it.
 {% endhint %}
 
-<!-- SCREENSHOT: set-duplicate-result | App admin → Option Sets sau khi duplicate | 2 dòng cùng tên, cùng status Active | Khoanh 2 dòng trùng tên (mũi tên nhỏ) -->
+<figure><img src="../.gitbook/assets/2026-08-28_15-23-09.png" alt="The option sets list showing a duplicated set with the same name and status as the original"><figcaption><p>A duplicate keeps the original's name and status — rename it straight away.</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/placeholder.png" alt="The option sets list showing a duplicated set with the same name and status as the original"><figcaption><p>A duplicate keeps the original's name and status — rename it straight away.</p></figcaption></figure>
+Everything else is copied too, including all options and their settings, values, prices, images, help text, conditional logic, all three targeting rules, and the Personalizer background.
 
-Everything else copies too: every option and its settings, values, prices, images, help text, conditional logic, all three targeting rules, and the Personalizer background.
+One thing is **not** copied: **add-on products are shared**. If a value in the original option set is linked to a generated add-on product, the duplicate uses the same product. Both option sets will sell from the same product inventory.
 
-One thing does **not** copy — **add-on products are shared**. If a value in the original pointed at a generated add-on product, the copy points at the same product. Both sets sell it and draw down the same stock. Usually that is what you want; if you need separate inventory, reconfigure the add-on in the copy. See [Add-on pricing](../add-on-pricing/README.md).
+This is usually what you want. If you need separate inventory, reconfigure the add-on product in the duplicate. See [Add-on pricing](../add-on-pricing/).
 
 {% hint style="info" %}
-Reusing the same structure repeatedly? Save it as a [custom template](../templates/custom-templates.md) instead. Templates are built for reuse and do not clutter your option set list.
+If you reuse the same structure regularly, consider saving it as a [custom template](../templates/custom-templates.md). Templates are designed for reuse and keep your option set list easier to manage.
 {% endhint %}
 
 <details>
+
 <summary>Pattern: the same options, different for some shoppers</summary>
 
 This is what duplicating is really for — wholesale pricing, market-specific wording, a members-only version.
@@ -51,27 +55,32 @@ The same pattern works with the **Countries** tab for market variations. See [As
 ## Delete
 
 {% hint style="danger" %}
-Deleting is **permanent**. No trash, no undo, no recovery — options, values, prices, conditional logic, and rules all go.
+Deleting an option set is **permanent**. There is no trash, undo, or recovery. All options, values, prices, conditional logic, and targeting rules are permanently deleted.
 {% endhint %}
 
-### Draft it instead, usually
+### Use Draft instead - in most cases
 
-For almost every reason you might delete a set, **Set as draft** is the better action:
+For most situations where you might consider deleting an option set, **Set as draft** is the better choice:
 
-<table><thead><tr><th width="200">Draft</th><th>Delete</th></tr></thead><tbody><tr><td>Stops rendering everywhere immediately</td><td>Stops rendering everywhere immediately</td></tr><tr><td>Keeps all your work</td><td>Destroys all your work</td></tr><tr><td>Reversible in one click</td><td>Not reversible</td></tr><tr><td>Leaves a row in your list</td><td>Cleans up your list</td></tr></tbody></table>
+<table><thead><tr><th width="331.86328125">Draft</th><th>Delete</th></tr></thead><tbody><tr><td>Stops the option set from rendering immediately</td><td>Permanently removes the option set</td></tr><tr><td>Keeps all your settings and work</td><td>Removes all settings and work</td></tr><tr><td>Can be reversed at any time</td><td>Cannot be undone</td></tr><tr><td>Keeps the option set in your list</td><td>Removes it from your list</td></tr></tbody></table>
 
-Draft it now, and delete it in three months if you never went back.
+If you're unsure whether you'll need an option set again, set it to **Draft** rather than deleting it. You can always delete it later if you no longer need it.
 
 ### If you are deleting anyway
 
-Three things to do first:
+Before deleting an option set, there are three things to check:
 
-1. **Export it.** Select the set and use **Export option sets** — a free backup you can re-import. See [Import and export](import-and-export.md).
-2. **Deal with its add-on products.** Products the app generated are **not** deleted with the set; they stay in your catalogue. Delete or archive them in Shopify admin if the set is gone for good.
-3. **Check your automations.** A workflow using the dynamic order-tag mode points at a specific option in a specific set, and deleting the set breaks it. See [Update order tags](../automations/update-order-tags.md).
+1. **Export the option set.** Select the set and use **Export option sets** to create a backup that you can re-import later. See [Import and export](import-and-export.md).
+2. **Review its add-on products.** Products generated by the app are **not** deleted when you delete the option set. They remain in your Shopify catalogue, so delete or archive them in Shopify admin if you no longer need them.
+3. **Check your automations.** A workflow using dynamic order-tag mode can reference a specific option in a specific option set. Deleting that set will break the workflow. See [Update order tags](../automations/update-order-tags.md).
 
-Then tick the rows, choose **Delete option sets** from the bulk action menu, and confirm.
+When you're ready, select the option sets you want to delete, choose **Delete option sets** from the bulk action menu, and confirm.
 
 ### What deleting does not touch
 
-Orders already placed — option details on past orders are part of the order record. Also add-on products, as above; templates you saved from the set; and store-wide settings, colours, and translations.
+Deleting an option set does not affect:
+
+* Orders that have already been placed. Option details on past orders are stored as part of the order record.
+* Add-on products, as described above.
+* Templates you saved from the option set.
+* Store-wide settings, colours, and translations.

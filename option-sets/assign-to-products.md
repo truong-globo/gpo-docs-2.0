@@ -1,25 +1,25 @@
 ---
 description: >-
-  The three ways to decide which products an option set appears on, and how
-  automatic rules and their operators behave.
+  The three ways to choose which products an option set appears on, and how
+  automatic rules and their operators work.
 icon: bullseye
 ---
 
 # Assign to products
 
-Every option set needs a product rule — it is what tells the app which products to show the options on. The builder will not let you save without one.
+Every option set needs a product rule. This tells the app which products the options should appear on, and the builder won't let you save an option set without one.
 
-You choose one of three methods. They are **mutually exclusive** — turning one on turns the other two off.
+You can choose from three methods. They are **mutually exclusive**, so enabling one automatically disables the other two.
 
 ## Before you start
 
-An option set is open in the builder, on **Setup flow** > **Assign products**.
+Make sure you have an option set open in the builder and are on **Setup flow** > **Assign products**.
 
 ## The three methods
 
-<table><thead><tr><th width="210">Method</th><th>How it decides</th><th>Best for</th></tr></thead><tbody><tr><td><strong>Manual Selection</strong></td><td>You pick products by hand.</td><td>A short, stable list. Options for one flagship product.</td></tr><tr><td><strong>Automatic Rules</strong></td><td>Conditions on product title, type, vendor, price, tag, or collection.</td><td>Anything that should keep working as you add products. The usual choice.</td></tr><tr><td><strong>Apply to All Products</strong></td><td>Every product in the store.</td><td>Store-wide options such as a delivery note or gift message.</td></tr></tbody></table>
+<table><thead><tr><th width="210">Method</th><th>How it decides</th><th>Best for</th></tr></thead><tbody><tr><td><strong>Manual Selection</strong></td><td>You pick products by hand.</td><td>A short, stable list. Options for one flagship product.</td></tr><tr><td><strong>Automatic Rules</strong></td><td>Conditions on product title, type, vendor, price, tag, or collection.</td><td>Best for rules that should continue to apply as you add new products. This is the most common choice.</td></tr><tr><td><strong>Apply to All Products</strong></td><td>Every product in the store.</td><td>Store-wide options such as a delivery note or gift message.</td></tr></tbody></table>
 
-<figure><img src="../.gitbook/assets/placeholder.png" alt="The Assign products step showing the Manual Selection, Automatic Rules, and Apply to All Products blocks"><figcaption><p>Three targeting methods; switching one on switches the others off.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-08-28_13-59-36.png" alt="The Assign products step showing the Manual Selection, Automatic Rules, and Apply to All Products blocks"><figcaption><p>Three targeting methods; switching one on switches the others off.</p></figcaption></figure>
 
 ## Manual Selection
 
@@ -27,33 +27,33 @@ An option set is open in the builder, on **Setup flow** > **Assign products**.
 {% step %}
 ### Turn on Manual Selection
 
-The block expands to show a product table and a **Select products** button.
+The section expands to show a product table and a **Select products** button.
 {% endstep %}
 
 {% step %}
 ### Select products
 
-**Select products** opens Shopify's own product picker, so you can search your catalogue and select several at once.
+Click **Select products** to open Shopify's product picker. Search your catalogue and select multiple products at once.
 
-You can also select individual variants where the picker allows it.
+You can also select individual variants.
 {% endstep %}
 
 {% step %}
 ### Review the list
 
-Selected products appear in a table showing each product's image, title, vendor, type, and whether the product is **Active** or **Draft** in Shopify.
+Selected products appear in a table showing each product's image, title, vendor, type, and Shopify status (**Active** or **Draft**).
 
-Remove a single product with the remove action on its row, or clear the whole list with **Deselect all products**. Clearing asks you to confirm, because it cannot be undone.
+To remove a product, click the Remove action on its row. To clear the entire list, click **Deselect all products**. You'll be asked to confirm before clearing the list because this action cannot be undone.
 {% endstep %}
 {% endstepper %}
 
 {% hint style="warning" %}
-A manual rule with no products selected is incomplete. The builder shows "Please select product to apply this option set." and blocks **Save**.
+A manual rule with no products selected is incomplete. The builder displays **“Please select product to apply this option set.”** and prevents you from clicking **Save**.
 {% endhint %}
 
-Manual selection has one downside worth understanding: it does not follow your catalogue. Add a new engravable bracelet next month and you have to come back here and add it. If that is going to happen, use an automatic rule instead.
+Manual selection has one important limitation: it does not automatically update as your catalogue changes. If you add a new engravable bracelet next month, you'll need to come back and add it manually. If you expect to add products regularly, an automatic rule is a better choice.
 
-<figure><img src="../.gitbook/assets/placeholder.png" alt="The manual selection product table with selected products and the select and deselect controls"><figcaption><p>Manually selected products are listed with their Shopify status.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-08-28_14-02-56.png" alt="The manual selection product table with selected products and the select and deselect controls"><figcaption><p>Manually selected products are listed with their Shopify status.</p></figcaption></figure>
 
 ## Automatic Rules
 

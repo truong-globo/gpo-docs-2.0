@@ -57,13 +57,13 @@ Manual selection has one important limitation: it does not automatically update 
 
 ## Automatic Rules
 
-Automatic rules describe the products rather than list them. Any product matching the description picks the option set up, now and in future.
+Automatic rules describe which products should receive an option set instead of listing them individually. Any product that matches the rules will automatically have the option set applied, both now and in the future.
 
 {% stepper %}
 {% step %}
 ### Turn on Automatic Rules
 
-The block expands with one empty condition, and a **Products must match** selector above it.
+The block expands to show an empty condition and a **Products must match** selector above it.
 {% endstep %}
 
 {% step %}
@@ -71,13 +71,13 @@ The block expands with one empty condition, and a **Products must match** select
 
 <table><thead><tr><th width="230">Setting</th><th>Meaning</th></tr></thead><tbody><tr><td><strong>all conditions</strong></td><td>A product must satisfy <strong>every</strong> condition. Conditions narrow the match.</td></tr><tr><td><strong>any condition</strong></td><td>A product needs to satisfy <strong>at least one</strong>. Conditions widen the match.</td></tr></tbody></table>
 
-With one condition the setting makes no difference. It matters as soon as you add a second.
+With only one condition, this setting has no effect. It matters when you add a second condition.
 {% endstep %}
 
 {% step %}
 ### Build a condition
 
-A condition is three parts: a product field, an operator, and a value.
+A condition includes three parts: a product data field, an operator, and a value.
 
 <table><thead><tr><th width="200">Field</th><th>Matches against</th></tr></thead><tbody><tr><td><strong>Product title</strong></td><td>The product's title in Shopify.</td></tr><tr><td><strong>Product type</strong></td><td>The product's <strong>Type</strong> that set up in Shopify.</td></tr><tr><td><strong>Product vendor</strong></td><td>The product's <strong>Vendor</strong> that set up in Shopify.</td></tr><tr><td><strong>Product price</strong></td><td>The product's price.</td></tr><tr><td><strong>Product tag</strong></td><td>The product's tag that set up in Shopify</td></tr><tr><td><strong>Collection</strong></td><td>The products that are included in the collection.</td></tr></tbody></table>
 
@@ -85,31 +85,31 @@ The available operators depend on the field:
 
 <table><thead><tr><th width="240">Field</th><th>Operators</th></tr></thead><tbody><tr><td>Product title, Product type, Product vendor</td><td>is equal to, is not equal to, starts with, ends with, contains, does not contain</td></tr><tr><td>Product price</td><td>is equal to, is not equal to, is greater than, is less than</td></tr><tr><td>Product tag, Collection</td><td>is equal to, is not equal to</td></tr></tbody></table>
 
-For **Collection**, the value is chosen with a collection picker rather than typed.
+For **Collection**, select the value using the collection picker instead of entering it manually.
 
 {% hint style="info" %}
-Changing a condition's field resets its operator and value. That is intentional — the operators differ per field — but it means you should pick the field first, then the operator, then the value.
+Changing a condition's field resets its operator and value. This is intentional because the available operators vary by field. To avoid losing your selections, choose the field first, then the operator, and finally the value.
 {% endhint %}
 {% endstep %}
 
 {% step %}
 ### Add more conditions if you need them
 
-**Add another condition** appends a row. Remove a row with its delete action.
+Click **Add another condition** to add a new row. Remove a condition using the delete action on its row.
 
-Combine conditions with the **all** / **any** setting above.
+Use the **all** / **any** setting above to combine multiple conditions.
 {% endstep %}
 
 {% step %}
 ### Check what it matches
 
-Use **Preview matching products** to list the products your conditions currently catch, before you save. See [Live preview and inspector](live-preview-and-inspector.md).
+Use **Preview matching products** to see which products currently match your conditions before saving. See [Live preview and inspector](live-preview-and-inspector.md).
 
-This preview is unavailable when any condition uses **Collection** — verify those by opening a product from that collection with **View in Store**.
+This preview is not available when any condition uses **Collection**. To verify collection-based conditions, open a product from that collection using **View in Store**.
 {% endstep %}
 {% endstepper %}
 
-<figure><img src="../.gitbook/assets/placeholder.png" alt="Automatic rules with two conditions and the all conditions match setting"><figcaption><p>Conditions combine with all or any, and the operators change with the field.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-08-28_14-15-30.png" alt="Automatic rules with two conditions and the all conditions match setting"><figcaption><p>Conditions combine with all or any, and the operators change with the field.</p></figcaption></figure>
 
 <details>
 
@@ -120,28 +120,28 @@ This preview is unavailable when any condition uses **Collection** — verify th
 </details>
 
 {% hint style="success" %}
-**Tags are the most reliable lever.** You control them entirely, they bulk-edit quickly in Shopify, and they read clearly in a rule. Consider a dedicated tag per option set, such as `opt-engraving`.
+**Tags are the most reliable option.** You have full control over them; they can be updated in bulk in Shopify, and they are easy to understand in a rule. Consider using a dedicated tag for each option set, such as `opt-engraving`.
 {% endhint %}
 
 Three things to know about matching:
 
-* **Text matching is exact on characters.** `T-Shirt` and `T-shirt` are different values for **is equal to** — use **contains** when unsure of the casing.
-* **Price conditions test the variant price.** On a product whose variants differ in price, the rule matches if any variant price satisfies it.
-* **A product must be saved** in Shopify before a rule can see its tags or type.
+* **Text matching is case-sensitive and character-sensitive.** `T-Shirt` and `T-shirt` are different values when using **is equal to**. If you are unsure about the casing, use **contains** instead.
+* **Price conditions are checked against variant prices.** If a product has variants with different prices, the rule matches when at least one variant price satisfies the condition.
+* **The product must be saved** in Shopify before a rule can detect its tags or type.
 
 ## Apply to All Products
 
-One switch. Every product in the store gets this option set — including products you add later.
+With this option enabled, the option set is applied to every product in your store, including products you add later.
 
-Use it deliberately. It is right for a delivery note or a gift message, and wrong for anything product-specific, because it will also appear on gift cards, digital downloads, and add-on products.
+Use it deliberately. It works well for store-wide options such as a delivery note or gift message, but it is not suitable for product-specific options because the option set will also appear on gift cards, digital downloads, and add-on products.
 
 {% hint style="info" %}
-If you want "almost all products", use **Automatic Rules** with a **Product tag — is not equal to** condition and tag the exceptions. That gives you a store-wide default with an escape hatch.
+If you want to apply an option set to “almost all products,” use **Automatic Rules** with a **Product tag — is not equal to** condition, then add the tag to products you want to exclude. This gives you a store-wide default with an easy way to exclude specific products.
 {% endhint %}
 
 ## Notes
 
-* Current plans place no limit on how many products an option set may target. On a plan that does limit it, the manual selection block warns you when you reach the ceiling.
-* **Automatic Rules** and **Apply to All Products** are plan-gated on some plans. If a switch is unavailable, see [Compare plans](../plans/compare-plans.md).
-* Product rules are evaluated on the storefront each time a page loads, so a tag change takes effect on the next page load.
-* Draft products in Shopify can still match a rule. You will see the option set when previewing the draft product.
+* There is currently no limit on the number of products an option set can target. On plans with a product limit, the manual selection block warns you when you reach the limit.
+* **Automatic Rules** and **Apply to All Products** may be restricted on some plans. If a switch is unavailable, see [Compare plans](../plans/compare-plans.md).
+* Product rules are evaluated on the storefront each time a page loads, so changes to product tags take effect on the next page load.
+* Draft products in Shopify can still match an automatic rule. You can see the option set when previewing the draft product.

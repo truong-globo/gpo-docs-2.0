@@ -1,23 +1,23 @@
 ---
 description: >-
-  Move option sets between stores as CSV, keep backups, and migrate from another
-  product options app.
+  Move option sets between stores using CSV files, create backups, or migrate
+  from another product options app.
 icon: file-import
 ---
 
 # Import and export
 
-Export writes your option sets to a CSV file. Import reads one back — either a file this app produced, or one exported from another product options app.
+**Export option sets** creates a CSV file containing your option sets. **Import option sets** lets you upload a CSV file created by this app or exported from another supported product options app.
 
-Use it to back up before a risky change, copy a setup from a development store to a live one, or migrate from an app you are leaving.
+Use these tools to back up your option sets before making major changes, move a setup from a development store to a live store, or migrate from an app you are replacing.
 
-Both actions sit next to **Create option set** on the **Option Sets** page. They are plan-gated separately, so you may have one and not the other.
+Both actions are available next to **Create option set** on the **Option Sets** page. Import and export are controlled separately by your plan, so you may have access to one without the other.
 
 ## Export
 
 {% stepper %}
 {% step %}
-### Tick the sets you want, if you only want some
+### Select the option sets you want to include if you only want to export specific sets.
 
 Skip this to export everything.
 {% endstep %}
@@ -25,9 +25,9 @@ Skip this to export everything.
 {% step %}
 ### Select Export option sets, then choose the scope
 
-<table><thead><tr><th width="260">Choice</th><th>Includes</th></tr></thead><tbody><tr><td><strong>Current page</strong></td><td>Every option set on the page you are looking at</td></tr><tr><td><strong>All option sets</strong></td><td>Everything in your store</td></tr><tr><td><strong>Selected: N option sets</strong></td><td>Only your ticked rows. Unavailable when nothing is ticked</td></tr></tbody></table>
+<table><thead><tr><th width="260">Choice</th><th>Includes</th></tr></thead><tbody><tr><td><strong>Current page</strong></td><td>Every option set on the page you are looking at</td></tr><tr><td><strong>All option sets</strong></td><td>Every option sets in your store</td></tr><tr><td><strong>Selected: N option sets</strong></td><td>Only selected rows. Unavailable when nothing is chosen.</td></tr></tbody></table>
 
-The format is **Plain CSV file**.
+The format is a **Plain CSV file**.
 {% endstep %}
 
 {% step %}
@@ -36,8 +36,6 @@ The format is **Plain CSV file**.
 Your browser downloads `OptionsExport.csv`.
 {% endstep %}
 {% endstepper %}
-
-<!-- SCREENSHOT: set-export-modal | App admin → Option Sets → modal Export option sets | Nhóm "Export" với 3 lựa chọn và nhóm "Export as" với Plain CSV file | Không khoanh (modal đơn) -->
 
 <figure><img src="../.gitbook/assets/placeholder.png" alt="The export dialog with scope choices and the CSV format option"><figcaption><p>Export the current page, everything, or just your selection.</p></figcaption></figure>
 
@@ -77,8 +75,6 @@ Open each imported set and check its options, its **Name** fields, its add-on co
 {% endstep %}
 {% endstepper %}
 
-<!-- SCREENSHOT: set-import-modal | App admin → Option Sets → modal Import | Drop zone + link sample CSV template + danh sách "Select app for import" 7 lựa chọn + checkbox Set all imported option sets as Active | Khoanh khối "Select app for import" -->
-
 <figure><img src="../.gitbook/assets/placeholder.png" alt="The import dialog with the drop zone, the app selector, and the set as active checkbox"><figcaption><p>Telling the app which file format you have is the step people skip.</p></figcaption></figure>
 
 ## Migrating from another app
@@ -90,7 +86,7 @@ Same import as above, plus two rules that save you trouble:
 
 Expect some tidying, because different apps model options differently. Check these in particular:
 
-<table><thead><tr><th width="220">Check</th><th>Why</th></tr></thead><tbody><tr><td>Add-on pricing</td><td>How the other app charged may not map exactly. Review every price and pick the right mode — see <a href="../add-on-pricing/README.md">Add-on pricing</a></td></tr><tr><td>Conditional logic</td><td>Operators differ between apps, so rules may need rebuilding</td></tr><tr><td>Option <strong>Name</strong> fields</td><td>They must be readable and must not clash — see <a href="../option-types/shared-settings/labels-and-visibility.md">Label and Name</a></td></tr><tr><td>Product rules</td><td>Confirm each set targets what you expect</td></tr><tr><td>Swatch images</td><td>May need re-uploading if the old app hosted them itself</td></tr></tbody></table>
+<table><thead><tr><th width="220">Check</th><th>Why</th></tr></thead><tbody><tr><td>Add-on pricing</td><td>How the other app charged may not map exactly. Review every price and pick the right mode — see <a href="../add-on-pricing/">Add-on pricing</a></td></tr><tr><td>Conditional logic</td><td>Operators differ between apps, so rules may need rebuilding</td></tr><tr><td>Option <strong>Name</strong> fields</td><td>They must be readable and must not clash — see <a href="../option-types/shared-settings/labels-and-visibility.md">Label and Name</a></td></tr><tr><td>Product rules</td><td>Confirm each set targets what you expect</td></tr><tr><td>Swatch images</td><td>May need re-uploading if the old app hosted them itself</td></tr></tbody></table>
 
 ## What travels, and what does not
 
@@ -108,6 +104,7 @@ Exported option sets carry their own configuration only. Everything store-wide t
 * Files from older versions of this app are still readable — the app recognises the older column layout by itself.
 
 <details>
+
 <summary>What the exported CSV contains, column by column</summary>
 
 You only need this if you intend to read or edit the file by hand.

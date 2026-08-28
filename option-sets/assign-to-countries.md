@@ -1,21 +1,19 @@
 ---
-description: >-
-  Show or hide an option set depending on the country a shopper is browsing
-  from.
+description: Show or hide an option set based on the country a shopper is browsing from.
 icon: earth-americas
 ---
 
 # Assign to countries
 
-Some options only make sense in some markets: a delivery-date picker where you deliver yourself, engraving in a language your local workshop can produce, a customs declaration field for exports only.
+Some options are only relevant in certain markets — for example, a delivery-date picker for countries where you offer local delivery, engraving in a language your workshop supports, or a customs declaration field for export orders.
 
-The **Countries** tab handles that with a single include-or-exclude list.
+The **Countries** tab lets you control this with a single include-or-exclude list.
 
 ## Before you start
 
-* An option set is open in the builder. Select **Countries** in the left rail.
-* Country rules are plan-gated. If **Country restrictions** is unavailable, see [Compare plans](../plans/compare-plans.md).
-* Country restrictions are **off** by default, meaning the option set appears in every country.
+* Make sure you have an option set open in the builder and select **Countries** in the left sidebar.
+* Country rules are available only on certain plans. If **Country restrictions** is unavailable, see [Compare plans](../plans/compare-plans.md).
+* &#x20;Country restrictions are **off** by default, so the option set is shown in all countries.
 
 ## Steps
 
@@ -30,14 +28,12 @@ The block expands with two choices and a country selector.
 ### Choose Include or Exclude
 
 <table><thead><tr><th width="180">Choice</th><th>Behaviour</th></tr></thead><tbody><tr><td><strong>Include</strong></td><td>Show the option set <strong>only</strong> in the countries you select. Everywhere else, it does not render.</td></tr><tr><td><strong>Exclude</strong></td><td>Show the option set <strong>everywhere except</strong> the countries you select.</td></tr></tbody></table>
-
-Pick whichever gives you the shorter list. Two countries in, or two countries out — same result, less typing.
 {% endstep %}
 
 {% step %}
 ### Select countries
 
-Use the country field to search and select. Search by name and select as many as you need; selected countries appear as removable entries.
+Use the country field to search for and select countries. You can select as many as needed, and selected countries appear as removable entries.
 {% endstep %}
 
 {% step %}
@@ -47,9 +43,7 @@ Select **Save**. The rule takes effect on the next storefront page load.
 {% endstep %}
 {% endstepper %}
 
-<!-- SCREENSHOT: set-countries-panel | App admin → builder → tab Countries | Country restrictions đang bật, chọn Include, đã chọn vài quốc gia | Khoanh 2 radio Include/Exclude và ô chọn quốc gia -->
-
-<figure><img src="../.gitbook/assets/placeholder.png" alt="The Countries tab with country restrictions enabled, Include selected, and several countries chosen"><figcaption><p>One switch, one choice, one list — country targeting is deliberately simple.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-08-28_14-44-16.png" alt="The Countries tab with country restrictions enabled, Include selected, and several countries chosen"><figcaption><p>One switch, one choice, one list — country targeting is deliberately simple.</p></figcaption></figure>
 
 ## Worked examples
 
@@ -57,19 +51,20 @@ Select **Save**. The rule takes effect on the next storefront page load.
 
 ## How the country is determined
 
-The country comes from the storefront's localisation — the country or market the visitor is currently browsing in, which Shopify decides from their location and from any country selector your theme offers.
+The country is based on the storefront's localization — specifically, the country or market the visitor is currently browsing. Shopify determines this based on the visitor's location and any country selector provided by your theme.
 
-That has two consequences worth knowing:
+There are two important things to keep in mind:
 
-* It is the **browsing** country, not a shipping address. The shopper has not reached checkout yet, so there is no address to read.
-* A shopper who switches country in your theme's country selector switches which option sets they see, on the next page load.
+* **It uses the browsing country, not the shipping address.** The shopper has not reached checkout yet, so there is no shipping address for the app to use.
+* **Changing the country in your theme's country selector changes which option sets are shown.** The change takes effect on the next page load.
 
 {% hint style="info" %}
-If your store uses Shopify Markets, this rule works alongside it. Markets controls pricing and availability; this rule controls whether your option set renders. They are independent — a country can be in an active market and still be excluded here.
+If your store uses Shopify Markets, country restrictions work alongside it. Shopify Markets controls pricing and product availability, while this rule controls whether the option set is displayed. They work independently, so a country can be included in an active market but still be excluded by this rule.
 {% endhint %}
 
 ## Notes
-* Country restrictions narrow an option set; they never widen it. The product rule still decides which products are in scope.
-* With **Include** selected and no countries chosen, the option set has nowhere to appear. Either select countries or turn the restriction off.
-* The builder's live preview does not apply country rules. Test on your storefront, switching country with your theme's country selector.
-* Country rules apply to the Online Store. POS orders are taken in person, so a country restriction is not a meaningful filter there.
+
+* Country restrictions narrow the scope of an option set; they never expand it. The product rule still determines which products are in scope.
+* With **Include** selected and no countries chosen, the option set will not be displayed anywhere. Select at least one country or turn off the restriction.
+* The builder's live preview does not apply country rules. To test them, use your storefront and switch countries using your theme's country selector.
+* Country rules apply to the **Online Store**. POS orders are placed in person, so country restrictions do not apply to them.

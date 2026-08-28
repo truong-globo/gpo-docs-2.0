@@ -89,17 +89,17 @@ The block expands with a **Customers must match** setting and one empty conditio
 
 For **Customer tags**, **Customer name**, and **Customer email** the operators are: is equal to, is not equal to, starts with, ends with, contains, does not contain.
 
-**Logged-in customer** and **Guest** are switches rather than comparisons — the app disables the operator and value fields when you pick either, because the field alone is the whole condition.
+**Logged-in customer** and **Guest** are switches rather than comparison conditions. When you select either one, the app disables the operator and value fields because the selected field itself defines the entire condition.
 {% endstep %}
 
 {% step %}
-### Add more conditions if you need them
+### Add more conditions if needed
 
-**Add another condition** appends a row; each row has a delete action.
+Click **Add another condition** to add a new row. Each row has a delete action for removing the condition.
 {% endstep %}
 {% endstepper %}
 
-<figure><img src="../.gitbook/assets/placeholder.png" alt="A customer rule matching customers whose tags equal wholesale"><figcaption><p>Customer tags are the most practical field — you control them entirely.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-08-28_14-30-00.png" alt="A customer rule matching customers whose tags equal wholesale"><figcaption><p>Customer tags are the most practical field — you control them entirely.</p></figcaption></figure>
 
 ### Worked examples
 
@@ -107,8 +107,8 @@ For **Customer tags**, **Customer name**, and **Customer email** the operators a
 
 ## Notes
 
-* Customer rules narrow an option set; they never widen it. A product outside the product rule stays outside, whoever is looking.
-* Rules are evaluated on the storefront using the signed-in customer. A guest matches only **Everyone** or a **Guest** condition — a tag condition cannot match somebody the store does not know.
-* Customer tags are managed in Shopify admin on the customer's record, not in this app.
-* The live preview in the builder does not apply customer rules. Test by signing in to your storefront as a test customer.
-* Manual customer selection needs the customer data permission described above.
+* Customer rules narrow the scope of an option set; they never expand it. A product that does not match the product rule remains out of scope, regardless of who is viewing it.
+* Customer rules are evaluated on the storefront based on the signed-in customer's information. Guests can only match **Everyone** or a **Guest** condition — a customer tag condition cannot match a guest because there is no customer record to check.
+* Customer tags are managed in Shopify admin on the customer's record, not in the app.
+* The live preview in the builder does not apply customer rules. To test them, sign in to your storefront as a test customer.
+* Manual customer selection requires the customer data permission described above.

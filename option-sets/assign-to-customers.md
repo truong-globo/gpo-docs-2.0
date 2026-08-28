@@ -7,13 +7,13 @@ icon: user-check
 
 # Assign to customers
 
-By default an option set is shown to everybody. The **Customers** tab narrows that: wholesale-only options, a VIP engraving service, or a field that only makes sense for signed-in shoppers.
+By default, an option set is shown to everyone. The **Customers** tab lets you narrow its visibility — for example, to offer wholesale-only options, a VIP engraving service, or a field that is only relevant to signed-in customers.
 
 ## Before you start
 
-* An option set is open in the builder. Select **Customers** in the left rail.
-* Customer rules are plan-gated. If the switches are unavailable, see [Compare plans](../plans/compare-plans.md).
-* This narrows an option set that already has a product rule. It does not replace it — the product rule still decides which products are in scope.
+* Make sure you have an option set open in the builder and select **Customers** in the left sidebar.
+* Customer rules are available only on certain plans. If the switches are unavailable, see [Compare plans](../plans/compare-plans.md).
+* Customer rules narrow the scope of an option set that already has a product rule. They do not replace the product rule — the product rule still determines which products the option set applies to.
 
 ## The three methods
 

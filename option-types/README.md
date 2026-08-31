@@ -31,9 +31,9 @@ If you are not sure which to use, start with [Choose the right option type](choo
 
 Whatever the type, the settings panel is organised the same way:
 
-<table><thead><tr><th width="240">Tab</th><th>Contains</th></tr></thead><tbody><tr><td><strong>Basic Settings</strong></td><td>Label, Name, Required field, option values, limits, help text, and the add-on <strong>Price</strong> field.</td></tr><tr><td><strong>Advanced Settings</strong></td><td>Layout, column width, prefixes, out-of-stock handling, slider settings, HTML class, and the add-on <strong>Advanced settings</strong> dropdown.</td></tr><tr><td><strong>Personalizer Settings</strong></td><td>On the 12 types that support it — see the tables above.</td></tr></tbody></table>
+<table><thead><tr><th width="240">Tab</th><th>Contains</th></tr></thead><tbody><tr><td><strong>Basic Settings</strong></td><td>Label, Name, Required field, option values, limits, help text, and the add-on <strong>Price</strong> field.</td></tr><tr><td><strong>Advanced Settings</strong></td><td>Layout, column width, prefixes, out-of-stock handling, slider settings, HTML class, and the add-on <strong>Advanced settings</strong> dropdown.</td></tr><tr><td><strong>Personalizer Settings</strong></td><td>Available on the 12 types that support it — see the tables above.</td></tr></tbody></table>
 
-Every setting that appears on more than one type is documented once in [Shared settings](shared-settings/). The individual type pages tell you which settings that type has, and explain only what is genuinely specific to it.
+Every setting that appears on multiple types is documented once in [Shared settings](shared-settings/). The individual type pages list the settings available for that type and explain only what is specific to it.
 
 **Conditional logic** is available on all 32 types, including the static ones — so you can show a whole [Section](static-types/section.md), a size chart, or a warning paragraph only under certain conditions. See [Conditional logic](../conditional-logic/).
 

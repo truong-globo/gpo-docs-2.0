@@ -124,3 +124,33 @@ Do **not** add a `## Troubleshooting` section to a normal page. Troubleshooting 
 - `personalizer/troubleshooting.md`
 
 Anything a reader must know to avoid a mistake belongs inline, as a `hint`, at the point where they would make it — not in a list of symptoms at the bottom.
+
+## 10. Settings-page pattern (shared-settings and option-type pages)
+
+Established by the pages rewritten on 2026-08-31. Follow it exactly.
+
+**Structure**
+
+- Intro: one to three plain sentences. Say what the settings are, and which one to start with or how the page relates to a neighbouring page. No scene-setting.
+- One `##` per setting, using the exact app label.
+- **No `###` at all.** Sub-topics are bold mini-headings on their own line: `**How it behaves**`, `**When to use it**`, `**When not to use it**`, `**Typical uses**`, `**Why it exists**`, `**What turning it on changes**`.
+- No `{% stepper %}` and no `<details>` on a settings page.
+- Optional `## Notes` at the end for the leftovers.
+- One or two `<figure>` blocks, at the end or under the setting they illustrate. No `<!-- SCREENSHOT: ... -->` markers.
+- Target 500–1,000 words.
+
+**Meta table** — one under each setting's heading, in this exact form:
+
+```
+<table><thead><tr><th width="180">Tab</th><th>Advanced Settings</th></tr></thead><tbody><tr><td>Default</td><td>Off</td></tr><tr><td>Available on</td><td>...</td></tr></tbody></table>
+```
+
+**Wording**
+
+- "shopper" for the person buying, not "customer".
+- American spelling: color, behavior, capitalization, normalize, catalog, emphasize.
+- Verify every "Available on" count against the type definition files before writing it.
+
+**Anchors**
+
+Flattening a `###` into a bold mini-heading destroys its anchor. Search for links to that anchor first and repoint them to the enclosing `##`.

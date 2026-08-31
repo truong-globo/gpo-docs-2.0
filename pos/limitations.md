@@ -69,4 +69,4 @@ Where your online form is long or uses unsupported types, run two option sets:
 
 Both target the same products. Because each is published to one channel only, they never collide.
 
-See [Activate and publish](../option-sets/create-an-option-set.md#activate-and-publish).
+See [Activate and publish](../option-sets/create-an-option-set.md#publish-the-option-set).

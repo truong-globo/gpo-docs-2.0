@@ -15,7 +15,7 @@ Almost every report comes down to one of the items below. Work through the first
 Check these four, in order:
 
 1. **The app embed is not enabled on your live theme.** This is the number one cause, and it is per theme — publishing a new theme turns it off again. See [Enable the app embed](../getting-started/enable-the-app-embed.md).
-2. **The option set is Draft.** A draft never renders. See [Activate and publish](../option-sets/create-an-option-set.md#activate-and-publish).
+2. **The option set is Draft.** A draft never renders. See [Activate and publish](../option-sets/create-an-option-set.md#publish-the-option-set).
 3. **Online Store is not ticked** under the option set's **Sales channels**.
 4. **The product rule does not match** the product you are looking at. Use **Preview matching products** to check — see [Assign to products](../option-sets/assign-to-products.md).
 

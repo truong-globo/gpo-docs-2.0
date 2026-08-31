@@ -1,19 +1,21 @@
 ---
 description: >-
-  Swatch style, swatch and tooltip image sizes, and the colour and font preview
+  Swatch style, swatch and tooltip image sizes, and the color and font preview
   settings that let a shopper see a choice before making it.
 icon: palette
 ---
 
 # Swatch style and previews
 
-These settings decide whether a choice is shown as text, as a colour, or as a picture — and how big that picture is when the shopper looks closely.
+Five settings that decide whether a choice appears as text, as a color, or as a picture — and how much detail the shopper can see before selecting.
+
+**Swatch style** is the one to start with, because changing it also changes the columns in the option values table.
 
 ## Swatch style
 
-Turns a plain list of choices into colour or image swatches.
+Turns a plain list of choices into color or image swatches.
 
-<table><thead><tr><th width="180">Tab</th><td>Basic Settings</td></tr><tr><th>Default</th><td>Depends on the type — see the table below</td></tr><tr><th>Available on</th><td>Checkbox, Radio button, Button, Dropdown, Color dropdown, Color swatch</td></tr></thead></table>
+<table><thead><tr><th width="180">Tab</th><th>Basic Settings</th></tr></thead><tbody><tr><td>Default</td><td>Depends on the option type — see below</td></tr><tr><td>Available on</td><td>Checkbox, Radio button, Button, Dropdown, Color dropdown, Color swatch</td></tr></tbody></table>
 
 The choices offered differ by type, because some types already imply a style:
 
@@ -21,76 +23,84 @@ The choices offered differ by type, because some types already imply a style:
 
 **What each choice does**
 
-<table><thead><tr><th width="180">Choice</th><th>Result</th><th>Values table gains</th></tr></thead><tbody><tr><td><strong>Default</strong></td><td>Text only, in the type's normal appearance</td><td>Nothing</td></tr><tr><td><strong>Color</strong></td><td>Each value shows a colour chip</td><td>A <strong>Color</strong> column, where you set one colour or two for a split swatch</td></tr><tr><td><strong>Image</strong></td><td>Each value shows a picture</td><td>An <strong>Image</strong> column, where you upload an image or reuse one of the product's own images</td></tr></tbody></table>
+<table><thead><tr><th width="180">Choice</th><th>Result</th><th>Values table gains</th></tr></thead><tbody><tr><td><strong>Default</strong></td><td>Text only, in the type's normal appearance</td><td>Nothing</td></tr><tr><td><strong>Color</strong></td><td>Each value shows a color chip</td><td>A <strong>Color</strong> column, where you set one color, or two for a split swatch</td></tr><tr><td><strong>Image</strong></td><td>Each value shows a picture</td><td>An <strong>Image</strong> column, where you upload an image or reuse one of the product's own images</td></tr></tbody></table>
 
-Changing the style changes the columns in the option values table, so set the style first and then fill in the values. See [Working with option values](../../option-sets/option-values.md).
+**How it behaves**
+
+* Set the style before filling in your values. Changing it afterwards changes which columns the values table has. See [Working with option values](../../option-sets/option-values.md).
+* The option type still controls the selection behavior. A **Checkbox** set to **Color** is a row of color swatches that allows multiple selections; a **Radio button** set to **Color** allows one.
 
 {% hint style="info" %}
-This means a **Checkbox** can look like a row of colour swatches, and a **Button** can look like a row of images. The type controls the selection behaviour; **Swatch style** controls the appearance. If a swatch layout is what you want from the start, use [Color swatch](../selection-types/color-swatch.md) or [Image swatch](../selection-types/image-swatch.md), which are built for it.
+If a swatch layout is what you want from the start, use [Color swatch](../selection-types/color-swatch.md) or [Image swatch](../selection-types/image-swatch.md) instead. They are built for it and offer the sizing and slider settings below, which Checkbox and Radio button do not.
 {% endhint %}
 
 ## Swatch image width and height
 
 The size each swatch image is displayed at.
 
-<table><thead><tr><th width="180">Tab</th><td>Advanced Settings</td></tr><tr><th>Default</th><td><code>60</code> px each</td></tr><tr><th>Available on</th><td>Image swatch</td></tr></thead></table>
+<table><thead><tr><th width="180">Tab</th><th>Advanced Settings</th></tr></thead><tbody><tr><td>Default</td><td><code>60</code> px each</td></tr><tr><td>Available on</td><td>Image swatch</td></tr></tbody></table>
 
 **How it behaves**
 
-* Values are in pixels and control display size, not the uploaded file.
-* Width and height are independent, so you can make swatches rectangular for non-square products — a fabric strip or a nameplate.
-* Larger swatches read better on mobile but push the **Add to cart** button further down the page. If you need many large swatches, pair them with a [slider or collapsible layout](collapsible-layouts-and-sliders.md).
+* Values are in pixels, and control display size only. The uploaded file is unchanged.
+* Width and height are independent, so swatches can be rectangular for non-square products such as a fabric strip or a nameplate.
+* Larger swatches read better on mobile, but push the **Add to cart** button further down the page.
 
-**Rough guidance**
+**Typical sizes**
 
-<table><thead><tr><th width="230">Situation</th><th>Size</th></tr></thead><tbody><tr><td>Colour or material chips</td><td><code>40</code>–<code>60</code></td></tr><tr><td>Pattern or print swatches where detail matters</td><td><code>80</code>–<code>120</code></td></tr><tr><td>Product photographs as choices</td><td><code>120</code>+, with a slider layout</td></tr><tr><td>Long lists, many values</td><td>Smaller, plus a <a href="#tooltip-style">tooltip</a> with a zoomed image</td></tr></tbody></table>
+<table><thead><tr><th width="230">Situation</th><th>Size</th></tr></thead><tbody><tr><td>Color or material chips</td><td><code>40</code>–<code>60</code></td></tr><tr><td>Patterns or prints where detail matters</td><td><code>80</code>–<code>120</code></td></tr><tr><td>Product photographs used as choices</td><td><code>120</code> or more, with a slider layout</td></tr><tr><td>Long lists with many values</td><td>Smaller, plus a tooltip that zooms</td></tr></tbody></table>
+
+For many large swatches, pair the size with a [slider or collapsible layout](collapsible-layouts-and-sliders.md) so the list stays compact.
 
 ## Tooltip style
 
-What the shopper sees when they hover a swatch.
+What the shopper sees when they hover over a swatch.
 
-<table><thead><tr><th width="180">Tab</th><td>Advanced Settings</td></tr><tr><th>Default</th><td><strong>Text</strong></td></tr><tr><th>Available on</th><td>Image swatch</td></tr></thead></table>
+<table><thead><tr><th width="180">Tab</th><th>Advanced Settings</th></tr></thead><tbody><tr><td>Default</td><td><strong>Text</strong></td></tr><tr><td>Available on</td><td>Image swatch</td></tr></tbody></table>
 
-<table><thead><tr><th width="200">Choice</th><th>Shows on hover</th></tr></thead><tbody><tr><td><strong>Text</strong></td><td>The value's name</td></tr><tr><td><strong>Text &amp; image</strong></td><td>The value's name plus a larger version of the swatch image</td></tr></tbody></table>
+<table><thead><tr><th width="200">Choice</th><th>Shows on hover</th></tr></thead><tbody><tr><td><strong>Text</strong></td><td>The value's name</td></tr><tr><td><strong>Text &#x26; image</strong></td><td>The value's name plus a larger version of the swatch image</td></tr></tbody></table>
 
-Choosing **Text & image** reveals two more settings, **Tooltip image width** and **Tooltip image height**, both `150` px by default. They control the size of the zoomed image only.
+**How it behaves**
 
-This pairing is the answer to "I want lots of choices *and* I want shoppers to see the detail": keep the swatches small so the list stays compact, and let the tooltip do the zooming.
+* **Text & image** reveals **Tooltip image width** and **Tooltip image height**, both `150` px by default. They size the zoomed image only, not the swatch.
+* Whether tooltips appear at all is also controlled store-wide by **Show tooltip when hovering over options** in **Settings > Settings > General**. See [Widget behavior](../../storefront/widget-behavior.md).
+
+**When to use it**
+
+Use **Text & image** when you need a long list of choices and shoppers still need to see detail: keep the swatches small so the list stays short, and let the tooltip do the zooming.
 
 {% hint style="warning" %}
-Hover does not exist on touch devices the way it does with a mouse. Do not rely on a tooltip to carry information a mobile shopper needs — put that in the value's own help text instead. See [Working with option values](../../option-sets/option-values.md).
+Hover does not exist on touch devices. Do not put information a mobile shopper needs into a tooltip — put it in the value's own help text instead. See [Working with option values](../../option-sets/option-values.md).
 {% endhint %}
-
-Whether swatch tooltips appear at all is also controlled store-wide by **Show tooltip when hovering over options** in **Settings > Settings > General**. See [Widget behavior](../../storefront/widget-behavior.md).
 
 ## Color preview
 
-Adds a live preview of the colour the shopper has chosen or entered.
+Shows a live preview of the color the shopper picked or entered.
 
-<table><thead><tr><th width="180">Tab</th><td>Advanced Settings</td></tr><tr><th>Default</th><td>Off</td></tr><tr><th>Available on</th><td>Color picker, Color dropdown, Color swatch</td></tr></thead></table>
+<table><thead><tr><th width="180">Tab</th><th>Advanced Settings</th></tr></thead><tbody><tr><td>Default</td><td>Off</td></tr><tr><td>Available on</td><td>Color picker, Color dropdown, Color swatch</td></tr></tbody></table>
 
-Turning it on reveals **Select text box**, where you choose which of the option set's other text options the preview applies to.
+**How it behaves**
 
-That combination is what makes "see your text in the colour you picked" work: the shopper picks a colour, and the text they typed elsewhere in the form is previewed in it. Use it for engraved or printed text where the ink colour is a separate choice.
+Turning it on reveals **Select text box**, where you choose one of the option set's text options. The text the shopper typed into that option is then previewed in the color they chose.
 
-For drawing the customer's text onto the product photo itself, use the [Personalizer](../../personalizer/README.md) rather than this setting.
+**When to use it**
+
+Engraved or printed text where the ink color is a separate choice. The shopper types their message in one option, picks a color in another, and sees the message in that color.
+
+For drawing the shopper's text onto the product photo itself, use the [Personalizer](../../personalizer/README.md) rather than this setting.
 
 ## Font preview
 
-Renders each font in the list in that font, so the shopper can see it before choosing.
+Renders each font in the list in that font.
 
-<table><thead><tr><th width="180">Tab</th><td>Advanced Settings</td></tr><tr><th>Default</th><td>Off</td></tr><tr><th>Available on</th><td>Font picker</td></tr></thead></table>
+<table><thead><tr><th width="180">Tab</th><th>Advanced Settings</th></tr></thead><tbody><tr><td>Default</td><td>Off</td></tr><tr><td>Available on</td><td>Font picker</td></tr></tbody></table>
 
-Turn it on for any font picker. A list of font names in a single typeface asks the shopper to imagine the result; a list where each name is drawn in its own font does not.
+**When to use it**
 
-The trade-off is that the browser loads each font in the list, so a picker with thirty fonts is slower to render. Keep the list to the fonts you can actually produce.
+Turn it on for any font picker. A list of font names in a single typeface asks the shopper to imagine the result; a list drawn in each font does not.
 
-See [Font picker](../selection-types/font-picker.md).
-
-<!-- SCREENSHOT: type-shared-swatch-style | App admin → builder → option Checkbox | Swatch style ở Basic Settings với 3 lựa chọn Default / Color / Image | Khoanh field Swatch style -->
+The trade-off is loading time: the browser loads every font in the list, so a picker with thirty fonts renders more slowly. Keep the list to fonts you can actually produce. See [Font picker](../selection-types/font-picker.md).
 
 <figure><img src="../../.gitbook/assets/placeholder.png" alt="The Swatch style setting on a Checkbox option offering Default, Color, and Image"><figcaption><p>Swatch style changes both the storefront appearance and the values table.</p></figcaption></figure>
-
-<!-- SCREENSHOT: type-shared-tooltip-zoom | Storefront → trang sản phẩm | Hover 1 image swatch, tooltip Text & image hiện ảnh phóng to | Khoanh tooltip -->
 
 <figure><img src="../../.gitbook/assets/placeholder.png" alt="An image swatch hovered on the storefront showing a zoomed tooltip image"><figcaption><p>Text &#x26; image tooltips let small swatches carry large detail.</p></figcaption></figure>

@@ -79,29 +79,29 @@ Open each imported option set and check its options, **Name** fields, add-on con
 
 ## Migrating from another app
 
-Same import as above, plus two rules that save you trouble:
+The import process is the same as above, with two additional recommendations:
 
-1. **Import without activating**, review, then activate.
-2. **Test one set on a real product before uninstalling the old app.** Uninstalling first makes any gap visible to shoppers.
+1. **Import without activating the option sets.** Review them first, then activate them when you're ready.
+2. **Test at least one imported set on a real product before uninstalling the old app.** Uninstalling the old app first can leave a gap that is immediately visible to shoppers.
 
-Expect some tidying, because different apps model options differently. Check these in particular:
+Some cleanup may be needed because different apps structure options differently. Pay particular attention to:
 
-<table><thead><tr><th width="220">Check</th><th>Why</th></tr></thead><tbody><tr><td>Add-on pricing</td><td>How the other app charged may not map exactly. Review every price and pick the right mode — see <a href="../add-on-pricing/">Add-on pricing</a></td></tr><tr><td>Conditional logic</td><td>Operators differ between apps, so rules may need rebuilding</td></tr><tr><td>Option <strong>Name</strong> fields</td><td>They must be readable and must not clash — see <a href="../option-types/shared-settings/labels-and-visibility.md">Label and Name</a></td></tr><tr><td>Product rules</td><td>Confirm each set targets what you expect</td></tr><tr><td>Swatch images</td><td>May need re-uploading if the old app hosted them itself</td></tr></tbody></table>
+<table><thead><tr><th width="220">Check</th><th>Why</th></tr></thead><tbody><tr><td>Add-on pricing</td><td>Pricing from the other app may not map exactly. Review each price and choose the appropriate pricing mode. See <a href="../add-on-pricing/">Add-on pricing</a></td></tr><tr><td>Conditional logic</td><td>Operators can differ between apps, so some conditions may need to be rebuilt.</td></tr><tr><td>Option <strong>Name</strong> fields</td><td>Make sure they are readable and unique. See <a href="../option-types/shared-settings/labels-and-visibility.md">Label and Name</a></td></tr><tr><td>Product rules</td><td>Confirm that each option set targets the products you expect.</td></tr><tr><td>Swatch images</td><td>You may need to upload them again if the previous app hosted the images itself.</td></tr></tbody></table>
 
 ## What travels, and what does not
 
-Exported option sets carry their own configuration only. Everything store-wide travels separately:
+Exported option sets contain their own configuration. Store-wide settings are handled separately:
 
 * Colours, borders, typography, custom CSS, widget position and behaviour — export from **Settings**. See [Import and export settings](../settings/import-export-settings.md).
 * Widget text and validation messages — **Settings > Translations**.
 * Automations — configured per store.
-* **Add-on products themselves.** The file records which product an add-on pointed at, but another store does not have that product. Reconnect add-ons after importing across stores.
+* **Add-on products** — the file records which product an add-on was linked to, but that product may not exist in the destination store. Reconnect add-ons after importing between stores.
 
 ## Notes
 
-* Imported sets are added, never merged or overwritten. Importing the same file twice gives you two copies.
-* Import respects your plan. A file containing features your plan does not allow is refused outright rather than partly applied.
-* Files from older versions of this app are still readable — the app recognises the older column layout by itself.
+* Imported option sets are added as new sets; existing sets are never merged or overwritten. Importing the same file twice creates two copies.
+* Import respects your plan limits and features. If the file contains features that your plan does not support, the import is rejected rather than partially applied.
+* Files exported from older versions of the app are still supported. The app automatically detects the older column format.
 
 <details>
 

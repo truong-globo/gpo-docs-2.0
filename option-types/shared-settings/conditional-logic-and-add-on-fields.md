@@ -1,19 +1,19 @@
 ---
 description: >-
-  The Conditional logic switch, the Price field, Advanced settings, and Set
-  quantity — the four fields that lead into the app's two biggest features.
+  The Conditional logic switch, Price field, Advanced settings, and Set quantity
+  — four settings that unlock the app’s two most powerful features.
 icon: link
 ---
 
 # Conditional logic and add-on fields
 
-Four settings appear on nearly every option and each opens a door to a larger feature. This page explains what the field is, where it sits, and where to read the rest.
+Four settings appear on nearly every option, and each opens the door to a larger feature. This page explains what each setting does, where to find it, and where to learn more.
 
 ## Conditional logic
 
-Turns on rules that show or hide this option depending on what the shopper has already chosen.
+Turns on rules that show or hide the option based on what the shopper has already selected.
 
-<table><thead><tr><th width="180">Tab</th><td>Basic Settings</td></tr><tr><th>Default</th><td>Off</td></tr><tr><th>Available on</th><td>All 32 option types, including <strong>Section</strong> and the visual statics</td></tr></thead></table>
+<table><thead><tr><th width="180">Tab</th><th>Basic Settings</th></tr></thead><tbody><tr><td>Default</td><td>Off</td></tr><tr><td>Available on</td><td>All 32 option types, including <strong>Section</strong> and the visual statics</td></tr></tbody></table>
 
 **What happens when you turn it on**
 
@@ -26,23 +26,22 @@ The source of a condition can be another option in the same option set, **or the
 **Two things worth knowing before you start**
 
 * The available operators depend on the type of the source option. A text source offers `contains` and character-count comparisons; a checkbox source offers selection-count comparisons; a switch source offers only `is enabled` and `is disabled`.
-* A hidden option is **not validated**. A required option currently hidden by a rule cannot block **Add to cart**. That is deliberate, but it means "required" only holds while the option is visible.
+* A hidden option is **not validated**. A required option currently hidden by a rule cannot block **Add to cart**.&#x20;
 
 **Putting the rule on a Section instead**
 
 **Section** supports conditional logic too, and a rule on a section shows or hides everything inside it at once. If you find yourself writing the same rule on six options, put it on the section around them instead.
 
-Full detail: [Conditional logic](../../conditional-logic/README.md), the [operators reference](../../conditional-logic/operators-reference.md), and [conditions based on Shopify variants](../../conditional-logic/conditions-on-shopify-variants.md).
-
-<!-- SCREENSHOT: type-shared-clo-field | App admin → builder → 1 option | Switch Conditional logic đã bật, rule builder hiện bên dưới | Khoanh switch và rule builder -->
-
-<figure><img src="../../.gitbook/assets/placeholder.png" alt="The conditional logic switch turned on with its rule builder underneath"><figcaption><p>Turning the switch on reveals the rule builder in place.</p></figcaption></figure>
+Full detail: [Conditional logic](../../conditional-logic/), the [operators reference](../../conditional-logic/operators-reference.md), and [conditions based on Shopify variants](../../conditional-logic/conditions-on-shopify-variants.md).
 
 ## Price
 
 Attaches an extra charge to the option.
 
-<table><thead><tr><th width="180">Tab</th><td>Basic Settings, under <strong>Add-on Settings</strong></td></tr><tr><th>Default</th><td>No add-on</td></tr><tr><th>Available on</th><td>At <strong>option</strong> level: Text, Textarea, Number, Switch, Color picker. At <strong>option value</strong> level, in the values table's <strong>Price</strong> column: all nine selection types with values. <strong>Dimension</strong> has its own price and formula fields</td></tr></thead></table>
+| Tab          | Basic Settings, under **Add-on Settings**                                                                                                                                                                                      |
+| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Default      | No add-on                                                                                                                                                                                                                      |
+| Available on | At **option** level: Text, Textarea, Number, Switch, Color picker. At **option value** level, in the values table's **Price** column: all nine selection types with values. **Dimension** has its own price and formula fields |
 
 {% hint style="info" %}
 Where the price lives follows the shape of the option. An input option has one answer, so one price. A selection option has several choices that usually cost different amounts, so the price belongs to each value. See [Where you can set add-ons](../../add-on-pricing/where-you-can-set-add-ons.md).
@@ -56,13 +55,13 @@ Selecting the field opens a dialog with three tabs — three genuinely different
 
 Once a value is linked to a product, a **Product** column appears in the values table with a link to open that product in Shopify admin.
 
-Full detail: [Add-on pricing](../../add-on-pricing/README.md).
+Full detail: [Add-on pricing](../../add-on-pricing/).
 
 ## Advanced settings
 
 How the add-on charge scales with the main product's quantity.
 
-<table><thead><tr><th width="180">Tab</th><td>Advanced Settings</td></tr><tr><th>Default</th><td><strong>Default</strong></td></tr><tr><th>Available on</th><td>Every type that can carry an add-on</td></tr></thead></table>
+<table><thead><tr><th width="180">Tab</th><th>Advanced Settings</th></tr></thead><tbody><tr><td>Default</td><td><strong>Default</strong></td></tr><tr><td>Available on</td><td>Every type that can carry an add-on</td></tr></tbody></table>
 
 {% hint style="warning" %}
 This dropdown only does something when the option actually has a charge. On an option with no add-on it changes nothing.
@@ -76,14 +75,12 @@ Each mode is explained with a worked calculation in [Advanced add-on modes](../.
 
 The number used by two of the modes above.
 
-<table><thead><tr><th width="180">Tab</th><td>Advanced Settings</td></tr><tr><th>Default</th><td>Empty</td></tr><tr><th>Available on</th><td>Appears only when <strong>Advanced settings</strong> is <strong>Fixed quantity</strong> or <strong>Dynamic quantity</strong></td></tr></thead></table>
+<table><thead><tr><th width="180">Tab</th><th>Advanced Settings</th></tr></thead><tbody><tr><td>Default</td><td>Empty</td></tr><tr><td>Available on</td><td>Appears only when <strong>Advanced settings</strong> is <strong>Fixed quantity</strong> or <strong>Dynamic quantity</strong></td></tr></tbody></table>
 
 * With **Fixed quantity**, this is the exact number of add-ons added, whatever the main quantity.
 * With **Dynamic quantity**, this is multiplied by the main product's quantity.
 
 For example, a gift box that always includes four ribbons: **Fixed quantity**, **Set quantity** `4`. The same value with **Dynamic quantity** on an order of three boxes gives twelve ribbons.
-
-<!-- SCREENSHOT: type-shared-addon-fields | App admin → builder → option Text | Add-on Settings với field Price và dropdown Advanced settings; nếu chọn Fixed quantity thì hiện Set quantity | Khoanh nhóm Add-on Settings -->
 
 <figure><img src="../../.gitbook/assets/placeholder.png" alt="The Add-on Settings group with the Price field and the Advanced settings dropdown"><figcaption><p>Price sets the amount; Advanced settings decides how it scales.</p></figcaption></figure>
 

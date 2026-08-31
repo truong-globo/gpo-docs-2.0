@@ -45,12 +45,10 @@ Off by default. Displays a preview of the color the customer selected or entered
 
 When enabled, the **Select text box** setting appears. Use it to select a text option in the same option set. The text the customer enters there is previewed in the selected color.
 
-To draw the customer's text onto the product image, use the [Personalizer](../../personalizer/README.md) instead.
+To draw the customer's text onto the product image, use the [Personalizer](../../personalizer/) instead.
 
 ## Font preview
 
 Off by default. Displays each font name in its own font, so customers can see the font before selecting it.
 
 The browser loads every font in the list, so a long list takes longer to display.
-
-<figure><img src="../../.gitbook/assets/placeholder.png" alt="Swatch style setting on a Checkbox option"><figcaption><p>Swatch style options for a Checkbox option.</p></figcaption></figure>

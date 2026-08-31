@@ -9,6 +9,8 @@ icon: comment-dots
 
 Together, these settings do much of the work of helping shoppers enter the right information. A clear placeholder and a short line of help text can prevent more confusion — and support requests — than a validation rule alone.
 
+<figure><img src="../../.gitbook/assets/2026-08-31_10-05-10 (1).png" alt=""><figcaption></figcaption></figure>
+
 ## Placeholder
 
 Grey text shown inside an empty field. It disappears as soon as the customer starts typing.

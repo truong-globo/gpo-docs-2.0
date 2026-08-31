@@ -1,15 +1,15 @@
 ---
 description: >-
-  Label, Name, and Hidden label — the three settings that control what an option
-  is called and whether shoppers see that name.
+  Label, Name, and Hidden label — the three settings that control how an option
+  is identified and whether its label is visible to shoppers.
 icon: tag
 ---
 
 # Labels and visibility
 
-Every option that collects something from the customer has a **Label** and a **Name**, and most also offer **Hidden label**. These three decide what an option is called on the product page and on the order.
+Every option that collects customer input has a **Label** and a **Name**, and most also offer **Hidden label**. Together, these settings determine what shoppers see on the product page and what is stored with the order.
 
-They are the most common source of confusion in the app, so start with the difference:
+They are one of the most common sources of confusion in the app, so start with the key difference:
 
 <table><thead><tr><th width="150"></th><th width="290">Label</th><th>Name</th></tr></thead><tbody><tr><td>Who reads it</td><td>The shopper, on the product page</td><td>You and your team — and the shopper, once the item is in their cart</td></tr><tr><td>Where it appears</td><td>Above the option field in the widget</td><td>Cart page, checkout, order details in Shopify admin, order emails, invoices, packing slips</td></tr><tr><td>Required</td><td>Yes</td><td>Yes</td></tr><tr><td>Must be unique</td><td>No</td><td><strong>Yes</strong>, within the option set</td></tr><tr><td>Restricted characters</td><td>No</td><td><strong>Yes</strong></td></tr><tr><td>Can be hidden</td><td>Yes, with <strong>Hidden label</strong></td><td>No — it always travels with the order</td></tr><tr><td>Translatable per language</td><td>Yes</td><td>No</td></tr></tbody></table>
 
@@ -17,7 +17,7 @@ They are the most common source of confusion in the app, so start with the diffe
 
 The text shown above the option field on your product page.
 
-<table><thead><tr><th width="180">Tab</th><td>Basic Settings</td></tr><tr><th>Default</th><td>The option type's name — for example a new Text option starts with the label <code>Text</code></td></tr><tr><th>Available on</th><td>All types except the purely visual statics, which use their own content fields instead: Divider, Spacing, Heading, Paragraph, HTML, Pop-up modal, Size chart, Tabs</td></tr></thead></table>
+<table><thead><tr><th width="180">Tab</th><th>Basic Settings</th></tr></thead><tbody><tr><td>Default</td><td>The option type's name — for example a new Text option starts with the label <code>Text</code></td></tr><tr><td>Available on</td><td>All types except the purely visual statics, which use their own content fields instead: Divider, Spacing, Heading, Paragraph, HTML, Pop-up modal, Size chart, Tabs</td></tr></tbody></table>
 
 **How it behaves**
 
@@ -37,38 +37,38 @@ Say what you want, not what the field is. Put the constraint in [Help text](plac
 
 The internal name of the option. It appears on the cart page, at checkout, on the order in your Shopify admin, and in order emails, invoices, and packing slips.
 
-<table><thead><tr><th width="180">Tab</th><td>Basic Settings</td></tr><tr><th>Default</th><td>The option type's internal identifier — <code>text</code>, <code>checkbox</code>, <code>select</code>, and so on</td></tr><tr><th>Available on</th><td>All types that collect input. Not on <strong>Section</strong> or the visual statics, which never reach the order</td></tr></thead></table>
+<table><thead><tr><th width="180">Tab</th><th>Basic Settings</th></tr></thead><tbody><tr><td>Default</td><td>The option type's internal identifier — <code>text</code>, <code>checkbox</code>, <code>select</code>, and so on</td></tr><tr><td>Available on</td><td>All types that collect input. Not on <strong>Section</strong> or the visual statics, which never reach the order</td></tr></tbody></table>
 
 {% hint style="warning" %}
 Name has three rules:
 
-* it cannot be empty
-* it must be **unique within the option set** — the check ignores capitalisation and surrounding spaces
-* it cannot contain `.` `:` `"` `'` `\` `|`
+* It cannot be empty
+* It must be **unique within the option set**. The uniqueness check ignores capitalization and leading or trailing spaces.
+* It cannot contain `.` `:` `"` `'` `\` `|`
 {% endhint %}
 
 **How it behaves**
 
-* Not translatable, deliberately. Your team sees one consistent name whatever language the shopper used.
-* Renamed automatically when you duplicate an option or import options whose names clash — the copy gets the type plus a number, such as `text-2`. Conditional logic rules pointing at a renamed option are repointed for you.
-* Used by other features to identify the option: the dynamic order-tag workflow, order note templates, and the `option_name` column in CSV export.
+* **Not translatable, deliberately.** Your team sees the same consistent name regardless of the language the shopper uses.
+* **Renamed automatically when needed.** If you duplicate an option or import options with duplicate names, the copy is automatically renamed using the option type and a number, such as `text-2`. Conditional logic rules that reference the renamed option are updated automatically.
+* **Used by other features to identify the option.** This includes the dynamic order-tag workflow, order note templates, and the `option_name` column in CSV exports.
 
 **Practical advice**
 
-Change it from the default before you go live. An order line reading `text: Forever yours` is accurate and useless; `Engraving text: Forever yours` is obvious to whoever is packing the box.
+Change the default **Name** before you go live. An order line such as `text: Forever yours` tells you what was entered but not what the field means. `Engraving text: Forever yours` is much clearer for the person packing the order.
 
-The simplest approach is to make Name the same as Label. Diverge when:
+The simplest approach is to make **Name** the same as **Label**. Use a different name when:
 
-* The Label is long or decorated for the storefront (`Add an engraving ✨ (optional)`) but you want a clean order line (`Engraving text`).
-* The Label uses a character Name does not allow — an apostrophe or a colon.
-* Two options share a Label on the page but must be told apart on the order: `Colour` in two sections, named `Front colour` and `Back colour`.
-* Your storefront is translated. The Label is translated per language; the Name stays in one language so your team always reads the same thing.
+* The **Label** is long or styled for the storefront, such as `Add an engraving ✨ (optional)`, but you want a clean order line such as `Engraving text`.
+* The **Label** contains a character that **Name** does not allow, such as an apostrophe or colon.
+* Two options have the same **Label** but need different names in the order, such as `Colour` in two sections named `Front colour` and `Back colour`.
+* Your storefront supports multiple languages. The **Label** can be translated per language, while **Name** stays in one language so your team always sees the same name.
 
 ## Hidden label
 
-Hides the option's Label on the product page. The option still works, and its Name still reaches the order.
+**Hidden label** hides the option’s **Label** on the product page. The option still works, and its **Name** is still included with the order.
 
-<table><thead><tr><th width="180">Tab</th><td>Basic Settings</td></tr><tr><th>Default</th><td>Off</td></tr><tr><th>Available on</th><td>22 types — every input and selection type except <strong>Hidden field</strong>, which has no visible label anyway</td></tr></thead></table>
+<table><thead><tr><th width="180">Tab</th><th>Basic Settings</th></tr></thead><tbody><tr><td>Default</td><td>Off</td></tr><tr><td>Available on</td><td>22 types — all input and selection types except <strong>Hidden field</strong>, which has no visible label.</td></tr></tbody></table>
 
 **When to use it**
 
@@ -87,6 +87,4 @@ Hides the option's Label on the product page. The option still works, and its Na
 Hiding the label does not hide the option. To take an option off the storefront while keeping it configured, use the **Hide** action on the option instead — see [Build your options](../../option-sets/build-options.md).
 {% endhint %}
 
-<!-- SCREENSHOT: type-shared-label-name | App admin → builder → 1 option Text | Basic Settings: Label, Name, Required field, Hidden label | Khoanh 4 field -->
-
-<figure><img src="../../.gitbook/assets/placeholder.png" alt="An option's Basic Settings showing Label, Name, Required field, and Hidden label"><figcaption><p>Label, Name, and Hidden label sit together at the top of Basic Settings.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2026-08-31_10-05-10.png" alt="An option&#x27;s Basic Settings showing Label, Name, Required field, and Hidden label"><figcaption><p>Label, Name, and Hidden label sit together at the top of Basic Settings.</p></figcaption></figure>

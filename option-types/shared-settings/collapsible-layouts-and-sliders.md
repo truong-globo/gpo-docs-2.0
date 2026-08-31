@@ -15,6 +15,8 @@ These settings are available under **Advanced Settings**. Turn on **Enable custo
 
 Off by default. When disabled, all option values are displayed in the default layout. When enabled, you can select a **Layout type**.
 
+<figure><img src="../../.gitbook/assets/2026-08-31_15-58-53.png" alt="Slider settings for an Image swatch option"><figcaption></figcaption></figure>
+
 ## Layout type
 
 Sets how the option values are displayed.
@@ -44,5 +46,3 @@ Available when **Layout type** is **Slider**. Availability may depend on your pl
 {% hint style="info" %}
 We recommend enabling **Show navigation arrows** or **Show indicators** so customers can see that more option values are available.
 {% endhint %}
-
-<figure><img src="../../.gitbook/assets/placeholder.png" alt="Slider settings for an Image swatch option"><figcaption><p>Slider settings are displayed when Layout type is set to Slider.</p></figcaption></figure>

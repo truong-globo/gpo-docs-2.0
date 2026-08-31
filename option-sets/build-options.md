@@ -18,7 +18,7 @@ Everything on this page happens in the **Setup flow** > **Build option**. It is 
 
 Select the **Add option** button inside a section. You will see two tabs — **Option Types** for all 32 types, grouped into **Input**, **Selection**, and **Static**; and **Option Templates** for a saved group of options inserted in one go.
 
-<figure><img src="../.gitbook/assets/2026-08-27_14-52-56 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-08-27_14-52-56.png" alt=""><figcaption></figcaption></figure>
 
 Two shortcuts are worth knowing:
 
@@ -109,7 +109,5 @@ The builder validates as you type and blocks **Save** until the problems are fix
 If your storefront supports multiple languages, use the language switcher in the builder header to enter translated **labels**, **values**, and **help text** for each language. Select a language, edit the text, then switch to another language as needed.
 
 **Name** is intentionally not translatable so your order data stays consistent across languages. See [Translate option content](../translations/translate-option-content.md).
-
-
 
 <figure><img src="../.gitbook/assets/2026-08-27_15-42-27.png" alt=""><figcaption></figcaption></figure>

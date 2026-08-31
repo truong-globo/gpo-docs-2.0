@@ -1,25 +1,19 @@
 ---
 description: >-
-  All 32 option types, grouped into three families, with what each one is for and
-  where it is supported.
+  All 32 option types, grouped into three families, with what each type is used
+  for and where it’s supported.
 icon: shapes
 ---
 
 # Overview
 
-An option's **type** decides what the customer does with it — type into it, choose from it, or just read it — and which settings it offers.
+An option’s **type** determines what customers do with it — enter text, make a selection, or simply read it — and which settings are available.
 
-There are 32 types in three families.
+There are 32 option types across three families.
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Input types</strong> · 12</td><td>The customer enters something: text, a number, a date, a file, a colour.</td><td><a href="input-types/README.md">input-types</a></td></tr><tr><td><strong>Selection types</strong> · 11</td><td>The customer chooses from a list you define: dropdowns, buttons, swatches.</td><td><a href="selection-types/README.md">selection-types</a></td></tr><tr><td><strong>Static types</strong> · 9</td><td>Nothing is collected. They organise, explain, or decorate the form.</td><td><a href="static-types/README.md">static-types</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Input types</strong> · 12</td><td>Let customers enter their own information, such as text, a number, a date, a file, or a color.</td><td><a href="input-types/">input-types</a></td></tr><tr><td><strong>Selection types</strong> · 11</td><td>Let customers choose from a list of options you define, such as dropdowns, buttons, checkboxes, or swatches.</td><td><a href="selection-types/">selection-types</a></td></tr><tr><td><strong>Static types</strong> · 9</td><td>Don’t collect any customer input. They are used to organize, explain, or decorate your form.</td><td><a href="static-types/">static-types</a></td></tr></tbody></table>
 
-If you are not sure which to reach for, start with [Choose the right option type](choose-the-right-type.md).
-
-## The full list
-
-{% hint style="info" %}
-The **Plan** column reflects the current plans. The **Pricing** page inside the app is always the authoritative list for your store — see [Compare plans](../plans/compare-plans.md).
-{% endhint %}
+If you are not sure which to use, start with [Choose the right option type](choose-the-right-type.md).
 
 ### Input types
 
@@ -39,9 +33,9 @@ Whatever the type, the settings panel is organised the same way:
 
 <table><thead><tr><th width="240">Tab</th><th>Contains</th></tr></thead><tbody><tr><td><strong>Basic Settings</strong></td><td>Label, Name, Required field, option values, limits, help text, and the add-on <strong>Price</strong> field.</td></tr><tr><td><strong>Advanced Settings</strong></td><td>Layout, column width, prefixes, out-of-stock handling, slider settings, HTML class, and the add-on <strong>Advanced settings</strong> dropdown.</td></tr><tr><td><strong>Personalizer Settings</strong></td><td>On the 12 types that support it — see the tables above.</td></tr></tbody></table>
 
-Every setting that appears on more than one type is documented once in [Shared settings](shared-settings/README.md). The individual type pages tell you which settings that type has, and explain only what is genuinely specific to it.
+Every setting that appears on more than one type is documented once in [Shared settings](shared-settings/). The individual type pages tell you which settings that type has, and explain only what is genuinely specific to it.
 
-**Conditional logic** is available on all 32 types, including the static ones — so you can show a whole [Section](static-types/section.md), a size chart, or a warning paragraph only under certain conditions. See [Conditional logic](../conditional-logic/README.md).
+**Conditional logic** is available on all 32 types, including the static ones — so you can show a whole [Section](static-types/section.md), a size chart, or a warning paragraph only under certain conditions. See [Conditional logic](../conditional-logic/).
 
 ## Two things to check before choosing
 

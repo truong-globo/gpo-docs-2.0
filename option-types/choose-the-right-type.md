@@ -1,13 +1,13 @@
 ---
 description: >-
-  A decision table — start from what you are asking the customer for and end at
-  the option type to use.
+  A decision table that starts with what you want to ask customers for and
+  guides you to the right option type.
 icon: circle-question
 ---
 
 # Choose the right option type
 
-Thirty-two types is a lot to hold in your head. This page works backwards: find what you are trying to ask for, and it tells you which type to use.
+Thirty-two types is a lot to keep in your head. This page works backwards: start with what you want to ask customers for, and it tells you which option type to use.
 
 ## By what you are asking for
 
@@ -21,41 +21,43 @@ Thirty-two types is a lot to hold in your head. This page works backwards: find 
 
 ### Text or Textarea?
 
-**Text** is one line; **Textarea** is several. Otherwise they are almost identical, including add-on pricing and the Personalizer. Use Text for names and engravings — the single line discourages people from writing an essay you cannot fit. Use Textarea for gift messages and instructions.
+**Text** is a single line, while **Textarea** supports multiple lines. Otherwise, they work almost the same, including add-on pricing and Personalizer support.
 
-One difference in the Personalizer: Textarea offers **Text alignment**, **Width**, and **Height** because it can be a block of text; Text offers **Curve** and **Auto-fit max width** because it is a single line.
+Use **Text** for names, short messages, and engravings. The single-line format keeps the input concise. Use **Textarea** for gift messages, instructions, and other longer text.
+
+There is one difference in the Personalizer settings. **Textarea** offers **Text alignment**, **Width**, and **Height** because it can contain multiple lines. **Text** offers **Curve** and **Auto-fit max width** because it is designed for a single line.
 
 ### Select or Dropdown?
 
 <table><thead><tr><th width="230"></th><th width="230">Select</th><th>Dropdown</th></tr></thead><tbody><tr><td>Appearance</td><td>The browser's native dropdown</td><td>Styled by the app, matching your design settings</td></tr><tr><td>Search</td><td>No</td><td>Yes</td></tr><tr><td>Colour or image per entry</td><td>No</td><td>Yes</td></tr><tr><td>Min and max selections</td><td>No</td><td>Yes</td></tr><tr><td>Out-of-stock display</td><td>No</td><td>Yes</td></tr><tr><td>Personalizer</td><td>No</td><td>Yes</td></tr></tbody></table>
 
-**Select** is the plain, dependable choice — it uses the device's own picker, which mobile shoppers know well. **Dropdown** is the one to use for anything richer.
+**Select** is the simple, dependable choice — it uses the device’s native picker, which mobile shoppers are already familiar with. **Dropdown** is better when you need a richer or more customizable selection experience.
 
 ### Radio button, Button, or Color swatch?
 
-All three let the customer choose one of several, and all three support **Swatch style** so they can show colours or images. The difference is presentation:
+All three let customers choose one value from a list, and all three support **Swatch style** for displaying colors or images. The main difference is how the choices are presented:
 
-* **Radio button** — a vertical list. Best when values have long names or per-value help text.
-* **Button** — a row of tappable buttons. Best for short values like sizes.
-* **Color swatch** / **Image swatch** — a grid. Best when the choice is visual, and the only two that support slider layouts.
+* **Radio button** — a vertical list. Best for longer value names or when you use per-value help text.
+* **Button** — a row of tappable buttons. Best for short values such as sizes.
+* **Color swatch** / **Image swatch** — a grid of visual choices. These are the only two that support slider layouts.
 
 ### Switch or Checkbox?
 
-A **Switch** is one yes-or-no with its own label — "Add gift wrap". A **Checkbox** is a list, which happens to work fine with one entry. Use Switch for a single toggle, Checkbox as soon as there are two or more things to tick.
+A **Switch** is a single yes-or-no choice with its own label, such as “Add gift wrap.” A **Checkbox** is a list of choices and also works when there is only one. Use **Switch** for a single toggle and **Checkbox** when customers need to choose from two or more items.
 
 ### Number, Range slider, or Dimension?
 
-* **Number** — a typed number. Precise, and the shopper can enter any value in range.
-* **Range slider** — dragged. Good for approximate choices, bad for precise ones.
-* **Dimension** — two or three measurements with their own units, and its own pricing formula. Use it for made-to-measure products.
+* **Number** — a typed number. Best when precision matters and customers can enter any value within the allowed range.
+* **Range slider** — a draggable value. Good for approximate choices, but less suitable when customers need to enter a precise value.
+* **Dimension** — two or three measurements with their own units and pricing formula. Use it for made-to-measure products.
 
 ### Color picker or Color swatch?
 
-**Color picker** lets the shopper choose *any* colour, from the whole spectrum. **Color swatch** lets them choose from *your* colours. If you can only produce twelve colours, use swatches — a picker invites requests you cannot fulfil.
+**Color picker** lets customers choose any color from the full spectrum. **Color swatch** lets them choose from a predefined set of colors. If you can only produce a limited selection of colors, use swatches — a picker may encourage customers to request colors you cannot provide.
 
 ### File upload or the Personalizer?
 
-They work together rather than competing. **File upload** collects the file. Turning on **Personalizer Settings** on that same option additionally draws the uploaded image onto the product photo, live. See [Product Personalizer](../personalizer/README.md).
+These features work together rather than as alternatives. **File upload** collects the customer’s file. Enabling **Personalizer Settings** on the same option also displays the uploaded image on the product photo as a live preview. See [Product Personalizer](../personalizer/).
 
 ## By what you need it to do
 
@@ -63,4 +65,4 @@ They work together rather than competing. **File upload** collects the file. Tur
 
 ## A rule of thumb
 
-Fewer, simpler options sell better than more, cleverer ones. Before adding a type, ask whether the answer changes what you make or ship. If it does not, leave it out — and if it only matters sometimes, put it behind [conditional logic](../conditional-logic/README.md) so most shoppers never see it.
+Fewer, simpler options are usually better than more, complicated ones. Before adding an option type, ask yourself whether the customer’s answer changes what you make or ship. If it doesn’t, leave it out. If it only matters in certain cases, put it behind [conditional logic](../conditional-logic/) so most shoppers never have to see it.

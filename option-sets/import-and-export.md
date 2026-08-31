@@ -37,10 +37,10 @@ Your browser downloads `OptionsExport.csv`.
 {% endstep %}
 {% endstepper %}
 
-<figure><img src="../.gitbook/assets/placeholder.png" alt="The export dialog with scope choices and the CSV format option"><figcaption><p>Export the current page, everything, or just your selection.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-08-31_09-03-43.png" alt="The export dialog with scope choices and the CSV format option"><figcaption><p>Export the current page, everything, or just your selection.</p></figcaption></figure>
 
 {% hint style="info" %}
-Export before any change you are unsure about. The file costs nothing to produce, and it is the only way to get an option set back after it is deleted.
+Export your option sets before making any changes you are unsure about. The exported file serves as a backup and is the only way to restore an option set after it has been deleted.
 {% endhint %}
 
 ## Import
@@ -49,33 +49,33 @@ Export before any change you are unsure about. The file costs nothing to produce
 {% step %}
 ### Select Import option sets and add your file
 
-Drop it into the drop zone or browse for it. Accepted: `.csv`, `.txt`, `.xlsx`, `.xls`, up to 10 MB.
+Select **Import option sets**, then upload your file by dragging it into the drop zone or browsing your device.
 
-Building a file by hand? The dialog links to a **sample CSV template** — start from that rather than inventing the layout.
+Supported file formats: `.csv`, `.txt`, `.xlsx`, and `.xls`. The maximum file size is 10 MB.
+
+Creating a file manually? Use the **sample CSV template** provided in the dialog instead of creating the file structure from scratch.
 {% endstep %}
 
 {% step %}
-### Say which app the file came from
+### Select the source app
 
-**Select app for import** tells the app how to read your columns. It defaults to **Globo Product Options, Variant**, and also reads files from **Easify**, **Avis**, **OPTIS**, **Qikify**, **Hulk**, and **APO**.
+**Select app for import** tells the app how to interpret the columns in your file. It defaults to **Globo Product Options, Variant** and also supports files from **Easify**, **Avis**, **OPTIS**, **Qikify**, **Hulk**, and **APO**.
 
-Getting this wrong is the most common cause of a failed or scrambled import.
+Selecting the wrong app is the most common cause of import errors or incorrectly mapped data.
 {% endstep %}
 
 {% step %}
 ### Leave "Set all imported option sets as Active" off
 
-Imports then land as **Draft**, so you can review them before shoppers see them. Tick it only when you are certain.
+By default, imported option sets are saved as **Draft**, so you can review them before they become visible to shoppers. Enable this option only when you are sure the imported sets are ready to go live.
 {% endstep %}
 
 {% step %}
-### Select Upload and continue, then review what arrived
+### Select Upload and continue, then review the imported sets
 
-Open each imported set and check its options, its **Name** fields, its add-on configuration, and its product rule.
+Open each imported option set and check its options, **Name** fields, add-on configuration, and product rules.
 {% endstep %}
 {% endstepper %}
-
-<figure><img src="../.gitbook/assets/placeholder.png" alt="The import dialog with the drop zone, the app selector, and the set as active checkbox"><figcaption><p>Telling the app which file format you have is the step people skip.</p></figcaption></figure>
 
 ## Migrating from another app
 

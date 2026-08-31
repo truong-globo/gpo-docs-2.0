@@ -55,4 +55,4 @@ Before using custom CSS, check whether a setting already covers your requirement
 
 For more information, see [Custom CSS](../../storefront/custom-css.md).
 
-<figure><img src="../../.gitbook/assets/placeholder.png" alt="Direction style, Column width, and HTML class settings"><figcaption><p>Direction style, Column width, and HTML class under Advanced Settings.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2026-08-31_16-06-59.png" alt="Direction style, Column width, and HTML class settings"><figcaption><p>Direction style, Column width, and HTML class under Advanced Settings.</p></figcaption></figure>

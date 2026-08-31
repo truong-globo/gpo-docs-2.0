@@ -41,4 +41,4 @@ The Section and Size chart option types have their own icon setting, which is se
 * Prefix and suffix text is not saved to the order. If your production team needs the unit, add it to the option's **Name**, for example `Width (cm)`.
 * Prefix and suffix do not validate input. Use [Limits](limits.md) and [Text input rules](text-input-rules.md) to control what customers can enter.
 
-<figure><img src="../../.gitbook/assets/placeholder.png" alt="Prefix and Suffix settings on a Number option"><figcaption><p>Prefix, Prefix icon, and Suffix under Advanced Settings.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2026-08-31_16-09-19.png" alt="Prefix and Suffix settings on a Number option"><figcaption><p>Prefix, Prefix icon, and Suffix under Advanced Settings.</p></figcaption></figure>

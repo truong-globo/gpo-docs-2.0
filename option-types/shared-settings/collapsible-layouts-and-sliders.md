@@ -1,76 +1,152 @@
 ---
 description: >-
-  Enable custom layout, Layout type, the scrolling settings, and the slider
-  settings — how to fit a long list of choices into a small space.
+  Configure custom layouts, scrolling, and sliders to display long lists of
+  option values in a smaller space.
 icon: layer-group
 ---
 
 # Collapsible layouts and sliders
 
-Six swatches in a row are fine. Sixty push your **Add to cart** button off the screen. These settings collapse a long list, give it its own scrollbar, or turn it into a slider.
+Use custom layouts to control how option values are displayed. You can collapse long lists, add scrolling, or display values in a slider.
 
-All of them are on **Advanced Settings**, and all of them stay hidden until you turn on **Enable custom layout**.
+These settings are available under **Advanced Settings**. Turn on **Enable custom layout** to access them.
 
 ## Enable custom layout
 
-The switch that reveals everything else on this page.
+**Enable custom layout** lets you change how the option values are displayed.
 
-<table><thead><tr><th width="180">Tab</th><th>Advanced Settings</th></tr></thead><tbody><tr><td>Default</td><td>Off — the option renders as a plain list</td></tr><tr><td>Available on</td><td>Checkbox, Radio button, Button, Color swatch, Image swatch</td></tr></tbody></table>
+<table><thead><tr><th width="290">Setting</th><th>Details</th></tr></thead><tbody><tr><td><strong>Default</strong></td><td>Off</td></tr><tr><td><strong>Available on</strong></td><td>Checkbox, Radio button, Button, Color swatch, Image swatch</td></tr></tbody></table>
 
-With it off, the option lists every value in the normal way. With it on, you choose a **Layout type**, and that choice decides which further settings appear.
+When disabled, all option values are displayed in the default layout.
+
+When enabled, you can select a **Layout type**.
 
 ## Layout type
 
-How the list is presented.
+Select how the option values should be displayed.
 
-<table><thead><tr><th width="180">Tab</th><th>Advanced Settings</th></tr></thead><tbody><tr><td>Default</td><td><strong>Expand</strong></td></tr><tr><td>Available on</td><td>Checkbox and Radio button offer <strong>Expand</strong> and <strong>Collapse</strong>. Button, Color swatch, and Image swatch also offer <strong>Slider</strong></td></tr></tbody></table>
+<table><thead><tr><th width="290">Option type</th><th>Available layouts</th></tr></thead><tbody><tr><td>Checkbox</td><td>Expand, Collapse</td></tr><tr><td>Radio button</td><td>Expand, Collapse</td></tr><tr><td>Button</td><td>Expand, Collapse, Slider</td></tr><tr><td>Color swatch</td><td>Expand, Collapse, Slider</td></tr><tr><td>Image swatch</td><td>Expand, Collapse, Slider</td></tr></tbody></table>
 
-<table><thead><tr><th width="180">Choice</th><th>Behavior</th><th>Use when</th></tr></thead><tbody><tr><td><strong>Expand</strong></td><td>A collapsible group that starts open. The shopper can fold it away</td><td>The choice matters to most shoppers, but you want them able to tidy it up</td></tr><tr><td><strong>Collapse</strong></td><td>A collapsible group that starts closed. The shopper opens it if they want it</td><td>An optional or advanced choice most shoppers skip</td></tr><tr><td><strong>Slider</strong></td><td>A horizontal carousel showing a few values at a time</td><td>Many visual choices, where scrolling a large grid feels clumsy</td></tr></tbody></table>
+**Expand**
+
+The option values are displayed in an expanded list by default. Customers can collapse the list.
+
+Use **Expand** when customers are likely to use the option but you still want to let them hide the list.
+
+**Collapse**
+
+The option values are hidden by default. Customers can click to expand the list.
+
+Use **Collapse** for optional or less frequently used options.
 
 {% hint style="warning" %}
-**Collapse** hides the choice behind a click. Do not use it for a **required** option, or for a choice that changes the price. Shoppers do not open sections they see no reason to open, and then they hit a validation error they do not understand.
+Avoid using **Collapse** for required options. Customers may not open the collapsed option and can miss a required selection.
 {% endhint %}
+
+**Slider**
+
+The option values are displayed in a horizontal slider. Customers can use the navigation controls or swipe to view additional values.
+
+**Slider** is available for Button, Color swatch, and Image swatch options.
+
+Use it when an option contains many visual values and displaying all of them would make the page too long.
 
 ## Scrolling
 
-With **Expand** or **Collapse** selected, you can give the list its own scroll area so it never grows beyond a set size.
+When using **Expand** or **Collapse**, you can add a scroll area to limit the height of the option values.
 
-<table><thead><tr><th width="180">Tab</th><th>Advanced Settings</th></tr></thead><tbody><tr><td>Default</td><td><strong>Default</strong> — no scroll area</td></tr><tr><td>Available on</td><td>Checkbox, Radio button, Button, Color swatch, Image swatch — with <strong>Expand</strong> or <strong>Collapse</strong> selected</td></tr></tbody></table>
+<table><thead><tr><th width="290">Setting</th><th>Details</th></tr></thead><tbody><tr><td><strong>Default</strong></td><td>Displays all values without scrolling</td></tr><tr><td><strong>By fixed height</strong></td><td>Sets a fixed height in pixels</td></tr><tr><td><strong>By number of option values</strong></td><td>Displays a specified number of values before scrolling</td></tr></tbody></table>
 
-**Scroll type**
+**By fixed height**
 
-<table><thead><tr><th width="290">Choice</th><th>Behavior</th></tr></thead><tbody><tr><td><strong>Default</strong></td><td>No scroll area. The list is as tall as it needs to be</td></tr><tr><td><strong>By fixed height</strong></td><td>The list gets a fixed height in pixels and scrolls inside it. Reveals <strong>Scroll height</strong></td></tr><tr><td><strong>By number of option values</strong></td><td>The list shows a set number of values and scrolls for the rest. Reveals <strong>Number of option values</strong></td></tr></tbody></table>
+Sets a fixed height for the option list. Customers can scroll inside the list when there are more values than can fit in the specified height.
 
-**Which one to choose**
+Selecting this option displays the **Scroll height** setting.
 
-**By number of option values** is usually better, because it does not depend on your theme's font size or your swatch dimensions. "Show six and scroll the rest" behaves the same on every device; "scroll after 240 pixels" does not.
+Use this when you need the option list to fit within a specific area of your page.
 
-Use **By fixed height** when your page design needs a predictable height — for example when the option sits beside something else of a known size.
+**By number of option values**
 
-<table><thead><tr><th width="290">Situation</th><th>Setting</th></tr></thead><tbody><tr><td>Forty color names in a checkbox list</td><td><strong>By number of option values</strong>, showing 8</td></tr><tr><td>A fixed-height sidebar layout</td><td><strong>By fixed height</strong></td></tr><tr><td>Twelve values that already fit</td><td><strong>Default</strong> — do not add a scrollbar you do not need</td></tr></tbody></table>
+Limits the number of visible option values instead of using a fixed height.
+
+Selecting this option displays the **Number of option values** setting.
+
+For example, setting it to **8** displays eight values at a time. Customers can scroll to see the remaining values.
+
+This option is useful when the size of your option values can vary between devices or themes.
+
+**Default**
+
+Displays all option values without a scroll area.
+
+Use **Default** when the option contains only a small number of values and does not need scrolling.
 
 ## Slider settings
 
-With **Layout type** set to **Slider**, five more settings appear.
+When **Layout type** is set to **Slider**, additional settings are available.
 
-<table><thead><tr><th width="180">Tab</th><th>Advanced Settings</th></tr></thead><tbody><tr><td>Default</td><td>See the table below</td></tr><tr><td>Available on</td><td>Button, Color swatch, Image swatch. Plan-gated — see <a href="../../plans/compare-plans.md">Compare plans</a></td></tr></tbody></table>
+<table><thead><tr><th width="230">Setting</th><th>Default</th><th>Description</th></tr></thead><tbody><tr><td><strong>Number of rows</strong></td><td><code>1</code></td><td>Number of rows displayed in the slider</td></tr><tr><td><strong>Swatches per row</strong></td><td><code>3</code></td><td>Number of swatches displayed in each row</td></tr><tr><td><strong>Show navigation arrows</strong></td><td><strong>Hide</strong></td><td>Displays previous and next arrows</td></tr><tr><td><strong>Show indicators</strong></td><td><strong>Hide</strong></td><td>Displays indicators below the slider</td></tr><tr><td><strong>Slider style</strong></td><td><strong>Style 1</strong></td><td>Selects the navigation arrow style</td></tr></tbody></table>
 
-<table><thead><tr><th width="250">Setting</th><th width="130">Default</th><th>What it does</th></tr></thead><tbody><tr><td><strong>Number of rows</strong></td><td><code>1</code></td><td>How many rows of swatches are visible at once. Two rows suit small color chips; one row suits larger images</td></tr><tr><td><strong>Swatches per row</strong></td><td><code>3</code></td><td>How many swatches fit in a row. A whole number shows whole swatches; a decimal such as <code>4.5</code> deliberately shows a partial swatch at the edge</td></tr><tr><td><strong>Show navigation arrows</strong></td><td><strong>Hide</strong></td><td>Previous and next arrows at the sides of the slider</td></tr><tr><td><strong>Show indicators</strong></td><td><strong>Hide</strong></td><td>Dots under the slider showing how many swatches there are. Selecting one jumps to it</td></tr><tr><td><strong>Slider style</strong></td><td><strong>Style 1</strong></td><td>One of five arrow designs. Only appears once <strong>Show navigation arrows</strong> is <strong>Show</strong></td></tr></tbody></table>
+Slider settings are available for **Button**, **Color swatch**, and **Image swatch** options. Availability may depend on your plan.
+
+**Number of rows**
+
+Sets the number of rows displayed in the slider.
+
+For example:
+
+* `1` displays one row.
+* `2` displays two rows.
+
+**Swatches per row**
+
+Sets how many swatches are displayed in each row.
+
+You can use a decimal value to display part of the next swatch. For example, `4.5` displays four full swatches and part of the next one.
+
+A partial swatch can help indicate that more values are available.
+
+**Show navigation arrows**
+
+Displays previous and next arrows on the slider.
+
+Set this to **Show** if you want customers to navigate through the slider using the arrows.
+
+**Show indicators**
+
+Displays indicators below the slider.
+
+Customers can select an indicator to move to the corresponding position in the slider.
+
+**Slider style**
+
+Selects the style of the navigation arrows.
+
+This setting is available only when **Show navigation arrows** is set to **Show**.
 
 {% hint style="info" %}
-Turn on at least one of **Show navigation arrows** or **Show indicators**. With both hidden, a desktop shopper has no cue that the list scrolls and may never see the rest of the swatches. Swiping is discoverable on a touchscreen; with a mouse it is not.
+We recommend enabling **Show navigation arrows** or **Show indicators** so customers can see that more option values are available.
 {% endhint %}
 
-**A configuration that works**
+## Example configuration
 
-<table><thead><tr><th width="270">Setting</th><th>Value</th></tr></thead><tbody><tr><td><strong>Enable custom layout</strong></td><td>On</td></tr><tr><td><strong>Layout type</strong></td><td><strong>Slider</strong></td></tr><tr><td><strong>Number of rows</strong></td><td><code>2</code></td></tr><tr><td><strong>Swatches per row</strong></td><td><code>4.5</code></td></tr><tr><td><strong>Show navigation arrows</strong></td><td><strong>Show</strong></td></tr><tr><td><strong>Show indicators</strong></td><td><strong>Hide</strong></td></tr><tr><td><strong>Swatch image width / height</strong></td><td><code>60</code> / <code>60</code></td></tr></tbody></table>
+The following configuration works well for an image swatch with many values:
 
-Two rows of about four and a half swatches show roughly sixteen choices in the space of one row, and the half swatch at the edge tells the shopper the list continues.
+<table><thead><tr><th width="290">Setting</th><th>Value</th></tr></thead><tbody><tr><td><strong>Enable custom layout</strong></td><td>On</td></tr><tr><td><strong>Layout type</strong></td><td>Slider</td></tr><tr><td><strong>Number of rows</strong></td><td><code>2</code></td></tr><tr><td><strong>Swatches per row</strong></td><td><code>4.5</code></td></tr><tr><td><strong>Show navigation arrows</strong></td><td>Show</td></tr><tr><td><strong>Show indicators</strong></td><td>Hide</td></tr><tr><td><strong>Swatch image width</strong></td><td><code>60</code></td></tr><tr><td><strong>Swatch image height</strong></td><td><code>60</code></td></tr></tbody></table>
 
-## Which approach for which problem
+This displays two rows of swatches while keeping the option compact. The partially visible swatch also indicates that more values are available.
 
-<table><thead><tr><th width="290">Problem</th><th>Answer</th></tr></thead><tbody><tr><td>Too many text choices, page too long</td><td><strong>Collapse</strong>, or <strong>Expand</strong> with <strong>By number of option values</strong></td></tr><tr><td>Too many visual swatches</td><td><strong>Slider</strong> with two rows</td></tr><tr><td>An advanced option most shoppers skip</td><td><strong>Collapse</strong></td></tr><tr><td>Shoppers need to search rather than scroll</td><td>A <a href="../selection-types/dropdown.md">Dropdown</a> with <a href="selection-behaviour.md#search-suggestion">Search suggestion</a></td></tr><tr><td>Several groups of options crowding each other</td><td>A collapsible <a href="../static-types/section.md">Section</a> around each group</td></tr><tr><td>The whole widget is too tall</td><td><strong>Limit widget height</strong> in <strong>Settings &gt; Settings &gt; General</strong> — see <a href="../../storefront/widget-behavior.md">Widget behavior</a></td></tr></tbody></table>
+## Which layout should I use?
 
-<figure><img src="../../.gitbook/assets/placeholder.png" alt="The slider settings on an Image swatch option with rows, swatches per row, arrows, and style"><figcaption><p>Slider settings only appear once Layout type is set to Slider.</p></figcaption></figure>
+<table><thead><tr><th width="290">Situation</th><th>Recommended setting</th></tr></thead><tbody><tr><td>Many text choices make the page too long</td><td><strong>Collapse</strong> or <strong>Expand</strong> with scrolling</td></tr><tr><td>Many visual swatches</td><td><strong>Slider</strong></td></tr><tr><td>An optional or less frequently used option</td><td><strong>Collapse</strong></td></tr><tr><td>Customers need to search through many values</td><td><strong>Dropdown</strong> with <strong>Search suggestion</strong></td></tr><tr><td>Several groups of options need to be organized</td><td>Use a <strong>Section</strong> around each group</td></tr><tr><td>The entire widget is too tall</td><td>Enable <strong>Limit widget height</strong> under <strong>Settings > Settings > General</strong></td></tr></tbody></table>
 
-<figure><img src="../../.gitbook/assets/placeholder.png" alt="An image swatch slider on the storefront with two rows, navigation arrows, and a partially visible swatch at the edge"><figcaption><p>A partial swatch at the edge is the clearest signal that the list continues.</p></figcaption></figure>
+For more information, see:
+
+* [Dropdown](../selection-types/dropdown.md)
+* [Search suggestion](selection-behaviour.md#search-suggestion)
+* [Section](../static-types/section.md)
+* [Widget behavior](../../storefront/widget-behavior.md)
+
+<figure><img src="../../.gitbook/assets/placeholder.png" alt="Slider settings for an Image swatch option"><figcaption><p>Slider settings are displayed when Layout type is set to Slider.</p></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/placeholder.png" alt="Image swatch slider with two rows and navigation arrows"><figcaption><p>An image swatch slider with two rows and navigation arrows.</p></figcaption></figure>

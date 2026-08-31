@@ -125,32 +125,45 @@ Do **not** add a `## Troubleshooting` section to a normal page. Troubleshooting 
 
 Anything a reader must know to avoid a mistake belongs inline, as a `hint`, at the point where they would make it — not in a list of symptoms at the bottom.
 
-## 10. Settings-page pattern (shared-settings and option-type pages)
+## 10. Settings-page pattern
 
-Established by the pages rewritten on 2026-08-31. Follow it exactly.
+Two separate things, set by the merchant on 2026-08-31. Do not mix them up.
 
-**Structure**
+### Formatting — keep the existing form
 
-- Intro: one to three plain sentences. Say what the settings are, and which one to start with or how the page relates to a neighbouring page. No scene-setting.
-- One `##` per setting, using the exact app label.
-- **No `###` at all.** Sub-topics are bold mini-headings on their own line: `**How it behaves**`, `**When to use it**`, `**When not to use it**`, `**Typical uses**`, `**Why it exists**`, `**What turning it on changes**`.
-- No `{% stepper %}` and no `<details>` on a settings page.
-- Optional `## Notes` at the end for the leftovers.
-- One or two `<figure>` blocks, at the end or under the setting they illustrate. No `<!-- SCREENSHOT: ... -->` markers.
-- Target 500–1,000 words.
+Match the pages the merchant rewrote (SUMMARY 1–27). This is for consistency across the set:
 
-**Meta table** — one under each setting's heading, in this exact form:
+- **HTML tables**, not markdown pipe tables.
+- Meta table under each setting's `##`, in this exact form:
+  `<table><thead><tr><th width="180">Tab</th><th>Advanced Settings</th></tr></thead><tbody><tr><td>Default</td><td>Off</td></tr><tr><td>Available on</td><td>...</td></tr></tbody></table>`
+- Other tables: `<th width="290">` on the first column for two columns, `230` for three, `200` for more.
+- Escape `&` as `&#x26;` inside table cells.
+- `##` per setting. **No `###`.** Sub-topics are bold mini-headings on their own line: `**Prefix icon**`, `**How it behaves**`.
+- No steppers and no `<details>` on a settings page.
+- One or two `<figure>` blocks at the end. No `<!-- SCREENSHOT -->` markers.
 
-```
-<table><thead><tr><th width="180">Tab</th><th>Advanced Settings</th></tr></thead><tbody><tr><td>Default</td><td>Off</td></tr><tr><td>Available on</td><td>...</td></tr></tbody></table>
-```
+### Writing — the merchant's brief
 
-**Wording**
+Per setting, in this order:
 
-- "shopper" for the person buying, not "customer".
-- American spelling: color, behavior, capitalization, normalize, catalog, emphasize.
-- Verify every "Available on" count against the type definition files before writing it.
+1. What the setting does.
+2. The available values.
+3. What changes when each value is selected.
+4. A short recommendation, only when useful.
+5. Dependencies, limits, or plan restrictions, briefly.
 
-**Anchors**
+Wording rules:
 
-Flattening a `###` into a bold mini-heading destroys its anchor. Search for links to that anchor first and repoint them to the enclosing `##`.
+- "customers", not "shoppers".
+- American spelling: color, behavior, capitalization.
+- Short sentences, one idea each, under about 25 words.
+- No em dashes.
+- State what a setting does before why or when to use it.
+- Use the exact UI label for every setting, button, and field.
+- Close with `For more information, see:` and a bullet list of links.
+
+Do not write: marketing language, conversational hooks, storytelling, metaphors, analogies, dramatic statements, filler, repeated explanations, "why this matters" sections, generic advice, or claims about what customers "always" or "never" do. No "Whether you're...", "Imagine...", "This powerful feature...".
+
+### Anchors
+
+Bold mini-headings have no anchor. Before turning a `###` into one, run `grep -rn "page.md#anchor"` and repoint inbound links to the enclosing `##`.

@@ -1,70 +1,80 @@
 ---
 description: >-
-  Direction style, Column width, and HTML class — how much of the page an option
-  takes up, and how to style it yourself.
+  Set the direction of option values, control how much width an option uses, and
+  add a CSS class for custom styling.
 icon: table-columns
 ---
 
 # Direction, width, and CSS
 
-Three layout settings, all on **Advanced Settings**. The first two are for everybody. The third is only useful if you or someone on your team writes CSS.
+These three settings control the layout of an option. All of them are available under **Advanced Settings**.
 
 ## Direction style
 
-Whether a list of values runs down the page or across it.
+Sets whether option values are listed vertically or horizontally.
 
-<table><thead><tr><th width="180">Tab</th><th>Advanced Settings</th></tr></thead><tbody><tr><td>Default</td><td><strong>Vertical</strong>, except on <strong>Tabs</strong>, where it is <strong>Horizontal</strong></td></tr><tr><td>Available on</td><td>Checkbox, Radio button, Button, Color swatch, Image swatch, Tabs</td></tr></tbody></table>
+<table><thead><tr><th width="180">Tab</th><th>Advanced Settings</th></tr></thead><tbody><tr><td>Default</td><td><strong>Vertical</strong>. On Tabs, the default is <strong>Horizontal</strong></td></tr><tr><td>Available on</td><td>Checkbox, Radio button, Button, Color swatch, Image swatch, Tabs</td></tr></tbody></table>
 
-<table><thead><tr><th width="180">Choice</th><th>Behavior</th><th>Use when</th></tr></thead><tbody><tr><td><strong>Vertical</strong></td><td>One value per line, stacked</td><td>Values have long names, or their own help text. Easiest to scan, and safest on mobile</td></tr><tr><td><strong>Horizontal</strong></td><td>Values run across the page and wrap</td><td>Short values such as sizes, small color chips, or two or three buttons. Saves vertical space</td></tr></tbody></table>
+**Vertical**
 
-**On Tabs it means something different**
+Each option value is displayed on its own line.
 
-**Horizontal** puts the tab titles in a row above the content. **Vertical** puts them in a column beside it. See [Tabs](../static-types/tabs.md).
+Use **Vertical** when option values have long names or their own help text. This layout is also the safest on mobile.
+
+**Horizontal**
+
+Option values are displayed across the page and wrap to the next line when there is no more space.
+
+Use **Horizontal** for short values such as sizes, small color chips, or a small number of buttons. This layout reduces the height of the option.
 
 {% hint style="info" %}
-Horizontal saves space, but check the mobile preview before you commit to it. Six buttons that fit one desktop row become three cramped rows on a phone, and long value names wrap mid-word. When in doubt, vertical.
+Check the mobile preview after selecting **Horizontal**. Values that fit on one row on desktop can wrap into several rows on a phone, and long value names can break mid-word.
 {% endhint %}
+
+**On Tabs**
+
+For the Tabs option type, **Direction style** controls the position of the tab titles.
+
+* **Horizontal** displays the tab titles in a row above the content.
+* **Vertical** displays the tab titles in a column beside the content.
+
+See [Tabs](../static-types/tabs.md).
 
 ## Column width
 
-How much of the widget's width the option occupies.
+Sets how much of the widget width the option uses.
 
-<table><thead><tr><th width="180">Tab</th><th>Advanced Settings</th></tr></thead><tbody><tr><td>Default</td><td><strong>100%</strong></td></tr><tr><td>Available on</td><td>30 types — everything except <strong>Section</strong> and <strong>Hidden field</strong></td></tr></tbody></table>
+<table><thead><tr><th width="180">Tab</th><th>Advanced Settings</th></tr></thead><tbody><tr><td>Default</td><td><strong>100%</strong></td></tr><tr><td>Available on</td><td>30 option types. Not available on Section or Hidden field</td></tr></tbody></table>
 
-Six choices: **25%**, **33%**, **50%**, **66%**, **75%**, **100%**.
+The available values are **25%**, **33%**, **50%**, **66%**, **75%**, and **100%**.
 
-**How it behaves**
+Options set to less than 100% are displayed side by side on the same row. They are placed in the order they appear in the option list, until the row is full.
 
-* Options narrower than 100% sit side by side on the same row, in panel order, until the row is full.
-* The width is a share of the widget's width, not of the page.
-* On narrow screens, options fall back to full width so they stay usable on a phone.
-* The [inspector](../../option-sets/live-preview-and-inspector.md) offers **Half width** and **Full width** as one-click shortcuts for 50% and 100%.
+The percentage is a share of the widget width, not of the page width. On narrow screens, options are displayed at full width.
 
-**Combinations that work**
+The [inspector](../../option-sets/live-preview-and-inspector.md) includes **Half width** and **Full width** shortcuts for 50% and 100%.
 
-<table><thead><tr><th width="290">Layout</th><th>Set</th></tr></thead><tbody><tr><td>First name and last name on one line</td><td>Two text options at <strong>50%</strong></td></tr><tr><td>Width, height, and depth on one line</td><td>Three number options at <strong>33%</strong></td></tr><tr><td>A wide field with a small unit selector beside it</td><td><strong>75%</strong> then <strong>25%</strong></td></tr><tr><td>A date and a time slot</td><td>Two options at <strong>50%</strong></td></tr><tr><td>Anything with long help text</td><td><strong>100%</strong> — narrow columns make help text wrap awkwardly</td></tr></tbody></table>
+<table><thead><tr><th width="290">Layout</th><th>Configuration</th></tr></thead><tbody><tr><td>First name and last name on one row</td><td>Two text options at <strong>50%</strong></td></tr><tr><td>Width, height, and depth on one row</td><td>Three number options at <strong>33%</strong></td></tr><tr><td>A wide field with a small selector beside it</td><td><strong>75%</strong>, then <strong>25%</strong></td></tr><tr><td>A date and a time slot on one row</td><td>Two options at <strong>50%</strong></td></tr><tr><td>An option with long help text</td><td><strong>100%</strong></td></tr></tbody></table>
 
 {% hint style="warning" %}
-The percentages do not have to add up, and the app does not stop you. Two options at 75% will not share a row: the second wraps to the next line and leaves a gap. If your layout has gaps you did not expect, add up the widths on each row.
+The percentages are not validated. Two options set to 75% cannot share a row, so the second option moves to the next row and leaves empty space. Check that the widths on each row add up to 100% or less.
 {% endhint %}
 
-For three measurements of the same kind, consider [Dimension](../input-types/dimension.md) instead. It gives you width, height, and depth in one option, with its own units and its own pricing formula.
+For three measurements in a single option, use the [Dimension](../input-types/dimension.md) option type instead. It includes its own units and pricing formula.
 
 ## HTML class
 
-Adds a CSS class to the option so you can style it yourself.
+Adds a CSS class to the option so you can apply your own styles.
 
-<table><thead><tr><th width="180">Tab</th><th>Advanced Settings</th></tr></thead><tbody><tr><td>Default</td><td>Empty</td></tr><tr><td>Available on</td><td>31 types — everything except <strong>Hidden field</strong>. <strong>Section</strong> has its own version of the field</td></tr></tbody></table>
+<table><thead><tr><th width="180">Tab</th><th>Advanced Settings</th></tr></thead><tbody><tr><td>Default</td><td>Empty</td></tr><tr><td>Available on</td><td>31 option types. Not available on Hidden field. Section has its own field</td></tr></tbody></table>
 
-**How it behaves**
+Enter one class name, for example `engraving-field`. Do not include a leading dot.
 
-* Enter a name that describes the option, such as `engraving-field`. No leading dot: `engraving-field`, not `.engraving-field`.
-* One class name per option.
-* Only letters, numbers, hyphens, and underscores are accepted. Anything else is rejected with "HTML class only accepts letters, numbers, hyphens and underscore."
+Only letters, numbers, hyphens, and underscores are accepted. Other characters are rejected with the message "HTML class only accepts letters, numbers, hyphens and underscore."
 
-**Using it**
+**Using the class**
 
-Give the option a class, then add your rules to **Custom CSS for the widget** in **Settings > Settings > Design > Additional**:
+Add your rules to **Custom CSS for the widget** under **Settings > Settings > Design > Additional**:
 
 ```css
 .engraving-field label {
@@ -77,19 +87,27 @@ Give the option a class, then add your rules to **Custom CSS for the widget** in
 }
 ```
 
-Custom CSS applies to the live widget, not to the builder preview, so check the result with **View in Store**.
+Custom CSS applies to the widget on your storefront, not to the builder preview. Use **View in Store** to check the result.
 
-**Good uses**
+**When to use it**
 
-* Emphasizing one important option among many.
-* Hiding something in a specific context that no setting covers.
-* Matching a house style the [design settings](../../storefront/colors.md) do not reach.
-* Giving support or a developer a reliable handle on one option.
+Use **HTML class** when you need to:
 
-**What to try first**
+* Change the appearance of one option only.
+* Hide an element in a specific context that no setting covers.
+* Match a style that the design settings do not cover.
+* Give a developer or support agent a way to target one option.
 
-Most requests that reach for CSS have a setting instead: [Column width](#column-width) for layout, [design settings](../../storefront/colors.md) for colors and fonts, and [Match your theme style](../../storefront/match-your-theme-style.md) for making the widget look like your theme.
+Before using custom CSS, check whether a setting already covers your requirement:
 
-Custom CSS is a fine tool, but it is yours to maintain — a theme update can change what your selectors match. See [Custom CSS](../../storefront/custom-css.md).
+<table><thead><tr><th width="290">Requirement</th><th>Setting</th></tr></thead><tbody><tr><td>Change the width of an option</td><td><a href="#column-width">Column width</a></td></tr><tr><td>Change colors, borders, or fonts</td><td><a href="../../storefront/colors.md">Design settings</a></td></tr><tr><td>Match the widget to your theme</td><td><a href="../../storefront/match-your-theme-style.md">Match your theme style</a></td></tr></tbody></table>
 
-<figure><img src="../../.gitbook/assets/placeholder.png" alt="Direction style, Column width, and HTML class on an option's Advanced Settings"><figcaption><p>All three sit together near the bottom of Advanced Settings.</p></figcaption></figure>
+Custom CSS is not maintained by the app. A theme update can change the elements your selectors apply to.
+
+For more information, see:
+
+* [Custom CSS](../../storefront/custom-css.md)
+* [Live preview and inspector](../../option-sets/live-preview-and-inspector.md)
+* [Dimension](../input-types/dimension.md)
+
+<figure><img src="../../.gitbook/assets/placeholder.png" alt="Direction style, Column width, and HTML class settings"><figcaption><p>Direction style, Column width, and HTML class under Advanced Settings.</p></figcaption></figure>

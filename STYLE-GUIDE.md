@@ -144,13 +144,22 @@ Match the pages the merchant rewrote (SUMMARY 1–27). This is for consistency a
 
 ### Writing — the merchant's brief
 
-Per setting, in this order:
+Per setting:
 
-1. What the setting does.
-2. The available values.
-3. What changes when each value is selected.
-4. A short recommendation, only when useful.
-5. Dependencies, limits, or plan restrictions, briefly.
+1. One sentence on what the setting does.
+2. A table of its values, **one simple sentence each**.
+3. A short recommendation, only when useful.
+4. Critical limits or plan restrictions, briefly.
+
+Cut these — the merchant called them redundant and distracting:
+
+- **"Available on" lists.** Do not list which option types a setting appears on.
+- Per-type availability tables.
+- A separate `##` or paragraph per value. One table row is enough.
+- Example-configuration tables and "which should I use" decision tables.
+- Repeating the tab name under every setting. State it once in the intro.
+
+State the default inline: `**Expand** (default)` in the value table, or "Off by default." in the description.
 
 Wording rules:
 
@@ -160,9 +169,10 @@ Wording rules:
 - No em dashes.
 - State what a setting does before why or when to use it.
 - Use the exact UI label for every setting, button, and field.
-- Close with `For more information, see:` and a bullet list of links.
 
-Do not write: marketing language, conversational hooks, storytelling, metaphors, analogies, dramatic statements, filler, repeated explanations, "why this matters" sections, generic advice, or claims about what customers "always" or "never" do. No "Whether you're...", "Imagine...", "This powerful feature...".
+Do not write: marketing language, conversational hooks, storytelling, metaphors, analogies, dramatic statements, filler, repeated explanations, "why this matters" sections, generic advice, or claims about what customers "always" or "never" do.
+
+Target 250–450 words for a settings page.
 
 ### Anchors
 

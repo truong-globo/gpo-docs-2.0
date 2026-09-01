@@ -1,7 +1,7 @@
 ---
 description: >-
-  A multi-line field for gift messages and instructions, with the same settings as
-  Text plus alignment, width, and height in the live preview.
+  A multi-line field for gift messages and instructions, with the same settings
+  as Text plus alignment, width, and height in the live preview.
 icon: align-left
 ---
 
@@ -15,9 +15,7 @@ Use it when the answer is a sentence or longer, such as a gift message, care ins
 
 A taller field that accepts several lines, with your label above it and an optional character counter below.
 
-<!-- SCREENSHOT: type-textarea-storefront | Storefront → trang sản phẩm | 1 field Textarea nhiều dòng đã nhập vài dòng chữ, có counter | Khoanh riêng field Textarea -->
-
-<figure><img src="../../.gitbook/assets/placeholder.png" alt="A multi-line textarea on a storefront product page with a gift message typed into it"><figcaption><p>A textarea gives shoppers room for a real message.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2026-09-01_10-34-27.png" alt="A multi-line textarea on a storefront product page with a gift message typed into it"><figcaption><p>A textarea gives shoppers room for a real message.</p></figcaption></figure>
 
 ## Settings
 
@@ -56,6 +54,7 @@ Min character `50`, max character `1000`, **Required field** on, help text `Tell
 Max character `400`, **Personalizer** on, **Text alignment** set to center, and **Width** and **Height** matching the printable area.
 
 ## Notes
+
 * Available on all plans.
 * Works in Shopify POS.
 * Line breaks are preserved and travel through to the order.

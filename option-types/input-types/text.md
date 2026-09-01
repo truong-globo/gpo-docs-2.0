@@ -15,7 +15,7 @@ Use it for anything short and singular: a name to engrave, two initials, a team 
 
 A single-line field with your label above it, optionally with a character counter, a prefix, and a suffix.
 
-<figure><img src="../../.gitbook/assets/2026-09-01_08-27-43.png" alt="A text field on a storefront product page with a label, placeholder, and character counter"><figcaption><p>A text option with a character counter and help text.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2026-09-01_10-51-51.png" alt="A text field on a storefront product page with a label, placeholder, and character counter"><figcaption><p>A text option with a character counter and help text.</p></figcaption></figure>
 
 ## Basic Settings
 

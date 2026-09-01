@@ -7,7 +7,7 @@ icon: link
 
 # Conditional logic and add-on fields
 
-Four settings appear on nearly every option, and each opens the door to a larger feature. This page explains what each setting does, where to find it, and where to learn more.
+Four settings appear on nearly every option, and each unlocks a larger feature. This page explains what each setting does, where to find it, and where to learn more.
 
 ## Conditional logic
 
@@ -21,22 +21,22 @@ A rule builder appears directly underneath, with three parts:
 
 <table><thead><tr><th width="200">Part</th><th>Choices</th></tr></thead><tbody><tr><td>Action</td><td><strong>Show</strong> or <strong>Hide</strong> this option when the conditions are met</td></tr><tr><td>Match</td><td><strong>all conditions</strong> or <strong>any condition</strong></td></tr><tr><td>Conditions</td><td>One or more rows: a source, an operator, and a value</td></tr></tbody></table>
 
-The source of a condition can be another option in the same option set, **or the Shopify variant the customer selected** — which is how you show an option only for the Large size, for example.
+The source of a condition can be another option in the same option set **or the Shopify variant the customer selected** — which lets you show an option only for the Large size, for example.
 
-**Two things worth knowing before you start**
+#### Two things worth knowing before you start
 
 * The available operators depend on the type of the source option. A text source offers `contains` and character-count comparisons; a checkbox source offers selection-count comparisons; a switch source offers only `is enabled` and `is disabled`.
-* A hidden option is **not validated**. A required option currently hidden by a rule cannot block **Add to cart**.&#x20;
+* A hidden option is **not validated**. A required option that is currently hidden by a rule cannot block **Add to cart**.
 
-**Putting the rule on a Section instead**
+#### Putting the rule on a Section
 
-**Section** supports conditional logic too, and a rule on a section shows or hides everything inside it at once. If you find yourself writing the same rule on six options, put it on the section around them instead.
+**Section** supports conditional logic too. A rule on a section shows or hides everything inside it at once. If you find yourself applying the same rule to six options, put it on the section that contains them instead.
 
 Full detail: [Conditional logic](../../conditional-logic/), the [operators reference](../../conditional-logic/operators-reference.md), and [conditions based on Shopify variants](../../conditional-logic/conditions-on-shopify-variants.md).
 
 ## Price
 
-Attaches an extra charge to the option.
+Attaching an extra charge to the option.
 
 | Tab          | Basic Settings, under **Add-on Settings**                                                                                                                                                                                      |
 | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -44,7 +44,7 @@ Attaches an extra charge to the option.
 | Available on | At **option** level: Text, Textarea, Number, Switch, Color picker. At **option value** level, in the values table's **Price** column: all nine selection types with values. **Dimension** has its own price and formula fields |
 
 {% hint style="info" %}
-Where the price lives follows the shape of the option. An input option has one answer, so one price. A selection option has several choices that usually cost different amounts, so the price belongs to each value. See [Where you can set add-ons](../../add-on-pricing/where-you-can-set-add-ons.md).
+Where the price lives depends on the shape of the option. An input option has one answer, so it has one price. A selection option has multiple choices that may cost different amounts, so the price is set on each value. See [Where you can set add-ons](../../add-on-pricing/where-you-can-set-add-ons.md).
 {% endhint %}
 
 Selecting the field opens a dialog with three tabs — three genuinely different ways to charge:
@@ -64,7 +64,7 @@ How the add-on charge scales with the main product's quantity.
 <table><thead><tr><th width="180">Tab</th><th>Advanced Settings</th></tr></thead><tbody><tr><td>Default</td><td><strong>Default</strong></td></tr><tr><td>Available on</td><td>Every type that can carry an add-on</td></tr></tbody></table>
 
 {% hint style="warning" %}
-This dropdown only does something when the option actually has a charge. On an option with no add-on it changes nothing.
+This dropdown only does something when the option actually has a charge. On an option with no add-on, it changes nothing.
 {% endhint %}
 
 <table><thead><tr><th width="290">Mode</th><th>Behaviour</th></tr></thead><tbody><tr><td><strong>Default</strong></td><td>The add-on follows the main product's quantity.</td></tr><tr><td><strong>One time charge</strong></td><td>Charged once, however many of the main product are bought.</td></tr><tr><td><strong>Fixed quantity</strong></td><td>Always the quantity you set, regardless of the main product.</td></tr><tr><td><strong>Dynamic quantity</strong></td><td>The quantity you set, multiplied by the main product's quantity.</td></tr><tr><td><strong>Fixed quantity (by customer)</strong></td><td>A quantity box appears for the customer; that quantity is used as-is.</td></tr><tr><td><strong>Dynamic quantity (by customer)</strong></td><td>The customer's quantity, multiplied by the main product's quantity.</td></tr><tr><td><strong>Mixed quantity</strong></td><td>A quantity box per option value. Multi-select options only.</td></tr><tr><td><strong>Per character</strong></td><td>Charged by how many characters the customer typed. <strong>Text</strong> and <strong>Textarea</strong> only.</td></tr></tbody></table>
@@ -79,10 +79,6 @@ The number used by two of the modes above.
 
 * With **Fixed quantity**, this is the exact number of add-ons added, whatever the main quantity.
 * With **Dynamic quantity**, this is multiplied by the main product's quantity.
-
-For example, a gift box that always includes four ribbons: **Fixed quantity**, **Set quantity** `4`. The same value with **Dynamic quantity** on an order of three boxes gives twelve ribbons.
-
-<figure><img src="../../.gitbook/assets/placeholder.png" alt="The Add-on Settings group with the Price field and the Advanced settings dropdown"><figcaption><p>Price sets the amount; Advanced settings decides how it scales.</p></figcaption></figure>
 
 ## How these four interact
 

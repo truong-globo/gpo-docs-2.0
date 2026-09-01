@@ -1,7 +1,7 @@
 ---
 description: >-
-  A numeric field with minimum and maximum values — for quantities, measurements,
-  and anything you price by amount.
+  A numeric field with minimum and maximum values, for quantities, measurements,
+  and values you price by amount.
 icon: hashtag
 ---
 
@@ -9,11 +9,11 @@ icon: hashtag
 
 A field that only accepts numbers, bounded by a minimum and a maximum you set.
 
-Use it for quantities within a product — how many names to embroider, how many place settings, how many centimetres wide — rather than for the product's own quantity, which Shopify already handles.
+Use it for quantities within a product, such as how many names to embroider, how many place settings, or a width in centimeters. For the product's own quantity, use Shopify's quantity field instead.
 
 ## What customers see
 
-A numeric field with your label above it, optionally with a prefix such as a currency symbol and a suffix such as a unit.
+A numeric field with your label above it. You can add a prefix, such as a currency symbol, and a suffix, such as a unit.
 
 <!-- SCREENSHOT: type-number-storefront | Storefront → trang sản phẩm | 1 field Number có prefix/suffix và help text nêu min-max | Khoanh riêng field Number -->
 
@@ -29,19 +29,19 @@ A numeric field with your label above it, optionally with a prefix such as a cur
 
 ## Add-on pricing
 
-The price belongs to the option. What makes Number interesting is that its **Advanced settings** modes let the number the customer typed drive the quantity of the add-on:
+The price applies to the whole option. The **Advanced settings** modes let the number the customer enters set the quantity of the add-on:
 
 <table><thead><tr><th width="290">Mode</th><th>With price $2.00 and the customer entering 5</th></tr></thead><tbody><tr><td><strong>Default</strong></td><td>$2.00, following the main product quantity</td></tr><tr><td><strong>One time charge</strong></td><td>$2.00, once, whatever the main quantity</td></tr><tr><td><strong>Fixed quantity (by customer)</strong></td><td>$10.00 — the customer's 5 × $2.00</td></tr><tr><td><strong>Dynamic quantity (by customer)</strong></td><td>$10.00 per main product — so $30.00 on three</td></tr></tbody></table>
 
-That is how "extra embroidered names, $2 each" is built: a Number field with min `0`, max `6`, priced $2.00 with **Fixed quantity (by customer)**.
+For example, to charge $2.00 for each extra embroidered name, use a Number field with **Min value** `0`, **Max value** `6`, a price of $2.00, and the **Fixed quantity (by customer)** mode.
 
 See [Advanced add-on modes](../../add-on-pricing/advanced-add-on-modes.md).
 
 ## Personalizer Settings
 
-Number supports the live preview and behaves like [Text](text.md) there: the digits are drawn on the product photo, with colour, font, effects, position, **Curve**, and **Auto-fit max width**.
+Number supports the live preview and works the same way as [Text](text.md). The digits are drawn on the product photo, with color, font, effects, position, **Curve**, and **Auto-fit max width**.
 
-Useful for jersey numbers, house numbers, and years. See [Product Personalizer](../../personalizer/README.md).
+Use it for jersey numbers, house numbers, and years. See [Product Personalizer](../../personalizer/README.md).
 
 ## Examples
 
@@ -51,20 +51,20 @@ Useful for jersey numbers, house numbers, and years. See [Product Personalizer](
 
 **Width to cut, priced by size**
 
-Min `10`, max `240`, suffix `cm`, required on. For pricing driven by two or three measurements at once, use [Dimension](dimension.md) instead, which has a formula.
+**Min value** `10`, **Max value** `240`, suffix `cm`, **Required field** on. To calculate a price from two or three measurements, use [Dimension](dimension.md) instead, which supports a formula.
 
 **Jersey number**
 
-Min `0`, max `99`, **Personalizer** on, drawn large and centred on the shirt back.
+**Min value** `0`, **Max value** `99`, **Personalizer** on, drawn large and centered on the back of the shirt.
 
 **Number of guests**
 
-Min `2`, max `12`, default `4`, no price — you only need the figure for production.
+**Min value** `2`, **Max value** `12`, **Default value** `4`, no price. The number is only recorded for production.
 
 ## Notes
 * Available on all plans.
 * Works in Shopify POS.
-* Only numbers can be entered — there is no need for an input rule.
-* A **Default value** outside min and max is rejected while you edit.
-* Negative numbers: set a **Min value** of `0` if you never want one.
-* For a value chosen by dragging rather than typing, see [Range slider](range-slider.md).
+* Only numbers can be entered, so no input rule is needed.
+* A **Default value** outside the minimum and maximum is rejected when you save.
+* To prevent negative numbers, set **Min value** to `0`.
+* To let customers choose a value by dragging instead of typing, use [Range slider](range-slider.md).

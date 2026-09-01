@@ -7,13 +7,13 @@ icon: calendar-days
 
 # Date and time picker
 
-A field the customer picks a date or a time from. It has more settings than any other input type, because "which dates can they choose?" turns out to be a complicated question for most businesses.
+A field the customer uses to select a date or a time. It has more settings than any other input type, because most businesses need to control which dates can be selected.
 
 Use it for delivery dates, event dates, appointment slots, and subscription start dates.
 
 ## What customers see
 
-A field that opens a calendar, a clock, or both. Dates you have blocked are not selectable.
+A field that opens a calendar, a clock, or both. Dates you have blocked cannot be selected.
 
 <!-- SCREENSHOT: type-datetime-storefront | Storefront → trang sản phẩm | Field Date đang mở calendar, có ngày bị chặn (cuối tuần) không chọn được | Khoanh calendar và vài ngày bị chặn -->
 
@@ -32,19 +32,19 @@ There is no default value and no add-on price on this type.
 <table><thead><tr><th width="200">Setting</th><th width="230">Choices</th><th>Notes</th></tr></thead><tbody><tr><td><strong>Format</strong></td><td><strong>Date</strong>, <strong>Time</strong>, <strong>Date &amp; time</strong></td><td>Default <strong>Date</strong>. Decides what the picker offers, and which settings below apply.</td></tr><tr><td><strong>Mode</strong></td><td><strong>Single</strong>, <strong>Range</strong></td><td>Default <strong>Single</strong>. <strong>Range</strong> lets the shopper pick a start and end date — for hire periods or holiday cover. Only for <strong>Date</strong> and <strong>Date &amp; time</strong>.</td></tr><tr><td><strong>Date format</strong></td><td><code>Y-m-d</code>, <code>d-m-Y</code>, <code>m-d-Y</code>, <code>Y.m.d</code>, <code>d.m.Y</code>, <code>m.d.Y</code>, <code>Y/m/d</code>, <code>d/m/Y</code>, <code>m/d/Y</code></td><td>Default <code>Y-m-d</code>. Choose the order your customers read dates in — <code>d/m/Y</code> in most of Europe, <code>m/d/Y</code> in the United States.</td></tr><tr><td><strong>Time format</strong></td><td><strong>12h</strong>, <strong>24h</strong></td><td>Default <strong>12h</strong>. Only for <strong>Time</strong> and <strong>Date &amp; time</strong>.</td></tr></tbody></table>
 
 {% hint style="warning" %}
-Pick a **Date format** that matches your market and repeat it in the **Placeholder**. `03/04` is the third of April to one shopper and the fourth of March to another, and a wrong delivery date is an expensive misunderstanding.
+Select a **Date format** that matches your market, and repeat the format in the **Placeholder**. For example, `03/04` can be read as 3 April or as 4 March, depending on the customer.
 {% endhint %}
 
 ### Limiting which dates can be chosen
 
-**Limit date picker** is the switch that reveals all of it. It applies to the **Date** and **Date & time** formats.
+**Limit date picker** enables these settings. It applies to the **Date** and **Date & time** formats.
 
-Directly beneath it is the setting that decides what everything else means:
+The setting below it determines how the other rules are applied:
 
 <table><thead><tr><th width="230">Choice</th><th>Meaning</th></tr></thead><tbody><tr><td><strong>Disabling dates</strong></td><td>Everything you list below is <strong>blocked</strong>. Everything else is available. This is the default.</td></tr><tr><td><strong>Enabling dates</strong></td><td>Everything you list below is <strong>the only thing allowed</strong>. Everything else is blocked.</td></tr></tbody></table>
 
 {% hint style="warning" %}
-This inverts the meaning of every rule underneath it. Listing Saturday and Sunday under **Disabling dates** blocks weekends. The same list under **Enabling dates** allows *only* weekends. Check which one you are on before you spend time building the list.
+This setting reverses the meaning of every rule below it. Listing Saturday and Sunday under **Disabling dates** blocks weekends. The same list under **Enabling dates** allows only weekends. Check which mode you are using before building the list.
 {% endhint %}
 
 Then choose any combination of these:
@@ -53,7 +53,7 @@ Then choose any combination of these:
 
 ### Lead time and cut-off
 
-These two appear once **Disable past dates** is on, and between them they express "we need notice, and today only counts if you order early enough".
+These two settings appear when **Disable past dates** is on. Use them to require a notice period, and to accept same-day orders only before a cut-off time.
 
 <table><thead><tr><th width="290">Setting</th><th>What it does</th></tr></thead><tbody><tr><td><strong>Enable after X days</strong></td><td>How many days from today before the first selectable date. Counted from the current date, minimum <code>0</code>. Set <code>3</code> and the earliest choice is three days out — your production lead time, enforced.</td></tr><tr><td><strong>Disable current date after X time</strong></td><td>A cut-off time. After it, today stops being selectable. Set it to your dispatch cut-off so a 5pm order cannot ask for same-day.</td></tr></tbody></table>
 
@@ -61,13 +61,13 @@ These two appear once **Disable past dates** is on, and between them they expres
 
 <table><thead><tr><th width="290">Setting</th><th>What it does</th></tr></thead><tbody><tr><td><strong>Custom time zone</strong></td><td>Turns on an explicit time zone rather than relying on the shopper's device.</td></tr><tr><td><strong>Select time zone</strong></td><td>From GMT-12:00 to GMT+14:00.</td></tr></tbody></table>
 
-Turn this on whenever a cut-off time matters. Without it, "today" and "after 4pm" are judged by the shopper's own clock — so a customer in another country can select a date you have already closed.
+Enable this setting when a cut-off time matters. Without it, the current date and time are read from the customer's device, so a customer in another time zone can select a date you have already closed.
 
 ### Calendar language
 
 <table><thead><tr><th width="290">Setting</th><th>What it does</th></tr></thead><tbody><tr><td><strong>Other language</strong></td><td>Turns on an explicit language for the calendar.</td></tr><tr><td><strong>Localization</strong></td><td>The language itself. More than fifty are available, from Albanian to Welsh.</td></tr></tbody></table>
 
-This translates the month and day names inside the calendar. It is separate from your option labels, which are translated per storefront language — see [Translate option content](../../translations/translate-option-content.md).
+This setting translates the month and day names in the calendar. It is separate from your option labels, which are translated for each storefront language. See [Translate option content](../../translations/translate-option-content.md).
 
 ### Layout and presentation
 
@@ -77,7 +77,7 @@ This translates the month and day names inside the calendar. It is separate from
 
 Neither is supported. A date cannot carry a price and does not appear in the live preview.
 
-To charge for a date-related choice — express delivery, a weekend slot — put the charge on a separate [Switch](switch.md), [Radio button](../selection-types/radio-button.md), or [Checkbox](../selection-types/checkbox.md), and reveal the date field with [conditional logic](../../conditional-logic/README.md).
+To charge for a date-related choice, such as express delivery or a weekend slot, add the price to a separate [Switch](switch.md), [Radio button](../selection-types/radio-button.md), or [Checkbox](../selection-types/checkbox.md). Then display the date field with [conditional logic](../../conditional-logic/README.md).
 
 ## Examples
 
@@ -94,7 +94,7 @@ To charge for a date-related choice — express delivery, a weekend slot — put
 
 **Hire period**
 
-**Mode** set to **Range**, **Disable past dates** on, weekends blocked if you cannot hand over then.
+**Mode** set to **Range**, **Disable past dates** on, and weekends blocked if you cannot hand over on those days.
 
 **Same-day collection with a 2pm cut-off**
 
@@ -107,8 +107,8 @@ To charge for a date-related choice — express delivery, a weekend slot — put
 </details>
 
 ## Notes
-* Available on paid plans. **Limit date picker**, **Range** mode, and the custom calendar language are separately plan-gated — see [Compare plans](../../plans/compare-plans.md).
+* Available on paid plans. **Limit date picker**, **Range** mode, and the custom calendar language may require a higher plan. See [Compare plans](../../plans/compare-plans.md).
 * Works in Shopify POS.
-* Cannot carry an add-on price; no Personalizer support.
-* The date rules limit what the customer *can pick*. They do not check your real availability — a fully booked day stays selectable unless you add it to **Specific dates**.
-* Rules combine. Weekends blocked plus a three-day lead time plus a holiday list all apply together.
+* Cannot carry an add-on price, and has no Personalizer support.
+* The date rules control which dates can be selected. They do not check your actual availability. A fully booked day remains selectable unless you add it to **Specific dates**.
+* Rules are applied together. Blocked weekends, a three-day lead time, and a holiday list all apply at the same time.

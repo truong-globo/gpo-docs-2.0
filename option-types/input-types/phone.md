@@ -7,13 +7,13 @@ icon: phone
 
 # Phone
 
-A field for a telephone number. On its own it is a plain text field; turn on validation and it becomes a country-aware input with a flag selector and dialling code.
+A field for a telephone number. By default it is a plain text field. When validation is enabled, it displays a country flag selector and a dialing code.
 
-Use it for delivery contact numbers, appointment bookings, and anything where you will actually call the customer.
+Use it for delivery contact numbers, appointment bookings, and other cases where you need to call the customer.
 
 ## What customers see
 
-A phone field with your label above it. With validation on, a country flag and dialling code appear at the start of the field, and the shopper can change the country.
+A phone field with your label above it. When validation is enabled, a country flag and dialing code are displayed at the start of the field, and the customer can change the country.
 
 <!-- SCREENSHOT: type-phone-storefront | Storefront → trang sản phẩm | Field Phone có validate bật: cờ quốc gia + mã vùng ở đầu ô | Khoanh vùng cờ và mã vùng -->
 
@@ -28,24 +28,24 @@ A phone field with your label above it. With validation on, a country flag and d
 <table><thead><tr><th width="290">Setting</th><th>What it does</th></tr></thead><tbody><tr><td><strong>Validate international phone numbers</strong></td><td>Turns the field into a country-aware phone input. Off by default. Reveals the two settings below.</td></tr><tr><td><strong>Only used to display country flags and codes</strong></td><td>Shows the flag and dialling code but does <strong>not</strong> reject numbers that look invalid. Use it when you want the visual help without turning away entries.</td></tr><tr><td><strong>Select default country</strong></td><td>Which country the field starts on. Choose from the full country list.</td></tr><tr><td><a href="../shared-settings/prefix-suffix-and-icons.md#prefix">Prefix</a> / <a href="../shared-settings/prefix-suffix-and-icons.md#prefix">Prefix icon</a> / <a href="../shared-settings/prefix-suffix-and-icons.md#prefix">Prefix text</a></td><td>An icon or text at the start of the field.</td></tr><tr><td><a href="../shared-settings/prefix-suffix-and-icons.md#suffix">Suffix</a></td><td>Fixed text after the field.</td></tr><tr><td><a href="../shared-settings/placeholder-and-help-text.md#help-text-position">Help text position</a></td><td>Where the help text sits.</td></tr><tr><td><a href="../shared-settings/direction-width-and-css.md#html-class">HTML class</a> / <a href="../shared-settings/direction-width-and-css.md#column-width">Column width</a></td><td>Styling hook and field width.</td></tr></tbody></table>
 
 {% hint style="info" %}
-The three validation settings interact:
+The validation settings work together as follows:
 
-* **Validation off** — a plain text field. Anything can be typed.
-* **Validation on** — flag, dialling code, and rejection of numbers that are not valid for the selected country.
-* **Validation on** plus **Only used to display country flags and codes** — flag and dialling code, but nothing is rejected.
+* **Validation off**: a plain text field. Any entry is accepted.
+* **Validation on**: displays the flag and dialing code, and rejects numbers that are not valid for the selected country.
+* **Validation on** with **Only used to display country flags and codes**: displays the flag and dialing code, but accepts any entry.
 
-The middle option is the strictest and the third is the friendliest. If you get complaints about valid numbers being refused, the third is the fix.
+The second option is the strictest. If customers report that valid numbers are rejected, use the third option.
 {% endhint %}
 
 ## Add-on pricing
 
-Phone cannot carry an add-on price. It is a contact detail, not a paid choice.
+Phone cannot carry an add-on price.
 
-If you need to charge for something related — a phone consultation, say — put the charge on a [Switch](switch.md) beside it and use [conditional logic](../../conditional-logic/README.md) to reveal the phone field when the switch is on.
+To charge for a related service, such as a phone consultation, add the price to a [Switch](switch.md) and use [conditional logic](../../conditional-logic/README.md) to display the phone field when the switch is on.
 
 ## Personalizer Settings
 
-Not supported. Phone numbers are not printed on products.
+Not supported.
 
 ## Examples
 
@@ -55,16 +55,16 @@ Not supported. Phone numbers are not printed on products.
 
 **A number for an optional callback**
 
-Validation on with **Only used to display country flags and codes** on, not required, shown by a conditional rule when the shopper asks to be called.
+Validation on with **Only used to display country flags and codes** enabled, **Required field** off, displayed by a conditional rule when the customer requests a callback.
 
 **A local-only number**
 
-Validation on, default country set to your own, help text explaining you only deliver domestically.
+Validation on, the default country set to your own, and help text explaining that you deliver domestically only.
 
 ## Notes
 * Available on paid plans. International validation is separately plan-gated — see [Compare plans](../../plans/compare-plans.md).
 * Works in Shopify POS.
 * Cannot carry an add-on price.
 * No Personalizer support.
-* The number reaches the order as the shopper entered it, including the dialling code when validation is on.
-* Asking for a phone number reduces conversion. Only ask when you will use it, and say why in help text.
+* The number is stored in the order as the customer entered it, including the dialing code when validation is on.
+* Ask for a phone number only when you need it, and state the reason in help text.

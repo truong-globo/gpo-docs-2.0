@@ -1,17 +1,17 @@
 ---
 description: >-
-  Collect photos, logos, and artwork — with allowed file types, file counts, an
+  Collect photos, logos, and artwork, with allowed file types, file counts, an
   image editor, and live preview on the product photo.
 icon: paperclip
 ---
 
 # File upload
 
-A field the customer attaches files to. It is the type that makes print-on-demand, photo gifts, and custom artwork possible.
+A field the customer uses to attach files. Use it for print-on-demand products, photo gifts, and custom artwork.
 
 ## What customers see
 
-An upload control with your label above it. After uploading, the file is listed — as a thumbnail if it is an image, or as a link otherwise, depending on your store-wide **File preview** setting.
+An upload control with your label above it. After uploading, the file is listed as a thumbnail if it is an image, or as a link otherwise, depending on your store-wide **File preview** setting.
 
 <!-- SCREENSHOT: type-file-storefront | Storefront → trang sản phẩm | Field File upload đã upload 1 ảnh, hiện thumbnail preview | Khoanh vùng upload và thumbnail -->
 
@@ -25,41 +25,41 @@ There is no placeholder, no default value, and **no add-on price** on this type.
 
 ### Allowed extensions
 
-The picker groups every accepted extension into nine categories, so you can allow a whole family at once:
+The picker groups the accepted extensions into nine categories, so you can allow a whole group at once:
 
 <table><thead><tr><th width="250">Group</th><th>Contains</th></tr></thead><tbody><tr><td><strong>Image</strong></td><td>jpg, jpeg, png, gif, bmp, webp, tif, heic, dng</td></tr><tr><td><strong>Graphics</strong></td><td>svg, eps, ico, stl, 3mf and other design and 3D formats</td></tr><tr><td><strong>Document</strong></td><td>doc, docx, rtf, txt</td></tr><tr><td><strong>Spreadsheet</strong></td><td>Spreadsheet formats</td></tr><tr><td><strong>Presentation</strong></td><td>Presentation formats</td></tr><tr><td><strong>Audio</strong></td><td>mp3, wav, mpc</td></tr><tr><td><strong>Video</strong></td><td>mp4, mov and others</td></tr><tr><td><strong>Archive &amp; Compressed</strong></td><td>zip, rar, 7z, bin</td></tr><tr><td><strong>Others</strong></td><td>Specialist formats, including machine and font files</td></tr></tbody></table>
 
-There is a search box, so you can find a single extension without opening the group.
+A search field lets you find a single extension without opening its group.
 
 {% hint style="warning" %}
-Allow only what you can actually use. Accepting `heic` means iPhone photos arrive in a format some design tools cannot open; accepting `zip` means you cannot see what you have been sent until you unpack it. Narrowing the list is the single most effective thing you can do to reduce back-and-forth with customers.
+Allow only the formats you can use. For example, `heic` files are not supported by some design tools, and `zip` files must be extracted before you can check their contents. Limiting the list reduces the number of files you have to request again.
 {% endhint %}
 
 ## Advanced Settings
 
 <table><thead><tr><th width="250">Setting</th><th>What it does</th></tr></thead><tbody><tr><td><strong>Enable image editor</strong></td><td>Lets customers adjust an image before it is uploaded — cropping, rotating, and similar. Off by default.</td></tr><tr><td><a href="../shared-settings/placeholder-and-help-text.md#help-text-position">Help text position</a></td><td>Where the help text sits.</td></tr><tr><td><a href="../shared-settings/direction-width-and-css.md#html-class">HTML class</a> / <a href="../shared-settings/direction-width-and-css.md#column-width">Column width</a></td><td>Styling hook and field width.</td></tr></tbody></table>
 
-**Enable image editor** is worth turning on for anything printed. A customer who can crop their own photo to the right shape sends you a usable file first time, instead of a landscape snapshot for a portrait frame.
+Enable **Enable image editor** for printed products. It lets the customer crop the image to the correct shape before uploading, which reduces the number of unusable files you receive.
 
 ## Personalizer Settings
 
-File upload is one of the twelve types the live preview supports, and the only one that draws an image the customer supplies: their upload appears on the product photo immediately.
+File upload is the only option type that draws an image supplied by the customer. The uploaded image is displayed on the product photo immediately.
 
 Its personalizer settings are:
 
-* **Image shape** — a preset shape the image is masked into, or your own uploaded shape
-* **Background mode** — how the image fits the shape: **Stretch**, **Cover**, **Contain**, **Full width**, **Full height**
+* **Image shape**: a preset shape to mask the image into, or a shape you upload
+* **Background mode**: how the image fits the shape. The values are **Stretch**, **Cover**, **Contain**, **Full width**, and **Full height**
 * **Width**, **Height**, **X-Axis**, **Y-Axis**, **Opacity**, **Rotation**
-* **Clip area** — a region the image cannot escape
-* **Allow customers to** — change position, resize, rotate
+* **Clip area**: a region the image cannot be moved outside of
+* **Allow customers to**: change position, resize, or rotate the image
 
-That combination is how "upload your photo and see it in the frame" works. See [Image layers](../../personalizer/layer-settings/image-layers.md) and [Customer controls](../../personalizer/layer-settings/customer-controls.md).
+Use these settings to let a customer upload a photo and see it on the product. See [Image layers](../../personalizer/layer-settings/image-layers.md) and [Customer controls](../../personalizer/layer-settings/customer-controls.md).
 
 ## Add-on pricing
 
 File upload cannot carry a price.
 
-To charge for an upload — an artwork setup fee, say — put the charge on a [Switch](switch.md) or [Checkbox](../selection-types/checkbox.md) next to it, and reveal the upload field with [conditional logic](../../conditional-logic/README.md) when they opt in.
+To charge for an upload, such as an artwork setup fee, add the price to a [Switch](switch.md) or [Checkbox](../selection-types/checkbox.md), then display the upload field with [conditional logic](../../conditional-logic/README.md).
 
 ## Store-wide settings that affect it
 
@@ -77,11 +77,11 @@ To charge for an upload — an artwork setup fee, say — put the charge on a [S
 
 **Print-ready artwork from a designer**
 
-**Allowed extensions** `pdf`-style document and graphics formats plus `svg` and `eps`, not required, help text stating your bleed and colour requirements.
+**Allowed extensions** set to document and graphics formats, including `pdf`, `svg`, and `eps`. **Required field** off, with help text stating your bleed and color requirements.
 
 **Reference images for a repair quote**
 
-**Allow multiple** on, min `2`, max `6`, help text asking for one photo per angle.
+**Allow multiple** on, **Min number of files** `2`, **Max number of files** `6`, with help text asking for one photo per angle.
 
 ## Notes
 * Available on paid plans. Multiple file upload and the per-file size limit are separately plan-gated.
@@ -89,4 +89,4 @@ To charge for an upload — an artwork setup fee, say — put the charge on a [S
 * Cannot carry an add-on price.
 * Up to 20 files per option.
 * Uploaded files are attached to the order, so your team can download them from the order in Shopify admin.
-* Large uploads take time on a slow connection. Keep the allowed list tight and say what you need in help text.
+* Large files take time to upload on a slow connection. Limit the allowed extensions and state your requirements in help text.

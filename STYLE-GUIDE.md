@@ -177,3 +177,37 @@ Target 250–450 words for a settings page.
 ### Anchors
 
 Bold mini-headings have no anchor. Before turning a `###` into one, run `grep -rn "page.md#anchor"` and repoint inbound links to the enclosing `##`.
+
+## 11. Prose style for option-type pages
+
+Set by the merchant on 2026-09-01, from their rewrites of `option-types/input-types/text.md` and `option-types/selection-types/select.md`. This is a **prose** rule. It does not change page structure: option-type pages keep What customers see, Basic Settings, Advanced Settings, Add-on pricing, Personalizer Settings, Examples, and Notes.
+
+**Rewrite patterns**
+
+| Instead of | Write |
+| --- | --- |
+| "A single-line box" | "A single-line field" |
+| "The price belongs to the option" | "The price applies to the whole option" |
+| "Prices belong to each option value" | "Prices are set for each option value" |
+| "reaches the order as text" | "is stored in the order as text" |
+| "the only two types with the Per character mode" | "the only two types that support the Per character mode" |
+| "charges by how many characters the customer typed" | "charges based on the number of characters the customer enters" |
+| "since there is one answer" | "because there is only one answer" |
+| "use Textarea." | "use Textarea instead." |
+| "If you need any of those" | "If you need any of the features above" |
+| "a shopper can pick a sold-out value" | "A shopper could select a sold-out value" |
+| "limited stock" | "limited inventory" |
+| "past about thirty entries" | "for lists with more than about 30 entries" |
+| "the natural way to price engraving" | "a natural way to price engraving" |
+
+**Rules**
+
+- Complete sentences. No telegraphic fragments such as "Long, plain, no prices."
+- Split a sentence that carries two ideas. Do not join them with a dash.
+- American spelling: color, personalization, capitalized, centimeter, behavior.
+- Numerals for numbers of 10 and above.
+- Name the setting rather than describing it: "**Min value** `10`", not "min `10`".
+- Drop clever or anthropomorphic wording: "kinder", "fiddly", "invites requests", "the whole navigation experience", "strength and its limitation".
+- Soften absolutes. "could select" rather than "can pick"; "a natural way" rather than "the natural way".
+- Keep "field" for an input the customer types into. Keep the real UI labels **Select text box** and **search field** as they are.
+- Em dashes are acceptable in moderation. The merchant kept them in `text.md`.

@@ -1,18 +1,18 @@
 ---
 description: >-
-  Two or three measurements with their own units, and a formula that prices the
-  product by size.
+  Two or three measurements with their own units, and a formula that calculates the
+  price by size.
 icon: ruler-combined
 ---
 
 # Dimension
 
-One option that collects several measurements — width, height, and optionally depth — each with its own label, unit, and limits. It also has something no other type has: a **Formula** that calculates the add-on price from the numbers the customer entered.
+A single option that collects several measurements: width, height, and optionally depth. Each measurement has its own label, unit, and limits. Dimension is the only option type with a **Formula**, which calculates the add-on price from the values the customer enters.
 
-This is the type for made-to-measure products: blinds, canvases, worktops, glass, framed prints, cut fabric.
+Use it for made-to-measure products such as blinds, canvases, worktops, glass, framed prints, and cut fabric.
 
 {% hint style="warning" %}
-Dimension does **not** work in the Shopify POS app, and the app shows a notice saying so when you add it. If you take in-person orders, ask for measurements another way — several [Number](number.md) fields, for example. See [POS limitations](../../pos/limitations.md).
+Dimension is not supported in the Shopify POS app, and the app displays a notice when you add it. For in-person orders, collect measurements with several [Number](number.md) fields instead. See [POS limitations](../../pos/limitations.md).
 {% endhint %}
 
 ## What customers see
@@ -29,13 +29,13 @@ Two or three numeric fields on one row, each with its own label and unit.
 
 ### The axis rows
 
-A Dimension option starts with three rows, tagged **X-Axis**, **Y-Axis**, and **Z-Axis** — corresponding to **Width**, **Height**, and **Depth**. Each row has its own settings:
+A Dimension option starts with three rows, tagged **X-Axis**, **Y-Axis**, and **Z-Axis**. They correspond to **Width**, **Height**, and **Depth**. Each row has its own settings:
 
 <table><thead><tr><th width="200">Column</th><th>What it is</th></tr></thead><tbody><tr><td><strong>Label</strong></td><td>What the customer reads above that field — <code>Width</code>, <code>Drop</code>, <code>Diameter</code>.</td></tr><tr><td><strong>Placeholder</strong></td><td>Example text inside the empty field.</td></tr><tr><td><strong>Unit</strong></td><td>The unit shown with the field — <code>cm</code>, <code>m</code>, <code>inch</code>.</td></tr><tr><td><strong>Default value</strong></td><td>A starting figure.</td></tr><tr><td><strong>Min</strong> / <strong>Max</strong></td><td>The smallest and largest you can produce on that axis.</td></tr></tbody></table>
 
-Delete the third row if your product only needs two measurements. Set **Min** and **Max** on every row you keep — they are what stop a customer ordering a size you cannot make.
+Delete the third row if your product needs only two measurements. Set **Min** and **Max** on every row you keep, so customers cannot order a size you cannot produce.
 
-Each axis can carry a different unit, which is useful for something like `Width` in centimetres and `Quantity of panels` as a plain count.
+Each axis can use a different unit. For example, `Width` can use centimeters while `Quantity of panels` uses a plain count.
 
 <!-- SCREENSHOT: type-dimension-values | App admin → builder → option Dimension | Bảng option values với 3 hàng X/Y/Z và các cột Label / Placeholder / Unit / Default value / Min / Max | Khoanh cả bảng -->
 
@@ -43,19 +43,19 @@ Each axis can carry a different unit, which is useful for something like `Width`
 
 ## Add-on price and Formula
 
-This is what makes Dimension worth using. Instead of a flat charge, the price is calculated from the measurements.
+Instead of a flat charge, the price is calculated from the measurements the customer enters.
 
 <table><thead><tr><th width="230">Field</th><th>What it holds</th></tr></thead><tbody><tr><td><strong>Add-on price</strong></td><td>A number the formula can refer to as <code>{{addon}}</code> — typically your rate per unit of area or length.</td></tr><tr><td><strong>Formula</strong></td><td>An expression using <code>x</code>, <code>y</code>, <code>z</code> for the three axes and <code>{{addon}}</code> for the price above.</td></tr></tbody></table>
 
-The placeholder in the field shows the shape of it: `x * y * {{addon}}`.
+The placeholder in the field shows the expected format: `x * y * {{addon}}`.
 
 <table><thead><tr><th width="230">Formula</th><th>Means</th><th>Example</th></tr></thead><tbody><tr><td><code>x * y * {{addon}}</code></td><td>Price by area</td><td>60 × 90 at a rate of 0.01 → $54.00</td></tr><tr><td><code>x * {{addon}}</code></td><td>Price by width alone</td><td>200 at a rate of 0.5 → $100.00</td></tr><tr><td><code>(x + y) * 2 * {{addon}}</code></td><td>Price by perimeter, for framing</td><td>60 and 90 at 0.2 → $120.00</td></tr><tr><td><code>x * y * z * {{addon}}</code></td><td>Price by volume</td><td>For boxes and packing</td></tr></tbody></table>
 
 {% hint style="warning" %}
-**A formula cannot contain subtraction.** A `-` is rejected while you edit, with "Formula cannot contain subtraction." Express the calculation with multiplication, addition, and division instead.
+**A formula cannot contain subtraction.** A `-` is rejected with the message "Formula cannot contain subtraction." Use multiplication, addition, and division instead.
 {% endhint %}
 
-Set your rate in **Add-on price** and keep the formula as simple as you can. Then test it: enter the smallest and largest sizes you allow and check the resulting price is one you are happy to accept.
+Set your rate in **Add-on price** and keep the formula simple. Then test it by entering the smallest and largest sizes you allow, and check that both prices are correct.
 
 Full detail and more worked examples: [Dimension add-on formula](../../add-on-pricing/dimension-formula.md).
 
@@ -63,7 +63,7 @@ Full detail and more worked examples: [Dimension add-on formula](../../add-on-pr
 
 <table><thead><tr><th width="250">Setting</th><th>What it does</th></tr></thead><tbody><tr><td><a href="../shared-settings/placeholder-and-help-text.md#help-text-position">Help text position</a></td><td>Where the help text sits.</td></tr><tr><td><a href="../shared-settings/direction-width-and-css.md#html-class">HTML class</a> / <a href="../shared-settings/direction-width-and-css.md#column-width">Column width</a></td><td>Styling hook and field width.</td></tr></tbody></table>
 
-Dimension has no prefix or suffix settings, because each axis carries its own **Unit**.
+Dimension has no prefix or suffix settings, because each axis has its own **Unit**.
 
 ## Personalizer Settings
 
@@ -77,15 +77,15 @@ Not supported.
 
 **A canvas print priced by area**
 
-Width and height in centimetres, min 20, max 150 each, formula `x * y * {{addon}}`.
+Width and height in centimeters, **Min** `20` and **Max** `150` on each, formula `x * y * {{addon}}`.
 
 **A frame priced by perimeter**
 
-Width and height in centimetres, formula `(x + y) * 2 * {{addon}}`, since a frame's cost follows the moulding length.
+Width and height in centimeters, formula `(x + y) * 2 * {{addon}}`, because the cost of a frame follows the length of the molding.
 
 **Cut-to-length fabric**
 
-One axis only — delete the other two rows — label `Length`, unit `m`, formula `x * {{addon}}`.
+Delete two of the three rows. Label the remaining axis `Length`, set the unit to `m`, and use the formula `x * {{addon}}`.
 
 ## Notes
 * Available on the Advanced plan.
@@ -93,5 +93,5 @@ One axis only — delete the other two rows — label `Length`, unit `m`, formul
 * No Personalizer support.
 * Up to three axes. For more measurements, add a second Dimension option or use [Number](number.md) fields.
 * The formula cannot contain subtraction.
-* Each measurement reaches the order as its own value, with the axis label, so your team sees `Width: 120` rather than a single combined string.
-* Set **Min** and **Max** on every axis. Without them a customer can order a size you cannot produce, at a price the formula happily calculates.
+* Each measurement is stored in the order as its own value with the axis label, for example `Width: 120`.
+* Set **Min** and **Max** on every axis. Without them, a customer can order a size you cannot produce, and the formula still calculates a price for it.

@@ -1,19 +1,19 @@
 ---
 description: >-
-  An email address field with built-in format validation — for digital gifts,
+  An email address field with built-in format validation, for digital gifts,
   proofs, and recipient notifications.
 icon: envelope
 ---
 
 # Email
 
-A field that accepts an email address and checks it looks like one before the shopper can add to cart.
+A field for an email address. The app checks the format before the customer can add the product to the cart.
 
-Use it when the email you need is **not** the buyer's own — a gift recipient, a second contact for a proof, a colleague to copy in. Shopify already collects the buyer's email at checkout, so do not ask for it twice.
+Use it when you need an email address other than the buyer's own, such as a gift recipient, a second contact for a proof, or a colleague to copy in. Shopify already collects the buyer's email at checkout, so do not ask for it again.
 
 ## What customers see
 
-A single-line field with your label above it. If they type something that is not a valid address, adding to cart is blocked with `Invalid email`.
+A single-line field with your label above it. If the entry is not a valid address, adding to cart is blocked and the message `Invalid email` is displayed.
 
 <!-- SCREENSHOT: type-email-storefront | Storefront → trang sản phẩm | Field Email với help text, và trạng thái lỗi "Invalid email" | Khoanh field và thông báo lỗi -->
 
@@ -29,15 +29,15 @@ A single-line field with your label above it. If they type something that is not
 
 ## Validation
 
-Format checking is built in and always on — there is no switch. An entry that is not a valid address blocks **Add to cart** with `Invalid email`, which you can reword per language in **Settings > Translations**. See [Translate widget text](../../translations/translate-widget-text.md).
+Format checking is always on and cannot be disabled. An invalid entry blocks **Add to cart** and displays `Invalid email`. You can change this message for each language under **Settings > Translations**. See [Translate widget text](../../translations/translate-widget-text.md).
 
-The check is on the format only. It confirms the address is shaped like an email; it cannot confirm the mailbox exists.
+The check applies to the format only. It confirms that the entry looks like an email address, but it cannot confirm that the mailbox exists.
 
 ## Add-on pricing
 
 Email cannot carry an add-on price.
 
-When the thing being paid for is the email delivery itself — a digital gift card sent to a recipient — put the charge on the [Switch](switch.md) or [Checkbox](../selection-types/checkbox.md) that turns the feature on. Then reveal the email field with [conditional logic](../../conditional-logic/README.md).
+If you charge for the delivery itself, such as a digital gift card sent to a recipient, add the price to the [Switch](switch.md) or [Checkbox](../selection-types/checkbox.md) that enables the feature. Then display the email field with [conditional logic](../../conditional-logic/README.md).
 
 ## Personalizer Settings
 
@@ -51,19 +51,19 @@ Not supported.
 
 **A second address for a proof**
 
-Not required, help text `Optional — we will copy this address on the artwork proof.`
+**Required field** off, help text `Optional. We will copy this address on the artwork proof.`
 
 **Notify me when the custom piece ships**
 
-Not required, prefix an envelope icon, help text explaining that Shopify already emails the buyer and this is for somebody else.
+**Required field** off, an envelope prefix icon, and help text explaining that Shopify already emails the buyer and this address is for someone else.
 
 ## Notes
 * Available on paid plans.
 * Works in Shopify POS.
 * Cannot carry an add-on price.
 * No Personalizer support.
-* Only one address per field. For several recipients, add several Email options, or use a [Textarea](textarea.md) and accept that you cannot validate the entries.
+* Only one address per field. For several recipients, add several Email options. A [Textarea](textarea.md) also works, but its entries are not validated.
 
 {% hint style="warning" %}
-An email address is personal data. Only collect it when you have a reason, say what the reason is in help text, and make sure your privacy policy covers it. See [Permissions and data](../../reference/permissions-and-data.md).
+An email address is personal data. Collect it only when you need it, state the reason in help text, and make sure your privacy policy covers it. See [Permissions and data](../../reference/permissions-and-data.md).
 {% endhint %}

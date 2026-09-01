@@ -1,19 +1,19 @@
 ---
 description: >-
-  A multi-line box for gift messages and instructions — the same settings as Text
-  plus alignment, width, and height in the live preview.
+  A multi-line field for gift messages and instructions, with the same settings as
+  Text plus alignment, width, and height in the live preview.
 icon: align-left
 ---
 
 # Textarea
 
-A multi-line box. Everything [Text](text.md) does, with room for line breaks.
+A multi-line field. It has the same settings as [Text](text.md), with room for line breaks.
 
-Use it whenever the answer is a sentence or more: a gift message, care instructions, a description of a repair, a brief for a custom piece.
+Use it when the answer is a sentence or longer, such as a gift message, care instructions, a description of a repair, or a brief for a custom piece.
 
 ## What customers see
 
-A taller box that accepts several lines, with your label above it and optionally a character counter below.
+A taller field that accepts several lines, with your label above it and an optional character counter below.
 
 <!-- SCREENSHOT: type-textarea-storefront | Storefront → trang sản phẩm | 1 field Textarea nhiều dòng đã nhập vài dòng chữ, có counter | Khoanh riêng field Textarea -->
 
@@ -25,21 +25,21 @@ Textarea has exactly the same settings as [Text](text.md), on both tabs:
 
 <table><thead><tr><th width="240">Tab</th><th>Settings</th></tr></thead><tbody><tr><td><strong>Basic Settings</strong></td><td><a href="../shared-settings/labels-and-visibility.md#label">Label</a>, <a href="../shared-settings/labels-and-visibility.md#name">Name</a>, <a href="../shared-settings/required-and-default-value.md#required-field">Required field</a>, <a href="../shared-settings/labels-and-visibility.md#hidden-label">Hidden label</a>, <a href="../shared-settings/limits.md#min-and-max-character">Min character</a> and <a href="../shared-settings/limits.md#min-and-max-character">Max character</a>, <a href="../shared-settings/placeholder-and-help-text.md#placeholder">Placeholder</a>, <a href="../shared-settings/placeholder-and-help-text.md#help-text">Help text</a>, <a href="../shared-settings/required-and-default-value.md#default-value">Default value</a>, <a href="../shared-settings/limits.md#character-counter">Character counter</a>, <a href="../shared-settings/conditional-logic-and-add-on-fields.md#price">Price</a>, <a href="../shared-settings/conditional-logic-and-add-on-fields.md#conditional-logic">Conditional logic</a></td></tr><tr><td><strong>Advanced Settings</strong></td><td><a href="../shared-settings/conditional-logic-and-add-on-fields.md#advanced-settings">Advanced settings</a> and <a href="../shared-settings/conditional-logic-and-add-on-fields.md#set-quantity">Set quantity</a>, <a href="../shared-settings/text-input-rules.md#allowed-value">Allowed value</a>, <a href="../shared-settings/text-input-rules.md#text-transform">Text transform</a>, <a href="../shared-settings/placeholder-and-help-text.md#help-text-position">Help text position</a>, <a href="../shared-settings/prefix-suffix-and-icons.md#suffix">Suffix</a>, <a href="../shared-settings/prefix-suffix-and-icons.md#prefix">Prefix</a>, <a href="../shared-settings/direction-width-and-css.md#html-class">HTML class</a>, <a href="../shared-settings/direction-width-and-css.md#column-width">Column width</a></td></tr></tbody></table>
 
-## The one real difference: the Personalizer
+## Personalizer Settings
 
-Text and Textarea diverge in the live preview, because one is a line and the other is a block.
+Text and Textarea behave differently in the live preview, because Text is a single line and Textarea is a block.
 
 <table><thead><tr><th width="250">Personalizer setting</th><th width="130">Text</th><th>Textarea</th></tr></thead><tbody><tr><td>Text color, Font size, Font style, Font family</td><td>Yes</td><td>Yes</td></tr><tr><td><strong>Text alignment</strong></td><td>No</td><td><strong>Yes</strong> — left, centre, or right</td></tr><tr><td><strong>Width</strong> and <strong>Height</strong></td><td>No</td><td><strong>Yes</strong> — the block the text wraps inside</td></tr><tr><td><strong>Curve</strong></td><td><strong>Yes</strong></td><td>No</td></tr><tr><td><strong>Auto-fit max width</strong></td><td><strong>Yes</strong></td><td>No</td></tr><tr><td>Position, opacity, rotation</td><td>Yes</td><td>Yes</td></tr><tr><td>Text effects</td><td>Yes</td><td>Yes</td></tr><tr><td>Clip area, customer controls</td><td>Yes</td><td>Yes</td></tr></tbody></table>
 
-That means a Textarea layer is a text box you size and align, and the customer's lines wrap inside it. A Text layer is a single line you can bend along a curve.
+A Textarea layer is a block that you size and align, and the customer's lines wrap inside it. A Text layer is a single line that you can bend along a curve.
 
 See [Text layers](../../personalizer/layer-settings/text-layers.md) and [Position, size, and rotation](../../personalizer/layer-settings/position-size-rotation.md).
 
 ## Add-on pricing
 
-Identical to Text, including the **Per character** mode. Bear in mind that a Textarea invites longer entries, so per-character pricing on a Textarea can add up fast — set a **Max character** as a ceiling.
+Add-on pricing works the same way as on Text, including the **Per character** mode. Customers usually enter more text in a Textarea, so a per-character charge can become large. Set a **Max character** value to limit it.
 
-For a gift message you generally want no charge at all, or one flat fee. See [Advanced add-on modes](../../add-on-pricing/advanced-add-on-modes.md).
+For a gift message, use no charge or a single flat fee. See [Advanced add-on modes](../../add-on-pricing/advanced-add-on-modes.md).
 
 ## Examples
 
@@ -49,15 +49,15 @@ For a gift message you generally want no charge at all, or one flat fee. See [Ad
 
 **Brief for a custom commission**
 
-Min character `50` so you get something usable, max character `1000`, required on, help text `Tell us about the piece you have in mind — at least a couple of sentences.`
+Min character `50`, max character `1000`, **Required field** on, help text `Tell us about the piece you have in mind. Two or three sentences is enough.`
 
 **Printed poem on a print**
 
-Max character `400`, **Personalizer** on with **Text alignment** centre and a **Width** and **Height** matching the printable area.
+Max character `400`, **Personalizer** on, **Text alignment** set to center, and **Width** and **Height** matching the printable area.
 
 ## Notes
 * Available on all plans.
 * Works in Shopify POS.
 * Line breaks are preserved and travel through to the order.
-* A very long entry is fine for the order but may not fit your printing area — set **Max character** to what you can actually produce.
+* A long entry is accepted on the order but may not fit your printing area. Set **Max character** to what you can produce.
 * **Allowed value** and **Text transform** apply to the whole entry, including across line breaks.

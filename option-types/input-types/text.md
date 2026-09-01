@@ -1,23 +1,21 @@
 ---
 description: >-
-  A single-line box for names, engravings, and short messages — with character
+  A single-line field for names, engravings, and short messages — with character
   limits, input rules, per-character pricing, and live preview support.
 icon: font
 ---
 
 # Text
 
-A one-line box the customer types into. It is the most used type in the app, and the one most personalisation is built on.
+The customer types directly into the field. It is the most commonly used option type in the app and the foundation for many personalization setups.
 
-Use it for anything short and singular: a name to engrave, two initials, a team number, a reference. For anything longer than a line, use [Textarea](textarea.md).
+Use it for anything short and singular: a name to engrave, two initials, a team number, or a reference. For text longer than one line, use [Textarea](textarea.md) instead.
 
 ## What customers see
 
 A single-line field with your label above it, optionally with a character counter, a prefix, and a suffix.
 
-<!-- SCREENSHOT: type-text-storefront | Storefront → trang sản phẩm | 1 field Text có label, placeholder, help text và character counter | Khoanh riêng field Text -->
-
-<figure><img src="../../.gitbook/assets/placeholder.png" alt="A text field on a storefront product page with a label, placeholder, and character counter"><figcaption><p>A text option with a character counter and help text.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2026-09-01_08-27-43.png" alt="A text field on a storefront product page with a label, placeholder, and character counter"><figcaption><p>A text option with a character counter and help text.</p></figcaption></figure>
 
 ## Basic Settings
 
@@ -29,29 +27,29 @@ A single-line field with your label above it, optionally with a character counte
 
 ## Add-on pricing
 
-The price belongs to the whole option, since there is one answer. All three add-on modes are available — link an existing product, generate one, or just add a price. See [Add-on pricing](../../add-on-pricing/README.md).
+The price applies to the whole option because there is only one answer. All three add-on modes are available — link an existing product, generate one automatically, or simply add a price. See [Add-on pricing](../../add-on-pricing/).
 
-Text and Textarea are the only two types with the **Per character** advanced mode, which charges by how many characters the customer typed. It is the natural way to price engraving:
+**Text** and **Textarea** are the only two types that support the **Per character** advanced mode, which charges based on the number of characters the customer enters. It is a natural way to price engraving:
 
 <table><thead><tr><th width="290">Configuration</th><th>Result for "Forever yours" (13 characters)</th></tr></thead><tbody><tr><td><strong>Price</strong> $0.50, mode <strong>Per character</strong></td><td>$6.50</td></tr><tr><td><strong>Price</strong> $5.00, mode <strong>Default</strong></td><td>$5.00 whatever they type</td></tr><tr><td><strong>Price</strong> $5.00, mode <strong>One time charge</strong></td><td>$5.00 even if they buy three bracelets</td></tr></tbody></table>
 
-Pair **Per character** with a **Max character** so the charge has a ceiling. See [Advanced add-on modes](../../add-on-pricing/advanced-add-on-modes.md).
+Pair **Per character** with a **Max character** so the charge has a clear ceiling. See [Advanced add-on modes](../../add-on-pricing/advanced-add-on-modes.md).
 
 ## Personalizer Settings
 
-Text is fully supported by the live preview: the customer's words appear on the product photo as they type.
+**Text** is fully supported by the live preview: the customer’s text appears on the product photo as they type.
 
-Its personalizer settings are colour, font size, font style, font family — default, a Google font, or one of your uploaded fonts — plus position, opacity, rotation, five text effects, a clip area, and which transformations the customer may apply.
+Its personalizer settings include color, font size, font style, font family — including a default font, a Google font, or one of your uploaded fonts — as well as position, opacity, rotation, five text effects, a clip area, and the transformations customers are allowed to apply.
 
-Two settings are specific to Text and Number, because they are single-line: **Curve**, which bends the text along an arc, and **Auto-fit max width**, which shrinks the font when the text gets too long for the space. See [Curve and auto-fit width](../../personalizer/layer-settings/curve-and-auto-fit.md).
+Two settings are specific to **Text** and **Number** because they are single-line types: **Curve**, which bends the text along an arc, and **Auto-fit max width**, which reduces the font size when the text becomes too long for the available space. See [Curve and auto-fit width](../../personalizer/layer-settings/curve-and-auto-fit.md).
 
-Full detail: [Product Personalizer](../../personalizer/README.md).
+Full detail: [Product Personalizer](../../personalizer/).
 
 ## Examples
 
 **Engraving with a hard limit**
 
-<table><thead><tr><th width="270">Setting</th><th>Value</th></tr></thead><tbody><tr><td>Label / Name</td><td><code>Engraving text</code></td></tr><tr><td>Max character</td><td><code>15</code></td></tr><tr><td>Character counter</td><td><strong>Show</strong></td></tr><tr><td>Allowed value</td><td><strong>Letters &amp; numbers</strong></td></tr><tr><td>Text transform</td><td><strong>Capitalized</strong></td></tr><tr><td>Price</td><td><strong>Add price</strong> $5.00, mode <strong>Default</strong></td></tr><tr><td>Help text</td><td><code>Up to 15 letters and numbers. Engraved items cannot be returned.</code></td></tr></tbody></table>
+<table><thead><tr><th width="270">Setting</th><th>Value</th></tr></thead><tbody><tr><td>Label / Name</td><td><code>Engraving text</code></td></tr><tr><td>Max character</td><td><code>15</code></td></tr><tr><td>Character counter</td><td><strong>Show</strong></td></tr><tr><td>Allowed value</td><td><strong>Letters &#x26; numbers</strong></td></tr><tr><td>Text transform</td><td><strong>Capitalized</strong></td></tr><tr><td>Price</td><td><strong>Add price</strong> $5.00, mode <strong>Default</strong></td></tr><tr><td>Help text</td><td><code>Up to 15 letters and numbers. Engraved items cannot be returned.</code></td></tr></tbody></table>
 
 **Two initials for a monogram**
 
@@ -62,8 +60,9 @@ Min character `2`, max character `3`, **Text transform** UPPERCASE, **Allowed va
 Max character `2`, **Allowed value** Letters & numbers, placeholder `10`, **Column width** 25% so it sits beside the name field.
 
 ## Notes
+
 * Available on all plans.
 * Works in Shopify POS.
 * Character limits count spaces and punctuation.
 * Validation runs on **Add to cart**, not while typing — the counter is what gives live feedback.
-* An empty non-required Text option submits nothing, and no empty line appears on the order.
+* An empty, non-required **Text** option submits nothing, and no empty line is added to the order.

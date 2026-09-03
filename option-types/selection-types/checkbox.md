@@ -22,7 +22,7 @@ A list with a tick box beside each value. With **Swatch style** set, each value 
 <table><thead><tr><th width="250">Setting</th><th>What it does</th></tr></thead><tbody><tr><td><a href="../shared-settings/labels-and-visibility.md#label">Label</a> / <a href="../shared-settings/labels-and-visibility.md#name">Name</a></td><td>Customer-facing text, and the name on the order.</td></tr><tr><td><a href="../shared-settings/required-and-default-value.md#required-field">Required field</a></td><td>At least one value must be ticked.</td></tr><tr><td><a href="../shared-settings/labels-and-visibility.md#hidden-label">Hidden label</a></td><td>Hides the label.</td></tr><tr><td><a href="../shared-settings/swatch-style-and-previews.md#swatch-style">Swatch style</a></td><td><strong>Default</strong>, <strong>Color</strong>, or <strong>Image</strong>.</td></tr><tr><td><strong>Option values</strong></td><td>The choices, with prices and their own help text. See <a href="../../option-sets/option-values.md">Working with option values</a>.</td></tr><tr><td><a href="../shared-settings/limits.md#min-and-max-selections">Min selections</a> / <a href="../shared-settings/limits.md#min-and-max-selections">Max selections</a></td><td>How many they must and may tick. Setting both the same means exactly that many.</td></tr><tr><td><a href="../shared-settings/placeholder-and-help-text.md#help-text">Help text</a></td><td>Guidance for the whole option.</td></tr><tr><td><a href="../shared-settings/required-and-default-value.md#default-value">Default value</a></td><td>Pre-ticks one or more values.</td></tr><tr><td><a href="../shared-settings/conditional-logic-and-add-on-fields.md#conditional-logic">Conditional logic</a></td><td>Show or hide based on other choices.</td></tr></tbody></table>
 
 {% hint style="info" %}
-**Min selections** and **Max selections** appear straight away on a Checkbox, unlike the other multi-select types where they wait for **Allow multiple**. That is because a Checkbox is always multi-select.
+**Min selections** and **Max selections** are displayed immediately for a Checkbox, unlike other multi-select types where they only appear after **Allow multiple** is enabled. This is because a Checkbox is inherently a multi-select option.
 {% endhint %}
 
 ## Advanced Settings
@@ -45,11 +45,13 @@ See [Advanced add-on modes](../../add-on-pricing/advanced-add-on-modes.md).
 
 Supported as an **image layer**: ticked values can each draw an image onto the product photo. Settings are image shape, background mode, size, position, rotation, clip area, and customer controls. See [Image layers](../../personalizer/layer-settings/image-layers.md).
 
-Bear in mind that several ticks means several layers, which can overlap. Use the position settings to place them deliberately.
+Bear in mind that several ticks mean several layers, which can overlap. Use the position settings to place them deliberately.
 
 ## Checkbox or Switch?
 
-A [Switch](../input-types/switch.md) is one yes-or-no with the price on the option. A Checkbox is a list with the price on each value. Use a Switch for exactly one extra, a Checkbox from two upwards.
+A [Switch](../input-types/switch.md) is for a single yes-or-no choice, with one price for the option. A **Checkbox** is for selecting from a list, with a separate price for each value.
+
+Use a **Switch** when the customer can select exactly one extra, and a **Checkbox** when they can select two or more extras.
 
 ## Examples
 

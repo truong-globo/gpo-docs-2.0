@@ -15,9 +15,7 @@ Use it for delivery dates, event dates, appointment slots, and subscription star
 
 A field that opens a calendar, a clock, or both. Dates you have blocked cannot be selected.
 
-<!-- SCREENSHOT: type-datetime-storefront | Storefront → trang sản phẩm | Field Date đang mở calendar, có ngày bị chặn (cuối tuần) không chọn được | Khoanh calendar và vài ngày bị chặn -->
-
-<figure><img src="../../.gitbook/assets/placeholder.png" alt="A date picker open on a storefront product page with weekend dates unavailable"><figcaption><p>Blocked dates are visibly unselectable, so shoppers cannot choose a day you cannot deliver.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2026-09-03_10-12-39.png" alt="A date picker open on a storefront product page with weekend dates unavailable"><figcaption><p>Blocked dates are visibly unselectable, so shoppers cannot choose a day you cannot deliver.</p></figcaption></figure>
 
 ## Basic Settings
 
@@ -29,7 +27,7 @@ There is no default value and no add-on price on this type.
 
 ### Format and mode
 
-<table><thead><tr><th width="200">Setting</th><th width="230">Choices</th><th>Notes</th></tr></thead><tbody><tr><td><strong>Format</strong></td><td><strong>Date</strong>, <strong>Time</strong>, <strong>Date &amp; time</strong></td><td>Default <strong>Date</strong>. Decides what the picker offers, and which settings below apply.</td></tr><tr><td><strong>Mode</strong></td><td><strong>Single</strong>, <strong>Range</strong></td><td>Default <strong>Single</strong>. <strong>Range</strong> lets the shopper pick a start and end date — for hire periods or holiday cover. Only for <strong>Date</strong> and <strong>Date &amp; time</strong>.</td></tr><tr><td><strong>Date format</strong></td><td><code>Y-m-d</code>, <code>d-m-Y</code>, <code>m-d-Y</code>, <code>Y.m.d</code>, <code>d.m.Y</code>, <code>m.d.Y</code>, <code>Y/m/d</code>, <code>d/m/Y</code>, <code>m/d/Y</code></td><td>Default <code>Y-m-d</code>. Choose the order your customers read dates in — <code>d/m/Y</code> in most of Europe, <code>m/d/Y</code> in the United States.</td></tr><tr><td><strong>Time format</strong></td><td><strong>12h</strong>, <strong>24h</strong></td><td>Default <strong>12h</strong>. Only for <strong>Time</strong> and <strong>Date &amp; time</strong>.</td></tr></tbody></table>
+<table><thead><tr><th width="200">Setting</th><th width="230">Choices</th><th>Notes</th></tr></thead><tbody><tr><td><strong>Format</strong></td><td><strong>Date</strong>, <strong>Time</strong>, <strong>Date &#x26; time</strong></td><td>Default <strong>Date</strong>. Decides what the picker offers, and which settings below apply.</td></tr><tr><td><strong>Mode</strong></td><td><strong>Single</strong>, <strong>Range</strong></td><td>Default <strong>Single</strong>. <strong>Range</strong> lets the shopper pick a start and end date — for hire periods or holiday cover. Only for <strong>Date</strong> and <strong>Date &#x26; time</strong>.</td></tr><tr><td><strong>Date format</strong></td><td><code>Y-m-d</code>, <code>d-m-Y</code>, <code>m-d-Y</code>, <code>Y.m.d</code>, <code>d.m.Y</code>, <code>m.d.Y</code>, <code>Y/m/d</code>, <code>d/m/Y</code>, <code>m/d/Y</code></td><td>Default <code>Y-m-d</code>. Choose the order your customers read dates in — <code>d/m/Y</code> in most of Europe, <code>m/d/Y</code> in the United States.</td></tr><tr><td><strong>Time format</strong></td><td><strong>12h</strong>, <strong>24h</strong></td><td>Default <strong>12h</strong>. Only for <strong>Time</strong> and <strong>Date &#x26; time</strong>.</td></tr></tbody></table>
 
 {% hint style="warning" %}
 Select a **Date format** that matches your market, and repeat the format in the **Placeholder**. For example, `03/04` can be read as 3 April or as 4 March, depending on the customer.
@@ -55,13 +53,13 @@ Then choose any combination of these:
 
 These two settings appear when **Disable past dates** is on. Use them to require a notice period, and to accept same-day orders only before a cut-off time.
 
-<table><thead><tr><th width="290">Setting</th><th>What it does</th></tr></thead><tbody><tr><td><strong>Enable after X days</strong></td><td>How many days from today before the first selectable date. Counted from the current date, minimum <code>0</code>. Set <code>3</code> and the earliest choice is three days out — your production lead time, enforced.</td></tr><tr><td><strong>Disable current date after X time</strong></td><td>A cut-off time. After it, today stops being selectable. Set it to your dispatch cut-off so a 5pm order cannot ask for same-day.</td></tr></tbody></table>
+<table><thead><tr><th width="290">Setting</th><th>What it does</th></tr></thead><tbody><tr><td><strong>Enable after X days</strong></td><td>Sets how many days from today before the first selectable date. The minimum is <code>0</code>. For example, setting this to <code>3</code> makes the earliest selectable date three days from today, giving you time to prepare the order.</td></tr><tr><td><strong>Disable current date after X time</strong></td><td>Sets the cut-off time after which today is no longer selectable. For example, if you set it to <code>5:00 PM</code>, orders placed after 5 PM cannot select the current date for delivery or dispatch.</td></tr></tbody></table>
 
 ### Time zone
 
 <table><thead><tr><th width="290">Setting</th><th>What it does</th></tr></thead><tbody><tr><td><strong>Custom time zone</strong></td><td>Turns on an explicit time zone rather than relying on the shopper's device.</td></tr><tr><td><strong>Select time zone</strong></td><td>From GMT-12:00 to GMT+14:00.</td></tr></tbody></table>
 
-Enable this setting when a cut-off time matters. Without it, the current date and time are read from the customer's device, so a customer in another time zone can select a date you have already closed.
+Enable this setting when your cut-off time needs to be enforced consistently. Without it, the current date and time are based on the customer’s device, so a customer in another time zone could still select a date that has already passed your cut-off.
 
 ### Calendar language
 
@@ -77,7 +75,7 @@ This setting translates the month and day names in the calendar. It is separate 
 
 Neither is supported. A date cannot carry a price and does not appear in the live preview.
 
-To charge for a date-related choice, such as express delivery or a weekend slot, add the price to a separate [Switch](switch.md), [Radio button](../selection-types/radio-button.md), or [Checkbox](../selection-types/checkbox.md). Then display the date field with [conditional logic](../../conditional-logic/README.md).
+To charge for a date-related choice, such as express delivery or a weekend slot, add the price to a separate [Switch](switch.md), [Radio button](../selection-types/radio-button.md), or [Checkbox](../selection-types/checkbox.md). Then display the date field with [conditional logic](../../conditional-logic/).
 
 ## Examples
 
@@ -86,6 +84,7 @@ To charge for a date-related choice, such as express delivery or a weekend slot,
 <table><thead><tr><th width="290">Setting</th><th>Value</th></tr></thead><tbody><tr><td>Format</td><td><strong>Date</strong></td></tr><tr><td>Mode</td><td><strong>Single</strong></td></tr><tr><td>Date format</td><td><code>d/m/Y</code></td></tr><tr><td>Limit date picker</td><td>On, <strong>Disabling dates</strong></td></tr><tr><td>Disable past dates</td><td>On, <strong>Enable after X days</strong> <code>3</code></td></tr><tr><td>Days of week</td><td>Saturday, Sunday</td></tr><tr><td>Specific dates</td><td>Your public holidays</td></tr><tr><td>Custom time zone</td><td>On, your own zone</td></tr><tr><td>Help text</td><td><code>Orders take 3 working days to make. We do not deliver at weekends.</code></td></tr></tbody></table>
 
 <details>
+
 <summary>More examples: appointments, hire periods, cut-off times</summary>
 
 **Appointments on Tuesdays and Thursdays only**
@@ -107,6 +106,7 @@ To charge for a date-related choice, such as express delivery or a weekend slot,
 </details>
 
 ## Notes
+
 * Available on paid plans. **Limit date picker**, **Range** mode, and the custom calendar language may require a higher plan. See [Compare plans](../../plans/compare-plans.md).
 * Works in Shopify POS.
 * Cannot carry an add-on price, and has no Personalizer support.

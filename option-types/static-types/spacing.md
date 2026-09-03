@@ -5,7 +5,7 @@ icon: arrows-up-down
 
 # Spacing
 
-A gap. Nothing is drawn — it just makes room.
+A gap that adds empty space between elements. Nothing is displayed; it simply creates room.
 
 ## What customers see
 
@@ -21,16 +21,16 @@ Nothing, which is the point. The options above and below it have more space betw
 
 ## When to use it
 
-* To give an important field room, so it does not read as one item in a list.
-* Before a confirmation checkbox, so it does not get swept past.
-* To even out spacing where a [Divider](divider.md) would be too heavy.
-* Above a group that follows a long list, so the two do not run together.
+* **Give an important field more room.** This helps it stand out instead of reading as just another item in the list.
+* **Before a confirmation checkbox.** Extra space makes it less likely to be overlooked.
+* **Balance spacing where a** [Divider](divider.md) **feels too heavy.**
+* **Separate a group after a long list.** This keeps the groups from running together.
 
 ## When not to use it
 
 * Instead of a [Section](section.md). If the fields belong together, group them properly.
-* As a stack of several Spacing options. Use one with a larger height.
-* To fix general widget spacing. That belongs in [custom CSS](../../storefront/custom-css.md), so it applies everywhere consistently.
+* **As a stack of Spacing options.** Use one Spacing option with a larger height instead.
+* To fix general widget spacing. Use [custom CSS](../../storefront/custom-css.md) so the spacing is applied consistently across the widget.
 
 ## Examples
 
@@ -47,6 +47,7 @@ Nothing, which is the point. The options above and below it have more space betw
 Conditional logic matching the group below it, so you do not get an unexplained gap when that group is hidden.
 
 ## Notes
+
 * Available on all plans.
 * Works in Shopify POS.
 * Collects nothing, so it never reaches the cart or order.

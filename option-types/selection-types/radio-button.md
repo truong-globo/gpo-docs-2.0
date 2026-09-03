@@ -1,7 +1,7 @@
 ---
 description: >-
-  A vertical list where exactly one choice can be made — the clearest option type
-  when values need explaining.
+  A vertical list where exactly one choice can be made — the clearest option
+  type when values need explaining.
 icon: circle-dot
 ---
 
@@ -15,21 +15,19 @@ It is single-select by nature — there is no **Allow multiple**. For several ch
 
 A vertical list with a selectable marker beside each value. With **Swatch style** set, each value can also show a colour chip or a picture.
 
-<!-- SCREENSHOT: type-radio-storefront | Storefront → trang sản phẩm | Radio list dọc, mỗi value có help text riêng, 1 value đang chọn | Khoanh riêng nhóm radio -->
-
-<figure><img src="../../.gitbook/assets/placeholder.png" alt="A vertical radio button list on a storefront product page with help text under each value"><figcaption><p>Per-value help text is what radio buttons do better than any other type.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2026-09-03_11-35-59.png" alt="A vertical radio button list on a storefront product page with help text under each value"><figcaption></figcaption></figure>
 
 ## Basic Settings
 
 <table><thead><tr><th width="250">Setting</th><th>What it does</th></tr></thead><tbody><tr><td><a href="../shared-settings/labels-and-visibility.md#label">Label</a> / <a href="../shared-settings/labels-and-visibility.md#name">Name</a></td><td>Customer-facing text, and the name on the order.</td></tr><tr><td><a href="../shared-settings/required-and-default-value.md#required-field">Required field</a></td><td>Blocks add to cart until one is chosen.</td></tr><tr><td><a href="../shared-settings/labels-and-visibility.md#hidden-label">Hidden label</a></td><td>Hides the label.</td></tr><tr><td><a href="../shared-settings/swatch-style-and-previews.md#swatch-style">Swatch style</a></td><td><strong>Default</strong>, <strong>Color</strong>, or <strong>Image</strong>.</td></tr><tr><td><strong>Option values</strong></td><td>The choices, with prices and their own help text. See <a href="../../option-sets/option-values.md">Working with option values</a>.</td></tr><tr><td><a href="../shared-settings/placeholder-and-help-text.md#help-text">Help text</a></td><td>Guidance for the whole option.</td></tr><tr><td><a href="../shared-settings/required-and-default-value.md#default-value">Default value</a></td><td>Preselects one value.</td></tr><tr><td><a href="../shared-settings/conditional-logic-and-add-on-fields.md#conditional-logic">Conditional logic</a></td><td>Show or hide based on other choices.</td></tr></tbody></table>
 
-Radio button has no placeholder — there is no closed state to put one in.
+Radio button has no placeholder.
 
 ## Advanced Settings
 
 <table><thead><tr><th width="250">Setting</th><th>What it does</th></tr></thead><tbody><tr><td><a href="../shared-settings/conditional-logic-and-add-on-fields.md#advanced-settings">Advanced settings</a> / <a href="../shared-settings/conditional-logic-and-add-on-fields.md#set-quantity">Set quantity</a></td><td>How the add-on scales with quantity.</td></tr><tr><td><a href="../shared-settings/collapsible-layouts-and-sliders.md#enable-custom-layout">Enable custom layout</a></td><td>Unlocks the collapsible layouts.</td></tr><tr><td><a href="../shared-settings/collapsible-layouts-and-sliders.md#layout-type">Layout type</a></td><td><strong>Expand</strong> or <strong>Collapse</strong>. No slider on this type.</td></tr><tr><td><a href="../shared-settings/collapsible-layouts-and-sliders.md#scroll-type">Scroll type</a>, <strong>Scroll height</strong>, <strong>Number of option values</strong></td><td>Give a long list its own scroll area.</td></tr><tr><td><a href="../shared-settings/direction-width-and-css.md#direction-style">Direction style</a></td><td><strong>Vertical</strong> or <strong>Horizontal</strong>.</td></tr><tr><td><a href="../shared-settings/out-of-stock-options.md">Out of stock options</a></td><td>How sold-out values look.</td></tr><tr><td><a href="../shared-settings/placeholder-and-help-text.md#help-text-position">Help text position</a></td><td>Where the option-level help text sits.</td></tr><tr><td><a href="../shared-settings/direction-width-and-css.md#html-class">HTML class</a> / <a href="../shared-settings/direction-width-and-css.md#column-width">Column width</a></td><td>Styling hook and field width.</td></tr></tbody></table>
 
-## Why per-value help text matters here
+## Why per-value help text matters
 
 Radio buttons support help text on each individual value, and because the list is always open, that text is always visible. No other single-select type shows explanation and choice together as well.
 
@@ -58,7 +56,7 @@ Prices belong to each value. All three modes per value, plus the option-level **
 
 Because only one value can be selected, the pricing is straightforward — exactly one charge, or none. That makes Radio button a good type for tiered upgrades where the customer picks one level.
 
-See [Add-on pricing](../../add-on-pricing/README.md).
+See [Add-on pricing](../../add-on-pricing/).
 
 ## Radio button, Button, or Dropdown?
 
@@ -83,6 +81,7 @@ Values `Basic`, `Plus`, `Premium`, each with help text listing what it includes,
 **Enable custom layout** on, **Layout type** **Collapse**, **Scroll type** **By number of option values** showing eight.
 
 ## Notes
+
 * Available on all plans.
 * Works in Shopify POS.
 * Single-select only.

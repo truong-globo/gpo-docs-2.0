@@ -15,7 +15,7 @@ Use it for delivery contact numbers, appointment bookings, and other cases where
 
 A phone field with your label above it. When validation is enabled, a country flag and dialing code are displayed at the start of the field, and the customer can change the country.
 
-<figure><img src="../../.gitbook/assets/2026-09-03_10-03-45.png" alt="A phone field on a storefront product page with a country flag and dialling code"><figcaption><p>With validation on, the field shows a country flag and dialling code.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2026-09-03_15-49-30.png" alt="A phone field on a storefront product page with a country flag and dialling code"><figcaption><p>With validation on, the field shows a country flag and dialling code.</p></figcaption></figure>
 
 ## Basic Settings
 

@@ -15,7 +15,7 @@ Use it when you need an email address other than the buyer's own, such as a gift
 
 A single-line field with your label above it. If the entry is not a valid address, adding to cart is blocked and the message `Invalid email` is displayed.
 
-<figure><img src="../../.gitbook/assets/2026-09-03_10-08-18.png" alt="An email field on a storefront product page showing the invalid email message"><figcaption><p>Format validation is built in — there is no setting to turn it on.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2026-09-03_15-50-17.png" alt="An email field on a storefront product page showing the invalid email message"><figcaption><p>Format validation is built in — there is no setting to turn it on.</p></figcaption></figure>
 
 ## Basic Settings
 

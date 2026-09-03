@@ -1,5 +1,7 @@
 ---
-description: Several panels of content behind tabs — care, delivery, and returns in one place without lengthening the page.
+description: >-
+  Several panels of content behind tabs — care, delivery, and returns in one
+  place without lengthening the page.
 icon: folder-open
 ---
 
@@ -13,9 +15,7 @@ Use it when you have three or four things to say and no room to say them all at 
 
 A row or column of tab titles with one panel open. Selecting another title switches panels.
 
-<!-- SCREENSHOT: type-tabs-storefront | Storefront → trang sản phẩm | Tabs ngang với 3 tab, tab đầu đang mở với nội dung | Khoanh hàng tab và panel -->
-
-<figure><img src="../../.gitbook/assets/placeholder.png" alt="A horizontal set of tabs on a storefront product page with the first panel open"><figcaption><p>Three panels in the height of one.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2026-09-03_15-57-56.png" alt="A horizontal set of tabs on a storefront product page with the first panel open"><figcaption></figcaption></figure>
 
 ## Settings
 
@@ -58,6 +58,7 @@ Two tabs, `Materials` and `Specification`, each with a short formatted list. **V
 Tabs `How it works`, `Lead times`, `What we cannot engrave`, shown by conditional logic only when the shopper has chosen to personalise.
 
 ## Notes
+
 * Available on the Advanced plan.
 * Works in Shopify POS.
 * Collects nothing, so it never reaches the cart or order.

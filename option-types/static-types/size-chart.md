@@ -1,21 +1,21 @@
 ---
-description: A size table built from one of thirteen presets or from scratch, opened from a link on the product page.
+description: >-
+  A size table built from one of thirteen presets or from scratch, opened from a
+  link on the product page.
 icon: table-cells
 ---
 
 # Size chart
 
-A size table. Start from one of thirteen presets for common garment types, or build your own, and it opens from a link on the product page.
+A size table. Start with one of thirteen presets for common garment types, or build your own. It opens from a link on the product page, so shoppers can check their measurements without taking up space in the main form.
 
-If you sell anything worn, this is the static type that most reduces returns.
+If you sell clothing, shoes, or other wearable products, a size chart can help shoppers choose the right fit and reduce size-related returns.
 
 ## What customers see
 
 A link with your chart header. Selecting it opens the table at the width you set.
 
-<!-- SCREENSHOT: type-sizechart-storefront | Storefront → trang sản phẩm | Link mở size chart và bảng size đã mở | Khoanh link và bảng -->
-
-<figure><img src="../../.gitbook/assets/placeholder.png" alt="A size chart opened from a link on a storefront product page"><figcaption><p>A size chart in the option form, where the shopper is actually choosing a size.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2026-09-03_15-55-57.png" alt="A size chart opened from a link on a storefront product page"><figcaption><p>A size chart in the option form, where the shopper is actually choosing a size.</p></figcaption></figure>
 
 ## Basic Settings
 
@@ -34,7 +34,7 @@ Selecting a preset fills the table with a standard set of measurements for that 
 **Blank** gives you an empty table to build from scratch.
 
 {% hint style="warning" %}
-A preset is a starting point, not your sizing. Replace every number with your own measurements — a chart that does not match what you ship causes the returns it was meant to prevent.
+A preset is only a starting point, not your actual sizing. Replace every measurement with your own. A size chart that does not match the products you ship can cause the very returns it was meant to prevent.
 {% endhint %}
 
 {% stepper %}
@@ -69,10 +69,6 @@ Wide tables are hard on small screens. If it is cramped, reduce the number of co
 {% endstep %}
 {% endstepper %}
 
-<!-- SCREENSHOT: type-sizechart-presets | App admin → builder → option Size chart | Danh sách 13 preset dạng icon để chọn | Khoanh vùng chọn preset -->
-
-<figure><img src="../../.gitbook/assets/placeholder.png" alt="The size chart preset picker in the builder showing the garment type options"><figcaption><p>Thirteen presets, including Blank for building your own.</p></figcaption></figure>
-
 ## Where to put it
 
 Directly beside the size option, not at the bottom of the form. A shopper deciding between M and L wants the chart in that moment, and will not scroll to find it.
@@ -97,8 +93,9 @@ One Size chart for clothing measurements and a second for shoe sizes, each shown
 From the **Pet Collar** preset, with your own neck measurements and a note on how to measure.
 
 ## Notes
+
 * Available on the Advanced plan.
 * Works in Shopify POS.
 * Collects nothing, so it never reaches the cart or order.
-* Content is translatable per storefront language — worth doing, since units differ by market. See [Translate option content](../../translations/translate-option-content.md).
+* Content is translatable per storefront language. See [Translate option content](../../translations/translate-option-content.md).
 * One table per Size chart option. For several tables, add several options and reveal them with conditional logic.

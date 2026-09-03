@@ -15,7 +15,7 @@ It has more presentation settings than any other selection type, because a grid 
 
 A grid of picture swatches at the size you set. Hovering shows the value's name, and optionally a zoomed version of the image. Long lists can be shown as a slider.
 
-<figure><img src="../../.gitbook/assets/2026-09-03_13-30-15.png" alt="A grid of image swatches on a storefront product page with a zoomed tooltip on the hovered swatch"><figcaption><p>Small swatches plus a zooming tooltip is how you show detail without a huge grid.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2026-09-03_13-30-15.png" alt="A grid of image swatches on a storefront product page with a zoomed tooltip on the hovered swatch"><figcaption></figcaption></figure>
 
 ## Basic Settings
 
@@ -49,12 +49,12 @@ See [Add-on pricing](../../add-on-pricing/).
 
 ## Preparing your images
 
-The presentation settings can only do so much with inconsistent source images. Before uploading:
+Presentation settings can only do so much with inconsistent source images. Before uploading:
 
-* Crop every image to the same proportions. Mismatched crops make a grid look untidy however you size it.
-* Photograph or scan at the same distance and lighting, so colours are comparable.
-* Upload at a size larger than your tooltip dimensions, or the zoomed version will be soft.
-* Keep file sizes reasonable — a grid of forty large images is a slow product page.
+* Crop every image to the same proportions. Mismatched crops can make a grid look untidy, regardless of how you size it.
+* Photograph or scan images from the same distance and under similar lighting so colors are consistent.
+* Upload images at a size larger than your tooltip dimensions. Otherwise, the zoomed version may appear blurry.
+* Keep file sizes reasonable. A grid with 40 large images can slow down the product page.
 
 ## Examples
 
@@ -79,5 +79,5 @@ Standard designs free, licensed artwork priced through **Use existing product** 
 * Available on all plans. Slider layout is separately plan-gated.
 * Works in Shopify POS.
 * Every value needs an image; without one the swatch is blank.
-* Swatch sizes are display sizes — they do not resize the uploaded file.
-* Value names appear on hover only, so put anything essential in per-value help text.
+* Swatch sizes control how the image is displayed; they do not resize the uploaded file.
+* Value names appear only on hover, so put any essential information in the per-value help text.

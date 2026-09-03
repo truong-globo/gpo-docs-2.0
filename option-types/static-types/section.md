@@ -1,7 +1,7 @@
 ---
 description: >-
-  The container that groups options under a heading, optionally collapsible — and
-  the one static type you should use on every long form.
+  The container that groups options under a heading, optionally collapsible —
+  and the one static type you should use on every long form.
 icon: layer-group
 ---
 
@@ -9,15 +9,13 @@ icon: layer-group
 
 A container. Options live inside it, and it gives them a shared heading and, if you want, a single collapsible panel.
 
-Every new option set starts with one empty Section, because options have to live somewhere.
+Every new option set starts with one empty Section.
 
 ## What customers see
 
 A heading with your options beneath it. With a collapsible style, the heading becomes a control that opens and closes the group.
 
-<!-- SCREENSHOT: type-section-storefront | Storefront → trang sản phẩm | 2 Section: 1 style Default mở, 1 style Collapse đang đóng | Khoanh 2 tiêu đề section -->
-
-<figure><img src="../../.gitbook/assets/placeholder.png" alt="Two sections on a storefront product page, one open and one collapsed"><figcaption><p>Sections turn a long list of fields into a short list of groups.</p></figcaption></figure>
+<figure><img src="/broken/files/4t3putPFT0ovncKJHZUQ" alt="Two sections on a storefront product page, one open and one collapsed"><figcaption><p>Sections turn a long list of fields into a short list of groups.</p></figcaption></figure>
 
 ## Settings
 
@@ -44,7 +42,7 @@ If you have six options that should only appear when the customer chooses "Perso
 
 The second is always better. It is faster to build, easier to read, and impossible to get half-right.
 
-See [Conditional logic](../../conditional-logic/README.md).
+See [Conditional logic](../../conditional-logic/).
 
 ## Structuring a long form
 
@@ -96,9 +94,10 @@ Label `Choose your size`, **Style** **Default**, containing a required size butt
 Label `Size guide and care`, **Style** **Collapse**, containing a size chart and a paragraph.
 
 ## Notes
+
 * Available on the Advanced plan.
 * Works in Shopify POS.
 * Sections cannot be nested inside each other.
-* Every option lives inside a section — there is no "loose" option outside one.
+* Every option belongs to a section; there are no options outside a section.
 * An option set with sections but no options inside them cannot be saved.
 * Sections collect nothing, so they never appear on the cart or the order.

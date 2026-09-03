@@ -13,9 +13,7 @@ A [Dropdown](dropdown.md) where each entry carries a colour chip. It is the comp
 
 A field showing the current colour and its name. Opening it lists every colour with a chip beside its name, searchable if you turn search on.
 
-<!-- SCREENSHOT: type-colordropdown-storefront | Storefront → trang sản phẩm | Color dropdown đang mở, mỗi entry có chip màu + tên | Khoanh vùng dropdown đang mở -->
-
-<figure><img src="../../.gitbook/assets/placeholder.png" alt="An open colour dropdown on a storefront product page with a colour chip beside each name"><figcaption><p>A colour chip beside the name means shoppers do not have to imagine what "Sage" is.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2026-09-03_11-15-39.png" alt="An open colour dropdown on a storefront product page with a colour chip beside each name"><figcaption></figcaption></figure>
 
 ## Basic Settings
 
@@ -47,7 +45,7 @@ Linking values to add-on products is what makes **Out of stock options** meaning
 
 <table><thead><tr><th width="230"></th><th width="230">Color dropdown</th><th>Color swatch</th></tr></thead><tbody><tr><td>Space used</td><td>One line, closed</td><td>A grid, always open</td></tr><tr><td>Colour names visible</td><td>Yes, beside each chip</td><td>On hover, as a tooltip</td></tr><tr><td>Search</td><td>Yes</td><td>No</td></tr><tr><td>Slider layout</td><td>No</td><td>Yes</td></tr><tr><td>Best for</td><td>Twenty or more colours, or named colours</td><td>Under twenty, where seeing them all matters</td></tr></tbody></table>
 
-If your colours have names that mean something — `Antique brass`, `Sage` — the dropdown is better, because the name and the chip are shown together. If the colour itself is the whole message, the swatch grid is better.
+If your colors have meaningful names, such as `Antique brass` or `Sage`, a dropdown is better because it shows the name and color chip together. If the color itself is all the shopper needs to see, a swatch grid is a better choice.
 
 ## Examples
 
@@ -61,11 +59,12 @@ Each value set to a two-colour split chip, so `Black and gold` shows both.
 
 **Colours with different prices**
 
-Standard colours free, metallics priced through **Automatically generate product** so you can track their stock.
+Standard colors are free, while metallic colors are priced using **Automatically generate product** so you can track their stock.
 
 ## Notes
+
 * Available on the Advanced plan.
 * Works in Shopify POS.
 * No slider or collapsible layout — a dropdown is already compact.
-* Colour chips are set per value in the values table, not globally.
-* Colours on screen will not match a physical product exactly. Say so in help text if colour accuracy matters.
+* Color chips are set individually for each value in the values table, not globally.
+* Colors displayed on screen may not exactly match the physical product. If color accuracy matters, mention this in the help text.

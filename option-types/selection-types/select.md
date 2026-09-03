@@ -37,7 +37,7 @@ Use Select when the list is short and simple, and you prefer the native look and
 
 ## Add-on pricing
 
-P\Prices are set for each option value in the values table’s **Price** column. Each value supports all three pricing modes, while the option-level **Advanced settings** dropdown controls how the charge is calculated.
+Prices are set for each option value in the values table’s **Price** column. Each value supports all three pricing modes, while the option-level **Advanced settings** dropdown controls how the charge is calculated.
 
 Because **Select** cannot display out-of-stock states, avoid using it for values linked to limited inventory. A shopper could select a sold-out value without seeing a warning. Use [Dropdown](dropdown.md) instead.
 
@@ -64,4 +64,4 @@ Values `1-10`, `11-50`, `51+`, no prices, used to route the enquiry rather than 
 * No Personalizer support.
 * Values appear in the same order as the values table.
 * The selected value is stored in the order as text.
-* Very long lists are supported, but the device’s native picker is the only way to navigate them — there is no search.
+* Very long lists are supported, but the device’s native picker is the only way to navigate them. Search is not available.

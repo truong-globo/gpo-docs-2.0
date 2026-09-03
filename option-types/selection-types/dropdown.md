@@ -1,7 +1,7 @@
 ---
 description: >-
-  A styled dropdown with search, image swatches, stock display, selection limits,
-  and live preview support.
+  A styled dropdown with search, image swatches, stock display, selection
+  limits, and live preview support.
 icon: rectangle-list
 ---
 
@@ -13,11 +13,9 @@ This is the dropdown to reach for by default.
 
 ## What customers see
 
-A field that opens a styled list. Depending on your settings the list can include a search box, a picture per entry, and out-of-stock entries shown as unavailable.
+A field that opens a styled list. Depending on your settings, the list can include a search box, a picture per entry, and out-of-stock entries shown as unavailable.
 
-<!-- SCREENSHOT: type-dropdown-storefront | Storefront → trang sản phẩm | Dropdown đang mở, có search box và vài entry, 1 entry hết hàng bị blur | Khoanh vùng dropdown đang mở -->
-
-<figure><img src="../../.gitbook/assets/placeholder.png" alt="An open styled dropdown on a storefront product page with a search box and an unavailable entry"><figcaption><p>The app draws this dropdown, so it can carry search, images, and stock state.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2026-09-03_11-14-45.png" alt="An open styled dropdown on a storefront product page with a search box and an unavailable entry"><figcaption><p>The app draws this dropdown, so it can carry search, images, and stock state.</p></figcaption></figure>
 
 ## Basic Settings
 
@@ -27,7 +25,7 @@ A field that opens a styled list. Depending on your settings the list can includ
 
 <table><thead><tr><th width="250">Setting</th><th>What it does</th></tr></thead><tbody><tr><td><a href="../shared-settings/conditional-logic-and-add-on-fields.md#advanced-settings">Advanced settings</a> / <a href="../shared-settings/conditional-logic-and-add-on-fields.md#set-quantity">Set quantity</a></td><td>How the add-on scales with quantity.</td></tr><tr><td><a href="../shared-settings/selection-behaviour.md#search-suggestion">Search suggestion</a></td><td>Adds a search box to the top of the list.</td></tr><tr><td><a href="../shared-settings/selection-behaviour.md#not-allow-deselect">Not allow deselect</a></td><td>Stops the shopper clearing their choice. Single-select only.</td></tr><tr><td><a href="../shared-settings/out-of-stock-options.md">Out of stock options</a></td><td><strong>Show</strong>, <strong>Hide</strong>, <strong>Blur</strong>, or <strong>Strike-through</strong> for sold-out values.</td></tr><tr><td><a href="../shared-settings/placeholder-and-help-text.md#help-text-position">Help text position</a></td><td>Where the help text sits.</td></tr><tr><td><a href="../shared-settings/prefix-suffix-and-icons.md#prefix">Prefix</a> / <a href="../shared-settings/prefix-suffix-and-icons.md#prefix">Prefix icon</a> / <a href="../shared-settings/prefix-suffix-and-icons.md#prefix">Prefix text</a></td><td>An icon or text at the start of the field.</td></tr><tr><td><a href="../shared-settings/direction-width-and-css.md#html-class">HTML class</a> / <a href="../shared-settings/direction-width-and-css.md#column-width">Column width</a></td><td>Styling hook and field width.</td></tr></tbody></table>
 
-Dropdown has no collapsible or slider layout — those belong to the grid types. A dropdown is already compact.
+Dropdown does not support collapsible or slider layouts. Those layouts are available for grid-based option types. A dropdown is already a compact way to display a long list.
 
 ## Personalizer Settings
 
@@ -41,7 +39,7 @@ That makes a Dropdown a compact way to offer many visual designs — the list st
 
 Prices belong to each option value. All three modes per value, plus the option-level **Advanced settings** for scaling — including **Mixed quantity** once **Allow multiple** is on, which gives every value its own quantity box.
 
-See [Add-on pricing](../../add-on-pricing/README.md) and [Advanced add-on modes](../../add-on-pricing/advanced-add-on-modes.md).
+See [Add-on pricing](../../add-on-pricing/) and [Advanced add-on modes](../../add-on-pricing/advanced-add-on-modes.md).
 
 ## Examples
 
@@ -62,6 +60,7 @@ See [Add-on pricing](../../add-on-pricing/README.md) and [Advanced add-on modes]
 Single-select, **Required field** on, **Not allow deselect** on, values linked to add-on products so sold-out sizes are hidden.
 
 ## Notes
+
 * Available on all plans.
 * Works in Shopify POS.
 * Values follow the order of the values table.

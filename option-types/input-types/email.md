@@ -15,9 +15,7 @@ Use it when you need an email address other than the buyer's own, such as a gift
 
 A single-line field with your label above it. If the entry is not a valid address, adding to cart is blocked and the message `Invalid email` is displayed.
 
-<!-- SCREENSHOT: type-email-storefront | Storefront → trang sản phẩm | Field Email với help text, và trạng thái lỗi "Invalid email" | Khoanh field và thông báo lỗi -->
-
-<figure><img src="../../.gitbook/assets/placeholder.png" alt="An email field on a storefront product page showing the invalid email message"><figcaption><p>Format validation is built in — there is no setting to turn it on.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2026-09-03_10-08-18.png" alt="An email field on a storefront product page showing the invalid email message"><figcaption><p>Format validation is built in — there is no setting to turn it on.</p></figcaption></figure>
 
 ## Basic Settings
 
@@ -37,7 +35,7 @@ The check applies to the format only. It confirms that the entry looks like an e
 
 Email cannot carry an add-on price.
 
-If you charge for the delivery itself, such as a digital gift card sent to a recipient, add the price to the [Switch](switch.md) or [Checkbox](../selection-types/checkbox.md) that enables the feature. Then display the email field with [conditional logic](../../conditional-logic/README.md).
+If you charge for the delivery itself, such as a digital gift card sent to a recipient, add the price to the [Switch](switch.md) or [Checkbox](../selection-types/checkbox.md) that enables the feature. Then display the email field with [conditional logic](../../conditional-logic/).
 
 ## Personalizer Settings
 
@@ -58,6 +56,7 @@ Not supported.
 **Required field** off, an envelope prefix icon, and help text explaining that Shopify already emails the buyer and this address is for someone else.
 
 ## Notes
+
 * Available on paid plans.
 * Works in Shopify POS.
 * Cannot carry an add-on price.

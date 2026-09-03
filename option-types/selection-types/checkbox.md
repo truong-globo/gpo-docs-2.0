@@ -1,7 +1,7 @@
 ---
 description: >-
-  A list where the shopper can tick several — the standard way to offer a menu of
-  optional paid extras.
+  A list where the shopper can tick several — the standard way to offer a menu
+  of optional paid extras.
 icon: square-check
 ---
 
@@ -15,9 +15,7 @@ This is the type for a menu of extras: toppings, add-on services, accessories, u
 
 A list with a tick box beside each value. With **Swatch style** set, each value can also show a colour chip or a picture.
 
-<!-- SCREENSHOT: type-checkbox-storefront | Storefront → trang sản phẩm | Checkbox list với vài value đã tick, mỗi value có giá phụ phí hiện cạnh | Khoanh riêng nhóm checkbox -->
-
-<figure><img src="../../.gitbook/assets/placeholder.png" alt="A checkbox list on a storefront product page with several values ticked and their prices shown"><figcaption><p>Each ticked value with a price adds to the total.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2026-09-03_11-40-50.png" alt="A checkbox list on a storefront product page with several values ticked and their prices shown"><figcaption></figcaption></figure>
 
 ## Basic Settings
 
@@ -76,6 +74,7 @@ One value, `I confirm the spelling is correct`, **Required field** on, no price.
 **Enable custom layout** on, **Layout type** **Collapse**, **Scroll type** **By number of option values** showing six.
 
 ## Notes
+
 * Available on all plans.
 * Works in Shopify POS.
 * Always multi-select.

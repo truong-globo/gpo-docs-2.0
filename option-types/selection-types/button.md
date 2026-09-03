@@ -7,17 +7,15 @@ icon: square
 
 # Button
 
-A row of buttons, one per value. Every choice is visible and tappable in one gesture, which makes it the best type for short values on mobile.
+A row of tappable buttons, with one button per value. Every choice is visible and selectable in one tap, making it ideal for short lists such as sizes.
 
-It is the type Shopify shoppers are most used to seeing for sizes.
+It’s a familiar pattern for Shopify shoppers and works especially well on mobile. For longer lists, slider support keeps the options compact.
 
 ## What customers see
 
 A row of buttons that wrap onto more rows as needed, or a slider if you configure one. With **Swatch style** set to **Image**, each button shows a picture instead of text.
 
-<!-- SCREENSHOT: type-button-storefront | Storefront → trang sản phẩm | 1 hàng button size (S M L XL) với 1 button đang chọn và 1 button hết hàng bị strike-through | Khoanh riêng hàng button -->
-
-<figure><img src="../../.gitbook/assets/placeholder.png" alt="A row of size buttons on a storefront product page with one selected and one struck through"><figcaption><p>Short values as buttons — one tap, no opening or scrolling.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2026-09-03_11-47-32.png" alt="A row of size buttons on a storefront product page with one selected and one struck through"><figcaption><p>Short values as buttons — one tap, no opening or scrolling.</p></figcaption></figure>
 
 ## Basic Settings
 
@@ -37,7 +35,7 @@ Supported as an **image layer**: each value can draw an image onto the product p
 
 Prices belong to each value. With **Allow multiple** off, exactly one charge applies. With it on, every selected value is charged, and **Mixed quantity** becomes available.
 
-See [Add-on pricing](../../add-on-pricing/README.md).
+See [Add-on pricing](../../add-on-pricing/).
 
 ## Keep values short
 
@@ -64,6 +62,7 @@ Values `1 pack`, `3 pack`, `5 pack`, priced through **Use existing product** so 
 **Allow multiple** on, **Max selections** `2`, **Advanced settings** **Mixed quantity**.
 
 ## Notes
+
 * Available on all plans.
 * Works in Shopify POS.
 * Slider layout is plan-gated — see [Compare plans](../../plans/compare-plans.md).

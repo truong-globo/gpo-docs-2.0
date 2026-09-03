@@ -13,9 +13,9 @@ This is the type for a menu of extras: toppings, add-on services, accessories, u
 
 ## What customers see
 
-A list with a tick box beside each value. With **Swatch style** set, each value can also show a colour chip or a picture.
+A list with a tick box beside each value. With the **Swatch-style** set, each value can also show a colour chip or a picture.
 
-<figure><img src="../../.gitbook/assets/2026-09-03_11-40-50.png" alt="A checkbox list on a storefront product page with several values ticked and their prices shown"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2026-09-03_11-46-32.png" alt="A checkbox list on a storefront product page with several values ticked and their prices shown"><figcaption></figcaption></figure>
 
 ## Basic Settings
 

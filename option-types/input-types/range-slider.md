@@ -1,28 +1,27 @@
 ---
 description: >-
-  A number chosen by dragging, bounded by a minimum, a maximum, and a step.
+  A number the customer selects by dragging a slider, within a minimum, maximum,
+  and step you define.
 icon: sliders
 ---
 
 # Range slider
 
-A track the customer drags to select a number. It records the same result as a [Number](number.md) field, with a different input method.
+A track the customer drags to select a number. It records the same type of value as a Number field, but uses a different input method.
 
-Use it when the value is approximate and the range matters more than precision, such as a budget, a length, or a quantity between two limits.
+Use it when the value can be approximate and the range matters more than precision, such as a budget, length, or quantity within a defined range.
 
 ## What customers see
 
 A slider with the current value displayed and a fixed minimum and maximum. You can add a prefix and a suffix so the value is displayed with its unit.
 
-<!-- SCREENSHOT: type-range-storefront | Storefront → trang sản phẩm | 1 Range slider với giá trị hiện tại, prefix/suffix | Khoanh riêng slider -->
-
-<figure><img src="../../.gitbook/assets/placeholder.png" alt="A range slider on a storefront product page showing its current value with a unit"><figcaption><p>A slider communicates the available range at a glance.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2026-09-03_10-32-28.png" alt="A range slider on a storefront product page showing its current value with a unit"><figcaption><p>A slider communicates the available range at a glance.</p></figcaption></figure>
 
 ## Basic Settings
 
 <table><thead><tr><th width="250">Setting</th><th>What it does</th></tr></thead><tbody><tr><td><a href="../shared-settings/labels-and-visibility.md#label">Label</a> / <a href="../shared-settings/labels-and-visibility.md#name">Name</a></td><td>Customer-facing text, and the name on the order.</td></tr><tr><td><a href="../shared-settings/required-and-default-value.md#required-field">Required field</a></td><td>Blocks add to cart until a value is set.</td></tr><tr><td><a href="../shared-settings/labels-and-visibility.md#hidden-label">Hidden label</a></td><td>Hides the label.</td></tr><tr><td><a href="../shared-settings/limits.md#min-and-max-value">Min value</a></td><td>The left end of the track. Starts at <code>0</code>.</td></tr><tr><td><a href="../shared-settings/limits.md#min-and-max-value">Max value</a></td><td>The right end of the track. Starts at <code>100</code>.</td></tr><tr><td><strong>Step</strong></td><td>The increment the slider moves in. Starts at <code>1</code>.</td></tr><tr><td><a href="../shared-settings/placeholder-and-help-text.md#help-text">Help text</a></td><td>Guidance that stays visible.</td></tr><tr><td><a href="../shared-settings/required-and-default-value.md#default-value">Default value</a></td><td>Where the handle starts.</td></tr><tr><td><a href="../shared-settings/conditional-logic-and-add-on-fields.md#conditional-logic">Conditional logic</a></td><td>Show or hide based on other choices.</td></tr></tbody></table>
 
-Unlike Number, **Min value** and **Max value** are required, because they define the length of the track.
+Unlike Number, **Min value** and **Max value** are required because they define the track length.
 
 ### Step
 
@@ -62,13 +61,14 @@ The slider colors are set store-wide under **Settings > Design**: **Range slider
 
 **Firmness or intensity**
 
-**Min value** `1`, **Max value** `5`, **Step** `1`, suffix ` / 5`, no price.
+**Min value** `1`, **Max value** `5`, **Step** `1`, suffix `/ 5`, no price.
 
 **A donation added to the order**
 
-Use a [Number](number.md) field instead, so the value can set the add-on quantity. A Range slider cannot carry a price.
+Use a [Number](number.md) field instead so the value can set the add-on quantity. A Range slider cannot carry a price.
 
 ## Notes
+
 * Available on the Advanced plan.
 * Works in Shopify POS.
 * Cannot carry an add-on price; no Personalizer support.

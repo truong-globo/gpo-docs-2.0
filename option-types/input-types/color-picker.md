@@ -1,7 +1,7 @@
 ---
 description: >-
-  Let the customer choose any color, with an optional live preview of their text in
-  that color.
+  Let the customer choose any color, with an optional live preview of their text
+  in that color.
 icon: eye-dropper
 ---
 
@@ -15,9 +15,7 @@ Use it only when you can produce any color, such as custom paint, custom thread,
 
 A field showing the currently selected color. Selecting it opens a picker, where the customer chooses a color visually or enters a value.
 
-<!-- SCREENSHOT: type-colorpicker-storefront | Storefront → trang sản phẩm | Field Color picker đang mở bảng chọn màu | Khoanh vùng picker -->
-
-<figure><img src="../../.gitbook/assets/placeholder.png" alt="A color picker open on a storefront product page"><figcaption><p>The picker gives the shopper the whole spectrum — use it only when you can match it.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2026-09-03_10-24-51.png" alt="A color picker open on a storefront product page"><figcaption></figcaption></figure>
 
 ## Basic Settings
 
@@ -57,7 +55,7 @@ Enter text in the text field and change the color. The preview updates.
 {% endstep %}
 {% endstepper %}
 
-To draw the text on the product photo instead of previewing it beside the field, apply the [Personalizer](../../personalizer/README.md) to the text option. Color picker has no Personalizer settings of its own.
+To draw the text on the product photo instead of previewing it beside the field, apply the [Personalizer](../../personalizer/) to the text option. Color picker has no Personalizer settings of its own.
 
 ## Add-on pricing
 
@@ -68,7 +66,7 @@ All three modes are available. Typically:
 * **Add price** for a flat custom color surcharge with no inventory to track.
 * **Automatically generate product** to track how many custom color orders you receive.
 
-See [Add-on pricing](../../add-on-pricing/README.md).
+See [Add-on pricing](../../add-on-pricing/).
 
 ## Examples
 
@@ -87,6 +85,7 @@ Color picker with **Color preview** on, **Select text box** pointing at the `Emb
 **Default value** set to your most common ink color and **Required field** off, so most customers keep the default.
 
 ## Notes
+
 * Available on paid plans.
 * Works in Shopify POS.
 * This type has no Personalizer settings. Apply the Personalizer to the text option instead.

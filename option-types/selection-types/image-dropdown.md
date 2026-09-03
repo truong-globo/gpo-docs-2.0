@@ -7,15 +7,13 @@ icon: image
 
 # Image dropdown
 
-A [Dropdown](dropdown.md) where each entry carries a picture. Use it when the choice is visual but the list is too long for a swatch grid — thirty print designs, twenty fabric patterns, a catalogue of frame styles.
+A [Dropdown](dropdown.md) where each entry includes an image. Use it when the choice is visual, but the list is too long for a swatch grid, such as 30 print designs, 20 fabric patterns, or a catalog of frame styles.
 
 ## What customers see
 
 A field showing the current choice. Opening it lists every entry with its picture, searchable if you turn search on. With **Image display outside dropdown** on, the chosen picture is also shown beside the closed field.
 
-<!-- SCREENSHOT: type-imagedropdown-storefront | Storefront → trang sản phẩm | Image dropdown đang mở, mỗi entry có ảnh nhỏ + tên | Khoanh vùng dropdown đang mở -->
-
-<figure><img src="../../.gitbook/assets/placeholder.png" alt="An open image dropdown on a storefront product page with a thumbnail beside each entry"><figcaption><p>A picture per entry, without the vertical cost of a swatch grid.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2026-09-03_11-23-03.png" alt="An open image dropdown on a storefront product page with a thumbnail beside each entry"><figcaption></figcaption></figure>
 
 ## Basic Settings
 
@@ -29,27 +27,25 @@ There is no **Swatch style** setting on this type — it is always images.
 
 ### Image display outside dropdown
 
-Worth turning on for anything where the shopper will want to keep looking at what they chose while they fill in the rest of the form — a print design, a fabric, a frame.
+Turn this on when shoppers may want to keep seeing their selected image while filling in the rest of the form, such as a print design, fabric, or frame.
 
-Without it, the closed field shows only the value's name, and the shopper has to reopen the list to remind themselves what it looked like.
+Without it, the closed dropdown shows only the value name. The shopper must reopen the dropdown to see the image again.
 
 ## Personalizer Settings
 
-Supported as an **image layer**. Each value's image can be drawn onto the product photo when it is selected, with image shape, background mode, size, position, rotation, a clip area, and customer controls.
+Supported as an **image layer**. When a value is selected, its image can be displayed on the product photo with settings for image shape, background mode, size, position, rotation, clip area, and customer controls.
 
-This is the combination behind "choose a design and see it on the product": an Image dropdown for the list, Personalizer for the preview. See [Image layers](../../personalizer/layer-settings/image-layers.md).
+This combination lets shoppers choose a design from an Image dropdown and see it on the product in the Personalizer preview. See [Image layers](../../personalizer/layer-settings/image-layers.md).
 
 ## Add-on pricing
 
-Prices belong to each value, so different designs can cost different amounts. Linking values to add-on products gives each design its own stock, which then drives **Out of stock options**.
-
-See [Add-on pricing](../../add-on-pricing/README.md).
+Prices belong to each value, so different designs can cost different amounts. Linking values to add-on products gives each design its own stock, which then drives **Out of stock options**. See [Add-on pricing](../../add-on-pricing/).
 
 ## Image dropdown or Image swatch?
 
 <table><thead><tr><th width="230"></th><th width="230">Image dropdown</th><th>Image swatch</th></tr></thead><tbody><tr><td>Space used</td><td>One line, closed</td><td>A grid, always open</td></tr><tr><td>Names shown</td><td>Beside each picture</td><td>On hover</td></tr><tr><td>Search</td><td>Yes</td><td>No</td></tr><tr><td>Slider layout</td><td>No</td><td>Yes</td></tr><tr><td>Picture size</td><td>Small thumbnails</td><td>Adjustable, plus a zoom tooltip</td></tr><tr><td>Best for</td><td>Twenty or more designs</td><td>Under twenty, where the picture is the whole decision</td></tr></tbody></table>
 
-If shoppers need to compare pictures side by side, use [Image swatch](image-swatch.md). If they arrive knowing roughly what they want and need to find it, use this.
+If shoppers need to compare pictures side by side, use [Image swatch](image-swatch.md).&#x20;
 
 ## Examples
 
@@ -63,12 +59,13 @@ Standard fabrics free, premium ones priced through **Automatically generate prod
 
 **Frame styles**
 
-Values with photographs of each moulding, **Image display outside dropdown** on, **Not allow deselect** on.
+Values with photographs of each moulding, **Image display outside dropdown** on, and **Not allow deselect** on.
 
 ## Notes
+
 * Available on the Advanced plan.
 * Works in Shopify POS.
 * Always image-based — there is no text-only or colour mode.
-* Every value needs an image. Without one the entry shows a blank.
-* Use consistently sized, consistently lit images. A list of mismatched crops looks careless.
-* No slider or collapsible layout.
+* Every value needs an image. Without one, the entry shows a blank.
+* Use images with consistent sizing, cropping, and lighting. A list of mismatched images can look inconsistent and unpolished.
+* The image dropdown does not support slider or collapsible layouts.

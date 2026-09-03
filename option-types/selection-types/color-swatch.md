@@ -7,17 +7,15 @@ icon: palette
 
 # Color swatch
 
-A grid of colour chips. Every colour is visible at once, which is what shoppers want when colour is the decision they came to make.
+A grid of color chips that shows every color at once, making it easy for shoppers to compare and choose.
 
-Use it when your palette is fixed and reasonably short. For a long list of named colours, [Color dropdown](color-dropdown.md) is more compact. For any colour at all, use [Color picker](../input-types/color-picker.md).
+Use it when your color palette is fixed and reasonably short. For a long list of named colors, use [Color dropdown](color-dropdown.md) for a more compact layout. If shoppers need to choose any color, use [Color picker](../input-types/color-picker.md).
 
 ## What customers see
 
-A grid of chips, each a single colour or split into two. Hovering shows the value's name, and the chosen chip is marked. With many colours you can present them as a slider instead.
+A grid of chips, each a single colour or split into two. Hovering shows the value's name, and the chosen chip is marked. With many colours, you can present them as a slider instead.
 
-<!-- SCREENSHOT: type-colorswatch-storefront | Storefront → trang sản phẩm | Grid color swatch, 1 chip đang chọn, 1 chip hết hàng bị blur, hover hiện tooltip tên màu | Khoanh riêng grid swatch -->
-
-<figure><img src="../../.gitbook/assets/placeholder.png" alt="A grid of colour swatches on a storefront product page with one selected and one blurred"><figcaption><p>All the colours at once — the reason to choose a swatch grid over a dropdown.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2026-09-03_13-32-39.png" alt="A grid of colour swatches on a storefront product page with one selected and one blurred"><figcaption><p>All the colours at once — the reason to choose a swatch grid over a dropdown.</p></figcaption></figure>
 
 ## Basic Settings
 
@@ -29,11 +27,11 @@ A grid of chips, each a single colour or split into two. Hovering shows the valu
 
 ### Chip size
 
-**Swatch color width** and **Swatch color height** are specific to this type — [Image swatch](image-swatch.md) has its own equivalents.
+**Swatch color width** and **Swatch color height** are specific to this type; [Image swatch](image-swatch.md) has its own equivalents.
 
-Both default to 32 pixels, which suits a plain colour chip. Make them larger when the colour is subtle or the palette has close shades; make them rectangular for something like a fabric strip.
+Both default to 32 pixels, which works well for a standard color chip. Increase them when colors are subtle or closely matched, or make them rectangular for something like a fabric strip.
 
-Bear in mind that larger chips push the **Add to cart** button further down the page. Past about a dozen large chips, use the slider layout.
+Keep in mind that larger chips push the **Add to cart** button further down the page. If you have more than about a dozen large chips, consider using the slider layout.
 
 ## Personalizer Settings
 
@@ -41,9 +39,9 @@ Supported as an **image layer**: each colour value can carry an image drawn onto
 
 ## Add-on pricing
 
-Prices belong to each colour. Standard colours free, premium finishes charged, is the usual arrangement.
+Prices are set per color. A common setup is to offer standard colors for free and charge extra for premium finishes.
 
-Linking each colour to an add-on product gives each colour its own stock, which then drives **Out of stock options** — the cleanest way to show a temporarily unavailable colour without editing your option set. See [Stock and inventory](../../add-on-pricing/stock-and-inventory.md).
+Linking each color to an add-on product gives it its own inventory, which can then drive **Out of stock options**. This is the easiest way to temporarily make a color unavailable without editing the option set. See [Stock and inventory](../../add-on-pricing/stock-and-inventory.md).
 
 ## Color swatch or Color dropdown?
 
@@ -68,8 +66,9 @@ Each value set to a two-colour split chip.
 **Color preview** on, **Select text box** pointing at your engraving text option.
 
 ## Notes
+
 * Available on all plans. Slider layout is separately plan-gated.
 * Works in Shopify POS.
 * Colours are set per value in the values table.
-* Value names are shown on hover, so they still matter — a shopper on a phone may never see them, which is a reason to prefer [Color dropdown](color-dropdown.md) when names carry information.
-* Screen colours do not match physical products exactly. Say so in help text if it matters.
+* Value names are shown on hover, so they still matter. On mobile, shoppers may not see them at all, which is another reason to use [Color dropdown](color-dropdown.md)  when the names provide important information.
+* Colors displayed on screen may not exactly match the physical product. Mention this in the help text if color accuracy matters.

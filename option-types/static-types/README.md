@@ -27,16 +27,16 @@ Static types have far fewer settings than the others, because most settings desc
 
 ## Because they collect nothing
 
-Static types never appear on the cart or the order. They are purely part of the product page.
+Static types never appear in the cart or order. They exist only on the product page.
 
-That also means they have no **Name**, so there is nothing to keep unique — you can have five dividers and three headings in one option set without any naming conflict.
+They also have no **Name**, so there is nothing to keep unique. You can have five Dividers and three Headings in the same option set without any naming conflicts.
 
 ## Using them well
 
 A few habits that make a long form readable:
 
-* **Group before you explain.** A [Section](section.md) with a good label often removes the need for a heading and a paragraph.
-* **One paragraph, not three.** If you have more to say, use a [Pop-up modal](pop-up-modal.md) or [Tabs](tabs.md) so the page stays short.
-* **Prefer Spacing to empty paragraphs.** It is what it says, and it is easier to adjust.
-* **Use Divider sparingly.** A rule between every option is noise; a rule between two groups is structure.
-* **Reach for HTML last.** If a native type can do it, use the native type — it will keep working when your theme changes.
+* **Group before you explain.** A [Section](section.md) with a clear label can often replace a separate heading and paragraph.
+* **Keep paragraphs short.** If you have more to say, use a [Pop-up modal](pop-up-modal.md) or [Tabs](tabs.md) so the page stays short.
+* **Prefer Spacing to empty paragraphs.** It is easier to adjust and does exactly what it describes.
+* **Use Divider sparingly.** A divider between every option adds noise; use it to separate distinct groups instead.
+* **Reach for HTML last.** If a native type can do the job, use it. Native types are more likely to keep working when your theme changes.

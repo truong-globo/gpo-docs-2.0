@@ -1,7 +1,7 @@
 ---
 description: >-
-  Two or three measurements with their own units, and a formula that calculates the
-  price by size.
+  Two or three measurements with their own units, and a formula that calculates
+  the price by size.
 icon: ruler-combined
 ---
 
@@ -12,16 +12,14 @@ A single option that collects several measurements: width, height, and optionall
 Use it for made-to-measure products such as blinds, canvases, worktops, glass, framed prints, and cut fabric.
 
 {% hint style="warning" %}
-Dimension is not supported in the Shopify POS app, and the app displays a notice when you add it. For in-person orders, collect measurements with several [Number](number.md) fields instead. See [POS limitations](../../pos/limitations.md).
+Dimensions are not supported in the Shopify POS app, and the app displays a notice when you add it. For in-person orders, use multiple [Number](number.md) fields to collect measurements instead. See [POS limitations](../../pos/limitations.md).
 {% endhint %}
 
 ## What customers see
 
 Two or three numeric fields on one row, each with its own label and unit.
 
-<!-- SCREENSHOT: type-dimension-storefront | Storefront → trang sản phẩm | 1 option Dimension với 2-3 ô Width / Height / Depth kèm unit | Khoanh cả nhóm Dimension -->
-
-<figure><img src="../../.gitbook/assets/placeholder.png" alt="A dimension option on a storefront product page with width and height fields and their units"><figcaption><p>All the measurements sit in one option, so the row reads as a single question.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2026-09-03_10-37-03.png" alt="A dimension option on a storefront product page with width and height fields and their units"><figcaption><p>All the measurements sit in one option, so the row reads as a single question.</p></figcaption></figure>
 
 ## Basic Settings
 
@@ -37,9 +35,7 @@ Delete the third row if your product needs only two measurements. Set **Min** an
 
 Each axis can use a different unit. For example, `Width` can use centimeters while `Quantity of panels` uses a plain count.
 
-<!-- SCREENSHOT: type-dimension-values | App admin → builder → option Dimension | Bảng option values với 3 hàng X/Y/Z và các cột Label / Placeholder / Unit / Default value / Min / Max | Khoanh cả bảng -->
-
-<figure><img src="../../.gitbook/assets/placeholder.png" alt="The dimension option values table with three axis rows and their label, unit, default, min, and max columns"><figcaption><p>Each axis is a row with its own label, unit, and limits.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2026-09-03_10-39-33.png" alt="The dimension option values table with three axis rows and their label, unit, default, min, and max columns"><figcaption><p>Each axis is a row with its own label, unit, and limits.</p></figcaption></figure>
 
 ## Add-on price and Formula
 
@@ -88,6 +84,7 @@ Width and height in centimeters, formula `(x + y) * 2 * {{addon}}`, because the 
 Delete two of the three rows. Label the remaining axis `Length`, set the unit to `m`, and use the formula `x * {{addon}}`.
 
 ## Notes
+
 * Available on the Advanced plan.
 * **Not supported on Shopify POS.**
 * No Personalizer support.

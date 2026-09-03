@@ -7,17 +7,15 @@ icon: hashtag
 
 # Number
 
-A field that only accepts numbers, bounded by a minimum and a maximum you set.
+A field that accepts numbers only, with a minimum and maximum you set.
 
-Use it for quantities within a product, such as how many names to embroider, how many place settings, or a width in centimeters. For the product's own quantity, use Shopify's quantity field instead.
+Use it for quantities or measurements within a product, such as how many names to embroider, how many place settings are needed, or a width in centimeters. For the product’s own quantity, use Shopify’s quantity field instead.
 
 ## What customers see
 
 A numeric field with your label above it. You can add a prefix, such as a currency symbol, and a suffix, such as a unit.
 
-<!-- SCREENSHOT: type-number-storefront | Storefront → trang sản phẩm | 1 field Number có prefix/suffix và help text nêu min-max | Khoanh riêng field Number -->
-
-<figure><img src="../../.gitbook/assets/placeholder.png" alt="A number field on a storefront product page with a unit suffix"><figcaption><p>A number field with a unit as its suffix, so the shopper types only the value.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2026-09-03_10-01-19.png" alt="A number field on a storefront product page with a unit suffix"><figcaption><p>A number field with a unit as its suffix, so the shopper types only the value.</p></figcaption></figure>
 
 ## Basic Settings
 
@@ -41,7 +39,7 @@ See [Advanced add-on modes](../../add-on-pricing/advanced-add-on-modes.md).
 
 Number supports the live preview and works the same way as [Text](text.md). The digits are drawn on the product photo, with color, font, effects, position, **Curve**, and **Auto-fit max width**.
 
-Use it for jersey numbers, house numbers, and years. See [Product Personalizer](../../personalizer/README.md).
+Use it for jersey numbers, house numbers, and years. See [Product Personalizer](../../personalizer/).
 
 ## Examples
 
@@ -62,6 +60,7 @@ Use it for jersey numbers, house numbers, and years. See [Product Personalizer](
 **Min value** `2`, **Max value** `12`, **Default value** `4`, no price. The number is only recorded for production.
 
 ## Notes
+
 * Available on all plans.
 * Works in Shopify POS.
 * Only numbers can be entered, so no input rule is needed.

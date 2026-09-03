@@ -1,33 +1,30 @@
 ---
-description: >-
-  A single on-or-off toggle with its own label, for offering one paid extra.
+description: A single on-or-off toggle with its own label, for offering one paid extra.
 icon: toggle-on
 ---
 
 # Switch
 
-A toggle the customer turns on or off. It asks one question with one answer.
+A toggle the customer turns on or off. It provides a single yes-or-no choice.
 
-Use it to offer a single optional extra, such as gift wrap, express production, insurance, or an extended warranty.
+Use it for one optional extra, such as gift wrapping, express production, insurance, or an extended warranty.
 
 ## What customers see
 
 A toggle with your label above it and a short label beside the toggle. The switch label is `Yes` by default.
 
-<!-- SCREENSHOT: type-switch-storefront | Storefront → trang sản phẩm | 1 Switch đã bật, có label và switch label, giá phụ phí hiện cạnh | Khoanh riêng switch -->
-
-<figure><img src="../../.gitbook/assets/placeholder.png" alt="A switch option turned on, on a storefront product page, with its add-on price shown"><figcaption><p>A switch reads as a single decision, which suits one paid extra.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2026-09-03_10-27-49.png" alt="A switch option turned on, on a storefront product page, with its add-on price shown"><figcaption><p>A switch reads as a single decision, which suits one paid extra.</p></figcaption></figure>
 
 ## Basic Settings
 
 <table><thead><tr><th width="250">Setting</th><th>What it does</th></tr></thead><tbody><tr><td><a href="../shared-settings/labels-and-visibility.md#label">Label</a> / <a href="../shared-settings/labels-and-visibility.md#name">Name</a></td><td>Customer-facing text, and the name on the order.</td></tr><tr><td><a href="../shared-settings/required-and-default-value.md#required-field">Required field</a></td><td>Blocks add to cart unless the switch is <strong>on</strong>. Rarely what you want — see the note below.</td></tr><tr><td><a href="../shared-settings/labels-and-visibility.md#hidden-label">Hidden label</a></td><td>Hides the label above the switch. The switch label stays.</td></tr><tr><td><strong>Selected by default</strong></td><td>The switch starts in the on position. Off by default.</td></tr><tr><td><strong>Switch label</strong></td><td>The short text beside the toggle. Starts as <code>Yes</code>. Required.</td></tr><tr><td><a href="../shared-settings/placeholder-and-help-text.md#help-text">Help text</a></td><td>Guidance that stays visible.</td></tr><tr><td><a href="../shared-settings/conditional-logic-and-add-on-fields.md#price">Price</a></td><td>The add-on charge when the switch is on.</td></tr><tr><td><a href="../shared-settings/conditional-logic-and-add-on-fields.md#conditional-logic">Conditional logic</a></td><td>Show or hide based on other choices.</td></tr></tbody></table>
 
 {% hint style="warning" %}
-**Required field** on a Switch means the customer cannot add the product to the cart without turning it on. Use it only for a mandatory confirmation, such as "I confirm the spelling is correct". For an optional extra, leave it off. Otherwise every customer has to pay for the extra.
+**Required field** on a Switch means the customer cannot add the product to the cart without turning it on. Use it only for mandatory confirmations, such as “I confirm the spelling is correct.” For optional extras, leave it off. Otherwise, every customer will have to accept and pay for the extra.
 {% endhint %}
 
 {% hint style="danger" %}
-**Selected by default** combined with a price adds the charge as soon as the page loads, before the customer selects anything. This is valid for an upgrade that most customers take, but it is a common cause of customers asking why the product costs more than the listed price.
+**Selected by default** combined with a price adds the charge as soon as the page loads, before the customer makes a choice. This can work for an upgrade that most customers choose, but it can also cause customers to wonder why the product costs more than the listed price.
 {% endhint %}
 
 ## Advanced Settings
@@ -44,11 +41,11 @@ The **Advanced settings** mode is especially important on a Switch:
 
 <table><thead><tr><th width="290">Mode</th><th>On an order of three products, with $5.00</th></tr></thead><tbody><tr><td><strong>Default</strong></td><td>$15.00 — one per product</td></tr><tr><td><strong>One time charge</strong></td><td>$5.00 — one for the whole order</td></tr><tr><td><strong>Fixed quantity</strong> with <strong>Set quantity</strong> 2</td><td>$10.00 — always two</td></tr></tbody></table>
 
-Use **One time charge** for anything charged once per order rather than per item, such as gift wrapping a parcel or a delivery upgrade. See [Advanced add-on modes](../../add-on-pricing/advanced-add-on-modes.md).
+Use **One-time charge** for anything charged once per order rather than per item, such as gift wrapping a parcel or a delivery upgrade. See [Advanced add-on modes](../../add-on-pricing/advanced-add-on-modes.md).
 
 ## Personalizer Settings
 
-Not supported. A switch has nothing to draw.
+Not supported.&#x20;
 
 ## Switch or Checkbox?
 
@@ -75,6 +72,7 @@ Label `Spelling check`, switch label `I confirm the spelling above is correct`, 
 Label `Premium gift box`, **Selected by default** on, a price attached, and help text stating the price clearly.
 
 ## Notes
+
 * Available on all plans.
 * Works in Shopify POS, provided the add-on is product-backed rather than **Add price**.
 * No Personalizer support.

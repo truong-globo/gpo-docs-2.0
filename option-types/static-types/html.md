@@ -1,21 +1,19 @@
 ---
-description: Your own HTML inside the option widget, for anything the other static types cannot produce.
+description: >-
+  Your own HTML inside the option widget, for anything the other static types
+  cannot produce.
 icon: code
 ---
 
 # HTML
 
-A block where you write your own HTML. It is the escape hatch: everything the other static types cannot do, you can do here.
+A block where you can write your own HTML. Think of it as an escape hatch for anything the other static types cannot handle.
 
-Reach for it last. A [Paragraph](paragraph.md), [Pop-up modal](pop-up-modal.md), [Size chart](size-chart.md), or [Tabs](tabs.md) will keep working when your theme changes; hand-written HTML is yours to maintain.
+Reach for it last. A [Paragraph](paragraph.md), [Pop-up modal](pop-up-modal.md), [Size chart](size-chart.md), or [Tabs](tabs.md) is easier to maintain and more likely to keep working when your theme changes. Hand-written HTML is your responsibility to maintain.
 
 ## What customers see
 
 Whatever you wrote, rendered in the flow of the form.
-
-<!-- SCREENSHOT: type-html-storefront | Storefront → trang sản phẩm | 1 block HTML tuỳ chỉnh (ví dụ bảng nhỏ hoặc badge) trong widget | Khoanh riêng block HTML -->
-
-<figure><img src="../../.gitbook/assets/placeholder.png" alt="A custom HTML block rendered inside the option widget on a storefront product page"><figcaption><p>The HTML block renders inline with your options.</p></figcaption></figure>
 
 ## Settings
 
@@ -31,10 +29,10 @@ Whatever you wrote, rendered in the flow of the form.
 * **A size table.** Use [Size chart](size-chart.md), which has thirteen presets and a table editor.
 * **Several blocks of content.** Use [Tabs](tabs.md).
 * **Styling the widget.** Use **Settings > Design**, or [custom CSS](../../storefront/custom-css.md) with an [HTML class](../shared-settings/direction-width-and-css.md#html-class). Do not rebuild parts of the widget in HTML.
-* **Collecting anything.** An HTML block collects nothing. A form field written here is not part of the option set, is not validated, and does not reach the order — use a real [input type](../input-types/README.md).
+* **Collecting anything.** An HTML block collects nothing. A form field written here is not part of the option set, is not validated, and does not reach the order — use a real [input type](../input-types/).
 
 {% hint style="warning" %}
-Only paste markup you understand and trust. Content in this block renders on your product pages, so treat it like anything else you put into your theme — and check the result on a real product page and on a phone before going live.
+Only paste markup you understand and trust. Content in this block is rendered directly on your product pages, so treat it like code added to your theme. Always check the result on a real product page and on a mobile device before going live.
 {% endhint %}
 
 ## Examples
@@ -60,6 +58,7 @@ A two-column table of materials and measurements, where the content is fixed and
 A styled notice block, shown by conditional logic only when the shopper chooses an option with a long lead time.
 
 ## Notes
+
 * Available on the Advanced plan.
 * Works in Shopify POS.
 * Collects nothing, so it never reaches the cart or order.

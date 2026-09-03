@@ -11,9 +11,7 @@ A horizontal line between options. The simplest way to say "these two groups are
 
 A line across the widget, in the colour, style, and thickness you set.
 
-<!-- SCREENSHOT: type-divider-storefront | Storefront → trang sản phẩm | 2 divider khác style (solid và dashed) phân tách các nhóm option | Khoanh 2 divider -->
-
-<figure><img src="../../.gitbook/assets/placeholder.png" alt="Two dividers of different styles separating groups of options on a storefront product page"><figcaption><p>A divider is structure without words.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2026-09-03_15-09-22.png" alt="Two dividers of different styles separating groups of options on a storefront product page"><figcaption><p>A divider is structure without words.</p></figcaption></figure>
 
 ## Settings
 
@@ -48,6 +46,7 @@ A dashed divider between two related sub-groups inside one section.
 Conditional logic so the divider shows only when the options below it are visible — otherwise you get a stray line with nothing under it.
 
 ## Notes
+
 * Available on all plans.
 * Works in Shopify POS.
 * Collects nothing, so it never reaches the cart or order.

@@ -1,7 +1,7 @@
 ---
 description: >-
-  A phone number field with optional international validation, country flags, and
-  a default country.
+  A phone number field with optional international validation, country flags,
+  and a default country.
 icon: phone
 ---
 
@@ -15,9 +15,7 @@ Use it for delivery contact numbers, appointment bookings, and other cases where
 
 A phone field with your label above it. When validation is enabled, a country flag and dialing code are displayed at the start of the field, and the customer can change the country.
 
-<!-- SCREENSHOT: type-phone-storefront | Storefront → trang sản phẩm | Field Phone có validate bật: cờ quốc gia + mã vùng ở đầu ô | Khoanh vùng cờ và mã vùng -->
-
-<figure><img src="../../.gitbook/assets/placeholder.png" alt="A phone field on a storefront product page with a country flag and dialling code"><figcaption><p>With validation on, the field shows a country flag and dialling code.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2026-09-03_10-03-45.png" alt="A phone field on a storefront product page with a country flag and dialling code"><figcaption><p>With validation on, the field shows a country flag and dialling code.</p></figcaption></figure>
 
 ## Basic Settings
 
@@ -41,7 +39,7 @@ The second option is the strictest. If customers report that valid numbers are r
 
 Phone cannot carry an add-on price.
 
-To charge for a related service, such as a phone consultation, add the price to a [Switch](switch.md) and use [conditional logic](../../conditional-logic/README.md) to display the phone field when the switch is on.
+To charge for a related service, such as a phone consultation, add the price to a [Switch](switch.md) and use [conditional logic](../../conditional-logic/) to display the phone field when the switch is on.
 
 ## Personalizer Settings
 
@@ -62,6 +60,7 @@ Validation on with **Only used to display country flags and codes** enabled, **R
 Validation on, the default country set to your own, and help text explaining that you deliver domestically only.
 
 ## Notes
+
 * Available on paid plans. International validation is separately plan-gated — see [Compare plans](../../plans/compare-plans.md).
 * Works in Shopify POS.
 * Cannot carry an add-on price.

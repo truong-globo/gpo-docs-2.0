@@ -59,7 +59,7 @@ Use it when an add-on's price or variant is out of date in the app, for example 
 
 ## Notes
 
-* Add-on prices are in your store's currency, and are converted for other currencies by Shopify like any other price.
-* Discount codes apply to the order as Shopify calculates it, which includes add-on lines.
-* Taxes follow each product's own tax settings. Use a product-backed add-on when the tax treatment differs from the main product.
-* Shipping calculated by weight uses the add-on products' weights, so set a weight on each one. See [Stock and inventory](stock-and-inventory.md).
+* Add-on prices are converted from your store's currency to other currencies by Shopify, just like any other product price.
+* Discount codes apply to the order as calculated by Shopify, including add-on lines.
+* Taxes follow each product's own tax settings. If an add-on requires different tax treatment from the main product, use a product-backed add-on.
+* If your store calculates shipping by weight, the add-on products' weights are included. Make sure to set a weight for each add-on product. See [Stock and inventory](stock-and-inventory.md).

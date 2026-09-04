@@ -1,5 +1,7 @@
 ---
-description: The six store-wide settings that decide how add-on prices are shown to customers on the product page.
+description: >-
+  The six store-wide settings that decide how add-on prices are shown to
+  customers on the product page.
 icon: eye
 ---
 
@@ -9,13 +11,11 @@ The price you set determines what the customer pays. These settings control what
 
 All of them are under **Settings** > **Settings** > **Add-on price**. They are store-wide and apply to every option set.
 
-<!-- SCREENSHOT: addon-price-settings | App admin → Settings → Add-on price | Toàn bộ các setting của tab | Không khoanh -->
-
-<figure><img src="../.gitbook/assets/placeholder.png" alt="The add-on price settings tab with all its options"><figcaption><p>All the add-on display settings in one place, applied store-wide.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-09-04_15-10-13 (1).png" alt="The add-on price settings tab with all its options"><figcaption><p>All the add-on display settings in one place, applied store-wide.</p></figcaption></figure>
 
 ## The settings
 
-<table><thead><tr><th width="290">Setting</th><th width="170">Default</th><th>What it does</th></tr></thead><tbody><tr><td><strong>Add-on money format</strong></td><td><strong>Without currency</strong></td><td>Whether the amount includes your currency code. <strong>Without currency</strong> gives <code>$5.00</code>; <strong>With currency</strong> gives <code>$5.00 USD</code>.</td></tr><tr><td><strong>Add-on label format</strong></td><td><code>(+ {{addon}})</code></td><td>The wrapper around the amount. <code>{{addon}}</code> is replaced by the price.</td></tr><tr><td><strong>Show add-on for inputs</strong></td><td>On</td><td>Whether input-type options show their add-on — Text, Textarea, Number.</td></tr><tr><td><strong>Show add-on for options</strong></td><td>On</td><td>Whether selection-type options show theirs — Select, Radio, Checkbox, Button, Color swatch, Image swatch.</td></tr><tr><td><strong>Show add-on message</strong></td><td>On</td><td>Whether a summary message appears telling the customer the selections will add to the price.</td></tr><tr><td><strong>Add add-on price to the product price</strong></td><td><strong>On</strong> for new stores</td><td>Whether the product price shown on the page increases as they choose, or the add-on is shown separately.</td></tr><tr><td><strong>Merge Main product &amp; Add-on products</strong></td><td><strong>On</strong> for new stores</td><td>Cart presentation. See <a href="merge-as-bundle.md">Merge main product and add-ons</a>.</td></tr></tbody></table>
+<table><thead><tr><th width="290">Setting</th><th width="170">Default</th><th>What it does</th></tr></thead><tbody><tr><td><strong>Add-on money format</strong></td><td><strong>Without currency</strong></td><td>Whether the amount includes your currency code. <strong>Without currency</strong> gives <code>$5.00</code>; <strong>With currency</strong> gives <code>$5.00 USD</code>.</td></tr><tr><td><strong>Add-on label format</strong></td><td><code>(+ {{addon}})</code></td><td>The wrapper around the amount. <code>{{addon}}</code> is replaced by the price.</td></tr><tr><td><strong>Show add-on for inputs</strong></td><td>On</td><td>Whether input-type options show their add-on — Text, Textarea, Number.</td></tr><tr><td><strong>Show add-on for options</strong></td><td>On</td><td>Whether selection-type options show theirs — Select, Radio, Checkbox, Button, Color swatch, Image swatch.</td></tr><tr><td><strong>Show add-on message</strong></td><td>On</td><td>Whether a summary message appears telling the customer the selections will add to the price.</td></tr><tr><td><strong>Add add-on price to the product price</strong></td><td><strong>On</strong> for new stores</td><td>Whether the product price shown on the page increases as they choose, or the add-on is shown separately.</td></tr><tr><td><strong>Merge Main product &#x26; Add-on products</strong></td><td><strong>On</strong> for new stores</td><td>Cart presentation. See <a href="merge-as-bundle.md">Merge main product and add-ons</a>.</td></tr></tbody></table>
 
 ## Add-on label format
 
@@ -34,36 +34,40 @@ This setting controls whether the add-on amount is included in the product price
 <table><thead><tr><th width="230">Off</th><th>On (new stores start here)</th></tr></thead><tbody><tr><td>The product price stays as listed. Each add-on shows its own amount beside the option</td><td>The product price shown updates as the customer chooses</td></tr><tr><td>Customers see the base price and the extras separately</td><td>Customers see one running total</td></tr><tr><td>No surprise about what the product itself costs</td><td>Fewer numbers to add up mentally</td></tr><tr><td>Better when most customers buy without add-ons</td><td>Better when most configurations are paid</td></tr></tbody></table>
 
 {% hint style="warning" %}
-When this setting is **on** and an option has a **default value** with a price, the product price is higher than your listed price as soon as the page loads. This is a common cause of customers asking why a product costs more than advertised. Either avoid priced default values, or set the default to a free value. See [Required field and default value](../option-types/shared-settings/required-and-default-value.md#default-value).
+When this setting is **on**, an option with a **default value** that has an additional price increases the product price as soon as the page loads. This can cause customers to wonder why the product costs more than the advertised price.
+
+To avoid confusion, either avoid using priced default values or set the default value to a free option. See [Required field and default value](../option-types/shared-settings/required-and-default-value.md#default-value).
 {% endhint %}
 
 ## Show for inputs and Show for options
 
-Two settings, one for each group of option types:
+There are two settings, one for each group of option types:
 
 <table><thead><tr><th width="290">Switch</th><th>Covers</th></tr></thead><tbody><tr><td><strong>Show add-on for inputs</strong></td><td>Text, Textarea, Number — where the price is on the option</td></tr><tr><td><strong>Show add-on for options</strong></td><td>Select, Radio, Checkbox, Button, Color swatch, Image swatch — where the price is on each value</td></tr></tbody></table>
 
-Turning one off does not remove the charge. It only hides the amount on the product page. The customer still pays it and still sees it at checkout.
+Turning a setting off does not remove the charge. It only hides the amount on the product page. The customer is still charged and will see the charge at checkout.
 
-This is useful in some cases. For example, a per-character engraving charge can be confusing before the customer enters any text. If you turn the display off, state the price in the option's [help text](../option-types/shared-settings/placeholder-and-help-text.md#help-text) so the charge is not unexpected.
+This can be useful in some cases. For example, a per-character engraving fee may be confusing before the customer enters any text. If you hide the price, mention the charge in the option's [help text](../option-types/shared-settings/placeholder-and-help-text.md#help-text) so customers know what to expect.&#x20;
 
 ## Worked configurations
 
-**A shop where most items are personalized and paid**
+**A shop where most items are personalized and paid for**
 
 <table><thead><tr><th width="330">Setting</th><th>Value</th></tr></thead><tbody><tr><td>Add add-on price to the product price</td><td><strong>On</strong> — one running total</td></tr><tr><td>Show add-on for inputs / options</td><td>On</td></tr><tr><td>Add-on label format</td><td><code>+{{addon}}</code></td></tr><tr><td>Show add-on message</td><td>On</td></tr></tbody></table>
 
 **A shop where add-ons are occasional extras**
 
-Add-on price **not** added to the product price, so the listed price is unchanged. Both display settings on, with the default label format.
+Keep **Add-on price added to product price** off so the listed product price remains unchanged. Keep both display settings on and use the default label format.
 
-**A shop pricing engraving per character**
+**A shop that charges for engraving per character**
 
-Show add-on for inputs **off**, with the rate stated in the option's help text, for example `Engraving is $0.50 per character`.
+Turn **Show add-on for inputs** off, and state the rate in the option's help text, for example: `Engraving is $0.50 per character`.
 
 ## Notes
 
-* All of these settings are store-wide. They cannot be set per option set.
-* They affect display only. The actual charge is applied at checkout. See [How pricing is applied](how-pricing-is-applied.md).
+* All of these settings are store-wide. They cannot be configured per option set.
+* These settings only affect how prices are displayed. The actual charge is applied at checkout. See [How pricing is applied](how-pricing-is-applied.md).
+* Amounts follow your Shopify money format.
+* The add-on message wording, including **"Selections will add \{{addon\}} to the price"**, is configured under **Settings > Translations** for each language.
 * Amounts use your Shopify money format.
-* The add-on message wording, including the "Selections will add {{addon}} to the price" text, is set under **Settings > Translations** for each language.
+* The add-on message wording, including the "Selections will add \{{addon\}} to the price" text, is set under **Settings > Translations** for each language.

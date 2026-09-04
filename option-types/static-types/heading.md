@@ -51,6 +51,5 @@ A Section labelled `Personalise your bracelet`, containing a **Heading 5** readi
 
 * Available on all plans.
 * Works in Shopify POS.
-* Collects nothing, so it never appears on the cart or order.
-* Its font comes from your typography settings; only the colour is set here. See [Borders and typography](../../storefront/borders-and-typography.md).
+* Its font comes from your typography settings; only the colour can be manually adjusted. See [Borders and typography](../../storefront/borders-and-typography.md).
 * Plain text only. For bold, links, or lists, use a [Paragraph](paragraph.md).

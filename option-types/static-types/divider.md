@@ -49,5 +49,4 @@ Conditional logic so the divider shows only when the options below it are visibl
 
 * Available on all plans.
 * Works in Shopify POS.
-* Collects nothing, so it never reaches the cart or order.
-* Horizontal only.
+* Supports horizontal only.

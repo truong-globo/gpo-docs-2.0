@@ -61,7 +61,6 @@ A styled notice block, shown by conditional logic only when the shopper chooses 
 
 * Available on the Advanced plan.
 * Works in Shopify POS.
-* Collects nothing, so it never reaches the cart or order.
 * Content is translatable per storefront language, like other option content.
-* Your theme's CSS applies to the block, so a class name that collides with a theme class can produce surprising results. Prefix your class names.
-* Test on mobile. Fixed widths and wide tables are the usual problems.
+* Your theme’s CSS is applied to the block, so class names that conflict with existing theme classes may cause unexpected styling issues. To avoid conflicts, use a unique prefix for your class names.
+* Test your content thoroughly on mobile. Fixed-width elements and wide tables are the most common causes of display issues.

@@ -96,6 +96,5 @@ From the **Pet Collar** preset, with your own neck measurements and a note on ho
 
 * Available on the Advanced plan.
 * Works in Shopify POS.
-* Collects nothing, so it never reaches the cart or order.
 * Content is translatable per storefront language. See [Translate option content](../../translations/translate-option-content.md).
 * One table per Size chart option. For several tables, add several options and reveal them with conditional logic.

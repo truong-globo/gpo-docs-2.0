@@ -57,7 +57,6 @@ Title `Important: engraved items cannot be returned`, shown by conditional logic
 
 * Available on all plans.
 * Works in Shopify POS.
-* Collects nothing, so it never reaches the cart or order.
 * Content is translatable per storefront language. See [Translate option content](../../translations/translate-option-content.md).
 * The rich-text editor covers most formatting needs. Use [HTML](html.md) only when you need formatting that the editor does not support.
 * A modal is not suitable for information shoppers must read before making a choice, because they may never open it. Use a [Paragraph](paragraph.md) instead.

@@ -53,6 +53,5 @@ Paired with a [Size chart](size-chart.md) in a collapsed [Section](section.md).
 
 * Available on all plans.
 * Works in Shopify POS.
-* Collects nothing, so it never reaches the cart or order.
 * Translatable per storefront language, like other option content. See [Translate option content](../../translations/translate-option-content.md).
 * Formatting comes from the editor. For anything the editor cannot support, use [HTML](html.md).

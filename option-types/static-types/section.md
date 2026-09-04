@@ -98,6 +98,6 @@ Label `Size guide and care`, **Style** **Collapse**, containing a size chart and
 * Available on the Advanced plan.
 * Works in Shopify POS.
 * Sections cannot be nested inside each other.
-* Every option belongs to a section; there are no options outside a section.
+* Every option belongs to a section; no options exist outside a section.
 * An option set with sections but no options inside them cannot be saved.
 * Sections collect nothing, so they never appear on the cart or the order.

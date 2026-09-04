@@ -1,19 +1,19 @@
 ---
 description: >-
-  Several panels of content behind tabs — care, delivery, and returns in one
-  place without lengthening the page.
+  Organize multiple content panels into tabs to keep care instructions, delivery
+  details, and return policies in one place without making the page longer.
 icon: folder-open
 ---
 
 # Tabs
 
-Several blocks of content, one visible at a time. The shopper selects a tab to switch panels.
+Several content blocks, with one visible at a time. Shoppers can select a tab to switch between panels.
 
-Use it when you have three or four things to say and no room to say them all at once: care instructions, delivery information, returns, materials.
+Use tabs when you have three or four types of information to share but want to keep the page compact—such as care instructions, delivery details, return policies, or materials.
 
 ## What customers see
 
-A row or column of tab titles with one panel open. Selecting another title switches panels.
+A row or column of tab titles with one panel open. Selecting another title to switch panels.
 
 <figure><img src="../../.gitbook/assets/2026-09-03_15-57-56.png" alt="A horizontal set of tabs on a storefront product page with the first panel open"><figcaption></figcaption></figure>
 
@@ -37,7 +37,7 @@ Keep titles to one or two words. `Care`, `Delivery`, `Returns` reads far better 
 
 ## Order matters
 
-The first tab is open when the page loads, so put your most-read content there. A shopper who sees "Delivery" first will not necessarily notice there is a "Care" tab.
+The first tab is open by default when the page loads, so place your most important or frequently viewed content there. Shoppers may not notice other tabs if they don’t see them right away—for example, if “Delivery” is shown first, they may overlook the “Care” tab.
 
 ## Tabs, modal, or paragraph?
 
@@ -61,7 +61,6 @@ Tabs `How it works`, `Lead times`, `What we cannot engrave`, shown by conditiona
 
 * Available on the Advanced plan.
 * Works in Shopify POS.
-* Collects nothing, so it never reaches the cart or order.
 * Titles and content are translatable per storefront language. See [Translate option content](../../translations/translate-option-content.md).
 * Tab colours are store-wide: **Tab title**, **Tab title active**, **Tab title hover**, **Tab content**, and **Tab border** in **Settings > Design**. See [Colors](../../storefront/colors.md).
-* No practical limit on the number of tabs, but past about five the row becomes unusable — switch to **Vertical** or split the content.
+* There’s no practical limit to the number of tabs, but more than five can make the tab row difficult to use. For larger sets of content, switch to **Vertical** layout or split the content across multiple sections.

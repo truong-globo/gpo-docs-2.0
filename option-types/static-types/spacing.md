@@ -50,6 +50,5 @@ Conditional logic matching the group below it, so you do not get an unexplained 
 
 * Available on all plans.
 * Works in Shopify POS.
-* Collects nothing, so it never reaches the cart or order.
 * Vertical only.
 * Renders the same on desktop and mobile, so a large value that looks right on desktop can look like a mistake on a phone. Check the mobile preview.

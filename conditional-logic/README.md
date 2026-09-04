@@ -1,15 +1,19 @@
 ---
 description: >-
-  Show and hide options based on what the customer already chose — including
-  based on the Shopify variant they picked.
+  Show or hide options based on the customer’s previous selections, including
+  the Shopify variant they’ve chosen.
 icon: sitemap
 ---
 
 # Overview
 
-Conditional logic is what turns a long form into a short one. Instead of showing every option to every shopper, you show each option only when it is relevant.
+Conditional logic turns a long form into a shorter, more relevant experience. Instead of showing every option to every shopper, display each option only when it applies to their selections.
 
-Ask for a gift message only when they chose gift wrap. Ask for a shoe width only for the sizes you make it in. Offer engraving fonts only once they have typed something to engrave.
+For example:
+
+* Show a gift message field only when the customer selects gift wrapping.
+* Show shoe width options only for sizes that are available in different widths.
+* Show engraving font options only after the customer enters an engraving message.
 
 ## What it can do
 
@@ -17,20 +21,18 @@ Ask for a gift message only when they chose gift wrap. Ask for a shoe width only
 
 ## What it cannot do
 
-* It cannot change an option's price, label, or values — only whether it is shown.
-* It cannot read the customer, the country, or the cart. Those are option-set-level rules — see [Assign to customers](../option-sets/assign-to-customers.md) and [Assign to countries](../option-sets/assign-to-countries.md).
-* It cannot look at an option **below** itself. Conditions can only read options that appear earlier in the form.
-* It cannot read every option type. Twelve types cannot be used as a trigger — see [Build a condition](build-a-condition.md#what-can-be-a-trigger).
+* It cannot change an option’s price, label, or values. Conditional logic only controls whether an option is shown or hidden.
+* It cannot read customer information, country, or cart contents. These are controlled by option-set-level rules - see [Assign to customers](../option-sets/assign-to-customers.md) and [Assign to countries](../option-sets/assign-to-countries.md).
+* It cannot use an option that appears later in the form as a condition. Conditions can only reference options that appear earlier in the form.
+* It cannot use every option type as a trigger. Twelve option types cannot be used as conditions - see [Build a condition](build-a-condition.md#what-can-be-a-trigger).
 
 ## The rule in one sentence
 
-Every rule reads as one sentence in the app:
+Every rule is presented as a single sentence in the app:
 
 > **Show** this field if **All** of the following match: **Gift wrap** — **contains** — `Yes, wrap it as a gift`
 
-Four parts: an action, a matching mode, and one or more conditions made of a source, an operator, and a value.
-
-<!-- SCREENSHOT: clo-rule-anatomy | App admin → builder → 1 option có conditional logic bật | Toàn bộ rule builder: Show/Hide, All/Any, 1 dòng điều kiện | Khoanh 4 phần: action, match, source, operator+value -->
+Each rule has four parts: an **action**, a **matching mode**, and one or more **conditions**. Each condition consists of a **source**, an **operator**, and a **value**.
 
 <figure><img src="../.gitbook/assets/placeholder.png" alt="The conditional logic rule builder with its action, matching mode, and one condition"><figcaption><p>Every rule is an action, a matching mode, and a list of conditions.</p></figcaption></figure>
 
@@ -41,21 +43,21 @@ Four parts: an action, a matching mode, and one or more conditions made of a sou
 ## Two things to know before you start
 
 {% hint style="warning" %}
-**A hidden option is not validated.** If a required option is currently hidden by a rule, it does not block **Add to cart**. That is deliberate — otherwise a hidden field could make the product unbuyable — but it means "required" only holds while the option is visible. Test both branches of every rule.
+**Hidden options are not validated.** If a required option is hidden by a rule, it will not prevent the customer from clicking **Add to cart**. This is intentional—otherwise, a hidden required field could make the product impossible to purchase. However, it also means that an option is only required while it is visible. Be sure to test both branches of every rule.
 {% endhint %}
 
 {% hint style="info" %}
-**Conditions can only read options above the one you are configuring.** The source dropdown lists only the options that appear earlier in the form. If the option you want to react to is not listed, move it above this one in the builder. See [Build your options](../option-sets/build-options.md).
+**Conditions can only reference options that appear above the option you are configuring.** The source dropdown only lists options that appear earlier in the form. If the option you want to use as a condition is not listed, move it above the current option in the builder. See [Build your options](../option-sets/build-options.md).
 {% endhint %}
 
 ## Plans
 
-Conditional logic comes at two levels, and which you have depends on your plan:
+Conditional logic works at two levels, depending on your plan:
 
 <table><thead><tr><th width="230">Level</th><th>What you get</th></tr></thead><tbody><tr><td><strong>Basic</strong></td><td>Rules based on other options in the option set.</td></tr><tr><td><strong>Advanced</strong></td><td>The same, plus conditions based on the <strong>Shopify variant</strong> the customer selected.</td></tr></tbody></table>
 
-On a Basic plan you can still select **Shopify variant** as a source, but the operator and value fields are locked with an upgrade prompt. See [Compare plans](../plans/compare-plans.md).
+On a Basic plan, you can still select **Shopify variant** as a source, but the operator and value fields are locked with an upgrade prompt. See [Compare plans](../plans/compare-plans.md).
 
 ## Where to put the rule
 
-If several options should appear together, put one rule on the [Section](../option-types/static-types/section.md) around them rather than the same rule on each option. One rule is faster to build, easier to read, and impossible to get half-right.
+If several options should appear or disappear together, apply a single rule to the [Section](../option-types/static-types/section.md) that contains them instead of adding the same rule to each option. This is faster to set up, easier to maintain, and helps keep the logic consistent.

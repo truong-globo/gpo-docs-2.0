@@ -1,5 +1,7 @@
 ---
-description: Placing a layer on the product photo — axes, width and height, opacity, and rotation.
+description: >-
+  Placing a layer on the product photo — axes, width and height, opacity, and
+  rotation.
 icon: arrows-up-down-left-right
 ---
 
@@ -13,9 +15,7 @@ Every layer, text or image, is positioned with the same settings.
 
 All position values are **percentages of the image**, not pixels. This keeps the layer in the same relative place whether the image is displayed on a phone or a large monitor.
 
-<!-- SCREENSHOT: pp-position-settings | App admin → builder → option có personalizer | Nhóm X-Axis, Y-Axis, Opacity, Rotation dạng slider | Khoanh nhóm này -->
-
-<figure><img src="../../.gitbook/assets/placeholder.png" alt="The position, opacity, and rotation sliders on the Personalizer Settings tab"><figcaption><p>Positions are percentages of the image, so they hold at any display size.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2026-09-04_16-13-46.png" alt="The position, opacity, and rotation sliders on the Personalizer Settings tab"><figcaption><p>Positions are percentages of the image, so they hold at any display size.</p></figcaption></figure>
 
 ## Which types get width and height
 

@@ -1,5 +1,7 @@
 ---
-description: Bend a single line of text along an arc, and shrink it automatically when it gets too long.
+description: >-
+  Bend a single line of text along an arc, and shrink it automatically when it
+  gets too long.
 icon: bezier-curve
 ---
 
@@ -25,9 +27,7 @@ Use it for text on a round surface, such as a mug, a plate rim, a ring band, a b
 
 Set the value against your own product photo. The correct value depends on the curvature in your image, so there is no standard value.
 
-<!-- SCREENSHOT: pp-curve | App admin → builder → option Text → Personalizer Settings | Slider Curve và preview text đang uốn theo cung trên ảnh sản phẩm | Khoanh slider Curve và text uốn trong preview -->
-
-<figure><img src="../../.gitbook/assets/placeholder.png" alt="The Curve slider with the preview text bent along an arc on the product photo"><figcaption><p>Curve is what makes text on a mug or a ring look printed rather than pasted on.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2026-09-04_16-13-47.png" alt="The Curve slider with the preview text bent along an arc on the product photo"><figcaption><p>Curve is what makes text on a mug or a ring look printed rather than pasted on.</p></figcaption></figure>
 
 ## Auto-fit max width
 
@@ -87,7 +87,7 @@ Set a [Max character](../../option-types/shared-settings/limits.md#min-and-max-c
 
 ## Notes
 
-* Both settings are on Text and Number only.
-* Curve has no effect on Textarea, because a multi-line block cannot follow a single arc.
-* Auto-fit only reduces the font size. It does not enlarge short text to fill the space.
-* Neither setting changes what is produced. They adjust the preview so it matches the result.
+* Both settings are available for **Text** and **Number** only.
+* **Curve** has no effect on **Textarea**, because multi-line text cannot follow a single arc.
+* **Auto-fit** only reduces the font size. It does not enlarge short text to fill the available space.
+* Neither setting changes the actual product or production result. They only adjust the preview to better match the final result.

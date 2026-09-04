@@ -1,5 +1,7 @@
 ---
-description: Define a region a layer cannot leave — the setting that makes customer freedom safe.
+description: >-
+  Define a region a layer cannot leave — the setting that makes customer freedom
+  safe.
 icon: crop-simple
 ---
 
@@ -17,9 +19,7 @@ Use it to give customers control of a layer without allowing them to place perso
 
 All values are percentages of the image, as with [layer positions](position-size-rotation.md).
 
-<!-- SCREENSHOT: pp-clip-area | App admin → builder → option có personalizer | Nhóm setting clip area + preview hiện vùng clip có viền | Khoanh vùng clip trong preview -->
-
-<figure><img src="../../.gitbook/assets/placeholder.png" alt="The clip area settings with the region outlined on the product preview"><figcaption><p>The clip area is visible while you position it, and can be hidden from customers.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2026-09-04_16-20-44.png" alt="The clip area settings with the region outlined on the product preview"><figcaption><p>The clip area is visible while you position it, and can be hidden from customers.</p></figcaption></figure>
 
 ## When to use it
 
@@ -87,11 +87,11 @@ Both settings prevent text from extending outside the area, but they work differ
 
 <table><thead><tr><th width="230"></th><th width="290">Clip area</th><th>Auto-fit max width</th></tr></thead><tbody><tr><td>What it does</td><td>Cuts off whatever is outside the region</td><td>Shrinks the text so it fits</td></tr><tr><td>Applies to</td><td>Text and image layers</td><td><a href="../../option-types/input-types/text.md">Text</a> and <a href="../../option-types/input-types/number.md">Number</a> only</td></tr><tr><td>Result with a long entry</td><td>Truncated in the preview</td><td>Smaller but complete</td></tr><tr><td>Best for</td><td>Enforcing a boundary, especially with customer controls</td><td>Keeping the whole entry visible</td></tr></tbody></table>
 
-For engraving text, use [auto-fit](curve-and-auto-fit.md#auto-fit-max-width) first, because reducing the size is better than cutting the text. Add a clip area when customers can move the layer, or when the boundary is a fixed production limit.
+For engraving text, use [auto-fit](curve-and-auto-fit.md#auto-fit-max-width) first, as reducing the font size is usually better than cutting off the text. Add a **Clip area** when customers can move the layer or when the printable area is limited by your production process.
 
 ## Notes
 
-* One clip area per layer. Several layers can each have their own.
-* The clip area does not move with the layer. It is a fixed region, and the layer moves inside it.
-* The clip area affects the preview only. Set it to match your real printable area.
-* Rotating the region and rotating the layer are two separate settings.
+* You can add one **Clip area** per layer. Each layer can have its own clip area.
+* The **Clip area** does not move with the layer. It remains fixed while the layer moves within it.
+* The **Clip area** affects the preview only. Set it to match your actual printable area.
+* Rotating the clip area and rotating the layer are separate settings.

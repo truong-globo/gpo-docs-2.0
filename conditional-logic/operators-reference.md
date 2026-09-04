@@ -7,7 +7,7 @@ icon: code-compare
 
 # Operators reference
 
-The operator list you see depends entirely on the **source** option's type. There are seven distinct sets. This page lists all of them.
+The operators available depend on the type of the **source** option. There are seven sets of operators, listed on this page.
 
 ## Quick index
 
@@ -24,7 +24,7 @@ The operator list you see depends entirely on the **source** option's type. Ther
 <table><thead><tr><th width="330">Condition</th><th>Fires when the customer</th></tr></thead><tbody><tr><td>Engraving text — <strong>number of characters is greater than</strong> — <code>0</code></td><td>has typed anything at all. The standard way to say "they want engraving"</td></tr><tr><td>Engraving text — <strong>number of characters is greater than</strong> — <code>12</code></td><td>has typed a long message — use it to reveal a "this may not fit" warning</td></tr><tr><td>Email — <strong>contains</strong> — <code>@ourcompany.com</code></td><td>is a colleague, for internal-only options</td></tr></tbody></table>
 
 {% hint style="info" %}
-**number of characters is greater than 0** is the most useful operator in this set. It is how you detect "the customer has filled this in" without knowing what they typed.
+Use **number of characters is greater than 0** to detect that the customer has entered something, without checking the value itself.
 {% endhint %}
 
 ## Numeric sources
@@ -37,7 +37,7 @@ The operator list you see depends entirely on the **source** option's type. Ther
 
 <table><thead><tr><th width="330">Condition</th><th>Use for</th></tr></thead><tbody><tr><td>Quantity of names — <strong>is greater than</strong> — <code>4</code></td><td>Revealing a bulk-order note or a longer lead time</td></tr><tr><td>Width — <strong>is greater than</strong> — <code>180</code></td><td>Revealing an oversized-delivery surcharge option</td></tr><tr><td>Number of guests — <strong>is less than</strong> — <code>4</code></td><td>Hiding a group discount option</td></tr></tbody></table>
 
-There is no "greater than or equal to". For "4 or more", use **is greater than** `3`.
+There is no "greater than or equal to" operator. To match 4 or more, use **is greater than** `3`.
 
 ## Date sources
 
@@ -45,9 +45,9 @@ There is no "greater than or equal to". For "4 or more", use **is greater than**
 
 <table><thead><tr><th width="330">Operator</th><th width="120">Value field</th><th>Matches when the date…</th></tr></thead><tbody><tr><td><strong>is equal to</strong></td><td>Text</td><td>is exactly that date</td></tr><tr><td><strong>is not equal to</strong></td><td>Text</td><td>is any other date</td></tr></tbody></table>
 
-Only two operators, so date conditions are for specific dates rather than ranges. Enter the value in the same format the option is configured to use — see [Date and time picker](../option-types/input-types/date-and-time-picker.md).
+Only two operators are available, so date conditions match specific dates rather than ranges. Enter the value in the same format the option is configured to use. See [Date and time picker](../option-types/input-types/date-and-time-picker.md).
 
-To restrict *which* dates can be chosen, use the option's own **Limit date picker** settings rather than conditional logic. That is what they are for.
+To control which dates the customer can select, use the option's **Limit date picker** settings instead of conditional logic.
 
 ## File upload sources
 
@@ -55,7 +55,7 @@ To restrict *which* dates can be chosen, use the option's own **Limit date picke
 
 <table><thead><tr><th width="330">Operator</th><th width="120">Value field</th><th>Matches when</th></tr></thead><tbody><tr><td><strong>has file</strong></td><td><em>None</em></td><td>at least one file is attached</td></tr><tr><td><strong>no file</strong></td><td><em>None</em></td><td>nothing is attached</td></tr><tr><td><strong>number of files is equal to</strong></td><td>Number</td><td>exactly that many are attached</td></tr><tr><td><strong>number of files is not equal to</strong></td><td>Number</td><td>any other number are attached</td></tr><tr><td><strong>number of files is greater than</strong></td><td>Number</td><td>more than that are attached</td></tr><tr><td><strong>number of files is less than</strong></td><td>Number</td><td>fewer than that are attached</td></tr></tbody></table>
 
-**has file** and **no file** need no value — the operator is the whole condition.
+**has file** and **no file** do not take a value. The operator is the complete condition.
 
 **Worked examples**
 
@@ -67,9 +67,9 @@ To restrict *which* dates can be chosen, use the option's own **Limit date picke
 
 <table><thead><tr><th width="330">Operator</th><th width="180">Value field</th><th>Matches when</th></tr></thead><tbody><tr><td><strong>is equal to</strong></td><td>Dropdown of that option's values</td><td>that value is selected</td></tr><tr><td><strong>is not equal to</strong></td><td>Dropdown of that option's values</td><td>anything else is selected</td></tr></tbody></table>
 
-Only one value can ever be selected on these types, so comparisons about counts or containment would mean nothing.
+Only one value can be selected on these types, so count and containment operators do not apply.
 
-The value is picked from a dropdown of the source option's own values, which removes any risk of a typo.
+The value is selected from a dropdown listing the source option's own values, so there is no risk of a typing error.
 
 ## Multi-choice sources
 
@@ -79,12 +79,12 @@ The value is picked from a dropdown of the source option's own values, which rem
 
 ### is equal to versus contains
 
-This is the distinction that matters most on this page.
+This is the most important distinction on this page.
 
-<table><thead><tr><th width="230">Operator</th><th>Behaviour</th><th>Use when</th></tr></thead><tbody><tr><td><strong>is equal to</strong></td><td>Matches only when that value is <em>the</em> selection</td><td>The option is single-select, or you specifically mean "only this one"</td></tr><tr><td><strong>contains</strong></td><td>Matches when that value is <em>among</em> the selections</td><td>The option allows multiple, and you mean "they picked this, possibly with others"</td></tr></tbody></table>
+<table><thead><tr><th width="230">Operator</th><th>Behavior</th><th>Use when</th></tr></thead><tbody><tr><td><strong>is equal to</strong></td><td>Matches only when that value is <em>the</em> selection</td><td>The option is single-select, or you specifically mean "only this one"</td></tr><tr><td><strong>contains</strong></td><td>Matches when that value is <em>among</em> the selections</td><td>The option allows multiple, and you mean "they picked this, possibly with others"</td></tr></tbody></table>
 
 {% hint style="warning" %}
-On a **Checkbox** — or any option with **Allow multiple** on — use **contains**, not **is equal to**. A shopper who ticks `Gift wrap` *and* `Gift bag` does not have a selection equal to `Gift wrap`, so an **is equal to** rule silently fails. This is the most common conditional logic mistake.
+On a **Checkbox**, or any option with **Allow multiple** enabled, use **contains** instead of **is equal to**. If a customer selects `Gift wrap` and `Gift bag`, the selection is not equal to `Gift wrap`, so an **is equal to** rule does not match. This is the most common mistake when building conditions.
 {% endhint %}
 
 **Worked examples**
@@ -97,9 +97,9 @@ On a **Checkbox** — or any option with **Allow multiple** on — use **contain
 
 <table><thead><tr><th width="330">Operator</th><th width="120">Value field</th><th>Matches when</th></tr></thead><tbody><tr><td><strong>is enabled</strong></td><td><em>None</em></td><td>the switch is on</td></tr><tr><td><strong>is disabled</strong></td><td><em>None</em></td><td>the switch is off</td></tr></tbody></table>
 
-Neither takes a value. A switch is the cleanest possible trigger — one option, two states, no typing.
+Neither operator takes a value. A Switch has two states and no typed value, which makes it a reliable trigger.
 
-If you find yourself writing complicated rules against a text field to detect "did they want this", consider adding a Switch above it instead and triggering from that.
+If you need a complex rule on a text field to detect whether the customer wants an option, add a Switch above it and use that as the trigger instead.
 
 ## Choosing the right operator
 

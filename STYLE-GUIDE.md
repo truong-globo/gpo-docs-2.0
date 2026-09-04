@@ -211,3 +211,42 @@ Set by the merchant on 2026-09-01, from their rewrites of `option-types/input-ty
 - Soften absolutes. "could select" rather than "can pick"; "a natural way" rather than "the natural way".
 - Keep "field" for an input the customer types into. Keep the real UI labels **Select text box** and **search field** as they are.
 - Em dashes are acceptable in moderation. The merchant kept them in `text.md`.
+
+## 12. Prose patterns from the Conditional logic rewrite
+
+Added 2026-09-01 from the merchant's rewrite of `conditional-logic/README.md`. These extend section 11.
+
+**Turn inline example lists into bullets.** A sentence that strings three examples together becomes a `For example:` line and a bullet each.
+
+Before: "Ask for a gift message only when they choose gift wrap. Ask for a shoe width only for the sizes you make it in."
+After:
+
+```
+For example:
+
+* Show a gift message field only when the customer selects gift wrapping.
+* Show shoe width options only for sizes that are available in different widths.
+```
+
+**Word swaps**
+
+| Instead of | Write |
+| --- | --- |
+| "It cannot read customer information" | keep "read" for data, but use "reference" for options |
+| "conditions can only read options above" | "conditions can only reference options that appear above" |
+| "It cannot look at an option below itself" | "It cannot use an option that appears later in the form as a condition" |
+| "Every rule reads as one sentence" | "Every rule is presented as a single sentence" |
+| "That is deliberate" | "This is intentional" |
+| "unbuyable" | "impossible to purchase" |
+| "it does not block Add to cart" | "it will not prevent the customer from clicking Add to cart" |
+| "Test both branches." | "Be sure to test both branches of every rule." |
+| "comes at two levels, and which you have depends on your plan" | "works at two levels, depending on your plan" |
+| "One rule ... is impossible to get half-right" | "This is faster to set up, easier to maintain, and helps keep the logic consistent" |
+
+**Rules**
+
+- Split a two-idea sentence rather than joining it with a dash.
+- Replace a clever closing clause with a plain statement of the benefit.
+- Prefer "the customer" in explanations of behavior. "Shopper" is acceptable but not the default.
+- "Plan-gated" becomes "may not be available on all plans".
+- "Advanced level" of conditional logic is lower case in body text.

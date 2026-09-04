@@ -7,7 +7,7 @@ icon: wrench
 
 # Troubleshooting conditional logic
 
-Nearly every conditional logic problem is one of five things. Work through this page top to bottom and you will find it.
+Most conditional logic problems have one of five causes. Work through this page from the top.
 
 ## Start here: the five usual causes
 
@@ -20,10 +20,10 @@ Nearly every conditional logic problem is one of five things. Work through this 
 
 In order:
 
-1. **Read the rule as a sentence.** "Show this field if All of the following match: Gift wrap contains Yes." Does that describe what you want? A **Hide** rule with true conditions hides the option — which is correct behaviour and a common mix-up.
-2. **Check the value character for character.** Open the source option's values table and compare. A trailing space or different capitalisation is enough to break it.
-3. **On a multi-select source, use contains.** With **is equal to**, a shopper who selects two values matches nothing.
-4. **With two or more conditions on All**, check they can be true simultaneously. `Size is equal to S` and `Size is equal to L` never can.
+1. **Read the rule as a sentence.** For example, "Show this field if All of the following match: Gift wrap contains Yes." Check that this describes what you want. A **Hide** rule with matching conditions hides the option, which is correct behavior but often misread.
+2. **Check the value exactly.** Open the source option's values table and compare. A trailing space or a difference in capitalization prevents a match.
+3. **On a multi-select source, use contains.** With **is equal to**, a customer who selects two values matches nothing.
+4. **With two or more conditions on All**, check that they can be true at the same time. `Size is equal to S` and `Size is equal to L` never can.
 5. **Check the source still exists.** If you deleted the trigger option, the condition resets to an empty row.
 
 </details>
@@ -31,7 +31,7 @@ In order:
 <details>
 <summary>The option is always visible</summary>
 
-1. The conditions are always true — for example **number of characters is greater than** `-1`, or a value that is also the default.
+1. The conditions are always true, for example **number of characters is greater than** `-1`, or a value that is also the default.
 2. You have **Show** with **Any** and one condition that is always satisfied.
 3. Conditional logic is not actually on. Check the switch, and check the option set was saved.
 4. Your plan may not include conditional logic, in which case rules are stored but not applied. See [Locked features](../plans/compare-plans.md).
@@ -52,7 +52,7 @@ Three possibilities:
 <details>
 <summary>It works on the storefront but not in the preview</summary>
 
-Almost always a variant condition, for the same reason as above. This is expected, not a fault.
+This is almost always a variant condition, for the reason described above. It is expected behavior.
 
 </details>
 
@@ -61,7 +61,7 @@ Almost always a variant condition, for the same reason as above. This is expecte
 
 Two reasons:
 
-1. **It sits below the option you are configuring.** Conditions can only read options that appear earlier in the form. Drag it above and it appears.
+1. **It appears below the option you are configuring.** Conditions can only reference options that appear earlier in the form. Move it above the current option.
 2. **Its type cannot be a trigger.** Twelve types cannot: Hidden field, Heading, Divider, Spacing, Paragraph, HTML, Pop-up modal, Tabs, Product links, Size chart, Section, and Dimension. See [Build a condition](build-a-condition.md#what-can-be-a-trigger).
 
 </details>
@@ -71,14 +71,14 @@ Two reasons:
 
 This is by design: **a hidden option is not validated**. If the rule is hiding it, it cannot block **Add to cart**.
 
-If the option must always be filled in, it cannot be conditional. If it is only required in one branch, that is exactly what this behaviour gives you — but test both branches so you know what shoppers can get away with.
+If the option must always be completed, it cannot be conditional. If it is required only in one branch, this behavior is correct. Test both branches so you know what customers can submit.
 
 </details>
 
 <details>
 <summary>An add-on charge is missing</summary>
 
-Same cause: **a hidden option is not charged**. Hiding an option removes its price from the total. If the charge should always apply, the option cannot be conditional — or the charge belongs on an option that is always visible.
+This has the same cause: **a hidden option is not charged**. Hiding an option removes its price from the total. If the charge must always apply, apply it to an option that is always visible.
 
 </details>
 
@@ -103,38 +103,38 @@ See [Operators reference](operators-reference.md).
 <details>
 <summary>The rule broke after duplicating or importing</summary>
 
-Duplicates and imports get renumbered names to stay unique, and rules pointing at them are repointed automatically — so the rules usually survive. What does not survive is your ability to tell the copies apart. Rename them, then check each rule points at the option you meant.
+Duplicated and imported options are renamed to keep their names unique, and rules referencing them are updated automatically, so the rules usually still work. The copies are harder to tell apart, so rename them and check that each rule references the correct option.
 
 </details>
 
 <details>
 <summary>A variant condition never matches</summary>
 
-Five things to check: the variant name is typed exactly as in Shopify admin; on a multi-dimension product it is the full name `Size / Colour`, not one part; your plan includes advanced conditional logic; the value is entered in the storefront language you are testing; and you are testing on a real product page, because variant conditions cannot evaluate in the builder preview. If all five are right, it is theme integration — see [Conditions based on Shopify variants](conditions-on-shopify-variants.md).
+Five things to check: the variant name is typed exactly as in Shopify admin; on a multi-dimension product it is the full name `Size / Colour`, not one part; your plan includes advanced conditional logic; the value is entered in the storefront language you are testing; and you are testing on a real product page, because variant conditions cannot evaluate in the builder preview. If all five are correct, the cause is theme integration. See [Conditions based on Shopify variants](conditions-on-shopify-variants.md).
 
 </details>
 
 <details>
 <summary>I need "A and (B or C)"</summary>
 
-Not possible in a single rule — all conditions share one matching mode. Two ways round it:
+This is not possible in a single rule, because all conditions share one matching mode. There are two alternatives:
 
-* Put part of the logic on a [Section](../option-types/static-types/section.md) and the rest on the option inside it. Both must pass, giving you an implicit **and** between two rules.
-* Add two copies of the option with different simpler rules, making sure their conditions cannot both be true.
+* Apply part of the logic to a [Section](../option-types/static-types/section.md) and the rest to the option inside it. Both rules must match, which creates an **and** between them.
+* Add two copies of the option with simpler rules, and make sure their conditions cannot both be true.
 
 </details>
 
 <details>
 <summary>A divider or heading is left stranded</summary>
 
-The options around it are hidden but it is not. Put the same rule on it, or better, move the whole group into a [Section](../option-types/static-types/section.md) with one rule on the section.
+The options around it are hidden, but the divider or heading is not. Apply the same rule to it, or move the whole group into a [Section](../option-types/static-types/section.md) with one rule on the section.
 
 </details>
 
 <details>
 <summary>The form flickers or jumps as the customer types</summary>
 
-A rule using a character-count operator is toggling an option on and off as the length crosses your threshold. Choose a threshold that is not near the typical entry length — `0` is safest, since it only fires once.
+A rule using a character-count operator shows and hides an option each time the entry crosses the threshold. Use a threshold that is not close to the typical entry length. A value of `0` is safest, because the rule then changes state only once.
 
 </details>
 
@@ -144,19 +144,19 @@ A rule using a character-count operator is toggling an option on and off as the 
 {% step %}
 ### Test both branches in the preview
 
-Not just the interesting one. Set the trigger so the rule fires, then so it does not, and check both results.
+Set the trigger so the rule matches, then so it does not, and check both results.
 {% endstep %}
 
 {% step %}
 ### Check what happens with nothing selected
 
-A shopper arriving at the page has made no choices. Is the form sensible in that state?
+A customer arriving at the page has made no selections. Check that the form is usable in that state.
 {% endstep %}
 
 {% step %}
 ### Check the required options in every branch
 
-A required option that is hidden is not enforced. Make sure each branch still collects what you need.
+A required option that is hidden is not enforced. Check that each branch still collects the information you need.
 {% endstep %}
 
 {% step %}
@@ -168,16 +168,16 @@ Hidden options are not charged. Confirm the total is right in each branch.
 {% step %}
 ### Test on a real product page
 
-With **View in Store**. Essential for variant conditions, and worth it for everything else — your theme, not the preview, is what shoppers see.
+Use **View in Store**. This is required for variant conditions, and recommended for all other rules, because customers see your theme rather than the preview.
 {% endstep %}
 
 {% step %}
 ### Test on a phone
 
-Conditional logic changes the page height as options appear. Check the result is not confusing on a small screen.
+Conditional logic changes the height of the page as options are displayed. Check that the result is clear on a small screen.
 {% endstep %}
 {% endstepper %}
 
 ## Still stuck?
 
-Include these when you [contact support](../help/contact-support.md): the option set name, the option carrying the rule, the exact rule as it reads in the app, and what you expected against what happened. If it is a variant condition, add the product and variant names.
+When you [contact support](../help/contact-support.md), include the option set name, the option the rule is applied to, the exact rule as it appears in the app, and what you expected compared with what happened. For a variant condition, also include the product and variant names.

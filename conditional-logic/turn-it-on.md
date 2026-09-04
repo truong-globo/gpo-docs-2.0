@@ -9,9 +9,9 @@ icon: toggle-on
 
 ## Before you start
 
-* An option set is open in the builder with at least two options in it — one to react, one to react *to*.
-* The option you want to react to must sit **above** the option you are configuring. If it does not, drag it up first. See [Build your options](../option-sets/build-options.md).
-* Conditional logic is plan-gated. If the switch is greyed out, see [Compare plans](../plans/compare-plans.md).
+* An option set is open in the builder with at least two options: one that reacts, and one that triggers the rule.
+* The option you want to use as a condition must appear **above** the option you are configuring. If it does not, move it up first. See [Build your options](../option-sets/build-options.md).
+* Conditional logic may not be available on all plans. If the switch is greyed out, see [Compare plans](../plans/compare-plans.md).
 
 ## Steps
 
@@ -19,9 +19,9 @@ icon: toggle-on
 {% step %}
 ### Select the option that should appear or disappear
 
-This is the important thing to get right. The rule goes on the option whose **visibility** is being controlled, not on the option that triggers it.
+Apply the rule to the option whose **visibility** you want to control, not to the option that triggers it.
 
-If you want a gift message box to appear when gift wrap is ticked, the rule goes on the **gift message** option.
+For example, to display a gift message field when gift wrapping is selected, apply the rule to the **gift message** option.
 {% endstep %}
 
 {% step %}
@@ -41,7 +41,7 @@ The first dropdown is **Show** or **Hide**.
 {% step %}
 ### Choose the matching mode
 
-The second dropdown is **All** or **Any**. It only matters once you have more than one condition.
+The second dropdown is **All** or **Any**. It applies only when a rule has more than one condition.
 {% endstep %}
 
 {% step %}
@@ -53,9 +53,9 @@ One row: a source, an operator, and a value. See [Build a condition](build-a-con
 {% step %}
 ### Test it in the preview
 
-The builder's live preview runs your rules. Change the trigger option and watch the dependent option appear and disappear.
+The builder's live preview applies your rules. Change the trigger option and check that the dependent option is displayed and hidden as expected.
 
-The one thing the preview cannot test is a variant-based condition, because it has no variant selected. See [Live preview and inspector](../option-sets/live-preview-and-inspector.md).
+The preview cannot test variant-based conditions, because no variant is selected there. See [Live preview and inspector](../option-sets/live-preview-and-inspector.md).
 {% endstep %}
 
 {% step %}
@@ -71,25 +71,25 @@ Then test on your storefront with **View in Store**, checking both branches.
 
 ## Show or Hide
 
-Both do the same job from opposite directions. The rule is evaluated, and then:
+Both produce the same result from opposite directions. The rule is evaluated, and then:
 
 <table><thead><tr><th width="180">Action</th><th width="230">Conditions met</th><th>Conditions not met</th></tr></thead><tbody><tr><td><strong>Show</strong></td><td>The option is visible</td><td>The option is hidden</td></tr><tr><td><strong>Hide</strong></td><td>The option is hidden</td><td>The option is visible</td></tr></tbody></table>
 
 ### Which to choose
 
-They are logically interchangeable, but one is almost always clearer to read later.
+The two actions are logically interchangeable, but one is usually easier to read later.
 
 <table><thead><tr><th width="330">What you want</th><th>Use</th></tr></thead><tbody><tr><td>An option that is normally irrelevant, and becomes relevant</td><td><strong>Show</strong> — the default state is hidden, which is what you want</td></tr><tr><td>An option that is normally relevant, with one exception</td><td><strong>Hide</strong> — the default state is visible</td></tr><tr><td>An option revealed by a single yes-or-no choice</td><td><strong>Show</strong> when the switch is enabled</td></tr><tr><td>An option that must disappear for one specific variant</td><td><strong>Hide</strong> when the variant matches</td></tr></tbody></table>
 
 {% hint style="info" %}
-Prefer **Show** as your default habit. An option that starts hidden and appears when needed keeps the initial page short, which is the main reason to use conditional logic at all.
+Use **Show** by default. An option that starts hidden and appears when needed keeps the initial form short, which is the main purpose of conditional logic.
 {% endhint %}
 
 ## All or Any
 
 <table><thead><tr><th width="180">Mode</th><th>Fires when</th><th>Effect</th></tr></thead><tbody><tr><td><strong>All</strong></td><td>Every condition is true</td><td>Narrows. Each condition you add makes the rule fire less often.</td></tr><tr><td><strong>Any</strong></td><td>At least one condition is true</td><td>Widens. Each condition you add makes the rule fire more often.</td></tr></tbody></table>
 
-With one condition the setting makes no difference.
+With a single condition, this setting has no effect.
 
 ### Worked comparison
 
@@ -97,31 +97,31 @@ Two conditions: `Gift wrap` **contains** `Yes` and `Delivery` **is equal to** `E
 
 <table><thead><tr><th width="230">Mode and action</th><th>The option appears when</th></tr></thead><tbody><tr><td><strong>Show</strong> + <strong>All</strong></td><td>Gift wrap is ticked <strong>and</strong> delivery is Express</td></tr><tr><td><strong>Show</strong> + <strong>Any</strong></td><td>Gift wrap is ticked <strong>or</strong> delivery is Express</td></tr><tr><td><strong>Hide</strong> + <strong>All</strong></td><td>Everything except when both are true</td></tr><tr><td><strong>Hide</strong> + <strong>Any</strong></td><td>Only when neither is true</td></tr></tbody></table>
 
-The last two are the ones that catch people out. **Hide** plus **Any** means "hide it if any one of these is true", so the option is only visible when none of them are.
+The last two combinations are the ones most often misread. **Hide** with **Any** hides the option when any one condition is true, so the option is displayed only when none of them are true.
 
 ## Adding and removing conditions
 
 * **Add another condition** appends a row.
 * Each row has a delete action.
-* All rows in one rule share the same **All** or **Any** mode — you cannot mix `A and (B or C)` in a single rule.
+* All rows in a rule share the same **All** or **Any** mode. You cannot combine `A and (B or C)` in a single rule.
 
 ### When you need mixed logic
 
-If you genuinely need "A and (B or C)", split the work:
+To build logic such as `A and (B or C)`, split it across two rules:
 
-* Put part of the logic on a [Section](../option-types/static-types/section.md) and the rest on the option inside it. Both must pass for the option to show, which gives you an implicit **and** between two rules.
-* Or add two copies of the option, each with its own simpler rule, and make sure their conditions cannot both be true.
+* Apply part of the logic to a [Section](../option-types/static-types/section.md) and the rest to the option inside it. Both rules must match for the option to be displayed, which creates an **and** between them.
+* Or add two copies of the option, each with its own rule, and make sure their conditions cannot both be true at the same time.
 
 ## Rules on a Section
 
-**Section** supports conditional logic like any other type, and a rule there controls everything inside it.
+**Section** supports conditional logic in the same way as other option types. A rule on a section controls every option inside it.
 
-Use it whenever more than two options share the same condition. One rule on the section beats six identical rules on six options — and when the condition later changes, you edit it once.
+Use a section rule when more than two options share the same condition. One rule replaces several identical rules, and you only need to edit it in one place when the condition changes.
 
 See [Section](../option-types/static-types/section.md).
 
 ## Notes
-* A hidden option is **not validated**, so a required option currently hidden cannot block add to cart.
+* A hidden option is **not validated**, so a required option that is currently hidden does not block **Add to cart**.
 * A hidden option with an add-on price is **not charged**. Hiding removes the charge.
-* Rules are evaluated live in the shopper's browser as they make choices — there is no page reload.
-* Rules are evaluated on the storefront and in the builder preview, but customer and country rules are not — those decide whether the whole option set renders.
+* Rules are evaluated in the customer's browser as they make selections. No page reload is required.
+* Rules are evaluated on the storefront and in the builder preview. Customer and country rules are not, because they control whether the whole option set is displayed.

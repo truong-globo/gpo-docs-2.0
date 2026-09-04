@@ -53,9 +53,7 @@ Add the product to a cart and check the total. The charge is applied at checkout
 {% endstep %}
 {% endstepper %}
 
-<!-- SCREENSHOT: addon-add-price-tab | App admin → builder → dialog Add-on Configuration | Tab "Add price" đang chọn, có banner giải thích và ô Price | Khoanh tab Add price và ô giá -->
-
-<figure><img src="../.gitbook/assets/placeholder.png" alt="The Add price tab of the add-on dialog with a price entered"><figcaption><p>The Add price tab has a single price field and creates no product.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-09-04_13-50-27.png" alt="The Add price tab of the add-on dialog with a price entered"><figcaption><p>The Add price tab has a single price field and creates no product.</p></figcaption></figure>
 
 ## What the customer sees
 

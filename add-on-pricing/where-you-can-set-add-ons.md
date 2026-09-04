@@ -13,9 +13,9 @@ The location of the price field depends on the option type. Check the tables bel
 
 <table><thead><tr><th width="230">Level</th><th width="290">Where the field is</th><th>Because</th></tr></thead><tbody><tr><td><strong>Option level</strong></td><td><strong>Basic Settings</strong>, under <strong>Add-on Settings</strong>, labeled <strong>Price</strong></td><td>The option has one answer, so one price</td></tr><tr><td><strong>Option value level</strong></td><td>The <strong>Price</strong> column in the option values table</td><td>Different choices usually cost different amounts</td></tr></tbody></table>
 
-<!-- SCREENSHOT: addon-two-levels | App admin → builder | Bên trái: option Text với field Price ở Add-on Settings. Bên phải: option Checkbox với cột Price trong bảng option values | Khoanh 2 chỗ đặt giá -->
+<figure><img src="../.gitbook/assets/2026-09-04_13-53-34.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/placeholder.png" alt="An option-level Price field beside an option values table with a Price column"><figcaption><p>Input types take one price; selection types take a price per choice.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-09-04_13-52-17.png" alt="An option-level Price field beside an option values table with a Price column"><figcaption><p>Input types take one price; selection types take a price per choice.</p></figcaption></figure>
 
 ## By option type
 
@@ -41,7 +41,7 @@ Each value can also use a **different pricing mode**. One value can link to an e
 
 ### Cannot carry a price
 
-<table><thead><tr><th width="290">Type</th><th>Why</th></tr></thead><tbody><tr><td><a href="../option-types/input-types/phone.md">Phone</a>, <a href="../option-types/input-types/email.md">Email</a></td><td>Contact details, not paid choices</td></tr><tr><td><a href="../option-types/input-types/hidden-field.md">Hidden field</a></td><td>The customer makes no choice</td></tr><tr><td><a href="../option-types/input-types/date-and-time-picker.md">Date and time picker</a></td><td>A date is not a stocked item</td></tr><tr><td><a href="../option-types/input-types/file-upload.md">File upload</a></td><td>An upload is not a purchase</td></tr><tr><td><a href="../option-types/input-types/range-slider.md">Range slider</a></td><td>Use <a href="../option-types/input-types/number.md">Number</a> if the value should drive a charge</td></tr><tr><td><a href="../option-types/selection-types/font-picker.md">Font picker</a></td><td>A presentation choice</td></tr><tr><td><a href="../option-types/selection-types/product-links.md">Product links</a></td><td>It navigates away rather than adding anything</td></tr><tr><td>All nine <a href="../option-types/static-types/README.md">static types</a></td><td>They collect nothing</td></tr></tbody></table>
+<table><thead><tr><th width="290">Type</th><th>Why</th></tr></thead><tbody><tr><td><a href="../option-types/input-types/phone.md">Phone</a>, <a href="../option-types/input-types/email.md">Email</a></td><td>Contact details, not paid choices</td></tr><tr><td><a href="../option-types/input-types/hidden-field.md">Hidden field</a></td><td>The customer makes no choice</td></tr><tr><td><a href="../option-types/input-types/date-and-time-picker.md">Date and time picker</a></td><td>A date is not a stocked item</td></tr><tr><td><a href="../option-types/input-types/file-upload.md">File upload</a></td><td>An upload is not a purchase</td></tr><tr><td><a href="../option-types/input-types/range-slider.md">Range slider</a></td><td>Use <a href="../option-types/input-types/number.md">Number</a> if the value should drive a charge</td></tr><tr><td><a href="../option-types/selection-types/font-picker.md">Font picker</a></td><td>A presentation choice</td></tr><tr><td><a href="../option-types/selection-types/product-links.md">Product links</a></td><td>It navigates away rather than adding anything</td></tr><tr><td>All nine <a href="../option-types/static-types/">static types</a></td><td>They collect nothing</td></tr></tbody></table>
 
 ## Charging for an option that cannot be priced
 
@@ -63,7 +63,7 @@ For example, `Express production (+$10.00)` or `Artwork setup fee`. The label sh
 {% step %}
 ### Reveal the unpriced option conditionally
 
-Place the priced Switch **above** the unpriced option, then use [conditional logic](../conditional-logic/README.md) to display the date picker or upload field when the switch is on.
+Place the priced Switch **above** the unpriced option, then use [conditional logic](../conditional-logic/) to display the date picker or upload field when the switch is on.
 {% endstep %}
 
 {% step %}

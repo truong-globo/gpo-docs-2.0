@@ -1,5 +1,7 @@
 ---
-description: What the customer and your team see after a personalized item is added to the cart.
+description: >-
+  What the customer and your team see after a personalized item is added to the
+  cart.
 icon: cart-shopping
 ---
 
@@ -25,9 +27,7 @@ How the design is displayed is controlled by a store-wide setting.
 
 This setting may not be available on all plans. See [Compare plans](../plans/compare-plans.md).
 
-<!-- SCREENSHOT: pp-cart-preview | Storefront → trang cart | Line item có option details và link "Preview Your Design", modal preview đã mở | Khoanh link và modal -->
-
-<figure><img src="../.gitbook/assets/placeholder.png" alt="A cart line with its option details and the design preview open in a modal"><figcaption><p>The customer can check their design from the cart before paying.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-09-04_16-38-28.png" alt="A cart line with its option details and the design preview open in a modal"><figcaption><p>The customer can check their design from the cart before paying.</p></figcaption></figure>
 
 ## Letting customers change their mind
 
@@ -49,7 +49,7 @@ Your production team works from these details. Two settings determine how clear 
 
 There are three options, depending on how your team works:
 
-<table><thead><tr><th width="290">Route</th><th>Good for</th></tr></thead><tbody><tr><td>Reading the order in Shopify admin</td><td>Low volume. Nothing to set up</td></tr><tr><td>Order confirmation emails, invoices, and packing slips</td><td>Anybody who works from printed paperwork. Option details appear automatically. See <a href="../storefront/show-options-on-orders.md">Show options on orders</a></td></tr><tr><td>An <a href="../automations/README.md">automation</a></td><td>Higher volume — email yourself the options as each order arrives, or write them into the order notes so they appear everywhere the note does</td></tr></tbody></table>
+<table><thead><tr><th width="290">Route</th><th>Good for</th></tr></thead><tbody><tr><td>Reading the order in Shopify admin</td><td>Low volume. Nothing to set up</td></tr><tr><td>Order confirmation emails, invoices, and packing slips</td><td>Anybody who works from printed paperwork. Option details appear automatically. See <a href="../storefront/show-options-on-orders.md">Show options on orders</a></td></tr><tr><td>An <a href="../automations/">automation</a></td><td>Higher volume — email yourself the options as each order arrives, or write them into the order notes so they appear everywhere the note does</td></tr></tbody></table>
 
 If you sell personalized products regularly, set up the automations early. See [Email notification](../automations/email-notification.md) and [Update order notes](../automations/update-order-notes.md).
 

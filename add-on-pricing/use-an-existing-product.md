@@ -1,7 +1,7 @@
 ---
 description: >-
-  Link an option to a product and variant you already sell, so the add-on inherits
-  its price, stock, SKU, and weight.
+  Link an option to a product and variant you already sell, so the add-on
+  inherits its price, stock, SKU, and weight.
 icon: box
 ---
 
@@ -59,9 +59,9 @@ The **Advanced settings** dropdown on **Advanced Settings** controls how the qua
 {% endstep %}
 {% endstepper %}
 
-<!-- SCREENSHOT: addon-existing-product | App admin → builder → dialog Add-on Configuration | Tab "Use existing product": danh sách sản phẩm có search, đã chọn 1 sản phẩm và đang hiện danh sách variant | Khoanh danh sách variant -->
+<figure><img src="../.gitbook/assets/2026-09-04_13-59-29.png" alt="The Use existing product tab with a product selected and its variants listed"><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/placeholder.png" alt="The Use existing product tab with a product selected and its variants listed"><figcaption><p>The add-on price and inventory come from the variant you select.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-09-04_14-00-52 (1).png" alt=""><figcaption><p>The add-on price and inventory come from the variant you select.</p></figcaption></figure>
 
 ## What you get
 
@@ -72,7 +72,7 @@ The **Advanced settings** dropdown on **Advanced Settings** controls how the qua
 <table><thead><tr><th width="330">Use it when</th><th>Use something else when</th></tr></thead><tbody><tr><td>You already sell the item separately</td><td>You do not — use <a href="auto-generate-a-product.md">Automatically generate a product</a></td></tr><tr><td>You want one inventory figure for both routes</td><td>You want the add-on counted separately from direct sales</td></tr><tr><td>The price should stay in step with your catalog</td><td>The add-on price should differ from the shelf price</td></tr><tr><td>The add-on has a real weight and SKU</td><td>It is a service — use <a href="add-price-directly.md">Add price</a></td></tr></tbody></table>
 
 {% hint style="info" %}
-A single inventory count is usually what you want, because a gift box sold as an add-on and one sold on its own come from the same stock. To count them separately, generate a product instead.
+A single inventory count is usually the best option when add-on and standalone gift boxes share the same stock. To track their inventory separately, generate a separate product instead.
 {% endhint %}
 
 ## Examples

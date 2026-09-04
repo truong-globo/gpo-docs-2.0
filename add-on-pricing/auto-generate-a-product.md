@@ -1,7 +1,7 @@
 ---
 description: >-
-  Enter a price and let the app create the add-on product. What it creates, how it
-  names the product, and how to keep it out of your storefront.
+  Enter a price and let the app create the add-on product. What it creates, how
+  it names the product, and how to keep it out of your storefront.
 icon: wand-magic-sparkles
 ---
 
@@ -39,13 +39,11 @@ The product is created in the background after you save, not while the dialog is
 {% step %}
 ### Set up its inventory
 
-**Do not skip this step.** Without inventory tracking, out-of-stock behavior has no effect. See [Turning on stock tracking](#turning-on-stock-tracking) below.
+**Do not skip this step.** Without inventory tracking, out-of-stock behavior has no effect. See [Turning on stock tracking](auto-generate-a-product.md#turning-on-stock-tracking) below.
 {% endstep %}
 {% endstepper %}
 
-<!-- SCREENSHOT: addon-auto-generate | App admin → builder → dialog Add-on Configuration | Tab "Automatically generate product": banner, Product title và Variant title readonly, ô Price | Khoanh ô Price và 2 field readonly -->
-
-<figure><img src="../.gitbook/assets/placeholder.png" alt="The Automatically generate product tab showing read-only titles and a price field"><figcaption><p>The titles come from your option, so name the option well before generating.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-09-04_14-06-22.png" alt="The Automatically generate product tab showing read-only titles and a price field"><figcaption><p>The titles come from your option, so name the option well before generating.</p></figcaption></figure>
 
 ## What the app creates
 
@@ -54,7 +52,7 @@ The following table describes the products you will find in your catalog.
 <table><thead><tr><th width="230">Property</th><th>Value</th></tr></thead><tbody><tr><td>Title</td><td>The option's <strong>Label</strong></td></tr><tr><td>Variants</td><td>One per priced option value, named after that value. An input type gets a single variant</td></tr><tr><td>Status</td><td><strong>Active</strong></td></tr><tr><td>Sales channels</td><td>Published, so it can be purchased through the widget</td></tr><tr><td>Tags</td><td><code>globo-product-options</code>, plus an identifier for the option it belongs to</td></tr><tr><td>Inventory policy</td><td>Set to continue selling when out of stock — so by default it never blocks a sale</td></tr></tbody></table>
 
 {% hint style="info" %}
-Use the `globo-product-options` tag to find every generated product at once, and to exclude them from automated collections. Search your Shopify products for this tag to list them.
+Use the `globo-product-options` tag to quickly find all generated products and exclude them from automated collections. In Shopify, search your products by this tag to view all generated products in one place.
 {% endhint %}
 
 One product is created per option, with one variant for each priced value. For example, an [Image swatch](../option-types/selection-types/image-swatch.md) with twelve priced fabrics creates one product with twelve variants, not twelve products. Options with a large number of priced values are split across several products.
@@ -66,7 +64,7 @@ Generated products are created so that they never block a sale. This is the safe
 1. **Open the product in Shopify admin.** Use the **Product** link in the values table, or search your products for the `globo-product-options` tag.
 2. **Turn on inventory tracking** on the variant and enter your quantity.
 3. **Set it to stop selling when out of stock**, so Shopify does not keep selling past zero.
-4. **Set the option's [Out of stock options](../option-types/shared-settings/out-of-stock-options.md)** to **Hide**, **Blur**, or **Strike-through**.
+4. **Set the option's** [**Out of stock options**](../option-types/shared-settings/out-of-stock-options.md) to **Hide**, **Blur**, or **Strike-through**.
 5. **Test it.** Set the quantity to zero and check that the value is displayed as you configured on the storefront.
 
 For more information, see [Stock and inventory](stock-and-inventory.md).
@@ -86,6 +84,7 @@ Do not **unpublish** these products from the Online Store. A product that is not
 <table><thead><tr><th width="330">Use it when</th><th>Use something else when</th></tr></thead><tbody><tr><td>The add-on is physical and you want to count it</td><td>It is a service with nothing to count — <a href="add-price-directly.md">Add price</a></td></tr><tr><td>You do not already sell it separately</td><td>You do — <a href="use-an-existing-product.md">Use an existing product</a></td></tr><tr><td>You sell in person through POS</td><td>Never <strong>Add price</strong> for POS</td></tr><tr><td>You want add-ons in your Shopify reporting</td><td></td></tr><tr><td>The add-on has weight that affects shipping</td><td></td></tr></tbody></table>
 
 <details>
+
 <summary>Examples</summary>
 
 **Gift wrap with real stock**
@@ -104,9 +103,9 @@ A Text option for the engraving, with a generated product so the metal plate is 
 
 ## Notes
 
-* The product is created after you **save**, in the background. It is not instant.
+* The product is created in the background after you **save**, so it may take a moment to appear.
 * Editing the price in the app updates the generated variant.
-* Renaming the option's **Label** does not rename the existing product. The product keeps the title it was created with.
-* Deleting the option set does **not** delete the generated products. They remain in your catalog. See [Duplicate and delete](../option-sets/duplicate-and-delete.md).
-* Duplicating an option set does not duplicate the products. Both sets link to the same products and share their inventory.
-* If a generated product is out of date in the app, use **Sync Add-on data** in the builder's more-actions menu.
+* Renaming the option's **Label** does not rename the existing product. The product keeps the title it had when it was created.
+* Deleting an option set does **not** delete its generated products. They remain in your catalog. See [Duplicate and delete](../option-sets/duplicate-and-delete.md).
+* Duplicating an option set does not duplicate its products. Both option sets link to the same products and share their inventory.
+* If a generated product is out of sync in the app, use **Sync Add-on data** from the builder's more-actions menu.

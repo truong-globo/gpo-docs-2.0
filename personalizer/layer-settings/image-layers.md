@@ -1,5 +1,7 @@
 ---
-description: Draw an uploaded photo or a chosen design onto the product, masked into a shape and fitted the way you want.
+description: >-
+  Draw an uploaded photo or a chosen design onto the product, masked into a
+  shape and fitted the way you want.
 icon: images
 ---
 
@@ -21,9 +23,7 @@ For selection types, each value needs its own image in the values table. See [Wo
 
 The remaining settings are shared with text layers: position, width, height, opacity, rotation, [clip area](clip-area.md), and [customer controls](customer-controls.md). See [Position, size, and rotation](position-size-rotation.md).
 
-<!-- SCREENSHOT: pp-image-layer | App admin → builder → option File upload → Personalizer Settings | Image shape picker và Background mode với 5 lựa chọn | Khoanh 2 setting -->
-
-<figure><img src="../../.gitbook/assets/placeholder.png" alt="The image shape picker and background mode setting on an image layer"><figcaption><p>Shape decides the window; background mode decides how the image fills it.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2026-09-04_16-28-22.png" alt="The image shape picker and background mode setting on an image layer"><figcaption><p>Shape decides the window; background mode decides how the image fills it.</p></figcaption></figure>
 
 ## Image shape
 
@@ -46,9 +46,9 @@ Five options for how the image fits the shape.
 <table><thead><tr><th width="290">Situation</th><th>Mode</th></tr></thead><tbody><tr><td>Customers upload their own photos, any shape</td><td><strong>Cover</strong> — always fills the window, never distorts</td></tr><tr><td>The whole image must be visible, cropping unacceptable</td><td><strong>Contain</strong>, and say in help text that empty space may show</td></tr><tr><td>Your own value images, all cropped consistently</td><td><strong>Cover</strong> or <strong>Stretch</strong> — with matching proportions they behave the same</td></tr><tr><td>A panoramic or banner-shaped area</td><td><strong>Full width</strong></td></tr><tr><td>A tall narrow area</td><td><strong>Full height</strong></td></tr></tbody></table>
 
 {% hint style="warning" %}
-Do not use **Stretch** for customer uploads. A portrait photo in a landscape aperture is distorted. **Cover** crops the image instead, which produces a better result.
+Do not use **Stretch** for customer uploads. A portrait photo placed in a landscape-shaped area will appear distorted. **Cover** crops the image instead, producing a more natural result.
 
-Use **Cover** together with the [image editor](../../option-types/input-types/file-upload.md) on the upload option, so customers crop their photo to the correct shape before it reaches the preview.
+Use **Cover** together with the [image editor](../../option-types/input-types/file-upload.md) for the upload option, so customers can crop their photos to the correct shape before they appear in the preview.
 {% endhint %}
 
 ## Example configuration
@@ -93,11 +93,11 @@ You have already positioned the design, so the customer does not need to move it
 {% endstep %}
 {% endstepper %}
 
-A multi-select option can produce several image layers at the same time, and they overlap. Either limit the option to one selection, or position the layers to allow for the overlap.
+A multi-select option can create several image layers at the same time, which may cause them to overlap. Either limit the option to one selection or position the layers so they do not overlap.
 
 ## Notes
 
-* An image layer draws nothing until a file is uploaded or a value with an image is selected. Unlike text layers, it has no default value.
-* Uploaded images can be large. Use **Cover** and a clip area to keep the preview within the area you defined.
-* Uploads are drawn at the resolution supplied, so a small file appears blurred when enlarged. State a minimum size in help text.
-* A custom shape is uploaded to your store's files and can be reused across options.
+* An image layer displays nothing until a file is uploaded or a value with an image is selected. Unlike text layers, it has no default value.
+* Uploaded images can be large. Use **Cover** and a **Clip area** to keep the preview within the defined area.
+* Uploaded images are displayed at their original resolution, so a small file may appear blurry when enlarged. Specify a minimum image size in the help text.
+* A custom shape is uploaded to your store's files and can be reused across multiple options.

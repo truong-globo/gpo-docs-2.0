@@ -1,5 +1,7 @@
 ---
-description: Let customers move, resize, and rotate a layer themselves — and how to do it without breaking your production.
+description: >-
+  Let customers move, resize, and rotate a layer themselves — and how to do it
+  without breaking your production.
 icon: hand
 ---
 
@@ -17,9 +19,7 @@ These permissions let the customer arrange the design themselves. They can also 
 
 All three are off by default, and you can enable any combination. With none enabled, the layer stays where you placed it, and the customer changes its content only.
 
-<!-- SCREENSHOT: pp-customer-controls | App admin → builder → option có personalizer | Nhóm "Allow customers to" với 3 checkbox | Khoanh nhóm này -->
-
-<figure><img src="../../.gitbook/assets/placeholder.png" alt="The Allow customers to setting with change position, resize, and rotate"><figcaption><p>Three permissions, all off by default.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2026-09-04_16-31-33.png" alt="The Allow customers to setting with change position, resize, and rotate"><figcaption><p>Three permissions, all off by default.</p></figcaption></figure>
 
 ## Always pair them with a clip area
 
@@ -70,4 +70,4 @@ A photo frame where the customer positions their own photo:
 * Permissions are per layer, so one layer can be adjustable while another is fixed.
 * They affect the preview and the recorded design only. They do not affect other layers.
 * Both touch and mouse input are supported, but a small layer is difficult to position on a phone. Do not rely on precise dragging on mobile.
-* State in help text what happens to any part of the design outside the printable area.
+* State in the help text what happens to any part of the design outside the printable area.

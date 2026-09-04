@@ -1,5 +1,7 @@
 ---
-description: Show add-on products as part of the main item in the cart instead of as separate lines.
+description: >-
+  Show add-on products as part of the main item in the cart instead of as
+  separate lines.
 icon: object-group
 ---
 
@@ -13,15 +15,13 @@ By default, an add-on backed by a product is added as its own cart line, linked 
 
 The setting is under **Settings** > **Settings** > **Add-on price**, labeled **Merge Main product & Add-on products**. It is store-wide and applies to every option set.
 
-<!-- SCREENSHOT: addon-merge-setting | App admin → Settings → Add-on price | Switch "Merge Main product & Add-on products" | Khoanh switch -->
-
-<figure><img src="../.gitbook/assets/placeholder.png" alt="The merge main product and add-on products switch in the add-on price settings"><figcaption><p>One switch, applied store-wide.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-09-04_15-10-13.png" alt="The merge main product and add-on products switch in the add-on price settings"><figcaption><p>One switch, applied store-wide.</p></figcaption></figure>
 
 ## What changes
 
 <table><thead><tr><th width="230">In the cart</th><th width="230">Off</th><th>On</th></tr></thead><tbody><tr><td>Lines shown</td><td>The main item plus one line per add-on product</td><td>The main item, with its add-ons presented as part of it</td></tr><tr><td>Price shown</td><td>Each line priced separately</td><td>Combined</td></tr><tr><td>Option details</td><td>Listed under the main item</td><td>Listed under the main item</td></tr></tbody></table>
 
-The setting changes the display only. The add-on products are still real products, their inventory is still reduced, their weight is still included in shipping, and your Shopify reports still record them as sales of those products.
+The setting changes the display only. The add-on products are still real products; their inventory is still reduced, their weight is still included in shipping, and your Shopify reports still record them as sales of those products.
 
 ## Which to choose
 
@@ -40,4 +40,4 @@ Two other settings affect how add-ons appear in the cart. Both are under **Setti
 * Store-wide, not per option set.
 * The setting affects display only. Inventory, weight, tax, and reporting are not affected.
 * The setting applies to product-backed add-ons only. An [Add price](add-price-directly.md) charge has no separate cart line to merge.
-* Check your own cart page after changing this setting. Themes display carts differently.
+* Check your cart page after changing this setting, as cart layouts and behavior may vary between themes.

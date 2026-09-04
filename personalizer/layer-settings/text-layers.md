@@ -15,9 +15,7 @@ A text layer draws the text the customer entered onto the product image. These s
 
 The remaining text layer settings are documented on their own pages: [effects](effects.md), [position, size, and rotation](position-size-rotation.md), [curve and auto-fit](curve-and-auto-fit.md), [clip area](clip-area.md), and [customer controls](customer-controls.md).
 
-<!-- SCREENSHOT: pp-text-layer-settings | App admin → builder → option Text → Personalizer Settings | Nhóm setting Text color, Font size, Font style, Font family | Khoanh nhóm này -->
-
-<figure><img src="../../.gitbook/assets/placeholder.png" alt="The text layer settings for color, font size, font style, and font family"><figcaption><p>The first group on the Personalizer tab styles the text itself.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2026-09-04_15-53-51.png" alt="The text layer settings for color, font size, font style, and font family"><figcaption><p>The first group on the Personalizer tab styles the text itself.</p></figcaption></figure>
 
 ## Font size
 
@@ -61,7 +59,7 @@ An engraved bracelet:
 
 ## Notes
 
-* Set a **Default value** on **Basic Settings** so the preview is never empty.
-* [Text transform](../../option-types/shared-settings/text-input-rules.md#text-transform) is applied before the text is drawn, so the layer displays the transformed text, which is what you produce.
-* The layer draws the current entry, so a **Max character** limit also limits how far the text can extend.
-* Number layers behave in the same way as Text layers. Use them for jersey numbers and years.
+* Set a **Default value** in **Basic Settings** so the preview is never empty.
+* [Text transform](../../option-types/shared-settings/text-input-rules.md#text-transform)  is applied before the text is rendered, so the layer displays the transformed text.
+* The layer displays the current entry, so a **Max character** limit also limits how far the text can extend.
+* Number layers work the same way as Text layers. Use them for jersey numbers, years, and other numeric values.

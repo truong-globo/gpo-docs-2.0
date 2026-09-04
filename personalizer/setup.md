@@ -1,7 +1,7 @@
 ---
 description: >-
-  The background, the layers, and the order to build them in — everything between
-  a plain product photo and a working live preview.
+  The background, the layers, and the order to build them in — everything
+  between a plain product photo and a working live preview.
 icon: sliders
 ---
 
@@ -19,10 +19,10 @@ The background belongs to the **option set**, and the layers belong to individua
 
 Set the background first, then complete the following steps:
 
-1. **Set the background.** See [Choosing the background](#choosing-the-background) below.
+1. **Set the background.** See [Choosing the background](setup.md#choosing-the-background) below.
 2. **Build the options.** Set labels, limits, prices, and conditional logic. See [Build your options](../option-sets/build-options.md).
-3. **Turn the Personalizer on for each option.** See [Turning it on for an option](#turning-it-on-for-an-option) below.
-4. **Style and position each layer.** See [Layer settings](layer-settings/README.md).
+3. **Turn the Personalizer on for each option.** See [Turning it on for an option](setup.md#turning-it-on-for-an-option) below.
+4. **Style and position each layer.** See [Layer settings](layer-settings/).
 5. **Select what the customer can adjust.** See [Customer controls](layer-settings/customer-controls.md). Add a [clip area](layer-settings/clip-area.md) if you allow any adjustment.
 6. **Test on a real product page** using **View in Store**. Enter realistic content, such as a full name rather than `test`, and check the result on a phone.
 
@@ -30,9 +30,9 @@ Set the background first, then complete the following steps:
 
 Select **Change background** in the preview panel. You then choose which image to use, and which of the product's images it applies to.
 
-<!-- SCREENSHOT: pp-background-panel | App admin → builder → preview → Change background | Panel với nhóm Background (Product image/Custom image) và Apply to (4 lựa chọn) | Khoanh 2 nhóm lựa chọn -->
+<figure><img src="../.gitbook/assets/2026-09-04_15-31-22.png" alt="The background panel with the Background and Apply to choices"><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/placeholder.png" alt="The background panel with the Background and Apply to choices"><figcaption><p>Two decisions: which image, and which of the product's images it applies to.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-09-04_15-33-47.png" alt=""><figcaption><p>Two decisions: which image, and which of the product’s images it applies to.</p></figcaption></figure>
 
 ### Product image or custom image
 
@@ -47,9 +47,9 @@ With **Product image** selected, this setting controls which photograph the laye
 <table><thead><tr><th width="250">Choice</th><th width="200">Behavior</th><th>Use when</th></tr></thead><tbody><tr><td><strong>All product images</strong></td><td>Every image gets the layers</td><td>All your photographs show the same personalizable face</td></tr><tr><td><strong>First product image only</strong></td><td>Only the first</td><td>The first image is your clean front-on shot and the rest are details</td></tr><tr><td><strong>Last product image only</strong></td><td>Only the last</td><td>You keep a dedicated personalization mock-up at the end of the gallery</td></tr><tr><td><strong>Specific product image</strong></td><td>The one at the position number you enter</td><td>Your personalizable shot is always, say, the third image</td></tr></tbody></table>
 
 {% hint style="warning" %}
-**All product images** is rarely the correct choice. A layer positioned for the front-facing photo appears in the wrong place on a close-up or lifestyle photo.
+**All product images** is rarely the right choice. A layer positioned for a front-facing photo may appear in the wrong place on close-up or lifestyle photos.
 
-Select a single image, and keep that image in the same gallery position across your products. **First product image only** with a consistent front-facing photo is the most reliable option. **Specific product image** requires your galleries to be ordered identically, so check several products before using it.
+Select a single product image and keep it in the same gallery position across your products. **First product image only**, using a consistent front-facing photo, is the most reliable option. **Specific product image** requires all product galleries to use the same image order, so check several products before using this setting.
 {% endhint %}
 
 ### When to replace product image
@@ -61,6 +61,7 @@ This setting is displayed only when **Custom image** is selected. It controls wh
 **Only after personalization** is usually the better choice. Customers see the real product first, and your image appears when they start personalizing.
 
 <details>
+
 <summary>What makes a good background photograph</summary>
 
 The quality of the preview depends on this image.
@@ -71,17 +72,15 @@ If your products are photographed at an angle, use a flat **Custom image** mock-
 
 </details>
 
-## Turning it on for an option
+## Turning it on as an option
 
 Open the option and go to the **Personalizer Settings** tab, beside **Basic Settings** and **Advanced Settings**. Turn on **Enable personalize**. No other settings are displayed until you do.
 
-The tab is available on the [twelve supported option types](README.md#the-twelve-supported-option-types) only. If the tab is missing, the option type does not support the Personalizer. If it is greyed out, the Personalizer is not included in your plan.
+The tab is available on the [twelve supported option types](./#the-twelve-supported-option-types) only. If the tab is missing, the option type does not support the Personalizer. If it is greyed out, the Personalizer is not included in your plan.
 
-<!-- SCREENSHOT: pp-enable-tab | App admin → builder → option Text → tab Personalizer Settings | Switch "Enable personalize" đã bật, các nhóm setting hiện ra bên dưới | Khoanh switch -->
+<figure><img src="../.gitbook/assets/2026-09-04_15-39-06.png" alt="The Personalizer Settings tab with Enable personalize turned on and its settings revealed"><figcaption><p>Nothing on the tab appears until the switch is on.</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/placeholder.png" alt="The Personalizer Settings tab with Enable personalize turned on and its settings revealed"><figcaption><p>Nothing on the tab appears until the switch is on.</p></figcaption></figure>
-
-### What you get, by option type
+### What you get by option type
 
 The available settings depend on whether the option produces text or an image.
 
@@ -93,22 +92,24 @@ Text and Number are single-line types, so they support curve and auto-fit instea
 
 A text layer with no content is not drawn, so the preview appears empty until the customer enters text.
 
-Set a **Default value** on **Basic Settings**, such as `Your name` or `Your text`. The preview then always has content to display.
+Set a **Default value** in **Basic Settings**, such as `Your name` or `Your text`. The preview then always has content to display.
 
 The default value is also submitted if the customer does not change it, so choose a suitable value.
 
 <details>
+
 <summary>Several personalized options on one product</summary>
 
 Layers are drawn together on one background, and they can overlap.
 
-<table><thead><tr><th width="290">Combination</th><th>What to watch</th></tr></thead><tbody><tr><td>A name and a date</td><td>Different <strong>Y-Axis</strong> values so they sit on separate lines</td></tr><tr><td>Text over an uploaded photo</td><td>Contrast — dark text on a dark photo disappears. Consider a <a href="layer-settings/effects.md">stroke effect</a></td></tr><tr><td>Two alternative designs, never both</td><td><a href="../conditional-logic/README.md">Conditional logic</a>, so only one is ever visible</td></tr><tr><td>Layers that must stay inside a printable area</td><td>Give each one a <a href="layer-settings/clip-area.md">clip area</a></td></tr><tr><td>Many layers</td><td>Performance on older phones. Keep it to what the product really needs</td></tr></tbody></table>
+<table><thead><tr><th width="290">Combination</th><th>What to watch</th></tr></thead><tbody><tr><td>A name and a date</td><td>Different <strong>Y-Axis</strong> values so they sit on separate lines</td></tr><tr><td>Text over an uploaded photo</td><td>Contrast — dark text on a dark photo disappears. Consider a <a href="layer-settings/effects.md">stroke effect</a></td></tr><tr><td>Two alternative designs, never both</td><td><a href="../conditional-logic/">Conditional logic</a>, so only one is ever visible</td></tr><tr><td>Layers that must stay inside a printable area</td><td>Give each one a <a href="layer-settings/clip-area.md">clip area</a></td></tr><tr><td>Many layers</td><td>Performance on older phones. Keep it to what the product really needs</td></tr></tbody></table>
 
 A hidden option draws no layer, so you can use conditional logic to switch between alternative designs.
 
 </details>
 
 <details>
+
 <summary>What the preview is, and is not</summary>
 
 <table><thead><tr><th width="290">It is</th><th>It is not</th></tr></thead><tbody><tr><td>A representation of the finished product, good enough to sell from</td><td>A print-ready proof</td></tr><tr><td>Live, updating as the customer types</td><td>Color-accurate — screens are not calibrated</td></tr><tr><td>A record of what the customer intended</td><td>A guarantee that production will match it exactly</td></tr></tbody></table>

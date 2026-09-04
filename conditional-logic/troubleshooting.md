@@ -16,6 +16,7 @@ Most conditional logic problems have one of five causes. Work through this page 
 ## By symptom
 
 <details>
+
 <summary>The option never appears</summary>
 
 In order:
@@ -29,16 +30,18 @@ In order:
 </details>
 
 <details>
+
 <summary>The option is always visible</summary>
 
-1. The conditions are always true, for example **number of characters is greater than** `-1`, or a value that is also the default.
+1. The conditions are always true; for example **number of characters is greater than** `-1`, or a value that is also the default.
 2. You have **Show** with **Any** and one condition that is always satisfied.
-3. Conditional logic is not actually on. Check the switch, and check the option set was saved.
+3. Conditional logic is not actually on. Check the switch, and check that the option set was saved.
 4. Your plan may not include conditional logic, in which case rules are stored but not applied. See [Locked features](../plans/compare-plans.md).
 
 </details>
 
 <details>
+
 <summary>It works in the builder preview but not on the storefront</summary>
 
 Three possibilities:
@@ -50,23 +53,26 @@ Three possibilities:
 </details>
 
 <details>
+
 <summary>It works on the storefront but not in the preview</summary>
 
-This is almost always a variant condition, for the reason described above. It is expected behavior.
+This is almost always a variant condition for the reason described above. It is expected behavior.
 
 </details>
 
 <details>
+
 <summary>The option I want is not in the source dropdown</summary>
 
 Two reasons:
 
 1. **It appears below the option you are configuring.** Conditions can only reference options that appear earlier in the form. Move it above the current option.
-2. **Its type cannot be a trigger.** Twelve types cannot: Hidden field, Heading, Divider, Spacing, Paragraph, HTML, Pop-up modal, Tabs, Product links, Size chart, Section, and Dimension. See [Build a condition](build-a-condition.md#what-can-be-a-trigger).
+2. **Its type cannot be a trigger.** The following types cannot: Hidden field, Heading, Divider, Spacing, Paragraph, HTML, Pop-up modal, Tabs, Product links, Size chart, Section, and Dimension. See [Build a condition](build-a-condition.md#what-can-be-a-trigger).
 
 </details>
 
 <details>
+
 <summary>A required option is being skipped</summary>
 
 This is by design: **a hidden option is not validated**. If the rule is hiding it, it cannot block **Add to cart**.
@@ -76,6 +82,7 @@ If the option must always be completed, it cannot be conditional. If it is requi
 </details>
 
 <details>
+
 <summary>An add-on charge is missing</summary>
 
 This has the same cause: **a hidden option is not charged**. Hiding an option removes its price from the total. If the charge must always apply, apply it to an option that is always visible.
@@ -83,6 +90,7 @@ This has the same cause: **a hidden option is not charged**. Hiding an option re
 </details>
 
 <details>
+
 <summary>The rule broke after I edited an option value</summary>
 
 Renaming a value breaks any condition pointing at the old text. Reopen the rule and reselect the value from the dropdown.
@@ -92,6 +100,7 @@ Deleting a value has the same effect. Deleting the whole source option invalidat
 </details>
 
 <details>
+
 <summary>The rule broke after I changed an option's type</summary>
 
 Operator sets are per type, so an operator that was valid for a text source may not exist for a dropdown source. Reopen every rule that reads this option and reselect the operator, then the value.
@@ -101,6 +110,7 @@ See [Operators reference](operators-reference.md).
 </details>
 
 <details>
+
 <summary>The rule broke after duplicating or importing</summary>
 
 Duplicated and imported options are renamed to keep their names unique, and rules referencing them are updated automatically, so the rules usually still work. The copies are harder to tell apart, so rename them and check that each rule references the correct option.
@@ -108,23 +118,32 @@ Duplicated and imported options are renamed to keep their names unique, and rule
 </details>
 
 <details>
+
 <summary>A variant condition never matches</summary>
 
-Five things to check: the variant name is typed exactly as in Shopify admin; on a multi-dimension product it is the full name `Size / Colour`, not one part; your plan includes advanced conditional logic; the value is entered in the storefront language you are testing; and you are testing on a real product page, because variant conditions cannot evaluate in the builder preview. If all five are correct, the cause is theme integration. See [Conditions based on Shopify variants](conditions-on-shopify-variants.md).
+Five things to check:&#x20;
+
+* The variant name is typed exactly as in Shopify admin;&#x20;
+* On a multi-dimension product it is the full name `Size / Colour`, not one part;
+* Your plan includes advanced conditional logic;&#x20;
+* The value is entered in the storefront language you are testing;&#x20;
+* You are testing on a real product page, because variant conditions cannot evaluate in the builder preview. If all five are correct, the cause is theme integration. See [Conditions based on Shopify variants](conditions-on-shopify-variants.md).
 
 </details>
 
 <details>
+
 <summary>I need "A and (B or C)"</summary>
 
-This is not possible in a single rule, because all conditions share one matching mode. There are two alternatives:
+This is not possible in a single rule because all conditions share one matching mode. There are two alternatives:
 
-* Apply part of the logic to a [Section](../option-types/static-types/section.md) and the rest to the option inside it. Both rules must match, which creates an **and** between them.
+* Apply part of the logic to a [Section](../option-types/static-types/section.md) and the rest to the option inside it. Both rules must match, which creates an **AND** between them.
 * Add two copies of the option with simpler rules, and make sure their conditions cannot both be true.
 
 </details>
 
 <details>
+
 <summary>A divider or heading is left stranded</summary>
 
 The options around it are hidden, but the divider or heading is not. Apply the same rule to it, or move the whole group into a [Section](../option-types/static-types/section.md) with one rule on the section.
@@ -132,6 +151,7 @@ The options around it are hidden, but the divider or heading is not. Apply the s
 </details>
 
 <details>
+
 <summary>The form flickers or jumps as the customer types</summary>
 
 A rule using a character-count operator shows and hides an option each time the entry crosses the threshold. Use a threshold that is not close to the typical entry length. A value of `0` is safest, because the rule then changes state only once.
@@ -144,7 +164,7 @@ A rule using a character-count operator shows and hides an option each time the 
 {% step %}
 ### Test both branches in the preview
 
-Set the trigger so the rule matches, then so it does not, and check both results.
+Set the trigger so the rule matches versus does not match, and check both results.
 {% endstep %}
 
 {% step %}
@@ -156,7 +176,7 @@ A customer arriving at the page has made no selections. Check that the form is u
 {% step %}
 ### Check the required options in every branch
 
-A required option that is hidden is not enforced. Check that each branch still collects the information you need.
+A required option is not enforced while it is hidden. Make sure each branch of your rules still collects all the information you need.
 {% endstep %}
 
 {% step %}
@@ -180,4 +200,4 @@ Conditional logic changes the height of the page as options are displayed. Check
 
 ## Still stuck?
 
-When you [contact support](../help/contact-support.md), include the option set name, the option the rule is applied to, the exact rule as it appears in the app, and what you expected compared with what happened. For a variant condition, also include the product and variant names.
+When [contacting support](../help/contact-support.md), include the option set name, the option the rule is applied to, the exact rule as it appears in the app, and what you expected to happen versus what actually happened. If the rule uses a variant condition, also include the product and variant names.

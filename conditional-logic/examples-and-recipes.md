@@ -1,7 +1,7 @@
 ---
 description: >-
-  Eight complete conditional logic setups you can copy, from a simple reveal to a
-  branching form.
+  Eight complete conditional logic setups you can copy, from a simple reveal to
+  a branching form.
 icon: book-open
 ---
 
@@ -41,7 +41,7 @@ This displays a warning without blocking the purchase.
 
 **Rule on the paragraph:** Show · All · `Engraving text` — **number of characters is greater than** — `12`
 
-Static types support conditional logic, so you can display a warning based on the customer's input.
+Static types support conditional logic so you can display a warning based on the customer's input.
 
 ## 4. Offer a design service to customers who have no artwork
 
@@ -83,7 +83,7 @@ Each service level displays only the options that belong to it.
 
 **Rule B on `Standard notice`:** Show · All · `Service level` — **is equal to** — `Standard`
 
-Use **is equal to** here, because Radio button allows only one selection.
+Use **is equal to** here because the radio button allows only one selection.
 
 ## 8. Reveal a bulk-order note when they order a lot of extras
 

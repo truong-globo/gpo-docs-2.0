@@ -34,7 +34,7 @@ Every rule is presented as a single sentence in the app:
 
 Each rule has four parts: an **action**, a **matching mode**, and one or more **conditions**. Each condition consists of a **source**, an **operator**, and a **value**.
 
-<figure><img src="../.gitbook/assets/placeholder.png" alt="The conditional logic rule builder with its action, matching mode, and one condition"><figcaption><p>Every rule is an action, a matching mode, and a list of conditions.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-09-04_09-32-38.png" alt="The conditional logic rule builder with its action, matching mode, and one condition"><figcaption><p>Every rule is an action, a matching mode, and a list of conditions.</p></figcaption></figure>
 
 ## Pages in this section
 

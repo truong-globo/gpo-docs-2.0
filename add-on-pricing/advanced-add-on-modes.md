@@ -1,7 +1,7 @@
 ---
 description: >-
-  All eight modes that decide how an add-on charge scales with quantity, each with
-  a worked calculation.
+  All eight modes that decide how an add-on charge scales with quantity, each
+  with a worked calculation.
 icon: calculator
 ---
 
@@ -17,9 +17,7 @@ The setting is on the **Advanced Settings** tab, labeled **Advanced settings**. 
 
 It has no effect on an option with no price.
 
-<!-- SCREENSHOT: addon-advanced-modes | App admin → builder → option có Price → Advanced Settings | Dropdown "Advanced settings" đang mở với đủ các mode và help text | Khoanh dropdown -->
-
-<figure><img src="../.gitbook/assets/placeholder.png" alt="The Advanced settings dropdown open, listing the add-on quantity modes with their help text"><figcaption><p>Each mode carries a one-line explanation in the app itself.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-09-04_14-18-35.png" alt="The Advanced settings dropdown open, listing the add-on quantity modes with their help text"><figcaption><p>Each mode carries a one-line explanation in the app itself.</p></figcaption></figure>
 
 ## The eight modes
 
@@ -27,7 +25,7 @@ It has no effect on an option with no price.
 
 ## Worked calculations
 
-In all of the following examples, the add-on price is **$4.00** and the customer is buying **3** of the main product.
+In all of the following examples, the add-on price is **$4.00,** and the customer is buying **3** of the main product.
 
 ### Default
 
@@ -37,7 +35,7 @@ The add-on quantity follows the main product's quantity.
 
 Use this for an add-on used once per item, such as an engraved plate per bracelet or fabric per cushion.
 
-### One time charge
+### One-time charge
 
 The add-on is charged once, regardless of the main product quantity.
 
@@ -75,7 +73,7 @@ The customer's value multiplied by the main product quantity. If the customer en
 
 > 5 × 3 × $4.00 = **$60.00**
 
-Use this when the customer's value applies to each item, for example five extra names on each of three jerseys.
+Use this when the customer's value applies to each item, for example, five extra names on each of three jerseys.
 
 {% hint style="warning" %}
 This mode multiplies twice, so the total increases quickly. State in the option's label that the value applies per item, and set a **Max value** on the quantity.
@@ -117,7 +115,7 @@ Leaving a per-order charge such as gift wrap on **Default**.
 
 If a customer buys five bracelets and selects gift wrapping, the **Default** mode charges for five wraps.
 
-Use **One time charge** for anything applied once per order, including delivery upgrades, gift wrapping, handling fees, artwork setup, and rush production.
+Use **One-time charge** for anything applied once per order, including delivery upgrades, gift wrapping, handling fees, artwork setup, and rush production.
 
 ## Notes
 
@@ -125,4 +123,4 @@ Use **One time charge** for anything applied once per order, including delivery 
 * **Mixed quantity** is displayed only when the option is multi-select.
 * **Per character** is available on Text and Textarea only.
 * Hidden options are not charged, regardless of the mode.
-* An add-on on a **default value** is charged as soon as the page loads. With the **Default** mode, the charge also multiplies by the product quantity.
+* An add-on with a **default value** is charged as soon as the page loads. With the **Default** mode, the charge also multiplies by the product quantity.

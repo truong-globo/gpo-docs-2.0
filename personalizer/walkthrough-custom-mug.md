@@ -1,17 +1,17 @@
 ---
-description: One personalised product built from an empty option set to a live storefront — a mug with a curved name and an uploaded photo.
+description: One personalized product built from an empty option set to a live storefront — a mug with a curved name and an uploaded photo.
 icon: mug-hot
 ---
 
 # Walkthrough: custom printed mug
 
-A complete build, in the order you would actually do it. The product is a printed mug that takes a curved name and a customer photo.
+A complete setup, in the order you would build it. The product is a printed mug with a curved name and a customer photo.
 
-Substitute your own product and wording as you go. Everything here applies just as well to a frame, a t-shirt, or a pendant.
+Replace the product and wording with your own. The same method applies to a frame, a t-shirt, or a pendant.
 
 ## Before you start
 
-* A mug product in Shopify with a **flat, front-on photograph** — this matters more than any setting on this page.
+* A mug product in Shopify with a **flat, front-facing photo**. This is more important than any setting on this page.
 * The Personalizer on your plan. See [Compare plans](../plans/compare-plans.md).
 * The [app embed](../getting-started/enable-the-app-embed.md) enabled on your live theme.
 
@@ -23,7 +23,7 @@ Substitute your own product and wording as you go. Everything here applies just 
 
 **Option Sets** > **Create option set** > **Create from scratch**. Name it `Printed mug`.
 
-Rename the starting section to `Personalise your mug`.
+Rename the starting section to `Personalize your mug`.
 
 Then, before anything else, open **Change background** in the preview panel:
 
@@ -31,7 +31,7 @@ Then, before anything else, open **Change background** in the preview panel:
 * **Apply to**: **First product image only**
 * Select your mug product to preview against
 
-Everything you position from here is measured against that photograph, which is why this comes first. See [Choosing the background](setup.md#choosing-the-background).
+Every position you set from this point is measured against that photo, so set the background first. See [Choosing the background](setup.md#choosing-the-background).
 {% endstep %}
 
 {% step %}
@@ -47,7 +47,7 @@ Add a [Text](../option-types/input-types/text.md) option and set, on **Basic Set
 
 Open **Personalizer Settings** and turn on **Enable personalize**. Then style it:
 
-<table><thead><tr><th width="230">Setting</th><th width="180">Value</th><th>Why</th></tr></thead><tbody><tr><td><strong>Text color</strong></td><td>Your print colour</td><td>Realistic rather than decorative</td></tr><tr><td><strong>Font size</strong></td><td><code>7</code>, adjusted by eye</td><td>Set it against your real photo</td></tr><tr><td><strong>Font family</strong></td><td><strong>Custom</strong>, your print font</td><td>The preview then matches production. See <a href="layer-settings/fonts.md">Fonts</a></td></tr><tr><td><strong>Custom Effect</strong></td><td><strong>No effect</strong></td><td>Printing is flat</td></tr></tbody></table>
+<table><thead><tr><th width="230">Setting</th><th width="180">Value</th><th>Why</th></tr></thead><tbody><tr><td><strong>Text color</strong></td><td>Your print color</td><td>Realistic rather than decorative</td></tr><tr><td><strong>Font size</strong></td><td><code>7</code>, adjusted by eye</td><td>Set it against your real photo</td></tr><tr><td><strong>Font family</strong></td><td><strong>Custom</strong>, your print font</td><td>The preview then matches production. See <a href="layer-settings/fonts.md">Fonts</a></td></tr><tr><td><strong>Custom Effect</strong></td><td><strong>No effect</strong></td><td>Printing is flat</td></tr></tbody></table>
 {% endstep %}
 
 {% step %}
@@ -55,12 +55,12 @@ Open **Personalizer Settings** and turn on **Enable personalize**. Then style it
 
 Still on **Personalizer Settings**:
 
-* **Curve** — increase it until the text follows the mug's curvature in your photograph. There is no correct number; set it by eye.
-* **Auto-fit max width** — on, with **Max width** matching the printable band.
-* **X-Axis** — `50`, centred.
-* **Y-Axis** — wherever the printable band sits, often around `45`.
+* **Curve**: increase the value until the text follows the curve of the mug in your photo. The correct value depends on your image.
+* **Auto-fit max width**: on, with **Max width** set to the printable area.
+* **X-Axis**: `50`, which centers the layer.
+* **Y-Axis**: set to the height of the printable area, often around `45`.
 
-Then test in the preview with a one-character name and a twelve-character one. The short one should look right; the long one should shrink rather than overflow.
+Test in the preview with a one-character name and a twelve-character name. The long name should be reduced in size rather than extend past the printable area.
 
 See [Curve and auto-fit width](layer-settings/curve-and-auto-fit.md).
 {% endstep %}
@@ -84,11 +84,11 @@ See [Image layers](layer-settings/image-layers.md), [Clip area](layer-settings/c
 {% endstep %}
 
 {% step %}
-### Price the personalisation
+### Price the personalization
 
-Put the charge on the name field, since every personalised mug has one. On its **Basic Settings**, open **Price**, choose **Automatically generate product**, and enter your fee — so the printing is counted as a product in your reporting.
+Apply the charge to the name field, because every personalized mug has one. On its **Basic Settings**, open **Price**, select **Automatically generate product**, and enter your fee. The printing is then included as a product in your reports.
 
-Set **Advanced settings** to **Default**, since each mug is printed individually.
+Set **Advanced settings** to **Default**, because each mug is printed individually.
 
 See [Automatically generate a product](../add-on-pricing/auto-generate-a-product.md).
 {% endstep %}
@@ -96,19 +96,19 @@ See [Automatically generate a product](../add-on-pricing/auto-generate-a-product
 {% step %}
 ### Add a photo surcharge, only when a photo is used
 
-Add a second [Switch](../option-types/input-types/switch.md) or use conditional logic on a priced option. The simplest arrangement:
+Add a [Switch](../option-types/input-types/switch.md) for the photo charge and use conditional logic to display the upload option:
 
-* Add a Switch labelled `Photo printing`, priced, **One time charge**
+* Add a Switch labeled `Photo printing`, priced, **One time charge**
 * Put it **above** the upload option
 * Give the upload option a conditional rule: Show · All · `Photo printing` — **is enabled**
 
-Now the upload only appears once they have opted in and paid for it. See [Conditional logic](../conditional-logic/README.md).
+The upload option is now displayed only after the customer selects the photo printing charge. See [Conditional logic](../conditional-logic/README.md).
 {% endstep %}
 
 {% step %}
 ### Assign, save, activate
 
-On **Assign products**, use **Automatic Rules** with `Product tag — is equal to — printed-mug`, so new mugs pick the set up automatically.
+On **Assign products**, use **Automatic Rules** with `Product tag — is equal to — printed-mug`, so new mugs use the option set automatically.
 
 Save. Set the status to **Active** and confirm **Online Store** is ticked.
 {% endstep %}
@@ -116,25 +116,25 @@ Save. Set the status to **Active** and confirm **Online Store** is ticked.
 {% step %}
 ### Test on a real product page
 
-**View in Store**, then work through it as a customer would:
+Select **View in Store**, then complete the following checks as a customer would:
 
-1. Type a short name. Does it sit right on the curve?
-2. Type a twelve-character name. Does it shrink and stay inside the band?
-3. Turn on photo printing. Does the upload appear?
-4. Upload a portrait photo and a landscape one. Does **Cover** handle both?
-5. Drag the photo to the edge. Is it clipped at the panel boundary?
+1. Enter a short name and check that it follows the curve.
+2. Enter a twelve-character name and check that it is reduced in size and stays inside the printable area.
+3. Turn on photo printing and check that the upload option is displayed.
+4. Upload a portrait photo and a landscape photo, and check that **Cover** handles both.
+5. Drag the photo to the edge and check that it is cut at the clip area boundary.
 6. Check the price after each step.
-7. Repeat the whole thing on a phone.
+7. Repeat all of the above on a phone.
 {% endstep %}
 
 {% step %}
 ### Place a test order and check what your team receives
 
-Add it to the cart, check **Preview Your Design** shows what you expect, and place the order.
+Add the product to the cart, check that **Preview Your Design** displays the correct design, and place the order.
 
-On the order in Shopify admin you should see `Name on mug`, `Photo printing`, and a link to the uploaded file. If the names read poorly, fix them now rather than after a hundred orders.
+The order in Shopify admin should list `Name on mug`, `Photo printing`, and a link to the uploaded file. Correct any unclear option names now.
 
-Then consider an [automation](../automations/README.md) so those details reach your production team without anybody opening Shopify admin.
+Set up an [automation](../automations/README.md) so these details reach your production team without opening Shopify admin.
 {% endstep %}
 {% endstepper %}
 

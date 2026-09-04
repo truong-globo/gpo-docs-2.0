@@ -1,15 +1,15 @@
 ---
 description: >-
   Every setting on a layer's Personalizer Settings tab, explained once — styling,
-  placement, boundaries, and what the shopper may change.
+  placement, boundaries, and what the customer may change.
 icon: layer-group
 ---
 
 # Layer settings
 
-Once the Personalizer is on for an option, everything else you configure belongs to its **layer** — the thing drawn on the product photo.
+When the Personalizer is enabled for an option, the remaining settings apply to its **layer**, which is the content drawn on the product photo.
 
-These pages document those settings. [Set up the Personalizer](../setup.md) is the procedure; these are the details.
+These pages describe those settings. For the setup procedure, see [Set up the Personalizer](../setup.md).
 
 ## How to find a setting
 
@@ -17,21 +17,21 @@ These pages document those settings. [Set up the Personalizer](../setup.md) is t
 
 ## Which settings a layer has
 
-A layer is either **text** or an **image**, and that decides most of what you see. The full grid is in [Set up the Personalizer](../setup.md#what-you-get-by-option-type); the short version:
+A layer is either **text** or an **image**, which determines most of the available settings. For the full table, see [Set up the Personalizer](../setup.md#what-you-get-by-option-type).
 
-<table><thead><tr><th width="230">Layer</th><th width="250">Comes from</th><th>Gets</th></tr></thead><tbody><tr><td><strong>Text</strong></td><td><a href="../../option-types/input-types/text.md">Text</a>, <a href="../../option-types/input-types/textarea.md">Textarea</a>, <a href="../../option-types/input-types/number.md">Number</a></td><td>Colour, size, style, font, effects. Curve and auto-fit on Text and Number; alignment, width, and height on Textarea</td></tr><tr><td><strong>Image</strong></td><td><a href="../../option-types/input-types/file-upload.md">File upload</a> and eight selection types</td><td>Shape and fit mode, width and height</td></tr></tbody></table>
+<table><thead><tr><th width="230">Layer</th><th width="250">Comes from</th><th>Gets</th></tr></thead><tbody><tr><td><strong>Text</strong></td><td><a href="../../option-types/input-types/text.md">Text</a>, <a href="../../option-types/input-types/textarea.md">Textarea</a>, <a href="../../option-types/input-types/number.md">Number</a></td><td>Color, size, style, font, effects. Curve and auto-fit on Text and Number; alignment, width, and height on Textarea</td></tr><tr><td><strong>Image</strong></td><td><a href="../../option-types/input-types/file-upload.md">File upload</a> and eight selection types</td><td>Shape and fit mode, width and height</td></tr></tbody></table>
 
-Both kinds share position, opacity, rotation, a clip area, and customer controls.
+Both types share position, opacity, rotation, a clip area, and customer controls.
 
 {% hint style="warning" %}
-Two settings are worth reading before the others, because they are what stops a design arriving unproducible:
+Read these two settings first. They prevent a customer from submitting a design you cannot produce:
 
-* [Auto-fit max width](curve-and-auto-fit.md#auto-fit-max-width), so long text shrinks instead of running off the product.
-* [Clip area](clip-area.md), so a layer the shopper can move cannot be moved somewhere you cannot print. Any [customer control](customer-controls.md) needs one.
+* [Auto-fit max width](curve-and-auto-fit.md#auto-fit-max-width) reduces the font size of long text instead of letting it extend past the product.
+* [Clip area](clip-area.md) prevents the customer from moving a layer outside the printable area. Set one whenever you enable a [customer control](customer-controls.md).
 {% endhint %}
 
 ## Settings are per option
 
-The same option type can be configured completely differently in two places — a `Name` text layer in cursive across the front, a `Date` text layer small and straight underneath. Nothing here is store-wide.
+The same option type can be configured differently in two places. For example, a `Name` text layer can use a script font across the front, while a `Date` text layer is small and straight below it. None of these settings are store-wide.
 
-The background, by contrast, is shared by every layer in the option set. See [Choosing the background](../setup.md#choosing-the-background).
+The background is shared by every layer in the option set. See [Choosing the background](../setup.md#choosing-the-background).

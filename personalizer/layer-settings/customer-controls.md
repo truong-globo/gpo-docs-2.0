@@ -1,21 +1,21 @@
 ---
-description: Let shoppers move, resize, and rotate a layer themselves — and how to do it without breaking your production.
+description: Let customers move, resize, and rotate a layer themselves — and how to do it without breaking your production.
 icon: hand
 ---
 
 # Customer controls
 
-**Allow customers to** decides which adjustments the shopper can make to a layer directly on the product image.
+**Allow customers to** controls which adjustments the customer can make to a layer directly on the product image.
 
-It is the difference between a preview they look at and a design they make. It is also the setting most capable of producing orders you cannot fulfil, so it comes with a companion setting you should always use alongside it.
+These permissions let the customer arrange the design themselves. They can also produce designs you cannot produce, so always use them together with a clip area.
 
-**Applies to:** all twelve Personalizer-capable option types.
+**Applies to:** all twelve option types that support the Personalizer.
 
 ## The three permissions
 
-<table><thead><tr><th width="230">Permission</th><th>What the shopper can do</th></tr></thead><tbody><tr><td><strong>Change position</strong></td><td>Drag the layer around the image</td></tr><tr><td><strong>Resize</strong></td><td>Make the layer larger or smaller</td></tr><tr><td><strong>Rotate</strong></td><td>Turn the layer</td></tr></tbody></table>
+<table><thead><tr><th width="230">Permission</th><th>What the customer can do</th></tr></thead><tbody><tr><td><strong>Change position</strong></td><td>Drag the layer around the image</td></tr><tr><td><strong>Resize</strong></td><td>Make the layer larger or smaller</td></tr><tr><td><strong>Rotate</strong></td><td>Turn the layer</td></tr></tbody></table>
 
-All three are off by default, and you can enable any combination. With none on, the layer sits exactly where you placed it and the shopper only changes its content.
+All three are off by default, and you can enable any combination. With none enabled, the layer stays where you placed it, and the customer changes its content only.
 
 <!-- SCREENSHOT: pp-customer-controls | App admin → builder → option có personalizer | Nhóm "Allow customers to" với 3 checkbox | Khoanh nhóm này -->
 
@@ -24,42 +24,42 @@ All three are off by default, and you can enable any combination. With none on, 
 ## Always pair them with a clip area
 
 {% hint style="warning" %}
-If you enable any of these, set a [clip area](clip-area.md) as well.
+If you enable any of these permissions, set a [clip area](clip-area.md) as well.
 
-Without one, a shopper can drag their photo onto the handle of the mug, resize their text to cover the whole product, or rotate a design to an angle you cannot print. The preview will show it, they will order it, and you will have to explain why you cannot make it.
+Without one, a customer can drag their photo onto the handle of a mug, resize their text to cover the whole product, or rotate a design to an angle you cannot print. The preview displays the result, and the order is placed with it.
 
-A clip area confines their freedom to the area you can actually produce on.
+A clip area limits their adjustments to the area you can produce on.
 {% endhint %}
 
-Leave the clip area's outline **visible** — do not turn on **Hide clip area** — when customers can drag. It shows them where they can work, instead of letting them find out by having their design cut off.
+When customers can drag a layer, leave the clip area outline **visible** and do not enable **Hide clip area**. The outline shows them the area they can work in.
 
 ## When to enable them
 
-<table><thead><tr><th width="290">Situation</th><th>Enable</th><th>Why</th></tr></thead><tbody><tr><td>A customer photo in a frame</td><td><strong>Change position</strong>, <strong>Resize</strong></td><td>Only they know which part of their photo matters</td></tr><tr><td>A logo on a garment</td><td><strong>Change position</strong>, <strong>Resize</strong></td><td>Placement is part of what they are buying</td></tr><tr><td>An engraved name on a plate</td><td>Nothing</td><td>You know where the plate is. Let them type, not position</td></tr><tr><td>A design chosen from your own list</td><td>Nothing</td><td>You positioned it correctly already</td></tr><tr><td>A free-form collage or sticker layout</td><td>All three</td><td>The arrangement is the product</td></tr><tr><td>Text on a curved surface</td><td>Nothing</td><td><a href="curve-and-auto-fit.md">Curve</a> handles it better than a shopper can</td></tr></tbody></table>
+<table><thead><tr><th width="290">Situation</th><th>Enable</th><th>Why</th></tr></thead><tbody><tr><td>A customer photo in a frame</td><td><strong>Change position</strong>, <strong>Resize</strong></td><td>Only they know which part of their photo matters</td></tr><tr><td>A logo on a garment</td><td><strong>Change position</strong>, <strong>Resize</strong></td><td>Placement is part of what they are buying</td></tr><tr><td>An engraved name on a plate</td><td>Nothing</td><td>You know where the plate is. Let them type, not position</td></tr><tr><td>A design chosen from your own list</td><td>Nothing</td><td>You positioned it correctly already</td></tr><tr><td>A free-form collage or sticker layout</td><td>All three</td><td>The arrangement is the product</td></tr><tr><td>Text on a curved surface</td><td>Nothing</td><td><a href="curve-and-auto-fit.md">Curve</a> handles it better than a customer can</td></tr></tbody></table>
 
-The pattern: enable them where **placement is the customer's creative decision**, and leave them off where placement is **your production constraint**.
+Enable these permissions when **placement is the customer's decision**. Leave them off when placement is **a production constraint**.
 
-## Rotation deserves particular care
+## Rotation
 
-Rotation is the permission most likely to cause problems. A rotated engraving is often simply not producible, and a slightly rotated photo in a frame looks like an accident rather than a choice.
+Rotation causes the most problems. A rotated engraving is often not producible, and a slightly rotated photo in a frame looks like an error.
 
-Enable it only where an angled result is genuinely a valid product — a free-form collage, a scattered sticker layout, a hand-arranged design.
+Enable it only where an angled result is a valid product, such as a free-form collage, a scattered sticker layout, or a hand-arranged design.
 
 ## What the customer sees
 
-With any permission on, selecting the layer on the product image gives them handles to work with. The app also provides short on-screen guidance — telling them to drag to move, and to use the handles to resize or rotate.
+With any permission enabled, selecting the layer on the product image displays handles. The app also displays short instructions telling the customer to drag to move the layer, and to use the handles to resize or rotate it.
 
-That wording is part of the widget text and can be reworded per language in **Settings > Translations**. See [Translate widget text](../../translations/translate-widget-text.md).
+This wording is part of the widget text and can be edited for each language under **Settings > Translations**. See [Translate widget text](../../translations/translate-widget-text.md).
 
 ## Where their adjustments go
 
-Their final arrangement is part of the design that reaches the order, so you can produce what they set up rather than what you configured.
+The customer's final arrangement is included in the design stored with the order, so you produce what they arranged.
 
-Your own position, size, and rotation settings become the **starting point** they adjust from — so it is still worth setting them sensibly. A layer that starts in the right place needs less adjusting, and a shopper who does not need to adjust anything is a shopper who does not get it wrong.
+Your position, size, and rotation settings are the **starting point** the customer adjusts from, so set them correctly. A layer that starts in the right place requires fewer adjustments.
 
 See [Designs in cart and orders](../cart-and-orders.md).
 
-## A worked configuration
+## Example configuration
 
 A photo frame where the customer positions their own photo:
 
@@ -68,6 +68,6 @@ A photo frame where the customer positions their own photo:
 ## Notes
 
 * Permissions are per layer, so one layer can be adjustable while another is fixed.
-* They affect the preview and the recorded design, not what other layers do.
-* Touch and mouse both work, but a small target on a phone is fiddly — do not rely on precise dragging on mobile.
-* Say in help text what happens to anything outside the printable area. It prevents most disputes.
+* They affect the preview and the recorded design only. They do not affect other layers.
+* Both touch and mouse input are supported, but a small layer is difficult to position on a phone. Do not rely on precise dragging on mobile.
+* State in help text what happens to any part of the design outside the printable area.

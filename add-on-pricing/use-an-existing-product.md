@@ -7,9 +7,9 @@ icon: box
 
 # Use an existing product
 
-The **Use existing product** mode connects an option — or one of its values — to a product already in your Shopify catalogue. The add-on then behaves like that product: its price, its stock, its SKU, its weight.
+The **Use existing product** mode links an option, or one of its values, to a product already in your Shopify catalog. The add-on then uses that product's price, inventory, SKU, and weight.
 
-Use it when the add-on is something you genuinely sell. A gift box you list separately, a spare part, a matching accessory.
+Use it when the add-on is a product you already sell, such as a gift box, a spare part, or a matching accessory.
 
 ## Steps
 
@@ -17,7 +17,7 @@ Use it when the add-on is something you genuinely sell. A gift box you list sepa
 {% step %}
 ### Make sure the product exists
 
-Create it in Shopify first if you need to, with the price and variants you want. The app links to it; it does not create it.
+Create the product in Shopify first, with the price and variants you want. The app links to an existing product. It does not create one.
 {% endstep %}
 
 {% step %}
@@ -29,50 +29,50 @@ Create it in Shopify first if you need to, with the price and variants you want.
 {% step %}
 ### Stay on the Use existing product tab
 
-It is the first of the three tabs, and the default.
+This is the first of the three tabs and the default.
 {% endstep %}
 
 {% step %}
 ### Find and select the product
 
-Search your catalogue by name. The list is paged, so use the search box rather than scrolling for anything but a small catalogue.
+Search your catalog by name. The list is paginated, so use the search field rather than scrolling.
 {% endstep %}
 
 {% step %}
 ### Select the variant
 
-Once a product is selected, its variants are listed. Choose the exact one.
+When you select a product, its variants are listed. Select the exact variant you want.
 
-This matters: the add-on's price and stock come from the **variant**, not the product. A product with `Small` at $3.00 and `Large` at $5.00 behaves completely differently depending on which you pick.
+The add-on's price and inventory come from the **variant**, not from the product. For example, a product with `Small` at $3.00 and `Large` at $5.00 produces a different add-on depending on the variant you select.
 {% endstep %}
 
 {% step %}
 ### Select Select
 
-The dialog closes. The values table now shows a **Product** column with a link that opens that product in Shopify admin.
+The dialog closes, and a **Product** column is added to the values table with a link that opens the product in Shopify admin.
 {% endstep %}
 
 {% step %}
 ### Set how it scales
 
-The **Advanced settings** dropdown on **Advanced Settings** decides how the quantity behaves. See [Advanced add-on modes](advanced-add-on-modes.md).
+The **Advanced settings** dropdown on **Advanced Settings** controls how the quantity is calculated. See [Advanced add-on modes](advanced-add-on-modes.md).
 {% endstep %}
 {% endstepper %}
 
 <!-- SCREENSHOT: addon-existing-product | App admin → builder → dialog Add-on Configuration | Tab "Use existing product": danh sách sản phẩm có search, đã chọn 1 sản phẩm và đang hiện danh sách variant | Khoanh danh sách variant -->
 
-<figure><img src="../.gitbook/assets/placeholder.png" alt="The Use existing product tab with a product selected and its variants listed"><figcaption><p>Selecting the right variant matters — price and stock come from the variant.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/placeholder.png" alt="The Use existing product tab with a product selected and its variants listed"><figcaption><p>The add-on price and inventory come from the variant you select.</p></figcaption></figure>
 
 ## What you get
 
-<table><thead><tr><th width="290">Behaviour</th><th>Detail</th></tr></thead><tbody><tr><td>The price follows the product</td><td>Change the variant's price in Shopify and the add-on price changes with it. You do not edit it in two places.</td></tr><tr><td>Stock is real</td><td>Selling the add-on draws down that variant's inventory, exactly as a normal sale does.</td></tr><tr><td>Out-of-stock handling works</td><td>The <a href="../option-types/shared-settings/out-of-stock-options.md">Out of stock options</a> setting can hide, blur, or strike through the value when the variant runs out.</td></tr><tr><td>Its own SKU, weight, and tax setting</td><td>Fulfilment and shipping calculations treat it as the real product it is.</td></tr><tr><td>Reported properly</td><td>It appears in your Shopify product reports as sales of that product.</td></tr><tr><td>Works in POS</td><td>Unlike <strong>Add price</strong>.</td></tr><tr><td>Its own cart line</td><td>Linked to the main item. You can merge them visually — see <a href="merge-as-bundle.md">Merge main product and add-ons</a>.</td></tr></tbody></table>
+<table><thead><tr><th width="290">Behavior</th><th>Detail</th></tr></thead><tbody><tr><td>The price follows the product</td><td>Change the variant's price in Shopify and the add-on price changes with it. You do not edit it in two places.</td></tr><tr><td>Stock is real</td><td>Selling the add-on draws down that variant's inventory, exactly as a normal sale does.</td></tr><tr><td>Out-of-stock handling works</td><td>The <a href="../option-types/shared-settings/out-of-stock-options.md">Out of stock options</a> setting can hide, blur, or strike through the value when the variant runs out.</td></tr><tr><td>Its own SKU, weight, and tax setting</td><td>Fulfilment and shipping calculations treat it as the real product it is.</td></tr><tr><td>Reported properly</td><td>It appears in your Shopify product reports as sales of that product.</td></tr><tr><td>Works in POS</td><td>Unlike <strong>Add price</strong>.</td></tr><tr><td>Its own cart line</td><td>Linked to the main item. You can merge them visually — see <a href="merge-as-bundle.md">Merge main product and add-ons</a>.</td></tr></tbody></table>
 
-## When to use it, and when not
+## When to use this mode
 
-<table><thead><tr><th width="330">Use it when</th><th>Use something else when</th></tr></thead><tbody><tr><td>You already sell the item separately</td><td>You do not — use <a href="auto-generate-a-product.md">Automatically generate a product</a></td></tr><tr><td>You want one inventory figure for both routes</td><td>You want the add-on counted separately from direct sales</td></tr><tr><td>The price should stay in step with your catalogue</td><td>The add-on price should differ from the shelf price</td></tr><tr><td>The add-on has a real weight and SKU</td><td>It is a service — use <a href="add-price-directly.md">Add price</a></td></tr></tbody></table>
+<table><thead><tr><th width="330">Use it when</th><th>Use something else when</th></tr></thead><tbody><tr><td>You already sell the item separately</td><td>You do not — use <a href="auto-generate-a-product.md">Automatically generate a product</a></td></tr><tr><td>You want one inventory figure for both routes</td><td>You want the add-on counted separately from direct sales</td></tr><tr><td>The price should stay in step with your catalog</td><td>The add-on price should differ from the shelf price</td></tr><tr><td>The add-on has a real weight and SKU</td><td>It is a service — use <a href="add-price-directly.md">Add price</a></td></tr></tbody></table>
 
 {% hint style="info" %}
-One inventory figure is usually what you want — a gift box sold as an add-on and a gift box sold on its own come out of the same cupboard. If you need to count them separately, generate a product instead.
+A single inventory count is usually what you want, because a gift box sold as an add-on and one sold on its own come from the same stock. To count them separately, generate a product instead.
 {% endhint %}
 
 ## Examples
@@ -83,15 +83,15 @@ One inventory figure is usually what you want — a gift box sold as an add-on a
 
 **Pack sizes as separate SKUs**
 
-A [Button](../option-types/selection-types/button.md) option with `1 pack`, `3 pack`, `5 pack`, each value linked to that pack's own product variant. Stock is accurate per pack size.
+A [Button](../option-types/selection-types/button.md) option with the values `1 pack`, `3 pack`, and `5 pack`. Each value links to that pack's own product variant, so inventory is tracked per pack size.
 
-**Premium fabrics you stock by the metre**
+**Premium fabrics sold by the meter**
 
-An [Image swatch](../option-types/selection-types/image-swatch.md) with standard fabrics free and premium ones linked to your existing fabric products, so a fabric running out blurs itself in the swatch grid.
+An [Image swatch](../option-types/selection-types/image-swatch.md) where standard fabrics are free and premium fabrics link to your existing fabric products. When a fabric runs out, its swatch is blurred.
 
 **A matching accessory**
 
-A Checkbox `Add the matching case`, linked to the case product, **Default** mode so somebody buying two of the main product gets two cases.
+A Checkbox labeled `Add the matching case`, linked to the case product, with the **Default** mode so a customer buying two of the main product receives two cases.
 
 ## Keeping it working
 
@@ -99,7 +99,7 @@ A Checkbox `Add the matching case`, linked to the case product, **Default** mode
 
 ## Notes
 
-* Link to a **variant**, not just a product. A product with several variants needs one chosen.
-* The same product can back several options and several values. That is fine, and they all share its stock.
-* Duplicating an option set does **not** duplicate the linked product — both sets point at the same one and draw down the same stock. See [Duplicate and delete](../option-sets/duplicate-and-delete.md).
-* Use **Sync Add-on data** in the builder's more-actions menu if the linked product's details look stale.
+* Link to a **variant**, not only a product. If the product has several variants, you must select one.
+* The same product can be used by several options and values. They all share its inventory.
+* Duplicating an option set does **not** duplicate the linked product. Both sets link to the same product and use the same inventory. See [Duplicate and delete](../option-sets/duplicate-and-delete.md).
+* If the linked product's details are out of date in the app, use **Sync Add-on data** in the builder's more-actions menu.

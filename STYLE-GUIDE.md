@@ -250,3 +250,33 @@ For example:
 - Prefer "the customer" in explanations of behavior. "Shopper" is acceptable but not the default.
 - "Plan-gated" becomes "may not be available on all plans".
 - "Advanced level" of conditional logic is lower case in body text.
+
+## 13. Prose patterns from the Add-on pricing rewrite
+
+Added 2026-09-01 from the merchant's rewrites of `add-on-pricing/README.md` and `personalizer/README.md`. These extend sections 11 and 12.
+
+**Word swaps**
+
+| Instead of | Write |
+| --- | --- |
+| "shopper" | "customer" — apply throughout |
+| "stock" / "stock tracking" | "inventory" / "inventory tracking" |
+| "catalogue", "labelled", "metre", "labour" | "catalog", "labeled", "meter", "labor" |
+| "how an option becomes revenue rather than just information" | "turns an option from simple information into an additional charge" |
+| "with these three tabs" | "which contains these three tabs" |
+| "Adds money to the order. Nothing else." | "Adds an extra charge to the order. Nothing else is created or linked." |
+| "This is the table to read before you build anything." | "Use this table to choose the right pricing method before you start building." |
+| "checkout shows the truth" | "checkout shows the final price" |
+| "so you find out here rather than later" | "so you know the limitations before you build" |
+| "That is not a workaround" | "This is not a workaround" |
+| "Correct for anything per order" | "Use this for a charge applied once per order" |
+| "The mistake to avoid" | "Common mistake" |
+| "plan-gated" | "may not be available on all plans" |
+
+**Rules**
+
+- Merge a run of short example sentences into one `For example, ...` sentence, or into a `For example:` bullet list.
+- Split a sentence that joins two ideas with a dash into two sentences.
+- Replace a judgement word with a factual one: "noisy", "honest", "mysterious", "the appeal", "trips people up", "worth knowing", "well-behaved" all go.
+- Lead a recommendation with "Use this for ..." or "Use it when ...", not "Correct for ...".
+- Fix the frontmatter `description` and figure captions too. They carry the same voice as the body.

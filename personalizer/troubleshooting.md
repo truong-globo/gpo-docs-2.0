@@ -5,7 +5,7 @@ icon: wrench
 
 # Troubleshooting personalizer
 
-Most Personalizer problems are one of four things: no background, no content to draw, a layer positioned against a different image, or a plan limit. Start with the checklist, then find your symptom.
+Most Personalizer problems have one of four causes: no background, no content to draw, a layer positioned against a different image, or a plan restriction. Work through the checklist, then find your symptom.
 
 ## Start here
 
@@ -21,7 +21,7 @@ In order:
 1. **No background.** Open **Change background** and select one. See [Choosing the background](setup.md#choosing-the-background).
 2. **Enable personalize is off** on the option.
 3. **Nothing to draw.** A text layer with no **Default value** draws nothing until the customer types. An image layer draws nothing until a file is uploaded or a value with an image is chosen.
-4. **The layer is outside the image**, or outside its [clip area](layer-settings/clip-area.md). Bring the axes towards 50.
+4. **The layer is outside the image**, or outside its [clip area](layer-settings/clip-area.md). Move the axis values towards 50.
 5. **Opacity is at 0.**
 
 </details>
@@ -29,7 +29,7 @@ In order:
 <details>
 <summary>There is no Personalizer Settings tab on my option</summary>
 
-That option type does not support it. Twelve types do — see the [overview](README.md#the-twelve-supported-option-types). Text, Textarea, Number, File upload, and eight selection types.
+That option type does not support the Personalizer. Twelve types do: Text, Textarea, Number, File upload, and eight selection types. See the [overview](README.md#the-twelve-supported-option-types).
 
 </details>
 
@@ -52,14 +52,14 @@ Save the option set, then reload the product page. Also confirm the option set i
 <details>
 <summary>The layer is positioned wrongly on some products but not others</summary>
 
-Their photographs are framed differently. Positions are percentages of the image, so they only hold when your product photography is consistent.
+The product photos are framed differently. Positions are percentages of the image, so they are only accurate when your photos are consistent.
 
-Fixes, in order of preference: standardise your photographs; use **First product image only** with a consistent front-on shot; or split the products into separate option sets.
+There are three fixes, in order of preference: standardize your photos, use **First product image only** with a consistent front-facing photo, or split the products into separate option sets.
 
 </details>
 
 <details>
-<summary>Personalisation appears on close-up and lifestyle photos</summary>
+<summary>Personalization appears on close-up and lifestyle photos</summary>
 
 **Apply to** is set to **All product images**. Choose a single image instead.
 
@@ -68,7 +68,7 @@ Fixes, in order of preference: standardise your photographs; use **First product
 <details>
 <summary>The layer moved after I changed the background</summary>
 
-Expected — positions are relative to the background. Reposition every layer after changing it, which is why the background comes first.
+This is expected, because positions are relative to the background. Reposition every layer after changing the background.
 
 </details>
 
@@ -98,7 +98,7 @@ Your character limit is too generous for the printable area. Lower **Max charact
 <details>
 <summary>The text is invisible</summary>
 
-Contrast against the background, or **Opacity** turned down. Check the colour against your real background image rather than the builder panel. Over customer photos, add a thin [stroke](layer-settings/effects.md#stroke).
+The color has too little contrast with the background, or **Opacity** is too low. Check the color against your background image rather than the builder panel. Over customer photos, add a thin [stroke](layer-settings/effects.md#stroke).
 
 </details>
 
@@ -119,7 +119,7 @@ The font has no glyph for them. Choose one with a fuller character set, and test
 <details>
 <summary>The curve looks wrong</summary>
 
-Adjust by eye, and try the negative value — the arc may need to bend the other way. If your product photograph is at an angle, no curve value will look right; use a flat-on photograph.
+Adjust the value, and try a negative value if the arc bends the wrong way. If your product photo is at an angle, no curve value produces a correct result. Use a flat, front-facing photo.
 
 </details>
 
@@ -142,7 +142,7 @@ The font has no true bold or italic cut. Upload the proper weight as a custom fo
 <details>
 <summary>Customers' photos are cropped and they complain</summary>
 
-**Cover** crops to fill. Either switch to **Contain** and accept empty space, or turn on the upload option's image editor so they crop it themselves. See [File upload](../option-types/input-types/file-upload.md).
+**Cover** crops the image to fill the shape. Either use **Contain**, which leaves empty space, or enable the upload option's image editor so the customer crops the image. See [File upload](../option-types/input-types/file-upload.md).
 
 </details>
 
@@ -186,14 +186,14 @@ Add a [clip area](layer-settings/clip-area.md) and leave its outline visible so 
 <details>
 <summary>Designs arrive rotated or resized unusably</summary>
 
-Turn off **Rotate**, and **Resize** for text layers. Very few products need either.
+Turn off **Rotate**, and turn off **Resize** for text layers. Few products need either.
 
 </details>
 
 <details>
-<summary>It is fiddly on a phone</summary>
+<summary>Adjusting the layer is difficult on a phone</summary>
 
-Set the starting position and size close to what most customers want, so adjusting becomes optional.
+Set the starting position and size to the values most customers need, so no adjustment is required.
 
 </details>
 
@@ -232,17 +232,17 @@ Turn on **Show "Edit Options" button in cart**. See [Cart page](../storefront/ca
 <details>
 <summary>The product page feels slow</summary>
 
-Reduce the number of layers, use a smaller background image, and avoid very thick strokes or large shadows on long text. Many layers on a large image is slow on older phones.
+Reduce the number of layers, use a smaller background image, and avoid thick strokes or large shadows on long text. Many layers on a large image render slowly on older devices.
 
 </details>
 
 <details>
 <summary>The builder preview stopped rendering</summary>
 
-Very large option sets disable the in-app preview. Test with **View in Store** instead. See [Live preview and inspector](../option-sets/live-preview-and-inspector.md).
+The in-app preview is disabled on very large option sets. Test with **View in Store** instead. See [Live preview and inspector](../option-sets/live-preview-and-inspector.md).
 
 </details>
 
 ## Still stuck?
 
-Include these when you [contact support](../help/contact-support.md): the option set name, the option, its Personalizer settings, the product you are testing on, and a screenshot of what you see against what you expected.
+When you [contact support](../help/contact-support.md), include the option set name, the option, its Personalizer settings, the product you are testing on, and a screenshot showing the result compared with what you expected.

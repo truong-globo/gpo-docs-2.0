@@ -5,7 +5,7 @@ icon: sparkles
 
 # Text effects
 
-**Custom Effect** applies a visual treatment to a text layer. Used well it makes a preview look like a real engraved or printed product; used carelessly it makes it look like a word-processor.
+**Custom Effect** applies a visual treatment to a text layer. Select an effect that matches the product you produce.
 
 **Applies to:** [Text](../../option-types/input-types/text.md), [Textarea](../../option-types/input-types/textarea.md), [Number](../../option-types/input-types/number.md).
 
@@ -19,52 +19,52 @@ icon: sparkles
 
 ## Stroke
 
-An outline in a colour of your choosing.
+An outline in a color you select.
 
-<table><thead><tr><th width="230">Setting</th><th width="170">Default</th><th>What it does</th></tr></thead><tbody><tr><td><strong>Stroke Color</strong></td><td>A pink</td><td>The outline colour</td></tr><tr><td><strong>Effect width</strong></td><td><code>1</code> px</td><td>How thick the outline is. Adjustable in tenths</td></tr></tbody></table>
+<table><thead><tr><th width="230">Setting</th><th width="170">Default</th><th>What it does</th></tr></thead><tbody><tr><td><strong>Stroke Color</strong></td><td>A pink</td><td>The outline color</td></tr><tr><td><strong>Effect width</strong></td><td><code>1</code> px</td><td>How thick the outline is. Adjustable in tenths</td></tr></tbody></table>
 
-**What it is actually good for**
+**When to use it**
 
-The obvious use is a decorative outline. The much more useful one is **legibility over a photograph**: light text with a thin dark stroke stays readable over an uploaded photo of any brightness.
+A stroke can be decorative, but its main use is **legibility over a photograph**. Light text with a thin dark stroke remains readable over an uploaded photo of any brightness.
 
-If you let customers upload their own images and draw text over them, a stroke is close to essential — you cannot know whether their photo will be light or dark.
+If customers upload their own images and you draw text over them, use a stroke. You cannot predict whether their photo will be light or dark.
 
-Keep **Effect width** low. Above about `2` on typical text the outline starts to dominate the letterforms.
+Keep **Effect width** low. Above about `2`, the outline starts to obscure the letters.
 
 ## Neon Light 1 and Neon Light 2
 
-Two glow treatments, with no further settings — what you see in the preview is what you get.
+Two glow treatments. Neither has additional settings.
 
-They suit products that genuinely glow: LED signs, acrylic light panels, neon-style displays. On an engraved metal bracelet a glow looks like a mistake.
+Use them for products that emit light, such as LED signs, acrylic light panels, and neon-style displays. They are not suitable for engraved products.
 
-Choose between them by eye against your own background. They differ in the character of the glow.
+The two effects differ in the appearance of the glow. Compare them against your own background image.
 
 ## Emboss
 
-A raised or pressed appearance, produced with a shadow you position.
+A raised or pressed appearance, created with a shadow you position.
 
 <table><thead><tr><th width="230">Setting</th><th width="170">Default</th><th>What it does</th></tr></thead><tbody><tr><td><strong>Shadow X-Axis</strong></td><td><code>1</code> px</td><td>Horizontal shadow offset, from -100 to 100</td></tr><tr><td><strong>Shadow Y-Axis</strong></td><td><code>1</code> px</td><td>Vertical shadow offset, from -100 to 100</td></tr></tbody></table>
 
-**Getting it convincing**
+**How to position the shadow**
 
-The shadow offset is a lighting direction. Small values look like a physical impression; large values look like a drop shadow, which is a different and less convincing effect.
+The shadow offset sets the lighting direction. Small values produce a physical impression. Large values produce a drop shadow instead.
 
 <table><thead><tr><th width="290">Effect wanted</th><th>Try</th></tr></thead><tbody><tr><td>Pressed into the surface — debossed</td><td>Small positive values, around <code>1</code> to <code>2</code></td></tr><tr><td>Raised off the surface — embossed</td><td>Small negative values</td></tr><tr><td>Matching your photograph's lighting</td><td>Offset in the same direction as the shadows already in the image</td></tr></tbody></table>
 
-Match the direction to your product photograph. If the light in your photo comes from the top left, the shadow should fall to the bottom right.
+Match the direction to your product photo. If the light in the photo comes from the top left, set the shadow to fall to the bottom right.
 
 ## Choosing an effect
 
-<table><thead><tr><th width="290">Product</th><th>Effect</th></tr></thead><tbody><tr><td>Engraved metal or wood</td><td><strong>Emboss</strong> with small offsets, or <strong>No effect</strong></td></tr><tr><td>Printed text on fabric or paper</td><td><strong>No effect</strong></td></tr><tr><td>Text over a customer's uploaded photo</td><td><strong>Stroke</strong>, thin, in a contrasting colour</td></tr><tr><td>LED or acrylic light products</td><td><strong>Neon Light 1</strong> or <strong>Neon Light 2</strong></td></tr><tr><td>Vinyl or sticker lettering</td><td><strong>Stroke</strong> matching your cut outline</td></tr><tr><td>Embroidery</td><td><strong>No effect</strong>, with a font that suits stitching</td></tr></tbody></table>
+<table><thead><tr><th width="290">Product</th><th>Effect</th></tr></thead><tbody><tr><td>Engraved metal or wood</td><td><strong>Emboss</strong> with small offsets, or <strong>No effect</strong></td></tr><tr><td>Printed text on fabric or paper</td><td><strong>No effect</strong></td></tr><tr><td>Text over a customer's uploaded photo</td><td><strong>Stroke</strong>, thin, in a contrasting color</td></tr><tr><td>LED or acrylic light products</td><td><strong>Neon Light 1</strong> or <strong>Neon Light 2</strong></td></tr><tr><td>Vinyl or sticker lettering</td><td><strong>Stroke</strong> matching your cut outline</td></tr><tr><td>Embroidery</td><td><strong>No effect</strong>, with a font that suits stitching</td></tr></tbody></table>
 
 {% hint style="info" %}
-The best effect is usually the one that most closely matches what you produce, not the one that looks most impressive in the builder. A shopper who sees a glowing preview and receives flat engraving is disappointed, even though the engraving is exactly what they ordered.
+Select the effect that most closely matches what you produce. If a customer sees a glowing preview and receives flat engraving, the order is correct but the preview was misleading.
 {% endhint %}
 
 ## Notes
 
 * One effect per layer.
 * Effects apply to the whole layer, not to part of the text.
-* Effects are drawn on top of the layer's [Text color](text-layers.md#text-color), so the two interact — check them together.
-* Effects have no bearing on production. They change the preview only.
-* Very thick strokes and large shadows on a long entry cost more to render, which is noticeable on older phones.
+* Effects are drawn on top of the layer's [Text color](text-layers.md#text-color), so check the two settings together.
+* Effects apply to the preview only. They do not affect production.
+* Thick strokes and large shadows on a long entry take longer to render, which is noticeable on older devices.

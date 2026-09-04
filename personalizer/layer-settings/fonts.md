@@ -1,5 +1,7 @@
 ---
-description: Default, Google, and your own uploaded fonts in the live preview — and how to let the customer choose.
+description: >-
+  Default, Google, and your own uploaded fonts in the live preview — and how to
+  let the customer choose.
 icon: font-awesome
 ---
 
@@ -13,9 +15,7 @@ The **Font family** setting controls which typeface the text layer is drawn in. 
 
 <table><thead><tr><th width="200">Choice</th><th width="290">What it uses</th><th>Reveals</th></tr></thead><tbody><tr><td><strong>Default</strong></td><td>The app's standard typeface</td><td>Nothing further</td></tr><tr><td><strong>Google</strong></td><td>A font from Google's library</td><td><strong>Select Google font</strong></td></tr><tr><td><strong>Custom</strong></td><td>A font file you uploaded to the app</td><td><strong>Select Custom font</strong></td></tr></tbody></table>
 
-<!-- SCREENSHOT: pp-font-family | App admin → builder → option Text → Personalizer Settings | Font family với 3 lựa chọn Default/Google/Custom và picker font đang mở | Khoanh Font family và picker -->
-
-<figure><img src="../../.gitbook/assets/placeholder.png" alt="The font family setting with Google selected and the font picker open"><figcaption><p>Choosing Google or Custom reveals a picker for the font itself.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2026-09-04_16-01-38.png" alt="The font family setting with Google selected and the font picker open"><figcaption><p>Choosing Google or Custom reveals a picker for the font itself.</p></figcaption></figure>
 
 ## Default
 

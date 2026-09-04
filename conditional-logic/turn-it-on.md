@@ -1,7 +1,7 @@
 ---
 description: >-
-  Where the conditional logic switch lives, and what the Show, Hide, All, and Any
-  choices actually do.
+  Where the conditional logic switch lives, and what the Show, Hide, All, and
+  Any choices actually do.
 icon: toggle-on
 ---
 
@@ -65,9 +65,7 @@ Then test on your storefront with **View in Store**, checking both branches.
 {% endstep %}
 {% endstepper %}
 
-<!-- SCREENSHOT: clo-switch-on | App admin → builder → 1 option | Switch Conditional logic vừa bật, rule builder xuất hiện bên dưới | Khoanh switch -->
-
-<figure><img src="../.gitbook/assets/placeholder.png" alt="The conditional logic switch turned on with the rule builder revealed underneath"><figcaption><p>The rule goes on the option being shown or hidden, not on the trigger.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-09-04_10-03-15.png" alt="The conditional logic switch turned on with the rule builder revealed underneath"><figcaption><p>The rule goes on the option being shown or hidden, not on the trigger.</p></figcaption></figure>
 
 ## Show or Hide
 
@@ -79,7 +77,7 @@ Both produce the same result from opposite directions. The rule is evaluated, an
 
 The two actions are logically interchangeable, but one is usually easier to read later.
 
-<table><thead><tr><th width="330">What you want</th><th>Use</th></tr></thead><tbody><tr><td>An option that is normally irrelevant, and becomes relevant</td><td><strong>Show</strong> — the default state is hidden, which is what you want</td></tr><tr><td>An option that is normally relevant, with one exception</td><td><strong>Hide</strong> — the default state is visible</td></tr><tr><td>An option revealed by a single yes-or-no choice</td><td><strong>Show</strong> when the switch is enabled</td></tr><tr><td>An option that must disappear for one specific variant</td><td><strong>Hide</strong> when the variant matches</td></tr></tbody></table>
+<table><thead><tr><th width="330">What you want</th><th>Use</th></tr></thead><tbody><tr><td>An option that is normally irrelevant and becomes relevant</td><td><strong>Show</strong> — the default state is hidden, which is what you want</td></tr><tr><td>An option that is normally relevant, with one exception</td><td><strong>Hide</strong> — the default state is visible</td></tr><tr><td>An option revealed by a single yes-or-no choice</td><td><strong>Show</strong> when the switch is enabled</td></tr><tr><td>An option that must disappear for one specific variant</td><td><strong>Hide</strong> when the variant matches</td></tr></tbody></table>
 
 {% hint style="info" %}
 Use **Show** by default. An option that starts hidden and appears when needed keeps the initial form short, which is the main purpose of conditional logic.
@@ -109,7 +107,7 @@ The last two combinations are the ones most often misread. **Hide** with **Any**
 
 To build logic such as `A and (B or C)`, split it across two rules:
 
-* Apply part of the logic to a [Section](../option-types/static-types/section.md) and the rest to the option inside it. Both rules must match for the option to be displayed, which creates an **and** between them.
+* Apply part of the logic to a [Section](../option-types/static-types/section.md) and the rest to the option inside it. Both rules must match for the option to be displayed, which creates an **AND** between them.
 * Or add two copies of the option, each with its own rule, and make sure their conditions cannot both be true at the same time.
 
 ## Rules on a Section
@@ -121,6 +119,7 @@ Use a section rule when more than two options share the same condition. One rule
 See [Section](../option-types/static-types/section.md).
 
 ## Notes
+
 * A hidden option is **not validated**, so a required option that is currently hidden does not block **Add to cart**.
 * A hidden option with an add-on price is **not charged**. Hiding removes the charge.
 * Rules are evaluated in the customer's browser as they make selections. No page reload is required.

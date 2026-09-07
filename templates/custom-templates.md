@@ -1,5 +1,7 @@
 ---
-description: Save your own setups as reusable templates, and manage, duplicate, import, and export them.
+description: >-
+  Save your own setups as reusable templates, and manage, duplicate, import, and
+  export them.
 icon: bookmark
 ---
 
@@ -33,15 +35,17 @@ From the bulk action menu on the list, or the builder's more-actions menu.
 {% endstep %}
 {% endstepper %}
 
+<figure><img src="../.gitbook/assets/2026-09-07_10-48-27.png" alt=""><figcaption></figcaption></figure>
+
+
+
 ### Create one from scratch
 
 **Templates** > **Create template**. The builder opens in template mode.
 
 Template mode differs from an option set in one way: there is no **Setup flow**, and no product, customer, or country rules. A template has no targeting, because it is never displayed on your storefront. It only has options. The left rail shows **Elements** instead.
 
-<!-- SCREENSHOT: tpl-custom-list | App admin → Templates → tab Custom Templates | Bảng danh sách template với cột ID, Name, Option elements, Date created, Actions | Không khoanh -->
-
-<figure><img src="../.gitbook/assets/placeholder.png" alt="The Custom Templates tab listing saved templates with their option elements"><figcaption><p>Your own templates, listed with the option types each contains.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-09-07_10-50-05.png" alt="The Custom Templates tab listing saved templates with their option elements"><figcaption></figcaption></figure>
 
 ## Using a custom template
 
@@ -77,5 +81,5 @@ Insert the template you need into each new option set. Your wording, limits, and
 
 * Custom templates may not be available on all plans. See [Compare plans](../plans/compare-plans.md).
 * A template has no product, customer, or country rules — only options.
-* Add-on products used by a template's options work in the same way as elsewhere. An existing-product link points at the same product, and a generated product is shared. See [Add-on pricing](../add-on-pricing/README.md).
+* Add-on products used by a template's options work in the same way as elsewhere. An existing-product link points at the same product, and a generated product is shared. See [Add-on pricing](../add-on-pricing/).
 * Templates are imported and exported separately from option sets. See [Import and export](../option-sets/import-and-export.md).

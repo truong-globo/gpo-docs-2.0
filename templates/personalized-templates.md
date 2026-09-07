@@ -1,5 +1,7 @@
 ---
-description: Twenty ready-made personalized option sets, with their layers already positioned.
+description: >-
+  Twenty ready-made personalized option sets, with their layers already
+  positioned.
 icon: layer-group
 ---
 
@@ -15,9 +17,7 @@ Adapting one is faster than starting from an empty canvas, and it shows you how 
 
 The other two tabs are [Pre-designed templates](pre-designed-templates.md), which are option sets without personalization, and [Custom templates](custom-templates.md), which are your own.
 
-<!-- SCREENSHOT: pp-templates-tab | App admin → Templates → tab Personalized Templates | Grid các template có ảnh xem trước và nút Use template | Không khoanh -->
-
-<figure><img src="../.gitbook/assets/placeholder.png" alt="The Personalized Templates tab showing the available template cards"><figcaption><p>Twenty personalized setups, each with a preview and a demo.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-09-07_10-41-07.png" alt="The Personalized Templates tab showing the available template cards"><figcaption><p>Twenty personalized setups, each with a preview and a demo.</p></figcaption></figure>
 
 ## The twenty templates
 
@@ -91,5 +91,5 @@ Select a template by the **structure of the design** rather than by the product 
 
 * Using a template creates a new option set. It does not modify the template, and you can use the same template as often as you need.
 * A new option set created from a template is **Draft** and has no product rule, so it is not displayed on your storefront until you set both.
-* Personalized templates require the Personalizer, which may not be available on all plans. Without it, the option set is created but the layers are not drawn.
+* Personalized templates require the Personalizer, which may not be available on all plans. Without it, the option set is created, but the layers are not drawn.
 * After adapting a template to your products, save it as a [custom template](custom-templates.md), so your next product starts from your version.

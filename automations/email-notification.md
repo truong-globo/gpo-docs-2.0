@@ -1,5 +1,7 @@
 ---
-description: Email yourself every order containing options, using your own subject, layout, and sending service.
+description: >-
+  Email yourself every order containing options, using your own subject, layout,
+  and sending service.
 icon: envelope
 ---
 
@@ -17,9 +19,7 @@ The workflow editor has three tabs:
 
 <table><thead><tr><th width="230">Tab</th><th>What it holds</th></tr></thead><tbody><tr><td><strong>Preview</strong></td><td>The email as it will arrive, with the subject line above it</td></tr><tr><td><strong>Edit code</strong></td><td><strong>Email subject</strong> and <strong>Email body (HTML)</strong>, plus the Liquid variable reference</td></tr><tr><td><strong>Configure</strong></td><td>Which service sends the email, and what it is sent from</td></tr></tbody></table>
 
-<!-- SCREENSHOT: auto-email-tabs | App admin → Automations → workflow Email notification | 3 tab Preview / Edit code / Configure, tab Preview đang mở | Khoanh hàng 3 tab -->
-
-<figure><img src="../.gitbook/assets/placeholder.png" alt="The email notification workflow with its Preview, Edit code, and Configure tabs"><figcaption><p>Preview what will arrive, edit the template, and choose how it is sent.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-09-07_11-36-29.png" alt="The email notification workflow with its Preview, Edit code, and Configure tabs"><figcaption><p>Preview what will arrive, edit the template, and choose how it is sent.</p></figcaption></figure>
 
 ## Editing the email
 

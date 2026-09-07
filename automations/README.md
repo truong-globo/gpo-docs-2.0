@@ -1,5 +1,7 @@
 ---
-description: Workflows that run after an order arrives, to email you, write the options into the order notes, or tag the order.
+description: >-
+  Workflows that run after an order arrives, to email you, write the options
+  into the order notes, or tag the order.
 icon: bolt
 ---
 
@@ -11,9 +13,7 @@ An automation runs when a customer places an order containing app options. There
 
 <table><thead><tr><th width="230">Workflow</th><th width="290">What it does</th><th>How many</th></tr></thead><tbody><tr><td><a href="email-notification.md">Email notification</a></td><td>Emails you the order and the options chosen</td><td>One</td></tr><tr><td><a href="update-order-notes.md">Update order notes</a></td><td>Writes the options into the order's notes</td><td>One</td></tr><tr><td><a href="update-order-tags.md">Update order tags</a></td><td>Tags the order — a fixed tag, or the value the customer chose</td><td>As many as you like</td></tr></tbody></table>
 
-<!-- SCREENSHOT: auto-templates | App admin → Automations → Workflow templates | 3 thẻ workflow với icon và mô tả | Không khoanh -->
-
-<figure><img src="../.gitbook/assets/placeholder.png" alt="The three workflow templates with their descriptions"><figcaption><p>Three workflow types, added from the workflow templates screen.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-09-07_11-27-53.png" alt="The three workflow templates with their descriptions"><figcaption><p>Three workflow types, added from the workflow templates screen.</p></figcaption></figure>
 
 ## Which workflow to use
 

@@ -1,5 +1,7 @@
 ---
-description: Write the options a customer selected into the order's notes, so they appear on all your paperwork.
+description: >-
+  Write the options a customer selected into the order's notes, so they appear
+  on all your paperwork.
 icon: note-sticky
 ---
 
@@ -15,9 +17,7 @@ You can create one order notes workflow.
 
 <table><thead><tr><th width="290">Setting</th><th>What it does</th></tr></thead><tbody><tr><td><strong>Content (HTML)</strong></td><td>The template for what is written into the note. Accepts Liquid variables</td></tr><tr><td><strong>Keep existing order notes</strong></td><td>When on, the app adds a new line below whatever is already in the note instead of replacing it</td></tr></tbody></table>
 
-<!-- SCREENSHOT: auto-order-notes | App admin → Automations → workflow Order notes update | Editor Content (HTML), checkbox Keep existing order notes, nút Test và Revert to default | Khoanh editor và checkbox -->
-
-<figure><img src="../.gitbook/assets/placeholder.png" alt="The order notes workflow with its content editor and the keep existing notes option"><figcaption><p>One template, and one decision about whether to overwrite.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-09-07_11-41-02.png" alt="The order notes workflow with its content editor and the keep existing notes option"><figcaption><p>One template, and one decision about whether to overwrite.</p></figcaption></figure>
 
 ## Keep existing order notes
 

@@ -67,7 +67,7 @@ A theme update can change the markup. Knowing which selector you used makes the 
 
 The setting above applies to product pages. Other pages have their own settings:
 
-<table><thead><tr><th width="330">Page</th><th>Controlled by</th></tr></thead><tbody><tr><td>Collection quickview popups</td><td><strong>Show options on Quickview popups</strong>. See <a href="quickview-and-other-pages.md">Quickview and other pages</a></td></tr><tr><td>Home page, featured product section</td><td><strong>Show widget on home page</strong>, plus an <a href="../getting-started/add-the-app-block.md">app block</a> in that section</td></tr><tr><td>Regular pages, featured product section</td><td><strong>Show widget on regular page</strong>, plus an app block</td></tr><tr><td>Cart page</td><td>Its own settings. See <a href="cart-page.md">Cart page</a></td></tr></tbody></table>
+<table><thead><tr><th width="330">Page</th><th>Controlled by</th></tr></thead><tbody><tr><td>Collection quickview popups</td><td><strong>Show options on Quickview popups</strong>. See <a href="/broken/pages/z3MOr9S1i9k8wdOYumws">Quickview and other pages</a></td></tr><tr><td>Home page, featured product section</td><td><strong>Show widget on home page</strong>, plus an <a href="../getting-started/add-the-app-block.md">app block</a> in that section</td></tr><tr><td>Regular pages, featured product section</td><td><strong>Show widget on regular page</strong>, plus an app block</td></tr><tr><td>Cart page</td><td>Its own settings. See <a href="cart-page.md">Cart page</a></td></tr></tbody></table>
 
 ## Notes
 

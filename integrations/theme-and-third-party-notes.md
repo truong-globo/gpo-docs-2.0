@@ -1,5 +1,7 @@
 ---
-description: Sticky add-to-cart bars, quickview apps, speed optimizers, subscriptions, and other apps that share your product page.
+description: >-
+  Sticky add-to-cart bars, quickview apps, speed optimizers, subscriptions, and
+  other apps that share your product page.
 icon: layer-group
 ---
 
@@ -21,7 +23,7 @@ A quickview lets customers buy from a collection page without opening the produc
 
 Turn on **Show options on Quickview popups** in **Settings** > **Settings** > **General**, then test it. If your quickview can add to cart without displaying your options, you receive orders with no personalization details.
 
-See [Quickview and other pages](../storefront/quickview-and-other-pages.md).
+See [Quickview and other pages](/broken/pages/z3MOr9S1i9k8wdOYumws).
 
 ## Speed and script optimization apps
 

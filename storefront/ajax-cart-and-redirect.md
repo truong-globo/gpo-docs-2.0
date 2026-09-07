@@ -7,9 +7,14 @@ icon: right-to-bracket
 
 One setting controls this, and its behavior depends on your theme. **Settings** > **Settings** > **General** > **Product page** > **Go to cart immediately after adding to cart**.
 
+<figure><img src="../.gitbook/assets/2026-09-07_11-24-24.png" alt=""><figcaption></figcaption></figure>
+
+
+
 ## What it does
 
-<table><thead><tr><th width="180">Default</th><td>On</td></tr></thead></table>
+| Default | On |
+| ------- | -- |
 
 With this on, adding a product with add-ons sends the customer to the cart page instead of leaving them on the product page.
 
@@ -37,7 +42,7 @@ The setting includes a link to the list of themes where this is supported. The l
 
 ## Related settings
 
-<table><thead><tr><th width="330">Setting</th><th>What it does</th></tr></thead><tbody><tr><td><strong>Auto-scroll to first error message</strong></td><td>Same settings group. On by default. When add to cart is blocked, scrolls to the first problem. Keep it on — otherwise a customer sees nothing happen and assumes the button is broken</td></tr><tr><td><strong>Hide quantity box and remove button for add-on products</strong></td><td>Protects add-on lines once they are in the cart. See <a href="cart-page.md">Cart page</a></td></tr><tr><td><strong>Merge Main product &amp; Add-on products</strong></td><td>Presents add-ons as part of the item. See <a href="../add-on-pricing/merge-as-bundle.md">Merge main product and add-ons</a></td></tr></tbody></table>
+<table><thead><tr><th width="330">Setting</th><th>What it does</th></tr></thead><tbody><tr><td><strong>Auto-scroll to first error message</strong></td><td>Same settings group. On by default. When add to cart is blocked, scrolls to the first problem. Keep it on — otherwise a customer sees nothing happen and assumes the button is broken</td></tr><tr><td><strong>Hide quantity box and remove button for add-on products</strong></td><td>Protects add-on lines once they are in the cart. See <a href="cart-page.md">Cart page</a></td></tr><tr><td><strong>Merge Main product &#x26; Add-on products</strong></td><td>Presents add-ons as part of the item. See <a href="../add-on-pricing/merge-as-bundle.md">Merge main product and add-ons</a></td></tr></tbody></table>
 
 ## Dynamic checkout buttons
 

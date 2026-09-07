@@ -1,5 +1,7 @@
 ---
-description: Add-on lines, letting customers edit their options, and how personalized designs are previewed in the cart.
+description: >-
+  Add-on lines, letting customers edit their options, and how personalized
+  designs are previewed in the cart.
 icon: cart-shopping
 ---
 
@@ -7,9 +9,12 @@ icon: cart-shopping
 
 Three settings in **Settings** > **Settings** > **General** > **Cart page**, plus one in the add-on settings, control how a personalized order behaves once it is in the cart.
 
+<figure><img src="../.gitbook/assets/2026-09-07_11-21-44.png" alt=""><figcaption><p>Three cart settings, all store-wide.</p></figcaption></figure>
+
 ## Hide quantity box and remove button for add-on products
 
-<table><thead><tr><th width="180">Default</th><td>On</td></tr></thead></table>
+| Default | On |
+| ------- | -- |
 
 Prevents customers from changing the quantity of an add-on line, or removing it, separately from the item it belongs to.
 
@@ -19,7 +24,8 @@ It applies to product-backed add-ons, because those are the ones with their own 
 
 ## Show "Edit Options" button in cart
 
-<table><thead><tr><th width="180">Default</th><td>Off</td></tr></thead></table>
+| Default | Off |
+| ------- | --- |
 
 Adds a button to the cart line that reopens the option form, so customers can change their choices without removing the item and starting again.
 
@@ -33,7 +39,8 @@ You can edit the button's text, along with **Cancel** and **Save Changes**, for 
 
 ## Personalize preview mode
 
-<table><thead><tr><th width="180">Default</th><td><strong>View in modal</strong></td></tr></thead></table>
+| Default | **View in modal** |
+| ------- | ----------------- |
 
 This setting controls how a personalized design is displayed from the cart.
 
@@ -41,7 +48,7 @@ This setting controls how a personalized design is displayed from the cart.
 
 Use **View in modal** in most cases, because a customer who has to download a file to check their design often will not. Use **Download file** only when customers need to keep or forward a copy, for example to approve artwork with someone else.
 
-This setting may not be available on all plans, and it applies only if you use the [Personalizer](../personalizer/README.md). See [Designs in cart and orders](../personalizer/cart-and-orders.md).
+This setting may not be available on all plans, and it applies only if you use the [Personalizer](../personalizer/). See [Designs in cart and orders](../personalizer/cart-and-orders.md).
 
 ## Merge main product and add-ons
 
@@ -49,19 +56,17 @@ This setting is on a different page, but it changes the cart more than the three
 
 It is on by default. See [Merge main product and add-ons](../add-on-pricing/merge-as-bundle.md).
 
-<!-- SCREENSHOT: store-cart-settings | App admin → Settings → General → Cart page | 3 setting: hide quantity/remove, Edit Options, Personalize preview mode | Khoanh nhóm Cart page -->
-
-<figure><img src="../.gitbook/assets/placeholder.png" alt="The cart page settings group with its three switches"><figcaption><p>Three cart settings, all store-wide.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-09-07_11-22-45.png" alt="The cart page settings group with its three switches"><figcaption></figcaption></figure>
 
 ## What the cart always displays
 
-Regardless of these settings, the cart displays the option details under each item: the text the customer entered, the values they selected, and links to any files they uploaded. This happens automatically, because option values are stored as line item properties.
+Regardless of these settings, the cart displays the option details under each item: the text the customer entered, the values they selected, and links to any files they uploaded. This happens automatically because option values are stored as line item properties.
 
 See [Show options on orders](show-options-on-orders.md).
 
 ## Recommended configuration for personalized products
 
-<table><thead><tr><th width="330">Setting</th><th>Value</th></tr></thead><tbody><tr><td>Hide quantity box and remove button for add-on products</td><td><strong>On</strong></td></tr><tr><td>Show "Edit Options" button in cart</td><td><strong>On</strong></td></tr><tr><td>Personalize preview mode</td><td><strong>View in modal</strong></td></tr><tr><td>Merge Main product &amp; Add-on products</td><td><strong>On</strong>, unless you want add-on prices itemised</td></tr></tbody></table>
+<table><thead><tr><th width="330">Setting</th><th>Value</th></tr></thead><tbody><tr><td>Hide quantity box and remove button for add-on products</td><td><strong>On</strong></td></tr><tr><td>Show "Edit Options" button in cart</td><td><strong>On</strong></td></tr><tr><td>Personalize preview mode</td><td><strong>View in modal</strong></td></tr><tr><td>Merge Main product &#x26; Add-on products</td><td><strong>On</strong>, unless you want add-on prices itemised</td></tr></tbody></table>
 
 ## Notes
 

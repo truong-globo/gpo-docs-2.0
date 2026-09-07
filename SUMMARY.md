@@ -144,7 +144,6 @@
 * [Borders and typography](storefront/borders-and-typography.md)
 * [Custom CSS](storefront/custom-css.md)
 * [Widget behavior](storefront/widget-behavior.md)
-* [Quickview and other pages](storefront/quickview-and-other-pages.md)
 * [Cart page](storefront/cart-page.md)
 * [Ajax cart and redirect to cart](storefront/ajax-cart-and-redirect.md)
 * [Show options on orders](storefront/show-options-on-orders.md)

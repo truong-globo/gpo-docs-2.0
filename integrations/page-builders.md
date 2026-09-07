@@ -1,5 +1,7 @@
 ---
-description: Getting options onto product pages and landing pages built with a page builder.
+description: >-
+  Getting options onto product pages and landing pages built with a page
+  builder.
 icon: table-layout
 ---
 
@@ -43,7 +45,7 @@ Page builder integration is common support work. Include the name of the builder
 
 A builder page can display the options correctly and still fail at checkout, because the add-to-cart flow belongs to the builder rather than to your theme.
 
-<table><thead><tr><th width="290">Test</th><th>Why</th></tr></thead><tbody><tr><td>The options appear, in the right place</td><td>The obvious one</td></tr><tr><td>Required options actually block add to cart</td><td>Validation has to hook into the builder's button</td></tr><tr><td>Add-ons appear in the cart at the right price</td><td>The builder's add-to-cart may take a different route</td></tr><tr><td>The <a href="../personalizer/README.md">Personalizer</a> preview draws on the right image</td><td>Builders often use their own image gallery</td></tr><tr><td>Everything again on mobile</td><td>Builders frequently use a separate mobile layout</td></tr></tbody></table>
+<table><thead><tr><th width="290">Test</th><th>Why</th></tr></thead><tbody><tr><td>The options appear, in the right place</td><td>The obvious one</td></tr><tr><td>Required options actually block add to cart</td><td>Validation has to hook into the builder's button</td></tr><tr><td>Add-ons appear in the cart at the right price</td><td>The builder's add-to-cart may take a different route</td></tr><tr><td>The <a href="../personalizer/">Personalizer</a> preview draws on the right image</td><td>Builders often use their own image gallery</td></tr><tr><td>Everything again on mobile</td><td>Builders frequently use a separate mobile layout</td></tr></tbody></table>
 
 {% hint style="warning" %}
 Test the add-to-cart flow, not just the appearance. A page where the options appear but validation does not run accepts orders with required fields empty, and nothing indicates that this has happened.
@@ -56,7 +58,7 @@ A landing page that shows one product is a simpler case. Set it up as a featured
 * Add the app block inside the section showing the product
 * Turn on **Show widget on regular page** in **Settings** > **Settings** > **General**
 
-See [Quickview and other pages](../storefront/quickview-and-other-pages.md).
+See [Quickview and other pages](/broken/pages/z3MOr9S1i9k8wdOYumws).
 
 ## Notes
 

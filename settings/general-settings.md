@@ -15,7 +15,7 @@ The group also includes a tip pointing to the theme editor, because an [app bloc
 
 ## Collection page
 
-<table><thead><tr><th width="290">Setting</th><th width="150">Default</th><th>What it does</th></tr></thead><tbody><tr><td><strong>Show options on Quickview popups</strong></td><td>On</td><td>Renders options inside collection-page quickviews. Without it, customers can add to cart from a quickview without seeing your options. See <a href="../storefront/quickview-and-other-pages.md">Quickview and other pages</a></td></tr></tbody></table>
+<table><thead><tr><th width="290">Setting</th><th width="150">Default</th><th>What it does</th></tr></thead><tbody><tr><td><strong>Show options on Quickview popups</strong></td><td>On</td><td>Renders options inside collection-page quickviews. Without it, customers can add to cart from a quickview without seeing your options. See <a href="/broken/pages/z3MOr9S1i9k8wdOYumws">Quickview and other pages</a></td></tr></tbody></table>
 
 ## Product page
 
@@ -31,7 +31,7 @@ See [Cart page](../storefront/cart-page.md).
 
 <table><thead><tr><th width="290">Setting</th><th width="150">Default</th><th>What it does</th></tr></thead><tbody><tr><td><strong>Show widget on home page (featured product section only)</strong></td><td>On</td><td>Options in a featured product section on your home page</td></tr><tr><td><strong>Show widget on regular page (featured product section only)</strong></td><td>On</td><td>The same on other pages</td></tr></tbody></table>
 
-Both settings also require the [app block](../getting-started/add-the-app-block.md) to be placed in that section. See [Quickview and other pages](../storefront/quickview-and-other-pages.md).
+Both settings also require the [app block](../getting-started/add-the-app-block.md) to be placed in that section. See [Quickview and other pages](/broken/pages/z3MOr9S1i9k8wdOYumws).
 
 ## Custom fonts
 

@@ -11,9 +11,7 @@ A template is a saved option set you can copy. Use it to avoid rebuilding the sa
 
 <table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Pre-designed Templates</strong></td><td>Start from one of twenty ready-made option sets for common product types.</td><td><a href="pre-designed-templates.md">pre-designed-templates.md</a></td></tr><tr><td><strong>Personalized Templates</strong></td><td>Start from a setup that already has the live preview configured.</td><td><a href="personalized-templates.md">personalized-templates.md</a></td></tr><tr><td><strong>Custom Templates</strong></td><td>Templates you create, or save from an existing option set.</td><td><a href="custom-templates.md">custom-templates.md</a></td></tr></tbody></table>
 
-<!-- SCREENSHOT: tpl-tabs | App admin → Templates | 3 tab với badge số lượng, grid template có ảnh xem trước | Khoanh hàng 3 tab -->
-
-<figure><img src="../.gitbook/assets/placeholder.png" alt="The Templates page with its three tabs and template cards"><figcaption><p>Three tabs: ours without personalization, ours with it, and yours.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-09-07_10-31-57.png" alt="The Templates page with its three tabs and template cards"><figcaption></figcaption></figure>
 
 ## Template or option set?
 
@@ -36,6 +34,6 @@ See [Build your options](../option-sets/build-options.md).
 ## Notes
 
 * Templates may not be available on all plans. See [Compare plans](../plans/compare-plans.md).
-* Using a template does not modify it. You can use the same template as often as you need.
+* Using a template does not modify the original. You can reuse the same template as often as you need.
 * A new option set created from a template is **Draft** and has no product rule, so it is not displayed on your storefront until you set both.
 * Custom templates can be imported and exported, separately from option sets.

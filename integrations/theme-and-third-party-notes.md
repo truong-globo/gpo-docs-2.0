@@ -15,15 +15,7 @@ Many themes and apps add a bar with a buy button that follows the customer down 
 
 <table><thead><tr><th width="230">Risk</th><th>What to check</th></tr></thead><tbody><tr><td>The bar's button bypasses the options</td><td>Scroll down until the bar appears, then use its button. Are required options enforced? Are add-ons priced?</td></tr><tr><td>The bar covers the widget on mobile</td><td>Whether the last option is reachable on a phone</td></tr></tbody></table>
 
-The app supports the common patterns. If the bar's button skips validation, report it, because it produces orders you cannot fulfill.
-
-## Quickview apps and theme quickviews
-
-A quickview lets customers buy from a collection page without opening the product page.
-
-Turn on **Show options on Quickview popups** in **Settings** > **Settings** > **General**, then test it. If your quickview can add to cart without displaying your options, you receive orders with no personalization details.
-
-See [Quickview and other pages](/broken/pages/z3MOr9S1i9k8wdOYumws).
+The app supports the most common patterns. If a bar's button bypasses validation, report it, as this can create orders with missing information that you cannot fulfill.
 
 ## Speed and script optimization apps
 
@@ -79,7 +71,7 @@ These apps usually appear near the buy button, where the widget is. If they over
 
 ## Fulfillment and printing apps
 
-Any app that prints or forwards order data has to include line item properties, otherwise your options are not passed to it.
+Any app that prints or forwards order data has to include line item properties; otherwise, your options are not passed to it.
 
 Most of these tools let you edit a template. See [Show options on orders](../storefront/show-options-on-orders.md) for the snippet, or use an [Update order notes](../automations/update-order-notes.md) workflow, which writes the options into the order note that most tools already read.
 

@@ -21,10 +21,10 @@ The app supports flows that create a draft order rather than a normal checkout, 
 
 ## Building a quote form
 
-<table><thead><tr><th width="290">Use</th><th>For</th></tr></thead><tbody><tr><td><a href="../option-types/input-types/dimension.md">Dimension</a></td><td>Measurements with units and limits, so you never receive an impossible size</td></tr><tr><td><a href="../option-types/input-types/file-upload.md">File upload</a></td><td>Drawings, specifications, artwork</td></tr><tr><td><a href="../option-types/input-types/number.md">Number</a></td><td>Quantities, with a minimum that matches your minimum order</td></tr><tr><td><a href="../option-types/selection-types/dropdown.md">Dropdown</a></td><td>Materials and finishes you actually offer</td></tr><tr><td><a href="../option-types/input-types/textarea.md">Textarea</a></td><td>Anything you have not thought of. Always include one</td></tr><tr><td><a href="../option-types/input-types/email.md">Email</a> and <a href="../option-types/input-types/phone.md">Phone</a></td><td>How to reach them, if the quote tool does not already ask</td></tr><tr><td><a href="../option-types/shared-settings/required-and-default-value.md#required-field">Required field</a></td><td>Everything you cannot quote without. This is where required earns its keep</td></tr><tr><td><a href="../conditional-logic/README.md">Conditional logic</a></td><td>Asking follow-up questions only when relevant, so the form stays short</td></tr></tbody></table>
+<table><thead><tr><th width="290">Use</th><th>For</th></tr></thead><tbody><tr><td><a href="../option-types/input-types/dimension.md">Dimension</a></td><td>Measurements with units and limits, so you never receive an impossible size</td></tr><tr><td><a href="../option-types/input-types/file-upload.md">File upload</a></td><td>Drawings, specifications, artwork</td></tr><tr><td><a href="../option-types/input-types/number.md">Number</a></td><td>Quantities, with a minimum that matches your minimum order</td></tr><tr><td><a href="../option-types/selection-types/dropdown.md">Dropdown</a></td><td>Materials and finishes you actually offer</td></tr><tr><td><a href="../option-types/input-types/textarea.md">Textarea</a></td><td>Anything you have not thought of. Always include one</td></tr><tr><td><a href="../option-types/input-types/email.md">Email</a> and <a href="../option-types/input-types/phone.md">Phone</a></td><td>How to reach them, if the quote tool does not already ask</td></tr><tr><td><a href="../option-types/shared-settings/required-and-default-value.md#required-field">Required field</a></td><td>Everything you cannot quote without. This is where required earns its keep</td></tr><tr><td><a href="../conditional-logic/">Conditional logic</a></td><td>Asking follow-up questions only when relevant, so the form stays short</td></tr></tbody></table>
 
 {% hint style="info" %}
-A quote form is the one place to use **Required field** freely. On a retail product, required options reduce conversions. On a quote request, an incomplete specification means another round of emails, so require everything you need.
+A quote form is the one place to use **required fields** freely. On a retail product, required options reduce conversions. On a quote request, an incomplete specification means another round of emails, so require everything you need.
 {% endhint %}
 
 ## Trade prices alongside retail
@@ -38,6 +38,6 @@ Both option sets target the same products, and only one is displayed to any give
 
 ## Notes
 
-* You can use any quote app. This app collects the specification.
-* Options are collected before the cart, so they are available for either a normal checkout or a draft order.
-* If the flow does not work from start to finish on your theme, this is integration work. See [Contact support](../help/contact-support.md).
+* You can use any quote app. This app collects the product specifications.
+* Options are collected before the cart, so they are available for both regular checkouts and draft orders.
+* If the flow does not work from start to finish on your theme, the issue requires integration work. See [Contact support](../help/contact-support.md).

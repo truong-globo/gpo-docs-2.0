@@ -22,7 +22,7 @@ Check these four items in order:
 3. **Online Store is not selected** under the option set's **Sales channels**.
 4. **The product rule does not match** the product you are viewing. Use **Preview matching products** to check. See [Assign to products](../option-sets/assign-to-products.md).
 
-If all four are correct, report it rather than working around it. See [Contact support](contact-support.md).
+If all four are correct, report this issue to us. See [Contact support](contact-support.md).
 
 </details>
 
@@ -31,14 +31,6 @@ If all four are correct, report it rather than working around it. See [Contact s
 <summary>Some options appear and others do not</summary>
 
 There are three likely causes: [conditional logic](../conditional-logic/) is hiding them, the **Hide** action is applied to them, or your plan does not include those option types, so they are configured but not displayed.
-
-</details>
-
-<details>
-
-<summary>Options appear on product pages but not in a quickview</summary>
-
-Turn on **Show options on Quickview popups** in **Settings** > **Settings** > **General**. See [Quickview and other pages](/broken/pages/z3MOr9S1i9k8wdOYumws).
 
 </details>
 
@@ -72,8 +64,8 @@ Check the option set's **Sales channels**. It has to be published to the channel
 
 <summary>An add-on charge is missing, wrong, or doubled</summary>
 
-* **Nothing is charged.** Check that the option is not hidden by a conditional rule, because hidden options are not charged, that the price is set, and that the option set is saved and active.
-* **The charge multiplies when a customer buys several.** The option is set to **Default** mode, which follows the product quantity. Use **One time charge** for anything charged once per order, such as gift wrap. See [Advanced add-on modes](../add-on-pricing/advanced-add-on-modes.md).
+* **Nothing is charged.** Check that the option is not hidden by a conditional rule, as hidden options are not charged. Also make sure the price is set and the option set is saved and active.
+* **The charge multiplies when a customer buys several.** The option is set to **Default** mode, which follows the product quantity. Use **One-time charge** for anything charged once per order, such as gift wrap. See [Advanced add-on modes](../add-on-pricing/advanced-add-on-modes.md).
 * **Every selected value is charged on a multi-select.** This is correct. Limit it with **Max selections**.
 
 </details>
@@ -82,7 +74,7 @@ Check the option set's **Sales channels**. It has to be published to the channel
 
 <summary>The product price is higher than my listed price before anything is selected</summary>
 
-An option has a **default value** with a price attached, so it is charged as soon as the page loads. Either remove the default value, or set the default to a value with no price. See [Required field and default value](../option-types/shared-settings/required-and-default-value.md#default-value).
+An option has a **default value** with a price attached, so it is charged as soon as the page loads. Either remove the default value or set the default to a value with no price. See [Required field and default value](../option-types/shared-settings/required-and-default-value.md#default-value).
 
 </details>
 
@@ -98,7 +90,7 @@ An option has a **default value** with a price attached, so it is charged as soo
 
 <summary>Out of stock options does nothing</summary>
 
-There are three causes. The values use **Add price**, which has no product and therefore no inventory. The add-on product does not have inventory tracking turned on. Or the variant is still set to continue selling when out of stock. On generated products, the last two have to be set manually. See [Stock and inventory](../add-on-pricing/stock-and-inventory.md).
+There are three causes. The values use **Add Price,** which has no product and therefore no inventory. The add-on product does not have inventory tracking turned on. Or the variant is still set to continue selling when out of stock. For generated products, the last two have to be set manually. See [Stock and inventory](../add-on-pricing/stock-and-inventory.md).
 
 </details>
 
@@ -116,7 +108,7 @@ Exclude the tag `globo-product-options` from those collections. Do not unpublish
 
 <summary>Add to cart does nothing</summary>
 
-This is usually a validation failure rather than a broken button: a required option is empty, or an entry exceeds a limit. Turn on **Auto-scroll to first error message** in **Settings** > **Settings** > **General** so customers are taken to the field with the error. It is on by default, and with it off customers see no feedback.
+This is usually a validation failure rather than a broken button: a required option is empty, or an entry exceeds a limit. Turn on **Auto-scroll to first error message** in **Settings** > **Settings** > **General** so customers are taken to the field with the error. It is on by default, and with it off, customers see no feedback.
 
 </details>
 

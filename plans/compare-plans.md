@@ -5,12 +5,12 @@ icon: table
 
 # Compare plans
 
-The app has three paid tiers above the free plan, and a variant of the top one with a larger file limit.
+The app has three paid plans above the free plan, and a version of the top plan with a larger file limit.
 
 <table><thead><tr><th width="180">Plan</th><th>Built around</th></tr></thead><tbody><tr><td><strong>Free</strong></td><td>Unlimited option sets, all three product targeting methods, basic conditional logic, the fifteen most-used option types, option templates, and quickview support</td></tr><tr><td><strong>Premium</strong></td><td>Everything in Free, plus advanced conditional logic, add-on pricing, import and export, multi-language option content, default values and limits, swatch sliders, custom widget styling, basic analytics, five more option types, file upload up to 20 MB, priority support, and no watermark</td></tr><tr><td><strong>Advanced</strong></td><td>Everything in Premium, plus every remaining option type and setting: the Personalizer, advanced add-on modes, option groups, out-of-stock handling, custom fonts, date restrictions, POS, customer and country rules, editing options in the cart, automations, advanced analytics, and file upload up to 100 MB</td></tr><tr><td><strong>Advanced 200</strong></td><td>Identical to Advanced, with file upload raised to 200 MB</td></tr></tbody></table>
 
 {% hint style="info" %}
-You do not have to memorise any of this. Anything your plan does not include is marked in the app where you would use it — a greyed-out field with an upgrade link, an option type that prompts when selected, or a banner when you hit a limit. Selecting an upgrade link opens **Pricing** with that feature in view.
+You do not need to memorize this table. Anything your plan does not include is marked in the app where you would use it: a grayed-out field with an upgrade link, an option type that prompts when selected, or a banner when you reach a limit. Selecting an upgrade link opens **Pricing** at that feature.
 {% endhint %}
 
 <!-- SCREENSHOT: plan-pricing-page | App admin → Pricing | Các plan card, switch Monthly/Yearly, plan hiện tại được đánh dấu, bảng so sánh feature bên dưới | Khoanh switch Monthly/Yearly -->
@@ -18,12 +18,12 @@ You do not have to memorise any of this. Anything your plan does not include is 
 <figure><img src="../.gitbook/assets/placeholder.png" alt="The Pricing page with plan cards, the monthly and yearly switch, and the feature comparison table"><figcaption><p>The Pricing page carries the same comparison, marked with your current plan.</p></figcaption></figure>
 
 {% hint style="warning" %}
-**Check Pricing for your own store.** The tables below are the current plans for a new store. Plans change over time, and stores that signed up under an earlier version keep the plan they were on — so what you see in the app is what applies to you. Prices also differ for Shopify Plus stores, which is why this page does not print them.
+**Check Pricing for your own store.** The tables below list the current plans for a new store. Plans change over time, and stores that signed up under an earlier version keep the plan they were on, so what the app displays is what applies to you. Prices also differ for Shopify Plus stores, which is why this page does not list them.
 {% endhint %}
 
 ## Full feature comparison
 
-Grouped exactly as the **Pricing** page groups it.
+These groups match the groups on the **Pricing** page.
 
 ### Option Set
 
@@ -51,12 +51,12 @@ Grouped exactly as the **Pricing** page groups it.
 
 ## The Monthly and Yearly switch
 
-Changes the billing period only. Yearly is discounted; feature availability is identical either way. See [Change your plan](change-your-plan.md).
+This changes the billing period only. Yearly billing is discounted, and the features are the same either way. See [Change your plan](change-your-plan.md).
 
 ## The watermark
 
-On plans without **Remove watermarks**, a small "Powered by" credit appears beneath the widget on your storefront. There is nothing to switch on or off — it disappears by itself on a plan that includes the feature.
+On plans without **Remove watermarks**, a small "Powered by" credit appears below the widget on your storefront. There is no setting for it. It is removed automatically on a plan that includes the feature.
 
 {% hint style="info" %}
-A locked setting is still saved. Configure something, gain access later, and it starts working with nothing to rebuild — and the reverse is also true, which is why [Change your plan](change-your-plan.md) is worth reading before a downgrade.
+A locked setting is still saved. If you configure it and later upgrade, it starts working with nothing to rebuild. The reverse also applies, which is why you should read [Change your plan](change-your-plan.md) before a downgrade.
 {% endhint %}

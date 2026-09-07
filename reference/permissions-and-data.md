@@ -13,39 +13,39 @@ Shopify asks you to approve this access when you install.
 
 ## Requested only when you use the feature
 
-Some access is asked for later rather than upfront:
+Some access is requested later rather than during the install:
 
-* **Write access to orders** — the first time you open [Automations](../automations/README.md), because the order-note and order-tag workflows change the order. Until you approve it, no workflow runs.
-* **Customer data** — the first time you pick specific customers in a [customer rule](../option-sets/assign-to-customers.md).
+* **Write access to orders**, the first time you open [Automations](../automations/README.md), because the order note and order tag workflows change the order. No workflow runs until you approve it.
+* **Customer data**, the first time you select specific customers in a [customer rule](../option-sets/assign-to-customers.md).
 
-In both cases the app explains what it is asking for and Shopify shows its own approval screen, exactly like the original install.
+In both cases, the app explains what it is requesting and Shopify displays its own approval screen, the same as during the original install.
 
 ## What the app does not ask for
 
-<table><thead><tr><th width="290">Not requested</th><th>Consequence</th></tr></thead><tbody><tr><td>Write access to orders, at install</td><td>The app cannot change an order's contents, prices, or fulfilment unless you enable Automations</td></tr><tr><td>Payment or payout access</td><td>The app never handles money. All charging is Shopify's</td></tr><tr><td>Write access to your theme's code</td><td>The app cannot alter your templates or Liquid</td></tr><tr><td>Access to your Shopify account or billing</td><td>Plan changes go through Shopify's own billing screens</td></tr></tbody></table>
+<table><thead><tr><th width="290">Not requested</th><th>Consequence</th></tr></thead><tbody><tr><td>Write access to orders, at install</td><td>The app cannot change an order's contents, prices, or fulfillment unless you enable Automations</td></tr><tr><td>Payment or payout access</td><td>The app never handles money. All charging is Shopify's</td></tr><tr><td>Write access to your theme's code</td><td>The app cannot alter your templates or Liquid</td></tr><tr><td>Access to your Shopify account or billing</td><td>Plan changes go through Shopify's own billing screens</td></tr></tbody></table>
 
 ## Your customers' data
 
-The app sees customer data only where it has to, and only through Shopify:
+The app accesses customer data only where it is required, and only through Shopify:
 
 * the answers a customer gives, and any file they upload
 * the design they created, if you use the Personalizer
-* their tags, account status, and country, read at page load to evaluate your [customer](../option-sets/assign-to-customers.md) and [country](../option-sets/assign-to-countries.md) rules
+* their tags, account status, and country, which are read at page load to evaluate your [customer](../option-sets/assign-to-customers.md) and [country](../option-sets/assign-to-countries.md) rules
 
 {% hint style="warning" %}
-**You decide what customers are asked for.** A field asking for a date of birth, an ID number, or a phone number puts that data on your orders, and handling it appropriately is your responsibility as the merchant. Ask for what you need to fulfil the order, and no more.
+**You decide what customers are asked for.** A field asking for a date of birth, an ID number, or a phone number puts that data on your orders, and handling it appropriately is your responsibility as the merchant. Ask only for what you need to fulfill the order.
 {% endhint %}
 
-The app supports Shopify's mandatory privacy notifications, so a customer data request, a customer erasure request, or a store erasure request raised through Shopify is handled. Raise these through Shopify's own privacy tooling rather than by email — that way they reach every app on your store, not just this one.
+The app supports Shopify's mandatory privacy notifications, so a customer data request, a customer erasure request, or a store erasure request raised through Shopify is handled. Raise these requests through Shopify's own privacy tools rather than by email, so they reach every app on your store rather than only this one.
 
 ## Uninstalling
 
-<table><thead><tr><th width="330">Removed automatically</th><th>Left in your store</th></tr></thead><tbody><tr><td>The app's access to your store</td><td>Automatically generated add-on products — ordinary products in your catalogue, tagged <code>globo-product-options</code></td></tr><tr><td>The app embed and anything the app added to your theme</td><td>Line item properties on existing orders, which are part of those orders' records</td></tr><tr><td>The checkout pricing mechanism</td><td>Files uploaded to your Shopify files, which belong to you</td></tr></tbody></table>
+<table><thead><tr><th width="330">Removed automatically</th><th>Left in your store</th></tr></thead><tbody><tr><td>The app's access to your store</td><td>Automatically generated add-on products — ordinary products in your catalog, tagged <code>globo-product-options</code></td></tr><tr><td>The app embed and anything the app added to your theme</td><td>Line item properties on existing orders, which are part of those orders' records</td></tr><tr><td>The checkout pricing mechanism</td><td>Files uploaded to your Shopify files, which belong to you</td></tr></tbody></table>
 
-There is no theme code to clean up by hand.
+There is no theme code to remove manually.
 
 {% hint style="danger" %}
-**Export before you uninstall.** Option sets are not recoverable once the app's data is erased. A CSV export takes seconds — see [Import and export](../option-sets/import-and-export.md).
+**Export before you uninstall.** Option sets cannot be recovered once the app's data is erased. A CSV export takes a few seconds. See [Import and export](../option-sets/import-and-export.md).
 {% endhint %}
 
-The app's privacy policy and terms of service are linked from its Shopify App Store listing at [apps.shopify.com/product-options-pro](https://apps.shopify.com/product-options-pro), which is always the current version. Those documents, not this page, are the authoritative statement — this page explains what the access is *for*. See [Contact support](../help/contact-support.md) if you would like your stored data removed after uninstalling.
+The app's privacy policy and terms of service are linked from its Shopify App Store listing at [apps.shopify.com/product-options-pro](https://apps.shopify.com/product-options-pro), which is always the current version. Those documents are the authoritative statement. This page explains what the access is used for. See [Contact support](../help/contact-support.md) if you would like your stored data removed after uninstalling.

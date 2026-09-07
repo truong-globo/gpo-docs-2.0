@@ -21,7 +21,7 @@ Product variants and app options are two separate systems. Variants belong to Sh
 
 A variant condition connects the two.
 
-<table><thead><tr><th width="330">You want</th><th>Because</th></tr></thead><tbody><tr><td>Engraving only on the metal version</td><td>You cannot engrave the fabric one</td></tr><tr><td>A shoe width choice only on wide-fit sizes</td><td>It is meaningless on the others</td></tr><tr><td>A longer lead-time note only on the largest size</td><td>Only that one is made to order</td></tr><tr><td>A different set of colours per material</td><td>Your palettes differ by material</td></tr><tr><td>A warning only on one variant</td><td>It has a limitation the others do not</td></tr></tbody></table>
+<table><thead><tr><th width="330">You want</th><th>Because</th></tr></thead><tbody><tr><td>Engraving only on the metal version</td><td>You cannot engrave the fabric one</td></tr><tr><td>A shoe width choice only on wide-fit sizes</td><td>It is meaningless on the others</td></tr><tr><td>A longer lead-time note only on the largest size</td><td>Only that one is made to order</td></tr><tr><td>A different set of colors per material</td><td>Your palettes differ by material</td></tr><tr><td>A warning only on one variant</td><td>It has a limitation the others do not</td></tr></tbody></table>
 
 ## Before you start
 

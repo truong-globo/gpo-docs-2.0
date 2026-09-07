@@ -1,5 +1,5 @@
 ---
-description: Show or hide an option set based on the country a shopper is browsing from.
+description: Show or hide an option set based on the country a customer is browsing from.
 icon: earth-americas
 ---
 
@@ -27,7 +27,7 @@ The block expands with two choices and a country selector.
 {% step %}
 ### Choose Include or Exclude
 
-<table><thead><tr><th width="180">Choice</th><th>Behaviour</th></tr></thead><tbody><tr><td><strong>Include</strong></td><td>Show the option set <strong>only</strong> in the countries you select. Everywhere else, it does not render.</td></tr><tr><td><strong>Exclude</strong></td><td>Show the option set <strong>everywhere except</strong> the countries you select.</td></tr></tbody></table>
+<table><thead><tr><th width="180">Choice</th><th>Behavior</th></tr></thead><tbody><tr><td><strong>Include</strong></td><td>Show the option set <strong>only</strong> in the countries you select. Everywhere else, it does not render.</td></tr><tr><td><strong>Exclude</strong></td><td>Show the option set <strong>everywhere except</strong> the countries you select.</td></tr></tbody></table>
 {% endstep %}
 
 {% step %}
@@ -47,7 +47,7 @@ Select **Save**. The rule takes effect on the next storefront page load.
 
 ## Worked examples
 
-<table><thead><tr><th width="330">You want</th><th>Set up</th></tr></thead><tbody><tr><td>A delivery-date picker only where you deliver</td><td><strong>Include</strong> — your delivery countries</td></tr><tr><td>No engraving on exports, because of lead times</td><td><strong>Include</strong> — your home country only</td></tr><tr><td>Everything except two countries you cannot ship personalised goods to</td><td><strong>Exclude</strong> — those two countries</td></tr><tr><td>Local pickup options for one country</td><td><strong>Include</strong> — that country</td></tr><tr><td>A customs declaration field for international orders only</td><td><strong>Exclude</strong> — your home country</td></tr></tbody></table>
+<table><thead><tr><th width="330">You want</th><th>Set up</th></tr></thead><tbody><tr><td>A delivery-date picker only where you deliver</td><td><strong>Include</strong> — your delivery countries</td></tr><tr><td>No engraving on exports, because of lead times</td><td><strong>Include</strong> — your home country only</td></tr><tr><td>Everything except two countries you cannot ship personalized goods to</td><td><strong>Exclude</strong> — those two countries</td></tr><tr><td>Local pickup options for one country</td><td><strong>Include</strong> — that country</td></tr><tr><td>A customs declaration field for international orders only</td><td><strong>Exclude</strong> — your home country</td></tr></tbody></table>
 
 ## How the country is determined
 
@@ -55,7 +55,7 @@ The country is based on the storefront's localization — specifically, the coun
 
 There are two important things to keep in mind:
 
-* **It uses the browsing country, not the shipping address.** The shopper has not reached checkout yet, so there is no shipping address for the app to use.
+* **It uses the browsing country, not the shipping address.** The customer has not reached checkout yet, so there is no shipping address for the app to use.
 * **Changing the country in your theme's country selector changes which option sets are shown.** The change takes effect on the next page load.
 
 {% hint style="info" %}

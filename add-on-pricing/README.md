@@ -22,7 +22,7 @@ Every price field in the app opens the same dialog, which contains these three t
 
 Use this table to choose the right pricing method before you start building.
 
-<table><thead><tr><th width="290"></th><th width="170">Use existing product</th><th width="170">Automatically generate</th><th>Add price</th></tr></thead><tbody><tr><td>Where the price comes from</td><td>The linked variant</td><td>You type it</td><td>You type it</td></tr><tr><td>Creates a product in your catalogue</td><td>No — uses an existing one</td><td><strong>Yes</strong></td><td>No</td></tr><tr><td>Stock can be tracked</td><td><strong>Yes</strong></td><td><strong>Yes</strong></td><td>No</td></tr><tr><td>Works with <strong>Out of stock options</strong></td><td><strong>Yes</strong></td><td><strong>Yes</strong></td><td>No</td></tr><tr><td>Has its own SKU, weight, and tax setting</td><td><strong>Yes</strong></td><td><strong>Yes</strong></td><td>No</td></tr><tr><td>Appears as its own cart line</td><td>Yes</td><td>Yes</td><td>No — folded into the main item's price</td></tr><tr><td>Can be merged visually with the main item</td><td>Yes</td><td>Yes</td><td>Not applicable</td></tr><tr><td>Supported in Shopify POS</td><td><strong>Yes</strong></td><td><strong>Yes</strong></td><td><strong>No</strong></td></tr><tr><td>Effort to set up</td><td>Medium — you need the product</td><td>Low</td><td>Lowest</td></tr><tr><td>Effort to maintain</td><td>Low</td><td>Low</td><td>None</td></tr></tbody></table>
+<table><thead><tr><th width="290"></th><th width="170">Use existing product</th><th width="170">Automatically generate</th><th>Add price</th></tr></thead><tbody><tr><td>Where the price comes from</td><td>The linked variant</td><td>You type it</td><td>You type it</td></tr><tr><td>Creates a product in your catalog</td><td>No — uses an existing one</td><td><strong>Yes</strong></td><td>No</td></tr><tr><td>Stock can be tracked</td><td><strong>Yes</strong></td><td><strong>Yes</strong></td><td>No</td></tr><tr><td>Works with <strong>Out of stock options</strong></td><td><strong>Yes</strong></td><td><strong>Yes</strong></td><td>No</td></tr><tr><td>Has its own SKU, weight, and tax setting</td><td><strong>Yes</strong></td><td><strong>Yes</strong></td><td>No</td></tr><tr><td>Appears as its own cart line</td><td>Yes</td><td>Yes</td><td>No — folded into the main item's price</td></tr><tr><td>Can be merged visually with the main item</td><td>Yes</td><td>Yes</td><td>Not applicable</td></tr><tr><td>Supported in Shopify POS</td><td><strong>Yes</strong></td><td><strong>Yes</strong></td><td><strong>No</strong></td></tr><tr><td>Effort to set up</td><td>Medium — you need the product</td><td>Low</td><td>Lowest</td></tr><tr><td>Effort to maintain</td><td>Low</td><td>Low</td><td>None</td></tr></tbody></table>
 
 ## Which one should I use?
 
@@ -38,8 +38,8 @@ When in doubt, choose **Automatically generate product**. It costs nothing extra
 
 ## The one thing to understand
 
-The price shown on the product page is a **preview**, calculated in the shopper’s browser. The actual charge is applied by Shopify at checkout.
+The price shown on the product page is a **preview**, calculated in the customer’s browser. The actual charge is applied by Shopify at checkout.
 
-This is not a workaround—it’s how Shopify works, and it’s what keeps the pricing secure from tampering. It also explains several things that might otherwise seem confusing: why add-on products appear as separate cart lines, why the displayed total can be configured independently, and why shoppers cannot change the price in their browser.
+This is not a workaround—it’s how Shopify works, and it’s what keeps the pricing secure from tampering. It also explains several things that might otherwise seem confusing: why add-on products appear as separate cart lines, why the displayed total can be configured independently, and why customers cannot change the price in their browser.
 
 See [How pricing is applied](how-pricing-is-applied.md).

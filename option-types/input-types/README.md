@@ -7,7 +7,7 @@ icon: keyboard
 
 # Input types
 
-Input types collect information from the customer. They have no option values, because the customer enters, selects, drags, or uploads a value instead of choosing from a list you define.
+Input types collect information from the customer. They have no option values, because the customer enters, selects, drags, or uploads a value rather than choosing from a list you define.
 
 ## The twelve input types
 
@@ -28,7 +28,7 @@ Most input types share the following settings, which are documented in [Shared s
 <table><thead><tr><th width="290">Capability</th><th>Types that have it</th></tr></thead><tbody><tr><td>Can carry an add-on price</td><td>Text, Textarea, Number, Switch, Color picker, Dimension</td></tr><tr><td><strong>Cannot</strong> carry an add-on price</td><td>Phone, Email, Hidden field, Date and time picker, File upload, Range slider</td></tr><tr><td>Personalizer support</td><td>Text, Textarea, Number, File upload</td></tr><tr><td>Character or value limits</td><td>Text and Textarea (characters); Number and Range slider (values); File upload (file count)</td></tr><tr><td>Prefix and suffix</td><td>Text, Textarea, Number, Phone, Email, Date and time picker; Range slider has its own simpler pair</td></tr><tr><td>Not supported on POS</td><td>Dimension</td></tr></tbody></table>
 
 {% hint style="info" %}
-Some types cannot carry a price, such as a date field used for a delivery fee. Add the charge to a separate [Switch](switch.md) or [Checkbox](../selection-types/checkbox.md), then use [conditional logic](../../conditional-logic/README.md) to display the field when needed.
+Some types cannot have a price, such as a date field used for a delivery fee. Add the charge to a separate [Switch](switch.md) or [Checkbox](../selection-types/checkbox.md), and use [conditional logic](../../conditional-logic/README.md) to display the field when it is needed.
 {% endhint %}
 
 ## Choosing between them

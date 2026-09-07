@@ -5,41 +5,41 @@ icon: cash-register
 
 # Overview
 
-The same option sets you built for your storefront can be used at the counter. A staff member adds a product to the POS cart, opens the app, fills in the options, and the cart is updated with the customer's choices and any add-ons.
+The option sets you built for your storefront can also be used at the counter. A staff member adds a product to the POS cart, opens the app, completes the options, and the cart is updated with the customer's choices and any add-ons.
 
 ## What it is for
 
-* Taking a personalised order in a shop or at a market
+* Taking a personalized order in a shop or at a market
 * Adding a paid extra to an in-person sale
 * Recording production details for something made to order
 * Keeping in-person and online orders consistent, using one set of options
 
-## Before you rely on it
+## Before you use it
 
-Three things to check, in order.
+Check these three things first.
 
 {% stepper %}
 {% step %}
 ### Your plan includes POS
 
-Point of Sale is plan-gated. See [Compare plans](../plans/compare-plans.md).
+Point of Sale may not be available on all plans. See [Compare plans](../plans/compare-plans.md).
 {% endstep %}
 
 {% step %}
 ### The option set is published to Point of Sale
 
-Each option set has its own **Sales channels** setting. Tick **Point of Sale**. See [Activate and publish](../option-sets/create-an-option-set.md#publish-the-option-set).
+Each option set has its own **Sales channels** setting. Select **Point of Sale**. See [Activate and publish](../option-sets/create-an-option-set.md#publish-the-option-set).
 {% endstep %}
 
 {% step %}
 ### Your options are POS-compatible
 
-Two option types and one add-on mode do not work in POS. **This is the part that catches people out** — read [POS limitations](limitations.md) before building a POS workflow.
+Two option types and one add-on mode do not work in POS. Read [POS limitations](limitations.md) before you build anything for POS.
 {% endstep %}
 {% endstepper %}
 
 {% hint style="warning" %}
-The short version of the limitations: [Dimension](../option-types/input-types/dimension.md) and [Product links](../option-types/selection-types/product-links.md) do not work in POS, and the [Add price](../add-on-pricing/add-price-directly.md) add-on mode is not supported there. Use a product-backed add-on mode instead.
+[Dimension](../option-types/input-types/dimension.md) and [Product links](../option-types/selection-types/product-links.md) do not work in POS, and the [Add price](../add-on-pricing/add-price-directly.md) add-on mode is not supported there. Use a product-backed add-on mode instead.
 {% endhint %}
 
 ## Pages in this section

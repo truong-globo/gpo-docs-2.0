@@ -65,7 +65,7 @@ Values without a price are free.
 
 See [Add-on pricing](../add-on-pricing/) for an in-depth guide to all three modes, and [Advanced add-on modes](../add-on-pricing/advanced-add-on-modes.md) for how charges can scale with quantity.
 
-## Colours and images on a value
+## Colors and images on a value
 
 Swatch-style options can have a **Color** or **Image** column, depending on the option’s **Swatch style** setting:
 

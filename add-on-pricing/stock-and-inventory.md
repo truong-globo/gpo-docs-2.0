@@ -77,7 +77,7 @@ This has three consequences:
 
 Add-ons are real products, so they also have the other properties of a product. Set the following:
 
-<table><thead><tr><th width="230">Property</th><th>Why it matters</th></tr></thead><tbody><tr><td>Weight</td><td>Shipping rates calculated by weight will be wrong if your add-ons weigh nothing</td></tr><tr><td>SKU</td><td>Your fulfilment and stock systems need something to match on</td></tr><tr><td>Tax setting</td><td>Some add-ons are taxed differently from the product they attach to</td></tr><tr><td>Cost per item</td><td>Lets you see the real margin on personalized orders</td></tr></tbody></table>
+<table><thead><tr><th width="230">Property</th><th>Why it matters</th></tr></thead><tbody><tr><td>Weight</td><td>Shipping rates calculated by weight will be wrong if your add-ons weigh nothing</td></tr><tr><td>SKU</td><td>Your fulfillment and stock systems need something to match on</td></tr><tr><td>Tax setting</td><td>Some add-ons are taxed differently from the product they attach to</td></tr><tr><td>Cost per item</td><td>Lets you see the real margin on personalized orders</td></tr></tbody></table>
 
 All of these are set on the products in Shopify admin, not in the app.
 

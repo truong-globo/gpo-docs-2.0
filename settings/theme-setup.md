@@ -5,7 +5,7 @@ icon: brush
 
 # Theme setup
 
-**Settings** > **Theme Setup**. One job: making sure the app is switched on in the right theme.
+**Settings** > **Theme Setup** is where you confirm that the app is turned on in the right theme.
 
 ## What is on the page
 
@@ -17,47 +17,47 @@ icon: brush
 
 ## The app embed
 
-The app embed is what lets the app run on your storefront. Nothing you build appears to shoppers until it is on.
+The app embed is what lets the app run on your storefront. Nothing you build is displayed to customers until it is on.
 
-It is **per theme**, which is the important part: enabling it on one theme does nothing for the others. Publish a new theme — including a duplicate of the same theme — and you must enable it again there.
+The app embed is **per theme**. Enabling it on one theme does not affect the others, so when you publish a new theme, including a duplicate of the same theme, you have to enable it again.
 
-Full instructions, including two other ways to do it: [Enable the app embed](../getting-started/enable-the-app-embed.md).
+For full instructions, including two other ways to do this, see [Enable the app embed](../getting-started/enable-the-app-embed.md).
 
 ## Checking a theme before you publish it
 
-The theme selector's real value is checking a theme you are **about to** publish.
+Use the theme selector to check a theme you are **about to** publish.
 
 {% stepper %}
 {% step %}
 ### Select the draft theme
 
-From the theme selector.
+Select it from the theme selector.
 {% endstep %}
 
 {% step %}
 ### Read the badge
 
-If it says **Deactivated**, your options will disappear the moment you publish that theme.
+If the badge says **Deactivated**, your options disappear as soon as you publish that theme.
 {% endstep %}
 
 {% step %}
 ### Enable it now
 
-**Go to Theme Editor**, turn the app embed on, save.
+Select **Go to Theme Editor**, turn the app embed on, and save.
 {% endstep %}
 
 {% step %}
 ### Preview the draft theme
 
-Check a product page on it before publishing.
+Check a product page on the draft theme before you publish it.
 {% endstep %}
 {% endstepper %}
 
-Doing this before a theme launch avoids the most alarming version of this problem: options vanishing from a live store immediately after a redesign.
+Doing this before a theme launch prevents options from disappearing from your live store immediately after a redesign.
 
 ## Notes
 
 * Enabling the embed does not edit theme files. Shopify stores it with the theme.
-* Turning it off is a clean way to switch the app off storefront-wide without uninstalling.
-* The badge updates by itself when you come back from the theme editor — the app re-checks when the tab becomes visible again.
-* The **Dashboard** shows the same status, plus a count of any [app blocks](../getting-started/add-the-app-block.md) you have placed.
+* Turning it off is a way to disable the app across your storefront without uninstalling it.
+* The badge updates automatically when you return from the theme editor, because the app checks again when the tab becomes visible.
+* The **Dashboard** displays the same status, along with a count of any [app blocks](../getting-started/add-the-app-block.md) you have placed.

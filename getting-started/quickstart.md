@@ -25,7 +25,7 @@ Everything you do in this guide is reversible.
 
 Go to **Option Sets** > **Create option set** > **Create from scratch**.
 
-Replace the default name in the builder header with a name you’ll recognise — `Engraving`, for example. This name is for internal use only; customers won’t see it.
+Replace the default name in the builder header with a name you’ll recognize — `Engraving`, for example. This name is for internal use only; customers won’t see it.
 
 The builder opens on **Build option**, with one empty **Section** already in place. A section is simply a container for your options — add your first option inside it.
 
@@ -43,7 +43,7 @@ Click the **Add option** button and select **Text** (it's the simplest of the 32
 
 On **Basic Settings**, two fields matter:
 
-* **Label** — what shoppers read above the box. Set it to `Engraving text`.
+* **Label** — what customers read above the box. Set it to `Engraving text`.
 * **Name** — what appears on the cart, at checkout, and on the order. Set it to `Engraving text` too.
 
 The preview on the right updates as you type.
@@ -74,7 +74,7 @@ An option set will not save without **at least one option** and **a product rule
 
 Select **Save**, then set the status beside the option set name to **Active** and tick **Online Store** under **Sales channels**.
 
-<figure><img src="../.gitbook/assets/2026-08-27_13-28-39.png" alt="The status menu in the builder with Active selected and Online Store ticked"><figcaption><p>An option set must be Active and published to Online Store to reach shoppers.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-08-27_13-28-39.png" alt="The status menu in the builder with Active selected and Online Store ticked"><figcaption><p>An option set must be Active and published to Online Store to reach customers.</p></figcaption></figure>
 {% endstep %}
 
 {% step %}

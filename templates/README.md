@@ -5,21 +5,21 @@ icon: layer-group
 
 # Overview
 
-A template is a saved option set you can copy. It saves rebuilding the same structure for every new product family, and it is the fastest way to see how a working setup is put together.
+A template is a saved option set you can copy. Use it to avoid rebuilding the same structure for every product family, and to see how a complete setup is configured.
 
-**Templates** in the app menu has three tabs.
+**Templates** in the app menu contains three tabs.
 
 <table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Pre-designed Templates</strong></td><td>Start from one of twenty ready-made option sets for common product types.</td><td><a href="pre-designed-templates.md">pre-designed-templates.md</a></td></tr><tr><td><strong>Personalized Templates</strong></td><td>Start from a setup that already has the live preview configured.</td><td><a href="personalized-templates.md">personalized-templates.md</a></td></tr><tr><td><strong>Custom Templates</strong></td><td>Templates you create, or save from an existing option set.</td><td><a href="custom-templates.md">custom-templates.md</a></td></tr></tbody></table>
 
 <!-- SCREENSHOT: tpl-tabs | App admin → Templates | 3 tab với badge số lượng, grid template có ảnh xem trước | Khoanh hàng 3 tab -->
 
-<figure><img src="../.gitbook/assets/placeholder.png" alt="The Templates page with its three tabs and template cards"><figcaption><p>Three tabs: ours without personalisation, ours with it, and yours.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/placeholder.png" alt="The Templates page with its three tabs and template cards"><figcaption><p>Three tabs: ours without personalization, ours with it, and yours.</p></figcaption></figure>
 
 ## Template or option set?
 
-<table><thead><tr><th width="230"></th><th width="290">Option set</th><th>Template</th></tr></thead><tbody><tr><td>Appears on your storefront</td><td>Yes, when active and assigned</td><td>No, ever</td></tr><tr><td>Has product, customer, and country rules</td><td>Yes</td><td>No</td></tr><tr><td>Purpose</td><td>The live form shoppers use</td><td>A starting point to copy</td></tr><tr><td>Where it lives</td><td><strong>Option Sets</strong></td><td><strong>Templates</strong></td></tr></tbody></table>
+<table><thead><tr><th width="230"></th><th width="290">Option set</th><th>Template</th></tr></thead><tbody><tr><td>Appears on your storefront</td><td>Yes, when active and assigned</td><td>No, ever</td></tr><tr><td>Has product, customer, and country rules</td><td>Yes</td><td>No</td></tr><tr><td>Purpose</td><td>The live form customers use</td><td>A starting point to copy</td></tr><tr><td>Where it lives</td><td><strong>Option Sets</strong></td><td><strong>Templates</strong></td></tr></tbody></table>
 
-A template is inert. Using one creates a new option set, which is what actually goes live.
+A template is never displayed on your storefront. Using one creates a new option set, and that option set goes live.
 
 ## When to use a template
 
@@ -27,15 +27,15 @@ A template is inert. Using one creates a new option set, which is what actually 
 
 ## Inserting a template into an existing option set
 
-You do not have to start from a template. While building, the add picker has an **Option Templates** tab and an **Add template** action, which inserts a saved group of options into the option set you are working on.
+You do not have to start from a template. While building, the add picker has an **Option Templates** tab and an **Add template** action, which inserts a saved group of options into the current option set.
 
-Names that clash with existing options are renumbered automatically, and any conditional logic inside the template is repointed so it keeps working.
+Names that match existing options are renumbered automatically, and conditional logic inside the template is updated so it continues to work.
 
 See [Build your options](../option-sets/build-options.md).
 
 ## Notes
 
-* Templates are plan-gated. See [Compare plans](../plans/compare-plans.md).
-* Using a template never modifies the template. You can use the same one as often as you like.
-* A new option set created from a template arrives as **Draft** with no product rule, so nothing reaches your storefront until you set that up.
+* Templates may not be available on all plans. See [Compare plans](../plans/compare-plans.md).
+* Using a template does not modify it. You can use the same template as often as you need.
+* A new option set created from a template is **Draft** and has no product rule, so it is not displayed on your storefront until you set both.
 * Custom templates can be imported and exported, separately from option sets.

@@ -33,7 +33,7 @@ The section expands to show a product table and a **Select products** button.
 {% step %}
 ### Select products
 
-Click **Select products** to open Shopify's product picker. Search your catalogue and select multiple products at once.
+Click **Select products** to open Shopify's product picker. Search your catalog and select multiple products at once.
 
 You can also select individual variants.
 {% endstep %}
@@ -51,7 +51,7 @@ To remove a product, click the Remove action on its row. To clear the entire lis
 A manual rule with no products selected is incomplete. The builder displays **“Please select product to apply this option set.”** and prevents you from clicking **Save**.
 {% endhint %}
 
-Manual selection has one important limitation: it does not automatically update as your catalogue changes. If you add a new engravable bracelet next month, you'll need to come back and add it manually. If you expect to add products regularly, an automatic rule is a better choice.
+Manual selection has one important limitation: it does not automatically update as your catalog changes. If you add a new engravable bracelet next month, you'll need to come back and add it manually. If you expect to add products regularly, an automatic rule is a better choice.
 
 <figure><img src="../.gitbook/assets/2026-08-28_14-02-56.png" alt="The manual selection product table with selected products and the select and deselect controls"><figcaption><p>Manually selected products are listed with their Shopify status.</p></figcaption></figure>
 
@@ -115,7 +115,7 @@ This preview is not available when any condition uses **Collection**. To verify 
 
 <summary>Worked examples of automatic rules</summary>
 
-<table><thead><tr><th width="300">You want</th><th>Set up</th></tr></thead><tbody><tr><td>Every product tagged <code>engravable</code></td><td>Product tag — is equal to — <code>engravable</code></td></tr><tr><td>Everything in the Wedding collection</td><td>Collection — is equal to — pick <em>Wedding</em></td></tr><tr><td>All t-shirts from one brand</td><td><strong>all conditions</strong>; Product type — is equal to — <code>T-Shirt</code>; Product vendor — is equal to — the brand name</td></tr><tr><td>Anything over $100, for insurance options</td><td>Product price — is greater than — <code>100</code></td></tr><tr><td>Anything tagged <code>custom</code> or <code>bespoke</code></td><td><strong>any condition</strong>; Product tag — is equal to — <code>custom</code>; Product tag — is equal to — <code>bespoke</code></td></tr><tr><td>Personalised products, except sale items</td><td><strong>all conditions</strong>; Product tag — is equal to — <code>personalised</code>; Product tag — is not equal to — <code>sale</code></td></tr><tr><td>Everything whose title mentions "Gift"</td><td>Product title — contains — <code>Gift</code></td></tr></tbody></table>
+<table><thead><tr><th width="300">You want</th><th>Set up</th></tr></thead><tbody><tr><td>Every product tagged <code>engravable</code></td><td>Product tag — is equal to — <code>engravable</code></td></tr><tr><td>Everything in the Wedding collection</td><td>Collection — is equal to — pick <em>Wedding</em></td></tr><tr><td>All t-shirts from one brand</td><td><strong>all conditions</strong>; Product type — is equal to — <code>T-Shirt</code>; Product vendor — is equal to — the brand name</td></tr><tr><td>Anything over $100, for insurance options</td><td>Product price — is greater than — <code>100</code></td></tr><tr><td>Anything tagged <code>custom</code> or <code>bespoke</code></td><td><strong>any condition</strong>; Product tag — is equal to — <code>custom</code>; Product tag — is equal to — <code>bespoke</code></td></tr><tr><td>Personalized products, except sale items</td><td><strong>all conditions</strong>; Product tag — is equal to — <code>personalized</code>; Product tag — is not equal to — <code>sale</code></td></tr><tr><td>Everything whose title mentions "Gift"</td><td>Product title — contains — <code>Gift</code></td></tr></tbody></table>
 
 </details>
 

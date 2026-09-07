@@ -5,7 +5,7 @@ icon: bookmark
 
 # Custom templates
 
-A custom template is a template you own. Once you have built a setup that works, saving it means the next product family starts from your version rather than from an empty option set.
+A custom template is a template you create. After you build a setup that works, save it so your next product family starts from that setup rather than from an empty option set.
 
 ## Two ways to create one
 
@@ -17,7 +17,7 @@ A custom template is a template you own. Once you have built a setup that works,
 {% step %}
 ### Select the option sets
 
-On the **Option Sets** list, tick one or more rows. You can also do this from inside the builder, from its more-actions menu.
+On the **Option Sets** list, select one or more rows. You can also do this from the builder's more-actions menu.
 {% endstep %}
 
 {% step %}
@@ -37,7 +37,7 @@ From the bulk action menu on the list, or the builder's more-actions menu.
 
 **Templates** > **Create template**. The builder opens in template mode.
 
-Template mode differs from an option set in one important way: there is no **Setup flow** and no product, customer, or country rules. A template has no targeting, because it never goes live — it only has options. The left rail shows **Elements** instead.
+Template mode differs from an option set in one way: there is no **Setup flow**, and no product, customer, or country rules. A template has no targeting, because it is never displayed on your storefront. It only has options. The left rail shows **Elements** instead.
 
 <!-- SCREENSHOT: tpl-custom-list | App admin → Templates → tab Custom Templates | Bảng danh sách template với cột ID, Name, Option elements, Date created, Actions | Không khoanh -->
 
@@ -45,37 +45,37 @@ Template mode differs from an option set in one important way: there is no **Set
 
 ## Using a custom template
 
-Two ways, and they do different things.
+There are two methods, and they produce different results.
 
 <table><thead><tr><th width="290">Route</th><th>Result</th></tr></thead><tbody><tr><td><strong>Use template</strong> from the Templates page</td><td>Creates a whole new option set from it</td></tr><tr><td><strong>Add template</strong> in the builder's add picker</td><td>Inserts its options into the option set you are already building</td></tr></tbody></table>
 
-The second is the more useful of the two once you have a library. A standard "gift options" template inserted into five different option sets keeps five product families consistent, and you only wrote it once.
+The second method is more useful once you have several templates. Inserting a standard "gift options" template into five option sets keeps those product families consistent, and you only build it once.
 
-When inserting, names that clash with existing options are renumbered automatically, and conditional logic inside the template is repointed so it keeps working. Check the names afterwards and give them readable values.
+When you insert a template, names that match existing options are renumbered automatically, and conditional logic inside the template is updated so it continues to work. Check the names afterwards and set readable values.
 
 ## Managing them
 
-The **Custom Templates** tab is a list like the option sets list.
+The **Custom Templates** tab lists your templates, in the same format as the option sets list.
 
 <table><thead><tr><th width="230">Action</th><th>What it does</th></tr></thead><tbody><tr><td>Search and sort</td><td>By name, or by date created</td></tr><tr><td>Open</td><td>Edit the template's options</td></tr><tr><td><strong>Duplicate templates</strong></td><td>Copy one or more</td></tr><tr><td><strong>Delete templates</strong></td><td>Permanently remove them. Confirmed first</td></tr><tr><td>Import and export</td><td>Move templates between stores</td></tr></tbody></table>
 
-Each row shows which option types the template contains, which is quicker than opening it to remember what is inside.
+Each row lists the option types the template contains, so you do not have to open it.
 
 {% hint style="info" %}
-Deleting a template does **not** affect option sets created from it. Once used, the option set is independent — it does not stay linked to the template.
+Deleting a template does **not** affect option sets created from it. An option set created from a template is independent and is not linked to it.
 {% endhint %}
 
-## A library worth building
+## A useful set of templates
 
-Three templates cover most of what a personalisation shop repeats:
+Three templates cover most of what a personalization store reuses:
 
 <table><thead><tr><th width="290">Template</th><th>Contains</th></tr></thead><tbody><tr><td><code>Gift options</code></td><td>A gift-wrap switch, a gift message textarea with a conditional rule, and a recipient email</td></tr><tr><td><code>Engraving block</code></td><td>An engraving text field with your limits and input rules, a font picker with your fonts, and a position choice</td></tr><tr><td><code>Delivery preferences</code></td><td>A date picker with your lead time and blocked days, plus a delivery notes field</td></tr></tbody></table>
 
-Insert whichever you need into each new option set. Your wording, limits, and fonts stay consistent across the store without anybody having to remember them.
+Insert the template you need into each new option set. Your wording, limits, and fonts then stay consistent across the store.
 
 ## Notes
 
-* Custom templates are plan-gated. See [Compare plans](../plans/compare-plans.md).
+* Custom templates may not be available on all plans. See [Compare plans](../plans/compare-plans.md).
 * A template has no product, customer, or country rules — only options.
-* Add-on products referenced by a template's options behave as they do anywhere else: an existing-product link points at the same product, and a generated product is shared. See [Add-on pricing](../add-on-pricing/README.md).
-* Templates import and export separately from option sets. See [Import and export](../option-sets/import-and-export.md) for the option set equivalent.
+* Add-on products used by a template's options work in the same way as elsewhere. An existing-product link points at the same product, and a generated product is shared. See [Add-on pricing](../add-on-pricing/README.md).
+* Templates are imported and exported separately from option sets. See [Import and export](../option-sets/import-and-export.md).

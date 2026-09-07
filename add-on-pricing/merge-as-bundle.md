@@ -25,7 +25,7 @@ The setting changes the display only. The add-on products are still real product
 
 ## Which to choose
 
-<table><thead><tr><th width="290">Leave it off when</th><th>Turn it on when</th></tr></thead><tbody><tr><td>Customers benefit from seeing exactly what they are paying for</td><td>The cart looks cluttered with add-on lines</td></tr><tr><td>Add-ons are substantial items in their own right</td><td>Add-ons are small components of one customised thing</td></tr><tr><td>You want each add-on's price visible in the cart</td><td>You want the cart to read as "one personalized product, one price"</td></tr><tr><td>You are troubleshooting a pricing problem</td><td>Your products are heavily configured, with many add-ons per item</td></tr></tbody></table>
+<table><thead><tr><th width="290">Leave it off when</th><th>Turn it on when</th></tr></thead><tbody><tr><td>Customers benefit from seeing exactly what they are paying for</td><td>The cart looks cluttered with add-on lines</td></tr><tr><td>Add-ons are substantial items in their own right</td><td>Add-ons are small components of one customized thing</td></tr><tr><td>You want each add-on's price visible in the cart</td><td>You want the cart to read as "one personalized product, one price"</td></tr><tr><td>You are troubleshooting a pricing problem</td><td>Your products are heavily configured, with many add-ons per item</td></tr></tbody></table>
 
 For a made-to-order product with six components, merging matches how the customer views the purchase. For a bracelet with a separately sold gift box, separate lines are clearer.
 
@@ -33,7 +33,7 @@ For a made-to-order product with six components, merging matches how the custome
 
 Two other settings affect how add-ons appear in the cart. Both are under **Settings** > **Settings** > **General** > **Cart page**.
 
-<table><thead><tr><th width="330">Setting</th><th>What it does</th></tr></thead><tbody><tr><td><strong>Hide quantity box and remove button for add-on products</strong></td><td>Stops customers changing or deleting an add-on line independently of the item it belongs to. On by default, and worth leaving on — a customer who removes the gift box but keeps the "gift wrapped" option creates an order you cannot fulfil as described.</td></tr><tr><td><strong>Show "Edit Options" button in cart</strong></td><td>Lets customers reopen the option form from the cart and change their choices. See <a href="../storefront/cart-page.md">Cart page</a>.</td></tr></tbody></table>
+<table><thead><tr><th width="330">Setting</th><th>What it does</th></tr></thead><tbody><tr><td><strong>Hide quantity box and remove button for add-on products</strong></td><td>Stops customers changing or deleting an add-on line independently of the item it belongs to. On by default, and worth leaving on — a customer who removes the gift box but keeps the "gift wrapped" option creates an order you cannot fulfill as described.</td></tr><tr><td><strong>Show "Edit Options" button in cart</strong></td><td>Lets customers reopen the option form from the cart and change their choices. See <a href="../storefront/cart-page.md">Cart page</a>.</td></tr></tbody></table>
 
 ## Notes
 

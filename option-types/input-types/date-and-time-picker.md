@@ -15,7 +15,7 @@ Use it for delivery dates, event dates, appointment slots, and subscription star
 
 A field that opens a calendar, a clock, or both. Dates you have blocked cannot be selected.
 
-<figure><img src="../../.gitbook/assets/2026-09-03_10-12-39.png" alt="A date picker open on a storefront product page with weekend dates unavailable"><figcaption><p>Blocked dates are visibly unselectable, so shoppers cannot choose a day you cannot deliver.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2026-09-03_10-12-39.png" alt="A date picker open on a storefront product page with weekend dates unavailable"><figcaption><p>Blocked dates are visibly unselectable, so customers cannot choose a day you cannot deliver.</p></figcaption></figure>
 
 ## Basic Settings
 
@@ -27,7 +27,7 @@ There is no default value and no add-on price on this type.
 
 ### Format and mode
 
-<table><thead><tr><th width="200">Setting</th><th width="230">Choices</th><th>Notes</th></tr></thead><tbody><tr><td><strong>Format</strong></td><td><strong>Date</strong>, <strong>Time</strong>, <strong>Date &#x26; time</strong></td><td>Default <strong>Date</strong>. Decides what the picker offers, and which settings below apply.</td></tr><tr><td><strong>Mode</strong></td><td><strong>Single</strong>, <strong>Range</strong></td><td>Default <strong>Single</strong>. <strong>Range</strong> lets the shopper pick a start and end date — for hire periods or holiday cover. Only for <strong>Date</strong> and <strong>Date &#x26; time</strong>.</td></tr><tr><td><strong>Date format</strong></td><td><code>Y-m-d</code>, <code>d-m-Y</code>, <code>m-d-Y</code>, <code>Y.m.d</code>, <code>d.m.Y</code>, <code>m.d.Y</code>, <code>Y/m/d</code>, <code>d/m/Y</code>, <code>m/d/Y</code></td><td>Default <code>Y-m-d</code>. Choose the order your customers read dates in — <code>d/m/Y</code> in most of Europe, <code>m/d/Y</code> in the United States.</td></tr><tr><td><strong>Time format</strong></td><td><strong>12h</strong>, <strong>24h</strong></td><td>Default <strong>12h</strong>. Only for <strong>Time</strong> and <strong>Date &#x26; time</strong>.</td></tr></tbody></table>
+<table><thead><tr><th width="200">Setting</th><th width="230">Choices</th><th>Notes</th></tr></thead><tbody><tr><td><strong>Format</strong></td><td><strong>Date</strong>, <strong>Time</strong>, <strong>Date &#x26; time</strong></td><td>Default <strong>Date</strong>. Decides what the picker offers, and which settings below apply.</td></tr><tr><td><strong>Mode</strong></td><td><strong>Single</strong>, <strong>Range</strong></td><td>Default <strong>Single</strong>. <strong>Range</strong> lets the customer pick a start and end date — for hire periods or holiday cover. Only for <strong>Date</strong> and <strong>Date &#x26; time</strong>.</td></tr><tr><td><strong>Date format</strong></td><td><code>Y-m-d</code>, <code>d-m-Y</code>, <code>m-d-Y</code>, <code>Y.m.d</code>, <code>d.m.Y</code>, <code>m.d.Y</code>, <code>Y/m/d</code>, <code>d/m/Y</code>, <code>m/d/Y</code></td><td>Default <code>Y-m-d</code>. Choose the order your customers read dates in — <code>d/m/Y</code> in most of Europe, <code>m/d/Y</code> in the United States.</td></tr><tr><td><strong>Time format</strong></td><td><strong>12h</strong>, <strong>24h</strong></td><td>Default <strong>12h</strong>. Only for <strong>Time</strong> and <strong>Date &#x26; time</strong>.</td></tr></tbody></table>
 
 {% hint style="warning" %}
 Select a **Date format** that matches your market, and repeat the format in the **Placeholder**. For example, `03/04` can be read as 3 April or as 4 March, depending on the customer.
@@ -57,7 +57,7 @@ These two settings appear when **Disable past dates** is on. Use them to require
 
 ### Time zone
 
-<table><thead><tr><th width="290">Setting</th><th>What it does</th></tr></thead><tbody><tr><td><strong>Custom time zone</strong></td><td>Turns on an explicit time zone rather than relying on the shopper's device.</td></tr><tr><td><strong>Select time zone</strong></td><td>From GMT-12:00 to GMT+14:00.</td></tr></tbody></table>
+<table><thead><tr><th width="290">Setting</th><th>What it does</th></tr></thead><tbody><tr><td><strong>Custom time zone</strong></td><td>Turns on an explicit time zone rather than relying on the customer's device.</td></tr><tr><td><strong>Select time zone</strong></td><td>From GMT-12:00 to GMT+14:00.</td></tr></tbody></table>
 
 Enable this setting when your cut-off time needs to be enforced consistently. Without it, the current date and time are based on the customer’s device, so a customer in another time zone could still select a date that has already passed your cut-off.
 

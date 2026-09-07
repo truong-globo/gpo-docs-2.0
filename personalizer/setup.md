@@ -21,7 +21,7 @@ Set the background first, then complete the following steps:
 
 1. **Set the background.** See [Choosing the background](setup.md#choosing-the-background) below.
 2. **Build the options.** Set labels, limits, prices, and conditional logic. See [Build your options](../option-sets/build-options.md).
-3. **Turn the Personalizer on for each option.** See [Turning it on for an option](setup.md#turning-it-on-for-an-option) below.
+3. **Turn the Personalizer on for each option.** See [Turning it on as an option](setup.md#turning-it-on-as-an-option) below.
 4. **Style and position each layer.** See [Layer settings](layer-settings/).
 5. **Select what the customer can adjust.** See [Customer controls](layer-settings/customer-controls.md). Add a [clip area](layer-settings/clip-area.md) if you allow any adjustment.
 6. **Test on a real product page** using **View in Store**. Enter realistic content, such as a full name rather than `test`, and check the result on a phone.
@@ -76,7 +76,7 @@ If your products are photographed at an angle, use a flat **Custom image** mock-
 
 Open the option and go to the **Personalizer Settings** tab, beside **Basic Settings** and **Advanced Settings**. Turn on **Enable personalize**. No other settings are displayed until you do.
 
-The tab is available on the [twelve supported option types](./#the-twelve-supported-option-types) only. If the tab is missing, the option type does not support the Personalizer. If it is greyed out, the Personalizer is not included in your plan.
+The tab is available on the [twelve supported option types](./#the-twelve-supported-option-types) only. If the tab is missing, the option type does not support the Personalizer. If it is grayed out, the Personalizer is not included in your plan.
 
 <figure><img src="../.gitbook/assets/2026-09-04_15-39-06.png" alt="The Personalizer Settings tab with Enable personalize turned on and its settings revealed"><figcaption><p>Nothing on the tab appears until the switch is on.</p></figcaption></figure>
 

@@ -5,7 +5,7 @@ icon: shapes
 
 # Pre-designed templates
 
-Twenty option sets built for particular kinds of product. They cover the option structure — the fields, the values, the layout — without the live preview.
+Twenty option sets built for common product types. They include the fields, values, and layout, but not the live preview.
 
 For setups that include the live preview, see [Personalized templates](personalized-templates.md).
 
@@ -19,36 +19,36 @@ For setups that include the live preview, see [Personalized templates](personali
 {% step %}
 ### Look at the demo
 
-Each template offers a demo so you can see the finished form on a storefront before committing.
+Each template includes a demo, so you can see the finished form on a storefront before you use it.
 {% endstep %}
 
 {% step %}
 ### Select Use template
 
-A new option set is created from it and the builder opens.
+A new option set is created from the template, and the builder opens.
 {% endstep %}
 
 {% step %}
 ### Rename it
 
-Name it after your products, not after the template.
+Name the option set after your products, not after the template.
 {% endstep %}
 
 {% step %}
 ### Go through every option
 
-Templates carry example values. Check and change:
+Templates contain example values. Check and update the following:
 
-* **Label** and **Name** on each option — especially Name, which appears on your orders
+* **Label** and **Name** on each option. The Name appears on your orders.
 * Option values, so they match what you actually offer
 * Character limits and min and max values
-* Prices, which are examples or absent
+* Prices, which are either examples or not set
 {% endstep %}
 
 {% step %}
 ### Assign it to your products
 
-On **Assign products**. A template arrives with no rule. See [Assign to products](../option-sets/assign-to-products.md).
+Set a rule on **Assign products**. A template has no rule. See [Assign to products](../option-sets/assign-to-products.md).
 {% endstep %}
 
 {% step %}
@@ -60,9 +60,9 @@ Set the status to **Active**, confirm **Online Store** is ticked, then use **Vie
 
 ## Choosing one to start from
 
-Pick by the **shape of the form** rather than by the product name. If you sell engraved hip flasks, the closest template is not the one named after a flask — it is whichever has a short engraving field with a font choice, probably Keychain or Pendant.
+Select a template by the **structure of the form** rather than by the product name. For example, if you sell engraved hip flasks, the closest template is not the one named after a flask. It is the one with a short engraving field and a font choice, probably Keychain or Pendant.
 
-<table><thead><tr><th width="290">Your form needs</th><th>Start from</th></tr></thead><tbody><tr><td>A short engraving plus a font</td><td>Keychain, Pendant, Bracelet</td></tr><tr><td>A name and a number</td><td>Jersey</td></tr><tr><td>Pick-and-mix contents from a list</td><td>Cupcake Variety Box, Candy Box, Chocolate Box</td></tr><tr><td>Build-your-own from components</td><td>Burger, Composition Set</td></tr><tr><td>Size and colour with swatches</td><td>Glasses, No Pull Dog Harness</td></tr><tr><td>An uploaded image on a product</td><td>Phone Case, Framed Poster</td></tr><tr><td>Gift wrapping and a message</td><td>Gift Box</td></tr></tbody></table>
+<table><thead><tr><th width="290">Your form needs</th><th>Start from</th></tr></thead><tbody><tr><td>A short engraving plus a font</td><td>Keychain, Pendant, Bracelet</td></tr><tr><td>A name and a number</td><td>Jersey</td></tr><tr><td>Pick-and-mix contents from a list</td><td>Cupcake Variety Box, Candy Box, Chocolate Box</td></tr><tr><td>Build-your-own from components</td><td>Burger, Composition Set</td></tr><tr><td>Size and color with swatches</td><td>Glasses, No Pull Dog Harness</td></tr><tr><td>An uploaded image on a product</td><td>Phone Case, Framed Poster</td></tr><tr><td>Gift wrapping and a message</td><td>Gift Box</td></tr></tbody></table>
 
 ## What to check before going live
 
@@ -71,6 +71,6 @@ Pick by the **shape of the form** rather than by the product name. If you sell e
 ## Notes
 
 * Using a template does not modify it.
-* Templates are plan-gated.
-* Once you have adapted one, save your version as a [custom template](custom-templates.md) so the next product starts from yours rather than ours.
-* A template's options can also be inserted into an option set you are already building, via **Add template** in the builder.
+* Templates may not be available on all plans.
+* After adapting a template, save your version as a [custom template](custom-templates.md), so your next product starts from it.
+* A template's options can also be inserted into an existing option set, using **Add template** in the builder.

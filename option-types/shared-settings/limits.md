@@ -1,7 +1,7 @@
 ---
 description: >-
   Min and max characters, values, selections, and files — plus the character
-  counter that shows shoppers where they stand.
+  counter that shows customers where they stand.
 icon: ruler-horizontal
 ---
 
@@ -12,7 +12,7 @@ There are four pairs of min/max settings, each used by a different group of opti
 <table><thead><tr><th width="290">Setting pair</th><th>Measures</th><th>On</th></tr></thead><tbody><tr><td><a href="limits.md#min-and-max-character">Min character</a> / <a href="limits.md#min-and-max-character">Max character</a></td><td>How much text was typed</td><td>Text, Textarea</td></tr><tr><td><a href="limits.md#min-and-max-value">Min value</a> / <a href="limits.md#min-and-max-value">Max value</a></td><td>The number entered or chosen</td><td>Number, Range slider</td></tr><tr><td><a href="limits.md#min-and-max-selections">Min selections</a> / <a href="limits.md#min-and-max-selections">Max selections</a></td><td>How many choices were made</td><td>Checkbox, and any multi-select selection type</td></tr><tr><td><a href="limits.md#min-and-max-number-of-files">Min number of files</a> / <a href="limits.md#min-and-max-number-of-files">Max number of files</a></td><td>How many files were attached</td><td>File upload</td></tr></tbody></table>
 
 {% hint style="info" %}
-All limit settings are restricted by plan in some way. If a limit field is greyed out, see [Compare plans](../../plans/compare-plans.md).
+All limit settings are restricted by plan in some way. If a limit field is grayed out, see [Compare plans](../../plans/compare-plans.md).
 {% endhint %}
 
 ## Min and max character
@@ -24,7 +24,7 @@ All limit settings are restricted by plan in some way. If a limit field is greye
 * Counts all characters, including spaces and punctuation.
 * Leaving **Min character** empty means any length is allowed, including a single character.
 * Leaving **Max character** empty means there is no upper limit.
-* Validation runs when the shopper selects **Add to cart**, not while they are typing. Add a [Character counter](limits.md#character-counter) if you want live feedback.
+* Validation runs when the customer selects **Add to cart**, not while they are typing. Add a [Character counter](limits.md#character-counter) if you want live feedback.
 * Setting **Max character** below **Min character** is rejected while editing, with the message `The value must be greater than min.`
 
 **Typical uses**
@@ -32,20 +32,20 @@ All limit settings are restricted by plan in some way. If a limit field is greye
 <table><thead><tr><th width="270">Situation</th><th>Min</th><th>Max</th></tr></thead><tbody><tr><td>Engraving on a ring band</td><td>—</td><td><code>15</code></td></tr><tr><td>Two initials for a monogram</td><td><code>2</code></td><td><code>3</code></td></tr><tr><td>Gift message on a card</td><td>—</td><td><code>200</code></td></tr><tr><td>Special instructions, guarding against nonsense</td><td><code>10</code></td><td><code>500</code></td></tr></tbody></table>
 
 {% hint style="warning" %}
-Set the maximum to what physically fits, rather than choosing a convenient round number. A 20-character limit on a pendant that only fits 12 characters simply moves the problem to your workshop. Repeat the limit in **Help text** so shoppers know it before they start typing.
+Set the maximum to what physically fits, rather than choosing a convenient round number. A 20-character limit on a pendant that only fits 12 characters simply moves the problem to your workshop. Repeat the limit in **Help text** so customers know it before they start typing.
 {% endhint %}
 
 Related: **Per character** add-on pricing charges based on how much the customer types, making it a natural fit for a maximum character limit. See [Advanced add-on modes](../../add-on-pricing/advanced-add-on-modes.md).
 
 ## Character counter
 
-Shows a live count as the shopper types.
+Shows a live count as the customer types.
 
 <table><thead><tr><th width="180">Tab</th><th>Basic Settings</th></tr></thead><tbody><tr><td>Default</td><td><strong>Hide</strong></td></tr><tr><td>Available on</td><td>Text, Textarea</td></tr></tbody></table>
 
 Set it to **Show** to display a running character count. The wording is store-wide and editable in **Settings > Translations**: `{{character_count}}/{{character_limit}} characters`. See [Translate widget text](../../translations/translate-widget-text.md).
 
-Turn it on whenever you set a **Max character**. It gives shoppers feedback while they type instead of waiting until **Add to cart** to discover that their input is too long. This lets them adjust their text before submitting the form.
+Turn it on whenever you set a **Max character**. It gives customers feedback while they type instead of waiting until **Add to cart** to discover that their input is too long. This lets them adjust their text before submitting the form.
 
 ## Min and max value
 
@@ -53,8 +53,8 @@ Turn it on whenever you set a **Max character**. It gives shoppers feedback whil
 
 **How it behaves**
 
-* On **Number**, the limits define what values the shopper can enter. Leave one limit empty to make that end unbounded.
-* On **Range slider**, the limits define the two ends of the slider track, so shoppers cannot select a value outside the range. The slider also has a **Step** setting that controls the increment — see [Range slider](../input-types/range-slider.md).
+* On **Number**, the limits define what values the customer can enter. Leave one limit empty to make that end unbounded.
+* On **Range slider**, the limits define the two ends of the slider track, so customers cannot select a value outside the range. The slider also has a **Step** setting that controls the increment — see [Range slider](../input-types/range-slider.md).
 * A **Default value** outside the range is rejected while editing, with the message `The value must be between min and max.`
 
 **Typical uses**
@@ -69,14 +69,14 @@ When a number is used to calculate a price, these limits also protect against ze
 
 **How it behaves**
 
-* Counts the number of values the shopper selects.
+* Counts the number of values the customer selects.
 * On multi-select types, these settings appear only after **Allow multiple** is enabled. A single-select option can have only one selection.
 * Setting **Min selections** and **Max selections** to the same number means “exactly this many.” The app uses a specific validation message: `Please select exactly {{exactly_selection}} options`.
 * **Required field** and **Min selections** overlap: **Required field** means at least one selection, which is the same as **Min selections = 1**. Use **Required field** for the simple case and **Min selections** when you need to require more than one selection.
 
 **Typical uses**
 
-<table><thead><tr><th width="290">Situation</th><th>Min</th><th>Max</th></tr></thead><tbody><tr><td>Pick any three toppings</td><td><code>3</code></td><td><code>3</code></td></tr><tr><td>Up to two free extras</td><td>—</td><td><code>2</code></td></tr><tr><td>At least one flavour in a box of six</td><td><code>1</code></td><td><code>6</code></td></tr><tr><td>Choose two to four colours</td><td><code>2</code></td><td><code>4</code></td></tr></tbody></table>
+<table><thead><tr><th width="290">Situation</th><th>Min</th><th>Max</th></tr></thead><tbody><tr><td>Pick any three toppings</td><td><code>3</code></td><td><code>3</code></td></tr><tr><td>Up to two free extras</td><td>—</td><td><code>2</code></td></tr><tr><td>At least one flavour in a box of six</td><td><code>1</code></td><td><code>6</code></td></tr><tr><td>Choose two to four colors</td><td><code>2</code></td><td><code>4</code></td></tr></tbody></table>
 
 {% hint style="info" %}
 The app also checks your limits against the number of values available in the option. For example, you cannot require five selections when the option has only four values. The app rejects this with the message: `The value must be between 1 and the number of option values.`

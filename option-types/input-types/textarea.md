@@ -15,7 +15,7 @@ Use it when the answer is a sentence or longer, such as a gift message, care ins
 
 A taller field that accepts several lines, with your label above it and an optional character counter below.
 
-<figure><img src="../../.gitbook/assets/2026-09-01_10-34-27.png" alt="A multi-line textarea on a storefront product page with a gift message typed into it"><figcaption><p>A textarea gives shoppers room for a real message.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2026-09-01_10-34-27.png" alt="A multi-line textarea on a storefront product page with a gift message typed into it"><figcaption><p>A textarea gives customers room for a real message.</p></figcaption></figure>
 
 ## Settings
 

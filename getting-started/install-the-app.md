@@ -70,7 +70,7 @@ The card automatically marks each step as completed. You can collapse the card w
 {% endstepper %}
 
 {% hint style="success" %}
-The app is installed when you can see the Dashboard. Nothing is visible to shoppers yet — continue with the [Quickstart](quickstart.md).
+The app is installed when you can see the Dashboard. Nothing is visible to customers yet — continue with the [Quickstart](quickstart.md).
 {% endhint %}
 
 ## What the app can access
@@ -90,4 +90,4 @@ In both cases, the app shows you what access it needs, and you approve it in Sho
 
 * Installing the app does not add, remove, or edit any of your theme files.
 * Installing the app does not create any products. Products are only created if you later choose the **Automatically generate product** add-on mode — see [Automatically generate a product](../add-on-pricing/auto-generate-a-product.md).
-* Your chosen plan determines which option types and features are available. Locked features remain visible in the app but are greyed out and show an upgrade prompt — see [Locked features](../plans/compare-plans.md).
+* Your chosen plan determines which option types and features are available. Locked features remain visible in the app but are grayed out and show an upgrade prompt — see [Locked features](../plans/compare-plans.md).

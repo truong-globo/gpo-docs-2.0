@@ -7,7 +7,7 @@ icon: sitemap
 
 # Overview
 
-Conditional logic turns a long form into a shorter, more relevant experience. Instead of showing every option to every shopper, display each option only when it applies to their selections.
+Conditional logic turns a long form into a shorter, more relevant experience. Instead of showing every option to every customer, display each option only when it applies to their selections.
 
 For example:
 

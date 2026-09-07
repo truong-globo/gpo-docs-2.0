@@ -1,6 +1,6 @@
 ---
 description: >-
-  Let customers choose the lettering — a list of Google fonts and your own
+  Let customers choose the lettering, from a list of Google fonts and your own
   uploaded fonts, each drawn in its own typeface.
 icon: font-awesome
 ---
@@ -15,7 +15,7 @@ Use it when the customer's text will be produced in a font they select, such as 
 
 A dropdown or a row of buttons listing your fonts. With **Font preview** on, each entry is rendered in that font.
 
-<figure><img src="../../.gitbook/assets/2026-09-03_13-57-28.png" alt="An open font picker on a storefront product page with each font name drawn in its own typeface"><figcaption><p>With Font preview on, shoppers see the lettering rather than imagining it.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2026-09-03_13-57-28.png" alt="An open font picker on a storefront product page with each font name drawn in its own typeface"><figcaption><p>With Font preview on, customers see the lettering rather than imagining it.</p></figcaption></figure>
 
 ## Basic Settings
 
@@ -23,12 +23,12 @@ A dropdown or a row of buttons listing your fonts. With **Font preview** on, eac
 
 ### Google fonts and Custom fonts
 
-The two lists are separate and combine into one list for the shopper.
+The two lists are configured separately and are combined into one list for the customer.
 
 <table><thead><tr><th width="230">List</th><th>Where the fonts come from</th></tr></thead><tbody><tr><td><strong>Google fonts</strong></td><td>A searchable picker of Google's font library. Add up to 30. The picker tells you when you have reached the limit.</td></tr><tr><td><strong>Custom fonts</strong></td><td>Font files you uploaded to the app. Upload them once in <strong>Settings</strong>, then select them here. See <a href="../../settings/custom-fonts.md">Custom fonts</a>.</td></tr></tbody></table>
 
 {% hint style="warning" %}
-Only offer fonts you can actually produce. If a shopper selects a font your engraving machine does not support, you may need to contact them to arrange an alternative. Keep the list to fonts you can reliably produce — five well-chosen fonts are better than thirty.
+Only offer fonts you can produce. If a customer selects a font your engraving machine does not support, you have to contact them to arrange an alternative. Five fonts you can produce reliably are better than thirty.
 {% endhint %}
 
 ## Advanced Settings
@@ -37,19 +37,19 @@ Only offer fonts you can actually produce. If a shopper selects a font your engr
 
 ### Font preview and Select text box
 
-Turn on **Font preview** and point the **Select text box** at your text option, and the shopper's own words are shown in the font they hover or select — far more persuasive than a list of font names.
+Turn on **Font preview** and set **Select text box** to your text option. The customer's own words are then displayed in the font they hover over or select, rather than only the font names.
 
-Pair it with the [Personalizer](../../personalizer/) on the text option, and the words appear on the product photo in that font too.
+Combine this with the [Personalizer](../../personalizer/) on the text option, and the words are also displayed on the product photo in that font.
 
 ## Add-on pricing
 
-Font picker cannot carry a price. Fonts are a presentation choice, not a stocked item.
+Font picker cannot have a price, because a font is a presentation choice rather than a stocked item.
 
-If a particular font costs you more — a licensed script, a font that needs hand-finishing — put the charge on a separate [Switch](../input-types/switch.md) or [Radio button](radio-button.md) and use [conditional logic](../../conditional-logic/) to reveal it when that font is chosen.
+If a particular font costs you more, for example a licensed script or a font that needs hand-finishing, put the charge on a separate [Switch](../input-types/switch.md) or [Radio button](radio-button.md) and use [conditional logic](../../conditional-logic/) to display it when that font is selected.
 
 ## Personalizer Settings
 
-Not on the picker itself. The Personalizer belongs to the **text** option — the font choice feeds into it.
+The Personalizer is not set on the picker. It belongs to the **text** option, and the font choice is applied to it.
 
 To let customers choose a font and see their text in it on the product photo:
 
@@ -57,19 +57,19 @@ To let customers choose a font and see their text in it on the product photo:
 {% step %}
 ### Add a text option and turn on its Personalizer
 
-Set it up as a text layer. See [Text layers](../../personalizer/layer-settings/text-layers.md).
+Configure it as a text layer. See [Text layers](../../personalizer/layer-settings/text-layers.md).
 {% endstep %}
 
 {% step %}
 ### Set its Font family
 
-Choose **Google** or **Custom** and pick the font, which becomes the starting font. See [Fonts](../../personalizer/layer-settings/fonts.md).
+Select **Google** or **Custom** and choose the font. This is the starting font. See [Fonts](../../personalizer/layer-settings/fonts.md).
 {% endstep %}
 
 {% step %}
 ### Add a Font picker for the customer's choice
 
-With **Font preview** on and **Select text box** pointing at the text option.
+Turn on **Font preview** and set **Select text box** to the text option.
 {% endstep %}
 {% endstepper %}
 
@@ -81,18 +81,18 @@ With **Font preview** on and **Select text box** pointing at the text option.
 
 **A long list, searchable**
 
-Thirty Google fonts, **Style** **Dropdown**, **Search suggestion** on, **Font preview** on.
+Thirty Google fonts, with **Style** set to **Dropdown**, **Search suggestion** on, and **Font preview** on.
 
 **Your own brand fonts**
 
-Uploaded custom fonts only, no Google fonts, **Style** **Button** so the three options are always visible.
+Uploaded custom fonts only, no Google fonts, and **Style** set to **Button** so all three are always visible.
 
 ## Notes
 
-* Available on the **Advanced** plan. Custom fonts are subject to a separate plan restriction.
+* Available on the **Advanced** plan. Custom fonts may not be available on all plans.
 * Works in Shopify POS.
 * Up to 30 Google fonts per option.
-* Cannot carry an add-on price.
-* No **Out of stock options** — fonts do not have stock.
-* Each font in the list is loaded by the browser when previewing, so a very long list can take longer to render. Keep the list short for a faster experience.
+* This type cannot have an add-on price.
+* There is no **Out of stock options** setting, because fonts have no inventory.
+* The browser loads each font in the list when previewing, so a long list takes longer to display. Keep the list short.
 * The selected font name is included in the order, so your team knows which font to use.

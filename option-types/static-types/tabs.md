@@ -7,13 +7,13 @@ icon: folder-open
 
 # Tabs
 
-Several content blocks, with one visible at a time. Shoppers can select a tab to switch between panels.
+Several content blocks, with one visible at a time. Customers select a tab to switch between panels.
 
-Use tabs when you have three or four types of information to share but want to keep the page compact—such as care instructions, delivery details, return policies, or materials.
+Use tabs when you have three or four types of information to display but want to keep the page compact, such as care instructions, delivery details, return policies, or materials.
 
 ## What customers see
 
-A row or column of tab titles with one panel open. Selecting another title to switch panels.
+A row or column of tab titles with one panel open. Selecting another title switches panels.
 
 <figure><img src="../../.gitbook/assets/2026-09-03_15-57-56.png" alt="A horizontal set of tabs on a storefront product page with the first panel open"><figcaption></figcaption></figure>
 
@@ -23,25 +23,25 @@ A row or column of tab titles with one panel open. Selecting another title to sw
 
 ### Building the tabs
 
-Tabs are managed in a values table, like a selection type's option values — but each entry is a panel rather than a choice.
+Tabs are managed in a values table, in the same way as a selection type's option values, but each entry is a panel rather than a choice.
 
 <table><thead><tr><th width="230">Action</th><th>How</th></tr></thead><tbody><tr><td>Add a tab</td><td><strong>Add another tab</strong> below the table.</td></tr><tr><td>Set a tab's title</td><td>The value field on its row.</td></tr><tr><td>Write a tab's content</td><td>Open the content editor on that row. Rich text, like a <a href="paragraph.md">Paragraph</a>.</td></tr><tr><td>Reorder tabs</td><td>Drag the rows. The first tab is the one open by default.</td></tr><tr><td>Delete a tab</td><td>The remove action on its row.</td></tr><tr><td>Start over</td><td><strong>Delete all tabs</strong>, which asks you to confirm.</td></tr></tbody></table>
 
-Tab titles follow the same character rules as option values — no `,` `:` `"` `'` or `|`. See [Working with option values](../../option-sets/option-values.md).
+Tab titles follow the same character rules as option values. The characters `,` `:` `"` `'` and `|` are not allowed. See [Working with option values](../../option-sets/option-values.md).
 
 ### Horizontal or vertical
 
 <table><thead><tr><th width="200">Direction</th><th>Suits</th><th>Watch out for</th></tr></thead><tbody><tr><td><strong>Horizontal</strong></td><td>Two to four tabs with short titles</td><td>Long titles wrap and the row gets messy on mobile</td></tr><tr><td><strong>Vertical</strong></td><td>Longer titles, or five or more tabs</td><td>Takes horizontal space, so it needs a wide column</td></tr></tbody></table>
 
-Keep titles to one or two words. `Care`, `Delivery`, `Returns` reads far better than `How to care for your item`.
+Keep titles to one or two words. `Care`, `Delivery`, and `Returns` read better than `How to care for your item`.
 
-## Order matters
+## Tab order
 
-The first tab is open by default when the page loads, so place your most important or frequently viewed content there. Shoppers may not notice other tabs if they don’t see them right away—for example, if “Delivery” is shown first, they may overlook the “Care” tab.
+The first tab is open when the page loads, so put your most important content there. Customers may not notice the other tabs. If `Delivery` is first, for example, many customers never open `Care`.
 
 ## Tabs, modal, or paragraph?
 
-<table><thead><tr><th width="200">Use</th><th>When you have</th></tr></thead><tbody><tr><td><a href="paragraph.md">Paragraph</a></td><td>One short piece of text everybody should read</td></tr><tr><td><a href="pop-up-modal.md">Pop-up modal</a></td><td>One longer piece most shoppers will skip</td></tr><tr><td><strong>Tabs</strong></td><td>Several pieces, at least one of which most shoppers will read</td></tr></tbody></table>
+<table><thead><tr><th width="200">Use</th><th>When you have</th></tr></thead><tbody><tr><td><a href="paragraph.md">Paragraph</a></td><td>One short piece of text everybody should read</td></tr><tr><td><a href="pop-up-modal.md">Pop-up modal</a></td><td>One longer piece most customers will skip</td></tr><tr><td><strong>Tabs</strong></td><td>Several pieces, at least one of which most customers will read</td></tr></tbody></table>
 
 ## Examples
 
@@ -51,16 +51,16 @@ The first tab is open by default when the page loads, so place your most importa
 
 **Materials and specification**
 
-Two tabs, `Materials` and `Specification`, each with a short formatted list. **Vertical** if the titles are longer.
+Two tabs, `Materials` and `Specification`, each with a short formatted list. Use **Vertical** if the titles are longer.
 
-**Personalisation guidance**
+**Personalization guidance**
 
-Tabs `How it works`, `Lead times`, `What we cannot engrave`, shown by conditional logic only when the shopper has chosen to personalise.
+Tabs `How it works`, `Lead times`, and `What we cannot engrave`, displayed by conditional logic only when the customer has chosen to personalize.
 
 ## Notes
 
 * Available on the Advanced plan.
 * Works in Shopify POS.
-* Titles and content are translatable per storefront language. See [Translate option content](../../translations/translate-option-content.md).
-* Tab colours are store-wide: **Tab title**, **Tab title active**, **Tab title hover**, **Tab content**, and **Tab border** in **Settings > Design**. See [Colors](../../storefront/colors.md).
-* There’s no practical limit to the number of tabs, but more than five can make the tab row difficult to use. For larger sets of content, switch to **Vertical** layout or split the content across multiple sections.
+* Titles and content can be translated for each storefront language. See [Translate option content](../../translations/translate-option-content.md).
+* Tab colors are store-wide. Set **Tab title**, **Tab title active**, **Tab title hover**, **Tab content**, and **Tab border** in **Settings > Design**. See [Colors](../../storefront/colors.md).
+* There is no limit on the number of tabs, but more than five makes the tab row difficult to use. For more content than that, use the **Vertical** layout or split it across several sections.

@@ -1,17 +1,17 @@
 ---
-description: Change the language of the app's own admin interface — eighteen languages, and what it does not affect.
+description: Change the language of the app's admin interface, and understand what it does not affect.
 icon: user-gear
 ---
 
 # App admin language
 
-The app's admin can be displayed in eighteen languages. This is for you and your staff, not for your customers.
+The app's admin can be displayed in eighteen languages. This setting is for you and your staff. It does not affect what your customers see.
 
 ## Where it is
 
-The language control sits in the top-right of the **Dashboard**, showing the current language with its flag.
+The language control is in the top-right of the **Dashboard**, and shows the current language with its flag.
 
-Select it, choose a language, and the app reloads in that language.
+Select it and choose a language. The app reloads in that language.
 
 <!-- SCREENSHOT: trans-admin-language | App admin → Dashboard | Popover chọn ngôn ngữ đang mở với danh sách các ngôn ngữ kèm cờ | Khoanh nút chọn ngôn ngữ -->
 
@@ -23,15 +23,15 @@ Select it, choose a language, and the app reloads in that language.
 
 ## What it changes, and what it does not
 
-<table><thead><tr><th width="290">Changes</th><th>Does not change</th></tr></thead><tbody><tr><td>Menu names, page titles, setting labels, buttons</td><td>Anything on your storefront</td></tr><tr><td>Help text and tooltips inside the app</td><td>Your option labels and values — those are <a href="translate-option-content.md">option content</a></td></tr><tr><td>Validation messages you see while building</td><td>The messages shoppers see — those are <a href="translate-widget-text.md">widget text</a></td></tr><tr><td>Your view of the app</td><td>What your colleagues see. It is per user</td></tr></tbody></table>
+<table><thead><tr><th width="290">Changes</th><th>Does not change</th></tr></thead><tbody><tr><td>Menu names, page titles, setting labels, buttons</td><td>Anything on your storefront</td></tr><tr><td>Help text and tooltips inside the app</td><td>Your option labels and values — those are <a href="translate-option-content.md">option content</a></td></tr><tr><td>Validation messages you see while building</td><td>The messages customers see — those are <a href="translate-widget-text.md">widget text</a></td></tr><tr><td>Your view of the app</td><td>What your colleagues see. It is per user</td></tr></tbody></table>
 
 {% hint style="warning" %}
-This is the layer people change first and expect the most from. It does nothing at all to your storefront. If you want your customers to see translated options, you need [option content](translate-option-content.md) and [widget text](translate-widget-text.md).
+This setting does not change anything on your storefront. To show translated options to your customers, translate the [option content](translate-option-content.md) and the [widget text](translate-widget-text.md) instead.
 {% endhint %}
 
 ## Notes
 
-* The setting is remembered, so you do not need to change it each time.
+* The setting is saved, so you do not need to set it again.
 * Changing it reloads the app.
 * Your Shopify admin language is separate — set that in Shopify.
-* Screenshots in this documentation are in English. Menu names in these pages are the English ones, so if you work in another language you may need to match them by position.
+* Screenshots and menu names in this documentation are in English. If you work in another language, match the menus by their position on the screen.

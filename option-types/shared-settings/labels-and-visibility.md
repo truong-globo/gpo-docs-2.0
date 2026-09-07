@@ -1,17 +1,17 @@
 ---
 description: >-
   Label, Name, and Hidden label — the three settings that control how an option
-  is identified and whether its label is visible to shoppers.
+  is identified and whether its label is visible to customers.
 icon: tag
 ---
 
 # Labels and visibility
 
-Every option that collects customer input has a **Label** and a **Name**, and most also offer **Hidden label**. Together, these settings determine what shoppers see on the product page and what is stored with the order.
+Every option that collects customer input has a **Label** and a **Name**, and most also offer **Hidden label**. Together, these settings determine what customers see on the product page and what is stored with the order.
 
 They are one of the most common sources of confusion in the app, so start with the key difference:
 
-<table><thead><tr><th width="150"></th><th width="290">Label</th><th>Name</th></tr></thead><tbody><tr><td>Who reads it</td><td>The shopper, on the product page</td><td>You and your team — and the shopper, once the item is in their cart</td></tr><tr><td>Where it appears</td><td>Above the option field in the widget</td><td>Cart page, checkout, order details in Shopify admin, order emails, invoices, packing slips</td></tr><tr><td>Required</td><td>Yes</td><td>Yes</td></tr><tr><td>Must be unique</td><td>No</td><td><strong>Yes</strong>, within the option set</td></tr><tr><td>Restricted characters</td><td>No</td><td><strong>Yes</strong></td></tr><tr><td>Can be hidden</td><td>Yes, with <strong>Hidden label</strong></td><td>No — it always travels with the order</td></tr><tr><td>Translatable per language</td><td>Yes</td><td>No</td></tr></tbody></table>
+<table><thead><tr><th width="150"></th><th width="290">Label</th><th>Name</th></tr></thead><tbody><tr><td>Who reads it</td><td>The customer, on the product page</td><td>You and your team — and the customer, once the item is in their cart</td></tr><tr><td>Where it appears</td><td>Above the option field in the widget</td><td>Cart page, checkout, order details in Shopify admin, order emails, invoices, packing slips</td></tr><tr><td>Required</td><td>Yes</td><td>Yes</td></tr><tr><td>Must be unique</td><td>No</td><td><strong>Yes</strong>, within the option set</td></tr><tr><td>Restricted characters</td><td>No</td><td><strong>Yes</strong></td></tr><tr><td>Can be hidden</td><td>Yes, with <strong>Hidden label</strong></td><td>No — it always travels with the order</td></tr><tr><td>Translatable per language</td><td>Yes</td><td>No</td></tr></tbody></table>
 
 ## Label
 
@@ -29,7 +29,7 @@ The text shown above the option field on your product page.
 
 **Writing good labels**
 
-<table><thead><tr><th width="270">Instead of</th><th>Write</th></tr></thead><tbody><tr><td><code>Text</code></td><td><code>Engraving text</code></td></tr><tr><td><code>Options</code></td><td><code>Choose your frame colour</code></td></tr><tr><td><code>Upload</code></td><td><code>Upload your photo</code></td></tr><tr><td><code>Date</code></td><td><code>Delivery date</code></td></tr></tbody></table>
+<table><thead><tr><th width="270">Instead of</th><th>Write</th></tr></thead><tbody><tr><td><code>Text</code></td><td><code>Engraving text</code></td></tr><tr><td><code>Options</code></td><td><code>Choose your frame color</code></td></tr><tr><td><code>Upload</code></td><td><code>Upload your photo</code></td></tr><tr><td><code>Date</code></td><td><code>Delivery date</code></td></tr></tbody></table>
 
 Say what you want, not what the field is. Put the constraint in [Help text](placeholder-and-help-text.md#help-text) rather than the Label — `Engraving text` with help text `Up to 20 characters` reads better than `Engraving text (max 20 characters)`.
 
@@ -49,7 +49,7 @@ Name has three rules:
 
 **How it behaves**
 
-* **Not translatable, deliberately.** Your team sees the same consistent name regardless of the language the shopper uses.
+* **Not translatable, deliberately.** Your team sees the same consistent name regardless of the language the customer uses.
 * **Renamed automatically when needed.** If you duplicate an option or import options with duplicate names, the copy is automatically renamed using the option type and a number, such as `text-2`. Conditional logic rules that reference the renamed option are updated automatically.
 * **Used by other features to identify the option.** This includes the dynamic order-tag workflow, order note templates, and the `option_name` column in CSV exports.
 
@@ -79,8 +79,8 @@ The simplest approach is to make **Name** the same as **Label**. Use a different
 
 **When not to use it**
 
-* On required fields. A shopper who cannot see what a field is for will not know they have to fill it in, and your error message will be the first explanation they get.
-* On anything with a price attached. Shoppers should be able to see what they are paying for.
+* On required fields. A customer who cannot see what a field is for will not know they have to fill it in, and your error message will be the first explanation they get.
+* On anything with a price attached. Customers should be able to see what they are paying for.
 * As a way to fix a layout problem. If labels are crowding your page, use [Column width](direction-width-and-css.md#column-width) or a collapsible [Section](../static-types/section.md) instead.
 
 {% hint style="info" %}

@@ -1,19 +1,19 @@
 ---
 description: >-
-  A vertical list where exactly one choice can be made — the clearest option
-  type when values need explaining.
+  A vertical list where exactly one choice can be made, and the clearest option
+  type when the values need explaining.
 icon: circle-dot
 ---
 
 # Radio button
 
-A list where the shopper picks one. Unlike a dropdown, every choice is visible without opening anything, which makes it the right type when the values need reading rather than just recognising.
+A list where the customer selects one value. Unlike a dropdown, every choice is visible without opening anything, so use it when the values need to be read rather than only recognized.
 
-It is single-select by nature — there is no **Allow multiple**. For several choices, use [Checkbox](checkbox.md).
+This type is always single-select, so there is no **Allow multiple** setting. To let customers select several values, use [Checkbox](checkbox.md).
 
 ## What customers see
 
-A vertical list with a selectable marker beside each value. With **Swatch style** set, each value can also show a colour chip or a picture.
+A vertical list with a selectable marker beside each value. With **Swatch style** set, each value can also display a color chip or a picture.
 
 <figure><img src="../../.gitbook/assets/2026-09-03_11-35-59.png" alt="A vertical radio button list on a storefront product page with help text under each value"><figcaption></figcaption></figure>
 
@@ -27,11 +27,11 @@ Radio button has no placeholder.
 
 <table><thead><tr><th width="250">Setting</th><th>What it does</th></tr></thead><tbody><tr><td><a href="../shared-settings/conditional-logic-and-add-on-fields.md#advanced-settings">Advanced settings</a> / <a href="../shared-settings/conditional-logic-and-add-on-fields.md#set-quantity">Set quantity</a></td><td>How the add-on scales with quantity.</td></tr><tr><td><a href="../shared-settings/collapsible-layouts-and-sliders.md#enable-custom-layout">Enable custom layout</a></td><td>Unlocks the collapsible layouts.</td></tr><tr><td><a href="../shared-settings/collapsible-layouts-and-sliders.md#layout-type">Layout type</a></td><td><strong>Expand</strong> or <strong>Collapse</strong>. No slider on this type.</td></tr><tr><td><a href="../shared-settings/collapsible-layouts-and-sliders.md#scroll-type">Scroll type</a>, <strong>Scroll height</strong>, <strong>Number of option values</strong></td><td>Give a long list its own scroll area.</td></tr><tr><td><a href="../shared-settings/direction-width-and-css.md#direction-style">Direction style</a></td><td><strong>Vertical</strong> or <strong>Horizontal</strong>.</td></tr><tr><td><a href="../shared-settings/out-of-stock-options.md">Out of stock options</a></td><td>How sold-out values look.</td></tr><tr><td><a href="../shared-settings/placeholder-and-help-text.md#help-text-position">Help text position</a></td><td>Where the option-level help text sits.</td></tr><tr><td><a href="../shared-settings/direction-width-and-css.md#html-class">HTML class</a> / <a href="../shared-settings/direction-width-and-css.md#column-width">Column width</a></td><td>Styling hook and field width.</td></tr></tbody></table>
 
-## Why per-value help text matters
+## Per-value help text
 
-Radio buttons support help text on each individual value, and because the list is always open, that text is always visible. No other single-select type shows explanation and choice together as well.
+Radio button supports help text on each value, and because the list is always open, that text is always visible. No other single-select type displays the explanation and the choice together.
 
-That makes it the right type whenever the choices need justifying:
+Use this type whenever the choices need explaining:
 
 ```
 ○ Standard delivery
@@ -44,17 +44,17 @@ That makes it the right type whenever the choices need justifying:
   Ready within 2 hours. Free.
 ```
 
-A dropdown would hide all of that until opened, and a button row has no room for it.
+A dropdown hides that text until it is opened, and a button row has no space for it.
 
 ## Personalizer Settings
 
-Supported as an **image layer**: each value can carry an image drawn onto the product photo when selected. Settings are image shape, background mode, size, position, rotation, clip area, and customer controls. See [Image layers](../../personalizer/layer-settings/image-layers.md).
+Supported as an **image layer**. Each value can have an image that is drawn onto the product photo when the value is selected. The settings are image shape, background mode, size, position, rotation, clip area, and customer controls. See [Image layers](../../personalizer/layer-settings/image-layers.md).
 
 ## Add-on pricing
 
-Prices belong to each value. All three modes per value, plus the option-level **Advanced settings** for scaling.
+Prices are set on each value, and each value supports all three modes. The option-level **Advanced settings** controls how the charge scales.
 
-Because only one value can be selected, the pricing is straightforward — exactly one charge, or none. That makes Radio button a good type for tiered upgrades where the customer picks one level.
+Because only one value can be selected, there is either one charge or none. This makes Radio button a good type for tiered upgrades where the customer selects one level.
 
 See [Add-on pricing](../../add-on-pricing/).
 
@@ -70,21 +70,21 @@ See [Add-on pricing](../../add-on-pricing/).
 
 **Three service tiers**
 
-Values `Basic`, `Plus`, `Premium`, each with help text listing what it includes, priced accordingly.
+Values `Basic`, `Plus`, and `Premium`, each with help text listing what it includes and its own price.
 
-**A finish, shown as colours**
+**A finish, shown as colors**
 
-**Swatch style** set to **Color**, values `Matt black`, `Brushed brass`, `Chrome`, each with its chip and its own lead-time note.
+**Swatch style** set to **Color**, with values `Matt black`, `Brushed brass`, and `Chrome`, each with its color chip and its own lead-time note.
 
 **A long list, collapsed**
 
-**Enable custom layout** on, **Layout type** **Collapse**, **Scroll type** **By number of option values** showing eight.
+**Enable custom layout** on, **Layout type** set to **Collapse**, and **Scroll type** set to **By number of option values**, showing eight.
 
 ## Notes
 
 * Available on all plans.
 * Works in Shopify POS.
 * Single-select only.
-* No slider layout — that belongs to Button and the swatch types.
-* No **Not allow deselect** setting. Combine **Required field** with a **Default value** for a choice that can never be empty.
+* There is no slider layout. Use Button or one of the swatch types for that.
+* There is no **Not allow deselect** setting. Use **Required field** with a **Default value** for a choice that can never be empty.
 * Values follow the order of the values table.

@@ -37,7 +37,7 @@ That option type does not support the Personalizer. Twelve supported types inclu
 
 <details>
 
-<summary>The tab is there but everything is greyed out</summary>
+<summary>The tab is there but everything is grayed out</summary>
 
 The Personalizer is not in your plan.
 

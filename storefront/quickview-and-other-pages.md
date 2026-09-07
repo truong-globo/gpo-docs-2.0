@@ -5,33 +5,33 @@ icon: window-maximize
 
 # Quickview and other pages
 
-Product pages are not the only place shoppers buy. Three settings control the others, all in **Settings** > **Settings** > **General**.
+Customers can also add to cart from places other than the product page. Three settings in **Settings** > **Settings** > **General** control those.
 
 ## Collection page quickview
 
 <table><thead><tr><th width="290">Setting</th><th width="130">Default</th><th>What it does</th></tr></thead><tbody><tr><td><strong>Show options on Quickview popups</strong></td><td>On</td><td>Renders your options inside the quickview popups on collection pages</td></tr></tbody></table>
 
-Many themes let shoppers open a product in a popup straight from a collection page. Without this on, they can add to cart from there **without seeing your options at all** — which for a personalised product means an order you cannot fulfil.
+Many themes let customers open a product in a popup directly from a collection page. Without this setting on, a customer can add to cart from that popup **without seeing your options**, which for a personalized product means an order you cannot fulfill.
 
-Leave it on if your theme has quickviews. There is no downside beyond the app running on collection pages.
+Keep it on if your theme has quickviews. The only effect of turning it on is that the app also runs on collection pages.
 
 {% hint style="info" %}
-Quickviews are built differently by every theme, and some are added by other apps. The app handles the common patterns, but if your options do not appear in your quickview, that is worth reporting — see [Contact support](../help/contact-support.md).
+Every theme builds quickviews differently, and some quickviews are added by other apps. The app supports the common patterns. If your options do not appear in your quickview, see [Contact support](../help/contact-support.md).
 {% endhint %}
 
 ## Home page and regular pages
 
 <table><thead><tr><th width="330">Setting</th><th width="130">Default</th><th>Covers</th></tr></thead><tbody><tr><td><strong>Show widget on home page</strong></td><td>On</td><td>Featured product sections on your home page</td></tr><tr><td><strong>Show widget on regular page</strong></td><td>On</td><td>Featured product sections on other pages</td></tr></tbody></table>
 
-Both are limited to **featured product sections** — a section that shows one product with its buy button. They do not add options to a general page.
+Both settings apply only to **featured product sections**, which display one product with its buy button. They do not add options to a page in general.
 
-For these to work you also need the app block placed in that section:
+You also need to place the app block inside that section:
 
 {% stepper %}
 {% step %}
 ### Add a Featured product section
 
-In the theme editor, on the page you want.
+In the theme editor, on the page where you want the product.
 {% endstep %}
 
 {% step %}
@@ -43,11 +43,11 @@ In the theme editor, on the page you want.
 {% step %}
 ### Check the block's Product setting
 
-It fills itself in from the section, but confirm it points at the right product.
+The block fills this in from the section. Confirm that it points to the correct product.
 {% endstep %}
 
 {% step %}
-### Make sure the matching switch is on
+### Turn on the matching setting
 
 **Show widget on home page** or **Show widget on regular page**.
 {% endstep %}
@@ -55,7 +55,7 @@ It fills itself in from the section, but confirm it points at the right product.
 {% step %}
 ### Test the page
 
-Including adding to cart from it.
+Add to cart from that page as part of the test.
 {% endstep %}
 {% endstepper %}
 
@@ -63,11 +63,11 @@ Including adding to cart from it.
 
 <figure><img src="../.gitbook/assets/placeholder.png" alt="The collection page and other pages settings groups"><figcaption><p>Three switches, covering quickviews and featured product sections.</p></figcaption></figure>
 
-## Why you might turn one off
+## When to turn these off
 
-The app notes that these settings cause its code to run on those pages. If you have no featured product sections and no quickviews, turning the relevant switches off means the app does nothing there.
+These settings cause the app to run on those pages. If you have no featured product sections and no quickviews, turning the matching setting off stops the app from running there.
 
-Weigh that against the risk: a quickview that can add to cart without showing options is a real problem, and it usually outweighs the marginal saving.
+Keep the quickview setting on if your theme has quickviews. A quickview that adds to cart without displaying options causes orders you cannot fulfill.
 
 ## Where options do not appear
 
@@ -75,7 +75,7 @@ Weigh that against the risk: a quickview that can add to cart without showing op
 
 ## Notes
 
-* Store-wide, like all these settings.
-* Each option set's own rules still apply on these pages — status, sales channel, and product, customer, and country rules.
+* These settings are store-wide.
+* Each option set's own rules still apply on these pages, including status, sales channel, and the product, customer, and country rules.
 * Quickview support depends on your theme, and on any quickview app you use.
 * The cart page has its own settings. See [Cart page](cart-page.md).

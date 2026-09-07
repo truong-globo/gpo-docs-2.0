@@ -11,7 +11,7 @@ icon: toggle-on
 
 * An option set is open in the builder with at least two options: one that reacts, and one that triggers the rule.
 * The option you want to use as a condition must appear **above** the option you are configuring. If it does not, move it up first. See [Build your options](../option-sets/build-options.md).
-* Conditional logic may not be available on all plans. If the switch is greyed out, see [Compare plans](../plans/compare-plans.md).
+* Conditional logic may not be available on all plans. If the switch is grayed out, see [Compare plans](../plans/compare-plans.md).
 
 ## Steps
 

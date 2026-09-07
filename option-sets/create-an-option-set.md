@@ -37,7 +37,7 @@ Select **Add option** inside the section and choose an option type. The picker h
 
 For each option, set at least these three fields:
 
-<table><thead><tr><th width="200">Field</th><th>Notes</th></tr></thead><tbody><tr><td><strong>Label</strong></td><td>The text shoppers see. No restrictions</td></tr><tr><td><strong>Name</strong></td><td>The name is stored with the cart item and order. Must be unique within the option set and cannot contain <code>.</code> , <code>:</code> , <code>"</code> , <code>'</code> , <code>\</code> , or <code>|</code> — see <a href="../option-types/shared-settings/labels-and-visibility.md">Label and Name</a></td></tr><tr><td><strong>Required field</strong></td><td>Whether customers must complete the option before adding the product to the cart.</td></tr></tbody></table>
+<table><thead><tr><th width="200">Field</th><th>Notes</th></tr></thead><tbody><tr><td><strong>Label</strong></td><td>The text customers see. No restrictions</td></tr><tr><td><strong>Name</strong></td><td>The name is stored with the cart item and order. Must be unique within the option set and cannot contain <code>.</code> , <code>:</code> , <code>"</code> , <code>'</code> , <code>\</code> , or <code>|</code> — see <a href="../option-types/shared-settings/labels-and-visibility.md">Label and Name</a></td></tr><tr><td><strong>Required field</strong></td><td>Whether customers must complete the option before adding the product to the cart.</td></tr></tbody></table>
 
 Selection-style options also need their values — see [Working with option values](option-values.md). For reordering, duplicating, and grouping options, see [Build your options](build-options.md).
 {% endstep %}
@@ -47,7 +47,7 @@ Selection-style options also need their values — see [Working with option valu
 
 Switch to **Assign products** and turn on one of three methods:
 
-<table><thead><tr><th width="220">Method</th><th>Best for</th></tr></thead><tbody><tr><td><strong>Manual Selection</strong></td><td>A fixed and small product list that you pick by hand</td></tr><tr><td><strong>Automatic Rules</strong></td><td>Anything matching a tag, type, vendor, price, or collection. Keeps working as your catalogue grows</td></tr><tr><td><strong>All Products</strong></td><td>Store-wide options such as a delivery note</td></tr></tbody></table>
+<table><thead><tr><th width="220">Method</th><th>Best for</th></tr></thead><tbody><tr><td><strong>Manual Selection</strong></td><td>A fixed and small product list that you pick by hand</td></tr><tr><td><strong>Automatic Rules</strong></td><td>Anything matching a tag, type, vendor, price, or collection. Keeps working as your catalog grows</td></tr><tr><td><strong>All Products</strong></td><td>Store-wide options such as a delivery note</td></tr></tbody></table>
 
 Read here for full details: [Assign to products](assign-to-products.md).
 {% endstep %}
@@ -108,7 +108,7 @@ Select **View in Store** in the builder header to open a product that this optio
 
 <summary>What Save stores, and what lives elsewhere</summary>
 
-<table><thead><tr><th width="240">Saved with the option set</th><th>Store-wide, saved elsewhere</th></tr></thead><tbody><tr><td>Options and all their settings</td><td>Colours, borders, typography — <strong>Settings > Design</strong></td></tr><tr><td>Option values, prices, and images</td><td>Widget position — <strong>Settings > General</strong></td></tr><tr><td>Conditional logic rules</td><td>Widget text and validation messages — <strong>Settings > Translations</strong></td></tr><tr><td>Product, customer, and country rules</td><td>Automations — <strong>Automations</strong></td></tr><tr><td>Status and sales channels</td><td></td></tr><tr><td>The Personalizer background for this set</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="240">Saved with the option set</th><th>Store-wide, saved elsewhere</th></tr></thead><tbody><tr><td>Options and all their settings</td><td>Colors, borders, typography — <strong>Settings > Design</strong></td></tr><tr><td>Option values, prices, and images</td><td>Widget position — <strong>Settings > General</strong></td></tr><tr><td>Conditional logic rules</td><td>Widget text and validation messages — <strong>Settings > Translations</strong></td></tr><tr><td>Product, customer, and country rules</td><td>Automations — <strong>Automations</strong></td></tr><tr><td>Status and sales channels</td><td></td></tr><tr><td>The Personalizer background for this set</td><td></td></tr></tbody></table>
 
 This is why copying an option set to another store does not copy its look. See [Import and export](import-and-export.md).
 

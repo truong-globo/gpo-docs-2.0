@@ -15,7 +15,7 @@ Use it for quantities or measurements within a product, such as how many names t
 
 A numeric field with your label above it. You can add a prefix, such as a currency symbol, and a suffix, such as a unit.
 
-<figure><img src="../../.gitbook/assets/2026-09-03_10-01-19.png" alt="A number field on a storefront product page with a unit suffix"><figcaption><p>A number field with a unit as its suffix, so the shopper types only the value.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2026-09-03_10-01-19.png" alt="A number field on a storefront product page with a unit suffix"><figcaption><p>A number field with a unit as its suffix, so the customer types only the value.</p></figcaption></figure>
 
 ## Basic Settings
 

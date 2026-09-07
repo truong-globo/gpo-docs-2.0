@@ -31,12 +31,12 @@ Two shortcuts are worth knowing:
 
 Select an option to open its settings. They are split across tabs:
 
-<table><thead><tr><th width="230">Tab</th><th>Contains</th></tr></thead><tbody><tr><td><strong>Basic Settings</strong></td><td>The essentials: label, name, required, values, limits, help text, placeholder, default value, add-on settings, and conditional logic.</td></tr><tr><td><strong>Advanced Settings</strong></td><td>Presentation and edge cases: layout, column width, prefix and suffix, HTML class, out-of-stock handling, tooltip style, scroll and slider behaviour, advanced add-on modes.</td></tr><tr><td><strong>Personalizer Settings</strong></td><td>Only on option types that can appear in the live preview. Fonts, effects, position, clip area, and customer controls. See <a href="../personalizer/">Product Personalizer</a>.</td></tr></tbody></table>
+<table><thead><tr><th width="230">Tab</th><th>Contains</th></tr></thead><tbody><tr><td><strong>Basic Settings</strong></td><td>The essentials: label, name, required, values, limits, help text, placeholder, default value, add-on settings, and conditional logic.</td></tr><tr><td><strong>Advanced Settings</strong></td><td>Presentation and edge cases: layout, column width, prefix and suffix, HTML class, out-of-stock handling, tooltip style, scroll and slider behavior, advanced add-on modes.</td></tr><tr><td><strong>Personalizer Settings</strong></td><td>Only on option types that can appear in the live preview. Fonts, effects, position, clip area, and customer controls. See <a href="../personalizer/">Product Personalizer</a>.</td></tr></tbody></table>
 
 Which settings appear depends on the current option type. Every shared setting has its own reference page — see [Shared settings](../option-types/shared-settings/).
 
 {% hint style="info" %}
-On the free plan, premium settings are folded into a collapsed group at the bottom of the panel with a count, rather than shown greyed-out inline. Expand it to see what a higher plan would add.
+On the free plan, premium settings are folded into a collapsed group at the bottom of the panel with a count, rather than shown grayed-out inline. Expand it to see what a higher plan would add.
 {% endhint %}
 
 ## Changing an option's type
@@ -65,7 +65,7 @@ Removing an option also removes its add-on configuration and values. Any conditi
 
 ## Reordering
 
-Drag an option by its handle to move it. The order in the builder is the same order shoppers see on the storefront, from top to bottom.
+Drag an option by its handle to move it. The order in the builder is the same order customers see on the storefront, from top to bottom.
 
 You can drag options within a section or between sections. Dragging a section moves the section and all the options inside it.
 
@@ -74,7 +74,7 @@ You can drag options within a section or between sections. Dragging a section mo
 Some ordering tips:
 
 * Put required options before optional ones so customers see the important fields first.
-* Put the option that a conditional rule depends on **above** the option it reveals. The rule works either way, but showing a dependent field above its trigger can be confusing for shoppers.
+* Put the option that a conditional rule depends on **above** the option it reveals. The rule works either way, but showing a dependent field above its trigger can be confusing for customers.
 * Group related options into sections instead of putting everything in one long list.
 
 ## Sections
@@ -83,7 +83,7 @@ A **Section** is a container with a visible heading that can optionally be colla
 
 Two settings control how a section appears:
 
-* **Label** — the heading shoppers see.
+* **Label** — the heading customers see.
 * **Style** — **Default** (always open), **Expand** (collapsible and starts open), or **Collapse** (collapsible and starts closed).
 
 Sections also support a **Prefix icon** and an **HTML class** for custom CSS.

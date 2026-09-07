@@ -1,19 +1,19 @@
 ---
 description: >-
-  A list where the shopper can tick several — the standard way to offer a menu
-  of optional paid extras.
+  A list where the customer can select several values, and the standard way to
+  offer a menu of optional paid extras.
 icon: square-check
 ---
 
 # Checkbox
 
-A list where any number of values can be ticked. It is multi-select by nature, so there is no **Allow multiple** switch.
+A list where the customer can select any number of values. This type is always multi-select, so there is no **Allow multiple** setting.
 
-This is the type for a menu of extras: toppings, add-on services, accessories, upgrades. Each value can carry its own price, so the total adds up as the shopper ticks.
+Use it for a menu of extras such as toppings, add-on services, accessories, or upgrades. Each value can have its own price, and the total increases as the customer selects values.
 
 ## What customers see
 
-A list with a tick box beside each value. With the **Swatch-style** set, each value can also show a colour chip or a picture.
+A list with a check box beside each value. With **Swatch style** set, each value can also display a color chip or a picture.
 
 <figure><img src="../../.gitbook/assets/2026-09-03_11-46-32.png" alt="A checkbox list on a storefront product page with several values ticked and their prices shown"><figcaption></figcaption></figure>
 
@@ -31,11 +31,11 @@ A list with a tick box beside each value. With the **Swatch-style** set, each va
 
 ## Add-on pricing on a multi-select
 
-This is where Checkbox differs most from the single-select types: **every ticked value with a price is charged**. Three ticks at $4.00 each is $12.00.
+This is the main difference from the single-select types: **every selected value with a price is charged**. Three selections at $4.00 each is $12.00.
 
-That makes two settings especially important:
+Two settings matter here:
 
-<table><thead><tr><th width="250">Setting</th><th>Why it matters here</th></tr></thead><tbody><tr><td><strong>Max selections</strong></td><td>Your ceiling on the total. Without it a shopper can tick everything.</td></tr><tr><td><strong>Advanced settings</strong></td><td><strong>Mixed quantity</strong> gives each value its own quantity box, so a shopper can take two of one topping and one of another. Available on multi-select types only.</td></tr></tbody></table>
+<table><thead><tr><th width="250">Setting</th><th>Why it matters here</th></tr></thead><tbody><tr><td><strong>Max selections</strong></td><td>Your ceiling on the total. Without it a customer can tick everything.</td></tr><tr><td><strong>Advanced settings</strong></td><td><strong>Mixed quantity</strong> gives each value its own quantity box, so a customer can take two of one topping and one of another. Available on multi-select types only.</td></tr></tbody></table>
 
 <table><thead><tr><th width="290">Mode</th><th>Three values ticked at $4.00, order quantity 2</th></tr></thead><tbody><tr><td><strong>Default</strong></td><td>$24.00 — each extra follows the product quantity</td></tr><tr><td><strong>One time charge</strong></td><td>$12.00 — each extra charged once</td></tr><tr><td><strong>Mixed quantity</strong></td><td>Whatever the customer sets per value, multiplied as configured</td></tr></tbody></table>
 
@@ -43,9 +43,9 @@ See [Advanced add-on modes](../../add-on-pricing/advanced-add-on-modes.md).
 
 ## Personalizer Settings
 
-Supported as an **image layer**: ticked values can each draw an image onto the product photo. Settings are image shape, background mode, size, position, rotation, clip area, and customer controls. See [Image layers](../../personalizer/layer-settings/image-layers.md).
+Supported as an **image layer**. Each selected value can draw an image onto the product photo. The settings are image shape, background mode, size, position, rotation, clip area, and customer controls. See [Image layers](../../personalizer/layer-settings/image-layers.md).
 
-Bear in mind that several ticks mean several layers, which can overlap. Use the position settings to place them deliberately.
+Several selected values mean several layers, which can overlap. Use the position settings to place each one.
 
 ## Checkbox or Switch?
 
@@ -61,25 +61,25 @@ Use a **Switch** when the customer can select exactly one extra, and a **Checkbo
 
 **Paid extras, capped at two**
 
-Values priced $4.00 each, **Max selections** `2`, **Advanced settings** **One time charge**.
+Values priced at $4.00 each, **Max selections** `2`, and **Advanced settings** set to **One time charge**.
 
 **A required acknowledgement**
 
-One value, `I confirm the spelling is correct`, **Required field** on, no price.
+One value, `I confirm the spelling is correct`, with **Required field** on and no price.
 
-**Colour add-ons with stock**
+**Color add-ons with stock**
 
-**Swatch style** **Color**, each value linked to a generated add-on product, **Out of stock options** **Blur**.
+**Swatch style** set to **Color**, each value linked to a generated add-on product, and **Out of stock options** set to **Blur**.
 
 **A long list, tidied away**
 
-**Enable custom layout** on, **Layout type** **Collapse**, **Scroll type** **By number of option values** showing six.
+**Enable custom layout** on, **Layout type** set to **Collapse**, and **Scroll type** set to **By number of option values**, showing six.
 
 ## Notes
 
 * Available on all plans.
 * Works in Shopify POS.
 * Always multi-select.
-* **Required field** means at least one tick. For "exactly two", use min and max selections.
-* No slider layout — use [Color swatch](color-swatch.md) or [Image swatch](image-swatch.md) for that.
-* Every ticked value appears on the order, so a shopper ticking five values produces five entries.
+* **Required field** means at least one value must be selected. To require exactly two, set both **Min selections** and **Max selections**.
+* There is no slider layout. Use [Color swatch](color-swatch.md) or [Image swatch](image-swatch.md) for that.
+* Every selected value appears on the order, so a customer who selects five values produces five entries.

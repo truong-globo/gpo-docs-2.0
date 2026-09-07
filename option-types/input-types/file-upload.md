@@ -13,7 +13,7 @@ A field the customer uses to attach files. Use it for print-on-demand products, 
 
 An upload control with your label above it. After uploading, the file is listed as a thumbnail if it is an image, or as a link otherwise, depending on your store-wide **File preview** setting.
 
-<figure><img src="../../.gitbook/assets/2026-09-03_10-17-46.png" alt="A file upload field on a storefront product page with an uploaded image shown as a thumbnail"><figcaption><p>Uploaded images can preview as thumbnails, so the shopper can confirm they sent the right file.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2026-09-03_10-17-46.png" alt="A file upload field on a storefront product page with an uploaded image shown as a thumbnail"><figcaption><p>Uploaded images can preview as thumbnails, so the customer can confirm they sent the right file.</p></figcaption></figure>
 
 ## Basic Settings
 

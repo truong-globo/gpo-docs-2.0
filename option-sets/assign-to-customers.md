@@ -1,6 +1,6 @@
 ---
 description: >-
-  Show an option set only to certain shoppers — by tag, name, email, or whether
+  Show an option set only to certain customers — by tag, name, email, or whether
   they are logged in at all.
 icon: user-check
 ---
@@ -21,7 +21,7 @@ Like product rules, the three customer assignment methods are **mutually exclusi
 
 <table><thead><tr><th width="210">Method</th><th>Shows the option set to</th></tr></thead><tbody><tr><td><strong>Everyone</strong></td><td>All visitors, whether signed in or not. This is the default.</td></tr><tr><td><strong>Manual Selection</strong></td><td>Only the specific customers you select from your customer list.</td></tr><tr><td><strong>Automatic Rules</strong></td><td>Customers who match your conditions — customer tag, name, email, logged-in status, or guest status.</td></tr></tbody></table>
 
-<figure><img src="../.gitbook/assets/2026-08-28_14-24-15.png" alt="The Customers tab with the Everyone, Manual Selection, and Automatic Rules blocks"><figcaption><p>Everyone is the default, so an option set reaches all shoppers until you narrow it.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-08-28_14-24-15.png" alt="The Customers tab with the Everyone, Manual Selection, and Automatic Rules blocks"><figcaption><p>Everyone is the default, so an option set reaches all customers until you narrow it.</p></figcaption></figure>
 
 ## Everyone
 
@@ -103,7 +103,7 @@ Click **Add another condition** to add a new row. Each row has a delete action f
 
 ### Worked examples
 
-<table><thead><tr><th width="300">You want</th><th>Set up</th></tr></thead><tbody><tr><td>Wholesale-only bulk options</td><td>Customer tags — is equal to — <code>wholesale</code></td></tr><tr><td>Options only for signed-in shoppers</td><td>Logged-in customer</td></tr><tr><td>A "create an account for engraving" prompt for guests</td><td>Guest (non-logged in customer)</td></tr><tr><td>Free personalisation for VIPs</td><td>Customer tags — is equal to — <code>vip</code>, on a duplicate of your normal set with the add-on prices removed</td></tr><tr><td>One corporate client's branded options</td><td>Customer email — contains — <code>@theircompany.com</code></td></tr><tr><td>Trade customers except those on hold</td><td><strong>all conditions</strong>; Customer tags — is equal to — <code>trade</code>; Customer tags — is not equal to — <code>on-hold</code></td></tr></tbody></table>
+<table><thead><tr><th width="300">You want</th><th>Set up</th></tr></thead><tbody><tr><td>Wholesale-only bulk options</td><td>Customer tags — is equal to — <code>wholesale</code></td></tr><tr><td>Options only for signed-in customers</td><td>Logged-in customer</td></tr><tr><td>A "create an account for engraving" prompt for guests</td><td>Guest (non-logged in customer)</td></tr><tr><td>Free personalization for VIPs</td><td>Customer tags — is equal to — <code>vip</code>, on a duplicate of your normal set with the add-on prices removed</td></tr><tr><td>One corporate client's branded options</td><td>Customer email — contains — <code>@theircompany.com</code></td></tr><tr><td>Trade customers except those on hold</td><td><strong>all conditions</strong>; Customer tags — is equal to — <code>trade</code>; Customer tags — is not equal to — <code>on-hold</code></td></tr></tbody></table>
 
 ## Notes
 

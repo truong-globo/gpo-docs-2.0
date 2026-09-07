@@ -7,15 +7,15 @@ icon: table-cells
 
 # Size chart
 
-A size table. Start with one of thirteen presets for common garment types, or build your own. It opens from a link on the product page, so shoppers can check their measurements without taking up space in the main form.
+A size table. Start with one of thirteen presets for common garment types, or build your own. It opens from a link on the product page, so it takes no space in the main form.
 
-If you sell clothing, shoes, or other wearable products, a size chart can help shoppers choose the right fit and reduce size-related returns.
+If you sell clothing, shoes, or other wearable products, a size chart helps customers choose the right fit and reduces size-related returns.
 
 ## What customers see
 
 A link with your chart header. Selecting it opens the table at the width you set.
 
-<figure><img src="../../.gitbook/assets/2026-09-03_15-55-57.png" alt="A size chart opened from a link on a storefront product page"><figcaption><p>A size chart in the option form, where the shopper is actually choosing a size.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2026-09-03_15-55-57.png" alt="A size chart opened from a link on a storefront product page"><figcaption><p>A size chart in the option form, where the customer is actually choosing a size.</p></figcaption></figure>
 
 ## Basic Settings
 
@@ -27,21 +27,21 @@ A link with your chart header. Selecting it opens the table at the width you set
 
 ## The presets
 
-Selecting a preset fills the table with a standard set of measurements for that garment type, which you then edit to your own sizing.
+Selecting a preset fills the table with a standard set of measurements for that garment type, which you then replace with your own sizing.
 
 <table><thead><tr><th width="230">Preset</th><th width="230">Preset</th><th>Preset</th></tr></thead><tbody><tr><td>Blank</td><td>Men's Bottoms</td><td>Bra</td></tr><tr><td>Jacket</td><td>Women's Bottoms</td><td>Bikini</td></tr><tr><td>Men's Tops</td><td>Men's Shoes</td><td>Pet Clothing</td></tr><tr><td>Women's Tops</td><td>Women's Shoes</td><td>Pet Collar</td></tr><tr><td>Dress</td><td></td><td></td></tr></tbody></table>
 
-**Blank** gives you an empty table to build from scratch.
+**Blank** gives you an empty table to build yourself.
 
 {% hint style="warning" %}
-A preset is only a starting point, not your actual sizing. Replace every measurement with your own. A size chart that does not match the products you ship can cause the very returns it was meant to prevent.
+A preset is a starting point, not your sizing. Replace every measurement with your own. A size chart that does not match the products you ship causes the returns it was meant to prevent.
 {% endhint %}
 
 {% stepper %}
 {% step %}
 ### Choose the closest preset
 
-The table fills with that garment type's usual measurements.
+The table is filled with that garment type's standard measurements.
 {% endstep %}
 
 {% step %}
@@ -53,30 +53,30 @@ Edit the cells directly in the table editor.
 {% step %}
 ### Add or remove rows and columns
 
-Match your real size range, and add any measurement your customers ask about — sleeve length, inside leg, chest at the widest point.
+Match your real size range, and add any measurement your customers ask about, such as sleeve length, inside leg, or chest at the widest point.
 {% endstep %}
 
 {% step %}
-### Say which units you are using
+### State the units
 
-Put it in the **Chart title** or in a header row. `Measurements in cm` removes the most common question.
+Put the units in the **Chart title** or in a header row. `Measurements in cm` answers the most common question.
 {% endstep %}
 
 {% step %}
 ### Check it on a phone
 
-Wide tables are hard on small screens. If it is cramped, reduce the number of columns rather than the width.
+Wide tables are difficult to read on small screens. If the table is cramped, reduce the number of columns rather than the width.
 {% endstep %}
 {% endstepper %}
 
-## Where to put it
+## Where to place it
 
-Directly beside the size option, not at the bottom of the form. A shopper deciding between M and L wants the chart in that moment, and will not scroll to find it.
+Place it directly beside the size option rather than at the bottom of the form. A customer deciding between M and L needs the chart at that point, and will not scroll to find it.
 
-Two arrangements that work:
+Two arrangements work well:
 
 * The size option, then the size chart link immediately below it.
-* A collapsed [Section](section.md) labelled `Size guide` right after the size option.
+* A collapsed [Section](section.md) labeled `Size guide` right after the size option.
 
 ## Examples
 
@@ -86,15 +86,15 @@ Two arrangements that work:
 
 **Two charts on one product**
 
-One Size chart for clothing measurements and a second for shoe sizes, each shown by conditional logic depending on which product type the shopper picked.
+One Size chart for clothing measurements and a second for shoe sizes, each displayed by conditional logic based on the product type the customer selected.
 
 **A pet product**
 
-From the **Pet Collar** preset, with your own neck measurements and a note on how to measure.
+Built from the **Pet Collar** preset, with your own neck measurements and a note on how to measure.
 
 ## Notes
 
 * Available on the Advanced plan.
 * Works in Shopify POS.
-* Content is translatable per storefront language. See [Translate option content](../../translations/translate-option-content.md).
-* One table per Size chart option. For several tables, add several options and reveal them with conditional logic.
+* The content can be translated for each storefront language. See [Translate option content](../../translations/translate-option-content.md).
+* Each Size chart option holds one table. For several tables, add several options and display them with conditional logic.

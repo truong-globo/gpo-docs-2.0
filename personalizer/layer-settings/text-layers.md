@@ -55,7 +55,7 @@ Not every font includes a true italic or bold version. If a custom font does not
 
 An engraved bracelet:
 
-<table><thead><tr><th width="290">Setting</th><th>Value</th></tr></thead><tbody><tr><td>Option type</td><td>Text, <strong>Max character</strong> 15</td></tr><tr><td>Default value</td><td><code>Your name</code></td></tr><tr><td>Text color</td><td>A light grey, matching engraved silver</td></tr><tr><td>Font size</td><td><code>5</code></td></tr><tr><td>Font style</td><td><strong>Normal</strong></td></tr><tr><td>Font family</td><td><strong>Google</strong>, a clean script</td></tr><tr><td>Position</td><td>Centered on the bracelet plate</td></tr><tr><td>Auto-fit max width</td><td>On, so long names shrink rather than overflow</td></tr></tbody></table>
+<table><thead><tr><th width="290">Setting</th><th>Value</th></tr></thead><tbody><tr><td>Option type</td><td>Text, <strong>Max character</strong> 15</td></tr><tr><td>Default value</td><td><code>Your name</code></td></tr><tr><td>Text color</td><td>A light gray, matching engraved silver</td></tr><tr><td>Font size</td><td><code>5</code></td></tr><tr><td>Font style</td><td><strong>Normal</strong></td></tr><tr><td>Font family</td><td><strong>Google</strong>, a clean script</td></tr><tr><td>Position</td><td>Centered on the bracelet plate</td></tr><tr><td>Auto-fit max width</td><td>On, so long names shrink rather than overflow</td></tr></tbody></table>
 
 ## Notes
 

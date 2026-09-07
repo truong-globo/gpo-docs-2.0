@@ -1,55 +1,55 @@
 ---
 description: >-
-  A grid of pictures with adjustable size, zooming tooltips, and slider layouts
-  — for patterns, materials, and designs.
+  A grid of pictures with adjustable size, zooming tooltips, and slider layouts,
+  for patterns, materials, and designs.
 icon: images
 ---
 
 # Image swatch
 
-A grid of pictures, one per value. The type to use when the choice is visual and the picture is the whole decision: fabrics, patterns, print designs, materials, finishes.
+A grid of pictures, one for each value. Use it when the picture is the decision: fabrics, patterns, print designs, materials, and finishes.
 
-It has more presentation settings than any other selection type, because a grid of images is the hardest thing to fit on a product page.
+It has more presentation settings than any other selection type, because a grid of images takes the most space on a product page.
 
 ## What customers see
 
-A grid of picture swatches at the size you set. Hovering shows the value's name, and optionally a zoomed version of the image. Long lists can be shown as a slider.
+A grid of picture swatches at the size you set. Hovering displays the value's name, and optionally a zoomed version of the image. Long lists can be displayed as a slider.
 
 <figure><img src="../../.gitbook/assets/2026-09-03_13-30-15.png" alt="A grid of image swatches on a storefront product page with a zoomed tooltip on the hovered swatch"><figcaption></figcaption></figure>
 
 ## Basic Settings
 
-<table><thead><tr><th width="250">Setting</th><th>What it does</th></tr></thead><tbody><tr><td><a href="../shared-settings/labels-and-visibility.md#label">Label</a> / <a href="../shared-settings/labels-and-visibility.md#name">Name</a></td><td>Customer-facing text, and the name on the order.</td></tr><tr><td><a href="../shared-settings/required-and-default-value.md#required-field">Required field</a></td><td>Blocks add to cart until one is chosen.</td></tr><tr><td><a href="../shared-settings/labels-and-visibility.md#hidden-label">Hidden label</a></td><td>Hides the label.</td></tr><tr><td><strong>Option values</strong></td><td>The choices, each with an <strong>Image</strong> column. Upload a picture or reuse one of the product's own images. See <a href="../../option-sets/option-values.md">Working with option values</a>.</td></tr><tr><td><a href="../shared-settings/selection-behaviour.md#allow-multiple">Allow multiple</a></td><td>Lets the shopper choose several.</td></tr><tr><td><a href="../shared-settings/limits.md#min-and-max-selections">Min selections</a> / <a href="../shared-settings/limits.md#min-and-max-selections">Max selections</a></td><td>Shown once <strong>Allow multiple</strong> is on.</td></tr><tr><td><a href="../shared-settings/placeholder-and-help-text.md#help-text">Help text</a></td><td>Guidance for the whole option.</td></tr><tr><td><a href="../shared-settings/required-and-default-value.md#default-value">Default value</a></td><td>Preselects a value.</td></tr><tr><td><a href="../shared-settings/conditional-logic-and-add-on-fields.md#conditional-logic">Conditional logic</a></td><td>Show or hide based on other choices.</td></tr></tbody></table>
+<table><thead><tr><th width="250">Setting</th><th>What it does</th></tr></thead><tbody><tr><td><a href="../shared-settings/labels-and-visibility.md#label">Label</a> / <a href="../shared-settings/labels-and-visibility.md#name">Name</a></td><td>Customer-facing text, and the name on the order.</td></tr><tr><td><a href="../shared-settings/required-and-default-value.md#required-field">Required field</a></td><td>Blocks add to cart until one is chosen.</td></tr><tr><td><a href="../shared-settings/labels-and-visibility.md#hidden-label">Hidden label</a></td><td>Hides the label.</td></tr><tr><td><strong>Option values</strong></td><td>The choices, each with an <strong>Image</strong> column. Upload a picture or reuse one of the product's own images. See <a href="../../option-sets/option-values.md">Working with option values</a>.</td></tr><tr><td><a href="../shared-settings/selection-behaviour.md#allow-multiple">Allow multiple</a></td><td>Lets the customer choose several.</td></tr><tr><td><a href="../shared-settings/limits.md#min-and-max-selections">Min selections</a> / <a href="../shared-settings/limits.md#min-and-max-selections">Max selections</a></td><td>Shown once <strong>Allow multiple</strong> is on.</td></tr><tr><td><a href="../shared-settings/placeholder-and-help-text.md#help-text">Help text</a></td><td>Guidance for the whole option.</td></tr><tr><td><a href="../shared-settings/required-and-default-value.md#default-value">Default value</a></td><td>Preselects a value.</td></tr><tr><td><a href="../shared-settings/conditional-logic-and-add-on-fields.md#conditional-logic">Conditional logic</a></td><td>Show or hide based on other choices.</td></tr></tbody></table>
 
-There is no **Swatch style** setting — this type is always images.
+This type has no **Swatch style** setting, because it always displays images.
 
 ## Advanced Settings
 
-<table><thead><tr><th width="270">Setting</th><th>What it does</th></tr></thead><tbody><tr><td><a href="../shared-settings/conditional-logic-and-add-on-fields.md#advanced-settings">Advanced settings</a> / <a href="../shared-settings/conditional-logic-and-add-on-fields.md#set-quantity">Set quantity</a></td><td>How add-ons scale — including <strong>Mixed quantity</strong> when multiple is on.</td></tr><tr><td><a href="../shared-settings/collapsible-layouts-and-sliders.md#enable-custom-layout">Enable custom layout</a></td><td>Unlocks the layouts below.</td></tr><tr><td><a href="../shared-settings/collapsible-layouts-and-sliders.md#layout-type">Layout type</a></td><td><strong>Expand</strong>, <strong>Collapse</strong>, or <strong>Slider</strong>.</td></tr><tr><td><a href="../shared-settings/collapsible-layouts-and-sliders.md#scroll-type">Scroll type</a>, <strong>Scroll height</strong>, <strong>Number of option values</strong></td><td>Scroll area for the Expand and Collapse layouts.</td></tr><tr><td><a href="../shared-settings/collapsible-layouts-and-sliders.md#slider-settings">Number of rows</a>, <strong>Swatches per row</strong>, <strong>Show navigation arrows</strong>, <strong>Show indicators</strong>, <strong>Slider style</strong></td><td>Slider layout settings.</td></tr><tr><td><a href="../shared-settings/swatch-style-and-previews.md#swatch-image-width-and-height">Swatch image width</a> / <strong>Swatch image height</strong></td><td>Swatch size in pixels. Both start at <code>60</code>.</td></tr><tr><td><a href="../shared-settings/swatch-style-and-previews.md#tooltip-style">Tooltip style</a></td><td><strong>Text</strong>, or <strong>Text &#x26; image</strong> for a zoomed preview on hover.</td></tr><tr><td><strong>Tooltip image width</strong> / <strong>Tooltip image height</strong></td><td>The zoomed image size. Both start at <code>150</code>. Shown once the tooltip style includes an image.</td></tr><tr><td><a href="../shared-settings/selection-behaviour.md#not-allow-deselect">Not allow deselect</a></td><td>Stops the shopper clearing their choice. Single-select only.</td></tr><tr><td><a href="../shared-settings/direction-width-and-css.md#direction-style">Direction style</a></td><td><strong>Vertical</strong> or <strong>Horizontal</strong>.</td></tr><tr><td><a href="../shared-settings/out-of-stock-options.md">Out of stock options</a></td><td>How sold-out values look.</td></tr><tr><td><a href="../shared-settings/placeholder-and-help-text.md#help-text-position">Help text position</a></td><td>Where the option-level help text sits.</td></tr><tr><td><a href="../shared-settings/direction-width-and-css.md#html-class">HTML class</a> / <a href="../shared-settings/direction-width-and-css.md#column-width">Column width</a></td><td>Styling hook and field width.</td></tr></tbody></table>
+<table><thead><tr><th width="270">Setting</th><th>What it does</th></tr></thead><tbody><tr><td><a href="../shared-settings/conditional-logic-and-add-on-fields.md#advanced-settings">Advanced settings</a> / <a href="../shared-settings/conditional-logic-and-add-on-fields.md#set-quantity">Set quantity</a></td><td>How add-ons scale — including <strong>Mixed quantity</strong> when multiple is on.</td></tr><tr><td><a href="../shared-settings/collapsible-layouts-and-sliders.md#enable-custom-layout">Enable custom layout</a></td><td>Unlocks the layouts below.</td></tr><tr><td><a href="../shared-settings/collapsible-layouts-and-sliders.md#layout-type">Layout type</a></td><td><strong>Expand</strong>, <strong>Collapse</strong>, or <strong>Slider</strong>.</td></tr><tr><td><a href="../shared-settings/collapsible-layouts-and-sliders.md#scroll-type">Scroll type</a>, <strong>Scroll height</strong>, <strong>Number of option values</strong></td><td>Scroll area for the Expand and Collapse layouts.</td></tr><tr><td><a href="../shared-settings/collapsible-layouts-and-sliders.md#slider-settings">Number of rows</a>, <strong>Swatches per row</strong>, <strong>Show navigation arrows</strong>, <strong>Show indicators</strong>, <strong>Slider style</strong></td><td>Slider layout settings.</td></tr><tr><td><a href="../shared-settings/swatch-style-and-previews.md#swatch-image-width-and-height">Swatch image width</a> / <strong>Swatch image height</strong></td><td>Swatch size in pixels. Both start at <code>60</code>.</td></tr><tr><td><a href="../shared-settings/swatch-style-and-previews.md#tooltip-style">Tooltip style</a></td><td><strong>Text</strong>, or <strong>Text &#x26; image</strong> for a zoomed preview on hover.</td></tr><tr><td><strong>Tooltip image width</strong> / <strong>Tooltip image height</strong></td><td>The zoomed image size. Both start at <code>150</code>. Shown once the tooltip style includes an image.</td></tr><tr><td><a href="../shared-settings/selection-behaviour.md#not-allow-deselect">Not allow deselect</a></td><td>Stops the customer clearing their choice. Single-select only.</td></tr><tr><td><a href="../shared-settings/direction-width-and-css.md#direction-style">Direction style</a></td><td><strong>Vertical</strong> or <strong>Horizontal</strong>.</td></tr><tr><td><a href="../shared-settings/out-of-stock-options.md">Out of stock options</a></td><td>How sold-out values look.</td></tr><tr><td><a href="../shared-settings/placeholder-and-help-text.md#help-text-position">Help text position</a></td><td>Where the option-level help text sits.</td></tr><tr><td><a href="../shared-settings/direction-width-and-css.md#html-class">HTML class</a> / <a href="../shared-settings/direction-width-and-css.md#column-width">Column width</a></td><td>Styling hook and field width.</td></tr></tbody></table>
 
-### Size and tooltip together
+### Swatch size and tooltip style
 
-The two settings that matter most on this type are the swatch size and the tooltip style, and they solve opposite problems:
+These are the two most important settings on this type, and they solve opposite problems:
 
-<table><thead><tr><th width="290">Problem</th><th>Answer</th></tr></thead><tbody><tr><td>Detail is not visible in a small swatch</td><td><strong>Tooltip style</strong> <strong>Text &#x26; image</strong> with a large tooltip image — keep swatches small, let the tooltip do the zooming</td></tr><tr><td>The grid dominates the page</td><td>Smaller swatches, or the <strong>Slider</strong> layout</td></tr><tr><td>Shoppers cannot tell two patterns apart</td><td>Larger swatches, plus the zooming tooltip</td></tr><tr><td>Non-square products look wrong</td><td>Rectangular swatches — width and height are independent</td></tr></tbody></table>
+<table><thead><tr><th width="290">Problem</th><th>Answer</th></tr></thead><tbody><tr><td>Detail is not visible in a small swatch</td><td><strong>Tooltip style</strong> <strong>Text &#x26; image</strong> with a large tooltip image — keep swatches small, let the tooltip do the zooming</td></tr><tr><td>The grid dominates the page</td><td>Smaller swatches, or the <strong>Slider</strong> layout</td></tr><tr><td>Customers cannot tell two patterns apart</td><td>Larger swatches, plus the zooming tooltip</td></tr><tr><td>Non-square products look wrong</td><td>Rectangular swatches — width and height are independent</td></tr></tbody></table>
 
-Remember that hover does not exist in the same way on touch devices. Anything essential should be in the value's own help text rather than a tooltip.
+Touch devices do not have a hover state, so put anything essential in the value's own help text rather than in a tooltip.
 
 ## Personalizer Settings
 
-Supported as an **image layer**: the selected value's image is drawn onto the product photo. Settings are image shape, background mode, size, position, rotation, clip area, and customer controls.
+Supported as an **image layer**. The selected value's image is drawn onto the product photo. The settings are image shape, background mode, size, position, rotation, clip area, and customer controls.
 
-This is one of the strongest combinations in the app — a grid of designs, and the chosen design appearing on the product immediately. See [Image layers](../../personalizer/layer-settings/image-layers.md).
+This gives the customer a grid of designs and shows the selected design on the product immediately. See [Image layers](../../personalizer/layer-settings/image-layers.md).
 
 ## Add-on pricing
 
-Prices belong to each value, so premium fabrics can cost more than standard ones. Linking values to add-on products gives each design its own stock.
+Prices are set on each value, so premium fabrics can cost more than standard ones. Linking values to add-on products gives each design its own inventory.
 
 See [Add-on pricing](../../add-on-pricing/).
 
 ## Preparing your images
 
-Presentation settings can only do so much with inconsistent source images. Before uploading:
+The presentation settings cannot correct inconsistent source images. Before uploading:
 
 * Crop every image to the same proportions. Mismatched crops can make a grid look untidy, regardless of how you size it.
 * Photograph or scan images from the same distance and under similar lighting so colors are consistent.
@@ -64,20 +64,20 @@ Presentation settings can only do so much with inconsistent source images. Befor
 
 **Six print designs, large**
 
-Swatches at `120` × `120`, no slider, **Personalizer** on so the chosen design appears on the product photo.
+Swatches at `120` × `120`, no slider, and **Personalizer** on so the selected design is displayed on the product photo.
 
 **Fabric strips**
 
-Swatches at `140` wide × `40` high, matching the shape of the material.
+Swatches at `140` wide and `40` high, matching the shape of the material.
 
 **Designs with different prices**
 
-Standard designs free, licensed artwork priced through **Use existing product** so it maps to a real SKU.
+Standard designs are free, and licensed artwork is priced through **Use existing product** so it maps to a real SKU.
 
 ## Notes
 
-* Available on all plans. Slider layout is separately plan-gated.
+* Available on all plans. The slider layout may not be available on all plans.
 * Works in Shopify POS.
-* Every value needs an image; without one the swatch is blank.
-* Swatch sizes control how the image is displayed; they do not resize the uploaded file.
-* Value names appear only on hover, so put any essential information in the per-value help text.
+* Every value needs an image. Without one, the swatch is blank.
+* The swatch sizes control how the image is displayed. They do not resize the uploaded file.
+* Value names are displayed only on hover, so put any essential information in the per-value help text.

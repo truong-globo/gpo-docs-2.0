@@ -5,7 +5,7 @@ icon: brackets-curly
 
 # Liquid variables reference
 
-Both the [email notification](email-notification.md) and [order notes](update-order-notes.md) templates accept Liquid variables. The app carries this list built in, reachable from the editor itself, so you never need to leave the page to check a name.
+Both the [email notification](email-notification.md) and [order notes](update-order-notes.md) templates accept Liquid variables. The app includes this list in each editor, so you can check a variable name without leaving the page.
 
 ## General
 
@@ -23,7 +23,7 @@ Order-level values.
 
 ## Line item details
 
-Line items need a loop. Everything inside it uses `line`.
+Line items require a loop. Everything inside the loop uses `line`.
 
 ```liquid
 {% for line in line_items %}
@@ -38,15 +38,15 @@ Line items need a loop. Everything inside it uses `line`.
 
 ## The properties loop
 
-`line.properties` is where the options are. Each entry has a name and a value.
+`line.properties` contains the options. Each entry has a name and a value.
 
 <table><thead><tr><th width="230">Inside the loop</th><th>Contains</th></tr></thead><tbody><tr><td><code>{{ p.first }}</code></td><td>The option's <strong>Name</strong> — which is why <a href="../option-types/shared-settings/labels-and-visibility.md">Name</a> matters</td></tr><tr><td><code>{{ p.last }}</code></td><td>What the customer entered or chose</td></tr></tbody></table>
 
 {% hint style="warning" %}
-**Skip properties whose name begins with an underscore.** Those are the app's internal properties — they link add-ons to their parent item and carry pricing data, and they are not for your team to read.
+**Skip properties whose name begins with an underscore.** Those are the app's internal properties. They link add-ons to their parent item and carry pricing data, and your team does not need to read them.
 {% endhint %}
 
-The pattern that handles both that and uploaded files:
+This pattern skips those properties and handles uploaded files:
 
 ```liquid
 {% for p in line.properties %}
@@ -62,9 +62,9 @@ The pattern that handles both that and uploaded files:
 {% endfor %}
 ```
 
-Two things it does: it skips internal properties and empty values, and it renders an uploaded file as a link with a readable name rather than a long address.
+It skips internal properties and empty values, and it displays an uploaded file as a link with a readable name rather than a long address.
 
-See [Line item properties](../storefront/show-options-on-orders.md).
+See [Show options on orders](../storefront/show-options-on-orders.md).
 
 ## A complete order note template
 
@@ -77,11 +77,11 @@ See [Line item properties](../storefront/show-options-on-orders.md).
 {% endfor %}
 ```
 
-Compact on purpose: order notes are displayed and printed in small boxes.
+Keep the template compact, because order notes are displayed and printed in a small area.
 
 ## Notes
 
-* The variable list in the app is the authoritative one, and it is one click away in both editors.
-* Money values need the `money` filter to be formatted — without it you get a raw number.
-* Both templates have **Revert to default** if you break them.
-* Order notes are often printed as plain text, so keep HTML formatting minimal there. Emails can carry more.
+* The variable list in the app is the current one, and it is available in both editors.
+* Money values need the `money` filter to be formatted. Without it, the template prints a raw number.
+* Both templates have a **Revert to default** action.
+* Order notes are often printed as plain text, so keep HTML formatting to a minimum there. Emails can include more.

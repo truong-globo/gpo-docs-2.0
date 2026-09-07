@@ -11,7 +11,7 @@ Two groups in **Settings** > **Settings** > **Design**. Both store-wide.
 
 Three control families, each with a size and a radius.
 
-<table><thead><tr><th width="230">Family</th><th>Covers</th></tr></thead><tbody><tr><td><strong>Input</strong></td><td>Text fields, number fields, textareas</td></tr><tr><td><strong>Dropdown</strong></td><td>Dropdowns and select fields</td></tr><tr><td><strong>Swatch</strong></td><td>Colour and image swatches, and buttons</td></tr></tbody></table>
+<table><thead><tr><th width="230">Family</th><th>Covers</th></tr></thead><tbody><tr><td><strong>Input</strong></td><td>Text fields, number fields, textareas</td></tr><tr><td><strong>Dropdown</strong></td><td>Dropdowns and select fields</td></tr><tr><td><strong>Swatch</strong></td><td>Color and image swatches, and buttons</td></tr></tbody></table>
 
 Each takes:
 
@@ -19,13 +19,13 @@ Each takes:
 
 ### Matching your theme
 
-Border radius is the setting that most often gives away a widget as an add-on. A theme with fully rounded buttons and a widget with square fields looks wrong even when every colour matches.
+Border radius is the setting that most often makes the widget look separate from the page. Fully rounded buttons in your theme next to square fields in the widget look wrong even when the colors match.
 
 <table><thead><tr><th width="290">Your theme's controls</th><th>Set radius to roughly</th></tr></thead><tbody><tr><td>Sharp, square corners</td><td><code>0</code></td></tr><tr><td>Slightly softened</td><td><code>2</code> to <code>4</code></td></tr><tr><td>Noticeably rounded</td><td><code>8</code> to <code>12</code></td></tr><tr><td>Pill-shaped</td><td>A large value, around <code>50</code></td></tr></tbody></table>
 
-Copy the values from your theme's own settings rather than guessing.
+Copy the values from your theme's own settings.
 
-A thicker **Swatch** border makes the selected state easier to see, which is worth a point or two on its own. See [Colors](colors.md#swatches).
+A thicker **Swatch** border makes the selected state easier to see. See [Colors](colors.md#swatches).
 
 ## Typography
 
@@ -37,37 +37,37 @@ Each style offers:
 
 <table><thead><tr><th width="290">Control</th><th>What it does</th></tr></thead><tbody><tr><td>Font family</td><td>A font from the app's list</td></tr><tr><td>Font variant</td><td>The weight or style — regular, 600, and so on. The available variants depend on the font</td></tr><tr><td>Font size</td><td>In pixels</td></tr><tr><td>Custom font</td><td>Switch to one of your uploaded fonts instead. See <a href="../settings/custom-fonts.md">Custom fonts</a></td></tr></tbody></table>
 
-### Getting typography right
+### Setting up typography
 
 {% stepper %}
 {% step %}
 ### Use your theme's fonts, not similar ones
 
-Two similar sans-serifs on one page look like a mistake. Match exactly, or use one font for everything.
+Two similar sans-serif fonts on one page look like a mistake. Match your theme's fonts exactly, or use one font throughout.
 {% endstep %}
 
 {% step %}
 ### Make labels heavier than values
 
-A heavier label and a regular value gives the form a clear reading order. That is why the label style starts at a heavier variant than the others.
+A heavier label with a regular value gives the form a clear reading order. This is why the label style defaults to a heavier variant than the others.
 {% endstep %}
 
 {% step %}
 ### Keep help text smaller, but not too small
 
-A point or two below the main text. Below about 12 pixels it stops being read at all, which defeats the purpose.
+Set help text one or two points below the main text. Below about 12 pixels, most customers stop reading it.
 {% endstep %}
 
 {% step %}
 ### Check non-Latin scripts
 
-Many fonts have no Arabic, Hebrew, Thai, or CJK glyphs, and missing glyphs fall back to a system font. See <a href="../translations/rtl-and-non-latin.md">Right-to-left and non-Latin text</a>.
+Many fonts do not include Arabic, Hebrew, Thai, or CJK glyphs, and missing glyphs fall back to a system font. See <a href="../translations/rtl-and-non-latin.md">Right-to-left and non-Latin text</a>.
 {% endstep %}
 
 {% step %}
 ### Check on a phone
 
-Text that is comfortable on a monitor can be tight on a phone.
+Text that is comfortable on a monitor can be cramped on a phone.
 {% endstep %}
 {% endstepper %}
 
@@ -77,7 +77,7 @@ Text that is comfortable on a monitor can be tight on a phone.
 
 ## Notes
 
-* Both groups work alongside [Match theme style](match-your-theme-style.md) — use the switch as a base and adjust from here.
-* Store-wide, with no per-option-set override. Use an [HTML class](../option-types/shared-settings/direction-width-and-css.md#html-class) and [custom CSS](custom-css.md) if you need one.
+* Both groups work alongside [Match theme style](match-your-theme-style.md), so you can turn on the switch and then adjust the values here.
+* These settings are store-wide, with no per-option-set override. To style one option set differently, use an [HTML class](../option-types/shared-settings/direction-width-and-css.md#html-class) and [custom CSS](custom-css.md).
 * The Personalizer's fonts are set per layer and are separate from these. See [Fonts](../personalizer/layer-settings/fonts.md).
 * Custom fonts must be uploaded before they appear here. See [Custom fonts](../settings/custom-fonts.md).

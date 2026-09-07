@@ -5,54 +5,54 @@ icon: diagram-project
 
 # How it works
 
-You do not need this to use the app. It is worth reading once, because it explains four things that otherwise look like faults:
+You do not need to read this to use the app, but it explains four things that can otherwise look like faults:
 
 * why the app embed matters
 * why the price on the product page is only a preview
-* why your option details reach the order with no setup from you
+* why your option details are stored in the order with no setup from you
 * why a change sometimes needs a refresh before it appears
 
 {% stepper %}
 {% step %}
 ### You build an option set
 
-You add options, set add-on pricing, and choose which products, customers, and countries it applies to. When you save, the app also publishes a copy of it to your Shopify store as store data, so your storefront can read it without waiting on a request to the app.
+You add options, set add-on pricing, and select which products, customers, and countries the option set applies to. When you save, the app publishes a copy of it to your Shopify store as store data, so your storefront can read it without sending a request to the app.
 
-That publish step is why a change appears within seconds rather than instantly — and why a hard refresh sometimes shows an update a cached page did not.
+This publish step is why a change appears within a few seconds rather than immediately, and why a hard refresh sometimes displays an update that a cached page did not.
 {% endstep %}
 
 {% step %}
-### The theme app embed renders it
+### The theme app embed displays it
 
-Once the [app embed](../getting-started/enable-the-app-embed.md) is enabled on your theme, it checks every page a shopper visits and works out which of your option sets apply. Four things decide that: the product, the customer, their country, and whether the set is active on this sales channel. Matching sets are rendered as the widget.
+Once the [app embed](../getting-started/enable-the-app-embed.md) is enabled on your theme, it checks every page a customer visits and determines which of your option sets apply. Four things decide this: the product, the customer, their country, and whether the option set is active on that sales channel. Matching option sets are displayed as the widget.
 
-If nothing applies, it does nothing and gets out of the way.
+If no option set applies, the app displays nothing.
 {% endstep %}
 
 {% step %}
-### The customer fills it in
+### The customer completes the form
 
-As they interact, the app runs [conditional logic](../conditional-logic/README.md), redraws [the live preview](../personalizer/README.md), and adds up a running price preview.
+As the customer makes selections, the app runs [conditional logic](../conditional-logic/README.md), redraws [the live preview](../personalizer/README.md), and updates the price preview.
 
-When they select **Add to cart**, everything is validated first — required fields, character limits, minimum and maximum selections, allowed file types. If something is wrong the add is blocked and the error is shown.
+When they select **Add to cart**, the app validates everything first: required fields, character limits, minimum and maximum selections, and allowed file types. If something is invalid, the item is not added and an error message is displayed.
 {% endstep %}
 
 {% step %}
-### The selections travel with the order
+### The selections are stored in the order
 
-What the customer entered is attached to the cart line as line item properties — Shopify's own mechanism for custom order details. That is why the information appears, with no further setup from you, on the cart, at checkout, on the order in your admin, and in order confirmation emails, invoices, and packing slips.
+What the customer entered is attached to the cart line as line item properties, which is Shopify's own mechanism for custom order details. This is why the information appears without further setup on the cart, at checkout, on the order in your admin, and in order confirmation emails, invoices, and packing slips.
 
-Properties whose name starts with an underscore are the app's own bookkeeping, and Shopify keeps them out of the way. A custom template may print them anyway — see [Show options on orders](../storefront/show-options-on-orders.md).
+Properties whose name starts with an underscore are internal to the app, and Shopify hides them. A custom template can still print them. See [Show options on orders](../storefront/show-options-on-orders.md).
 
 Any add-on backed by a product is added as its own cart line, linked to the main item.
 {% endstep %}
 
 {% step %}
-### Pricing is finalised at checkout
+### Pricing is applied at checkout
 
-A storefront cannot change what a customer is actually charged — only Shopify can. So while shopping the app shows a *preview* of the total, and at checkout Shopify applies the real prices for the add-ons that were selected.
+A storefront cannot change what a customer is charged. Only Shopify can. While the customer is shopping, the app displays a *preview* of the total, and at checkout Shopify applies the actual prices of the add-ons that were selected.
 
-The amount charged always matches the choices made, even though the number on the product page was calculated in the browser. It also means a shopper cannot tamper with add-on prices, and that discount codes are worth testing against a real order — see [Add-on pricing limitations](../add-on-pricing/limitations.md).
+The amount charged always matches the customer's selections, even though the figure on the product page was calculated in the browser. This also means a customer cannot change add-on prices, and that you should test discount codes against a real order. See [Add-on pricing limitations](../add-on-pricing/limitations.md).
 {% endstep %}
 {% endstepper %}
 
@@ -62,6 +62,6 @@ The amount charged always matches the choices made, even though the number on th
 
 ## What the app does not do
 
-* It does not create Shopify variants. Options sit alongside your product's variants rather than multiplying them, which is how it gets past Shopify's variant limit.
+* It does not create Shopify variants. Options are displayed alongside your product's variants rather than multiplying them, which is how the app works around Shopify's variant limit.
 * It does not edit your theme's code. Everything runs through Shopify's theme app extension system.
-* It does not change your product prices in Shopify. Add-ons are charged on top at checkout; your product's own price is untouched.
+* It does not change your product prices in Shopify. Add-ons are charged in addition at checkout, and your product's own price is not changed.

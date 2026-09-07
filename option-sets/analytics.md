@@ -42,7 +42,7 @@ The app also loads the equivalent previous period so you can see how your result
 
 **Revenue from add-ons vs. total revenue.** If add-ons account for only a small share of total revenue, the option set may be helping customers complete their purchases rather than generating significant additional revenue. That can be perfectly fine — it simply means pricing may not be the main source of value.
 
-**Most valued options.** Look at both ends of the list. The most popular options may be candidates for a price increase or greater visibility — move them higher in the option or make one the default value. Options at the bottom, especially those with very few purchases, may be candidates for removal. Every unused choice adds another decision for shoppers.
+**Most valued options.** Look at both ends of the list. The most popular options may be candidates for a price increase or greater visibility — move them higher in the option or make one the default value. Options at the bottom, especially those with very few purchases, may be candidates for removal. Every unused choice adds another decision for customers.
 
 **Order revenue distribution.** A low **With Add-ons** share can indicate that the paid option is not visible or compelling enough. Consider clearer help text, a more descriptive label, or moving the option above the **Add to cart** button.
 
@@ -56,7 +56,7 @@ Use the dashboard for the overall picture, and the option set analytics page whe
 
 ## Notes
 
-* Analytics are based on order data, so they cover completed orders rather than carts or product-page views. The app does not measure how many shoppers saw an option but chose not to use it.
+* Analytics are based on order data, so they cover completed orders rather than carts or product-page views. The app does not measure how many customers saw an option but chose not to use it.
 * If an order contains two option sets, it contributes to the analytics for both sets.
 * Money is displayed using your store’s currency format.
 * Refunds and cancellations are reflected based on the order data available to the app. Figures for a recent period may take a day or two to settle.

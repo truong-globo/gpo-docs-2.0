@@ -31,6 +31,10 @@ Names that match existing options are renumbered automatically, and conditional 
 
 See [Build your options](../option-sets/build-options.md).
 
+<figure><img src="../.gitbook/assets/2026-09-07_10-55-20.png" alt=""><figcaption></figcaption></figure>
+
+
+
 ## Notes
 
 * Templates may not be available on all plans. See [Compare plans](../plans/compare-plans.md).

@@ -1,5 +1,7 @@
 ---
-description: How the app works alongside page builders, other Globo apps, and third-party apps and themes.
+description: >-
+  How the app works alongside page builders, other Globo apps, and third-party
+  apps and themes.
 icon: puzzle-piece
 ---
 
@@ -30,4 +32,4 @@ Contact support about:
 * Options not rendering on a page built with a page builder
 * Anything that works on one theme and not on another
 
-Include your theme name, the app involved, and a link to the page. See [Contact support](../help/contact-support.md).
+Remember to include your theme name, the app involved, and a link to the page. See [Contact support](../help/contact-support.md).

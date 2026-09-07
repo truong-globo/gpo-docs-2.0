@@ -11,9 +11,7 @@ icon: brush
 
 <table><thead><tr><th width="230">Element</th><th>What it does</th></tr></thead><tbody><tr><td>Theme selector</td><td>Lists every theme in your store. Your published theme is marked <strong>(Live theme)</strong></td></tr><tr><td><strong>App embed</strong> badge</td><td><strong>Activated</strong> or <strong>Deactivated</strong> for the selected theme</td></tr><tr><td><strong>Go to Theme Editor</strong></td><td>Appears when the selected theme shows <strong>Deactivated</strong>. Opens the Shopify theme editor at the app embed</td></tr></tbody></table>
 
-<!-- SCREENSHOT: settings-theme-setup | App admin → Settings → Theme Setup | Dropdown theme, badge App embed, nút Go to Theme Editor | Khoanh badge và nút -->
-
-<figure><img src="../.gitbook/assets/placeholder.png" alt="The Theme Setup page with a theme selected and its app embed status"><figcaption><p>Select a theme, and the badge tells you whether the app is running on it.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-09-07_11-49-06.png" alt="The Theme Setup page with a theme selected and its app embed status"><figcaption><p>Select a theme, and the badge tells you whether the app is running on it.</p></figcaption></figure>
 
 ## The app embed
 

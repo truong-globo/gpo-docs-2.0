@@ -13,6 +13,8 @@ Uploading your own fonts makes the preview accurate. If your engraving machine u
 
 **Settings** > **Settings** > **General** > **Custom fonts**.
 
+<figure><img src="../.gitbook/assets/2026-09-07_11-51-14.png" alt=""><figcaption></figcaption></figure>
+
 ## Steps
 
 {% stepper %}
@@ -54,10 +56,6 @@ The font now appears wherever you select a font:
 Uploading and testing is the only reliable check. Try accented letters, apostrophes, and digits, because display and script fonts often omit some characters.
 {% endstep %}
 {% endstepper %}
-
-<!-- SCREENSHOT: settings-custom-fonts | App admin → Settings → General → Custom fonts | Khu vực upload font với Font name và Font file, danh sách font đã upload | Khoanh khu vực upload -->
-
-<figure><img src="../.gitbook/assets/placeholder.png" alt="The custom fonts area with the font name field and upload zone"><figcaption><p>One upload, then the font is available everywhere fonts are chosen.</p></figcaption></figure>
 
 ## Accepted formats
 

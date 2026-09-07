@@ -5,17 +5,13 @@ icon: sliders
 
 # General settings
 
-**Settings** > **Settings** > **General** contains six groups. Each setting below links to the page that explains it in full.
+**Settings** > **Settings** > **General** contains 4 groups. Each setting below links to the page that explains it in full.
 
 ## Widget Settings
 
 <table><thead><tr><th width="290">Setting</th><th width="150">Default</th><th>What it does</th></tr></thead><tbody><tr><td><strong>Widget placement</strong></td><td><strong>Above add to cart button</strong></td><td>Where the widget sits on the product page. Eight choices — four relative to theme elements, four relative to a CSS selector. See <a href="../storefront/widget-placement.md">Widget placement</a></td></tr><tr><td><strong>Selector of the HTML element</strong></td><td>Empty</td><td>Only shown for the four custom placements. The CSS selector to position against</td></tr><tr><td><strong>Alignment</strong></td><td><strong>Left</strong></td><td><strong>Left</strong>, <strong>Center</strong>, <strong>Right</strong>, or <strong>Right to left</strong>. See <a href="../storefront/widget-behavior.md">Widget behavior</a></td></tr><tr><td><strong>Show tooltip when hovering over options</strong></td><td>On</td><td>Shows the value's name when hovering a swatch</td></tr><tr><td><strong>Display selected value next to label</strong></td><td>On</td><td>Shows the chosen value beside the option's label</td></tr><tr><td><strong>Limit widget height (scroll if too long)</strong></td><td>Off</td><td>Caps the widget's height and scrolls inside it</td></tr><tr><td><strong>Fixed height</strong></td><td>Empty</td><td>The height in pixels. Only shown when the limit is on</td></tr></tbody></table>
 
 The group also includes a tip pointing to the theme editor, because an [app block](../getting-started/add-the-app-block.md) is usually a more reliable way to place the widget than a CSS selector.
-
-## Collection page
-
-<table><thead><tr><th width="290">Setting</th><th width="150">Default</th><th>What it does</th></tr></thead><tbody><tr><td><strong>Show options on Quickview popups</strong></td><td>On</td><td>Renders options inside collection-page quickviews. Without it, customers can add to cart from a quickview without seeing your options. See <a href="/broken/pages/z3MOr9S1i9k8wdOYumws">Quickview and other pages</a></td></tr></tbody></table>
 
 ## Product page
 
@@ -27,19 +23,13 @@ The group also includes a tip pointing to the theme editor, because an [app bloc
 
 See [Cart page](../storefront/cart-page.md).
 
-## Other pages
-
-<table><thead><tr><th width="290">Setting</th><th width="150">Default</th><th>What it does</th></tr></thead><tbody><tr><td><strong>Show widget on home page (featured product section only)</strong></td><td>On</td><td>Options in a featured product section on your home page</td></tr><tr><td><strong>Show widget on regular page (featured product section only)</strong></td><td>On</td><td>The same on other pages</td></tr></tbody></table>
-
-Both settings also require the [app block](../getting-started/add-the-app-block.md) to be placed in that section. See [Quickview and other pages](/broken/pages/z3MOr9S1i9k8wdOYumws).
-
 ## Custom fonts
 
 <table><thead><tr><th width="290">Setting</th><th>What it does</th></tr></thead><tbody><tr><td><strong>Custom fonts</strong></td><td>Upload your own font files, then use them in the widget's typography and in the Personalizer. See <a href="custom-fonts.md">Custom fonts</a></td></tr></tbody></table>
 
-## Five settings to check on a new store
+## Four settings to check on a new store
 
-<table><thead><tr><th width="330">Setting</th><th>Why</th></tr></thead><tbody><tr><td><strong>Widget placement</strong></td><td>The default suits most themes, but check it looks right on yours</td></tr><tr><td><strong>Show options on Quickview popups</strong></td><td>If your theme has quickviews, this prevents orders with no options</td></tr><tr><td><strong>Auto-scroll to first error message</strong></td><td>Leave it on. Customers otherwise think the button is broken</td></tr><tr><td><strong>Hide quantity box and remove button for add-on products</strong></td><td>Leave it on. Protects the integrity of add-on orders</td></tr><tr><td><strong>Show "Edit Options" button in cart</strong></td><td>Worth turning on if you sell personalized products</td></tr></tbody></table>
+<table><thead><tr><th width="330">Setting</th><th>Why</th></tr></thead><tbody><tr><td><strong>Widget placement</strong></td><td>The default suits most themes, but check it looks right on yours</td></tr><tr><td><strong>Auto-scroll to first error message</strong></td><td>Leave it on. Customers otherwise think the button is broken</td></tr><tr><td><strong>Hide quantity box and remove button for add-on products</strong></td><td>Leave it on. Protects the integrity of add-on orders</td></tr><tr><td><strong>Show "Edit Options" button in cart</strong></td><td>Worth turning on if you sell personalized products</td></tr></tbody></table>
 
 ## Notes
 

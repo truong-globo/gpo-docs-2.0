@@ -56,12 +56,10 @@ Test the add-to-cart flow, not just the appearance. A page where the options app
 A landing page that shows one product is a simpler case. Set it up as a featured product:
 
 * Add the app block inside the section showing the product
-* Turn on **Show widget on regular page** in **Settings** > **Settings** > **General**
-
-See [Quickview and other pages](/broken/pages/z3MOr9S1i9k8wdOYumws).
+* Test again - if it doesn't work, contact support for further troubleshooting.
 
 ## Notes
 
 * The app embed must be enabled on the theme, whatever the page is built with.
-* Option sets still need to be **Active**, published to **Online Store**, and matched by their product rule.
+* Option sets still need to be **Active**, published to the **Online Store**, and matched by their product rule.
 * A builder page that does not use a real Shopify product cannot display options, because there is no product to attach them to.

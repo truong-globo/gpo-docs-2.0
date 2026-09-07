@@ -9,9 +9,7 @@ icon: gear
 
 <table><thead><tr><th width="230">Tab</th><th>Contains</th></tr></thead><tbody><tr><td><strong>Settings</strong></td><td>Three sections: <strong>General</strong>, <strong>Design</strong>, and <strong>Add-on price</strong></td></tr><tr><td><strong>Translations</strong></td><td>The widget's fixed text and every validation message, per language</td></tr><tr><td><strong>Theme Setup</strong></td><td>Choosing a theme and turning the app embed on or off</td></tr></tbody></table>
 
-<!-- SCREENSHOT: settings-tabs | App admin → Settings | 3 tab Settings / Translations / Theme Setup và 3 section trong tab Settings | Khoanh hàng 3 tab -->
-
-<figure><img src="../.gitbook/assets/placeholder.png" alt="The settings page with its three tabs and the three sections inside Settings"><figcaption><p>Three tabs, and three sections inside the first one.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-09-07_11-44-16.png" alt="The settings page with its three tabs and the three sections inside Settings"><figcaption><p>Three tabs, and three sections inside the first one.</p></figcaption></figure>
 
 ## Finding a setting
 

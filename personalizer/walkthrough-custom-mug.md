@@ -27,7 +27,7 @@ Replace the product and wording with your own. The same method applies to a fram
 
 Rename the starting section to `Personalize your mug`.
 
-Then, before anything else, open **Change background** in the preview panel:
+Then, open **Change background** in the preview panel:
 
 * **Background**: **Product image**
 * **Apply to**: **First product image only**
@@ -39,7 +39,7 @@ Every position you set from this point is measured against that photo, so set th
 {% step %}
 ### Add the name field
 
-Add a [Text](../option-types/input-types/text.md) option and set, on **Basic Settings**:
+Add a [Text](../option-types/input-types/text.md) option and set in **Basic Settings**:
 
 <table><thead><tr><th width="230">Field</th><th width="180">Value</th><th>Why</th></tr></thead><tbody><tr><td><strong>Label</strong> / <strong>Name</strong></td><td><code>Name on mug</code></td><td>Readable on the order</td></tr><tr><td><strong>Max character</strong></td><td><code>12</code></td><td>What actually fits on the printable band</td></tr><tr><td><strong>Character counter</strong></td><td><strong>Show</strong></td><td>They see the limit approaching</td></tr><tr><td><strong>Default value</strong></td><td><code>Your name</code></td><td>So the preview is never empty</td></tr><tr><td><strong>Text transform</strong></td><td><strong>Capitalized</strong></td><td>Every mug looks consistent</td></tr><tr><td><strong>Help text</strong></td><td><code>Up to 12 characters. Printed items cannot be returned.</code></td><td>No surprises</td></tr></tbody></table>
 {% endstep %}
@@ -78,7 +78,7 @@ Add a [File upload](../option-types/input-types/file-upload.md) option:
 {% step %}
 ### Turn on the Personalizer for the photo
 
-On its **Personalizer Settings**:
+In its **Personalizer Settings**:
 
 <table><thead><tr><th width="230">Setting</th><th width="180">Value</th><th>Why</th></tr></thead><tbody><tr><td><strong>Image shape</strong></td><td>A rectangle matching your print panel</td><td>The photo reads as printed, not pasted</td></tr><tr><td><strong>Background mode</strong></td><td><strong>Cover</strong></td><td>Fills the panel whatever shape they upload</td></tr><tr><td><strong>Width</strong> / <strong>Height</strong></td><td>Sized to the panel</td><td></td></tr><tr><td><strong>X-Axis</strong> / <strong>Y-Axis</strong></td><td>Positioned on the panel, below the name</td><td>So the two layers do not overlap</td></tr><tr><td><strong>Enable clip area</strong></td><td>On, matching the print panel, outline visible</td><td>Nothing can stray off the printable area</td></tr><tr><td><strong>Allow customers to</strong></td><td><strong>Change position</strong>, <strong>Resize</strong></td><td>Only they know which part of their photo matters</td></tr><tr><td><strong>Rotate</strong></td><td>Off</td><td>A rotated photo on a mug looks like a mistake</td></tr></tbody></table>
 

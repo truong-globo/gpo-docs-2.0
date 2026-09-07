@@ -1,5 +1,5 @@
 ---
-description: Personalizer problems by symptom, in the order worth checking.
+description: Personalizer issues by symptom, in the order to check them.
 icon: wrench
 ---
 
@@ -39,7 +39,7 @@ That option type does not support the Personalizer. Twelve supported types inclu
 
 <summary>The tab is there but everything is grayed out</summary>
 
-The Personalizer is not in your plan.
+The Personalizer feature is not available in your plan.
 
 </details>
 
@@ -47,7 +47,7 @@ The Personalizer is not in your plan.
 
 <summary>It works in the builder but not on the storefront</summary>
 
-Save the option set, then reload the product page. Also confirm the option set is **Active** and published to the **Online Store**, and that the product you are testing on is one it applies to.
+Save the option set, then reload the product page. Also confirm that the option set is **Active** and published to the **Online Store**, and that the product you are testing on is one it applies to.
 
 </details>
 
@@ -101,7 +101,7 @@ Turn on [Auto-fit max width](layer-settings/curve-and-auto-fit.md#auto-fit-max-w
 
 <summary>Long text shrinks until it is unreadable</summary>
 
-Your character limit is too generous for the printable area. Lower **Max character**.
+The character limit is too high for the printable area. Lower **Max character**.
 
 </details>
 
@@ -125,7 +125,7 @@ Confirm that it is still selected, then save and reload. For custom fonts, check
 
 <summary>Some characters render in a different font</summary>
 
-The font has no glyphs for them. Choose one with a fuller character set and test with accented names.
+The font does not include glyphs for these characters. Choose a font with a broader character set and test it with names that include accented characters.
 
 </details>
 
@@ -133,7 +133,7 @@ The font has no glyphs for them. Choose one with a fuller character set and test
 
 <summary>The curve looks wrong</summary>
 
-Adjust the value, and try a negative value if the arc bends the wrong way. If your product photo is at an angle, no curve value will produce a correct result. Use a flat, front-facing photo.
+Adjust the value and try a negative value if the arc bends the wrong way. If your product photo is at an angle, no curve value will produce a correct result. Use a flat, front-facing photo.
 
 </details>
 
@@ -167,7 +167,7 @@ The font has no true bold or italic cut. Upload the proper weight as a custom fo
 
 <summary>The image looks soft</summary>
 
-The uploaded file is smaller than the size it is drawn at. Ask for a minimum resolution in help text.
+The uploaded file is smaller than the size it is drawn at. Ask for a minimum resolution in the help text.
 
 </details>
 
@@ -175,7 +175,7 @@ The uploaded file is smaller than the size it is drawn at. Ask for a minimum res
 
 <summary>Selection values draw no image</summary>
 
-Each value needs its own image in the values table. Check every value, not just the first.
+Each value needs its own image in the value table. Check every value, not just the first.
 
 </details>
 
@@ -183,7 +183,7 @@ Each value needs its own image in the values table. Check every value, not just 
 
 <summary>Several images stack on top of each other</summary>
 
-A multi-select option contributes one layer per selection. Limit it to one selection, or position for the overlap.
+A multi-select option contributes one layer per selection. Limit it to one selection, or position it for the overlap.
 
 </details>
 
@@ -209,7 +209,7 @@ Add a [clip area](layer-settings/clip-area.md) and leave its outline visible so 
 
 <summary>Designs arrive rotated or resized unusably</summary>
 
-Turn off **Rotate**, and turn off **Resize** for text layers. Few products need either.
+Turn off **Rotate** as well as **Resize** for text layers. Few products need either.
 
 </details>
 

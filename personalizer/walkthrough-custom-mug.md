@@ -1,5 +1,7 @@
 ---
-description: One personalized product built from an empty option set to a live storefront — a mug with a curved name and an uploaded photo.
+description: >-
+  One personalized product built from an empty option set to a live storefront —
+  a mug with a curved name and an uploaded photo.
 icon: mug-hot
 ---
 
@@ -11,9 +13,9 @@ Replace the product and wording with your own. The same method applies to a fram
 
 ## Before you start
 
-* A mug product in Shopify with a **flat, front-facing photo**. This is more important than any setting on this page.
-* The Personalizer on your plan. See [Compare plans](../plans/compare-plans.md).
-* The [app embed](../getting-started/enable-the-app-embed.md) enabled on your live theme.
+* A mug product in Shopify with a **flat, front-facing photo**. This is the most important one.
+* The Personalizer feature is available on your plan. See [Compare plans](../plans/compare-plans.md).
+* The [app embed](../getting-started/enable-the-app-embed.md) is already enabled on your live theme.
 
 ## Steps
 
@@ -102,7 +104,7 @@ Add a [Switch](../option-types/input-types/switch.md) for the photo charge and u
 * Put it **above** the upload option
 * Give the upload option a conditional rule: Show · All · `Photo printing` — **is enabled**
 
-The upload option is now displayed only after the customer selects the photo printing charge. See [Conditional logic](../conditional-logic/README.md).
+The upload option is now displayed only after the customer selects the photo printing charge. See [Conditional logic](../conditional-logic/).
 {% endstep %}
 
 {% step %}
@@ -134,7 +136,7 @@ Add the product to the cart, check that **Preview Your Design** displays the cor
 
 The order in Shopify admin should list `Name on mug`, `Photo printing`, and a link to the uploaded file. Correct any unclear option names now.
 
-Set up an [automation](../automations/README.md) so these details reach your production team without opening Shopify admin.
+Set up an [automation](../automations/) so these details reach your production team without opening Shopify admin.
 {% endstep %}
 {% endstepper %}
 

@@ -1,5 +1,7 @@
 ---
-description: The eight positions the widget can take on a product page, and how to place it elsewhere.
+description: >-
+  The eight positions the widget can take on a product page, and how to place it
+  elsewhere.
 icon: crosshairs
 ---
 
@@ -15,9 +17,7 @@ Four positions are relative to elements every theme has. The other four are rela
 
 The four custom positions display a **Selector of the HTML element** field, where you enter a CSS selector such as `#addToCart`.
 
-<!-- SCREENSHOT: store-widget-placement | App admin → Settings → General → Widget Settings | Dropdown Widget placement đang mở với 8 lựa chọn chia nhóm Default và Custom | Khoanh dropdown -->
-
-<figure><img src="../.gitbook/assets/placeholder.png" alt="The widget placement dropdown showing the default and custom position groups"><figcaption><p>Four positions every theme understands, and four you define yourself.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-09-07_11-08-25.png" alt="The widget placement dropdown showing the default and custom position groups"><figcaption></figcaption></figure>
 
 ## Which to choose
 

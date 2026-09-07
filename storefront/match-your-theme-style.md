@@ -1,5 +1,7 @@
 ---
-description: One setting that makes the widget inherit your theme's fonts, colors, and control styling, on supported themes.
+description: >-
+  One setting that makes the widget inherit your theme's fonts, colors, and
+  control styling, on supported themes.
 icon: wand-sparkles
 ---
 
@@ -13,9 +15,7 @@ icon: wand-sparkles
 
 Beside the setting is a link to the list of supported themes, which is the list below.
 
-<!-- SCREENSHOT: store-match-theme | App admin → Settings → Design → Theme style | Switch Match theme style và tip banner có link View supported themes | Khoanh switch -->
-
-<figure><img src="../.gitbook/assets/placeholder.png" alt="The Match theme style switch with its supported themes link"><figcaption><p>One switch, and a link to check whether your theme is covered.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-09-07_11-10-57.png" alt="The Match theme style switch with its supported themes link"><figcaption><p>One switch, and a link to check whether your theme is covered.</p></figcaption></figure>
 
 ## Supported themes
 
@@ -23,10 +23,10 @@ The app includes styling for these themes. Support is per theme **and per theme 
 
 <table><thead><tr><th width="230">Theme</th><th width="230">Theme</th><th>Theme</th></tr></thead><tbody><tr><td>Dawn</td><td>Refresh</td><td>Pitch</td></tr><tr><td>Sense</td><td>Origin</td><td>Atelier</td></tr><tr><td>Crave</td><td>Publisher</td><td>Fabric</td></tr><tr><td>Craft</td><td>Spotlight</td><td>Dwell</td></tr><tr><td>Studio</td><td>Colorblock</td><td>Ritual</td></tr><tr><td>Taste</td><td>Ride</td><td>Savor</td></tr><tr><td>Trade</td><td>Prestige</td><td>Tinker</td></tr><tr><td>Rise</td><td>Impulse</td><td>Vessel</td></tr><tr><td>Concept</td><td>Be Yours</td><td>Hyper</td></tr><tr><td>Horizon</td><td>Eurus</td><td>Wonder</td></tr></tbody></table>
 
-One further theme is supported but not named in this list. If your theme is not listed, see [If your theme is not supported](#if-your-theme-is-not-supported) below.
+One further theme is supported but not named in this list. If your theme is not listed, see [If your theme is not supported](match-your-theme-style.md#if-your-theme-is-not-supported) below.
 
 {% hint style="info" %}
-The list is updated over time. If your theme is not listed here, check the **View supported themes** link beside the setting, which is always current.
+The list is updated over time. If your theme is not listed here, check the **View supported themes** link beside the setting.
 {% endhint %}
 
 ## What it does
@@ -55,7 +55,7 @@ The widget then looks like part of the product page rather than a separate form.
 {% step %}
 ### Check a real product page
 
-Use **View in Store** from the builder. The builder preview does not display the change, because it never uses your theme's styling.
+Use **View in Store** from the builder. The builder preview does not display the change because it never uses your theme's styling.
 {% endstep %}
 
 {% step %}

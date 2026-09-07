@@ -1,5 +1,7 @@
 ---
-description: Reword the messages the app shows customers, including upload prompts, cart buttons, and validation messages.
+description: >-
+  Reword the messages the app shows customers, including upload prompts, cart
+  buttons, and validation messages.
 icon: comments
 ---
 
@@ -13,9 +15,7 @@ Use this page for two purposes: translating the text for another storefront lang
 
 **Settings** in the app menu, then the **Translations** tab.
 
-<!-- SCREENSHOT: trans-widget-text | App admin → Settings → Translations | 4 nhóm text với các field, nút Add language | Khoanh nút Add language -->
-
-<figure><img src="../.gitbook/assets/placeholder.png" alt="The Translations page with its four groups of widget text and the add language control"><figcaption><p>Four groups, and one set of values per language.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-09-07_11-03-29.png" alt="The Translations page with its four groups of widget text and the add language control"><figcaption><p>Four groups, and one set of values per language.</p></figcaption></figure>
 
 ## The four groups
 
@@ -53,7 +53,7 @@ Then test the storefront in that language. Leave a required field empty and try 
 
 ## Variables
 
-Several messages contain `{{ }}` placeholders that the app fills in from your option settings. Keep them in your translation, otherwise the message loses the value.
+Several messages contain `{{ }}` placeholders that the app fills in from your option settings. Keep them in your translation; otherwise the message loses the value.
 
 <table><thead><tr><th width="290">Variable</th><th>Filled with</th></tr></thead><tbody><tr><td><code>{{addon}}</code></td><td>The add-on amount</td></tr><tr><td><code>{{min_character}}</code> / <code>{{character_limit}}</code></td><td>Your min and max character settings</td></tr><tr><td><code>{{character_count}}</code></td><td>How many characters the customer has typed</td></tr><tr><td><code>{{min_value}}</code> / <code>{{max_value}}</code></td><td>Your min and max value settings</td></tr><tr><td><code>{{min_selection}}</code> / <code>{{max_selection}}</code> / <code>{{exactly_selection}}</code></td><td>Your selection limits</td></tr><tr><td><code>{{min_files}}</code> / <code>{{max_files}}</code></td><td>Your file count limits</td></tr></tbody></table>
 

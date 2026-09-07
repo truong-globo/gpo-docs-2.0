@@ -7,7 +7,9 @@ icon: palette
 
 **Settings** > **Settings** > **Design** > **Color**. Store-wide, applying to every option set.
 
-Before setting these individually, try [Match your theme style](match-your-theme-style.md). On a supported theme, it sets most of them for you.
+Before setting these individually, try [Match your theme style](match-your-theme-style.md). For a supported theme, it sets most of them for you.
+
+<figure><img src="../.gitbook/assets/2026-09-07_11-12-42.png" alt=""><figcaption></figcaption></figure>
 
 ## General
 
@@ -23,7 +25,7 @@ Covers text fields, number fields, switches, and range sliders.
 
 Covers dropdowns, checkboxes, and radio buttons.
 
-<table><thead><tr><th width="290">Setting</th><th>Colors</th></tr></thead><tbody><tr><td><strong>Dropdown text</strong></td><td>Text in a dropdown</td></tr><tr><td><strong>Dropdown border</strong></td><td>Its outline</td></tr><tr><td><strong>Dropdown background</strong></td><td>Inside it</td></tr><tr><td><strong>Dropdown selected</strong></td><td>The highlight on the chosen entry</td></tr><tr><td><strong>Checkbox &amp; Radio text</strong></td><td>Their labels at rest</td></tr><tr><td><strong>Checkbox &amp; Radio text hover</strong></td><td>On hover</td></tr><tr><td><strong>Checkbox &amp; Radio text active</strong></td><td>When selected</td></tr><tr><td><strong>Checkbox &amp; Radio hover</strong></td><td>The control on hover</td></tr><tr><td><strong>Checkbox &amp; Radio active</strong></td><td>The control when selected</td></tr></tbody></table>
+<table><thead><tr><th width="290">Setting</th><th>Colors</th></tr></thead><tbody><tr><td><strong>Dropdown text</strong></td><td>Text in a dropdown</td></tr><tr><td><strong>Dropdown border</strong></td><td>Its outline</td></tr><tr><td><strong>Dropdown background</strong></td><td>Inside it</td></tr><tr><td><strong>Dropdown selected</strong></td><td>The highlight on the chosen entry</td></tr><tr><td><strong>Checkbox &#x26; Radio text</strong></td><td>Their labels at rest</td></tr><tr><td><strong>Checkbox &#x26; Radio text hover</strong></td><td>On hover</td></tr><tr><td><strong>Checkbox &#x26; Radio text active</strong></td><td>When selected</td></tr><tr><td><strong>Checkbox &#x26; Radio hover</strong></td><td>The control on hover</td></tr><tr><td><strong>Checkbox &#x26; Radio active</strong></td><td>The control when selected</td></tr></tbody></table>
 
 ## Swatches
 
@@ -32,7 +34,7 @@ Covers buttons, color swatches, and image swatches.
 <table><thead><tr><th width="290">Setting</th><th>Colors</th></tr></thead><tbody><tr><td><strong>Button text</strong> / <strong>hover</strong> / <strong>active</strong></td><td>Button labels in each state</td></tr><tr><td><strong>Button background</strong> / <strong>hover</strong> / <strong>active</strong></td><td>Button fills in each state</td></tr><tr><td><strong>Swatch border</strong></td><td>A swatch at rest</td></tr><tr><td><strong>Swatch border hover</strong></td><td>On hover</td></tr><tr><td><strong>Swatch border active</strong></td><td>When selected</td></tr></tbody></table>
 
 {% hint style="info" %}
-**Swatch border active** is the most important color in this group, because it shows the customer which swatch is selected. Make it clearly different from the resting state. A subtle difference is easy to miss, especially on a phone.
+**Swatch border active** is the most important color in this group because it shows the customer which swatch is selected. Make it clearly different from the resting state. A subtle difference is easy to miss, especially on a phone.
 {% endhint %}
 
 ## Tabs

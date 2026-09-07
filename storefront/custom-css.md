@@ -1,11 +1,15 @@
 ---
-description: Style the widget yourself when the built-in settings do not cover what you need.
+description: >-
+  Style the widget yourself when the built-in settings do not cover what you
+  need.
 icon: code
 ---
 
 # Custom CSS
 
 **Settings** > **Settings** > **Design** > **Additional** > **Custom CSS for the widget**. This is a code editor, and its contents are applied to the widget on your storefront.
+
+<figure><img src="../.gitbook/assets/2026-09-07_11-16-09.png" alt=""><figcaption></figcaption></figure>
 
 ## Try the settings first
 

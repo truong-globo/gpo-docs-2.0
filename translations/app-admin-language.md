@@ -1,5 +1,7 @@
 ---
-description: Change the language of the app's admin interface, and understand what it does not affect.
+description: >-
+  Change the language of the app's admin interface, and understand what it does
+  not affect.
 icon: user-gear
 ---
 
@@ -13,13 +15,11 @@ The language control is in the top-right of the **Dashboard**, and shows the cur
 
 Select it and choose a language. The app reloads in that language.
 
-<!-- SCREENSHOT: trans-admin-language | App admin → Dashboard | Popover chọn ngôn ngữ đang mở với danh sách các ngôn ngữ kèm cờ | Khoanh nút chọn ngôn ngữ -->
-
-<figure><img src="../.gitbook/assets/placeholder.png" alt="The language selector open on the dashboard listing the available admin languages"><figcaption><p>The admin language control is on the Dashboard, top right.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-09-07_10-58-24.png" alt="The language selector open on the dashboard listing the available admin languages"><figcaption><p>The admin language control is on the Dashboard, top right.</p></figcaption></figure>
 
 ## The eighteen languages
 
-<table><thead><tr><th width="230">Language</th><th width="230">Language</th><th>Language</th></tr></thead><tbody><tr><td>English</td><td>German</td><td>Portuguese (Brazil)</td></tr><tr><td>Chinese (Simplified)</td><td>Italian</td><td>Portuguese (Portugal)</td></tr><tr><td>Czech</td><td>Japanese</td><td>Spanish</td></tr><tr><td>Danish</td><td>Korean</td><td>Swedish</td></tr><tr><td>Dutch</td><td>Norwegian (Bokmål)</td><td>Turkish</td></tr><tr><td>Finnish</td><td>Polish</td><td></td></tr><tr><td>French</td><td></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="230">Language</th><th width="230">Language</th><th>Language</th></tr></thead><tbody><tr><td>English</td><td>German</td><td>Portuguese (Brazil)</td></tr><tr><td>Chinese (Simplified)</td><td>Italian</td><td>Portuguese (Portugal)</td></tr><tr><td>Czech</td><td>Japanese</td><td>Spanish</td></tr><tr><td>Danish</td><td>Korean</td><td>Swedish</td></tr><tr><td>Dutch</td><td>Norwegian (Bokmål)</td><td>Turkish</td></tr><tr><td>Finnish</td><td>Polish</td><td>French</td></tr></tbody></table>
 
 ## What it changes, and what it does not
 

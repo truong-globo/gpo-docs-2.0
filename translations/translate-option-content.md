@@ -1,5 +1,7 @@
 ---
-description: Translate your labels, option values, help text, and placeholders for each storefront language.
+description: >-
+  Translate your labels, option values, help text, and placeholders for each
+  storefront language.
 icon: pen-to-square
 ---
 
@@ -55,9 +57,7 @@ Switch language on your storefront and work through the product page in each one
 {% endstep %}
 {% endstepper %}
 
-<!-- SCREENSHOT: trans-builder-switcher | App admin → builder | Language switcher ở header đang mở với danh sách ngôn ngữ storefront | Khoanh language switcher -->
-
-<figure><img src="../.gitbook/assets/placeholder.png" alt="The language switcher in the builder header listing the storefront languages"><figcaption><p>Switch language, then edit the text in place.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-09-07_11-01-40.png" alt="The language switcher in the builder header listing the storefront languages"><figcaption><p>Switch language, then edit the text in place.</p></figcaption></figure>
 
 ## What can be translated
 

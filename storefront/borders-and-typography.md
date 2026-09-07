@@ -1,5 +1,7 @@
 ---
-description: Border weight and corner radius for the three control families, and the four text styles.
+description: >-
+  Border weight and corner radius for the three control families, and the four
+  text styles.
 icon: text-height
 ---
 
@@ -61,7 +63,7 @@ Set help text one or two points below the main text. Below about 12 pixels, most
 {% step %}
 ### Check non-Latin scripts
 
-Many fonts do not include Arabic, Hebrew, Thai, or CJK glyphs, and missing glyphs fall back to a system font. See <a href="../translations/rtl-and-non-latin.md">Right-to-left and non-Latin text</a>.
+Many fonts do not include Arabic, Hebrew, Thai, or CJK glyphs, and missing glyphs fall back to a system font. See [Right-to-left and non-Latin text](../translations/rtl-and-non-latin.md).
 {% endstep %}
 
 {% step %}
@@ -71,9 +73,7 @@ Text that is comfortable on a monitor can be cramped on a phone.
 {% endstep %}
 {% endstepper %}
 
-<!-- SCREENSHOT: store-borders-typography | App admin → Settings → Design | Nhóm Border (3 family với size/radius) và nhóm Typography (4 style) | Khoanh 2 nhóm -->
-
-<figure><img src="../.gitbook/assets/placeholder.png" alt="The border and typography settings groups in the Design tab"><figcaption><p>Three border families and four text styles, all store-wide.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-09-07_11-14-55.png" alt="The border and typography settings groups in the Design tab"><figcaption><p>Border families and text style settings, all store-wide.</p></figcaption></figure>
 
 ## Notes
 

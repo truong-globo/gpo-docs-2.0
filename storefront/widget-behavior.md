@@ -1,5 +1,7 @@
 ---
-description: Alignment, tooltips, showing the selected value, and limiting the widget's height.
+description: >-
+  Alignment, tooltips, showing the selected value, and limiting the widget's
+  height.
 icon: sliders
 ---
 
@@ -9,7 +11,7 @@ Four settings in **Settings** > **Settings** > **General** > **Widget Settings**
 
 ## Alignment
 
-<table><thead><tr><th width="180">Tab</th><td>General &gt; Widget Settings</td></tr><tr><th>Default</th><td><strong>Left</strong></td></tr></thead></table>
+<table><thead><tr><th width="180">Tab</th><th>General > Widget Settings</th></tr></thead><tbody><tr><td>Default</td><td><strong>Left</strong></td></tr></tbody></table>
 
 <table><thead><tr><th width="230">Choice</th><th>Behavior</th></tr></thead><tbody><tr><td><strong>Left</strong></td><td>Left-aligned. Correct for left-to-right languages</td></tr><tr><td><strong>Center</strong></td><td>Centered, in either reading direction</td></tr><tr><td><strong>Right</strong></td><td>Right-aligned without changing reading direction</td></tr><tr><td><strong>Right to left</strong></td><td>Full right-to-left layout, for Arabic and Hebrew storefronts</td></tr></tbody></table>
 
@@ -17,7 +19,8 @@ Four settings in **Settings** > **Settings** > **General** > **Widget Settings**
 
 ## Show tooltip when hovering over options
 
-<table><thead><tr><th width="180">Default</th><td>On</td></tr></thead></table>
+| Default | On |
+| ------- | -- |
 
 Displays the option value's name when a customer hovers over a swatch. Without it, swatch names are not shown anywhere.
 
@@ -31,7 +34,8 @@ Touch devices do not have a hover state. Put anything a mobile customer needs to
 
 ## Display selected value next to label
 
-<table><thead><tr><th width="180">Default</th><td>On</td></tr></thead></table>
+| Default | On |
+| ------- | -- |
 
 Displays the selected value beside the option's label, for example `Color: Sage` rather than just `Color`.
 
@@ -39,23 +43,22 @@ Keep this on, particularly for swatches. It confirms the selection in words rath
 
 ## Limit widget height
 
-<table><thead><tr><th width="180">Default</th><td>Off</td></tr></thead></table>
+| Default | Off |
+| ------- | --- |
 
 Turning it on displays **Fixed height**, a value in pixels. The widget is limited to that height and scrolls inside it.
 
-<table><thead><tr><th width="290">Use it when</th><th>Avoid it when</th></tr></thead><tbody><tr><td>A very long option set pushes <strong>Add to cart</strong> far down the page</td><td>The widget is a reasonable length already</td></tr><tr><td>Your theme's layout needs a predictable height</td><td>You have not tried <a href="../option-types/static-types/section.md">Sections</a> and <a href="../conditional-logic/README.md">conditional logic</a> first</td></tr></tbody></table>
+<table><thead><tr><th width="290">Use it when</th><th>Avoid it when</th></tr></thead><tbody><tr><td>A very long option set pushes <strong>Add to cart</strong> far down the page</td><td>The widget is a reasonable length already</td></tr><tr><td>Your theme's layout needs a predictable height</td><td>You have not tried <a href="../option-types/static-types/section.md">Sections</a> and <a href="../conditional-logic/">conditional logic</a> first</td></tr></tbody></table>
 
 {% hint style="info" %}
 A scrollbar inside a page that also scrolls is confusing, and customers miss options inside it, particularly on a phone.
 
-Try these first: group options into collapsible [Sections](../option-types/static-types/section.md), display options only when they are relevant using [conditional logic](../conditional-logic/README.md), use [collapsible layouts or sliders](../option-types/shared-settings/collapsible-layouts-and-sliders.md) for long value lists, and set [column widths](../option-types/shared-settings/direction-width-and-css.md#column-width) so short fields share a row.
+Try these first: group options into collapsible [Sections](../option-types/static-types/section.md), display options only when they are relevant using [conditional logic](../conditional-logic/), use [collapsible layouts or sliders](../option-types/shared-settings/collapsible-layouts-and-sliders.md) for long value lists, and set [column widths](../option-types/shared-settings/direction-width-and-css.md#column-width) so short fields share a row.
 
 All four make the form shorter. A height limit only hides part of it.
 {% endhint %}
 
-<!-- SCREENSHOT: store-widget-behavior | App admin → Settings → General → Widget Settings | Alignment, Show tooltip, Display selected value, Limit widget height | Khoanh nhóm 4 setting -->
-
-<figure><img src="../.gitbook/assets/placeholder.png" alt="The widget behavior settings for alignment, tooltips, selected value, and height limit"><figcaption><p>Four behavior settings, all store-wide.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-09-07_11-17-41.png" alt="The widget behavior settings for alignment, tooltips, selected value, and height limit"><figcaption><p>Four behavior settings, all store-wide.</p></figcaption></figure>
 
 ## Two related settings
 

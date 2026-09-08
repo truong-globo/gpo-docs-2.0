@@ -7,6 +7,8 @@ icon: cash-register
 
 The option sets you built for your storefront can also be used at the counter. A staff member adds a product to the POS cart, opens the app, completes the options, and the cart is updated with the customer's choices and any add-ons.
 
+Shopify POS is Shopify's own app for selling in person. It takes cash, credit and debit cards, and gift cards, and it runs either on its own or alongside your online store, with both sets of orders in one Shopify admin. This app adds your option sets to that counter flow, so an in-person order carries the same personalization details as an online one.
+
 ## What it is for
 
 * Taking a personalized order in a shop or at a market
@@ -41,6 +43,10 @@ Two option types and one add-on mode do not work in POS. Read [POS limitations](
 {% hint style="warning" %}
 [Dimension](../option-types/input-types/dimension.md) and [Product links](../option-types/selection-types/product-links.md) do not work in POS, and the [Add price](../add-on-pricing/add-price-directly.md) add-on mode is not supported there. Use a product-backed add-on mode instead.
 {% endhint %}
+
+## Video walkthrough
+
+If you would rather watch the setup than read it, see [How to set up Shopify POS with Globo Product Options](https://youtu.be/w9IGXU8B05k) on YouTube.
 
 ## Pages in this section
 

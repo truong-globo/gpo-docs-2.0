@@ -147,6 +147,10 @@
 * [Cart page](storefront/cart-page.md)
 * [Ajax cart and redirect to cart](storefront/ajax-cart-and-redirect.md)
 * [Show options on orders](storefront/show-options-on-orders.md)
+  * [Display option on order invoice](storefront/order-invoice.md)
+  * [Display options in packing slip](storefront/packing-slip.md)
+  * [Display options in confirmation email](storefront/order-confirmation-email.md)
+  * [Display option in staff order notification](storefront/staff-order-notification.md)
 
 ## Automations
 

@@ -1,13 +1,10 @@
 ---
-description: >-
-  Where option details appear automatically, and how to add them to packing
-  slips, invoices, and notification emails.
 icon: file-lines
 ---
 
 # Show options on orders
 
-A customer's choices are stored with their order automatically. This page covers where they appear without any setup, and the few places that need a small piece of Liquid.
+A customer's choices are stored with their order automatically. This page covers where they appear without any setup, and links to the four templates that need a small piece of Liquid added.
 
 ## Where they appear without setup
 
@@ -21,117 +18,32 @@ The label displayed is the option's **Name**, not its Label. This is why the Nam
 
 ## Where they need a small addition
 
-Packing slips, printed invoices, and some notification emails use templates you control. If your template does not already print line item properties, add a snippet to it.
+Invoices, packing slips, and notification emails use templates you control. If your template does not already print line item properties, add a small snippet to it.
 
-The same snippet works in all of these templates:
+Each of these has its own page, with the exact template, the download link, and the screenshots for that screen:
 
-```liquid
-<div class="gpo-properties">
-  {% assign property_size = line_item.properties | size %}
-  {% if property_size > 0 %}
-    {% for p in line_item.properties %}
-      <div class="gpo-property">
-        {% assign first_character_in_key = p.first | truncate: 1, '' %}
-        {% unless p.last == blank or first_character_in_key == '_' %}
-          <span>{{ p.first }}: </span>
-          {%- if p.last contains '/uploads/' -%}
-            <a href="{{ p.last }}">{{ p.last | split: '/' | last }}</a>
-          {%- else -%}
-            <span>{{ p.last }}</span>
-          {%- endif -%}
-        {% endunless %}
-      </div>
-    {% endfor %}
-  {% endif %}
-</div>
-```
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Order invoice</strong></td><td>Printed invoices from Shopify's Order Printer app.</td><td><a href="order-invoice.md">order-invoice.md</a></td></tr><tr><td><strong>Packing slip</strong></td><td>Order Printer, or Shopify's own packing slip template in Settings.</td><td><a href="packing-slip.md">packing-slip.md</a></td></tr><tr><td><strong>Confirmation email</strong></td><td>The email your customer receives after placing an order.</td><td><a href="order-confirmation-email.md">order-confirmation-email.md</a></td></tr><tr><td><strong>Staff order notification</strong></td><td>The New order email you and your staff receive.</td><td><a href="staff-order-notification.md">staff-order-notification.md</a></td></tr></tbody></table>
 
-The snippet does two things:
+The snippet is slightly different on each page, because invoices and packing slips loop over `line_item` while the notification emails loop over `line`. Use the one on the page for the template you are editing.
+
+Whichever you use, the snippet does two things:
 
 * **It skips properties whose name starts with an underscore.** Those are the app's internal properties, which link add-ons to their parent item and carry pricing data. Your team does not need to read them. See [How it works](../reference/how-it-works.md).
 * **It displays uploaded files as links** rather than as long addresses, so a packing slip stays readable.
 
 {% hint style="info" %}
-The snippet must go **inside** the template's loop over line items, where `line_item` exists. Outside that loop, it displays nothing.
+The snippet must go **inside** the template's loop over line items, where `line_item` or `line` exists. Outside that loop, it displays nothing.
 {% endhint %}
 
-## Packing slips
-
-Shopify's Order Printer app produces packing slips from templates you can edit.
-
-{% stepper %}
-{% step %}
-### Open Order Printer
-
-In Shopify admin, go to **Apps** and open **Order Printer**.
-{% endstep %}
-
-{% step %}
-### Open the packing slip template
-
-**Manage templates**, then the packing slip template.
-{% endstep %}
-
-{% step %}
-### Paste the snippet inside the line item loop
-
-Put it where you want the option details to appear, usually directly below each item's title.
-{% endstep %}
-
-{% step %}
-### Save, then print a real order
-
-Print an order that has options, and check that every option appears and that no properties beginning with an underscore are printed.
-{% endstep %}
-{% endstepper %}
-
-If you use a different packing slip or fulfillment app, the same snippet works in any Liquid template where `line_item` is available.
-
-## Printed invoices
-
-Use the same approach. Open your invoice template, in Order Printer or whichever app produces your invoices, and paste the snippet inside the line item loop.
-
-## Order confirmation emails and staff notifications
-
-Shopify's notification emails are also templates you can edit.
-
-{% stepper %}
-{% step %}
-### Open your notifications
-
-In Shopify admin, go to **Settings** > **Notifications**.
-{% endstep %}
-
-{% step %}
-### Choose the notification to edit
-
-Select **Order confirmation** for the customer's copy, or **New order** for the notification your staff receive.
-{% endstep %}
-
-{% step %}
-### Find the line item loop
-
-Find the part of the template that loops over the order's line items and prints each title.
-{% endstep %}
-
-{% step %}
-### Paste the snippet inside that loop
-
-Then save the template.
-{% endstep %}
-
-{% step %}
-### Send yourself a test
-
-Shopify can send a preview. It is better to place a test order with options and check the email that arrives.
-{% endstep %}
-{% endstepper %}
-
 {% hint style="warning" %}
-These templates are your store's own emails. Copy the existing template somewhere safe before you change it, so you can restore it.
+These templates are your store's own paperwork and emails. Copy the existing template somewhere safe before you change it, so you can restore it.
+
+If you have already customized a template, do not paste the full code over it. Merge the snippet into what you have.
 
 If you would rather not edit them yourself, support can supply ready-made versions of these templates. See [Contact support](../help/contact-support.md).
 {% endhint %}
+
+If you use a different packing slip, invoice, or fulfillment app, the same approach works in any Liquid template where the line item is in scope.
 
 ## Alternative: use an automation
 

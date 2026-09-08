@@ -1,26 +1,28 @@
 ---
 description: >-
   Workflows that run after an order arrives, to email you, write the options
-  into the order notes, or tag the order.
+  into the order notes, tag the order, or copy uploaded files to Google Drive.
 icon: bolt
 ---
 
 # Overview
 
-An automation runs when a customer places an order containing app options. There are three types, and together they get the option details to the people who have to act on them.
+An automation runs when a customer places an order containing app options. There are four types, and together they get the option details, and the files, to the people who have to act on them.
 
-## The three workflows
+## The four workflows
 
-<table><thead><tr><th width="230">Workflow</th><th width="290">What it does</th><th>How many</th></tr></thead><tbody><tr><td><a href="email-notification.md">Email notification</a></td><td>Emails you the order and the options chosen</td><td>One</td></tr><tr><td><a href="update-order-notes.md">Update order notes</a></td><td>Writes the options into the order's notes</td><td>One</td></tr><tr><td><a href="update-order-tags.md">Update order tags</a></td><td>Tags the order — a fixed tag, or the value the customer chose</td><td>As many as you like</td></tr></tbody></table>
+<table><thead><tr><th width="230">Workflow</th><th width="290">What it does</th><th>How many</th></tr></thead><tbody><tr><td><a href="email-notification.md">Email notification</a></td><td>Emails you the order and the options chosen</td><td>One</td></tr><tr><td><a href="update-order-notes.md">Update order notes</a></td><td>Writes the options into the order's notes</td><td>One</td></tr><tr><td><a href="update-order-tags.md">Update order tags</a></td><td>Tags the order — a fixed tag, or the value the customer chose</td><td>As many as you like</td></tr><tr><td><a href="google-drive-sync.md">Google Drive sync</a></td><td>Copies customer-uploaded files into your Google Drive, in a folder per order</td><td>One</td></tr></tbody></table>
 
-<figure><img src="../.gitbook/assets/2026-09-07_11-27-53.png" alt="The three workflow templates with their descriptions"><figcaption><p>Three workflow types, added from the workflow templates screen.</p></figcaption></figure>
+<!-- SCREENSHOT: automations-templates | App admin → Automations → Add workflow | 4 workflow template kèm mô tả, gồm cả Google Drive sync | Không khoanh -->
+
+<figure><img src="../.gitbook/assets/placeholder.png" alt="The four workflow templates with their descriptions"><figcaption><p>The workflow types, added from the workflow templates screen.</p></figcaption></figure>
 
 ## Which workflow to use
 
-<table><thead><tr><th width="330">You want</th><th>Use</th></tr></thead><tbody><tr><td>To know immediately when a personalized order comes in</td><td><a href="email-notification.md">Email notification</a></td></tr><tr><td>Option details on your packing slips and invoices without editing templates</td><td><a href="update-order-notes.md">Update order notes</a> — most templates already print the note</td></tr><tr><td>To filter or route orders by what was chosen</td><td><a href="update-order-tags.md">Update order tags</a></td></tr><tr><td>To flag every order that has options at all</td><td><a href="update-order-tags.md">Update order tags</a> with a fixed tag</td></tr><tr><td>Your production team to see the options in their own tools</td><td><a href="update-order-notes.md">Update order notes</a>, or tags they can filter on</td></tr></tbody></table>
+<table><thead><tr><th width="330">You want</th><th>Use</th></tr></thead><tbody><tr><td>To know immediately when a personalized order comes in</td><td><a href="email-notification.md">Email notification</a></td></tr><tr><td>Option details on your packing slips and invoices without editing templates</td><td><a href="update-order-notes.md">Update order notes</a> — most templates already print the note</td></tr><tr><td>To filter or route orders by what was chosen</td><td><a href="update-order-tags.md">Update order tags</a></td></tr><tr><td>To flag every order that has options at all</td><td><a href="update-order-tags.md">Update order tags</a> with a fixed tag</td></tr><tr><td>Your production team to see the options in their own tools</td><td><a href="update-order-notes.md">Update order notes</a>, or tags they can filter on</td></tr><tr><td>The photos and artwork customers upload, in a folder your team can open</td><td><a href="google-drive-sync.md">Google Drive sync</a></td></tr></tbody></table>
 
 {% hint style="info" %}
-**Update order notes** is the most useful of the three for most stores. Most packing slip, invoice, and email templates already print the order note, so writing the options into the note puts them on all your paperwork without editing a Liquid template. See [Show options on orders](../storefront/show-options-on-orders.md).
+**Update order notes** is the most useful of the four for most stores. Most packing slip, invoice, and email templates already print the order note, so writing the options into the note puts them on all your paperwork without editing a Liquid template. See [Show options on orders](../storefront/show-options-on-orders.md).
 {% endhint %}
 
 ## Before you start
@@ -49,7 +51,7 @@ From the app menu.
 {% step %}
 ### Select Add workflow
 
-The workflow templates screen lists the three types and the maximum number of each you can create.
+The workflow templates screen lists the four types and the maximum number of each you can create.
 {% endstep %}
 
 {% step %}
@@ -67,7 +69,7 @@ Each type has its own settings. See the page for that type.
 {% step %}
 ### Test it
 
-Email notification sends a test email. The other two run against a recent order without changing it. Test the workflow rather than waiting for a real order.
+Email notification sends a test email. The other three run against a recent order. Test the workflow rather than waiting for a real order.
 {% endstep %}
 
 {% step %}
@@ -86,6 +88,7 @@ Duplicating is useful for order tags, where you may want one workflow for each o
 ## Notes
 
 * Workflows run on orders that contain app options. An order without options does not trigger them.
+* Google Drive sync needs a connected Google account as well as a saved workflow. See [Google Drive sync](google-drive-sync.md).
 * They run after the order is created, so an email or a tag appears a short time later.
 * A workflow set to **Draft** does not run.
 * Workflows are configured per store, and are not included in option set or settings exports.

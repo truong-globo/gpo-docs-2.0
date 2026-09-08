@@ -43,7 +43,7 @@ These groups match the groups on the **Pricing** page.
 
 ### Automations
 
-<table><thead><tr><th width="290">Feature</th><th width="110">Free</th><th width="110">Premium</th><th>Advanced</th></tr></thead><tbody><tr><td>Email notification</td><td>—</td><td>—</td><td>✅</td></tr><tr><td>Order notes update</td><td>—</td><td>—</td><td>✅</td></tr><tr><td>Order tags update</td><td>—</td><td>—</td><td>✅</td></tr></tbody></table>
+<table><thead><tr><th width="290">Feature</th><th width="110">Free</th><th width="110">Premium</th><th>Advanced</th></tr></thead><tbody><tr><td>Email notification</td><td>—</td><td>—</td><td>✅</td></tr><tr><td>Order notes update</td><td>—</td><td>—</td><td>✅</td></tr><tr><td>Order tags update</td><td>—</td><td>—</td><td>✅</td></tr><tr><td>Google Drive sync</td><td>—</td><td>—</td><td>✅</td></tr></tbody></table>
 
 ### Support
 

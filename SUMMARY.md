@@ -158,6 +158,8 @@
 * [Email notification](automations/email-notification.md)
 * [Update order notes](automations/update-order-notes.md)
 * [Update order tags](automations/update-order-tags.md)
+* [Google Drive sync](automations/google-drive-sync.md)
+  * [Google Drive sync history](automations/google-drive-sync-history.md)
 * [Liquid variables reference](automations/liquid-variables-reference.md)
 
 ## Point of Sale

@@ -1,5 +1,7 @@
 ---
-description: Publish an option set to POS, add the app to the POS home screen, and fill in options at the counter.
+description: >-
+  Publish an option set to POS, add the app to the POS home screen, and fill in
+  options at the counter.
 icon: mobile-screen
 ---
 
@@ -37,7 +39,7 @@ If the option set contains [Dimension](../option-types/input-types/dimension.md)
 {% step %}
 ### Review the add-on modes
 
-Any value using **Add price** is not charged in POS. Change those values to **Use existing product** or **Automatically generate product**. See [Add-on pricing](../add-on-pricing/README.md).
+Any value using **Add price** is not charged in POS. Change those values to **Use existing product** or **Automatically generate product**. See [Add-on pricing](../add-on-pricing/).
 {% endstep %}
 
 {% step %}
@@ -62,10 +64,6 @@ Tap **Save** to finish.
 <figure><img src="../.gitbook/assets/screenshot-pos-save-tile.png" alt="The POS smart grid in edit mode with the new app tile in place and Save highlighted"><figcaption><p>The tile is on the smart grid once you save.</p></figcaption></figure>
 {% endstep %}
 {% endstepper %}
-
-<!-- SCREENSHOT: pos-sales-channel | App admin → builder → popover Sales channels | Point of Sale đang được bật | Khoanh dòng Point of Sale -->
-
-<figure><img src="../.gitbook/assets/placeholder.png" alt="The sales channels control with Point of Sale enabled"><figcaption><p>An option set must be published to Point of Sale to appear there.</p></figcaption></figure>
 
 ## Taking an order at the counter
 
@@ -122,10 +120,6 @@ The app confirms with **Cart updated**. Close the app to return to the POS home 
 Check the option details listed under each item in the cart summary, then tap **Checkout** and select the payment method. The options are stored in the order in the same way as online.
 {% endstep %}
 {% endstepper %}
-
-<!-- SCREENSHOT: pos-cart-items | Shopify POS → app | Danh sách line item trong cart, 1 item đang được chọn | Khoanh item đang chọn -->
-
-<figure><img src="../.gitbook/assets/placeholder.png" alt="The app open in Shopify POS listing the current cart items"><figcaption><p>The app lists the cart under Cart items, with an Edit Options button on each one.</p></figcaption></figure>
 
 ## Practical advice
 

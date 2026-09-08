@@ -1,5 +1,7 @@
 ---
-description: Where option details appear automatically, and how to add them to packing slips, invoices, and notification emails.
+description: >-
+  Where option details appear automatically, and how to add them to packing
+  slips, invoices, and notification emails.
 icon: file-lines
 ---
 
@@ -13,11 +15,9 @@ Option values are attached to the cart line as **line item properties**, which i
 
 <table><thead><tr><th width="290">Place</th><th>Shows</th></tr></thead><tbody><tr><td>The cart page</td><td>Each option's <strong>Name</strong> and the customer's value, under the item</td></tr><tr><td>Checkout</td><td>The same</td></tr><tr><td>The order in Shopify admin</td><td>The same, per line item</td></tr><tr><td>Order confirmation emails</td><td>Usually, depending on your notification templates</td></tr><tr><td>Uploaded files</td><td>As links, so your team can download the originals</td></tr></tbody></table>
 
-The label displayed is the option's **Name**, not its Label. This is why the Name matters: `Engraving text: Forever yours` tells your team what to do, and `text: Forever yours` does not. See [Label and Name](../option-types/shared-settings/labels-and-visibility.md).
+The label displayed is the option's **Name**, not its Label. This is why the Name matters: `Size: 18" x12"` tells your team what to do, and `Frame color: Wooodland Brown` does not. See [Label and Name](../option-types/shared-settings/labels-and-visibility.md).
 
-<!-- SCREENSHOT: store-order-details | Shopify admin → 1 order có option | Line item với danh sách option properties bên dưới | Khoanh phần properties -->
-
-<figure><img src="../.gitbook/assets/placeholder.png" alt="An order in Shopify admin showing a line item with its option details listed underneath"><figcaption><p>Option details reach the order with no configuration.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/order.png" alt="An order in Shopify admin showing a line item with its option details listed underneath"><figcaption><p>Option details reach the order with no configuration.</p></figcaption></figure>
 
 ## Where they need a small addition
 
@@ -135,7 +135,7 @@ If you would rather not edit them yourself, support can supply ready-made versio
 
 ## Alternative: use an automation
 
-If you would rather not edit templates, a [workflow](../automations/README.md) produces much of the same result without any Liquid:
+If you would rather not edit templates, a [workflow](../automations/) produces much of the same result without any Liquid:
 
 <table><thead><tr><th width="290">Workflow</th><th>Result</th></tr></thead><tbody><tr><td><a href="../automations/email-notification.md">Email notification</a></td><td>Emails you every order with its options, in a format you control</td></tr><tr><td><a href="../automations/update-order-notes.md">Update order notes</a></td><td>Writes the options into the order's notes — and the note already appears on packing slips, invoices, and emails in most templates</td></tr><tr><td><a href="../automations/update-order-tags.md">Update order tags</a></td><td>Tags the order by the option chosen, so you can filter and route orders</td></tr></tbody></table>
 

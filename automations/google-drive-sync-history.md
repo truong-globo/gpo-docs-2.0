@@ -1,5 +1,7 @@
 ---
-description: Check which uploaded files reached your Google Drive, and retry the ones that did not.
+description: >-
+  Check which uploaded files reached your Google Drive, and retry the ones that
+  did not.
 icon: clock-rotate-left
 ---
 
@@ -13,9 +15,7 @@ Filter by **All**, **Synced**, **Failed**, or **Pending**. A failed row shows th
 
 A file already in Drive is never copied twice, so retrying an order only picks up what is missing.
 
-<!-- SCREENSHOT: drive-sync-history | App admin → Automations → Google Drive sync → Sync history | Bảng log với cột Order/File/Size/Status/Last attempt, có 1 dòng Failed | Khoanh filter Status và nút Retry -->
-
-<figure><img src="../.gitbook/assets/placeholder.png" alt="The sync history table with a failed row and its retry action"><figcaption><p>Every file the workflow has handled, with a retry for the ones that did not arrive.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/drive 5.png" alt="The sync history table with a failed row and its retry action"><figcaption><p>Every file the workflow has handled, with a retry for the ones that did not arrive.</p></figcaption></figure>
 
 ## What the failure messages mean
 

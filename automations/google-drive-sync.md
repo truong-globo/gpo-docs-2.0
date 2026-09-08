@@ -1,5 +1,7 @@
 ---
-description: Copy the files customers upload into your own Google Drive, organized into a folder per order.
+description: >-
+  Copy the files customers upload into your own Google Drive, organized into a
+  folder per order.
 icon: google-drive
 ---
 
@@ -9,16 +11,13 @@ Files a customer uploads are stored with the order, but they stay inside the app
 
 **Automations** in the app menu, then **Add workflow** > **Google Drive sync**. It has its own configuration page rather than the standard workflow form, and you can create one per store.
 
-It copies every file attached through a [File upload](../option-types/input-types/file-upload.md) option, and optionally the [Personalizer](../personalizer/README.md) design image. Only line items created by the app are read, so ordinary products in the same order are skipped.
+It copies every file attached through a [File upload](../option-types/input-types/file-upload.md) option, and optionally the [Personalizer](../personalizer/) design image. Only line items created by the app are read, so ordinary products in the same order are skipped.
 
-<!-- SCREENSHOT: drive-config-page | App admin → Automations → Google Drive sync | Trang cấu hình với card Connected, Destination và File names | Không khoanh -->
-
-<figure><img src="../.gitbook/assets/placeholder.png" alt="The Google Drive sync page with its connection, destination, and file name sections"><figcaption><p>The whole automation is configured on one page.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/drive 1.png" alt="The Google Drive sync page with its connection, destination, and file name sections"><figcaption><p>The whole automation is configured on one page.</p></figcaption></figure>
 
 ## Before you start
 
 * Automations may not be available on all plans. See [Compare plans](../plans/compare-plans.md).
-* Only the store owner can connect an account or change these settings. Staff accounts see the page read-only.
 * Google Drive has to be enabled for your store first. If it is not, the page says **Google Drive is not set up for this app yet. Contact support to enable it.** See [Contact support](../help/contact-support.md).
 
 ## Connect a Google account
@@ -28,6 +27,8 @@ It copies every file attached through a [File upload](../option-types/input-type
 ### Select **Connect Google Drive**
 
 A Google window opens and asks for permission to create folders in the destination you select, upload files that customers attach to their orders, and read the storage quota of the account. The app never reads or deletes files outside the folder you select.
+
+<figure><img src="../.gitbook/assets/drive 2.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -43,9 +44,7 @@ Until you save, the page shows **Save this automation to start copying files to 
 {% endstep %}
 {% endstepper %}
 
-<!-- SCREENSHOT: drive-connect-panel | App admin → Automations → Google Drive sync (chưa kết nối) | Panel Connect a Google account với danh sách 3 quyền và nút Connect Google Drive | Khoanh nút Connect Google Drive -->
-
-<figure><img src="../.gitbook/assets/placeholder.png" alt="The connect panel listing the three permissions the app asks for"><figcaption><p>The app asks for the narrowest access that lets it write into one folder.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/drive 3.png" alt="The connect panel listing the three permissions the app asks for"><figcaption><p>The app asks for the narrowest access that lets it write into one folder.</p></figcaption></figure>
 
 {% hint style="warning" %}
 Three messages can appear instead of a connected account:
@@ -75,9 +74,7 @@ A token that does not exist is removed rather than printed, so a typo leaves a g
 
 The page previews the folder tree as you type, using a sample order, so you can check the structure before saving.
 
-<!-- SCREENSHOT: drive-destination | App admin → Automations → Google Drive sync | Card Destination với Root folder, 2 ô tên folder, token chips và preview cây folder | Khoanh khối preview cây folder -->
-
-<figure><img src="../.gitbook/assets/placeholder.png" alt="The destination settings with the folder tree preview underneath"><figcaption><p>The preview shows the folders your current names would produce.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/drive 4.png" alt="The destination settings with the folder tree preview underneath"><figcaption><p>The preview shows the folders your current names would produce.</p></figcaption></figure>
 
 ## File names
 

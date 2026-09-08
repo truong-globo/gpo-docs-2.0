@@ -44,6 +44,22 @@ Any value using **Add price** is not charged in POS. Change those values to **Us
 ### Add the app tile to the POS home screen
 
 In the Shopify POS app, customize the home screen and add a tile for the app, so staff can open it in one tap.
+
+On the POS smart grid, tap **Add tile**, then tap **App**.
+
+<figure><img src="../.gitbook/assets/screenshot-pos-add-tile.png" alt="The Add tile panel open in Shopify POS with App highlighted in the list of tile types"><figcaption><p>Tap Add tile on the smart grid, then tap App.</p></figcaption></figure>
+
+Select **Globo Product Options, Variant**.
+
+<figure><img src="../.gitbook/assets/screenshot-pos-add-app.png" alt="The Add app panel in Shopify POS with Globo Product Option highlighted"><figcaption><p>Select the app from the list of apps installed on your store.</p></figcaption></figure>
+
+Tap **App website**, then the **Add** button.
+
+<figure><img src="../.gitbook/assets/screenshot-pos-app-website-add.png" alt="The app panel in Shopify POS showing the App website tab with its Add button highlighted"><figcaption><p>Open the App website tab and add it as a tile.</p></figcaption></figure>
+
+Tap **Save** to finish.
+
+<figure><img src="../.gitbook/assets/screenshot-pos-save-tile.png" alt="The POS smart grid in edit mode with the new app tile in place and Save highlighted"><figcaption><p>The tile is on the smart grid once you save.</p></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 

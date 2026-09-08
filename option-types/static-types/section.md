@@ -1,7 +1,7 @@
 ---
 description: >-
-  The container that groups options under a heading, optionally collapsible.
-  Use it on every long form.
+  The container that groups options under a heading, optionally collapsible. Use
+  it on every long form.
 icon: layer-group
 ---
 
@@ -15,7 +15,7 @@ Every new option set starts with one empty Section.
 
 A heading with your options below it. With a collapsible style, the heading becomes a control that opens and closes the group.
 
-<figure><img src="/broken/files/4t3putPFT0ovncKJHZUQ" alt="Two sections on a storefront product page, one open and one collapsed"><figcaption><p>Sections turn a long list of fields into a short list of groups.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/secsion.png" alt="Two sections on a storefront product page, one open and one collapsed"><figcaption><p>Sections turn a long list of fields into a short list of groups.</p></figcaption></figure>
 
 ## Settings
 

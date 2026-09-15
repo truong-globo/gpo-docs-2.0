@@ -21,9 +21,11 @@ Beside the setting is a link to the list of supported themes, which is the list 
 
 The app includes styling for these themes. Support is per theme **and per theme version**, and the app uses the closest version it has to the one you are running.
 
-<table><thead><tr><th width="230">Theme</th><th width="230">Theme</th><th>Theme</th></tr></thead><tbody><tr><td>Dawn</td><td>Refresh</td><td>Pitch</td></tr><tr><td>Sense</td><td>Origin</td><td>Atelier</td></tr><tr><td>Crave</td><td>Publisher</td><td>Fabric</td></tr><tr><td>Craft</td><td>Spotlight</td><td>Dwell</td></tr><tr><td>Studio</td><td>Colorblock</td><td>Ritual</td></tr><tr><td>Taste</td><td>Ride</td><td>Savor</td></tr><tr><td>Trade</td><td>Prestige</td><td>Tinker</td></tr><tr><td>Rise</td><td>Impulse</td><td>Vessel</td></tr><tr><td>Concept</td><td>Be Yours</td><td>Hyper</td></tr><tr><td>Horizon</td><td>Eurus</td><td>Wonder</td></tr></tbody></table>
+<table><thead><tr><th width="230">Theme</th><th width="230">Theme</th><th>Theme</th></tr></thead><tbody><tr><td>Atelier</td><td>Avante</td><td>Be Yours</td></tr><tr><td>Colorblock</td><td>Concept</td><td>Craft</td></tr><tr><td>Crave</td><td>Dawn</td><td>Dwell</td></tr><tr><td>Eurus</td><td>Expanse</td><td>Fabric</td></tr><tr><td>Heritage</td><td>Horizon</td><td>Hyper</td></tr><tr><td>Ignite</td><td>Impulse</td><td>Maximize</td></tr><tr><td>Monk</td><td>Origin</td><td>Pebble</td></tr><tr><td>Pitch</td><td>Prestige</td><td>Publisher</td></tr><tr><td>Refresh</td><td>Release</td><td>Ride</td></tr><tr><td>Rise</td><td>Ritual</td><td>Savor</td></tr><tr><td>Sense</td><td>Sleek</td><td>Spotlight</td></tr><tr><td>Stockist</td><td>Studio</td><td>Supreme</td></tr><tr><td>Taste</td><td>Tinker</td><td>Trade</td></tr><tr><td>Vessel</td><td>Wonder</td><td></td></tr></tbody></table>
 
-One further theme is supported but not named in this list. If your theme is not listed, see [If your theme is not supported](match-your-theme-style.md#if-your-theme-is-not-supported) below.
+**Maximize** is also sold as Swift, Various, Vast, and Vigor, and **Supreme** as Heatwave, Royce, Realm, and Rose. If you run one of those, the Maximize or Supreme styling applies.
+
+Further themes are supported without being named here. If your theme is not listed, see [If your theme is not supported](match-your-theme-style.md#if-your-theme-is-not-supported) below.
 
 {% hint style="info" %}
 The list is updated over time. If your theme is not listed here, check the **View supported themes** link beside the setting.

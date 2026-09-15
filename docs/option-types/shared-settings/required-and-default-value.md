@@ -61,7 +61,7 @@ Pre-fills the option so that a customer who makes no changes still submits a val
 
 <table><thead><tr><th width="290">Situation</th><th>Default</th></tr></thead><tbody><tr><td>Most customers pick the standard size</td><td>Preselect it — fewer decisions, faster checkout</td></tr><tr><td>Quantity-style number field</td><td><code>1</code></td></tr><tr><td>Free option among paid ones</td><td>Preselect the free one, so nobody is charged by accident</td></tr><tr><td>Personalizer text layer</td><td><code>Your name</code>, so the preview is not blank</td></tr><tr><td>Hidden field carrying fixed information</td><td>The value itself — that is the whole purpose of the type</td></tr></tbody></table>
 
-<figure><img src="../../.gitbook/assets/2026-08-31_10-21-10.png" alt="An option&#x27;s Basic Settings with Required field enabled and a default value selected"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2026-08-31_10-21-10.png" alt="An option&#x27;s Basic Settings with Required field enabled and a default value selected"><figcaption><p>Required field and Default value, both on Basic Settings.</p></figcaption></figure>
 
 ## Required or default?
 

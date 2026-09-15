@@ -33,7 +33,7 @@ Select **Add option** inside the section and choose an option type. The picker h
 * **Option Types** — the 32 individual option types.
 * **Option Templates** — ready-made groups of options you can insert and customize.
 
-<figure><img src="../.gitbook/assets/2026-08-27_14-52-56.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-08-27_14-52-56.png" alt="The Add option picker showing the Option Types and Option Templates tabs"><figcaption><p>Choose an option type, or insert a ready-made group from Option Templates.</p></figcaption></figure>
 
 For each option, set at least these three fields:
 
@@ -98,7 +98,7 @@ Selecting **Point of Sale** is not enough on its own. Some option types and one 
 
 Select **View in Store** in the builder header to open a product that this option set applies to. If the option set is **Active** and the [app embed](../getting-started/enable-the-app-embed.md) is enabled, your options will appear on the product page.
 
-<figure><img src="../.gitbook/assets/2026-08-27_15-07-51.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-08-27_15-07-51.png" alt="The View in Store button in the builder header"><figcaption><p>View in Store opens a product that the option set applies to.</p></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 

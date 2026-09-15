@@ -13,7 +13,7 @@ Uploading your own fonts makes the preview accurate. If your engraving machine u
 
 **Settings** > **Settings** > **General** > **Custom fonts**.
 
-<figure><img src="../.gitbook/assets/2026-09-07_11-51-14.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-09-07_11-51-14.png" alt="The Custom fonts area in the General settings section"><figcaption><p>Custom fonts, in the General section of Settings.</p></figcaption></figure>
 
 ## Steps
 

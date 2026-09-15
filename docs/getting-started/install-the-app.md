@@ -24,7 +24,7 @@ Either open the app listing directly at [apps.shopify.com/product-options-pro](h
 
 Make sure you’re signed in to the correct store before installing. The App Store installs the app in whichever store you’re currently signed in to.
 
-<figure><img src="../.gitbook/assets/2026-08-27_10-56-37.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-08-27_10-56-37.png" alt="The app's listing page on the Shopify App Store"><figcaption><p>The app listing in the Shopify App Store.</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -34,7 +34,7 @@ Shopify shows a summary of the data the app will be able to access and asks you 
 
 This screen is provided by Shopify, not the app. Review the information, then select **Install** to proceed. See [What the app can access](install-the-app.md#what-the-app-can-access) below for details on how each permission is used.
 
-<figure><img src="../.gitbook/assets/install 2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/install 2.png" alt="Shopify's installation screen listing the data the app will be able to access"><figcaption><p>Shopify's own approval screen, listing the access the app is asking for.</p></figcaption></figure>
 {% endstep %}
 
 {% step %}

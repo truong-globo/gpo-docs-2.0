@@ -9,7 +9,7 @@ icon: comment-dots
 
 Together, these settings do much of the work of helping customers enter the right information. A clear placeholder and a short line of help text can prevent more confusion — and support requests — than a validation rule alone.
 
-<figure><img src="../../.gitbook/assets/2026-08-31_10-05-10 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2026-08-31_10-05-10 (1).png" alt="An option's Basic Settings with the Placeholder and Help text fields"><figcaption><p>Placeholder and help text on an option's Basic Settings.</p></figcaption></figure>
 
 ## Placeholder
 

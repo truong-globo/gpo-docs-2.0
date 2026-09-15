@@ -35,7 +35,7 @@ From the bulk action menu on the list, or the builder's more-actions menu.
 {% endstep %}
 {% endstepper %}
 
-<figure><img src="../.gitbook/assets/2026-09-07_10-48-27.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-09-07_10-48-27.png" alt="The Custom Templates tab listing saved templates"><figcaption><p>Your saved templates are listed under the Custom Templates tab.</p></figcaption></figure>
 
 ### Create one from scratch
 
@@ -43,7 +43,7 @@ From the bulk action menu on the list, or the builder's more-actions menu.
 
 Template mode differs from an option set in one way: there is no **Setup flow**, and no product, customer, or country rules. A template has no targeting, because it is never displayed on your storefront. It only has options. The left rail shows **Elements** instead.
 
-<figure><img src="../.gitbook/assets/2026-09-07_10-50-05.png" alt="The Custom Templates tab listing saved templates with their option elements"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-09-07_10-50-05.png" alt="The Custom Templates tab listing saved templates with their option elements"><figcaption><p>Template mode has no Setup flow, because a template has no targeting.</p></figcaption></figure>
 
 ## Using a custom template
 

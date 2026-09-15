@@ -35,7 +35,7 @@ Select **Add value** to add a new empty row. Enter the value, then set a price o
 
 Select **Bulk add**, then paste your list into the box with **one value per line.**
 
-<figure><img src="../.gitbook/assets/2026-08-27_15-49-25.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-08-27_15-49-25.png" alt="The Bulk add box with one value entered per line"><figcaption><p>Bulk add takes one value per line.</p></figcaption></figure>
 
 Bulk add validates the entire list before accepting it:
 
@@ -53,7 +53,7 @@ This is useful for explaining what a choice means or how it affects processing t
 
 Most selection types support help text for individual values. **Select**, **Product links**, and **Tabs** support help text at the option level only.
 
-<figure><img src="../.gitbook/assets/2026-08-27_15-54-44.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-08-27_15-54-44.png" alt="A values table with help text entered against an individual value"><figcaption><p>Help text on a value appears beside that choice rather than below the whole option.</p></figcaption></figure>
 
 ## Pricing a value
 

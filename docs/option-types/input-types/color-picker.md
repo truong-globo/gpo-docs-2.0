@@ -15,7 +15,7 @@ Use it only when you can produce any color, such as custom paint, custom thread,
 
 A field showing the currently selected color. Selecting it opens a picker, where the customer chooses a color visually or enters a value.
 
-<figure><img src="../../.gitbook/assets/2026-09-03_10-24-51.png" alt="A color picker open on a storefront product page"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2026-09-03_10-24-51.png" alt="A color picker open on a storefront product page"><figcaption><p>The field shows the selected color, and opens a picker when the customer selects it.</p></figcaption></figure>
 
 ## Basic Settings
 

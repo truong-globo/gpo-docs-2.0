@@ -9,7 +9,7 @@ icon: link
 
 Four settings appear on nearly every option, and each one connects to a larger feature. This page explains what each setting does and where to find it.
 
-<figure><img src="../../.gitbook/assets/clo.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/clo.png" alt="An option's settings with Conditional logic enabled and a rule built underneath"><figcaption><p>Turning on Conditional logic reveals the rule builder directly underneath.</p></figcaption></figure>
 
 ## Conditional logic
 

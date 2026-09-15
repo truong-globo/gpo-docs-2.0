@@ -15,7 +15,7 @@ Use tabs when you have three or four types of information to display but want to
 
 A row or column of tab titles with one panel open. Selecting another title switches panels.
 
-<figure><img src="../../.gitbook/assets/2026-09-03_15-57-56.png" alt="A horizontal set of tabs on a storefront product page with the first panel open"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2026-09-03_15-57-56.png" alt="A horizontal set of tabs on a storefront product page with the first panel open"><figcaption><p>Tab titles, with one panel open at a time.</p></figcaption></figure>
 
 ## Settings
 

@@ -59,9 +59,9 @@ The **Advanced settings** dropdown on **Advanced Settings** controls how the qua
 {% endstep %}
 {% endstepper %}
 
-<figure><img src="../.gitbook/assets/2026-09-04_13-59-29.png" alt="The Use existing product tab with a product selected and its variants listed"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-09-04_13-59-29.png" alt="The Use existing product tab with a product selected and its variants listed"><figcaption><p>The Advanced settings dropdown decides how the add-on quantity is calculated.</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/2026-09-04_14-00-52.png" alt=""><figcaption><p>The add-on price and inventory come from the variant you select.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-09-04_14-00-52.png" alt="The product picker with a variant selected, showing its price and inventory"><figcaption><p>The add-on price and inventory come from the variant you select.</p></figcaption></figure>
 
 ## What you get
 

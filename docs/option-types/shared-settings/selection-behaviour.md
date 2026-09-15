@@ -80,6 +80,6 @@ Once a list grows beyond roughly fifteen values, scrolling can become the slowes
 
 For shorter lists, it adds a control customers may not need. Consider whether a [collapsible layout or slider](collapsible-layouts-and-sliders.md) would suit the list better instead.
 
-<figure><img src="../../.gitbook/assets/2026-08-31_10-48-59.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2026-08-31_10-48-59.png" alt="A Dropdown's Basic Settings with Allow multiple highlighted below the values table"><figcaption><p>Allow multiple is on Basic Settings, directly below the values table.</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/2026-08-31_10-47-22.png" alt="Allow multiple on Basic Settings, with Search suggestion and Not allow deselect on Advanced Settings"><figcaption><p>Allow multiple is a Basic setting; the other two are Advanced.</p></figcaption></figure>

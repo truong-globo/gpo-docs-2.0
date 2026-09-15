@@ -28,7 +28,7 @@ It copies every file attached through a [File upload](../../option-types/input-t
 
 A Google window opens and asks for permission to create folders in the destination you select, upload files that customers attach to their orders, and read the storage quota of the account. The app never reads or deletes files outside the folder you select.
 
-<figure><img src="../../.gitbook/assets/drive 2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/drive 2.png" alt="Google's consent screen listing the permissions the app requests"><figcaption><p>Google asks you to approve the access the app needs before the account is connected.</p></figcaption></figure>
 {% endstep %}
 
 {% step %}

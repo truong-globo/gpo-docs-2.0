@@ -13,7 +13,7 @@ These three settings control the layout of an option. All of them are available 
 
 Sets whether option values are listed vertically or horizontally.
 
-<figure><img src="../../.gitbook/assets/drs.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/drs.png" alt="Advanced Settings showing Direction style, Column width, and HTML class"><figcaption><p>Direction style, column width, and HTML class, all on Advanced Settings.</p></figcaption></figure>
 
 <table><thead><tr><th width="230">Value</th><th>Description</th></tr></thead><tbody><tr><td><strong>Vertical</strong> (default)</td><td>Each value is displayed on its own line.</td></tr><tr><td><strong>Horizontal</strong></td><td>Values are displayed across the page and wrap to the next line.</td></tr></tbody></table>
 

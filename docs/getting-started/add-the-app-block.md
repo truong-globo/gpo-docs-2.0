@@ -53,7 +53,7 @@ Alternatively, open the theme editor from Shopify: **Online Store** > **Themes**
 
 In the left sidebar, find the product information section — its name varies by theme, often **Product information** or **Product** — and select **Add block**. Under the **Apps** tab, choose **Globo Product Options**.
 
-<figure><img src="../.gitbook/assets/2026-08-27_14-15-27.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-08-27_14-15-27.png" alt="The theme editor sidebar with Add block open and the app listed under the Apps tab"><figcaption><p>Add block in the product information section, then choose the app under the Apps tab.</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -61,7 +61,7 @@ In the left sidebar, find the product information section — its name varies by
 
 The block appears in the section's block list. Drag it up or down until it sits where you want the widget. The preview redraws as you move it, so you can judge the position directly.
 
-<figure><img src="../.gitbook/assets/2026-08-27_14-18-03.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-08-27_14-18-03.png" alt="The app block being dragged within a section's block list in the theme editor"><figcaption><p>Drag the block up or down until the widget sits where you want it.</p></figcaption></figure>
 {% endstep %}
 
 {% step %}

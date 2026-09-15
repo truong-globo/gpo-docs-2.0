@@ -18,14 +18,14 @@ Everything on this page happens in the **Setup flow** > **Build option**. It is 
 
 Select the **Add option** button inside a section. You will see two tabs — **Option Types** for all 32 types, grouped into **Input**, **Selection**, and **Static**; and **Option Templates** for a saved group of options inserted in one go.
 
-<figure><img src="../.gitbook/assets/2026-08-27_14-52-56.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-08-27_14-52-56.png" alt="The Add option picker showing the Option Types and Option Templates tabs"><figcaption><p>The add picker, with Option Types and Option Templates on separate tabs.</p></figcaption></figure>
 
 Two shortcuts are worth knowing:
 
 * **Insert between two options.** Hover between two options in the list to reveal the insert control. This is faster than adding an option at the end and dragging it into place.
 * **Add template.** Insert a ready-made group of options and reuse it in another option set. For example, you can reuse a monogram block you’ve already built. If any names conflict, they are automatically renumbered, and conditional logic within the template is updated to keep working. See [Custom templates](../templates/custom-templates.md).
 
-<figure><img src="../.gitbook/assets/2026-08-27_15-30-49.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-08-27_15-30-49.png" alt="The insert control revealed between two options in the builder list"><figcaption><p>Hover between two options to insert a new one in place.</p></figcaption></figure>
 
 ## Editing an option
 
@@ -69,7 +69,7 @@ Drag an option by its handle to move it. The order in the builder is the same or
 
 You can drag options within a section or between sections. Dragging a section moves the section and all the options inside it.
 
-<figure><img src="../.gitbook/assets/2026-08-27_15-44-28.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-08-27_15-44-28.png" alt="An option being dragged by its handle in the builder list"><figcaption><p>Drag an option by its handle. The order in the builder is the order customers see.</p></figcaption></figure>
 
 Some ordering tips:
 
@@ -110,4 +110,4 @@ If your storefront supports multiple languages, use the language switcher in the
 
 **Name** is intentionally not translatable so your order data stays consistent across languages. See [Translate option content](../translations-and-languages/translate-option-content.md).
 
-<figure><img src="../.gitbook/assets/2026-08-27_15-42-27.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-08-27_15-42-27.png" alt="The language switcher open in the builder header"><figcaption><p>The language switcher in the builder header, for entering translated labels and values.</p></figcaption></figure>

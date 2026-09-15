@@ -15,7 +15,7 @@ It has more presentation settings than any other selection type, because a grid 
 
 A grid of picture swatches at the size you set. Hovering displays the value's name, and optionally a zoomed version of the image. Long lists can be displayed as a slider.
 
-<figure><img src="../../.gitbook/assets/2026-09-03_13-30-15.png" alt="A grid of image swatches on a storefront product page with a zoomed tooltip on the hovered swatch"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2026-09-03_13-30-15.png" alt="A grid of image swatches on a storefront product page with a zoomed tooltip on the hovered swatch"><figcaption><p>A grid of picture swatches at the size you set.</p></figcaption></figure>
 
 ## Basic Settings
 

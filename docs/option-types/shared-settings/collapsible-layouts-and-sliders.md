@@ -15,7 +15,7 @@ These settings are available under **Advanced Settings**. Turn on **Enable custo
 
 Off by default. When disabled, all option values are displayed in the default layout. When enabled, you can select a **Layout type**.
 
-<figure><img src="../../.gitbook/assets/layout.png" alt="Slider settings for an Image swatch option"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/layout.png" alt="Slider settings for an Image swatch option"><figcaption><p>Turning on Enable custom layout reveals the Layout type choices.</p></figcaption></figure>
 
 ## Layout type
 

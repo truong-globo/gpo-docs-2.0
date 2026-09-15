@@ -19,7 +19,7 @@ With flexible product options and personalization features, you can let customer
 * **CSV import & export:** Import and export product options and variants using CSV files.
 * **Product personalization:** Let customers personalize products with text, images, custom fields, and live previews.
 
-<figure><img src=".gitbook/assets/2026-08-27_10-05-59.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/2026-08-27_10-05-59.png" alt="The app's Dashboard in Shopify admin, showing app embed status, a setup guide, and sales totals"><figcaption><p>The app's Dashboard, with the app embed status and the setup guide.</p></figcaption></figure>
 
 ## What you can build with it
 

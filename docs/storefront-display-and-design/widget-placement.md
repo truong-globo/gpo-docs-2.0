@@ -17,7 +17,7 @@ Four positions are relative to elements every theme has. The other four are rela
 
 The four custom positions display a **Selector of the HTML element** field, where you enter a CSS selector such as `#addToCart`.
 
-<figure><img src="../.gitbook/assets/2026-09-07_11-08-25.png" alt="The widget placement dropdown showing the default and custom position groups"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-09-07_11-08-25.png" alt="The widget placement dropdown showing the default and custom position groups"><figcaption><p>Widget placement, with the eight positions the widget can take.</p></figcaption></figure>
 
 ## Which to choose
 

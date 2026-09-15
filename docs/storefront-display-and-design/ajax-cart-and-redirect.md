@@ -7,7 +7,7 @@ icon: right-to-bracket
 
 One setting controls this, and its behavior depends on your theme. **Settings** > **Settings** > **General** > **Product page** > **Go to cart immediately after adding to cart**.
 
-<figure><img src="../.gitbook/assets/2026-09-07_11-24-24.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-09-07_11-24-24.png" alt="The Product page group in General settings, with the go-to-cart setting"><figcaption><p>Go to cart immediately after adding to cart, in the Product page group.</p></figcaption></figure>
 
 
 

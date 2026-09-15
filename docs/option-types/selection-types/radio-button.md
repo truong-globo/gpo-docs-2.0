@@ -15,7 +15,7 @@ This type is always single-select, so there is no **Allow multiple** setting. To
 
 A vertical list with a selectable marker beside each value. With **Swatch style** set, each value can also display a color chip or a picture.
 
-<figure><img src="../../.gitbook/assets/2026-09-03_11-35-59.png" alt="A vertical radio button list on a storefront product page with help text under each value"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2026-09-03_11-35-59.png" alt="A vertical radio button list on a storefront product page with help text under each value"><figcaption><p>Every choice is visible without opening anything.</p></figcaption></figure>
 
 ## Basic Settings
 

@@ -31,7 +31,7 @@ The builder opens on **Build option**, with one empty **Section** already in pla
 
 <figure><img src="../.gitbook/assets/2026-08-27_13-12-14.png" alt="The Create option set menu open on the Option Sets page, showing Create from scratch and Use a template"><figcaption><p>Start a new option set from scratch on the Option Sets page.</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/2026-08-27_13-15-46.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-08-27_13-15-46.png" alt="A newly created option set open in the builder with one empty section"><figcaption><p>A new option set opens on Build option, with one empty section ready for your first option.</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -39,7 +39,7 @@ The builder opens on **Build option**, with one empty **Section** already in pla
 
 Click the **Add option** button and select **Text** (it's the simplest of the 32 [option types](../option-types/option-types.md): a single-line box).
 
-<figure><img src="../.gitbook/assets/2026-08-27_13-19-48.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-08-27_13-19-48.png" alt="The Add option picker with option types grouped into Input, Selection, and Static"><figcaption><p>Add option lists all 32 option types, grouped into Input, Selection, and Static.</p></figcaption></figure>
 
 On **Basic Settings**, two fields matter:
 
@@ -48,7 +48,7 @@ On **Basic Settings**, two fields matter:
 
 The preview on the right updates as you type.
 
-<figure><img src="../.gitbook/assets/2026-08-27_13-22-59.png" alt="The option type picker open in the builder, showing the Input, Selection, and Static groups"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-08-27_13-22-59.png" alt="The option type picker open in the builder, showing the Input, Selection, and Static groups"><figcaption><p>Label is what customers read, and Name is what appears on the order.</p></figcaption></figure>
 
 {% hint style="info" %}
 **Name** has rules that **Label** does not: it must be unique within the option set, and it cannot contain `.` `:` `"` `'` `\` or `|`. See [Label and Name](../option-types/shared-settings/labels-and-visibility.md).
@@ -84,9 +84,9 @@ Select **Save**, then set the status beside the option set name to **Active** an
 
 Go to **Settings** > **Theme Setup**, confirm that the theme shown is your live theme, then select **Go to Theme Editor**. Turn on the **Globo Product Options** app embed and select **Save**.
 
-<figure><img src="../.gitbook/assets/2026-08-27_13-31-37.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-08-27_13-31-37.png" alt="The Theme Setup page with the selected theme and its app embed status"><figcaption><p>Theme Setup confirms which theme the app embed applies to.</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/2026-08-27_13-33-31.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-08-27_13-33-31.png" alt="The theme editor's app embeds panel with the app embed switched on"><figcaption><p>Turn on the app embed in the theme editor, then save.</p></figcaption></figure>
 
 Back in the app tab, it automatically changes to **Activated** within a few seconds.
 

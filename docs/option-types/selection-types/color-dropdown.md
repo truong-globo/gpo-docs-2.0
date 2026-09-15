@@ -13,7 +13,7 @@ A [Dropdown](dropdown.md) where each entry has a color chip. Use it for a long c
 
 A field showing the current color and its name. Opening it lists every color with a chip beside its name, and the list is searchable if you turn search on.
 
-<figure><img src="../../.gitbook/assets/2026-09-03_11-15-39.png" alt="An open color dropdown on a storefront product page with a color chip beside each name"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2026-09-03_11-15-39.png" alt="An open color dropdown on a storefront product page with a color chip beside each name"><figcaption><p>Each entry carries a color chip beside its name.</p></figcaption></figure>
 
 ## Basic Settings
 

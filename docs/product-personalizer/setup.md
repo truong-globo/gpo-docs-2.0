@@ -9,7 +9,11 @@ icon: sliders
 
 A live preview requires two things: a **background** and one or more **layers**.
 
-The background belongs to the **option set**, and the layers belong to individual **options**. Layer positions are measured against the background, so set the background first. If you change it later, you have to reposition every layer.
+The background belongs to the **option set**, and the layers belong to individual **options**.
+
+The two are connected: **Change background** lives on the preview panel's **Personalize** tab, and that tab only appears once at least one option has the Personalizer turned on. So you cannot set the background before you have an option with the Personalizer enabled.
+
+Layer positions are measured against the background, so set the background before you position any layer. If you change it later, you have to reposition every layer.
 
 ## The three parts
 
@@ -17,22 +21,21 @@ The background belongs to the **option set**, and the layers belong to individua
 
 ## The order to work in
 
-Set the background first, then complete the following steps:
-
-1. **Set the background.** See [Choosing the background](setup.md#choosing-the-background) below.
-2. **Build the options.** Set labels, limits, prices, and conditional logic. See [Build your options](../option-sets/build-options.md).
-3. **Turn the Personalizer on for each option.** See [Turning it on as an option](setup.md#turning-it-on-as-an-option) below.
-4. **Style and position each layer.** See [Layer settings](layer-settings/).
-5. **Select what the customer can adjust.** See [Customer controls](layer-settings/customer-controls.md). Add a [clip area](layer-settings/clip-area.md) if you allow any adjustment.
-6. **Test on a real product page** using **View in Store**. Enter realistic content, such as a full name rather than `test`, and check the result on a phone.
+1. **Build the options.** Add the options you want personalized, and set their labels, limits, prices, and conditional logic. See [Build your options](../option-sets/build-options.md).
+2. **Turn the Personalizer on for each option.** This is what makes the **Personalize** tab appear in the preview panel. See [Turning it on as an option](setup.md#turning-it-on-as-an-option) below.
+3. **Set the background.** See [Choosing the background](setup.md#choosing-the-background) below.
+4. **Give every text layer a default value.** Without one the layer is not drawn, so the preview looks empty. See [Always give a text layer a default value](setup.md#always-give-a-text-layer-a-default-value) below.
+5. **Style and position each layer.** Positions are measured against the background, so do this after step 3. See [Layer settings](layer-settings/).
+6. **Select what the customer can adjust.** See [Customer controls](layer-settings/customer-controls.md). Add a [clip area](layer-settings/clip-area.md) if you allow any adjustment.
+7. **Test on a real product page** using **View in Store**. Enter realistic content, such as a full name rather than `test`, and check the result on a phone.
 
 ## Choosing the background
 
 Select **Change background** in the preview panel. You then choose which image to use, and which of the product's images it applies to.
 
-<figure><img src="../.gitbook/assets/person1.png" alt="The background panel with the Background and Apply to choices"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/person1.png" alt="The background panel with the Background and Apply to choices"><figcaption><p>Turn on Personalizer on the option, then select Change background in the preview panel.</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/person2.png" alt=""><figcaption><p>Two decisions: which image, and which of the product’s images it applies to.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/person2.png" alt="The Change background panel, with the image source and the product images it applies to"><figcaption><p>Two decisions: which image, and which of the product’s images it applies to.</p></figcaption></figure>
 
 ### Product image or custom image
 

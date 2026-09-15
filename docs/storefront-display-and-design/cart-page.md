@@ -9,7 +9,7 @@ icon: cart-shopping
 
 Three settings in **Settings** > **Settings** > **General** > **Cart page**, plus one in the add-on settings, control how a personalized order behaves once it is in the cart.
 
-<figure><img src="../.gitbook/assets/2026-09-07_11-21-44.png" alt=""><figcaption><p>Three cart settings, all store-wide.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-09-07_11-21-44.png" alt="The Cart page group in General settings with its three switches"><figcaption><p>Three cart settings, all store-wide.</p></figcaption></figure>
 
 ## Hide quantity box and remove button for add-on products
 
@@ -56,7 +56,7 @@ This setting is on a different page, but it changes the cart more than the three
 
 It is on by default. See [Merge main product and add-ons](../add-on-pricing/merge-as-bundle.md).
 
-<figure><img src="../.gitbook/assets/2026-09-07_11-22-45.png" alt="The cart page settings group with its three switches"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-09-07_11-22-45.png" alt="The cart page settings group with its three switches"><figcaption><p>Merge Main product & Add-on products, in the Add-on price section.</p></figcaption></figure>
 
 ## What the cart always displays
 

@@ -9,7 +9,7 @@ icon: palette
 
 Before setting these individually, try [Match your theme style](match-your-theme-style.md). For a supported theme, it sets most of them for you.
 
-<figure><img src="../.gitbook/assets/2026-09-07_11-12-42.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-09-07_11-12-42.png" alt="The Color group in Design settings with its sub-groups of color fields"><figcaption><p>The Color group in Design settings, grouped as the app groups it.</p></figcaption></figure>
 
 ## General
 

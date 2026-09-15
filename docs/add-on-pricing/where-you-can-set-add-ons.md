@@ -13,7 +13,7 @@ The location of the price field depends on the option type. Check the tables bel
 
 <table><thead><tr><th width="230">Level</th><th width="290">Where the field is</th><th>Because</th></tr></thead><tbody><tr><td><strong>Option level</strong></td><td><strong>Basic Settings</strong>, under <strong>Add-on Settings</strong>, labeled <strong>Price</strong></td><td>The option has one answer, so one price</td></tr><tr><td><strong>Option value level</strong></td><td>The <strong>Price</strong> column in the option values table</td><td>Different choices usually cost different amounts</td></tr></tbody></table>
 
-<figure><img src="../.gitbook/assets/2026-09-04_13-53-34.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-09-04_13-53-34.png" alt="An option's Price field beside a values table with its own Price column"><figcaption><p>The price field sits on the option for input types, and on each value for selection types.</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/2026-09-04_13-52-17.png" alt="An option-level Price field beside an option values table with a Price column"><figcaption><p>Input types take one price; selection types take a price per choice.</p></figcaption></figure>
 

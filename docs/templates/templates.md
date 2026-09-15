@@ -11,7 +11,7 @@ A template is a saved option set you can copy. Use it to avoid rebuilding the sa
 
 <table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Pre-designed Templates</strong></td><td>Start from one of twenty ready-made option sets for common product types.</td><td><a href="pre-designed-templates.md">pre-designed-templates.md</a></td></tr><tr><td><strong>Personalized Templates</strong></td><td>Start from a setup that already has the live preview configured.</td><td><a href="personalized-templates.md">personalized-templates.md</a></td></tr><tr><td><strong>Custom Templates</strong></td><td>Templates you create, or save from an existing option set.</td><td><a href="custom-templates.md">custom-templates.md</a></td></tr></tbody></table>
 
-<figure><img src="../.gitbook/assets/2026-09-07_10-31-57.png" alt="The Templates page with its three tabs and template cards"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-09-07_10-31-57.png" alt="The Templates page with its three tabs and template cards"><figcaption><p>Templates has three tabs: pre-designed, personalized, and your own.</p></figcaption></figure>
 
 ## Template or option set?
 
@@ -31,7 +31,7 @@ Names that match existing options are renumbered automatically, and conditional 
 
 See [Build your options](../option-sets/build-options.md).
 
-<figure><img src="../.gitbook/assets/2026-09-07_10-55-20.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-09-07_10-55-20.png" alt="The Add template action in the builder's option picker"><figcaption><p>Add template inserts a saved group of options into the option set you are building.</p></figcaption></figure>
 
 ## Notes
 

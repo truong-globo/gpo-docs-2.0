@@ -15,7 +15,7 @@ Use it for a menu of extras such as toppings, add-on services, accessories, or u
 
 A list with a check box beside each value. With **Swatch style** set, each value can also display a color chip or a picture.
 
-<figure><img src="../../.gitbook/assets/2026-09-03_11-46-32.png" alt="A checkbox list on a storefront product page with several values ticked and their prices shown"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2026-09-03_11-46-32.png" alt="A checkbox list on a storefront product page with several values ticked and their prices shown"><figcaption><p>A checkbox list, where the customer can select any number of values.</p></figcaption></figure>
 
 ## Basic Settings
 

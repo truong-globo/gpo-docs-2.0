@@ -9,7 +9,7 @@ icon: code
 
 **Settings** > **Settings** > **Design** > **Additional** > **Custom CSS for the widget**. This is a code editor, and its contents are applied to the widget on your storefront.
 
-<figure><img src="../.gitbook/assets/2026-09-07_11-16-09.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-09-07_11-16-09.png" alt="The custom CSS code editor in Design settings"><figcaption><p>The custom CSS editor, under Additional in Design settings.</p></figcaption></figure>
 
 ## Try the settings first
 

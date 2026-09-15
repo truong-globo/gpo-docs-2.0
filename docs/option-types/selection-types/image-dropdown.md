@@ -13,7 +13,7 @@ A [Dropdown](dropdown.md) where each entry includes an image. Use it when the ch
 
 A field showing the current choice. Opening it lists every entry with its picture, and the list is searchable if you turn search on. With **Image display outside dropdown** on, the selected picture is also displayed beside the closed field.
 
-<figure><img src="../../.gitbook/assets/2026-09-03_11-23-03.png" alt="An open image dropdown on a storefront product page with a thumbnail beside each entry"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2026-09-03_11-23-03.png" alt="An open image dropdown on a storefront product page with a thumbnail beside each entry"><figcaption><p>Each entry carries a picture, so a long visual list stays compact.</p></figcaption></figure>
 
 ## Basic Settings
 

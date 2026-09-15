@@ -15,7 +15,7 @@ Use it for care instructions, personalization policies, return terms, delivery d
 
 A link with your title. Selecting it opens a dialog with your content, at the width you set.
 
-<figure><img src="../../.gitbook/assets/2026-09-03_15-39-47.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2026-09-03_15-39-47.png" alt="A pop-up modal link on a storefront product page and the dialog it opens"><figcaption><p>A link on the product page that opens your content in a dialog.</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/2026-09-03_15-38-02.png" alt="A pop-up modal opened from a link on a storefront product page"><figcaption><p>A modal keeps long content off the page until it is asked for.</p></figcaption></figure>
 

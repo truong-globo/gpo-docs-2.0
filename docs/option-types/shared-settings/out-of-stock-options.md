@@ -31,4 +31,4 @@ See [Stock and inventory](../../add-on-pricing/stock-and-inventory.md).
 * The setting applies to the whole option. All option values use the same display.
 * The setting controls display and selection only. It does not prevent the customer from buying the main product.
 
-<figure><img src="../../.gitbook/assets/oos.png" alt="Color swatches with one value blurred"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/oos.png" alt="Color swatches with one value blurred"><figcaption><p>The four ways a sold-out value can be displayed: Show, Hide, Blur, and Strike-through.</p></figcaption></figure>

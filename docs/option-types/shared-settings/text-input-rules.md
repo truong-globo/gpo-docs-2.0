@@ -63,7 +63,7 @@ They are independent and combine cleanly. A typical engraving field:
 
 <table><thead><tr><th width="240">Setting</th><th>Value</th><th>Why</th></tr></thead><tbody><tr><td><strong>Max character</strong></td><td><code>15</code></td><td>What physically fits</td></tr><tr><td><strong>Character counter</strong></td><td><strong>Show</strong></td><td>So they can see the limit closing in</td></tr><tr><td><strong>Allowed value</strong></td><td><strong>Letters &#x26; numbers</strong></td><td>The machine cannot cut symbols</td></tr><tr><td><strong>Text transform</strong></td><td><strong>Capitalized</strong></td><td>Every engraving looks the same</td></tr><tr><td><strong>Help text</strong></td><td><code>Up to 15 letters and numbers. Engraved items cannot be returned.</code></td><td>No surprises</td></tr></tbody></table>
 
-<figure><img src="../../.gitbook/assets/2026-08-31_10-36-22.png" alt="The Allowed value and Text transform settings on a Text option&#x27;s Advanced Settings"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2026-08-31_10-36-22.png" alt="The Allowed value and Text transform settings on a Text option&#x27;s Advanced Settings"><figcaption><p>Allowed value and Text transform, both on Advanced Settings.</p></figcaption></figure>
 
 ## Notes
 

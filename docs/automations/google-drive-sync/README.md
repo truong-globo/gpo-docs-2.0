@@ -13,7 +13,7 @@ Files a customer uploads are stored with the order, but they stay inside the app
 
 It copies every file attached through a [File upload](../../option-types/input-types/file-upload.md) option, and optionally the [Personalizer](../../product-personalizer/personalizer.md) design image. Only line items created by the app are read, so ordinary products in the same order are skipped.
 
-<figure><img src="../../.gitbook/assets/drive 1.png" alt="The Google Drive sync page with its connection, destination, and file name sections"><figcaption><p>The whole automation is configured on one page.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ggdrive.png" alt="The Google Drive sync page with its connection, destination, and file name sections"><figcaption><p>The whole automation is configured on one page.</p></figcaption></figure>
 
 ## Before you start
 

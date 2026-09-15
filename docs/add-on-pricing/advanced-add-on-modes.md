@@ -7,17 +7,17 @@ icon: calculator
 
 # Advanced add-on modes
 
-The price sets how much an add-on costs. The **Advanced settings** dropdown sets how the quantity is calculated.
+The price sets how much an add-on costs. The **Advanced add-on** sets how the quantity is calculated.
 
 For example, a $5.00 gift wrap charge on an order of three items is either $15.00 or $5.00, depending on the mode you select.
 
 ## Where it is
 
-The setting is on the **Advanced Settings** tab, labeled **Advanced settings**. It is set at **option** level, even when the prices are set on individual values, and it applies to the whole option.
+The setting is on the **Basic** tab, labeled **Quantity**. It is set at **option** level, even when the prices are set on individual values, and it applies to the whole option.
 
 It has no effect on an option with no price.
 
-<figure><img src="../.gitbook/assets/2026-09-04_14-18-35.png" alt="The Advanced settings dropdown open, listing the add-on quantity modes with their help text"><figcaption><p>Each mode carries a one-line explanation in the app itself.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/ad addon.png" alt="The Advanced settings dropdown open, listing the add-on quantity modes with their help text"><figcaption><p>Each mode carries a one-line explanation in the app itself.</p></figcaption></figure>
 
 ## The eight modes
 

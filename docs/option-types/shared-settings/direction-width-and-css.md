@@ -13,7 +13,7 @@ These three settings control the layout of an option. All of them are available 
 
 Sets whether option values are listed vertically or horizontally.
 
-<figure><img src="/broken/files/wiU3RDsOWsXvBjis5vk6" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/drs.png" alt=""><figcaption></figcaption></figure>
 
 <table><thead><tr><th width="230">Value</th><th>Description</th></tr></thead><tbody><tr><td><strong>Vertical</strong> (default)</td><td>Each value is displayed on its own line.</td></tr><tr><td><strong>Horizontal</strong></td><td>Values are displayed across the page and wrap to the next line.</td></tr></tbody></table>
 
@@ -57,4 +57,4 @@ Before using custom CSS, check whether a setting already covers your requirement
 
 For more information, see [Custom CSS](../../storefront-display-and-design/custom-css.md).
 
-<figure><img src="/broken/files/gohCiZTdAev1QISz1eOm" alt="Direction style, Column width, and HTML class settings"><figcaption><p>Direction style, Column width, and HTML class under Advanced Settings.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/html.png" alt="Direction style, Column width, and HTML class settings"><figcaption><p>Direction style, Column width, and HTML class under Advanced Settings.</p></figcaption></figure>

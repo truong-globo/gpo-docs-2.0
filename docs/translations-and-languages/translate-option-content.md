@@ -35,7 +35,7 @@ Each row shows a status: **Default** for your source language, **Translated** wh
 {% step %}
 ### Select a language to translate
 
-The editor opens on **Translating <language>**. Each row shows the **Source text** beside the field you fill in, so you are never translating blind.
+The editor opens on **Translating** . Each row shows the **Source text** beside the field you fill in, so you are never translating blind.
 {% endstep %}
 
 {% step %}
@@ -65,13 +65,9 @@ Switch language on your storefront and work through the product page in each one
 {% endstep %}
 {% endstepper %}
 
-<!-- SCREENSHOT: trans-languages-list | App admin → builder → tab Translations | Bảng Languages với cột Language/Status/Actions, badge Default + Translated + Not translated, và một dòng còn "n fields left" | Khoanh cột Status -->
+<figure><img src="../.gitbook/assets/tran 1.png" alt="The Translations tab listing every storefront language with its translation status"><figcaption><p>The Languages list tells you which languages are finished and how much is left on the rest.</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/placeholder.png" alt="The Translations tab listing every storefront language with its translation status"><figcaption><p>The Languages list tells you which languages are finished and how much is left on the rest.</p></figcaption></figure>
-
-<!-- SCREENSHOT: trans-locale-editor | App admin → builder → Translations → 1 ngôn ngữ | Màn "Translating <language>" với cột Source text, ô Search fields và filter Translation status | Khoanh cột Source text -->
-
-<figure><img src="../.gitbook/assets/placeholder.png" alt="The per-language editor with the source text beside each field to translate"><figcaption><p>Every field is shown beside its source text, with a filter for what is still untranslated.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/tran 2.png" alt="The per-language editor with the source text beside each field to translate"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Fields you leave empty fall back to the source text, so a partly translated language still works on your storefront.
@@ -80,6 +76,8 @@ Fields you leave empty fall back to the source text, so a partly translated lang
 ## Auto-translate
 
 **Auto-translate** fills in the untranslated fields of the language you are working on, so you review and correct rather than type everything. It is on the same screen as the fields themselves.
+
+<figure><img src="../.gitbook/assets/tran 3.png" alt=""><figcaption></figcaption></figure>
 
 {% stepper %}
 {% step %}
@@ -109,7 +107,7 @@ When it finishes you get a confirmation such as `Auto-translate finished. 42 fie
 
 ### What it skips
 
-<table><thead><tr><th width="330">Skipped</th><th>Why, and what to do</th></tr></thead><tbody><tr><td>Fields you have already translated</td><td>Auto-translate only fills empty fields</td></tr><tr><td>Fields that are too long</td><td>Reported as <code>:count fields were skipped because they are too long to translate automatically.</code> Translate those by hand</td></tr><tr><td>Condition values</td><td>Reported as <code>:count condition values are left for you to translate by hand.</code> These have to match your Shopify variant names exactly, so they are never guessed. See <a href="#variant-conditions-need-translating-too">Variant conditions need translating too</a></td></tr></tbody></table>
+<table><thead><tr><th width="330">Skipped</th><th>Why, and what to do</th></tr></thead><tbody><tr><td>Fields you have already translated</td><td>Auto-translate only fills empty fields</td></tr><tr><td>Fields that are too long</td><td>Reported as <code>:count fields were skipped because they are too long to translate automatically.</code> Translate those by hand</td></tr><tr><td>Condition values</td><td>Reported as <code>:count condition values are left for you to translate by hand.</code> These have to match your Shopify variant names exactly, so they are never guessed. See <a href="translate-option-content.md#variant-conditions-need-translating-too">Variant conditions need translating too</a></td></tr></tbody></table>
 
 ### Monthly AI credits
 
@@ -128,10 +126,6 @@ Credits are spent as the work is done. If you **Stop** a run part-way, the field
 <table><thead><tr><th width="330">Message</th><th>What to do</th></tr></thead><tbody><tr><td>A translation is already running for this option set</td><td>Wait for the other run to finish. Only one run per option set at a time, even across browser tabs</td></tr><tr><td>Too many translation requests. Try again in <code>:count</code> seconds</td><td>Wait the number of seconds shown, then select <strong>Try again</strong></td></tr><tr><td>Translation timed out</td><td>The fields already translated were kept. Select <strong>Try again</strong> to continue with the rest</td></tr><tr><td>Auto-translate is temporarily unavailable</td><td>A problem on the translation service. Try again later</td></tr><tr><td>Auto-translate failed</td><td>Select <strong>Try again</strong>. If it keeps happening, see <a href="../help/contact-support.md">Contact support</a></td></tr></tbody></table>
 
 A run that stops part-way keeps everything it had already translated, and **Try again** picks up from what is still empty.
-
-<!-- SCREENSHOT: trans-auto-translate | App admin → builder → Translations → 1 ngôn ngữ | Nút Auto-translate với dòng Monthly AI credits và ước lượng số credit của run | Khoanh nút Auto-translate và dòng credit -->
-
-<figure><img src="../.gitbook/assets/placeholder.png" alt="The Auto-translate button with the monthly AI credit balance and the estimate for this run"><figcaption><p>The credit line shows what you have left and what this run will cost before you start it.</p></figcaption></figure>
 
 {% hint style="info" %}
 Auto-translate may not be available on all plans. See [Compare plans](../plans-and-billing/compare-plans.md).

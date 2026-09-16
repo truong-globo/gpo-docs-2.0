@@ -14,4 +14,4 @@ site:
       title: Docs
       path: docs
       content:
-        directory: ./untitled
+        directory: null

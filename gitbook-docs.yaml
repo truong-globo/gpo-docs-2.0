@@ -4,7 +4,7 @@ site:
   structure:
     - type: space
       key: space-1
-      title: Docs
+      title: Untitled
       path: docs
       default: true
       content:

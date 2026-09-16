@@ -15,7 +15,7 @@ The **Add workflow** screen splits them into two groups: **Order updates**, whic
 
 <table><thead><tr><th width="200">Workflow</th><th width="170">Group</th><th width="290">What it does</th><th>How many</th></tr></thead><tbody><tr><td><a href="update-order-notes.md">Order notes update</a></td><td>Order updates</td><td>Writes the selected options into the order's notes, so they sit with the order in your admin</td><td>One</td></tr><tr><td><a href="update-order-tags.md">Order tags update</a></td><td>Order updates</td><td>Turns the selected options into order tags, so you can filter and search orders by them</td><td>As many as you like</td></tr><tr><td><a href="email-notification.md">Email notification</a></td><td>Notifications and sync</td><td>Emails you the selected options as soon as the order comes in</td><td>One</td></tr><tr><td><a href="google-drive-sync/">Google Drive sync</a></td><td>Notifications and sync</td><td>Copies customer-uploaded files to your Drive, one folder per order</td><td>One</td></tr></tbody></table>
 
-<figure><img src="../.gitbook/assets/placeholder.png" alt="The four workflow templates with their descriptions"><figcaption><p>The workflow types, added from the workflow templates screen.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/flow.png" alt="The four workflow templates with their descriptions"><figcaption><p>The workflow types, added from the workflow templates screen.</p></figcaption></figure>
 
 ## Which workflow to use
 

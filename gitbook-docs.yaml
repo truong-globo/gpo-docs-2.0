@@ -5,13 +5,13 @@ site:
     - type: space
       key: space-1
       title: Docs
-      path: docs
+      path: docs1
       default: true
       content:
         directory: ./docs
     - type: space
       key: space-2
-      title: Untitled
-      path: untitled
+      title: Docs
+      path: docs
       content:
         directory: ./untitled

@@ -9,10 +9,3 @@ site:
       default: true
       content:
         directory: ./docs
-    - type: space
-      key: space-2
-      title: Docs
-      path: docs
-      draft: true
-      content:
-        directory: null

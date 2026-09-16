@@ -15,7 +15,7 @@ They are especially useful for engraving, embroidery, and printing, where produc
 
 Restricts which characters the field accepts.
 
-<table><thead><tr><th width="180">Tab</th><th>Advanced Settings</th></tr></thead><tbody><tr><td>Default</td><td><strong>Default</strong> — anything is accepted</td></tr><tr><td>Available on</td><td>Text, Textarea</td></tr></tbody></table>
+<table><thead><tr><th width="180">Tab</th><th>Advanced</th></tr></thead><tbody><tr><td>Default</td><td><strong>Default</strong> — anything is accepted</td></tr><tr><td>Available on</td><td>Text, Textarea</td></tr></tbody></table>
 
 <table><thead><tr><th width="230">Choice</th><th>Accepts</th><th>Blocks</th></tr></thead><tbody><tr><td><strong>Default</strong></td><td>Anything the customer can type</td><td>Nothing</td></tr><tr><td><strong>Letters</strong></td><td>Letters only</td><td>Digits, punctuation, symbols</td></tr><tr><td><strong>Letters &#x26; numbers</strong></td><td>Letters and digits</td><td>Punctuation and symbols</td></tr></tbody></table>
 
@@ -39,7 +39,7 @@ Be conservative with **Letters**. It blocks digits, so entries such as `Flat 3B`
 
 Normalises the capitalisation of what the customer typed.
 
-<table><thead><tr><th width="180">Tab</th><th>Advanced Settings</th></tr></thead><tbody><tr><td>Default</td><td><strong>Default</strong> — submitted exactly as typed</td></tr><tr><td>Available on</td><td>Text, Textarea</td></tr></tbody></table>
+<table><thead><tr><th width="180">Tab</th><th>Advanced</th></tr></thead><tbody><tr><td>Default</td><td><strong>Default</strong> — submitted exactly as typed</td></tr><tr><td>Available on</td><td>Text, Textarea</td></tr></tbody></table>
 
 <table><thead><tr><th width="200">Choice</th><th>Input</th><th>Result</th></tr></thead><tbody><tr><td><strong>Default</strong></td><td><code>john SMITH</code></td><td><code>john SMITH</code></td></tr><tr><td><strong>UPPERCASE</strong></td><td><code>john SMITH</code></td><td><code>JOHN SMITH</code></td></tr><tr><td><strong>lowercase</strong></td><td><code>john SMITH</code></td><td><code>john smith</code></td></tr><tr><td><strong>Sentence</strong></td><td><code>john SMITH</code></td><td><code>John smith</code></td></tr><tr><td><strong>Capitalized</strong></td><td><code>john SMITH</code></td><td><code>John Smith</code></td></tr></tbody></table>
 
@@ -63,7 +63,7 @@ They are independent and combine cleanly. A typical engraving field:
 
 <table><thead><tr><th width="240">Setting</th><th>Value</th><th>Why</th></tr></thead><tbody><tr><td><strong>Max character</strong></td><td><code>15</code></td><td>What physically fits</td></tr><tr><td><strong>Character counter</strong></td><td><strong>Show</strong></td><td>So they can see the limit closing in</td></tr><tr><td><strong>Allowed value</strong></td><td><strong>Letters &#x26; numbers</strong></td><td>The machine cannot cut symbols</td></tr><tr><td><strong>Text transform</strong></td><td><strong>Capitalized</strong></td><td>Every engraving looks the same</td></tr><tr><td><strong>Help text</strong></td><td><code>Up to 15 letters and numbers. Engraved items cannot be returned.</code></td><td>No surprises</td></tr></tbody></table>
 
-<figure><img src="../../.gitbook/assets/2026-08-31_10-36-22.png" alt="The Allowed value and Text transform settings on a Text option&#x27;s Advanced Settings"><figcaption><p>Allowed value and Text transform, both on Advanced Settings.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2026-08-31_10-36-22.png" alt="The Allowed value and Text transform settings on a Text option&#x27;s Advanced tab"><figcaption><p>Allowed value and Text transform, both on the Advanced tab.</p></figcaption></figure>
 
 ## Notes
 

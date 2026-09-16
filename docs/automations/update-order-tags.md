@@ -5,7 +5,7 @@ description: >-
 icon: tag
 ---
 
-# Update order tags
+# Order tags update
 
 This workflow adds a tag to orders containing app options. Tags are how you filter orders in Shopify admin, and how most fulfillment and reporting tools decide what to do with an order.
 

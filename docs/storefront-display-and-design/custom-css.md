@@ -27,7 +27,7 @@ Global rules can affect the whole widget. Target a class on the specific option 
 {% step %}
 ### Give the option an HTML class
 
-Set **HTML class** on the option's **Advanced Settings**. Use letters, numbers, hyphens, and underscores only, with no leading dot. See [HTML class](../option-types/shared-settings/direction-width-and-css.md#html-class).
+Set **HTML class** on the option's **Advanced** tab. Use letters, numbers, hyphens, and underscores only, with no leading dot. See [HTML class](../option-types/shared-settings/direction-width-and-css.md#html-class).
 {% endstep %}
 
 {% step %}

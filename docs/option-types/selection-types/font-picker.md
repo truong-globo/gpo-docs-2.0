@@ -17,7 +17,7 @@ A dropdown or a row of buttons listing your fonts. With **Font preview** on, eac
 
 <figure><img src="../../.gitbook/assets/2026-09-03_13-57-28.png" alt="An open font picker on a storefront product page with each font name drawn in its own typeface"><figcaption><p>With Font preview on, customers see the lettering rather than imagining it.</p></figcaption></figure>
 
-## Basic Settings
+## Basic
 
 <table><thead><tr><th width="250">Setting</th><th>What it does</th></tr></thead><tbody><tr><td><a href="../shared-settings/labels-and-visibility.md#label">Label</a> / <a href="../shared-settings/labels-and-visibility.md#name">Name</a></td><td>Customer-facing text, and the name on the order.</td></tr><tr><td><a href="../shared-settings/required-and-default-value.md#required-field">Required field</a></td><td>Blocks add to cart until a font is chosen.</td></tr><tr><td><a href="../shared-settings/labels-and-visibility.md#hidden-label">Hidden label</a></td><td>Hides the label.</td></tr><tr><td><strong>Google fonts</strong></td><td>The Google fonts offered. Starts with Roboto, Open Sans, Montserrat, Poppins, and Oswald. Up to 30 fonts.</td></tr><tr><td><strong>Custom fonts</strong></td><td>Fonts you uploaded yourself, in <strong>Settings > Settings > General > Custom fonts</strong>. Several can be offered.</td></tr><tr><td><a href="../shared-settings/placeholder-and-help-text.md#placeholder">Placeholder</a></td><td>The unselected prompt. Starts as <code>-- Select a font --</code>.</td></tr><tr><td><a href="../shared-settings/placeholder-and-help-text.md#help-text">Help text</a></td><td>Guidance that stays visible.</td></tr><tr><td><a href="../shared-settings/required-and-default-value.md#default-value">Default value</a></td><td>Preselects a font.</td></tr><tr><td><a href="../shared-settings/conditional-logic-and-add-on-fields.md#conditional-logic">Conditional logic</a></td><td>Show or hide based on other choices.</td></tr></tbody></table>
 
@@ -31,7 +31,7 @@ The two lists are configured separately and are combined into one list for the c
 Only offer fonts you can produce. If a customer selects a font your engraving machine does not support, you have to contact them to arrange an alternative. Five fonts you can produce reliably are better than thirty.
 {% endhint %}
 
-## Advanced Settings
+## Advanced
 
 <table><thead><tr><th width="250">Setting</th><th>What it does</th></tr></thead><tbody><tr><td><strong>Style</strong></td><td><strong>Dropdown</strong> or <strong>Button</strong>. Dropdown is a list; Button shows the fonts as a row of tappable buttons.</td></tr><tr><td><a href="../shared-settings/selection-behaviour.md#search-suggestion">Search suggestion</a></td><td>Adds a search box. Worth turning on for a long list.</td></tr><tr><td><a href="../shared-settings/swatch-style-and-previews.md#font-preview">Font preview</a></td><td>Draws each font name in that font.</td></tr><tr><td><strong>Select text box</strong></td><td>Which text option the font preview applies to. Appears once <strong>Font preview</strong> is on.</td></tr><tr><td><a href="../shared-settings/placeholder-and-help-text.md#help-text-position">Help text position</a></td><td>Where the help text sits.</td></tr><tr><td><a href="../shared-settings/prefix-suffix-and-icons.md#prefix">Prefix</a> / <a href="../shared-settings/prefix-suffix-and-icons.md#prefix">Prefix icon</a> / <a href="../shared-settings/prefix-suffix-and-icons.md#prefix">Prefix text</a></td><td>An icon or text at the start of the field.</td></tr><tr><td><a href="../shared-settings/direction-width-and-css.md#html-class">HTML class</a> / <a href="../shared-settings/direction-width-and-css.md#column-width">Column width</a></td><td>Styling hook and field width.</td></tr></tbody></table>
 
@@ -47,7 +47,7 @@ Font picker cannot have a price, because a font is a presentation choice rather 
 
 If a particular font costs you more, for example a licensed script or a font that needs hand-finishing, put the charge on a separate [Switch](../input-types/switch.md) or [Radio button](radio-button.md) and use [conditional logic](../../conditional-logic/conditional-logic.md) to display it when that font is selected.
 
-## Personalizer Settings
+## Personalizer
 
 The Personalizer is not set on the picker. It belongs to the **text** option, and the font choice is applied to it.
 

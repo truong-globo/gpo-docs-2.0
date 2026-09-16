@@ -28,7 +28,7 @@ The following selection types also offer **Not allow deselect**, which prevents 
 * [Required field](../shared-settings/required-and-default-value.md#required-field) and [Default value](../shared-settings/required-and-default-value.md#default-value) — except Product links, which collects nothing
 * [Help text](../shared-settings/placeholder-and-help-text.md#help-text) and its [position](../shared-settings/placeholder-and-help-text.md#help-text-position)
 * [Conditional logic](../shared-settings/conditional-logic-and-add-on-fields.md#conditional-logic)
-* The add-on **Advanced settings** dropdown — see [Advanced add-on modes](../../add-on-pricing/advanced-add-on-modes.md)
+* The add-on **Add-on quantity** dropdown — see [Advanced add-on modes](../../add-on-pricing/advanced-add-on-modes.md)
 * [Column width](../shared-settings/direction-width-and-css.md#column-width) and [HTML class](../shared-settings/direction-width-and-css.md#html-class)
 
 ## Where the price lives

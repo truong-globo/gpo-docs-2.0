@@ -11,7 +11,7 @@ The location of the price field depends on the option type. Check the tables bel
 
 ## Two levels
 
-<table><thead><tr><th width="230">Level</th><th width="290">Where the field is</th><th>Because</th></tr></thead><tbody><tr><td><strong>Option level</strong></td><td><strong>Basic Settings</strong>, under <strong>Add-on Settings</strong>, labeled <strong>Price</strong></td><td>The option has one answer, so one price</td></tr><tr><td><strong>Option value level</strong></td><td>The <strong>Price</strong> column in the option values table</td><td>Different choices usually cost different amounts</td></tr></tbody></table>
+<table><thead><tr><th width="230">Level</th><th width="290">Where the field is</th><th>Because</th></tr></thead><tbody><tr><td><strong>Option level</strong></td><td><strong>Basic</strong>, under <strong>Add-on Settings</strong>, labeled <strong>Price</strong></td><td>The option has one answer, so one price</td></tr><tr><td><strong>Option value level</strong></td><td>The <strong>Price</strong> column in the option values table</td><td>Different choices usually cost different amounts</td></tr></tbody></table>
 
 <figure><img src="../.gitbook/assets/2026-09-04_13-53-34.png" alt="An option's Price field beside a values table with its own Price column"><figcaption><p>The price field sits on the option for input types, and on each value for selection types.</p></figcaption></figure>
 
@@ -85,10 +85,10 @@ An [Image swatch](../option-types/selection-types/image-swatch.md) with eight va
 
 **Engraving priced by length**
 
-A [Text](../option-types/input-types/text.md) option with **Price** $0.50 and **Advanced settings** set to **Per character**. Set a **Max character** value to limit the total charge.
+A [Text](../option-types/input-types/text.md) option with **Price** $0.50 and **Add-on quantity** set to **Per character**. Set a **Max character** value to limit the total charge.
 
 ## Notes
 
-* The **Advanced settings** dropdown that controls how a charge scales is always set at **option** level, even when the prices are set on the values. It applies to every value in that option.
+* The **Add-on quantity** dropdown that controls how a charge scales is always set at **option** level, even when the prices are set on the values. It applies to every value in that option.
 * **Mixed quantity** is the exception. It gives each value its own quantity field, and is available on multi-select options only. See [Advanced add-on modes](advanced-add-on-modes.md).
 * When a value is linked to a product, a **Product** column is added to the values table, with a link that opens the product in Shopify admin.

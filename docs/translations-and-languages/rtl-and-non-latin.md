@@ -49,7 +49,7 @@ If you offer personalization in several scripts, create a separate option set fo
 
 The calendar has its own language setting, separate from everything else on this page. It supports more than fifty languages, including Arabic, Hebrew, Thai, and several CJK languages.
 
-**Other language** and **Localization** on the option's **Advanced Settings**. See [Date and time picker](../option-types/input-types/date-and-time-picker.md).
+**Other language** and **Localization** on the option's **Advanced** tab. See [Date and time picker](../option-types/input-types/date-and-time-picker.md).
 
 ## A checklist for a right-to-left store
 
@@ -81,7 +81,7 @@ In the builder, per option set. See [Translate option content](translate-option-
 {% step %}
 ### Set the calendar language on any date option
 
-Per option, on its Advanced Settings.
+Per option, on its Advanced tab.
 {% endstep %}
 
 {% step %}

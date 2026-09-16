@@ -140,7 +140,7 @@ Turn on **Hide quantity box and remove button for add-on products** in **Setting
 
 <summary>Option details are missing from my packing slip</summary>
 
-The template does not print line item properties. Add the snippet from [Show options on orders](../storefront-display-and-design/show-options-on-orders/) inside the line item loop, or use an [Update order notes](../automations/update-order-notes.md) workflow, because most templates already print the order note.
+The template does not print line item properties. Add the snippet from [Show options on orders](../storefront-display-and-design/show-options-on-orders/) inside the line item loop, or use an [Order notes update](../automations/update-order-notes.md) workflow, because most templates already print the order note.
 
 </details>
 

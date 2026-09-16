@@ -41,7 +41,7 @@ Click the **Add option** button and select **Text** (it's the simplest of the 32
 
 <figure><img src="../.gitbook/assets/2026-08-27_13-19-48.png" alt="The Add option picker with option types grouped into Input, Selection, and Static"><figcaption><p>Add option lists all 32 option types, grouped into Input, Selection, and Static.</p></figcaption></figure>
 
-On **Basic Settings**, two fields matter:
+On **Basic**, two fields matter:
 
 * **Label** — what customers read above the box. Set it to `Engraving text`.
 * **Name** — what appears on the cart, at checkout, and on the order. Set it to `Engraving text` too.

@@ -17,7 +17,7 @@ They are one of the most common sources of confusion in the app, so start with t
 
 The text shown above the option field on your product page.
 
-<table><thead><tr><th width="180">Tab</th><th>Basic Settings</th></tr></thead><tbody><tr><td>Default</td><td>The option type's name — for example a new Text option starts with the label <code>Text</code></td></tr><tr><td>Available on</td><td>All types except the purely visual statics, which use their own content fields instead: Divider, Spacing, Heading, Paragraph, HTML, Pop-up modal, Size chart, Tabs</td></tr></tbody></table>
+<table><thead><tr><th width="180">Tab</th><th>Basic</th></tr></thead><tbody><tr><td>Default</td><td>The option type's name — for example a new Text option starts with the label <code>Text</code></td></tr><tr><td>Available on</td><td>All types except the purely visual statics, which use their own content fields instead: Divider, Spacing, Heading, Paragraph, HTML, Pop-up modal, Size chart, Tabs</td></tr></tbody></table>
 
 **How it behaves**
 
@@ -37,7 +37,7 @@ Say what you want, not what the field is. Put the constraint in [Help text](plac
 
 The internal name of the option. It appears on the cart page, at checkout, on the order in your Shopify admin, and in order emails, invoices, and packing slips.
 
-<table><thead><tr><th width="180">Tab</th><th>Basic Settings</th></tr></thead><tbody><tr><td>Default</td><td>The option type's internal identifier — <code>text</code>, <code>checkbox</code>, <code>select</code>, and so on</td></tr><tr><td>Available on</td><td>All types that collect input. Not on <strong>Section</strong> or the visual statics, which never reach the order</td></tr></tbody></table>
+<table><thead><tr><th width="180">Tab</th><th>Basic</th></tr></thead><tbody><tr><td>Default</td><td>The option type's internal identifier — <code>text</code>, <code>checkbox</code>, <code>select</code>, and so on</td></tr><tr><td>Available on</td><td>All types that collect input. Not on <strong>Section</strong> or the visual statics, which never reach the order</td></tr></tbody></table>
 
 {% hint style="warning" %}
 Name has three rules:
@@ -68,7 +68,7 @@ The simplest approach is to make **Name** the same as **Label**. Use a different
 
 **Hidden label** hides the option’s **Label** on the product page. The option still works, and its **Name** is still included with the order.
 
-<table><thead><tr><th width="180">Tab</th><th>Basic Settings</th></tr></thead><tbody><tr><td>Default</td><td>Off</td></tr><tr><td>Available on</td><td>22 types — all input and selection types except <strong>Hidden field</strong>, which has no visible label.</td></tr></tbody></table>
+<table><thead><tr><th width="180">Tab</th><th>Basic</th></tr></thead><tbody><tr><td>Default</td><td>Off</td></tr><tr><td>Available on</td><td>22 types — all input and selection types except <strong>Hidden field</strong>, which has no visible label.</td></tr></tbody></table>
 
 **When to use it**
 
@@ -87,4 +87,4 @@ The simplest approach is to make **Name** the same as **Label**. Use a different
 Hiding the label does not hide the option. To take an option off the storefront while keeping it configured, use the **Hide** action on the option instead — see [Build your options](../../option-sets/build-options.md).
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/2026-08-31_10-05-10.png" alt="An option&#x27;s Basic Settings showing Label, Name, Required field, and Hidden label"><figcaption><p>Label, Name, and Hidden label sit together at the top of Basic Settings.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2026-08-31_10-05-10.png" alt="An option&#x27;s Basic tab showing Label, Name, Required field, and Hidden label"><figcaption><p>Label, Name, and Hidden label sit together at the top of Basic tab.</p></figcaption></figure>

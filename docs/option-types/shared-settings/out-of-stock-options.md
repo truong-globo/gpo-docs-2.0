@@ -7,7 +7,7 @@ icon: boxes-stacked
 
 # Out of stock options
 
-Sets how an option value is displayed when the add-on product linked to it is out of stock. Available under **Advanced Settings**.
+Sets how an option value is displayed when the add-on product linked to it is out of stock. Available on the **Advanced** tab.
 
 <table><thead><tr><th width="230">Value</th><th>Description</th></tr></thead><tbody><tr><td><strong>Show</strong> (default)</td><td>The value is displayed normally and can still be selected.</td></tr><tr><td><strong>Hide</strong></td><td>The value is removed from the list.</td></tr><tr><td><strong>Blur</strong></td><td>The value is displayed faded and cannot be selected.</td></tr><tr><td><strong>Strike-through</strong></td><td>The value is displayed with a line through it and cannot be selected.</td></tr></tbody></table>
 

@@ -15,9 +15,9 @@ Your option sets define _what_ you ask. The settings in this section define _whe
 
 {% stepper %}
 {% step %}
-### Turn on Match theme style
+### Check Match theme style
 
-**Settings** > **Design** > **Theme style**. On a supported theme, this sets most of the appearance at once. See [Match your theme style](match-your-theme-style.md).
+**Settings** > **Design** > **Theme style**. On a supported theme, this sets most of the appearance at once — and it is already on if you installed the app while running that theme. See [Match your theme style](match-your-theme-style.md).
 {% endstep %}
 
 {% step %}

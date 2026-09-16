@@ -7,7 +7,7 @@ icon: shapes
 
 Twenty option sets built for common product types. They include the fields, values, and layout, but not the live preview.
 
-For setups that include the live preview, see [Personalized templates](personalized-templates.md).
+For setups that include the live preview, see [Personalizer templates](personalized-templates.md).
 
 ## The twenty
 

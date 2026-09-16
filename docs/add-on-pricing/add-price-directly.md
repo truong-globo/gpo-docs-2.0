@@ -17,7 +17,7 @@ Use it for services with no inventory to track and nothing to ship separately, s
 {% step %}
 ### Open the price field
 
-On an input type, that is **Price** under **Add-on Settings** on **Basic Settings**. On a selection type, it is the **Price** cell on the option value's row. See [Where you can set add-ons](where-you-can-set-add-ons.md).
+On an input type, that is **Price** under **Add-on Settings** on the **Basic** tab. On a selection type, it is the **Price** cell on the option value's row. See [Where you can set add-ons](where-you-can-set-add-ons.md).
 {% endstep %}
 
 {% step %}
@@ -43,7 +43,7 @@ The dialog closes and the price is applied to the option.
 {% step %}
 ### Set how it scales
 
-On **Advanced Settings**, the **Advanced settings** dropdown controls whether the charge follows the product quantity, is applied once, or uses a value the customer enters. See [Advanced add-on modes](advanced-add-on-modes.md).
+On **Advanced**, the **Add-on quantity** dropdown controls whether the charge follows the product quantity, is applied once, or uses a value the customer enters. See [Advanced add-on modes](advanced-add-on-modes.md).
 {% endstep %}
 
 {% step %}
@@ -87,15 +87,15 @@ This mode also has no SKU, no weight, and no separate line in your Shopify produ
 
 **A flat engraving fee**
 
-<table><thead><tr><th width="290">Setting</th><th>Value</th></tr></thead><tbody><tr><td>Option</td><td><code>Engraving text</code>, a Text option</td></tr><tr><td>Price</td><td><strong>Add price</strong> $5.00</td></tr><tr><td>Advanced settings</td><td><strong>Default</strong> — one charge per bracelet</td></tr></tbody></table>
+<table><thead><tr><th width="290">Setting</th><th>Value</th></tr></thead><tbody><tr><td>Option</td><td><code>Engraving text</code>, a Text option</td></tr><tr><td>Price</td><td><strong>Add price</strong> $5.00</td></tr><tr><td>Add-on quantity</td><td><strong>Default</strong> — one charge per bracelet</td></tr></tbody></table>
 
 **Engraving by the character**
 
-The same option with **Price** $0.50 and **Advanced settings** set to **Per character**. A **Max character** value of `20` limits the charge to $10.00.
+The same option with **Price** $0.50 and **Add-on quantity** set to **Per character**. A **Max character** value of `20` limits the charge to $10.00.
 
 **Express production, once per order**
 
-A Switch labeled `Express production`, **Add price** $10.00, and **Advanced settings** set to **One time charge**, so a customer buying three items is charged once.
+A Switch labeled `Express production`, **Add price** $10.00, and **Add-on quantity** set to **One time charge**, so a customer buying three items is charged once.
 
 **A tiered service charge**
 

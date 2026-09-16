@@ -15,7 +15,7 @@ Use it to add information your team needs to an order, such as a production line
 
 Nothing. There is no label, no field, and no indication that the option exists.
 
-## Basic Settings
+## Basic
 
 Hidden field has fewer settings than other option types, because it is not displayed on the product page.
 

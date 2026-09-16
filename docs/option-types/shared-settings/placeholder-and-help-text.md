@@ -9,13 +9,13 @@ icon: comment-dots
 
 Together, these settings do much of the work of helping customers enter the right information. A clear placeholder and a short line of help text can prevent more confusion — and support requests — than a validation rule alone.
 
-<figure><img src="../../.gitbook/assets/2026-08-31_10-05-10 (1).png" alt="An option's Basic Settings with the Placeholder and Help text fields"><figcaption><p>Placeholder and help text on an option's Basic Settings.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2026-08-31_10-05-10 (1).png" alt="An option's Basic tab with the Placeholder and Help text fields"><figcaption><p>Placeholder and help text on an option's Basic tab.</p></figcaption></figure>
 
 ## Placeholder
 
 Grey text shown inside an empty field. It disappears as soon as the customer starts typing.
 
-<table><thead><tr><th width="180">Tab</th><th>Basic Settings</th></tr></thead><tbody><tr><td>Default</td><td>Empty, except on <strong>Select</strong>, <strong>Dropdown</strong>, <strong>Color dropdown</strong>, <strong>Image dropdown</strong>, and <strong>Product links</strong>, which start with <code>-- Please select --</code>, and <strong>Font picker</strong>, which starts with <code>-- Select a font --</code></td></tr><tr><td>Available on</td><td>13 types: Text, Textarea, Number, Phone, Email, Color picker, Date and time picker, Select, Dropdown, Color dropdown, Image dropdown, Font picker, Product links</td></tr></tbody></table>
+<table><thead><tr><th width="180">Tab</th><th>Basic</th></tr></thead><tbody><tr><td>Default</td><td>Empty, except on <strong>Select</strong>, <strong>Dropdown</strong>, <strong>Color dropdown</strong>, <strong>Image dropdown</strong>, and <strong>Product links</strong>, which start with <code>-- Please select --</code>, and <strong>Font picker</strong>, which starts with <code>-- Select a font --</code></td></tr><tr><td>Available on</td><td>13 types: Text, Textarea, Number, Phone, Email, Color picker, Date and time picker, Select, Dropdown, Color dropdown, Image dropdown, Font picker, Product links</td></tr></tbody></table>
 
 #### How it behaves
 
@@ -36,7 +36,7 @@ Do not put required information only in the placeholder. It disappears as soon a
 
 A short line of explanation attached to the option. Unlike a placeholder, it stays visible.
 
-<table><thead><tr><th width="180">Tab</th><th>Basic Settings</th></tr></thead><tbody><tr><td>Default</td><td>Empty</td></tr><tr><td>Available on</td><td>22 types — every input and selection type except <strong>Hidden field</strong></td></tr></tbody></table>
+<table><thead><tr><th width="180">Tab</th><th>Basic</th></tr></thead><tbody><tr><td>Default</td><td>Empty</td></tr><tr><td>Available on</td><td>22 types — every input and selection type except <strong>Hidden field</strong></td></tr></tbody></table>
 
 #### How it behaves
 
@@ -54,12 +54,12 @@ One line is usually enough. Anything longer belongs in a [Pop-up modal](../stati
 
 Where the help text sits relative to the option.
 
-<table><thead><tr><th width="180">Tab</th><th>Advanced Settings</th></tr></thead><tbody><tr><td>Default</td><td><strong>Below option element</strong></td></tr><tr><td>Available on</td><td>The same 22 types that have Help text</td></tr></tbody></table>
+<table><thead><tr><th width="180">Tab</th><th>Advanced</th></tr></thead><tbody><tr><td>Default</td><td><strong>Below element</strong></td></tr><tr><td>Available on</td><td>The same 22 types that have Help text</td></tr></tbody></table>
 
-<table><thead><tr><th width="250">Position</th><th>Where the text appears</th><th>Use when</th></tr></thead><tbody><tr><td><strong>Below option label</strong></td><td>Between the label and the field</td><td>The customer needs to read it <em>before</em> deciding — a constraint or a warning.</td></tr><tr><td><strong>Below option element</strong></td><td>Under the field. This is the default.</td><td>General guidance. Matches what most themes do.</td></tr><tr><td><strong>Above option element</strong></td><td>Above the field but not tied to the label</td><td>Longer guidance that should read as its own line.</td></tr><tr><td><strong>Tooltip</strong></td><td>Hidden behind a small icon next to the label, shown on hover</td><td>Detail that most customers do not need, and you want the page kept short.</td></tr></tbody></table>
+<table><thead><tr><th width="250">Position</th><th>Where the text appears</th><th>Use when</th></tr></thead><tbody><tr><td><strong>Below label</strong></td><td>Between the label and the field</td><td>The customer needs to read it <em>before</em> deciding — a constraint or a warning.</td></tr><tr><td><strong>Below element</strong></td><td>Under the field. This is the default.</td><td>General guidance. Matches what most themes do.</td></tr><tr><td><strong>Above element</strong></td><td>Above the field but not tied to the label</td><td>Longer guidance that should read as its own line.</td></tr><tr><td><strong>Tooltip</strong></td><td>Hidden behind a small icon next to the label, shown on hover</td><td>Detail that most customers do not need, and you want the page kept short.</td></tr></tbody></table>
 
 {% hint style="warning" %}
-The **Tooltip** position hides the text until a customer hovers over it, and hover interactions work differently on touch devices. Do not put essential information — such as restrictions, warnings, or return policies — in a tooltip. Use **Below option label** instead.
+The **Tooltip** position hides the text until a customer hovers over it, and hover interactions work differently on touch devices. Do not put essential information — such as restrictions, warnings, or return policies — in a tooltip. Use **Below label** instead.
 {% endhint %}
 
 ## Placeholder, help text, or label?

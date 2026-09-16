@@ -20,7 +20,7 @@ The app displays two important limitations when you add this option:
 
 A set of choices in the style you select. Selecting one opens that product's page.
 
-## Basic Settings
+## Basic
 
 <table><thead><tr><th width="250">Setting</th><th>What it does</th></tr></thead><tbody><tr><td><a href="../shared-settings/labels-and-visibility.md#label">Label</a> / <a href="../shared-settings/labels-and-visibility.md#name">Name</a></td><td>Customer-facing text, and the name recorded internally.</td></tr><tr><td><a href="../shared-settings/labels-and-visibility.md#hidden-label">Hidden label</a></td><td>Hides the label.</td></tr><tr><td><strong>Display style</strong></td><td>How the links are presented. Five choices — see below.</td></tr><tr><td><strong>Option values</strong></td><td>The products themselves, selected from your catalog.</td></tr><tr><td><a href="../shared-settings/placeholder-and-help-text.md#placeholder">Placeholder</a></td><td>The unselected prompt, for the dropdown style.</td></tr><tr><td><a href="../shared-settings/placeholder-and-help-text.md#help-text">Help text</a></td><td>Guidance that stays visible.</td></tr><tr><td><a href="../shared-settings/conditional-logic-and-add-on-fields.md#conditional-logic">Conditional logic</a></td><td>Show or hide based on other choices.</td></tr></tbody></table>
 
@@ -38,7 +38,7 @@ Values are products selected from your catalog rather than text you enter. Each 
 
 Because these values are products, the uniqueness rule that applies to option values elsewhere does not apply here.
 
-## Advanced Settings
+## Advanced
 
 <table><thead><tr><th width="250">Setting</th><th>What it does</th></tr></thead><tbody><tr><td><a href="../shared-settings/out-of-stock-options.md">Out of stock options</a></td><td>How a linked product looks when it is out of stock: <strong>Show</strong>, <strong>Hide</strong>, <strong>Blur</strong>, or <strong>Strike-through</strong>.</td></tr><tr><td><a href="../shared-settings/placeholder-and-help-text.md#help-text-position">Help text position</a></td><td>Where the help text sits.</td></tr><tr><td><a href="../shared-settings/direction-width-and-css.md#html-class">HTML class</a> / <a href="../shared-settings/direction-width-and-css.md#column-width">Column width</a></td><td>Styling hook and field width.</td></tr></tbody></table>
 

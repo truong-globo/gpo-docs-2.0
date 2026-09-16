@@ -13,7 +13,7 @@ They answer the same question from opposite directions: what happens if the cust
 
 Blocks **Add to cart** until the option is filled in.
 
-<table><thead><tr><th width="180">Tab</th><th>Basic Settings</th></tr></thead><tbody><tr><td>Default</td><td>Off</td></tr><tr><td>Available on</td><td>21 types — every input and selection type except <strong>Hidden field</strong> and <strong>Product links</strong>, which do not have a customer-entered value that can be missing.</td></tr></tbody></table>
+<table><thead><tr><th width="180">Tab</th><th>Basic</th></tr></thead><tbody><tr><td>Default</td><td>Off</td></tr><tr><td>Available on</td><td>21 types — every input and selection type except <strong>Hidden field</strong> and <strong>Product links</strong>, which do not have a customer-entered value that can be missing.</td></tr></tbody></table>
 
 **How it behaves**
 
@@ -45,7 +45,7 @@ If you’re unsure, leave **Required field** off and see whether customers choos
 
 Pre-fills the option so that a customer who makes no changes still submits a value.
 
-<table><thead><tr><th width="180">Tab</th><th>Basic Settings</th></tr></thead><tbody><tr><td>Default</td><td>Empty</td></tr><tr><td>Available on</td><td>18 types. It takes four different shapes depending on the type — see below</td></tr></tbody></table>
+<table><thead><tr><th width="180">Tab</th><th>Basic</th></tr></thead><tbody><tr><td>Default</td><td>Empty</td></tr><tr><td>Available on</td><td>18 types. It takes four different shapes depending on the type — see below</td></tr></tbody></table>
 
 <table><thead><tr><th width="230">Shape</th><th width="240">On these types</th><th>What you enter</th></tr></thead><tbody><tr><td>Free text</td><td>Text, Textarea, Email, Phone, Hidden field, Range slider</td><td>Any text, or a number for the slider</td></tr><tr><td>Number</td><td>Number</td><td>A number, which must fall inside <strong>Min value</strong> and <strong>Max value</strong></td></tr><tr><td>Value picker</td><td>Select, Dropdown, Color dropdown, Image dropdown, Radio, Checkbox, Button, Color swatch, Image swatch, Font picker</td><td>One of the option's own values, chosen from a list. Multi-select types accept several</td></tr><tr><td>Color</td><td>Color picker</td><td>A color</td></tr></tbody></table>
 
@@ -61,7 +61,7 @@ Pre-fills the option so that a customer who makes no changes still submits a val
 
 <table><thead><tr><th width="290">Situation</th><th>Default</th></tr></thead><tbody><tr><td>Most customers pick the standard size</td><td>Preselect it — fewer decisions, faster checkout</td></tr><tr><td>Quantity-style number field</td><td><code>1</code></td></tr><tr><td>Free option among paid ones</td><td>Preselect the free one, so nobody is charged by accident</td></tr><tr><td>Personalizer text layer</td><td><code>Your name</code>, so the preview is not blank</td></tr><tr><td>Hidden field carrying fixed information</td><td>The value itself — that is the whole purpose of the type</td></tr></tbody></table>
 
-<figure><img src="../../.gitbook/assets/2026-08-31_10-21-10.png" alt="An option&#x27;s Basic Settings with Required field enabled and a default value selected"><figcaption><p>Required field and Default value, both on Basic Settings.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2026-08-31_10-21-10.png" alt="An option&#x27;s Basic tab with Required field enabled and a default value selected"><figcaption><p>Required field and Default value, both on the Basic tab.</p></figcaption></figure>
 
 ## Required or default?
 

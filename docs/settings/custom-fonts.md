@@ -46,7 +46,7 @@ The **Font name** you enter is how the font appears in every font picker in the 
 The font now appears wherever you select a font:
 
 * **Settings** > **Design** > **Typography**, to set a text style to a custom font
-* An option's **Personalizer Settings**, where you set **Font family** to **Custom** and then select the font
+* An option's **Personalizer** tab, where you set **Font family** to **Custom** and then select the font
 * A [Font picker](../option-types/selection-types/font-picker.md) option's **Custom fonts** list, to offer the font to customers
 {% endstep %}
 

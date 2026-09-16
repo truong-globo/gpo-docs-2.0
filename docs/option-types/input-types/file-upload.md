@@ -15,7 +15,7 @@ An upload control with your label above it. After uploading, the file is listed 
 
 <figure><img src="../../.gitbook/assets/2026-09-03_10-17-46.png" alt="A file upload field on a storefront product page with an uploaded image shown as a thumbnail"><figcaption><p>Uploaded images can preview as thumbnails, so the customer can confirm they sent the right file.</p></figcaption></figure>
 
-## Basic Settings
+## Basic
 
 <table><thead><tr><th width="250">Setting</th><th>What it does</th></tr></thead><tbody><tr><td><a href="../shared-settings/labels-and-visibility.md#label">Label</a> / <a href="../shared-settings/labels-and-visibility.md#name">Name</a></td><td>Customer-facing text, and the name on the order.</td></tr><tr><td><a href="../shared-settings/required-and-default-value.md#required-field">Required field</a></td><td>Blocks add to cart until at least one file is attached.</td></tr><tr><td><a href="../shared-settings/labels-and-visibility.md#hidden-label">Hidden label</a></td><td>Hides the label.</td></tr><tr><td><strong>Allow multiple (up to 20)</strong></td><td>Lets the customer attach more than one file. Off by default. Reveals the two file-count limits.</td></tr><tr><td><a href="../shared-settings/limits.md#min-and-max-number-of-files">Min number of files</a> / <a href="../shared-settings/limits.md#min-and-max-number-of-files">Max number of files</a></td><td>Between 1 and 20 each. Only shown once <strong>Allow multiple</strong> is on.</td></tr><tr><td><strong>Allowed extensions</strong></td><td>Which file types are accepted. Starts as <code>jpg</code>, <code>jpeg</code>, <code>png</code>.</td></tr><tr><td><a href="../shared-settings/placeholder-and-help-text.md#help-text">Help text</a></td><td>Guidance that stays visible — the right place for your quality requirements.</td></tr><tr><td><a href="../shared-settings/conditional-logic-and-add-on-fields.md#conditional-logic">Conditional logic</a></td><td>Show or hide based on other choices.</td></tr></tbody></table>
 
@@ -33,13 +33,13 @@ A search field lets you find a single extension without opening its group.
 Allow only file formats that you can actually use. For example, `heic` files may not be supported by some design tools, while `zip` files must be extracted before you can check their contents. Limiting the allowed formats reduces the number of files you need to request again.
 {% endhint %}
 
-## Advanced Settings
+## Advanced
 
 <table><thead><tr><th width="250">Setting</th><th>What it does</th></tr></thead><tbody><tr><td><strong>Enable image editor</strong></td><td>Lets customers adjust an image before it is uploaded — cropping, rotating, and similar. Off by default.</td></tr><tr><td><a href="../shared-settings/placeholder-and-help-text.md#help-text-position">Help text position</a></td><td>Where the help text sits.</td></tr><tr><td><a href="../shared-settings/direction-width-and-css.md#html-class">HTML class</a> / <a href="../shared-settings/direction-width-and-css.md#column-width">Column width</a></td><td>Styling hook and field width.</td></tr></tbody></table>
 
 Enable the **Enable image editor** for printed products. It lets the customer crop the image to the correct shape before uploading, which reduces the number of unusable files you receive.
 
-## Personalizer Settings
+## Personalizer
 
 File upload is the only option type that draws an image supplied by the customer. The uploaded image is displayed on the product photo immediately.
 
@@ -47,8 +47,8 @@ Its personalizer settings are:
 
 * **Image shape**: a preset shape to mask the image into, or a shape you upload
 * **Background mode**: how the image fits the shape. The values are **Stretch**, **Cover**, **Contain**, **Full width**, and **Full height**
-* **Width**, **Height**, **X-Axis**, **Y-Axis**, **Opacity**, **Rotation**
-* **Clip area**: a region the image cannot be moved outside of
+* **Width**, **Height**, **X position**, **Y position**, **Opacity**, **Rotation**
+* **Crop area**: a region the image cannot be moved outside of
 * **Allow customers to**: change position, resize, or rotate the image
 
 Use these settings to let a customer upload a photo and see it on the product. See [Image layers](../../product-personalizer/layer-settings/image-layers.md) and [Customer controls](../../product-personalizer/layer-settings/customer-controls.md).

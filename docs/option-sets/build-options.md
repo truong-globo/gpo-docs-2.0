@@ -31,7 +31,7 @@ Two shortcuts are worth knowing:
 
 Select an option to open its settings. They are split across tabs:
 
-<table><thead><tr><th width="230">Tab</th><th>Contains</th></tr></thead><tbody><tr><td><strong>Basic Settings</strong></td><td>The essentials: label, name, required, values, limits, help text, placeholder, default value, add-on settings, and conditional logic.</td></tr><tr><td><strong>Advanced Settings</strong></td><td>Presentation and edge cases: layout, column width, prefix and suffix, HTML class, out-of-stock handling, tooltip style, scroll and slider behavior, advanced add-on modes.</td></tr><tr><td><strong>Personalizer Settings</strong></td><td>Only on option types that can appear in the live preview. Fonts, effects, position, clip area, and customer controls. See <a href="../product-personalizer/personalizer.md">Product Personalizer</a>.</td></tr></tbody></table>
+<table><thead><tr><th width="230">Tab</th><th>Contains</th></tr></thead><tbody><tr><td><strong>Basic</strong></td><td>The essentials: label, name, required, values, limits, help text, placeholder, default value, add-on settings, and conditional logic.</td></tr><tr><td><strong>Advanced</strong></td><td>Presentation and edge cases: layout, column width, prefix and suffix, HTML class, out-of-stock handling, tooltip style, scroll and slider behavior, advanced add-on modes.</td></tr><tr><td><strong>Personalizer</strong></td><td>Only on option types that can appear in the live preview. Fonts, effects, position, crop area, and customer controls. See <a href="../product-personalizer/personalizer.md">Product Personalizer</a>.</td></tr><tr><td><strong>Translations</strong></td><td>Every translatable field in the option set, per storefront language. See <a href="../translations-and-languages/translate-option-content.md">Translate option content</a>.</td></tr></tbody></table>
 
 Which settings appear depends on the current option type. Every shared setting has its own reference page — see [Shared settings](../option-types/shared-settings/).
 
@@ -106,8 +106,10 @@ The builder validates as you type and blocks **Save** until the problems are fix
 
 ## Working in another language
 
-If your storefront supports multiple languages, use the language switcher in the builder header to enter translated **labels**, **values**, and **help text** for each language. Select a language, edit the text, then switch to another language as needed.
+If your storefront supports multiple languages, use the option set's **Translations** tab to enter translated **labels**, **values**, and **help text** for each language. The tab lists every language with its translation status, and shows each field beside its source text.
 
 **Name** is intentionally not translatable so your order data stays consistent across languages. See [Translate option content](../translations-and-languages/translate-option-content.md).
 
-<figure><img src="../.gitbook/assets/2026-08-27_15-42-27.png" alt="The language switcher open in the builder header"><figcaption><p>The language switcher in the builder header, for entering translated labels and values.</p></figcaption></figure>
+<!-- SCREENSHOT: set-translations-tab | App admin → builder → tab Translations | Bảng Languages với cột Language/Status/Actions | Khoanh tab Translations -->
+
+<figure><img src="../.gitbook/assets/placeholder.png" alt="The Translations tab listing every storefront language with its status"><figcaption><p>Each language shows its own status, and how many fields are still untranslated.</p></figcaption></figure>

@@ -17,7 +17,7 @@ Layer positions are measured against the background, so set the background befor
 
 ## The three parts
 
-<table><thead><tr><th width="180">Part</th><th width="230">What it is</th><th>Where you set it</th></tr></thead><tbody><tr><td><strong>The background</strong></td><td>The image the layers are drawn on — a product photo, or one you upload</td><td>Once per option set, from the builder's preview panel</td></tr><tr><td><strong>The layers</strong></td><td>One per option with the Personalizer on. Text or image</td><td>Per option, on its <strong>Personalizer Settings</strong> tab</td></tr><tr><td><strong>Customer controls</strong></td><td>Which layers the customer may move, resize, or rotate</td><td>Per option, per layer</td></tr></tbody></table>
+<table><thead><tr><th width="180">Part</th><th width="230">What it is</th><th>Where you set it</th></tr></thead><tbody><tr><td><strong>The background</strong></td><td>The image the layers are drawn on — a product photo, or one you upload</td><td>Once per option set, from the builder's preview panel</td></tr><tr><td><strong>The layers</strong></td><td>One per option with the Personalizer on. Text or image</td><td>Per option, on its <strong>Personalizer</strong> tab</td></tr><tr><td><strong>Customer controls</strong></td><td>Which layers the customer may move, resize, or rotate</td><td>Per option, per layer</td></tr></tbody></table>
 
 ## The order to work in
 
@@ -26,7 +26,7 @@ Layer positions are measured against the background, so set the background befor
 3. **Set the background.** See [Choosing the background](setup.md#choosing-the-background) below.
 4. **Give every text layer a default value.** Without one the layer is not drawn, so the preview looks empty. See [Always give a text layer a default value](setup.md#always-give-a-text-layer-a-default-value) below.
 5. **Style and position each layer.** Positions are measured against the background, so do this after step 3. See [Layer settings](layer-settings/).
-6. **Select what the customer can adjust.** See [Customer controls](layer-settings/customer-controls.md). Add a [clip area](layer-settings/clip-area.md) if you allow any adjustment.
+6. **Select what the customer can adjust.** See [Customer controls](layer-settings/customer-controls.md). Add a [crop area](layer-settings/clip-area.md) if you allow any adjustment.
 7. **Test on a real product page** using **View in Store**. Enter realistic content, such as a full name rather than `test`, and check the result on a phone.
 
 ## Choosing the background
@@ -77,17 +77,17 @@ If your products are photographed at an angle, use a flat **Custom image** mock-
 
 ## Turning it on as an option
 
-Open the option and go to the **Personalizer Settings** tab, beside **Basic Settings** and **Advanced Settings**. Turn on **Enable personalize**. No other settings are displayed until you do.
+Open the option and go to the **Personalizer** tab, beside **Basic** and **Advanced**. Turn on **Enable personalize**. No other settings are displayed until you do.
 
 The tab is available on the [twelve supported option types](personalizer.md#the-twelve-supported-option-types) only. If the tab is missing, the option type does not support the Personalizer. If it is grayed out, the Personalizer is not included in your plan.
 
-<figure><img src="../.gitbook/assets/person3.png" alt="The Personalizer Settings tab with Enable personalize turned on and its settings revealed"><figcaption><p>Nothing on the tab appears until the switch is on.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/person3.png" alt="The Personalizer tab with Enable personalize turned on and its settings revealed"><figcaption><p>Nothing on the tab appears until the switch is on.</p></figcaption></figure>
 
 ### What you get by option type
 
 The available settings depend on whether the option produces text or an image.
 
-<table><thead><tr><th width="290">Setting group</th><th width="230">Text, Textarea, Number</th><th>File upload and the eight selection types</th></tr></thead><tbody><tr><td>Color, font size, font style, font family</td><td><strong>Yes</strong></td><td>No</td></tr><tr><td>Text alignment</td><td>Textarea only</td><td>No</td></tr><tr><td>Text effects</td><td><strong>Yes</strong></td><td>No</td></tr><tr><td>Curve and auto-fit max width</td><td>Text and Number only</td><td>No</td></tr><tr><td>Image shape and background mode</td><td>No</td><td><strong>Yes</strong></td></tr><tr><td>Width and height</td><td>Textarea only</td><td><strong>Yes</strong></td></tr><tr><td>X-Axis, Y-Axis, opacity, rotation</td><td><strong>Yes</strong></td><td><strong>Yes</strong></td></tr><tr><td>Clip area</td><td><strong>Yes</strong></td><td><strong>Yes</strong></td></tr><tr><td>Allow customers to</td><td><strong>Yes</strong></td><td><strong>Yes</strong></td></tr></tbody></table>
+<table><thead><tr><th width="290">Setting group</th><th width="230">Text, Textarea, Number</th><th>File upload and the eight selection types</th></tr></thead><tbody><tr><td>Color, font size, font style, font family</td><td><strong>Yes</strong></td><td>No</td></tr><tr><td>Text alignment</td><td>Textarea only</td><td>No</td></tr><tr><td>Text effects</td><td><strong>Yes</strong></td><td>No</td></tr><tr><td>Curve and auto-fit max width</td><td>Text and Number only</td><td>No</td></tr><tr><td>Image shape and background mode</td><td>No</td><td><strong>Yes</strong></td></tr><tr><td>Width and height</td><td>Textarea only</td><td><strong>Yes</strong></td></tr><tr><td>X position, Y position, opacity, rotation</td><td><strong>Yes</strong></td><td><strong>Yes</strong></td></tr><tr><td>Crop area</td><td><strong>Yes</strong></td><td><strong>Yes</strong></td></tr><tr><td>Allow customers to</td><td><strong>Yes</strong></td><td><strong>Yes</strong></td></tr></tbody></table>
 
 Text and Number are single-line types, so they support curve and auto-fit instead of width and height. Textarea is a block, so it supports alignment, width, and height. Image types support shape and fit mode.
 
@@ -95,7 +95,7 @@ Text and Number are single-line types, so they support curve and auto-fit instea
 
 A text layer with no content is not drawn, so the preview appears empty until the customer enters text.
 
-Set a **Default value** in **Basic Settings**, such as `Your name` or `Your text`. The preview then always has content to display.
+Set a **Default value** on the **Basic** tab, such as `Your name` or `Your text`. The preview then always has content to display.
 
 The default value is also submitted if the customer does not change it, so choose a suitable value.
 
@@ -105,7 +105,7 @@ The default value is also submitted if the customer does not change it, so choos
 
 Layers are drawn together on one background, and they can overlap.
 
-<table><thead><tr><th width="290">Combination</th><th>What to watch</th></tr></thead><tbody><tr><td>A name and a date</td><td>Different <strong>Y-Axis</strong> values so they sit on separate lines</td></tr><tr><td>Text over an uploaded photo</td><td>Contrast — dark text on a dark photo disappears. Consider a <a href="layer-settings/effects.md">stroke effect</a></td></tr><tr><td>Two alternative designs, never both</td><td><a href="../conditional-logic/conditional-logic.md">Conditional logic</a>, so only one is ever visible</td></tr><tr><td>Layers that must stay inside a printable area</td><td>Give each one a <a href="layer-settings/clip-area.md">clip area</a></td></tr><tr><td>Many layers</td><td>Performance on older phones. Keep it to what the product really needs</td></tr></tbody></table>
+<table><thead><tr><th width="290">Combination</th><th>What to watch</th></tr></thead><tbody><tr><td>A name and a date</td><td>Different <strong>Y position</strong> values so they sit on separate lines</td></tr><tr><td>Text over an uploaded photo</td><td>Contrast — dark text on a dark photo disappears. Consider a <a href="layer-settings/effects.md">stroke effect</a></td></tr><tr><td>Two alternative designs, never both</td><td><a href="../conditional-logic/conditional-logic.md">Conditional logic</a>, so only one is ever visible</td></tr><tr><td>Layers that must stay inside a printable area</td><td>Give each one a <a href="layer-settings/clip-area.md">crop area</a></td></tr><tr><td>Many layers</td><td>Performance on older phones. Keep it to what the product really needs</td></tr></tbody></table>
 
 A hidden option draws no layer, so you can use conditional logic to switch between alternative designs.
 

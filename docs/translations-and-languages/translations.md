@@ -9,7 +9,7 @@ Language in this app means three different things. Most cases of "I translated i
 
 ## The three layers
 
-<table><thead><tr><th width="230">Layer</th><th width="290">What it covers</th><th>Where you change it</th></tr></thead><tbody><tr><td><strong>The app's own interface</strong></td><td>The admin you are looking at — menus, buttons, setting names</td><td>The language control on the <strong>Dashboard</strong>. See <a href="app-admin-language.md">App admin language</a></td></tr><tr><td><strong>Your option content</strong></td><td>Labels, option values, help text, placeholders — the words you wrote</td><td>The language switcher in the <strong>builder</strong>. See <a href="translate-option-content.md">Translate option content</a></td></tr><tr><td><strong>The widget's fixed text</strong></td><td>Text the app supplies — <code>Choose file</code>, <code>This field is required</code>, and every other message</td><td><strong>Settings > Translations</strong>. See <a href="translate-widget-text.md">Translate widget text</a></td></tr></tbody></table>
+<table><thead><tr><th width="230">Layer</th><th width="290">What it covers</th><th>Where you change it</th></tr></thead><tbody><tr><td><strong>The app's own interface</strong></td><td>The admin you are looking at — menus, buttons, setting names</td><td>The language control on the <strong>Dashboard</strong>. See <a href="app-admin-language.md">App admin language</a></td></tr><tr><td><strong>Your option content</strong></td><td>Labels, option values, help text, placeholders — the words you wrote</td><td>The <strong>Translations</strong> tab on each option set, by hand or with <strong>Auto-translate</strong>. See <a href="translate-option-content.md">Translate option content</a></td></tr><tr><td><strong>The widget's fixed text</strong></td><td>Text the app supplies — <code>Choose file</code>, <code>This field is required</code>, and every other message</td><td><strong>Settings > Translations</strong>. See <a href="translate-widget-text.md">Translate widget text</a></td></tr></tbody></table>
 
 {% hint style="info" %}
 Changing the **app admin language** does not affect your storefront. It changes the language _you_ work in. The two storefront layers are separate from it, and from each other.
@@ -39,7 +39,7 @@ This is the language you work in.
 {% step %}
 ### Translate your option content, per option set
 
-In the builder, using the language switcher. This is done separately for each option set.
+On the option set's **Translations** tab, by hand or with **Auto-translate**. This is done separately for each option set.
 {% endstep %}
 
 {% step %}

@@ -9,6 +9,18 @@ icon: wand-sparkles
 
 **Match theme style** makes the widget use your theme's appearance instead of the app's default styling. On a supported theme, this one setting replaces most of the work of matching the color and typography settings by hand.
 
+Check the setting before you change anything: if your store was running a supported theme when you installed the app, it is already on.
+
+## It may already be on
+
+When you install the app, it looks at your published theme. If that theme is one it has styling for, **Match theme style** is turned on for you, so the widget matches from the start.
+
+This happens **once, at install**. It does not follow you afterwards:
+
+* Switch to a different supported theme later, and you turn the setting on yourself.
+* Stores that installed the app before this existed are not changed.
+* If anything goes wrong while checking, the setting is simply left off.
+
 ## Where it is
 
 **Settings** > **Settings** > **Design** > **Theme style** > **Match theme style**.
@@ -21,11 +33,11 @@ Beside the setting is a link to the list of supported themes, which is the list 
 
 The app includes styling for these themes. Support is per theme **and per theme version**, and the app uses the closest version it has to the one you are running.
 
-<table><thead><tr><th width="230">Theme</th><th width="230">Theme</th><th>Theme</th></tr></thead><tbody><tr><td>Atelier</td><td>Avante</td><td>Be Yours</td></tr><tr><td>Colorblock</td><td>Concept</td><td>Craft</td></tr><tr><td>Crave</td><td>Dawn</td><td>Dwell</td></tr><tr><td>Eurus</td><td>Expanse</td><td>Fabric</td></tr><tr><td>Heritage</td><td>Horizon</td><td>Hyper</td></tr><tr><td>Ignite</td><td>Impulse</td><td>Maximize</td></tr><tr><td>Monk</td><td>Origin</td><td>Pebble</td></tr><tr><td>Pitch</td><td>Prestige</td><td>Publisher</td></tr><tr><td>Refresh</td><td>Release</td><td>Ride</td></tr><tr><td>Rise</td><td>Ritual</td><td>Savor</td></tr><tr><td>Sense</td><td>Sleek</td><td>Spotlight</td></tr><tr><td>Stockist</td><td>Studio</td><td>Supreme</td></tr><tr><td>Taste</td><td>Tinker</td><td>Trade</td></tr><tr><td>Vessel</td><td>Wonder</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="230">Theme</th><th width="230">Theme</th><th>Theme</th></tr></thead><tbody><tr><td>Atelier</td><td>Avante</td><td>Baseline</td></tr><tr><td>Be Yours</td><td>Blockshop</td><td>Blum</td></tr><tr><td>Cello</td><td>Colorblock</td><td>Combine</td></tr><tr><td>Concept</td><td>Craft</td><td>Crave</td></tr><tr><td>Dawn</td><td>Dwell</td><td>Edge</td></tr><tr><td>Empire</td><td>Eurus</td><td>Expanse</td></tr><tr><td>Fabric</td><td>Fashionopolism</td><td>Flow</td></tr><tr><td>Heritage</td><td>Horizon</td><td>Hyper</td></tr><tr><td>Ignite</td><td>Impulse</td><td>Krank</td></tr><tr><td>Luxe</td><td>Maximize</td><td>Monk</td></tr><tr><td>Noom</td><td>Origin</td><td>Outsiders</td></tr><tr><td>Pebble</td><td>Pitch</td><td>Prestige</td></tr><tr><td>Publisher</td><td>Purity</td><td>Refresh</td></tr><tr><td>Release</td><td>Ride</td><td>Rise</td></tr><tr><td>Ritual</td><td>Satoshi</td><td>Savor</td></tr><tr><td>Sense</td><td>Showcase</td><td>Sleek</td></tr><tr><td>Spotlight</td><td>Stockist</td><td>Studio</td></tr><tr><td>Supreme</td><td>Taste</td><td>Testament</td></tr><tr><td>Tinker</td><td>Trade</td><td>Ultra</td></tr><tr><td>Vessel</td><td>Wonder</td><td>Xclusive</td></tr><tr><td>Yuva</td><td>Zest</td><td></td></tr></tbody></table>
 
-**Maximize** is also sold as Swift, Various, Vast, and Vigor, and **Supreme** as Heatwave, Royce, Realm, and Rose. If you run one of those, the Maximize or Supreme styling applies.
+Some of these are sold under more than one name. **Maximize** is also sold as Swift, Various, Vast, and Vigor; **Supreme** as Heatwave, Royce, Realm, and Rose; and **Noom** as Boutique. If you run one of those, the styling for the theme it is named after applies.
 
-Further themes are supported without being named here. If your theme is not listed, see [If your theme is not supported](match-your-theme-style.md#if-your-theme-is-not-supported) below.
+If your theme is not listed, see [If your theme is not supported](match-your-theme-style.md#if-your-theme-is-not-supported) below.
 
 {% hint style="info" %}
 The list is updated over time. If your theme is not listed here, check the **View supported themes** link beside the setting.

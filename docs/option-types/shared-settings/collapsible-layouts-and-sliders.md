@@ -9,7 +9,7 @@ icon: layer-group
 
 Use custom layouts to control how option values are displayed. You can collapse long lists, add scrolling, or display values in a slider.
 
-These settings are available under **Advanced Settings**. Turn on **Enable custom layout** to access them.
+These settings are available on the **Advanced** tab. Turn on **Enable custom layout** to access them.
 
 ## Enable custom layout
 

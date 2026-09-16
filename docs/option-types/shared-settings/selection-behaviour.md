@@ -13,7 +13,7 @@ Three settings that change how a selection option responds to customer clicks. *
 
 Lets the customer choose more than one value.
 
-<table><thead><tr><th width="180">Tab</th><th>Basic Settings</th></tr></thead><tbody><tr><td>Default</td><td>Off</td></tr><tr><td>Available on</td><td>Select, Dropdown, Color dropdown, Image dropdown, Button, Color swatch, Image swatch. It is also available on <strong>File upload</strong>, where it allows customers to upload multiple files rather than select multiple values.</td></tr></tbody></table>
+<table><thead><tr><th width="180">Tab</th><th>Basic</th></tr></thead><tbody><tr><td>Default</td><td>Off</td></tr><tr><td>Available on</td><td>Select, Dropdown, Color dropdown, Image dropdown, Button, Color swatch, Image swatch. It is also available on <strong>File upload</strong>, where it allows customers to upload multiple files rather than select multiple values.</td></tr></tbody></table>
 
 {% hint style="info" %}
 **Checkbox** is inherently multi-select, so it does not have this setting. **Radio button** is inherently single-select, so it does not have it either. The setting is available on option types that can support either single or multiple selections.
@@ -35,7 +35,7 @@ The setting is labeled accordingly and allows customers to upload up to 20 files
 
 Once a customer makes a selection, they cannot clear it — they can only switch to another value.
 
-<table><thead><tr><th width="180">Tab</th><th>Advanced Settings</th></tr></thead><tbody><tr><td>Default</td><td>Off</td></tr><tr><td>Available on</td><td>Dropdown, Color dropdown, Image dropdown, Button, Color swatch, Image swatch - only if <strong>Allow multiple</strong> is off</td></tr></tbody></table>
+<table><thead><tr><th width="180">Tab</th><th>Advanced</th></tr></thead><tbody><tr><td>Default</td><td>Off</td></tr><tr><td>Available on</td><td>Dropdown, Color dropdown, Image dropdown, Button, Color swatch, Image swatch - only if <strong>Allow multiple</strong> is off</td></tr></tbody></table>
 
 **Why it exists**
 
@@ -61,7 +61,7 @@ Turning this on means that once the customer has made a selection, they cannot r
 
 Adds a search box to the top of a dropdown so the customer can type to filter.
 
-<table><thead><tr><th width="180">Tab</th><th>Advanced Settings</th></tr></thead><tbody><tr><td>Default</td><td>Off</td></tr><tr><td>Available on</td><td>Dropdown, Color dropdown, Image dropdown, Font picker</td></tr></tbody></table>
+<table><thead><tr><th width="180">Tab</th><th>Advanced</th></tr></thead><tbody><tr><td>Default</td><td>Off</td></tr><tr><td>Available on</td><td>Dropdown, Color dropdown, Image dropdown, Font picker</td></tr></tbody></table>
 
 **How it behaves**
 
@@ -80,6 +80,6 @@ Once a list grows beyond roughly fifteen values, scrolling can become the slowes
 
 For shorter lists, it adds a control customers may not need. Consider whether a [collapsible layout or slider](collapsible-layouts-and-sliders.md) would suit the list better instead.
 
-<figure><img src="../../.gitbook/assets/2026-08-31_10-48-59.png" alt="A Dropdown's Basic Settings with Allow multiple highlighted below the values table"><figcaption><p>Allow multiple is on Basic Settings, directly below the values table.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2026-08-31_10-48-59.png" alt="A Dropdown's Basic tab with Allow multiple highlighted below the values table"><figcaption><p>Allow multiple is on the Basic tab, directly below the values table.</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/2026-08-31_10-47-22.png" alt="Allow multiple on Basic Settings, with Search suggestion and Not allow deselect on Advanced Settings"><figcaption><p>Allow multiple is a Basic setting; the other two are Advanced.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2026-08-31_10-47-22.png" alt="Allow multiple on the Basic tab, with Search suggestion and Not allow deselect on the Advanced tab"><figcaption><p>Allow multiple is a Basic setting; the other two are Advanced.</p></figcaption></figure>

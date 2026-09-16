@@ -73,7 +73,7 @@ These apps usually appear near the buy button, where the widget is. If they over
 
 Any app that prints or forwards order data has to include line item properties; otherwise, your options are not passed to it.
 
-Most of these tools let you edit a template. See [Show options on orders](../storefront-display-and-design/show-options-on-orders/) for the snippet, or use an [Update order notes](../automations/update-order-notes.md) workflow, which writes the options into the order note that most tools already read.
+Most of these tools let you edit a template. See [Show options on orders](../storefront-display-and-design/show-options-on-orders/) for the snippet, or use an [Order notes update](../automations/update-order-notes.md) workflow, which writes the options into the order note that most tools already read.
 
 ## What to test after installing an app
 

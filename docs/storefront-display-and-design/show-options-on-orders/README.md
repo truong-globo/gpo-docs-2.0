@@ -49,9 +49,9 @@ If you use a different packing slip, invoice, or fulfillment app, the same appro
 
 If you would rather not edit templates, a [workflow](../../automations/automations.md) produces much of the same result without any Liquid:
 
-<table><thead><tr><th width="290">Workflow</th><th>Result</th></tr></thead><tbody><tr><td><a href="../../automations/email-notification.md">Email notification</a></td><td>Emails you every order with its options, in a format you control</td></tr><tr><td><a href="../../automations/update-order-notes.md">Update order notes</a></td><td>Writes the options into the order's notes — and the note already appears on packing slips, invoices, and emails in most templates</td></tr><tr><td><a href="../../automations/update-order-tags.md">Update order tags</a></td><td>Tags the order by the option chosen, so you can filter and route orders</td></tr></tbody></table>
+<table><thead><tr><th width="290">Workflow</th><th>Result</th></tr></thead><tbody><tr><td><a href="../../automations/email-notification.md">Email notification</a></td><td>Emails you every order with its options, in a format you control</td></tr><tr><td><a href="../../automations/update-order-notes.md">Order notes update</a></td><td>Writes the options into the order's notes — and the note already appears on packing slips, invoices, and emails in most templates</td></tr><tr><td><a href="../../automations/update-order-tags.md">Order tags update</a></td><td>Tags the order by the option chosen, so you can filter and route orders</td></tr></tbody></table>
 
-**Update order notes** is the most useful of these. Most templates already print the order note, so writing the options into the note puts them on your paperwork without editing a template.
+**Order notes update** is the most useful of these. Most templates already print the order note, so writing the options into the note puts them on your paperwork without editing a template.
 
 ## Notes
 

@@ -17,11 +17,11 @@ A link with your chart header. Selecting it opens the table at the width you set
 
 <figure><img src="../../.gitbook/assets/2026-09-03_15-55-57.png" alt="A size chart opened from a link on a storefront product page"><figcaption><p>A size chart in the option form, where the customer is actually choosing a size.</p></figcaption></figure>
 
-## Basic Settings
+## Basic
 
 <table><thead><tr><th width="250">Setting</th><th>What it does</th></tr></thead><tbody><tr><td><strong>Chart title</strong></td><td>The heading inside the chart. Starts as <code>Size chart</code>.</td></tr><tr><td><strong>Chart header</strong></td><td>The link text on the product page. Starts as <code>Size guides</code>.</td></tr><tr><td><strong>Chart content</strong></td><td>The table itself. Pick a preset or build your own — see below.</td></tr><tr><td><a href="../shared-settings/conditional-logic-and-add-on-fields.md#conditional-logic">Conditional logic</a></td><td>Show or hide the link.</td></tr></tbody></table>
 
-## Advanced Settings
+## Advanced
 
 <table><thead><tr><th width="250">Setting</th><th>What it does</th></tr></thead><tbody><tr><td><strong>Chart icon</strong></td><td>An icon beside the link, from the app's icon picker. A ruler is the obvious choice.</td></tr><tr><td><strong>Chart width</strong></td><td>The width of the opened chart in pixels. Starts at <code>600</code>.</td></tr><tr><td><a href="../shared-settings/direction-width-and-css.md#html-class">HTML class</a> / <a href="../shared-settings/direction-width-and-css.md#column-width">Column width</a></td><td>Styling hook and the width of the link, not the chart.</td></tr></tbody></table>
 

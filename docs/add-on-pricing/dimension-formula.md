@@ -13,7 +13,7 @@ Use it for made-to-measure products such as blinds, canvases, worktops, glass, a
 
 ## The two fields
 
-Both are on **Basic Settings**, under the axis rows.
+Both are on the **Basic** tab, under the axis rows.
 
 <table><thead><tr><th width="230">Field</th><th>Holds</th></tr></thead><tbody><tr><td><strong>Add-on price</strong></td><td>A number the formula refers to as <code>{{addon}}</code>. Usually your rate per unit of area or length.</td></tr><tr><td><strong>Formula</strong></td><td>An expression using <code>x</code>, <code>y</code>, and <code>z</code> for the three axes, and <code>{{addon}}</code> for the rate.</td></tr></tbody></table>
 
@@ -83,7 +83,7 @@ Size bands are usually the better option. The customer sees a clear price for th
 
 **A made-to-measure blind**
 
-<table><thead><tr><th width="290">Setting</th><th>Value</th></tr></thead><tbody><tr><td>X-Axis</td><td>Label <code>Width</code>, unit <code>cm</code>, min <code>30</code>, max <code>240</code></td></tr><tr><td>Y-Axis</td><td>Label <code>Drop</code>, unit <code>cm</code>, min <code>30</code>, max <code>250</code></td></tr><tr><td>Z-Axis</td><td>Deleted</td></tr><tr><td>Add-on price</td><td><code>0.012</code></td></tr><tr><td>Formula</td><td><code>x * y * {{addon}}</code></td></tr></tbody></table>
+<table><thead><tr><th width="290">Setting</th><th>Value</th></tr></thead><tbody><tr><td>X position</td><td>Label <code>Width</code>, unit <code>cm</code>, min <code>30</code>, max <code>240</code></td></tr><tr><td>Y position</td><td>Label <code>Drop</code>, unit <code>cm</code>, min <code>30</code>, max <code>250</code></td></tr><tr><td>Z-Axis</td><td>Deleted</td></tr><tr><td>Add-on price</td><td><code>0.012</code></td></tr><tr><td>Formula</td><td><code>x * y * {{addon}}</code></td></tr></tbody></table>
 
 For a 100 × 150 blind: 100 × 150 × 0.012 = **$180.00**.
 

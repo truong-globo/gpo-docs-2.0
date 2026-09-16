@@ -13,7 +13,7 @@ A text layer draws the text the customer entered onto the product image. These s
 
 <table><thead><tr><th width="230">Setting</th><th width="170">Default</th><th>What it does</th></tr></thead><tbody><tr><td><strong>Text color</strong></td><td>Black</td><td>The color the text is drawn in.</td></tr><tr><td><strong>Font size</strong></td><td><code>6</code></td><td>The size, on a scale from 0 to 50 relative to the image.</td></tr><tr><td><strong>Text alignment</strong></td><td><strong>Center</strong></td><td><strong>Left</strong>, <strong>Center</strong>, or <strong>Right</strong>. <strong>Textarea only.</strong></td></tr><tr><td><strong>Font style</strong></td><td><strong>Normal</strong></td><td><strong>Normal</strong>, <strong>Italic</strong>, or <strong>Bold</strong>.</td></tr><tr><td><strong>Font family</strong></td><td><strong>Default</strong></td><td><strong>Default</strong>, <strong>Google</strong>, or <strong>Custom</strong>. See <a href="fonts.md">Fonts</a>.</td></tr></tbody></table>
 
-The remaining text layer settings are documented on their own pages: [effects](effects.md), [position, size, and rotation](position-size-rotation.md), [curve and auto-fit](curve-and-auto-fit.md), [clip area](clip-area.md), and [customer controls](customer-controls.md).
+The remaining text layer settings are documented on their own pages: [effects](effects.md), [position, size, and rotation](position-size-rotation.md), [curve and auto-fit](curve-and-auto-fit.md), [crop area](clip-area.md), and [customer controls](customer-controls.md).
 
 <figure><img src="../../.gitbook/assets/person4.png" alt="The text layer settings for color, font size, font style, and font family"><figcaption><p>The first group on the Personalizer tab styles the text itself.</p></figcaption></figure>
 
@@ -59,7 +59,7 @@ An engraved bracelet:
 
 ## Notes
 
-* Set a **Default value** in **Basic Settings** so the preview is never empty.
+* Set a **Default value** on the **Basic** tab so the preview is never empty.
 * [Text transform](../../option-types/shared-settings/text-input-rules.md#text-transform) is applied before the text is rendered, so the layer displays the transformed text.
 * The layer displays the current entry, so a **Max character** limit also limits how far the text can extend.
 * Number layers work the same way as Text layers. Use them for jersey numbers, years, and other numeric values.

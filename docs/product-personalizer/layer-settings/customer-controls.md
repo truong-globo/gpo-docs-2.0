@@ -9,7 +9,7 @@ icon: hand
 
 **Allow customers to** controls which adjustments the customer can make to a layer directly on the product image.
 
-These permissions let the customer arrange the design themselves. They can also produce designs you cannot produce, so always use them together with a clip area.
+These permissions let the customer arrange the design themselves. They can also produce designs you cannot produce, so always use them together with a crop area.
 
 **Applies to:** all twelve option types that support the Personalizer.
 
@@ -21,17 +21,17 @@ All three are off by default, and you can enable any combination. With none enab
 
 <figure><img src="../../.gitbook/assets/person12.png" alt="The Allow customers to setting with change position, resize, and rotate"><figcaption><p>Three permissions, all off by default.</p></figcaption></figure>
 
-## Always pair them with a clip area
+## Always pair them with a crop area
 
 {% hint style="warning" %}
-If you enable any of these permissions, set a [clip area](clip-area.md) as well.
+If you enable any of these permissions, set a [crop area](clip-area.md) as well.
 
 Without one, a customer can drag their photo onto the handle of a mug, resize their text to cover the whole product, or rotate a design to an angle you cannot print. The preview displays the result, and the order is placed with it.
 
-A clip area limits their adjustments to the area you can produce on.
+A crop area limits their adjustments to the area you can produce on.
 {% endhint %}
 
-When customers can drag a layer, leave the clip area outline **visible** and do not enable **Hide clip area**. The outline shows them the area they can work in.
+When customers can drag a layer, leave the crop area outline **visible** and do not enable **Hide the outline**. The outline shows them the area they can work in.
 
 ## When to enable them
 
@@ -63,7 +63,7 @@ See [Designs in cart and orders](../cart-and-orders.md).
 
 A photo frame where the customer positions their own photo:
 
-<table><thead><tr><th width="290">Setting</th><th>Value</th></tr></thead><tbody><tr><td>Option</td><td>File upload, required, image editor on</td></tr><tr><td>Image shape</td><td>Matching the frame aperture</td></tr><tr><td>Background mode</td><td><strong>Cover</strong></td></tr><tr><td>Position and size</td><td>Filling the aperture — a sensible starting point</td></tr><tr><td>Clip area</td><td>On, matching the aperture, outline visible</td></tr><tr><td>Allow customers to</td><td><strong>Change position</strong>, <strong>Resize</strong></td></tr><tr><td>Rotate</td><td>Off</td></tr><tr><td>Help text</td><td><code>Drag your photo to position it. Anything outside the frame will not be printed.</code></td></tr></tbody></table>
+<table><thead><tr><th width="290">Setting</th><th>Value</th></tr></thead><tbody><tr><td>Option</td><td>File upload, required, image editor on</td></tr><tr><td>Image shape</td><td>Matching the frame aperture</td></tr><tr><td>Background mode</td><td><strong>Cover</strong></td></tr><tr><td>Position and size</td><td>Filling the aperture — a sensible starting point</td></tr><tr><td>Crop area</td><td>On, matching the aperture, outline visible</td></tr><tr><td>Allow customers to</td><td><strong>Change position</strong>, <strong>Resize</strong></td></tr><tr><td>Rotate</td><td>Off</td></tr><tr><td>Help text</td><td><code>Drag your photo to position it. Anything outside the frame will not be printed.</code></td></tr></tbody></table>
 
 ## Notes
 

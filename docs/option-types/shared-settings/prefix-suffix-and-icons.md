@@ -7,7 +7,7 @@ icon: icons
 
 # Prefix, suffix, and icons
 
-These settings add fixed text or an icon to a field. They do not change the value the customer submits. All of them are available under **Advanced Settings**.
+These settings add fixed text or an icon to a field. They do not change the value the customer submits. All of them are available on the **Advanced** tab.
 
 ## Prefix
 
@@ -33,7 +33,7 @@ A suffix is always displayed and is not part of the value. A [placeholder](place
 
 ## Element icons
 
-The Section and Size chart option types have their own icon setting, which is separate from field prefixes. Section uses **Prefix icon** on Basic Settings, displayed beside the section heading. Size chart uses **Chart icon** on Advanced Settings, displayed beside the link that opens the chart.
+The Section and Size chart option types have their own icon setting, which is separate from field prefixes. Section uses **Prefix icon** on the Basic tab, displayed beside the section heading. Size chart uses **Chart icon** on the Advanced tab, displayed beside the link that opens the chart.
 
 ## Notes
 
@@ -41,4 +41,4 @@ The Section and Size chart option types have their own icon setting, which is se
 * Prefix and suffix text is not saved to the order. If your production team needs the unit, add it to the option's **Name**, for example `Width (cm)`.
 * Prefix and suffix do not validate input. Use [Limits](limits.md) and [Text input rules](text-input-rules.md) to control what customers can enter.
 
-<figure><img src="../../.gitbook/assets/suf.png" alt="Prefix and Suffix settings on a Number option"><figcaption><p>Prefix, Prefix icon, and Suffix under Advanced Settings.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/suf.png" alt="Prefix and Suffix settings on a Number option"><figcaption><p>Prefix, Prefix icon, and Suffix on the Advanced tab.</p></figcaption></figure>

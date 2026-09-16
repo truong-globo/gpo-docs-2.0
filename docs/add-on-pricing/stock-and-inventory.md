@@ -47,7 +47,7 @@ Generated products are created with the opposite policy, so they continue sellin
 {% step %}
 ### Set the option's Out of stock options
 
-In the app, on the option's **Advanced Settings**, select what customers see: **Show**, **Hide**, **Blur**, or **Strike-through**. See [Out of stock options](../option-types/shared-settings/out-of-stock-options.md).
+In the app, on the option's **Advanced** tab, select what customers see: **Show**, **Hide**, **Blur**, or **Strike-through**. See [Out of stock options](../option-types/shared-settings/out-of-stock-options.md).
 {% endstep %}
 
 {% step %}

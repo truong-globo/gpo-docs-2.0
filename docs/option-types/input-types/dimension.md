@@ -21,13 +21,13 @@ Two or three numeric fields on one row, each with its own label and unit.
 
 <figure><img src="../../.gitbook/assets/2026-09-03_10-37-03.png" alt="A dimension option on a storefront product page with width and height fields and their units"><figcaption><p>All the measurements sit in one option, so the row reads as a single question.</p></figcaption></figure>
 
-## Basic Settings
+## Basic
 
 <table><thead><tr><th width="250">Setting</th><th>What it does</th></tr></thead><tbody><tr><td><a href="../shared-settings/labels-and-visibility.md#label">Label</a> / <a href="../shared-settings/labels-and-visibility.md#name">Name</a></td><td>Customer-facing text, and the name on the order.</td></tr><tr><td><a href="../shared-settings/required-and-default-value.md#required-field">Required field</a></td><td>Blocks add to cart until every axis has a value.</td></tr><tr><td><a href="../shared-settings/labels-and-visibility.md#hidden-label">Hidden label</a></td><td>Hides the label.</td></tr><tr><td><strong>Option values</strong></td><td>The axis rows themselves. See below.</td></tr><tr><td><a href="../shared-settings/placeholder-and-help-text.md#help-text">Help text</a></td><td>Guidance that stays visible — the right place for your minimum and maximum sizes.</td></tr><tr><td><strong>Add-on price</strong></td><td>The base amount the formula works from.</td></tr><tr><td><strong>Formula</strong></td><td>How the measurements turn into a charge. See below.</td></tr><tr><td><a href="../shared-settings/conditional-logic-and-add-on-fields.md#conditional-logic">Conditional logic</a></td><td>Show or hide based on other choices.</td></tr></tbody></table>
 
 ### The axis rows
 
-A Dimension option starts with three rows, tagged **X-Axis**, **Y-Axis**, and **Z-Axis**. They correspond to **Width**, **Height**, and **Depth**. Each row has its own settings:
+A Dimension option starts with three rows, tagged **X position**, **Y position**, and **Z-Axis**. They correspond to **Width**, **Height**, and **Depth**. Each row has its own settings:
 
 <table><thead><tr><th width="200">Column</th><th>What it is</th></tr></thead><tbody><tr><td><strong>Label</strong></td><td>What the customer reads above that field — <code>Width</code>, <code>Drop</code>, <code>Diameter</code>.</td></tr><tr><td><strong>Placeholder</strong></td><td>Example text inside the empty field.</td></tr><tr><td><strong>Unit</strong></td><td>The unit shown with the field — <code>cm</code>, <code>m</code>, <code>inch</code>.</td></tr><tr><td><strong>Default value</strong></td><td>A starting figure.</td></tr><tr><td><strong>Min</strong> / <strong>Max</strong></td><td>The smallest and largest you can produce on that axis.</td></tr></tbody></table>
 
@@ -55,13 +55,13 @@ Set your rate in **Add-on price** and keep the formula simple. Then test it by e
 
 Full detail and more worked examples: [Dimension add-on formula](../../add-on-pricing/dimension-formula.md).
 
-## Advanced Settings
+## Advanced
 
 <table><thead><tr><th width="250">Setting</th><th>What it does</th></tr></thead><tbody><tr><td><a href="../shared-settings/placeholder-and-help-text.md#help-text-position">Help text position</a></td><td>Where the help text sits.</td></tr><tr><td><a href="../shared-settings/direction-width-and-css.md#html-class">HTML class</a> / <a href="../shared-settings/direction-width-and-css.md#column-width">Column width</a></td><td>Styling hook and field width.</td></tr></tbody></table>
 
 Dimension has no prefix or suffix settings, because each axis has its own **Unit**.
 
-## Personalizer Settings
+## Personalizer
 
 Not supported.
 
@@ -69,7 +69,7 @@ Not supported.
 
 **A made-to-measure blind priced by area**
 
-<table><thead><tr><th width="290">Setting</th><th>Value</th></tr></thead><tbody><tr><td>Label / Name</td><td><code>Blind size</code></td></tr><tr><td>X-Axis</td><td>Label <code>Width</code>, unit <code>cm</code>, min <code>30</code>, max <code>240</code></td></tr><tr><td>Y-Axis</td><td>Label <code>Drop</code>, unit <code>cm</code>, min <code>30</code>, max <code>250</code></td></tr><tr><td>Z-Axis</td><td>Deleted</td></tr><tr><td>Add-on price</td><td><code>0.012</code></td></tr><tr><td>Formula</td><td><code>x * y * {{addon}}</code></td></tr><tr><td>Required field</td><td>On</td></tr><tr><td>Help text</td><td><code>Measure the recess, not the window. Widths from 30 to 240 cm.</code></td></tr></tbody></table>
+<table><thead><tr><th width="290">Setting</th><th>Value</th></tr></thead><tbody><tr><td>Label / Name</td><td><code>Blind size</code></td></tr><tr><td>X position</td><td>Label <code>Width</code>, unit <code>cm</code>, min <code>30</code>, max <code>240</code></td></tr><tr><td>Y position</td><td>Label <code>Drop</code>, unit <code>cm</code>, min <code>30</code>, max <code>250</code></td></tr><tr><td>Z-Axis</td><td>Deleted</td></tr><tr><td>Add-on price</td><td><code>0.012</code></td></tr><tr><td>Formula</td><td><code>x * y * {{addon}}</code></td></tr><tr><td>Required field</td><td>On</td></tr><tr><td>Help text</td><td><code>Measure the recess, not the window. Widths from 30 to 240 cm.</code></td></tr></tbody></table>
 
 **A canvas print priced by area**
 

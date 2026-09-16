@@ -21,7 +21,7 @@ For selection types, each value needs its own image in the values table. See [Wo
 
 <table><thead><tr><th width="230">Setting</th><th width="170">Default</th><th>What it does</th></tr></thead><tbody><tr><td><strong>Image shape</strong></td><td>A supplied shape</td><td>The shape the image is masked into. Choose a preset, or upload your own</td></tr><tr><td><strong>Background mode</strong></td><td><strong>Cover</strong></td><td>How the image fits inside that shape</td></tr></tbody></table>
 
-The remaining settings are shared with text layers: position, width, height, opacity, rotation, [clip area](clip-area.md), and [customer controls](customer-controls.md). See [Position, size, and rotation](position-size-rotation.md).
+The remaining settings are shared with text layers: position, width, height, opacity, rotation, [crop area](clip-area.md), and [customer controls](customer-controls.md). See [Position, size, and rotation](position-size-rotation.md).
 
 <figure><img src="../../.gitbook/assets/person10.png" alt="The image shape picker and background mode setting on an image layer"><figcaption><p>Shape decides the window; background mode decides how the image fills it.</p></figcaption></figure>
 
@@ -55,7 +55,7 @@ Use **Cover** together with the [image editor](../../option-types/input-types/fi
 
 For an option that lets the customer upload a photo and see it in a frame:
 
-<table><thead><tr><th width="290">Setting</th><th>Value</th></tr></thead><tbody><tr><td>Option type</td><td>File upload, required</td></tr><tr><td>Allowed extensions</td><td><code>jpg</code>, <code>jpeg</code>, <code>png</code></td></tr><tr><td>Enable image editor</td><td>On, so customers crop before uploading</td></tr><tr><td>Help text</td><td><code>JPG or PNG, at least 1500 × 1500 pixels</code></td></tr><tr><td>Image shape</td><td>Matching your frame aperture</td></tr><tr><td>Background mode</td><td><strong>Cover</strong></td></tr><tr><td>Width and height</td><td>Sized to the aperture in the photo</td></tr><tr><td>Clip area</td><td>On, matching the aperture</td></tr><tr><td>Allow customers to</td><td><strong>Change position</strong> and <strong>Resize</strong>, so they can frame their photo</td></tr></tbody></table>
+<table><thead><tr><th width="290">Setting</th><th>Value</th></tr></thead><tbody><tr><td>Option type</td><td>File upload, required</td></tr><tr><td>Allowed extensions</td><td><code>jpg</code>, <code>jpeg</code>, <code>png</code></td></tr><tr><td>Enable image editor</td><td>On, so customers crop before uploading</td></tr><tr><td>Help text</td><td><code>JPG or PNG, at least 1500 × 1500 pixels</code></td></tr><tr><td>Image shape</td><td>Matching your frame aperture</td></tr><tr><td>Background mode</td><td><strong>Cover</strong></td></tr><tr><td>Width and height</td><td>Sized to the aperture in the photo</td></tr><tr><td>Crop area</td><td>On, matching the aperture</td></tr><tr><td>Allow customers to</td><td><strong>Change position</strong> and <strong>Resize</strong>, so they can frame their photo</td></tr></tbody></table>
 
 ## Selection types as image layers
 
@@ -75,7 +75,7 @@ Add the image in the values table. Use consistent proportions across all values.
 {% endstep %}
 
 {% step %}
-### Turn on Personalizer Settings
+### Turn on the Personalizer
 
 Then set the image shape and background mode.
 {% endstep %}
@@ -98,6 +98,6 @@ A multi-select option can create several image layers at the same time, which ma
 ## Notes
 
 * An image layer displays nothing until a file is uploaded or a value with an image is selected. Unlike text layers, it has no default value.
-* Uploaded images can be large. Use **Cover** and a **Clip area** to keep the preview within the defined area.
+* Uploaded images can be large. Use **Cover** and a **Crop area** to keep the preview within the defined area.
 * Uploaded images are displayed at their original resolution, so a small file may appear blurry when enlarged. Specify a minimum image size in the help text.
 * A custom shape is uploaded to your store's files and can be reused across multiple options.

@@ -5,7 +5,7 @@ description: >-
 icon: note-sticky
 ---
 
-# Update order notes
+# Order notes update
 
 This workflow writes the selected options into the order's note field in Shopify.
 

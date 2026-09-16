@@ -38,7 +38,7 @@ The inspector also displays a small action bar on the highlighted option:
 
 <table><thead><tr><th width="200">Action</th><th>What it does</th></tr></thead><tbody><tr><td><strong>Duplicate</strong></td><td>Copies the option, exactly like the panel's duplicate action.</td></tr><tr><td><strong>Half width</strong></td><td>Sets the option's <strong>Column width</strong> to 50%.</td></tr><tr><td><strong>Full width</strong></td><td>Sets the option's <strong>Column width</strong> to 100%.</td></tr><tr><td><strong>Hide</strong></td><td>Hides the option from the storefront while keeping it in the set.</td></tr><tr><td><strong>Delete</strong></td><td>Removes the option.</td></tr></tbody></table>
 
-Half width and full width are the most commonly used column widths, so they are available directly in the inspector. For more control, you can choose from the full range of widths — 25%, 33%, 50%, 66%, 75%, and 100% — in the option's **Advanced Settings.** See [Column width](../option-types/shared-settings/direction-width-and-css.md#column-width).
+Half width and full width are the most commonly used column widths, so they are available directly in the inspector. For more control, you can choose from the full range of widths — 25%, 33%, 50%, 66%, 75%, and 100% — in the option's **Advanced tab.** See [Column width](../option-types/shared-settings/direction-width-and-css.md#column-width).
 
 <figure><img src="../.gitbook/assets/2026-08-28_13-50-34.png" alt="The inspector highlighting an option in the preview with its action bar"><figcaption><p>With the inspector on, the preview becomes a second way to edit.</p></figcaption></figure>
 

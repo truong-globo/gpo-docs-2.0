@@ -17,7 +17,7 @@ A slider with the current value displayed and a fixed minimum and maximum. You c
 
 <figure><img src="../../.gitbook/assets/2026-09-03_10-32-28.png" alt="A range slider on a storefront product page showing its current value with a unit"><figcaption><p>A slider communicates the available range at a glance.</p></figcaption></figure>
 
-## Basic Settings
+## Basic
 
 <table><thead><tr><th width="250">Setting</th><th>What it does</th></tr></thead><tbody><tr><td><a href="../shared-settings/labels-and-visibility.md#label">Label</a> / <a href="../shared-settings/labels-and-visibility.md#name">Name</a></td><td>Customer-facing text, and the name on the order.</td></tr><tr><td><a href="../shared-settings/required-and-default-value.md#required-field">Required field</a></td><td>Blocks add to cart until a value is set.</td></tr><tr><td><a href="../shared-settings/labels-and-visibility.md#hidden-label">Hidden label</a></td><td>Hides the label.</td></tr><tr><td><a href="../shared-settings/limits.md#min-and-max-value">Min value</a></td><td>The left end of the track. Starts at <code>0</code>.</td></tr><tr><td><a href="../shared-settings/limits.md#min-and-max-value">Max value</a></td><td>The right end of the track. Starts at <code>100</code>.</td></tr><tr><td><strong>Step</strong></td><td>The increment the slider moves in. Starts at <code>1</code>.</td></tr><tr><td><a href="../shared-settings/placeholder-and-help-text.md#help-text">Help text</a></td><td>Guidance that stays visible.</td></tr><tr><td><a href="../shared-settings/required-and-default-value.md#default-value">Default value</a></td><td>Where the handle starts.</td></tr><tr><td><a href="../shared-settings/conditional-logic-and-add-on-fields.md#conditional-logic">Conditional logic</a></td><td>Show or hide based on other choices.</td></tr></tbody></table>
 
@@ -31,7 +31,7 @@ Unlike Number, **Min value** and **Max value** are required because they define 
 
 A wide range with a step of `1` is difficult to set precisely on a touch device. Choose a step that matches the precision you need. If you need an exact value, use a [Number](number.md) field instead.
 
-## Advanced Settings
+## Advanced
 
 <table><thead><tr><th width="250">Setting</th><th>What it does</th></tr></thead><tbody><tr><td><strong>Prefix</strong></td><td>Fixed text before the value, such as a currency symbol. A plain text field on this type — there is no icon-or-text choice.</td></tr><tr><td><strong>Suffix</strong></td><td>Fixed text after the value, such as <code>cm</code> or <code>%</code>.</td></tr><tr><td><a href="../shared-settings/placeholder-and-help-text.md#help-text-position">Help text position</a></td><td>Where the help text sits.</td></tr><tr><td><a href="../shared-settings/direction-width-and-css.md#html-class">HTML class</a> / <a href="../shared-settings/direction-width-and-css.md#column-width">Column width</a></td><td>Styling hook and field width.</td></tr></tbody></table>
 

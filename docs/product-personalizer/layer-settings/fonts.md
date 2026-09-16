@@ -47,7 +47,7 @@ Use this when the font is part of the product. If your engraving machine uses a 
 {% step %}
 ### Set Font family to Custom
 
-On the text layer's **Personalizer Settings**.
+On the text layer's **Personalizer** tab.
 {% endstep %}
 
 {% step %}

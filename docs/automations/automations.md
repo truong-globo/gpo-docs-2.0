@@ -11,16 +11,18 @@ An automation runs when a customer places an order containing app options. There
 
 ## The four workflows
 
-<table><thead><tr><th width="230">Workflow</th><th width="290">What it does</th><th>How many</th></tr></thead><tbody><tr><td><a href="email-notification.md">Email notification</a></td><td>Emails you the order and the options chosen</td><td>One</td></tr><tr><td><a href="update-order-notes.md">Update order notes</a></td><td>Writes the options into the order's notes</td><td>One</td></tr><tr><td><a href="update-order-tags.md">Update order tags</a></td><td>Tags the order — a fixed tag, or the value the customer chose</td><td>As many as you like</td></tr><tr><td><a href="google-drive-sync/">Google Drive sync</a></td><td>Copies customer-uploaded files into your Google Drive, in a folder per order</td><td>One</td></tr></tbody></table>
+The **Add workflow** screen splits them into two groups: **Order updates**, which add the selected options to the order in Shopify, and **Notifications and sync**, which send option data by email or copy uploaded files to cloud storage.
+
+<table><thead><tr><th width="200">Workflow</th><th width="170">Group</th><th width="290">What it does</th><th>How many</th></tr></thead><tbody><tr><td><a href="update-order-notes.md">Order notes update</a></td><td>Order updates</td><td>Writes the selected options into the order's notes, so they sit with the order in your admin</td><td>One</td></tr><tr><td><a href="update-order-tags.md">Order tags update</a></td><td>Order updates</td><td>Turns the selected options into order tags, so you can filter and search orders by them</td><td>As many as you like</td></tr><tr><td><a href="email-notification.md">Email notification</a></td><td>Notifications and sync</td><td>Emails you the selected options as soon as the order comes in</td><td>One</td></tr><tr><td><a href="google-drive-sync/">Google Drive sync</a></td><td>Notifications and sync</td><td>Copies customer-uploaded files to your Drive, one folder per order</td><td>One</td></tr></tbody></table>
 
 <figure><img src="../.gitbook/assets/placeholder.png" alt="The four workflow templates with their descriptions"><figcaption><p>The workflow types, added from the workflow templates screen.</p></figcaption></figure>
 
 ## Which workflow to use
 
-<table><thead><tr><th width="330">You want</th><th>Use</th></tr></thead><tbody><tr><td>To know immediately when a personalized order comes in</td><td><a href="email-notification.md">Email notification</a></td></tr><tr><td>Option details on your packing slips and invoices without editing templates</td><td><a href="update-order-notes.md">Update order notes</a> — most templates already print the note</td></tr><tr><td>To filter or route orders by what was chosen</td><td><a href="update-order-tags.md">Update order tags</a></td></tr><tr><td>To flag every order that has options at all</td><td><a href="update-order-tags.md">Update order tags</a> with a fixed tag</td></tr><tr><td>Your production team to see the options in their own tools</td><td><a href="update-order-notes.md">Update order notes</a>, or tags they can filter on</td></tr><tr><td>The photos and artwork customers upload, in a folder your team can open</td><td><a href="google-drive-sync/">Google Drive sync</a></td></tr></tbody></table>
+<table><thead><tr><th width="330">You want</th><th>Use</th></tr></thead><tbody><tr><td>To know immediately when a personalized order comes in</td><td><a href="email-notification.md">Email notification</a></td></tr><tr><td>Option details on your packing slips and invoices without editing templates</td><td><a href="update-order-notes.md">Order notes update</a> — most templates already print the note</td></tr><tr><td>To filter or route orders by what was chosen</td><td><a href="update-order-tags.md">Order tags update</a></td></tr><tr><td>To flag every order that has options at all</td><td><a href="update-order-tags.md">Order tags update</a> with a fixed tag</td></tr><tr><td>Your production team to see the options in their own tools</td><td><a href="update-order-notes.md">Order notes update</a>, or tags they can filter on</td></tr><tr><td>The photos and artwork customers upload, in a folder your team can open</td><td><a href="google-drive-sync/">Google Drive sync</a></td></tr></tbody></table>
 
 {% hint style="info" %}
-**Update order notes** is the most useful of the four for most stores. Most packing slip, invoice, and email templates already print the order note, so writing the options into the note puts them on all your paperwork without editing a Liquid template. See [Show options on orders](../storefront-display-and-design/show-options-on-orders/).
+**Order notes update** is the most useful of the four for most stores. Most packing slip, invoice, and email templates already print the order note, so writing the options into the note puts them on all your paperwork without editing a Liquid template. See [Show options on orders](../storefront-display-and-design/show-options-on-orders/).
 {% endhint %}
 
 ## Before you start
@@ -49,7 +51,7 @@ From the app menu.
 {% step %}
 ### Select Add workflow
 
-The workflow templates screen lists the four types and the maximum number of each you can create.
+The workflow templates screen lists the four types under their two groups, with the maximum number of each you can create. A type you have already used up is marked **Limit reached**.
 {% endstep %}
 
 {% step %}

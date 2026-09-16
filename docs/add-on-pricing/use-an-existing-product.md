@@ -55,11 +55,11 @@ The dialog closes, and a **Product** column is added to the values table with a 
 {% step %}
 ### Set how it scales
 
-The **Advanced settings** dropdown on **Advanced Settings** controls how the quantity is calculated. See [Advanced add-on modes](advanced-add-on-modes.md).
+The **Add-on quantity** dropdown on the **Advanced** tab controls how the quantity is calculated. See [Advanced add-on modes](advanced-add-on-modes.md).
 {% endstep %}
 {% endstepper %}
 
-<figure><img src="../.gitbook/assets/2026-09-04_13-59-29.png" alt="The Use existing product tab with a product selected and its variants listed"><figcaption><p>The Advanced settings dropdown decides how the add-on quantity is calculated.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-09-04_13-59-29.png" alt="The Use existing product tab with a product selected and its variants listed"><figcaption><p>The Add-on quantity dropdown decides how the add-on quantity is calculated.</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/2026-09-04_14-00-52.png" alt="The product picker with a variant selected, showing its price and inventory"><figcaption><p>The add-on price and inventory come from the variant you select.</p></figcaption></figure>
 
@@ -79,7 +79,7 @@ A single inventory count is usually the best option when add-on and standalone g
 
 **A gift box you also sell**
 
-<table><thead><tr><th width="290">Setting</th><th>Value</th></tr></thead><tbody><tr><td>Option</td><td><code>Gift box</code>, a Switch</td></tr><tr><td>Price</td><td><strong>Use existing product</strong> → <em>Gift Box</em> → <em>Medium</em></td></tr><tr><td>Advanced settings</td><td><strong>One time charge</strong> — one box per order</td></tr><tr><td>Out of stock options</td><td>Not applicable on a Switch — but the box's stock still applies</td></tr></tbody></table>
+<table><thead><tr><th width="290">Setting</th><th>Value</th></tr></thead><tbody><tr><td>Option</td><td><code>Gift box</code>, a Switch</td></tr><tr><td>Price</td><td><strong>Use existing product</strong> → <em>Gift Box</em> → <em>Medium</em></td></tr><tr><td>Add-on quantity</td><td><strong>One time charge</strong> — one box per order</td></tr><tr><td>Out of stock options</td><td>Not applicable on a Switch — but the box's stock still applies</td></tr></tbody></table>
 
 **Pack sizes as separate SKUs**
 

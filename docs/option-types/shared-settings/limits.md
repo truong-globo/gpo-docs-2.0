@@ -17,7 +17,7 @@ All limit settings are restricted by plan in some way. If a limit field is graye
 
 ## Min and max character
 
-<table><thead><tr><th width="180">Tab</th><th>Basic Settings</th></tr></thead><tbody><tr><td>Default</td><td>Both empty — no limit at either end</td></tr><tr><td>Available on</td><td>Text, Textarea</td></tr></tbody></table>
+<table><thead><tr><th width="180">Tab</th><th>Basic</th></tr></thead><tbody><tr><td>Default</td><td>Both empty — no limit at either end</td></tr><tr><td>Available on</td><td>Text, Textarea</td></tr></tbody></table>
 
 **How it behaves**
 
@@ -41,7 +41,7 @@ Related: **Per character** add-on pricing charges based on how much the customer
 
 Shows a live count as the customer types.
 
-<table><thead><tr><th width="180">Tab</th><th>Basic Settings</th></tr></thead><tbody><tr><td>Default</td><td><strong>Hide</strong></td></tr><tr><td>Available on</td><td>Text, Textarea</td></tr></tbody></table>
+<table><thead><tr><th width="180">Tab</th><th>Basic</th></tr></thead><tbody><tr><td>Default</td><td><strong>Hide</strong></td></tr><tr><td>Available on</td><td>Text, Textarea</td></tr></tbody></table>
 
 Set it to **Show** to display a running character count. The wording is store-wide and editable in **Settings > Translations**: `{{character_count}}/{{character_limit}} characters`. See [Translate widget text](../../translations-and-languages/translate-widget-text.md).
 
@@ -49,7 +49,7 @@ Turn it on whenever you set a **Max character**. It gives customers feedback whi
 
 ## Min and max value
 
-<table><thead><tr><th width="180">Tab</th><th>Basic Settings</th></tr></thead><tbody><tr><td>Default</td><td>Both empty on <strong>Number</strong>. On <strong>Range slider</strong>, <code>0</code> and <code>100</code></td></tr><tr><td>Available on</td><td>Number, Range slider</td></tr></tbody></table>
+<table><thead><tr><th width="180">Tab</th><th>Basic</th></tr></thead><tbody><tr><td>Default</td><td>Both empty on <strong>Number</strong>. On <strong>Range slider</strong>, <code>0</code> and <code>100</code></td></tr><tr><td>Available on</td><td>Number, Range slider</td></tr></tbody></table>
 
 **How it behaves**
 
@@ -65,7 +65,7 @@ When a number is used to calculate a price, these limits also protect against ze
 
 ## Min and max selections
 
-<table><thead><tr><th width="180">Tab</th><th>Basic Settings</th></tr></thead><tbody><tr><td>Default</td><td>Both empty</td></tr><tr><td>Available on</td><td><strong>Checkbox</strong> always; and on <strong>Dropdown</strong>, <strong>Color dropdown</strong>, <strong>Image dropdown</strong>, <strong>Button</strong>, <strong>Color swatch</strong>, and <strong>Image swatch</strong> once <a href="selection-behaviour.md#allow-multiple">Allow multiple</a> is turned on</td></tr></tbody></table>
+<table><thead><tr><th width="180">Tab</th><th>Basic</th></tr></thead><tbody><tr><td>Default</td><td>Both empty</td></tr><tr><td>Available on</td><td><strong>Checkbox</strong> always; and on <strong>Dropdown</strong>, <strong>Color dropdown</strong>, <strong>Image dropdown</strong>, <strong>Button</strong>, <strong>Color swatch</strong>, and <strong>Image swatch</strong> once <a href="selection-behaviour.md#allow-multiple">Allow multiple</a> is turned on</td></tr></tbody></table>
 
 **How it behaves**
 
@@ -84,7 +84,7 @@ The app also checks your limits against the number of values available in the op
 
 ## Min and max number of files
 
-<table><thead><tr><th width="180">Tab</th><th>Basic Settings</th></tr></thead><tbody><tr><td>Default</td><td>Both empty</td></tr><tr><td>Available on</td><td>File upload, once <strong>Allow multiple</strong> is on</td></tr></tbody></table>
+<table><thead><tr><th width="180">Tab</th><th>Basic</th></tr></thead><tbody><tr><td>Default</td><td>Both empty</td></tr><tr><td>Available on</td><td>File upload, once <strong>Allow multiple</strong> is on</td></tr></tbody></table>
 
 **How it behaves**
 
@@ -105,4 +105,4 @@ See [File upload](../input-types/file-upload.md) for the allowed file extensions
 
 Every message is editable per storefront language, and the `{{ }}` placeholders fill themselves in from your settings. See [Translate widget text](../../translations-and-languages/translate-widget-text.md) and [Validation messages](../../translations-and-languages/translate-widget-text.md).
 
-<figure><img src="../../.gitbook/assets/2026-08-31_10-21-10 (1).png" alt="Min character, Max character, and the character counter on a Text option"><figcaption><p>Limits sit next to each other on Basic Settings, with the counter beside them.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2026-08-31_10-21-10 (1).png" alt="Min character, Max character, and the character counter on a Text option"><figcaption><p>Limits sit next to each other on the Basic tab, with the counter beside them.</p></figcaption></figure>

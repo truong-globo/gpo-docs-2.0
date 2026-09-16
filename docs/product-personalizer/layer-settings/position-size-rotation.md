@@ -11,11 +11,11 @@ Every layer, text or image, is positioned with the same settings.
 
 ## The settings
 
-<table><thead><tr><th width="200">Setting</th><th width="150">Range</th><th width="130">Default</th><th>What it does</th></tr></thead><tbody><tr><td><strong>X-Axis</strong></td><td>0 – 100%</td><td><code>50</code></td><td>Horizontal position. 0 is the left edge, 100 the right</td></tr><tr><td><strong>Y-Axis</strong></td><td>0 – 100%</td><td><code>50</code></td><td>Vertical position. 0 is the top, 100 the bottom</td></tr><tr><td><strong>Width</strong></td><td>0 – 100%</td><td><code>25</code></td><td>The layer's width as a share of the image. Image layers and Textarea only</td></tr><tr><td><strong>Height</strong></td><td>0 – 100%</td><td><code>25</code></td><td>The layer's height. Image layers and Textarea only</td></tr><tr><td><strong>Opacity</strong></td><td>0 – 100%</td><td><code>100</code></td><td>Transparency. 100 is solid</td></tr><tr><td><strong>Rotation</strong></td><td>-180 – 180°</td><td><code>0</code></td><td>Rotation in degrees. Negative is anticlockwise</td></tr></tbody></table>
+<table><thead><tr><th width="200">Setting</th><th width="150">Range</th><th width="130">Default</th><th>What it does</th></tr></thead><tbody><tr><td><strong>X position</strong></td><td>0 – 100%</td><td><code>50</code></td><td>Horizontal position. 0 is the left edge, 100 the right</td></tr><tr><td><strong>Y position</strong></td><td>0 – 100%</td><td><code>50</code></td><td>Vertical position. 0 is the top, 100 the bottom</td></tr><tr><td><strong>Width</strong></td><td>0 – 100%</td><td><code>25</code></td><td>The layer's width as a share of the image. Image layers and Textarea only</td></tr><tr><td><strong>Height</strong></td><td>0 – 100%</td><td><code>25</code></td><td>The layer's height. Image layers and Textarea only</td></tr><tr><td><strong>Opacity</strong></td><td>0 – 100%</td><td><code>100</code></td><td>Transparency. 100 is solid</td></tr><tr><td><strong>Rotation</strong></td><td>-180 – 180°</td><td><code>0</code></td><td>Rotation in degrees. Negative is anticlockwise</td></tr></tbody></table>
 
 All position values are **percentages of the image**, not pixels. This keeps the layer in the same relative place whether the image is displayed on a phone or a large monitor.
 
-<figure><img src="../../.gitbook/assets/person7.png" alt="The position, opacity, and rotation sliders on the Personalizer Settings tab"><figcaption><p>Positions are percentages of the image, so they hold at any display size.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/person7.png" alt="The position, opacity, and rotation sliders on the Personalizer tab"><figcaption><p>Positions are percentages of the image, so they hold at any display size.</p></figcaption></figure>
 
 ## Which types get width and height
 
@@ -35,13 +35,13 @@ Both axes default to 50, which places the layer in the center. Adjust from there
 {% step %}
 ### Set the vertical position first
 
-**Y-Axis** is usually easier to set, because the print or engraving area is at a known height on the product.
+**Y position** is usually easier to set, because the print or engraving area is at a known height on the product.
 {% endstep %}
 
 {% step %}
 ### Then the horizontal position
 
-**X-Axis** at 50 centers the layer, which is correct for most personalization.
+**X position** at 50 centers the layer, which is correct for most personalization.
 {% endstep %}
 
 {% step %}
@@ -83,11 +83,11 @@ For text on a curved surface, such as around a mug or a ring, use [Curve](curve-
 
 ## Several layers on one image
 
-<table><thead><tr><th width="290">Goal</th><th>How</th></tr></thead><tbody><tr><td>A name above a date</td><td>Same <strong>X-Axis</strong>, different <strong>Y-Axis</strong> — for example 40 and 55</td></tr><tr><td>Two layers side by side</td><td>Same <strong>Y-Axis</strong>, different <strong>X-Axis</strong> — for example 30 and 70</td></tr><tr><td>Text over an uploaded photo</td><td>Position the text within the photo layer's area, and give it a <a href="effects.md#stroke">stroke</a> for contrast</td></tr><tr><td>Layers that must never overlap the product edge</td><td>Give each a <a href="clip-area.md">clip area</a></td></tr></tbody></table>
+<table><thead><tr><th width="290">Goal</th><th>How</th></tr></thead><tbody><tr><td>A name above a date</td><td>Same <strong>X position</strong>, different <strong>Y position</strong> — for example 40 and 55</td></tr><tr><td>Two layers side by side</td><td>Same <strong>Y position</strong>, different <strong>X position</strong> — for example 30 and 70</td></tr><tr><td>Text over an uploaded photo</td><td>Position the text within the photo layer's area, and give it a <a href="effects.md#stroke">stroke</a> for contrast</td></tr><tr><td>Layers that must never overlap the product edge</td><td>Give each a <a href="clip-area.md">crop area</a></td></tr></tbody></table>
 
 ## Notes
 
 * Percentages are relative to the background image, so positions stay accurate across products only if your photos are framed consistently. See [Choosing the background](../setup.md#choosing-the-background).
 * If you let customers move a layer, your position is their starting point. See [Customer controls](customer-controls.md).
-* A [clip area](clip-area.md) limits where a layer can appear. Use one whenever customers can move a layer.
+* A [crop area](clip-area.md) limits where a layer can appear. Use one whenever customers can move a layer.
 * Changing the background moves every layer. Set the background first.

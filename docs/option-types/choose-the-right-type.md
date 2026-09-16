@@ -57,7 +57,7 @@ A **Switch** is a single yes-or-no choice with its own label, such as “Add gif
 
 ### File upload or the Personalizer?
 
-These features work together rather than as alternatives. **File upload** collects the customer’s file. Enabling **Personalizer Settings** on the same option also displays the uploaded image on the product photo as a live preview. See [Product Personalizer](../product-personalizer/personalizer.md).
+These features work together rather than as alternatives. **File upload** collects the customer’s file. Enabling **Personalizer** on the same option also displays the uploaded image on the product photo as a live preview. See [Product Personalizer](../product-personalizer/personalizer.md).
 
 ## By what you need it to do
 

@@ -9,7 +9,7 @@ Most Personalizer issues have one of four common causes: no background image, no
 
 ## Start here
 
-<table><thead><tr><th width="60">#</th><th width="290">Check</th><th>Where</th></tr></thead><tbody><tr><td>1</td><td>Is a background configured for the option set?</td><td><strong>Change background</strong> in the preview panel</td></tr><tr><td>2</td><td>Is <strong>Enable personalize</strong> on for the option?</td><td>The option's <strong>Personalizer Settings</strong> tab</td></tr><tr><td>3</td><td>Is there anything to draw — a default value, or an uploaded file?</td><td><strong>Basic Settings</strong></td></tr><tr><td>4</td><td>Is the Personalizer included in your plan?</td><td><a href="../plans-and-billing/compare-plans.md">Compare plans</a></td></tr></tbody></table>
+<table><thead><tr><th width="60">#</th><th width="290">Check</th><th>Where</th></tr></thead><tbody><tr><td>1</td><td>Is a background configured for the option set?</td><td><strong>Change background</strong> in the preview panel</td></tr><tr><td>2</td><td>Is <strong>Enable personalize</strong> on for the option?</td><td>The option's <strong>Personalizer</strong> tab</td></tr><tr><td>3</td><td>Is there anything to draw — a default value, or an uploaded file?</td><td><strong>Basic</strong></td></tr><tr><td>4</td><td>Is the Personalizer included in your plan?</td><td><a href="../plans-and-billing/compare-plans.md">Compare plans</a></td></tr></tbody></table>
 
 ## Nothing appears on the product photo
 
@@ -22,14 +22,14 @@ In order:
 1. **No background.** Open **Change background** and select one. See [Choosing the background](setup.md#choosing-the-background).
 2. **Enable Personalize is off** in the options.
 3. **Nothing to draw.** A text layer with no **Default value** draws nothing until the customer types. An image layer draws nothing until a file is uploaded or a value with an image is chosen.
-4. **The layer is outside the image** or outside its [clip area](layer-settings/clip-area.md). Move the axis values towards 50.
+4. **The layer is outside the image** or outside its [crop area](layer-settings/clip-area.md). Move the axis values towards 50.
 5. **Opacity is at 0.**
 
 </details>
 
 <details>
 
-<summary>There is no Personalizer Settings tab on my option</summary>
+<summary>There is no Personalizer tab on my option</summary>
 
 That option type does not support the Personalizer. Twelve supported types include: Text, Textarea, Number, File upload, and eight selection types. See the [overview](personalizer.md#the-twelve-supported-option-types).
 
@@ -83,7 +83,7 @@ This is expected because positions are relative to the background. Reposition ev
 
 <summary>Two layers overlap</summary>
 
-They share a position. Give them different **Y-Axis** values, or use [conditional logic](../conditional-logic/conditional-logic.md) so only one is visible at a time.
+They share a position. Give them different **Y position** values, or use [conditional logic](../conditional-logic/conditional-logic.md) so only one is visible at a time.
 
 </details>
 
@@ -201,7 +201,7 @@ Turn on **Change position** under **Allow customers to**.
 
 <summary>Customers place designs where I cannot print</summary>
 
-Add a [clip area](layer-settings/clip-area.md) and leave its outline visible so they can see the boundary.
+Add a [crop area](layer-settings/clip-area.md) and leave its outline visible so they can see the boundary.
 
 </details>
 

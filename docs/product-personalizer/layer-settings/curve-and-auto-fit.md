@@ -45,7 +45,7 @@ With it enabled, long entries are reduced in size instead, so the text stays ins
 {% step %}
 ### Turn on Auto-fit max width
 
-On the text layer's **Personalizer Settings**.
+On the text layer's **Personalizer** tab.
 {% endstep %}
 
 {% step %}

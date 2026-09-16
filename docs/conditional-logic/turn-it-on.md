@@ -27,7 +27,7 @@ For example, to display a gift message field when gift wrapping is selected, app
 {% step %}
 ### Turn on Conditional logic
 
-On **Basic Settings**, find the **Conditional logic** switch and turn it on.
+On **Basic**, find the **Conditional logic** switch and turn it on.
 
 A rule builder appears directly underneath.
 {% endstep %}

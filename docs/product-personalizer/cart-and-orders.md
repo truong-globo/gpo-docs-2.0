@@ -51,7 +51,7 @@ There are three options, depending on how your team works:
 
 <table><thead><tr><th width="290">Route</th><th>Good for</th></tr></thead><tbody><tr><td>Reading the order in Shopify admin</td><td>Low volume. Nothing to set up</td></tr><tr><td>Order confirmation emails, invoices, and packing slips</td><td>Anybody who works from printed paperwork. Option details appear automatically. See <a href="../storefront-display-and-design/show-options-on-orders/">Show options on orders</a></td></tr><tr><td>An <a href="../automations/automations.md">automation</a></td><td>Higher volume — email yourself the options as each order arrives, or write them into the order notes so they appear everywhere the note does</td></tr></tbody></table>
 
-If you sell personalized products regularly, set up the automations early. See [Email notification](../automations/email-notification.md) and [Update order notes](../automations/update-order-notes.md).
+If you sell personalized products regularly, set up the automations early. See [Email notification](../automations/email-notification.md) and [Order notes update](../automations/update-order-notes.md).
 
 ## Uploaded files
 

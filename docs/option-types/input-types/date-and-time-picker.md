@@ -17,13 +17,13 @@ A field that opens a calendar, a clock, or both. Dates you have blocked cannot b
 
 <figure><img src="../../.gitbook/assets/2026-09-03_10-12-39.png" alt="A date picker open on a storefront product page with weekend dates unavailable"><figcaption><p>Blocked dates are visibly unselectable, so customers cannot choose a day you cannot deliver.</p></figcaption></figure>
 
-## Basic Settings
+## Basic
 
 <table><thead><tr><th width="250">Setting</th><th>What it does</th></tr></thead><tbody><tr><td><a href="../shared-settings/labels-and-visibility.md#label">Label</a> / <a href="../shared-settings/labels-and-visibility.md#name">Name</a></td><td>Customer-facing text, and the name on the order.</td></tr><tr><td><a href="../shared-settings/required-and-default-value.md#required-field">Required field</a></td><td>Blocks add to cart until a date is chosen.</td></tr><tr><td><a href="../shared-settings/labels-and-visibility.md#hidden-label">Hidden label</a></td><td>Hides the label.</td></tr><tr><td><a href="../shared-settings/placeholder-and-help-text.md#placeholder">Placeholder</a></td><td>Text in the empty field — worth using to show the format.</td></tr><tr><td><a href="../shared-settings/placeholder-and-help-text.md#help-text">Help text</a></td><td>Guidance that stays visible, such as your cut-off time.</td></tr><tr><td><a href="../shared-settings/conditional-logic-and-add-on-fields.md#conditional-logic">Conditional logic</a></td><td>Show or hide based on other choices.</td></tr></tbody></table>
 
 There is no default value and no add-on price on this type.
 
-## Advanced Settings
+## Advanced
 
 ### Format and mode
 

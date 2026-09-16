@@ -76,7 +76,7 @@ See [Swatch style](../option-types/shared-settings/swatch-style-and-previews.md#
 
 ## Translating values
 
-If your storefront supports multiple languages, you can translate values for each language using the language switcher in the builder.
+If your storefront supports multiple languages, you can translate values for each language on the option set's **Translations** tab.
 
 The option’s **Name** is not translated, so your order records remain consistent across languages.
 

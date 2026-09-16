@@ -113,7 +113,7 @@
   * [Text effects](product-personalizer/layer-settings/effects.md)
   * [Position, size, and rotation](product-personalizer/layer-settings/position-size-rotation.md)
   * [Curve and auto-fit width](product-personalizer/layer-settings/curve-and-auto-fit.md)
-  * [Clip area](product-personalizer/layer-settings/clip-area.md)
+  * [Crop area](product-personalizer/layer-settings/clip-area.md)
   * [Image layers](product-personalizer/layer-settings/image-layers.md)
   * [Customer controls](product-personalizer/layer-settings/customer-controls.md)
 * [Designs in cart and orders](product-personalizer/cart-and-orders.md)
@@ -124,7 +124,7 @@
 
 * [Overview](templates/templates.md)
 * [Pre-designed templates](templates/pre-designed-templates.md)
-* [Personalized templates](templates/personalized-templates.md)
+* [Personalizer templates](templates/personalized-templates.md)
 * [Custom templates](templates/custom-templates.md)
 
 ## Translations and languages
@@ -156,8 +156,8 @@
 
 * [Overview](automations/automations.md)
 * [Email notification](automations/email-notification.md)
-* [Update order notes](automations/update-order-notes.md)
-* [Update order tags](automations/update-order-tags.md)
+* [Order notes update](automations/update-order-notes.md)
+* [Order tags update](automations/update-order-tags.md)
 * [Google Drive sync](automations/google-drive-sync/README.md)
   * [Google Drive sync history](automations/google-drive-sync/google-drive-sync-history.md)
 * [Liquid variables reference](automations/liquid-variables-reference.md)

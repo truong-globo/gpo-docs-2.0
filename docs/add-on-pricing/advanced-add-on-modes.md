@@ -7,21 +7,25 @@ icon: calculator
 
 # Advanced add-on modes
 
-The price sets how much an add-on costs. The **Advanced add-on** sets how the quantity is calculated.
+The price sets how much an add-on costs. **Add-on quantity** sets how many of it are charged.
 
 For example, a $5.00 gift wrap charge on an order of three items is either $15.00 or $5.00, depending on the mode you select.
 
 ## Where it is
 
-The setting is on the **Basic** tab, labeled **Quantity**. It is set at **option** level, even when the prices are set on individual values, and it applies to the whole option.
+The setting is **Add-on quantity**, in the **Add-on** card on the **Basic** tab — the same card as the **Price** field. It is set at **option** level, even when the prices are set on individual values, and it applies to the whole option.
 
-It has no effect on an option with no price.
+It has no effect on an option with no price, which is what the field's tooltip means by "Only works if option has additional charges."
 
-<figure><img src="../.gitbook/assets/ad addon.png" alt="The Advanced settings dropdown open, listing the add-on quantity modes with their help text"><figcaption><p>Each mode carries a one-line explanation in the app itself.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/ad addon.png" alt="The Add-on quantity dropdown open, with the modes listed under their three group headings"><figcaption><p>The modes are grouped by who decides the quantity, and each carries a one-line explanation.</p></figcaption></figure>
 
 ## The eight modes
 
-<table><thead><tr><th width="290">Mode</th><th width="180">Quantity comes from</th><th>Available on</th></tr></thead><tbody><tr><td><strong>Default</strong></td><td>The main product's quantity</td><td>Everything with a price</td></tr><tr><td><strong>One time charge</strong></td><td>Always 1</td><td>Everything with a price</td></tr><tr><td><strong>Fixed quantity</strong></td><td>A number you set</td><td>Everything with a price</td></tr><tr><td><strong>Dynamic quantity</strong></td><td>A number you set × main quantity</td><td>Everything with a price</td></tr><tr><td><strong>Fixed quantity (by customer)</strong></td><td>A number the customer enters</td><td>Everything with a price</td></tr><tr><td><strong>Dynamic quantity (by customer)</strong></td><td>The customer's number × main quantity</td><td>Everything with a price</td></tr><tr><td><strong>Mixed quantity</strong></td><td>A number per option value, entered by the customer</td><td>Multi-select options only</td></tr><tr><td><strong>Per character</strong></td><td>How many characters were typed</td><td><a href="../option-types/input-types/text.md">Text</a> and <a href="../option-types/input-types/textarea.md">Textarea</a> only</td></tr></tbody></table>
+The dropdown groups them under three headings, by who decides the quantity: **Counted automatically**, **Set by you**, and **Set by the customer**.
+
+<table><thead><tr><th width="210">Group</th><th width="240">Mode</th><th width="200">Quantity comes from</th><th>Available on</th></tr></thead><tbody><tr><td rowspan="2"><strong>Counted automatically</strong></td><td><strong>Default</strong></td><td>The main product's quantity</td><td>Everything with a price</td></tr><tr><td><strong>One time charge</strong></td><td>Always 1</td><td>Everything with a price</td></tr><tr><td rowspan="2"><strong>Set by you</strong></td><td><strong>Fixed quantity</strong></td><td>A number you set</td><td>Everything with a price</td></tr><tr><td><strong>Dynamic quantity</strong></td><td>A number you set × main quantity</td><td>Everything with a price</td></tr><tr><td rowspan="4"><strong>Set by the customer</strong></td><td><strong>Fixed quantity (by customer)</strong></td><td>A number the customer enters</td><td>Everything with a price</td></tr><tr><td><strong>Dynamic quantity (by customer)</strong></td><td>The customer's number × main quantity</td><td>Everything with a price</td></tr><tr><td><strong>Mixed quantity</strong></td><td>A number per option value, entered by the customer</td><td>Multi-select options only</td></tr><tr><td><strong>Per character</strong></td><td>How many characters were typed</td><td><a href="../option-types/input-types/text.md">Text</a> and <a href="../option-types/input-types/textarea.md">Textarea</a> only</td></tr></tbody></table>
+
+The two **Set by you** modes are the only ones that display the companion **Quantity** field.
 
 ## Worked calculations
 
@@ -45,7 +49,7 @@ Use this for a charge applied once per order, such as gift wrapping a parcel, a 
 
 ### Fixed quantity
 
-The quantity is always the number you enter in **Set quantity**, regardless of the main product quantity. With **Set quantity** set to `2`:
+The quantity is always the number you enter in **Quantity**, regardless of the main product quantity. With **Quantity** set to `2`:
 
 > 2 × $4.00 = **$8.00**
 
@@ -53,7 +57,7 @@ Use this when the add-on always includes a fixed amount, such as a gift box with
 
 ### Dynamic quantity
 
-The **Set quantity** value multiplied by the main product quantity. With **Set quantity** set to `2`:
+The **Quantity** value multiplied by the main product quantity. With **Quantity** set to `2`:
 
 > 2 × 3 × $4.00 = **$24.00**
 
@@ -101,7 +105,7 @@ Use this for engraving and embroidery priced by length.
 Always use **Per character** together with a [Max character](../option-types/shared-settings/limits.md#min-and-max-character) limit, so the charge has a maximum. Enable the [Character counter](../option-types/shared-settings/limits.md#character-counter) so the customer can see how many characters they have entered.
 {% endhint %}
 
-## Set quantity
+## Quantity
 
 This field is used by **Fixed quantity** and **Dynamic quantity**. It is displayed only when one of those modes is selected. The other modes take the quantity from the customer or do not need one.
 

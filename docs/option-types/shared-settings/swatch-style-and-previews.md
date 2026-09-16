@@ -11,7 +11,7 @@ These settings control how option values are displayed, and how much detail a cu
 
 ## Swatch style
 
-Displays option values as text, colors, or images. Available under **Basic Settings**.
+Displays option values as text, colors, or images. Available on the **Basic** tab.
 
 <table><thead><tr><th width="230">Value</th><th>Description</th></tr></thead><tbody><tr><td><strong>Default</strong></td><td>The values are displayed as text.</td></tr><tr><td><strong>Color</strong></td><td>Each value displays a color chip. Adds a <strong>Color</strong> column to the option values table.</td></tr><tr><td><strong>Image</strong></td><td>Each value displays an image. Adds an <strong>Image</strong> column to the option values table.</td></tr></tbody></table>
 

@@ -1,6 +1,6 @@
 ---
 description: >-
-  The Conditional logic switch, Price field, Advanced settings, and Set quantity
+  The Conditional logic switch, Price field, Add-on quantity, and Quantity
   — four settings that unlock the app’s two most powerful features.
 icon: link
 ---
@@ -15,7 +15,7 @@ Four settings appear on nearly every option, and each one connects to a larger f
 
 Turns on rules that show or hide the option based on what the customer has already selected.
 
-<table><thead><tr><th width="180">Tab</th><th>Basic Settings</th></tr></thead><tbody><tr><td>Default</td><td>Off</td></tr><tr><td>Available on</td><td>All 32 option types, including <strong>Section</strong> and the visual statics</td></tr></tbody></table>
+<table><thead><tr><th width="180">Tab</th><th>Basic</th></tr></thead><tbody><tr><td>Default</td><td>Off</td></tr><tr><td>Available on</td><td>All 32 option types, including <strong>Section</strong> and the visual statics</td></tr></tbody></table>
 
 **What happens when you turn it on**
 
@@ -40,7 +40,7 @@ For full detail, see [Conditional logic](../../conditional-logic/conditional-log
 
 Adds an extra charge to the option.
 
-| Tab          | Basic Settings, under **Add-on Settings**                                                                                                                                                                                      |
+| Tab          | Basic tab, under **Add-on Settings**                                                                                                                                                                                      |
 | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Default      | No add-on                                                                                                                                                                                                                      |
 | Available on | At **option** level: Text, Textarea, Number, Switch, Color picker. At **option value** level, in the values table's **Price** column: all nine selection types with values. **Dimension** has its own price and formula fields |
@@ -59,25 +59,27 @@ Once a value is linked to a product, a **Product** column appears in the values 
 
 For full detail, see [Add-on pricing](../../add-on-pricing/add-on-pricing.md).
 
-## Advanced settings
+## Add-on quantity
 
 Controls how the add-on charge scales with the main product's quantity.
 
-<table><thead><tr><th width="180">Tab</th><th>Advanced Settings</th></tr></thead><tbody><tr><td>Default</td><td><strong>Default</strong></td></tr><tr><td>Available on</td><td>Every type that can carry an add-on</td></tr></tbody></table>
+<table><thead><tr><th width="180">Tab</th><th>Basic, in the <strong>Add-on</strong> card</th></tr></thead><tbody><tr><td>Default</td><td><strong>Default</strong></td></tr><tr><td>Available on</td><td>Every type that can carry an add-on</td></tr></tbody></table>
 
 {% hint style="warning" %}
-This dropdown applies only when the option has a charge. On an option with no add-on, it has no effect.
+This dropdown applies only when the option has a charge. On an option with no add-on, it has no effect — the app says so in the field's own tooltip.
 {% endhint %}
 
-<table><thead><tr><th width="290">Mode</th><th>Behavior</th></tr></thead><tbody><tr><td><strong>Default</strong></td><td>The add-on follows the main product's quantity.</td></tr><tr><td><strong>One time charge</strong></td><td>Charged once, however many of the main product are bought.</td></tr><tr><td><strong>Fixed quantity</strong></td><td>Always the quantity you set, regardless of the main product.</td></tr><tr><td><strong>Dynamic quantity</strong></td><td>The quantity you set, multiplied by the main product's quantity.</td></tr><tr><td><strong>Fixed quantity (by customer)</strong></td><td>A quantity box appears for the customer; that quantity is used as-is.</td></tr><tr><td><strong>Dynamic quantity (by customer)</strong></td><td>The customer's quantity, multiplied by the main product's quantity.</td></tr><tr><td><strong>Mixed quantity</strong></td><td>A quantity box per option value. Multi-select options only.</td></tr><tr><td><strong>Per character</strong></td><td>Charged by how many characters the customer typed. <strong>Text</strong> and <strong>Textarea</strong> only.</td></tr></tbody></table>
+The dropdown groups the eight modes by who decides the quantity.
+
+<table><thead><tr><th width="230">Group</th><th width="250">Mode</th><th>Behavior</th></tr></thead><tbody><tr><td rowspan="2"><strong>Counted automatically</strong></td><td><strong>Default</strong></td><td>Matches the main product quantity.</td></tr><tr><td><strong>One time charge</strong></td><td>Always 1, whatever the main quantity.</td></tr><tr><td rowspan="2"><strong>Set by you</strong></td><td><strong>Fixed quantity</strong></td><td>A fixed number you set.</td></tr><tr><td><strong>Dynamic quantity</strong></td><td>Quantity you set × main product quantity.</td></tr><tr><td rowspan="4"><strong>Set by the customer</strong></td><td><strong>Fixed quantity (by customer)</strong></td><td>Customer enters a quantity; that’s the number of add-ons.</td></tr><tr><td><strong>Dynamic quantity (by customer)</strong></td><td>Customer’s quantity × main product quantity.</td></tr><tr><td><strong>Mixed quantity</strong></td><td>A quantity box per option value. Multi-select options only.</td></tr><tr><td><strong>Per character</strong></td><td>Charged by how many characters the customer typed. <a href="../../option-types/input-types/text.md">Text</a> and <a href="../../option-types/input-types/textarea.md">Textarea</a> only.</td></tr></tbody></table>
 
 Each mode is explained with a worked example in [Advanced add-on modes](../../add-on-pricing/advanced-add-on-modes.md).
 
-## Set quantity
+## Quantity
 
 Sets the number used by two of the modes above.
 
-<table><thead><tr><th width="180">Tab</th><th>Advanced Settings</th></tr></thead><tbody><tr><td>Default</td><td>Empty</td></tr><tr><td>Available on</td><td>Appears only when <strong>Advanced settings</strong> is <strong>Fixed quantity</strong> or <strong>Dynamic quantity</strong></td></tr></tbody></table>
+<table><thead><tr><th width="180">Tab</th><th>Basic, in the <strong>Add-on</strong> card</th></tr></thead><tbody><tr><td>Default</td><td>Empty</td></tr><tr><td>Available on</td><td>Appears only when <strong>Add-on quantity</strong> is <strong>Fixed quantity</strong> or <strong>Dynamic quantity</strong> — the two <strong>Set by you</strong> modes</td></tr></tbody></table>
 
 * With **Fixed quantity**, this is the exact number of add-ons added, regardless of the main product's quantity.
 * With **Dynamic quantity**, this is multiplied by the main product's quantity.

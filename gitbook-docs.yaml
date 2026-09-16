@@ -14,4 +14,4 @@ site:
       title: Landing Page
       path: landing-page
       content:
-        directory: ./landing-page
+        directory: null

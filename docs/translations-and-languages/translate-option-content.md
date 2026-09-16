@@ -24,18 +24,24 @@ Translation is done per option set, on its own **Translations** tab beside **Bas
 ### Open the option set and select the **Translations** tab
 
 The **Languages** screen lists every language your store sells in.
+
+<figure><img src="../.gitbook/assets/tran 1.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 ### Read the status of each language
 
 Each row shows a status: **Default** for your source language, **Translated** when nothing is left, or **Not translated**. A partly finished language shows how many fields are left, such as `4 fields left`.
+
+<figure><img src="../.gitbook/assets/tran 5.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 ### Select a language to translate
 
 The editor opens on **Translating** . Each row shows the **Source text** beside the field you fill in, so you are never translating blind.
+
+<figure><img src="../.gitbook/assets/tran 6.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -44,12 +50,16 @@ The editor opens on **Translating** . Each row shows the **Source text** beside 
 Fields are grouped under **Option elements** and **Section titles**, and labelled by position — `Option 1`, `Section 2`, `Tab 3`, `Condition 1`.
 
 Use **Search fields** to jump to one, or set **Translation status** to **Untranslated fields** to see only what is left.
+
+<figure><img src="../.gitbook/assets/tran 7.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 ### Check it with **Preview**
 
 **Preview** is available from the languages list and from inside the editor.
+
+<figure><img src="../.gitbook/assets/tran 8.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -64,10 +74,6 @@ The status on the list updates as you finish each language.
 Switch language on your storefront and work through the product page in each one.
 {% endstep %}
 {% endstepper %}
-
-<figure><img src="../.gitbook/assets/tran 1.png" alt="The Translations tab listing every storefront language with its translation status"><figcaption><p>The Languages list tells you which languages are finished and how much is left on the rest.</p></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/tran 2.png" alt="The per-language editor with the source text beside each field to translate"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Fields you leave empty fall back to the source text, so a partly translated language still works on your storefront.

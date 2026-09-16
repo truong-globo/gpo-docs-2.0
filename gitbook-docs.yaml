@@ -13,5 +13,6 @@ site:
       key: space-2
       title: Docs
       path: docs
+      draft: true
       content:
         directory: null

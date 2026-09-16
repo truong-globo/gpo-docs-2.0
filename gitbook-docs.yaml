@@ -13,6 +13,5 @@ site:
       key: space-2
       title: Untitled
       path: untitled
-      draft: true
       content:
         directory: ./untitled

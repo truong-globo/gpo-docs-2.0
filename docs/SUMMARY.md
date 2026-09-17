@@ -159,6 +159,7 @@
 * [Order notes update](automations/update-order-notes.md)
 * [Order tags update](automations/update-order-tags.md)
 * [Google Drive sync](automations/google-drive-sync/README.md)
+  * [What it looks like in Drive](automations/google-drive-sync/folder-structure.md)
   * [Google Drive sync history](automations/google-drive-sync/google-drive-sync-history.md)
 * [Liquid variables reference](automations/liquid-variables-reference.md)
 

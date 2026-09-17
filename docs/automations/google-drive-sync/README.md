@@ -13,6 +13,8 @@ Files a customer uploads are stored with the order, but they stay inside the app
 
 It copies every file attached through a [File upload](../../option-types/input-types/file-upload.md) option, and optionally the [Personalizer](../../product-personalizer/personalizer.md) design image. Only line items created by the app are read, so ordinary products in the same order are skipped.
 
+Files are filed into a folder per order and a folder per product. See [What it looks like in Drive](folder-structure.md).
+
 <figure><img src="../../.gitbook/assets/ggdrive.png" alt="The Google Drive sync page with its connection, destination, and file name sections"><figcaption><p>The whole automation is configured on one page.</p></figcaption></figure>
 
 ## Before you start
@@ -72,7 +74,7 @@ Select a token chip to insert it, rather than typing it.
 
 A token that does not exist is removed rather than printed, so a typo leaves a gap instead of `{prodct_title}`. Characters Drive cannot use — `/` `\` `:` `*` `?` `"` `<` `>` `|` — become spaces, and names longer than 100 characters are shortened.
 
-The page previews the folder tree as you type, using a sample order, so you can check the structure before saving.
+The page previews the folder tree as you type, using a sample order, so you can check the structure before saving. For what the result actually looks like in Drive, see [What it looks like in Drive](folder-structure.md).
 
 <figure><img src="../../.gitbook/assets/drive 4.png" alt="The destination settings with the folder tree preview underneath"><figcaption><p>The preview shows the folders your current names would produce.</p></figcaption></figure>
 

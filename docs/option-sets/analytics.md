@@ -20,9 +20,13 @@ The last one is especially useful for optimizing your options. It can help you d
 
 Go to **Option Sets**, find the option set you want to review, and select **View Analytics** from its row actions. Use the back button to return to the list.
 
+<figure><img src="../.gitbook/assets/any1.png" alt=""><figcaption></figcaption></figure>
+
 ## Choosing a period
 
 The date range selector sits at the top and applies to everything on the page.
+
+<figure><img src="../.gitbook/assets/any2.png" alt=""><figcaption></figcaption></figure>
 
 <table><thead><tr><th width="220">Range</th><th width="220">Range</th><th>Range</th></tr></thead><tbody><tr><td>Today</td><td>Last 60 days</td><td>Week to date</td></tr><tr><td>Yesterday</td><td>Last 90 days</td><td>Month to date</td></tr><tr><td>Last 7 days</td><td>Last week</td><td>Custom range</td></tr><tr><td>Last 30 days</td><td>Last month</td><td></td></tr></tbody></table>
 
@@ -32,9 +36,13 @@ The app also loads the equivalent previous period so you can see how your result
 
 ## The summary figures
 
+<figure><img src="../.gitbook/assets/any3.png" alt=""><figcaption></figcaption></figure>
+
 <table><thead><tr><th width="240">Figure</th><th>What it counts</th></tr></thead><tbody><tr><td><strong>Total revenue</strong></td><td>All revenue from orders containing this option set — the products themselves plus their add-ons.</td></tr><tr><td><strong>Revenue from add-ons</strong></td><td>Just the add-on portion. Compare it with total revenue to see what your options are worth on their own.</td></tr><tr><td><strong>Total products</strong></td><td>How many products were sold through this option set.</td></tr><tr><td><strong>Total orders</strong></td><td>How many orders included it.</td></tr><tr><td><strong>Average order value</strong></td><td>Average value of those orders.</td></tr></tbody></table>
 
 ## The charts
+
+<figure><img src="../.gitbook/assets/any4.png" alt=""><figcaption></figcaption></figure>
 
 <table><thead><tr><th width="270">Chart</th><th>Shows</th></tr></thead><tbody><tr><td><strong>Total sales</strong></td><td>Sales over time across the period, so you can see trend and spikes rather than one total.</td></tr><tr><td><strong>Most valued options</strong></td><td>Your option values are ranked by what they earned, with a purchase count for each. This is the list that tells you which choices matter.</td></tr><tr><td><strong>Total products quantity</strong></td><td>Quantities split into <strong>Main Products</strong> and <strong>Add-on Products</strong>.</td></tr><tr><td><strong>Orders revenue distribution</strong></td><td>Revenue split between orders <strong>With Add-ons</strong> and <strong>Without Add-ons</strong> — the share of business where customers pay for an option.</td></tr><tr><td><strong>Average order value</strong></td><td>Average order value over time, so you can see whether a pricing change moved it.</td></tr></tbody></table>
 

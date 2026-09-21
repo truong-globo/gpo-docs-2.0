@@ -77,6 +77,29 @@ Open each imported option set and check its options, **Name** fields, add-on con
 {% endstep %}
 {% endstepper %}
 
+## Building the file yourself
+
+If you are not exporting from another app, start from the sample file. It contains one working example of each of the main option types, so you can see the exact column layout rather than guessing it.
+
+{% file src="../.gitbook/assets/globo-sample-options.csv" %}
+A sample option set, with one example of each of the main option types.
+{% endfile %}
+
+### How the columns work
+
+<table><thead><tr><th width="200">Column</th><th>Holds</th></tr></thead><tbody><tr><td><code>option_id</code></td><td>Identifies the option. Repeat it on extra rows to add more values to the same option</td></tr><tr><td><code>option_type</code></td><td><code>text</code>, <code>select</code>, <code>checkbox</code>, <code>color-swatches</code>, and so on</td></tr><tr><td><code>option_label</code>, <code>option_name</code></td><td>What the customer reads, and what appears on the order. See <a href="../option-types/shared-settings/labels-and-visibility.md">Label and Name</a></td></tr><tr><td><code>required</code>, <code>min</code>, <code>max</code></td><td><code>Yes</code> or <code>No</code>, and the limits for that option type</td></tr><tr><td><code>placeholder</code>, <code>helptext</code></td><td>The hint inside the field, and the text beside it</td></tr><tr><td><code>option_value</code></td><td>One choice. Selection types need one row per choice</td></tr><tr><td><code>addon</code></td><td>The add-on price for that row</td></tr><tr><td><code>swatch_value</code></td><td>A hex color such as <code>#FF0000</code> for color swatches, or an image URL for image swatches</td></tr><tr><td><code>paragraph</code></td><td>The content of a Paragraph element</td></tr><tr><td><code>products</code></td><td>The product the option set applies to</td></tr></tbody></table>
+
+The pattern to copy is the one used by every selection type in the sample: put the option's own columns on its **first** row, then add a row per extra value that fills in only `option_id` and `option_value`.
+
+```
+select-1,select,Select,Select,No,,,Please select,,select 1,,,,
+select-1,,,,,,,,,select 2,,,,
+```
+
+{% hint style="info" %}
+Export one option set you have already built and open that file too. It shows your own products, prices, and swatches in the same format, which is usually quicker to adapt than the sample.
+{% endhint %}
+
 ## Migrating from another app
 
 The import process is the same as above, with two additional recommendations:

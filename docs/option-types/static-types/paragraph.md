@@ -11,6 +11,35 @@ A block of formatted text, written in a rich-text editor, so you can use bold, i
 
 Use it for anything the customer needs to read before deciding, such as a returns condition, a lead-time note, or an explanation of what personalization involves.
 
+## How to add Image to Pop-up Modal and Paragraph
+
+#### Steps to Manage:
+
+1. **Go to Shopify Dashboard**\
+   Navigate to: `Content → Files → Upload files`
+2. **Upload Your Image**\
+   Upload the image file you want to display in your popup or paragraph.
+3. **Copy the Image URL**\
+   After uploading, copy the image URL provided by Shopify.
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+4. **Preview the Image**
+
+* Open a new browser tab
+* Paste the copied URL
+* Right-click on the image
+* Select **“Copy image”** (or copy image address)
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+5. **Go to Globo Product Options App**
+
+* Open the **Popup Modal** or **Paragraph** element
+* Paste the image tag or URL inside the **content field**
+
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
 ## What customers see
 
 Your formatted text, in the flow of the form.

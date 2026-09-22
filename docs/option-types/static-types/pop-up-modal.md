@@ -11,6 +11,35 @@ A link on the product page that opens a dialog with your content. The informatio
 
 Use it for care instructions, personalization policies, return terms, delivery details, or anything important that not every customer needs to read.
 
+## How to add Image to Pop-up Modal and Paragraph
+
+#### Steps to Manage:
+
+1. **Go to Shopify Dashboard**\
+   Navigate to: `Content → Files → Upload files`
+2. **Upload Your Image**\
+   Upload the image file you want to display in your popup or paragraph.
+3. **Copy the Image URL**\
+   After uploading, copy the image URL provided by Shopify.
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+4. **Preview the Image**
+
+* Open a new browser tab
+* Paste the copied URL
+* Right-click on the image
+* Select **“Copy image”** (or copy image address)
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+5. **Go to Globo Product Options App**
+
+* Open the **Popup Modal** or **Paragraph** element
+* Paste the image tag or URL inside the **content field**
+
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
 ## What customers see
 
 A link with your title. Selecting it opens a dialog with your content, at the width you set.

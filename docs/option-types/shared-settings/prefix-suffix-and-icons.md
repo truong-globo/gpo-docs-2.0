@@ -57,9 +57,7 @@ Icons display small, so upload the image close to the size it will be used at. A
 That also means deleting one affects every option set using it. The app warns you, but it cannot tell you where the image is in use, so check before deleting.
 {% endhint %}
 
-<!-- SCREENSHOT: icon-picker-uploads | App admin → builder → một option → Prefix icon | Popup chọn icon, tab Your images, có ô Upload image và vài ảnh đã upload | Khoanh tab Your images và ô Upload image -->
-
-<figure><img src="../../.gitbook/assets/placeholder.png" alt="The icon picker on the Your images tab, with the upload tile and previously uploaded images"><figcaption><p>Images you upload stay available to every option set.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/upload your image.png" alt="The icon picker on the Your images tab, with the upload tile and previously uploaded images"><figcaption><p>Images you upload stay available to every option set.</p></figcaption></figure>
 
 ## Notes
 

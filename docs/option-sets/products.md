@@ -5,11 +5,9 @@ icon: bag-shopping
 
 # Products
 
-**Products** in the app menu lists your Shopify products and, beside each one, the option set your storefront actually uses for it. It answers the question the option set list cannot: *this product — what do customers see on it, and why?*
+**Products** in the app menu lists your Shopify products and, beside each one, the option set your storefront actually uses for it. It answers the question the option set list cannot: _this product — what do customers see on it, and why?_
 
-<!-- SCREENSHOT: products-list | App admin → Products | Bảng sản phẩm với cột Applied / Also matches, có 1 dòng badge cảnh báo | Khoanh cột Applied -->
-
-<figure><img src="../.gitbook/assets/placeholder.png" alt="The Products list with the option set applied to each product"><figcaption><p>One row per product, with the option set your storefront uses for it.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/prod 1.png" alt="The Products list with the option set applied to each product"><figcaption><p>One row per product, with the option set your storefront uses for it.</p></figcaption></figure>
 
 ## Only one option set runs
 
@@ -45,8 +43,8 @@ Selecting a product opens everything the app knows about it.
 
 **Option sets that match this product** lists them in the order your store checks them, with the applied one first. Each row says whether it is applied, not applied, or cannot run, and adds a note where a rule narrows it further:
 
-* *Shows only to customers who match its customer rule*
-* *Shows only in the countries its country rule allows*
+* _Shows only to customers who match its customer rule_
+* _Shows only in the countries its country rule allows_
 
 Those two are worth reading carefully. An option set can be **Applied** here and still show nothing to a particular customer, because customer and country rules are evaluated per visitor rather than per product. See [Assign to customers](assign-to-customers.md) and [Assign to countries](assign-to-countries.md).
 
@@ -54,9 +52,7 @@ Those two are worth reading carefully. An option set can be **Applied** here and
 
 A collection the product belongs to but which is not published to Online Store is marked, because rules skip it.
 
-<!-- SCREENSHOT: products-detail | App admin → Products → 1 sản phẩm | Danh sách option set khớp với badge Applied/Can't run, và khối Product details | Khoanh danh sách option set -->
-
-<figure><img src="../.gitbook/assets/placeholder.png" alt="A product page listing the option sets that match it and the fields its rules read"><figcaption><p>The option sets that match, in the order your store checks them.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/prdu 2.png" alt="A product page listing the option sets that match it and the fields its rules read"><figcaption><p>The option sets that match, in the order your store checks them.</p></figcaption></figure>
 
 **Preview in store** opens the product with its options, which works even for a draft product that is not on your storefront yet. **View in admin** opens it in Shopify.
 

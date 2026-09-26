@@ -39,7 +39,7 @@ If the option set contains [Dimension](../option-types/input-types/dimension.md)
 {% step %}
 ### Review the add-on modes
 
-Any value using **Add price** is not charged in POS. Change those values to **Use existing product** or **Automatically generate product**. See [Add-on pricing](../add-on-pricing/add-on-pricing.md).
+Any value using **Fixed amount** is not charged in POS. Change those values to **Existing product** or **New product**. See [Add-on pricing](../add-on-pricing/add-on-pricing.md).
 {% endstep %}
 
 {% step %}

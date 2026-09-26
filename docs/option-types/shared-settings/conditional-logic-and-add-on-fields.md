@@ -51,9 +51,9 @@ Where the price is set depends on the option type. An input option has one answe
 
 Selecting the field opens a dialog with three tabs, which are three different ways to charge:
 
-<table><thead><tr><th width="290">Tab</th><th>What it does</th><th>Stock tracked?</th></tr></thead><tbody><tr><td><strong>Use existing product</strong></td><td>Links a product and variant you already sell. The price comes from that variant.</td><td>Yes</td></tr><tr><td><strong>Automatically generate product</strong></td><td>The app creates a product at the price you type.</td><td>Yes</td></tr><tr><td><strong>Add price</strong></td><td>Adds money to the order with no product behind it.</td><td>No</td></tr></tbody></table>
+<table><thead><tr><th width="290">Tab</th><th>What it does</th><th>Stock tracked?</th></tr></thead><tbody><tr><td><strong>Existing product</strong></td><td>Links a product and variant you already sell. The price comes from that variant.</td><td>Yes</td></tr><tr><td><strong>New product</strong></td><td>The app creates a product at the price you type.</td><td>Yes</td></tr><tr><td><strong>Fixed amount</strong></td><td>Adds money to the order with no product behind it.</td><td>No</td></tr></tbody></table>
 
-**Add price** is not supported on Shopify POS. If you sell in person, use one of the product-backed modes. See [POS limitations](../../point-of-sale/limitations.md).
+**Fixed amount** is not supported on Shopify POS. If you sell in person, use one of the product-backed modes. See [POS limitations](../../point-of-sale/limitations.md).
 
 Once a value is linked to a product, a **Product** column appears in the values table, with a link to open that product in Shopify admin.
 
@@ -73,6 +73,8 @@ The dropdown groups the eight modes by who decides the quantity.
 
 <table><thead><tr><th width="230">Group</th><th width="250">Mode</th><th>Behavior</th></tr></thead><tbody><tr><td rowspan="2"><strong>Counted automatically</strong></td><td><strong>Default</strong></td><td>Matches the main product quantity.</td></tr><tr><td><strong>One time charge</strong></td><td>Always 1, whatever the main quantity.</td></tr><tr><td rowspan="2"><strong>Set by you</strong></td><td><strong>Fixed quantity</strong></td><td>A fixed number you set.</td></tr><tr><td><strong>Dynamic quantity</strong></td><td>Quantity you set × main product quantity.</td></tr><tr><td rowspan="4"><strong>Set by the customer</strong></td><td><strong>Fixed quantity (by customer)</strong></td><td>Customer enters a quantity; that’s the number of add-ons.</td></tr><tr><td><strong>Dynamic quantity (by customer)</strong></td><td>Customer’s quantity × main product quantity.</td></tr><tr><td><strong>Mixed quantity</strong></td><td>A quantity box per option value. Multi-select options only.</td></tr><tr><td><strong>Per character</strong></td><td>Charged by how many characters the customer typed. <a href="../../option-types/input-types/text.md">Text</a> and <a href="../../option-types/input-types/textarea.md">Textarea</a> only.</td></tr></tbody></table>
 
+Three of them — **One time charge**, **Fixed quantity**, and **Fixed quantity (by customer)** — are unavailable when the option's price uses [Fixed amount](../../add-on-pricing/add-price-directly.md), and are greyed out in the dropdown.
+
 Each mode is explained with a worked example in [Advanced add-on modes](../../add-on-pricing/advanced-add-on-modes.md).
 
 ## Quantity
@@ -86,4 +88,4 @@ Sets the number used by two of the modes above.
 
 ## How the four settings interact
 
-<table><thead><tr><th width="330">Combination</th><th>Result</th></tr></thead><tbody><tr><td>A priced option hidden by a rule</td><td>Not shown, not charged. Hiding an option removes its charge.</td></tr><tr><td>A priced option with a <strong>Default value</strong></td><td>Charged the moment the page loads, before the customer chooses anything.</td></tr><tr><td>A multi-select option with prices</td><td>Every selected value is charged. Cap it with <a href="limits.md#min-and-max-selections">Max selections</a>.</td></tr><tr><td>A required option hidden by a rule</td><td>Not enforced while hidden.</td></tr><tr><td>A priced option on POS with <strong>Add price</strong></td><td>Not supported. Use a product-backed mode.</td></tr></tbody></table>
+<table><thead><tr><th width="330">Combination</th><th>Result</th></tr></thead><tbody><tr><td>A priced option hidden by a rule</td><td>Not shown, not charged. Hiding an option removes its charge.</td></tr><tr><td>A priced option with a <strong>Default value</strong></td><td>Charged the moment the page loads, before the customer chooses anything.</td></tr><tr><td>A multi-select option with prices</td><td>Every selected value is charged. Cap it with <a href="limits.md#min-and-max-selections">Max selections</a>.</td></tr><tr><td>A required option hidden by a rule</td><td>Not enforced while hidden.</td></tr><tr><td>A priced option on POS with <strong>Fixed amount</strong></td><td>Not supported. Use a product-backed mode.</td></tr></tbody></table>

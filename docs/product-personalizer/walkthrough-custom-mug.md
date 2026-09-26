@@ -88,11 +88,11 @@ See [Image layers](layer-settings/image-layers.md), [Crop area](layer-settings/c
 {% step %}
 ### Price the personalization
 
-Apply the charge to the name field, because every personalized mug has one. On its **Basic**, open **Price**, select **Automatically generate product**, and enter your fee. The printing is then included as a product in your reports.
+Apply the charge to the name field, because every personalized mug has one. On its **Basic**, open **Price**, select **New product**, and enter your fee. The printing is then included as a product in your reports.
 
 Set **Add-on quantity** to **Default**, because each mug is printed individually.
 
-See [Automatically generate a product](../add-on-pricing/auto-generate-a-product.md).
+See [New product](../add-on-pricing/auto-generate-a-product.md).
 {% endstep %}
 
 {% step %}

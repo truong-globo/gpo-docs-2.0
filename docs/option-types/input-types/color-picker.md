@@ -63,8 +63,8 @@ The price applies to the whole option, so it is a charge for selecting a custom 
 
 All three modes are available. Typically:
 
-* **Add price** for a flat custom color surcharge with no inventory to track.
-* **Automatically generate product** to track how many custom color orders you receive.
+* **Fixed amount** for a flat custom color surcharge with no inventory to track.
+* **New product** to track how many custom color orders you receive.
 
 See [Add-on pricing](../../add-on-pricing/add-on-pricing.md).
 
@@ -72,7 +72,7 @@ See [Add-on pricing](../../add-on-pricing/add-on-pricing.md).
 
 **Custom paint color with a surcharge**
 
-<table><thead><tr><th width="290">Setting</th><th>Value</th></tr></thead><tbody><tr><td>Label / Name</td><td><code>Custom paint color</code></td></tr><tr><td>Price</td><td><strong>Add price</strong> $15.00, mode <strong>One time charge</strong></td></tr><tr><td>Help text</td><td><code>We match to the nearest available paint. Allow 5 extra days.</code></td></tr><tr><td>Conditional logic</td><td>Show when <strong>Finish</strong> is <code>Custom color</code></td></tr></tbody></table>
+<table><thead><tr><th width="290">Setting</th><th>Value</th></tr></thead><tbody><tr><td>Label / Name</td><td><code>Custom paint color</code></td></tr><tr><td>Price</td><td><strong>New product</strong> $15.00, mode <strong>One time charge</strong> — a once-per-order fee cannot use Fixed amount</td></tr><tr><td>Help text</td><td><code>We match to the nearest available paint. Allow 5 extra days.</code></td></tr><tr><td>Conditional logic</td><td>Show when <strong>Finish</strong> is <code>Custom color</code></td></tr></tbody></table>
 
 This combines a swatch list of standard colors with a picker that is displayed only when the customer selects "custom".
 

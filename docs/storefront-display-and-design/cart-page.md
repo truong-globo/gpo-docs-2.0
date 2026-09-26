@@ -20,7 +20,7 @@ Prevents customers from changing the quantity of an add-on line, or removing it,
 
 **Keep this on.** Without it, a customer can remove the gift box while keeping the "gift wrapped" option on the main item, so you receive an order for something that was not paid for.
 
-It applies to product-backed add-ons, because those are the ones with their own cart line. An [Add price](../add-on-pricing/add-price-directly.md) charge has no separate line.
+It applies to product-backed add-ons, because those are the ones with their own cart line. An [Fixed amount](../add-on-pricing/add-price-directly.md) charge has no separate line.
 
 ## Show "Edit Options" button in cart
 

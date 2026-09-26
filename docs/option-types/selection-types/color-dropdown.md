@@ -59,7 +59,7 @@ Each value is set to a two-color split chip, so `Black and gold` displays both c
 
 **Colors with different prices**
 
-Standard colors are free, and metallic colors are priced using **Automatically generate product** so you can track their inventory.
+Standard colors are free, and metallic colors are priced using **New product** so you can track their inventory.
 
 ## Notes
 

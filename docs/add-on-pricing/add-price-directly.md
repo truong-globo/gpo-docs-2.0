@@ -5,9 +5,9 @@ description: >-
 icon: dollar-sign
 ---
 
-# Add price directly
+# Fixed amount
 
-The **Add price** mode increases the amount the customer pays. No Shopify product is created or linked.
+The **Fixed amount** mode increases the amount the customer pays. No Shopify product is created or linked.
 
 Use it for services with no inventory to track and nothing to ship separately, such as engraving, express production, or a design fee.
 
@@ -21,9 +21,9 @@ On an input type, that is **Price** under **Add-on Settings** on the **Basic** t
 {% endstep %}
 
 {% step %}
-### Choose the Add price tab
+### Choose the Fixed amount tab
 
-The dialog opens with three tabs. **Add price** is the third.
+The dialog opens with three tabs. **Fixed amount** is the third.
 
 A note confirms that this mode increases the price of the main product without creating an add-on product.
 {% endstep %}
@@ -43,7 +43,7 @@ The dialog closes and the price is applied to the option.
 {% step %}
 ### Set how it scales
 
-On **Advanced**, the **Add-on quantity** dropdown controls whether the charge follows the product quantity, is applied once, or uses a value the customer enters. See [Advanced add-on modes](advanced-add-on-modes.md).
+On **Advanced**, the **Add-on quantity** dropdown controls whether the charge follows the product quantity or uses a value the customer enters. Three of the modes cannot be used with Fixed amount — see [What it cannot do](add-price-directly.md#what-it-cannot-do) below. See also [Advanced add-on modes](advanced-add-on-modes.md).
 {% endstep %}
 
 {% step %}
@@ -53,7 +53,7 @@ Add the product to a cart and check the total. The charge is applied at checkout
 {% endstep %}
 {% endstepper %}
 
-<figure><img src="../.gitbook/assets/2026-09-04_13-50-27.png" alt="The Add price tab of the add-on dialog with a price entered"><figcaption><p>The Add price tab has a single price field and creates no product.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-09-04_13-50-27.png" alt="The Fixed amount tab of the add-on dialog with a price entered"><figcaption><p>The Fixed amount tab has a single price field and creates no product.</p></figcaption></figure>
 
 ## What the customer sees
 
@@ -67,27 +67,39 @@ See [Add-on price display settings](price-display-settings.md).
 
 ## What it cannot do
 
+{% hint style="danger" %}
+**Three quantity modes are unavailable with Fixed amount.** The app blocks the combination rather than letting it fail quietly, because a fixed amount cannot be multiplied or counted the way a product-backed add-on can:
+
+* **One time charge**
+* **Fixed quantity**
+* **Fixed quantity (by customer)**
+
+In the **Add-on quantity** dropdown those three are greyed out while Fixed amount is in use, with the note *Not available with Fixed amount.* Coming the other way — picking **Fixed amount** while one of them is already set — the dialog says *Fixed amount doesn't work with …* and will not let you select it.
+
+To charge a flat fee once per order, use [New product](auto-generate-a-product.md) with **One time charge** instead.
+{% endhint %}
+
 {% hint style="warning" %}
 **No Shopify POS support.** Charges added this way do not work in the Shopify POS app. If an option set is published to the POS channel, use one of the product-backed modes instead. See [POS limitations](../point-of-sale/limitations.md).
 
 **No inventory, and no out-of-stock handling.** There is no product to track, so the [Out of stock options](../option-types/shared-settings/out-of-stock-options.md) setting has no effect.
 {% endhint %}
 
-This mode also has no SKU, no weight, and no separate line in your Shopify product reports. If you need any of these, use [Automatically generate a product](auto-generate-a-product.md) instead. It takes the same amount of setup.
+This mode also has no SKU, no weight, and no separate line in your Shopify product reports. If you need any of these, use [New product](auto-generate-a-product.md) instead. It takes the same amount of setup.
 
-## When to use Add price
+## When to use Fixed amount
 
-<table><thead><tr><th width="330">Add-on</th><th>Why Add price fits</th></tr></thead><tbody><tr><td>Engraving labor</td><td>Nothing physical is consumed</td></tr><tr><td>Express production</td><td>A scheduling promise, not an item</td></tr><tr><td>Artwork setup or proofing fee</td><td>A service</td></tr><tr><td>A custom-color surcharge</td><td>You are charging for effort, not for a product</td></tr><tr><td>A small handling fee</td><td>No stock, no shipping weight</td></tr></tbody></table>
+<table><thead><tr><th width="330">Add-on</th><th>Why Fixed amount fits</th></tr></thead><tbody><tr><td>Engraving labor</td><td>Nothing physical is consumed</td></tr><tr><td>Express production</td><td>A scheduling promise, not an item</td></tr><tr><td>Artwork setup or proofing fee</td><td>A service</td></tr><tr><td>A custom-color surcharge</td><td>You are charging for effort, not for a product</td></tr><tr><td>A small handling fee</td><td>No stock, no shipping weight</td></tr></tbody></table>
 
 ## When to use something else
 
-<table><thead><tr><th width="330">Add-on</th><th>Use instead</th></tr></thead><tbody><tr><td>Gift wrap, boxes, ribbon — anything you can run out of</td><td><a href="auto-generate-a-product.md">Automatically generate a product</a></td></tr><tr><td>Something you already sell</td><td><a href="use-an-existing-product.md">Use an existing product</a></td></tr><tr><td>Anything you also sell in person</td><td>Either product-backed mode</td></tr><tr><td>Anything that changes the shipping weight</td><td>Either product-backed mode</td></tr><tr><td>Anything you want to see in Shopify product reports</td><td>Either product-backed mode</td></tr></tbody></table>
+<table><thead><tr><th width="330">Add-on</th><th>Use instead</th></tr></thead><tbody><tr><td>Gift wrap, boxes, ribbon — anything you can run out of</td><td><a href="auto-generate-a-product.md">New product</a></td></tr><tr><td>Something you already sell</td><td><a href="use-an-existing-product.md">Existing product</a></td></tr><tr><td>Anything you also sell in person</td><td>Either product-backed mode</td></tr><tr><td>Anything that changes the shipping weight</td><td>Either product-backed mode</td></tr><tr><td>Anything you want to see in Shopify product reports</td><td>Either product-backed mode</td></tr></tbody></table>
 
 ## Examples
 
 **A flat engraving fee**
 
-<table><thead><tr><th width="290">Setting</th><th>Value</th></tr></thead><tbody><tr><td>Option</td><td><code>Engraving text</code>, a Text option</td></tr><tr><td>Price</td><td><strong>Add price</strong> $5.00</td></tr><tr><td>Add-on quantity</td><td><strong>Default</strong> — one charge per bracelet</td></tr></tbody></table>
+<table><thead><tr><th width="290">Setting</th><th>Value</th></tr></thead><tbody><tr><td>Option</td><td><code>Engraving text</code>, a Text option</td></tr><tr><td>Price</td><td><strong>Fixed amount</strong> $5.00</td></tr><tr><td>Add-on quantity</td><td><strong>Default</strong> — one charge per bracelet</td></tr></tbody></table>
 
 **Engraving by the character**
 
@@ -95,11 +107,11 @@ The same option with **Price** $0.50 and **Add-on quantity** set to **Per charac
 
 **Express production, once per order**
 
-A Switch labeled `Express production`, **Add price** $10.00, and **Add-on quantity** set to **One time charge**, so a customer buying three items is charged once.
+A Switch labeled `Express production`, **New product** $10.00, and **Add-on quantity** set to **One time charge**, so a customer buying three items is charged once. A flat fee charged once needs a product-backed mode — Fixed amount cannot do it.
 
 **A tiered service charge**
 
-A Radio button with `Standard` free, `Priority` at $8.00, `Same day` at $20.00, all three using **Add price**.
+A Radio button with `Standard` free, `Priority` at $8.00, `Same day` at $20.00, all three using **Fixed amount**.
 
 ## Notes
 

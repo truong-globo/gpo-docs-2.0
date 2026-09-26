@@ -81,7 +81,7 @@ You can also reverse this. For example, display a "rush order" switch only after
 
 **Colors, mostly free**
 
-An [Image swatch](../option-types/selection-types/image-swatch.md) with eight values. Five are free, and three use **Automatically generate product** so each premium finish has its own inventory.
+An [Image swatch](../option-types/selection-types/image-swatch.md) with eight values. Five are free, and three use **New product** so each premium finish has its own inventory.
 
 **Engraving priced by length**
 

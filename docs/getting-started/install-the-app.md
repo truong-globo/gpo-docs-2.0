@@ -89,5 +89,5 @@ In both cases, the app shows you what access it needs, and you approve it in Sho
 ## Notes
 
 * Installing the app does not add, remove, or edit any of your theme files.
-* Installing the app does not create any products. Products are only created if you later choose the **Automatically generate product** add-on mode — see [Automatically generate a product](../add-on-pricing/auto-generate-a-product.md).
+* Installing the app does not create any products. Products are only created if you later choose the **New product** add-on mode — see [New product](../add-on-pricing/auto-generate-a-product.md).
 * Your chosen plan determines which option types and features are available. Locked features remain visible in the app but are grayed out and show an upgrade prompt — see [Locked features](../plans-and-billing/compare-plans.md).

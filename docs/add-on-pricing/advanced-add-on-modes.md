@@ -27,6 +27,10 @@ The dropdown groups them under three headings, by who decides the quantity: **Co
 
 The two **Set by you** modes are the only ones that display the companion **Quantity** field.
 
+{% hint style="warning" %}
+**One time charge**, **Fixed quantity**, and **Fixed quantity (by customer)** cannot be used with a [Fixed amount](add-price-directly.md) price. The app greys them out while Fixed amount is in use. Use [New product](auto-generate-a-product.md) or [Existing product](use-an-existing-product.md) for those.
+{% endhint %}
+
 ## Worked calculations
 
 In all of the following examples, the add-on price is **$4.00,** and the customer is buying **3** of the main product.

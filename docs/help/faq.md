@@ -27,7 +27,7 @@ The app is built for Online Store 2.0 themes, which cover every theme in Shopify
 
 <summary>Can one option set apply to more than one product?</summary>
 
-Yes. Use **Automatic Rules** to match products by tag, type, vendor, price, or collection, or **Apply to All Products** for your whole catalog. Several option sets can also apply to the same product, and all of them are displayed. See [Assign to products](../option-sets/assign-to-products.md).
+Yes. Use **Automatic Rules** to match products by tag, type, vendor, price, or collection, or **Apply to All Products** for your whole catalog. Several option sets can match the same product, but only one runs: your store checks them newest first and uses the first one that can run. See [Products](../option-sets/products.md) to check which one a given product gets. See [Assign to products](../option-sets/assign-to-products.md).
 
 </details>
 
@@ -43,7 +43,7 @@ Yes. The product page displays a preview, and the actual amount is applied at ch
 
 <summary>What is the difference between the three add-on modes?</summary>
 
-**Add price** adds a charge with no product behind it. It is the simplest mode, but it has no inventory and is not supported in POS. **Use existing product** links to a product you already sell, so inventory and SKU are real. **Automatically generate a product** creates the product for you. Use the first mode for services, and one of the other two for anything physical. See [Add-on pricing](../add-on-pricing/add-on-pricing.md).
+**Fixed amount** adds a charge with no product behind it. It is the simplest mode, but it has no inventory and is not supported in POS. **Existing product** links to a product you already sell, so inventory and SKU are real. **New product** creates the product for you. Use the first mode for services, and one of the other two for anything physical. See [Add-on pricing](../add-on-pricing/add-on-pricing.md).
 
 </details>
 

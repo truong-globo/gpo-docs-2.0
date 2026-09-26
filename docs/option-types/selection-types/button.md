@@ -55,7 +55,7 @@ Twenty sizes, with **Enable custom layout** on, **Layout type** set to **Slider*
 
 **Quantity bands with prices**
 
-Values `1 pack`, `3 pack`, and `5 pack`, priced through **Use existing product** so each one maps to a real SKU.
+Values `1 pack`, `3 pack`, and `5 pack`, priced through **Existing product** so each one maps to a real SKU.
 
 **Several finishes at once**
 

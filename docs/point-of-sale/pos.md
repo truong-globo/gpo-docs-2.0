@@ -43,7 +43,7 @@ Two option types and one add-on mode do not work in POS. Read [POS limitations](
 {% endstepper %}
 
 {% hint style="warning" %}
-[Dimension](../option-types/input-types/dimension.md) and [Product links](../option-types/selection-types/product-links.md) do not work in POS, and the [Add price](../add-on-pricing/add-price-directly.md) add-on mode is not supported there. Use a product-backed add-on mode instead.
+[Dimension](../option-types/input-types/dimension.md) and [Product links](../option-types/selection-types/product-links.md) do not work in POS, and the [Fixed amount](../add-on-pricing/add-price-directly.md) add-on mode is not supported there. Use a product-backed add-on mode instead.
 {% endhint %}
 
 ## Video walkthrough

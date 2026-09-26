@@ -35,7 +35,7 @@ A toggle with your label above it and a short label beside the toggle. The switc
 
 The price applies to the whole option and is charged when the switch is on. All three modes are available:
 
-<table><thead><tr><th width="290">Mode</th><th>Use for</th></tr></thead><tbody><tr><td><strong>Use existing product</strong></td><td>Something you already sell and stock, such as a gift box.</td></tr><tr><td><strong>Automatically generate product</strong></td><td>Something physical you want to count and stock without building a product by hand.</td></tr><tr><td><strong>Add price</strong></td><td>A service with nothing to stock, such as express production. Not supported on POS.</td></tr></tbody></table>
+<table><thead><tr><th width="290">Mode</th><th>Use for</th></tr></thead><tbody><tr><td><strong>Existing product</strong></td><td>Something you already sell and stock, such as a gift box.</td></tr><tr><td><strong>New product</strong></td><td>Something physical you want to count and stock without building a product by hand.</td></tr><tr><td><strong>Fixed amount</strong></td><td>A service with nothing to stock, such as express production. Not supported on POS.</td></tr></tbody></table>
 
 The **Add-on quantity** mode is especially important on a Switch:
 
@@ -57,11 +57,11 @@ Use a Switch for a single option. Use a [Checkbox](../selection-types/checkbox.m
 
 **Gift wrap, charged once per order**
 
-<table><thead><tr><th width="290">Setting</th><th>Value</th></tr></thead><tbody><tr><td>Label / Name</td><td><code>Gift wrap</code></td></tr><tr><td>Switch label</td><td><code>Yes, wrap it</code></td></tr><tr><td>Selected by default</td><td>Off</td></tr><tr><td>Price</td><td><strong>Automatically generate product</strong> $3.00</td></tr><tr><td>Add-on quantity</td><td><strong>One time charge</strong></td></tr></tbody></table>
+<table><thead><tr><th width="290">Setting</th><th>Value</th></tr></thead><tbody><tr><td>Label / Name</td><td><code>Gift wrap</code></td></tr><tr><td>Switch label</td><td><code>Yes, wrap it</code></td></tr><tr><td>Selected by default</td><td>Off</td></tr><tr><td>Price</td><td><strong>New product</strong> $3.00</td></tr><tr><td>Add-on quantity</td><td><strong>One time charge</strong></td></tr></tbody></table>
 
 **Express production**
 
-Switch label `Yes, prioritize my order`, **Add price** $10.00, **One time charge**, help text `Made and dispatched within 24 hours.`
+Switch label `Yes, prioritize my order`, **New product** $10.00, **One time charge**, help text `Made and dispatched within 24 hours.` A once-per-order fee needs a product-backed mode; Fixed amount cannot be combined with **One time charge**.
 
 **A confirmation the customer must give**
 
@@ -74,7 +74,7 @@ Label `Premium gift box`, **Selected by default** on, a price attached, and help
 ## Notes
 
 * Available on all plans.
-* Works in Shopify POS, provided the add-on is product-backed rather than **Add price**.
+* Works in Shopify POS, provided the add-on is product-backed rather than **Fixed amount**.
 * No Personalizer support.
 * When the switch is on, the **Switch label** text is stored in the order. Use a switch label that reads clearly on an order line. `Yes, wrap it` is clearer than `Yes`.
 * Conditional logic on a Switch offers two operators: **is enabled** and **is disabled**. See [Operators reference](../../conditional-logic/operators-reference.md).

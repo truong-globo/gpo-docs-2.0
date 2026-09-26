@@ -55,7 +55,7 @@ If customers need to compare pictures side by side, use [Image swatch](image-swa
 
 **Fabric swatches with different prices**
 
-Standard fabrics are free, and premium ones are priced through **Automatically generate product** so each has its own inventory.
+Standard fabrics are free, and premium ones are priced through **New product** so each has its own inventory.
 
 **Frame styles**
 

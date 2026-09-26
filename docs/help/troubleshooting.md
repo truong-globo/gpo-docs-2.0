@@ -54,7 +54,7 @@ The app embed is not enabled on the new theme. The app embed is per theme, inclu
 
 <summary>Options show on the storefront but not in POS, or the reverse</summary>
 
-Check the option set's **Sales channels**. It has to be published to the channel you expect it on. Then confirm that the option types you used are supported in POS. [Dimension](../option-types/input-types/dimension.md) and [Product links](../option-types/selection-types/product-links.md) are not supported, and **Add price** add-ons are not charged there. See [POS limitations](../point-of-sale/limitations.md).
+Check the option set's **Sales channels**. It has to be published to the channel you expect it on. Then confirm that the option types you used are supported in POS. [Dimension](../option-types/input-types/dimension.md) and [Product links](../option-types/selection-types/product-links.md) are not supported, and **Fixed amount** add-ons are not charged there. See [POS limitations](../point-of-sale/limitations.md).
 
 </details>
 
@@ -98,7 +98,7 @@ There are three causes. The values use **Add Price,** which has no product and t
 
 <summary>Generated add-on products appear in my collections and search</summary>
 
-Exclude the tag `globo-product-options` from those collections. Do not unpublish the products from the Online Store, because an unpublished product cannot be added to the cart. See [Automatically generate a product](../add-on-pricing/auto-generate-a-product.md).
+Exclude the tag `globo-product-options` from those collections. Do not unpublish the products from the Online Store, because an unpublished product cannot be added to the cart. See [New product](../add-on-pricing/auto-generate-a-product.md).
 
 </details>
 

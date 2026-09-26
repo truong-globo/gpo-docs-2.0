@@ -5,9 +5,9 @@ description: >-
 icon: box
 ---
 
-# Use an existing product
+# Existing product
 
-The **Use existing product** mode links an option, or one of its values, to a product already in your Shopify catalog. The add-on then uses that product's price, inventory, SKU, and weight.
+The **Existing product** mode links an option, or one of its values, to a product already in your Shopify catalog. The add-on then uses that product's price, inventory, SKU, and weight.
 
 Use it when the add-on is a product you already sell, such as a gift box, a spare part, or a matching accessory.
 
@@ -27,7 +27,7 @@ Create the product in Shopify first, with the price and variants you want. The a
 {% endstep %}
 
 {% step %}
-### Stay on the Use existing product tab
+### Stay on the Existing product tab
 
 This is the first of the three tabs and the default.
 {% endstep %}
@@ -59,17 +59,17 @@ The **Add-on quantity** dropdown on the **Advanced** tab controls how the quanti
 {% endstep %}
 {% endstepper %}
 
-<figure><img src="../.gitbook/assets/2026-09-04_13-59-29.png" alt="The Use existing product tab with a product selected and its variants listed"><figcaption><p>The Add-on quantity dropdown decides how the add-on quantity is calculated.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-09-04_13-59-29.png" alt="The Existing product tab with a product selected and its variants listed"><figcaption><p>The Add-on quantity dropdown decides how the add-on quantity is calculated.</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/2026-09-04_14-00-52.png" alt="The product picker with a variant selected, showing its price and inventory"><figcaption><p>The add-on price and inventory come from the variant you select.</p></figcaption></figure>
 
 ## What you get
 
-<table><thead><tr><th width="290">Behavior</th><th>Detail</th></tr></thead><tbody><tr><td>The price follows the product</td><td>Change the variant's price in Shopify and the add-on price changes with it. You do not edit it in two places.</td></tr><tr><td>Stock is real</td><td>Selling the add-on draws down that variant's inventory, exactly as a normal sale does.</td></tr><tr><td>Out-of-stock handling works</td><td>The <a href="../option-types/shared-settings/out-of-stock-options.md">Out of stock options</a> setting can hide, blur, or strike through the value when the variant runs out.</td></tr><tr><td>Its own SKU, weight, and tax setting</td><td>Fulfillment and shipping calculations treat it as the real product it is.</td></tr><tr><td>Reported properly</td><td>It appears in your Shopify product reports as sales of that product.</td></tr><tr><td>Works in POS</td><td>Unlike <strong>Add price</strong>.</td></tr><tr><td>Its own cart line</td><td>Linked to the main item. You can merge them visually — see <a href="merge-as-bundle.md">Merge main product and add-ons</a>.</td></tr></tbody></table>
+<table><thead><tr><th width="290">Behavior</th><th>Detail</th></tr></thead><tbody><tr><td>The price follows the product</td><td>Change the variant's price in Shopify and the add-on price changes with it. You do not edit it in two places.</td></tr><tr><td>Stock is real</td><td>Selling the add-on draws down that variant's inventory, exactly as a normal sale does.</td></tr><tr><td>Out-of-stock handling works</td><td>The <a href="../option-types/shared-settings/out-of-stock-options.md">Out of stock options</a> setting can hide, blur, or strike through the value when the variant runs out.</td></tr><tr><td>Its own SKU, weight, and tax setting</td><td>Fulfillment and shipping calculations treat it as the real product it is.</td></tr><tr><td>Reported properly</td><td>It appears in your Shopify product reports as sales of that product.</td></tr><tr><td>Works in POS</td><td>Unlike <strong>Fixed amount</strong>.</td></tr><tr><td>Its own cart line</td><td>Linked to the main item. You can merge them visually — see <a href="merge-as-bundle.md">Merge main product and add-ons</a>.</td></tr></tbody></table>
 
 ## When to use this mode
 
-<table><thead><tr><th width="330">Use it when</th><th>Use something else when</th></tr></thead><tbody><tr><td>You already sell the item separately</td><td>You do not — use <a href="auto-generate-a-product.md">Automatically generate a product</a></td></tr><tr><td>You want one inventory figure for both routes</td><td>You want the add-on counted separately from direct sales</td></tr><tr><td>The price should stay in step with your catalog</td><td>The add-on price should differ from the shelf price</td></tr><tr><td>The add-on has a real weight and SKU</td><td>It is a service — use <a href="add-price-directly.md">Add price</a></td></tr></tbody></table>
+<table><thead><tr><th width="330">Use it when</th><th>Use something else when</th></tr></thead><tbody><tr><td>You already sell the item separately</td><td>You do not — use <a href="auto-generate-a-product.md">New product</a></td></tr><tr><td>You want one inventory figure for both routes</td><td>You want the add-on counted separately from direct sales</td></tr><tr><td>The price should stay in step with your catalog</td><td>The add-on price should differ from the shelf price</td></tr><tr><td>The add-on has a real weight and SKU</td><td>It is a service — use <a href="add-price-directly.md">Fixed amount</a></td></tr></tbody></table>
 
 {% hint style="info" %}
 A single inventory count is usually the best option when add-on and standalone gift boxes share the same stock. To track their inventory separately, generate a separate product instead.
@@ -79,7 +79,7 @@ A single inventory count is usually the best option when add-on and standalone g
 
 **A gift box you also sell**
 
-<table><thead><tr><th width="290">Setting</th><th>Value</th></tr></thead><tbody><tr><td>Option</td><td><code>Gift box</code>, a Switch</td></tr><tr><td>Price</td><td><strong>Use existing product</strong> → <em>Gift Box</em> → <em>Medium</em></td></tr><tr><td>Add-on quantity</td><td><strong>One time charge</strong> — one box per order</td></tr><tr><td>Out of stock options</td><td>Not applicable on a Switch — but the box's stock still applies</td></tr></tbody></table>
+<table><thead><tr><th width="290">Setting</th><th>Value</th></tr></thead><tbody><tr><td>Option</td><td><code>Gift box</code>, a Switch</td></tr><tr><td>Price</td><td><strong>Existing product</strong> → <em>Gift Box</em> → <em>Medium</em></td></tr><tr><td>Add-on quantity</td><td><strong>One time charge</strong> — one box per order</td></tr><tr><td>Out of stock options</td><td>Not applicable on a Switch — but the box's stock still applies</td></tr></tbody></table>
 
 **Pack sizes as separate SKUs**
 

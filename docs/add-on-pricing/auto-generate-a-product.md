@@ -5,7 +5,7 @@ description: >-
 icon: wand-magic-sparkles
 ---
 
-# Automatically generate a product
+# New product
 
 You enter a price, and the app creates a Shopify product for the add-on. The add-on then has inventory, a SKU, a weight, POS support, and its own line in your Shopify reports, without you building the product manually.
 
@@ -15,7 +15,7 @@ This is the recommended mode for most physical add-ons.
 
 {% stepper %}
 {% step %}
-### Open the price field and choose the Automatically generate product tab
+### Open the price field and choose the New product tab
 
 **Price** under **Add-on Settings** on an input type, or the **Price** cell on an option value's row for a selection type.
 {% endstep %}
@@ -43,7 +43,7 @@ The product is created in the background after you save, not while the dialog is
 {% endstep %}
 {% endstepper %}
 
-<figure><img src="../.gitbook/assets/2026-09-04_14-06-22.png" alt="The Automatically generate product tab showing read-only titles and a price field"><figcaption><p>The titles come from your option, so name the option well before generating.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-09-04_14-06-22.png" alt="The New product tab showing read-only titles and a price field"><figcaption><p>The titles come from your option, so name the option well before generating.</p></figcaption></figure>
 
 ## What the app creates
 
@@ -81,7 +81,7 @@ Do not **unpublish** these products from the Online Store. A product that is not
 
 ## When to use this mode
 
-<table><thead><tr><th width="330">Use it when</th><th>Use something else when</th></tr></thead><tbody><tr><td>The add-on is physical and you want to count it</td><td>It is a service with nothing to count — <a href="add-price-directly.md">Add price</a></td></tr><tr><td>You do not already sell it separately</td><td>You do — <a href="use-an-existing-product.md">Use an existing product</a></td></tr><tr><td>You sell in person through POS</td><td>Never <strong>Add price</strong> for POS</td></tr><tr><td>You want add-ons in your Shopify reporting</td><td></td></tr><tr><td>The add-on has weight that affects shipping</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="330">Use it when</th><th>Use something else when</th></tr></thead><tbody><tr><td>The add-on is physical and you want to count it</td><td>It is a service with nothing to count — <a href="add-price-directly.md">Fixed amount</a></td></tr><tr><td>You do not already sell it separately</td><td>You do — <a href="use-an-existing-product.md">Existing product</a></td></tr><tr><td>You sell in person through POS</td><td>Never <strong>Fixed amount</strong> for POS</td></tr><tr><td>You want add-ons in your Shopify reporting</td><td></td></tr><tr><td>The add-on has weight that affects shipping</td><td></td></tr></tbody></table>
 
 <details>
 
@@ -89,7 +89,7 @@ Do not **unpublish** these products from the Online Store. A product that is not
 
 **Gift wrap with real stock**
 
-<table><thead><tr><th width="290">Setting</th><th>Value</th></tr></thead><tbody><tr><td>Option</td><td><code>Gift wrap</code>, a Checkbox with one value</td></tr><tr><td>Price</td><td><strong>Automatically generate product</strong> $3.00</td></tr><tr><td>Add-on quantity</td><td><strong>One time charge</strong></td></tr><tr><td>After saving</td><td>Turn on inventory tracking, enter your box count, set the policy to stop selling at zero</td></tr><tr><td>Out of stock options</td><td><strong>Hide</strong></td></tr></tbody></table>
+<table><thead><tr><th width="290">Setting</th><th>Value</th></tr></thead><tbody><tr><td>Option</td><td><code>Gift wrap</code>, a Checkbox with one value</td></tr><tr><td>Price</td><td><strong>New product</strong> $3.00</td></tr><tr><td>Add-on quantity</td><td><strong>One time charge</strong></td></tr><tr><td>After saving</td><td>Turn on inventory tracking, enter your box count, set the policy to stop selling at zero</td></tr><tr><td>Out of stock options</td><td><strong>Hide</strong></td></tr></tbody></table>
 
 **Twelve premium colors, each with its own inventory**
 

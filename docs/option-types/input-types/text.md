@@ -49,7 +49,7 @@ Full detail: [Product Personalizer](../../product-personalizer/personalizer.md).
 
 **Engraving with a hard limit**
 
-<table><thead><tr><th width="270">Setting</th><th>Value</th></tr></thead><tbody><tr><td>Label / Name</td><td><code>Engraving text</code></td></tr><tr><td>Max character</td><td><code>15</code></td></tr><tr><td>Character counter</td><td><strong>Show</strong></td></tr><tr><td>Allowed value</td><td><strong>Letters &#x26; numbers</strong></td></tr><tr><td>Text transform</td><td><strong>Capitalized</strong></td></tr><tr><td>Price</td><td><strong>Add price</strong> $5.00, mode <strong>Default</strong></td></tr><tr><td>Help text</td><td><code>Up to 15 letters and numbers. Engraved items cannot be returned.</code></td></tr></tbody></table>
+<table><thead><tr><th width="270">Setting</th><th>Value</th></tr></thead><tbody><tr><td>Label / Name</td><td><code>Engraving text</code></td></tr><tr><td>Max character</td><td><code>15</code></td></tr><tr><td>Character counter</td><td><strong>Show</strong></td></tr><tr><td>Allowed value</td><td><strong>Letters &#x26; numbers</strong></td></tr><tr><td>Text transform</td><td><strong>Capitalized</strong></td></tr><tr><td>Price</td><td><strong>Fixed amount</strong> $5.00, mode <strong>Default</strong></td></tr><tr><td>Help text</td><td><code>Up to 15 letters and numbers. Engraved items cannot be returned.</code></td></tr></tbody></table>
 
 **Two initials for a monogram**
 

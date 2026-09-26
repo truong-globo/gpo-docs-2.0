@@ -72,7 +72,7 @@ Swatches at `140` wide and `40` high, matching the shape of the material.
 
 **Designs with different prices**
 
-Standard designs are free, and licensed artwork is priced through **Use existing product** so it maps to a real SKU.
+Standard designs are free, and licensed artwork is priced through **Existing product** so it maps to a real SKU.
 
 ## Notes
 

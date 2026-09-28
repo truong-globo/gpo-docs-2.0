@@ -49,9 +49,7 @@ Every address in the list gets its own copy, so each person receives the notific
 
 Use it to put the notification straight into the hands of whoever acts on it — your production inbox, the person who does engraving, a shared team address — instead of forwarding every order by hand.
 
-<!-- SCREENSHOT: automations-email-recipients | App admin → Automations → Email notification → tab Configure | Mục Recipients với vài email dạng tag và ô nhập | Khoanh mục Recipients -->
-
-<figure><img src="../.gitbook/assets/placeholder.png" alt="The Recipients field with several email addresses entered as tags"><figcaption><p>Each address in the list gets its own copy of the notification.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/email.png" alt="The Recipients field with several email addresses entered as tags"><figcaption><p>Each address in the list gets its own copy of the notification.</p></figcaption></figure>
 
 ## Choosing how it is sent
 

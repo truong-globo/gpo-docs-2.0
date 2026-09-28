@@ -7,9 +7,9 @@ icon: envelope
 
 # Email notification
 
-This workflow emails you when a customer orders a product with options, and lists what they selected.
+This workflow emails you — or anyone else you add — when a customer orders a product with options, and lists what they selected.
 
-For a personalization business, this is usually the first automation to set up, because it puts the production details in your inbox without anyone opening Shopify admin.
+For a personalization business, this is usually the first automation to set up, because it puts the production details in the right inbox without anyone opening Shopify admin.
 
 You can create one email notification workflow.
 
@@ -17,7 +17,7 @@ You can create one email notification workflow.
 
 The workflow editor has three tabs:
 
-<table><thead><tr><th width="230">Tab</th><th>What it holds</th></tr></thead><tbody><tr><td><strong>Preview</strong></td><td>The email as it will arrive, with the subject line above it</td></tr><tr><td><strong>Edit code</strong></td><td><strong>Email subject</strong> and <strong>Email body (HTML)</strong>, plus the Liquid variable reference</td></tr><tr><td><strong>Configure</strong></td><td>Which service sends the email, and what it is sent from</td></tr></tbody></table>
+<table><thead><tr><th width="230">Tab</th><th>What it holds</th></tr></thead><tbody><tr><td><strong>Preview</strong></td><td>The email as it will arrive, with the subject line above it</td></tr><tr><td><strong>Edit code</strong></td><td><strong>Email subject</strong> and <strong>Email body (HTML)</strong>, plus the Liquid variable reference</td></tr><tr><td><strong>Configure</strong></td><td>Who receives it, which service sends it, and what it is sent from</td></tr></tbody></table>
 
 <figure><img src="../.gitbook/assets/2026-09-07_11-36-29.png" alt="The email notification workflow with its Preview, Edit code, and Configure tabs"><figcaption><p>Preview what will arrive, edit the template, and choose how it is sent.</p></figcaption></figure>
 
@@ -34,6 +34,24 @@ New personalized order {{ order_name }} — {{ customer_name }}
 ```
 
 **Revert to default** restores the original template. It asks you to confirm first, because your own version is discarded.
+
+## Who receives it
+
+**Recipients** on the **Configure** tab decides where the notification goes. It works like Shopify's product tags: type an address and press **Enter** to turn it into a tag.
+
+<table><thead><tr><th width="230">Rule</th><th>Detail</th></tr></thead><tbody><tr><td>How many</td><td>Up to <strong>10</strong> addresses</td></tr><tr><td>Adding several at once</td><td>Paste a whole list — commas, semicolons, and spaces all separate addresses</td></tr><tr><td>Duplicates</td><td>Rejected, with <em>This email is already in the list</em></td></tr><tr><td>Invalid addresses</td><td>Rejected before they are added</td></tr><tr><td>Empty list</td><td>The workflow cannot be saved. There has to be at least one address</td></tr></tbody></table>
+
+Every address in the list gets its own copy, so each person receives the notification directly rather than seeing the others in a shared To field.
+
+{% hint style="info" %}
+**Workflows you created before this setting existed** send to the store owner's email, and open with that address already in the list. Nothing changes until you save, so an existing workflow keeps working exactly as it did.
+{% endhint %}
+
+Use it to put the notification straight into the hands of whoever acts on it — your production inbox, the person who does engraving, a shared team address — instead of forwarding every order by hand.
+
+<!-- SCREENSHOT: automations-email-recipients | App admin → Automations → Email notification → tab Configure | Mục Recipients với vài email dạng tag và ô nhập | Khoanh mục Recipients -->
+
+<figure><img src="../.gitbook/assets/placeholder.png" alt="The Recipients field with several email addresses entered as tags"><figcaption><p>Each address in the list gets its own copy of the notification.</p></figcaption></figure>
 
 ## Choosing how it is sent
 
@@ -59,7 +77,7 @@ Start with **Default**. It works without any configuration, and you can switch t
 
 ## Testing
 
-**Send test email** sends the current template to the address displayed. **Send test to another email** sends it to a different address, which is useful for checking that it reaches a colleague or is not marked as spam.
+**Send test email** sends the current template to **everyone on the Recipients list**, which is also the quickest way to confirm the list itself is right. **Send test to another email** sends a single copy somewhere else, which is useful for checking that it is not marked as spam.
 
 Send a test after every change to the template or the provider. This is the only way to confirm that an SMTP password or API key is correct.
 
@@ -67,7 +85,7 @@ Test sending is rate-limited, so wait a few seconds between attempts.
 
 ## Notes
 
-* You can create one email notification workflow per store.
+* You can create one email notification workflow per store, with up to 10 recipients on it.
 * It runs shortly after an order containing app options is created.
 * A workflow set to **Draft** does not send anything.
 * This workflow requires order data access, which you approve once when you first open **Automations**.

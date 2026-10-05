@@ -121,6 +121,12 @@
 * [Walkthrough: custom printed mug](product-personalizer/walkthrough-custom-mug.md)
 * [Troubleshooting personalizer](product-personalizer/troubleshooting.md)
 
+## Orders
+
+* [Overview](orders/orders.md)
+* [Order details](orders/order-details.md)
+* [Export orders and files](orders/export.md)
+
 ## Templates
 
 * [Overview](templates/templates.md)

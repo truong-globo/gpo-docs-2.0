@@ -13,7 +13,7 @@ Files a customer uploads are stored with the order, but they stay inside the app
 
 It copies every file attached through a [File upload](../../option-types/input-types/file-upload.md) option, and optionally the [Personalizer](../../product-personalizer/personalizer.md) design image. Only line items created by the app are read, so ordinary products in the same order are skipped.
 
-Files are filed into a folder per order and a folder per product. See [What it looks like in Drive](folder-structure.md).
+Files are filed into a folder per order and a folder per product. See [What it looks like in Drive](folder-structure.md). Each order's own page has an **Open in Drive** link straight to its folder — see [Order details](../../orders/order-details.md).
 
 <figure><img src="../../.gitbook/assets/ggdrive.png" alt="The Google Drive sync page with its connection, destination, and file name sections"><figcaption><p>The whole automation is configured on one page.</p></figcaption></figure>
 

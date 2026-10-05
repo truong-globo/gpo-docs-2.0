@@ -41,6 +41,25 @@ Some of these are sold under more than one name. If you run one of the names on 
 
 <table><thead><tr><th width="110">ID</th><th width="230">Theme</th><th>Also sold as</th></tr></thead><tbody><tr><td><code>2514</code></td><td><strong>Aesthetic</strong></td><td>Flirt</td></tr><tr><td><code>3422</code></td><td><strong>Allure</strong></td><td>Carrara, and Bijou</td></tr><tr><td><code>4041</code></td><td><strong>Athora</strong></td><td>Quantum</td></tr><tr><td><code>5665</code></td><td><strong>Cielo</strong></td><td>Miro</td></tr><tr><td><code>1651</code></td><td><strong>Local</strong></td><td>Thrive</td></tr><tr><td><code>3716</code></td><td><strong>Maximize</strong></td><td>Swift, Various, Vast, and Vigor</td></tr><tr><td><code>5359</code></td><td><strong>Node</strong></td><td>Fuse</td></tr><tr><td><code>3051</code></td><td><strong>Noom</strong></td><td>Boutique</td></tr><tr><td><code>1762</code></td><td><strong>Reformation</strong></td><td>Sunshine</td></tr><tr><td><code>3745</code></td><td><strong>Supreme</strong></td><td>Heatwave, Royce, Realm, and Rose</td></tr><tr><td><code>1609</code></td><td><strong>Xtra</strong></td><td>Vailt</td></tr></tbody></table>
 
+<details>
+
+<summary>All theme store IDs, in numeric order</summary>
+
+Handy when you are checking a batch of themes against what is already supported — compare the list rather than looking each one up by name.
+
+```
+    0–999  57, 141, 459, 567, 568, 606, 623, 677, 686, 714, 718, 732, 739, 801, 833, 838, 855, 857, 859, 868, 887, 902, 910, 939
+1000–1999  1114, 1356, 1363, 1368, 1399, 1431, 1434, 1499, 1500, 1567, 1609, 1611, 1615, 1621, 1651, 1657, 1667, 1762, 1826, 1839, 1841, 1864, 1878, 1891
+2000–2999  2048, 2077, 2138, 2221, 2240, 2328, 2412, 2481, 2514, 2515, 2566, 2576, 2684, 2698, 2699, 2738, 2779, 2801, 2821, 2881, 2896, 2967, 2989
+3000–3999  3027, 3038, 3039, 3051, 3094, 3247, 3422, 3425, 3486, 3605, 3620, 3621, 3622, 3623, 3624, 3625, 3626, 3627, 3628, 3716, 3745, 3754, 3773
+4000–4999  4032, 4041, 4276, 4961
+5000–5999  5077, 5231, 5359, 5560, 5665
+```
+
+103 themes.
+
+</details>
+
 If your theme is not listed, see [If your theme is not supported](match-your-theme-style.md#if-your-theme-is-not-supported) below.
 
 {% hint style="info" %}

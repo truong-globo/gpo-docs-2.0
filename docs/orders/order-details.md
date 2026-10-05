@@ -1,5 +1,7 @@
 ---
-description: One order's option summary, uploaded files, customer details, and your team's notes.
+description: >-
+  One order's option summary, uploaded files, customer details, and your team's
+  notes.
 icon: file-invoice
 ---
 
@@ -7,9 +9,7 @@ icon: file-invoice
 
 Selecting an order opens everything the app recorded about it — what the customer chose, what they uploaded, and what the options added to the total.
 
-<!-- SCREENSHOT: order-detail | App admin → Orders → 1 order | Option summary theo từng sản phẩm, khối Summary tiền, thông tin khách | Không khoanh -->
-
-<figure><img src="../.gitbook/assets/placeholder.png" alt="An order page showing the option summary for each product"><figcaption><p>Each product with the options chosen for it.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/order 2.png" alt="An order page showing the option summary for each product"><figcaption><p>Each product with the options chosen for it.</p></figcaption></figure>
 
 ## Option summary
 
@@ -27,7 +27,7 @@ Files the customer uploaded are listed under the product they belong to, each wi
 
 ### Opening them in Google Drive
 
-If you run [Google Drive sync](../automations/google-drive-sync/README.md), **Open in Drive** takes you to this order's folder instead of downloading anything.
+If you run [Google Drive sync](../automations/google-drive-sync/), **Open in Drive** takes you to this order's folder instead of downloading anything.
 
 <table><thead><tr><th width="290">What you see</th><th>Why</th></tr></thead><tbody><tr><td><strong>Connect Google Drive</strong></td><td>No account connected yet. Once connected, files from new orders are copied automatically, one folder per order</td></tr><tr><td>Files aren't in Google Drive</td><td>The order was placed while the sync was off. Only orders placed while it is running are copied</td></tr><tr><td>Files are still being copied</td><td>The copy is in progress. Try again in a few minutes</td></tr><tr><td>Files couldn't be copied</td><td>Something failed. <strong>View sync logs</strong> gives the reason. See <a href="../automations/google-drive-sync/google-drive-sync-history.md">Google Drive sync history</a></td></tr><tr><td><strong>Reconnect Google Drive</strong></td><td>The connection expired, so files can no longer be copied or opened</td></tr></tbody></table>
 

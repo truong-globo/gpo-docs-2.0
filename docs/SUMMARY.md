@@ -210,4 +210,6 @@
 
 * [How it works](reference/how-it-works.md)
 * [Permissions and data](reference/permissions-and-data.md)
-* [JavaScript API](reference/javascript-api.md)
+* [JavaScript API](reference/javascript-api/README.md)
+  * [Theme selectors](reference/javascript-api/theme-selectors.md)
+  * [Events](reference/javascript-api/events.md)

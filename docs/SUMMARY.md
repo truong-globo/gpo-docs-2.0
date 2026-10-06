@@ -210,3 +210,4 @@
 
 * [How it works](reference/how-it-works.md)
 * [Permissions and data](reference/permissions-and-data.md)
+* [JavaScript API](reference/javascript-api.md)

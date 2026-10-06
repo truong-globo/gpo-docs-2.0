@@ -26,9 +26,15 @@ Most themes have a cart drawer or a cart notification that expects a single item
 
 ## When to turn it off
 
-<table><thead><tr><th width="290">Turn it off when</th><th>Leave it on when</th></tr></thead><tbody><tr><td>Your theme's cart drawer handles the addition correctly, and you would rather customers kept browsing</td><td>Anything looks wrong in the drawer after adding a product with add-ons</td></tr><tr><td>You have tested it thoroughly with add-ons, on desktop and mobile</td><td>You are not sure. This is the safe setting</td></tr></tbody></table>
+<table><thead><tr><th width="290">Turn it off when</th><th>Leave it on when</th></tr></thead><tbody><tr><td>You use a cart drawer app such as UpCart. Its drawer cannot open if the customer is redirected away. See <a href="../integrations/upcart.md">UpCart</a></td><td>Anything looks wrong in the drawer after adding a product with add-ons</td></tr><tr><td>Your theme's cart drawer handles the addition correctly, and you would rather customers kept browsing</td><td>Anything looks wrong in the drawer after adding a product with add-ons</td></tr><tr><td>You have tested it thoroughly with add-ons, on desktop and mobile</td><td>You are not sure. This is the safe setting</td></tr></tbody></table>
 
 If you turn it off, test it. Add a product with two add-ons and check that the drawer displays every line at the correct price.
+
+## Cart drawer apps
+
+If a separate app provides your cart drawer rather than your theme, this setting has to be off. The customer is otherwise sent to the cart page before the drawer can open.
+
+The app recognizes the [UpCart](../integrations/upcart.md) drawer automatically and manages add-on lines inside it.
 
 ## Theme dependency
 

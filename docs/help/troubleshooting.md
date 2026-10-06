@@ -116,7 +116,7 @@ This is usually a validation failure rather than a broken button: a required opt
 
 <summary>Customers can add to cart without seeing the options</summary>
 
-Two things bypass the form: a quickview without **Show options on Quickview popups** enabled, and a sticky add-to-cart bar whose button does not go through the app. Both produce orders you cannot fulfill. If the setting is already correct, report it. See [Theme and third-party notes](../integrations/theme-and-third-party-notes.md).
+Two things bypass the form: a quickview whose product form the app cannot find on your theme, and a sticky add-to-cart bar whose button does not go through the app. Both produce orders you cannot fulfill, so report either of them. See [Theme and third-party notes](../integrations/theme-and-third-party-notes.md).
 
 </details>
 

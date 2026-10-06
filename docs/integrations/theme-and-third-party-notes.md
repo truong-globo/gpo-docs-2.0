@@ -17,6 +17,14 @@ Many themes and apps add a bar with a buy button that follows the customer down 
 
 The app supports the most common patterns. If a bar's button bypasses validation, report it, as this can create orders with missing information that you cannot fulfill.
 
+## Cart drawer apps
+
+An app that replaces your theme's cart drawer takes over where add-on lines are displayed after a customer adds to cart.
+
+The app recognizes the [UpCart](upcart.md) drawer automatically, with no setup in either app. It does require **Go to cart immediately after adding to cart** to be turned off, because that setting redirects the customer before the drawer can open.
+
+For any other cart drawer app, test that add-on lines appear in the drawer and that their quantity boxes and Remove buttons are hidden. If they are not, [contact support](../help/contact-support.md) with the app's name.
+
 ## Speed and script optimization apps
 
 Apps that defer or delay JavaScript can delay the option widget, so it appears late or, with an aggressive delay, not at all.

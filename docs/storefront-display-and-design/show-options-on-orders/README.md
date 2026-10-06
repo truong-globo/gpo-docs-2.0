@@ -1,4 +1,7 @@
 ---
+description: >-
+  Where option details appear on orders automatically, and the templates that
+  need a line of Liquid added.
 icon: file-lines
 ---
 

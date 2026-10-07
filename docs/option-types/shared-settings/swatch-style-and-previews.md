@@ -9,9 +9,11 @@ icon: palette
 
 These settings control how option values are displayed, and how much detail a customer can see before selecting one.
 
-**Watch it done — 1:28.** Adding **Font preview** and **Color preview** to an option set, so customers see the typeface and the shade before they choose.
+**Watch it done — 1:28.** Turning on **Font preview** and **Color preview** in an option set, so customers see the typeface and the shade inside the widget before they choose.
 
 {% embed url="https://www.youtube.com/watch?v=Mc2O3g5deHc" %}
+
+There is a second video for the same two settings used with the [Personalizer](../../product-personalizer/personalizer.md), where the result is drawn onto the product image instead of shown in the widget. It is on [Fonts](../../product-personalizer/layer-settings/fonts.md).
 
 ## Swatch style
 

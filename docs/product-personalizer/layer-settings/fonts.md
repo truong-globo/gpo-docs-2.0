@@ -11,9 +11,11 @@ The **Font family** setting controls which typeface the text layer is drawn in. 
 
 **Applies to:** [Text](../../option-types/input-types/text.md), [Textarea](../../option-types/input-types/textarea.md), [Number](../../option-types/input-types/number.md).
 
-**Watch it done — 2:13.** Letting customers pick the font and the color on a live preview, and watching the product image change as they do.
+**Watch it done — 2:13.** The Personalizer version of font and color preview: the live preview is set up first, then **Font preview** and **Color preview** go on top, so the customer picks a typeface and a shade and watches the product image change.
 
 {% embed url="https://www.youtube.com/watch?v=ih-wLs-KkyE" %}
+
+If you only want the typeface and the shade shown inside the widget, with nothing drawn on the product image, the 1:28 video on [Swatch style and previews](../../option-types/shared-settings/swatch-style-and-previews.md) covers that on its own.
 
 ## The three choices
 

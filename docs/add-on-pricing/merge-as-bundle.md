@@ -40,5 +40,5 @@ Two other settings affect how add-ons appear in the cart. Both are under **Setti
 * Store-wide, not per option set.
 * The setting affects display only. Inventory, weight, tax, and reporting are not affected.
 * The setting applies to product-backed add-ons only. A [Fixed amount](add-price-directly.md) charge has no separate cart line to merge.
-* It is no longer needed to make a cart drawer app work. See [Cart drawer apps](../integrations/cart-drawer-apps.md).
+* It is no longer needed to make a cart drawer app work. See [Cart drawer apps](../integrations/cart-drawer-apps/).
 * Check your cart page after changing this setting, as cart layouts and behavior may vary between themes.

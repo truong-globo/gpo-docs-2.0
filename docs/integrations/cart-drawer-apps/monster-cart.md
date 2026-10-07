@@ -92,6 +92,16 @@ It applies to **every** upsell in the drawer, not only the ones with options, be
 
 The button text is translatable per language, as **Choose options** in the **Cart widget** group. See [Translate widget text](../../translations-and-languages/translate-widget-text.md).
 
+## Limitations
+
+These apply to every cart drawer app, and are covered in full under [What a drawer cannot do](./#what-a-drawer-cannot-do):
+
+* **Edit Options** is not available in the drawer. Customers have to open your cart page to change their choices.
+* A personalized design cannot be previewed from the drawer, for the same reason.
+* Add-on quantities are not editable by the customer, by design.
+* If the app has to correct a quantity, the page reloads and the drawer closes.
+* The upsell redirect, once on, changes every upsell button in the drawer, not only the ones with options.
+
 ## What this applies to
 
 Only add-ons that have their own cart line, which means add-ons priced as an [Existing product](../../add-on-pricing/use-an-existing-product.md) or a [New product](../../add-on-pricing/auto-generate-a-product.md).
@@ -144,6 +154,7 @@ If it still looks wrong, [contact support](../../help/contact-support.md) with y
 
 ## Next steps
 
-* [UpCart](upcart.md) — the other recognized cart drawer app
+* [UpCart](upcart.md) and [Kaching Cart](kaching-cart.md) — the other recognized cart drawer apps
 * [Merge main product and add-ons](../../add-on-pricing/merge-as-bundle.md) — now optional rather than required
+* [What a drawer cannot do](./#what-a-drawer-cannot-do) — the limits that apply to every cart drawer app
 * [Cart page](../../storefront-display-and-design/cart-page.md) — the same protection on your full cart page

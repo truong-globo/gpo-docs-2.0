@@ -195,6 +195,7 @@
 * [Cart drawer apps](integrations/cart-drawer-apps/README.md)
   * [UpCart](integrations/cart-drawer-apps/upcart.md)
   * [Monster Cart](integrations/cart-drawer-apps/monster-cart.md)
+  * [Kaching Cart](integrations/cart-drawer-apps/kaching-cart.md)
 * [Theme and third-party notes](integrations/theme-and-third-party-notes.md)
 
 ## Plans and billing

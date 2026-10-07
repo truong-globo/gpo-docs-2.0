@@ -9,6 +9,8 @@ icon: cart-arrow-down
 
 [Kaching CartDrawer Cart Upsell](https://apps.shopify.com/cart-upsell) is recognized automatically. There is nothing to connect and no selector to enter.
 
+<figure><img src="../../.gitbook/assets/kaching.png" alt=""><figcaption></figcaption></figure>
+
 {% hint style="info" %}
 **Set it up first.** The two settings to change are the same for every cart drawer app, and they are on [Cart drawer apps](./#set-up). This page covers what is specific to Kaching.
 {% endhint %}

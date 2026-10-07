@@ -9,6 +9,8 @@ icon: cart-plus
 
 [Monster Cart Upsell+ Free Gift](https://apps.shopify.com/monster-upsells) is recognized automatically. There is nothing to connect and no selector to enter.
 
+<figure><img src="../../.gitbook/assets/monster.png" alt=""><figcaption></figcaption></figure>
+
 {% hint style="info" %}
 **Set it up first.** The two settings to change are the same for every cart drawer app, and they are on [Cart drawer apps](./#set-up). This page covers what is specific to Monster Cart.
 {% endhint %}

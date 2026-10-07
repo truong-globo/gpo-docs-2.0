@@ -17,7 +17,7 @@ Nothing. Once **Go to cart immediately after adding to cart** is off, the drawer
 
 ## What it looks like
 
-<figure><img src="../../.gitbook/assets/upcart 6.png" alt="The UpCart drawer with a personalized item, its add-on line, and an upsell button reading Choose options"><figcaption><p>The add-on line has no quantity box and no Remove button, and the upsell button reads <strong>Choose options</strong> because the upsell redirect is on.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/upcart 7.png" alt="The UpCart drawer with a personalized item, its add-on line, and an upsell button reading Choose options"><figcaption><p>The add-on line has no quantity box and no Remove button, and the upsell button reads <strong>Choose options</strong> because the upsell redirect is on.</p></figcaption></figure>
 
 Reading down the drawer:
 

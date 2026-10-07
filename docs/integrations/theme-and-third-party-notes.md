@@ -21,9 +21,9 @@ The app supports the most common patterns. If a bar's button bypasses validation
 
 An app that replaces your theme's cart drawer takes over where add-on lines are displayed after a customer adds to cart.
 
-The app recognizes the [UpCart, Monster Cart, and Kaching](cart-drawer-apps/) drawers automatically, with no setup in either app. All three require **Go to cart immediately after adding to cart** to be turned off, because that setting redirects the customer before the drawer can open.
+The app recognizes the [UpCart, Monster Cart, and Kaching](cart-drawer-apps.md) drawers automatically, with no setup needed on either side. All three require **Go to cart immediately after adding to cart** to be turned off, because that setting redirects the customer before the drawer can open.
 
-Two things are worth a second look whichever app you use. Drawer upsells add a product in one click, which skips the option form. And a drawer shows less than your cart page does — no **Edit Options** button and no design preview. See [Cart drawer apps](cart-drawer-apps/).
+Two things are worth a second look whichever app you use. Drawer upsells add a product in one click, which skips the option form. And a drawer shows less than your cart page does — no **Edit Options** button and no design preview. See [Cart drawer apps](cart-drawer-apps.md).
 
 For any other cart drawer app, test that add-on lines appear in the drawer and that their quantity boxes and Remove buttons are hidden. If they are not, [contact support](../help/contact-support.md) with the app's name.
 

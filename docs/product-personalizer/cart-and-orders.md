@@ -16,7 +16,7 @@ The item is listed with its option details below it: the text the customer enter
 Personalized items also include a link to view the design. The default wording is **Preview Your Design**, and it can be edited in the widget text.
 
 {% hint style="info" %}
-The link appears on your cart page only. If you use a [cart drawer app](../integrations/cart-drawer-apps/), customers cannot preview their design from the drawer and have to open the cart page.
+The link appears on your cart page only. If you use a [cart drawer app](../integrations/cart-drawer-apps.md), customers cannot preview their design from the drawer and have to open the cart page.
 {% endhint %}
 
 ## Preview mode

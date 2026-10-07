@@ -192,7 +192,9 @@
 * [Page builders](integrations/page-builders.md)
 * [Globo Pre-order](integrations/globo-pre-order.md)
 * [Request a Quote and hide price](integrations/request-a-quote.md)
-* [UpCart](integrations/upcart.md)
+* [Cart drawer apps](integrations/cart-drawer-apps/README.md)
+  * [UpCart](integrations/cart-drawer-apps/upcart.md)
+  * [Monster Cart](integrations/cart-drawer-apps/monster-cart.md)
 * [Theme and third-party notes](integrations/theme-and-third-party-notes.md)
 
 ## Plans and billing

@@ -9,7 +9,7 @@ icon: object-group
 
 By default, an add-on backed by a product is added as its own cart line, linked to the main item. One bracelet with three add-ons therefore produces four cart lines.
 
-**Merge Main product & Add-on products** displays them as a single item instead. New stores have this setting **on** by default.
+**Merge Main product & Add-on products** displays them as a single item instead. New stores have this setting **off** by default.
 
 ## Where the setting is
 
@@ -39,5 +39,6 @@ Two other settings affect how add-ons appear in the cart. Both are under **Setti
 
 * Store-wide, not per option set.
 * The setting affects display only. Inventory, weight, tax, and reporting are not affected.
-* The setting applies to product-backed add-ons only. An [Fixed amount](add-price-directly.md) charge has no separate cart line to merge.
+* The setting applies to product-backed add-ons only. A [Fixed amount](add-price-directly.md) charge has no separate cart line to merge.
+* It is no longer needed to make a cart drawer app work. See [Cart drawer apps](../integrations/cart-drawer-apps/).
 * Check your cart page after changing this setting, as cart layouts and behavior may vary between themes.

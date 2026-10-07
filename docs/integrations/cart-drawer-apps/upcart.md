@@ -22,6 +22,8 @@ One setting in this app has to be turned off first, and it is on by default.
 ### Open the app's general settings
 
 Go to **Settings** > **Settings** > **General**.
+
+<figure><img src="../../.gitbook/assets/upcart 1.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -34,6 +36,8 @@ It is the group containing **Go to cart immediately after adding to cart**.
 ### Turn the setting off
 
 Then save. See [Ajax cart and redirect to cart](../../storefront-display-and-design/ajax-cart-and-redirect.md) for what this setting does elsewhere.
+
+<figure><img src="../../.gitbook/assets/upcart2.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -50,6 +54,8 @@ The UpCart drawer should open, with the main item and its add-on line both displ
 
 This setting, in **Settings** > **Settings** > **General** > **Cart page**, is what switches the drawer handling on. With it off, the app leaves the UpCart drawer alone entirely, and add-on lines appear in it as ordinary, independently editable cart lines.
 
+<figure><img src="../../.gitbook/assets/upcart 3.png" alt=""><figcaption></figcaption></figure>
+
 Leave it on. See [Cart page](../../storefront-display-and-design/cart-page.md).
 
 ## What the integration does
@@ -64,6 +70,8 @@ UpCart's upsells add a product to the cart in one click, without opening a produ
 
 The setting for this is **Send cart drawer app upsells to the product page**, in **Settings** > **Settings** > **General** > **Cart page**.
 
+<figure><img src="../../.gitbook/assets/upcart4.png" alt=""><figcaption></figcaption></figure>
+
 | Default | Off |
 | ------- | --- |
 
@@ -72,6 +80,8 @@ The setting for this is **Send cart drawer app upsells to the product page**, in
 {% endhint %}
 
 With it on, the upsell's Add button reads **Choose options** and opens the product page, where the customer fills the form and adds to cart normally.
+
+<figure><img src="../../.gitbook/assets/upcart 6.png" alt=""><figcaption></figcaption></figure>
 
 <table><thead><tr><th width="290">Turn it on when</th><th>Leave it off when</th></tr></thead><tbody><tr><td>Any upsell product has options, now or later</td><td>None of your upsell products use options</td></tr><tr><td>You would rather be safe than lose the occasional impulse add</td><td>You want to keep one-click upsells exactly as they are</td></tr></tbody></table>
 

@@ -1,7 +1,7 @@
 ---
 description: >-
-  Apps that replace your theme's cart drawer, what the option widget does
-  inside them, and what it cannot do there.
+  Apps that replace your theme's cart drawer, what the option widget does inside
+  them, and what it cannot do there.
 icon: basket-shopping
 ---
 
@@ -24,6 +24,8 @@ Three cart drawer apps are recognized automatically. There is nothing to connect
 <table><thead><tr><th width="330">Setting</th><th>What it has to be</th></tr></thead><tbody><tr><td><strong>Go to cart immediately after adding to cart</strong><br>General > Product page</td><td><strong>Off.</strong> While it is on, customers are sent to your cart page and the drawer never opens. It is on by default, so this is the one you have to change</td></tr><tr><td><strong>Hide quantity box and remove button for add-on products</strong><br>General > Cart page</td><td><strong>On.</strong> This is what switches the drawer handling on. It is on by default</td></tr></tbody></table>
 
 A third setting, **Send cart drawer app upsells to the product page**, is optional but worth reading about. The drawer's own upsells add products straight to the cart, which skips the option form. Each page above covers it.
+
+<figure><img src="../../.gitbook/assets/drawer 1.png" alt=""><figcaption></figcaption></figure>
 
 ## What a drawer cannot do
 

@@ -15,6 +15,10 @@ For example:
 * Show shoe width options only for sizes that are available in different widths.
 * Show engraving font options only after the customer enters an engraving message.
 
+**Watch it done — 1:55.** Rules that reveal an option only when it is relevant, so a long form stays short for the customer in front of it.
+
+{% embed url="https://www.youtube.com/watch?v=JuUOy6sdNY8" %}
+
 ## What it can do
 
 <table><thead><tr><th width="290">Capability</th><th>Detail</th></tr></thead><tbody><tr><td>Show or hide any option</td><td>All 32 option types support conditional logic, including the static ones.</td></tr><tr><td>Show or hide a whole group</td><td>A rule on a <a href="../option-types/static-types/section.md">Section</a> applies to everything inside it.</td></tr><tr><td>React to another option</td><td>Any earlier option in the same option set can be the trigger.</td></tr><tr><td>React to the Shopify variant</td><td>Show an option only for a specific variant the customer selected. See <a href="conditions-on-shopify-variants.md">Conditions based on Shopify variants</a>.</td></tr><tr><td>Combine several conditions</td><td>With <strong>All</strong> or <strong>Any</strong> matching.</td></tr><tr><td>Count rather than compare</td><td>Number of characters typed, number of values selected, number of files attached.</td></tr></tbody></table>

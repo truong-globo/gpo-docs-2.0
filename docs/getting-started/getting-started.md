@@ -9,6 +9,10 @@ icon: flag-checkered
 
 This section takes you from a fresh setup to a working custom option on a live product page. Read the pages in order the first time — each step builds on the previous one.
 
+**Watch it done — 4:25.** A complete walkthrough: replacing basic variants with text boxes, file uploads, and image swatches, and charging extra for an upgrade.
+
+{% embed url="https://www.youtube.com/watch?v=wysR9UVZPOQ" %}
+
 ## What needs to be done before options appear
 
 Four things. If your options aren’t showing on the storefront, one of these is likely the reason.

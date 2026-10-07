@@ -12,6 +12,10 @@ Add-on pricing turns an option from simple information into an additional charge
 
 The app gives you three ways to apply these charges. Choosing the right method from the start can save you a lot of rework. The key difference is whether a real Shopify product is used behind the add-on. This affects inventory tracking, Shopify POS compatibility, and how the add-on appears in the order.
 
+**Watch it done — 2:47.** Charging for an optional hat on a clothing set, and tracking its stock so you stop selling it once it runs out.
+
+{% embed url="https://www.youtube.com/watch?v=HOSsM8-9uGk" %}
+
 ## The three ways
 
 Every price field in the app opens the same dialog, which contains these three tabs.

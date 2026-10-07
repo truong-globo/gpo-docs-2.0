@@ -11,6 +11,10 @@ The shortest complete path through the app. By the end, you’ll have a text fie
 
 Everything you do in this guide is reversible.
 
+**Watch it done — 2:19.** The same path as the steps below — create an option set, add a text field and image swatches, assign it to products, enable it on your theme.
+
+{% embed url="https://www.youtube.com/watch?v=ChC37ngqLM8" %}
+
 ## Before you start
 
 * The app is installed, and you have chosen a plan — see [Install the app](install-the-app.md).

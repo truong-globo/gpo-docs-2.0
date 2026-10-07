@@ -11,6 +11,10 @@ A multi-line field. It has the same settings as [Text](text.md), with room for l
 
 Use it when the answer is a sentence or longer, such as a gift message, care instructions, a description of a repair, or a brief for a custom piece.
 
+**Watch it done — 1:12.** A gift message box on the product page, with a character limit so the message fits the card you actually print.
+
+{% embed url="https://www.youtube.com/watch?v=YblF9fbxtSc" %}
+
 ## What customers see
 
 A taller field that accepts several lines, with your label above it and an optional character counter below.

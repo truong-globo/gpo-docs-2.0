@@ -11,6 +11,10 @@ The app's own dropdown. It matches the rest of your widget, and it supports what
 
 Use this type unless you specifically need the native picker.
 
+**Watch it done — 1:33.** Turning a long list of values into a searchable dropdown, including the **Search suggestion** setting that lets customers type instead of scroll.
+
+{% embed url="https://www.youtube.com/watch?v=Ohn47vyy-rs" %}
+
 ## What customers see
 
 A field that opens a styled list. Depending on your settings, the list can include a search box, a picture beside each entry, and out-of-stock entries marked as unavailable.

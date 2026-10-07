@@ -9,6 +9,10 @@ icon: palette
 
 These settings control how option values are displayed, and how much detail a customer can see before selecting one.
 
+**Watch it done — 1:28.** Adding **Font preview** and **Color preview** to an option set, so customers see the typeface and the shade before they choose.
+
+{% embed url="https://www.youtube.com/watch?v=Mc2O3g5deHc" %}
+
 ## Swatch style
 
 Displays option values as text, colors, or images. Available on the **Basic** tab.

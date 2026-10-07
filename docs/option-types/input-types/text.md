@@ -11,6 +11,10 @@ The customer types directly into the field. It is the most commonly used option 
 
 Use it for anything short and singular: a name to engrave, two initials, a team number, or a reference. For text longer than one line, use [Textarea](textarea.md) instead.
 
+**Watch it done — 1:28.** Adding a field for a name, an engraving, or a short note, so the detail arrives with the order instead of by email afterwards.
+
+{% embed url="https://www.youtube.com/watch?v=E_t3EioihI0" %}
+
 ## What customers see
 
 A single-line field with your label above it, optionally with a character counter, a prefix, and a suffix.

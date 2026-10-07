@@ -15,6 +15,10 @@ The two are connected: **Change background** lives on the preview panel's **Pers
 
 Layer positions are measured against the background, so set the background before you position any layer. If you change it later, you have to reposition every layer.
 
+**Watch it done — 1:48.** An engraving field on a necklace, wired to a live preview so the customer reads their own text on the product before checking out.
+
+{% embed url="https://www.youtube.com/watch?v=0sODGWkR_cw" %}
+
 ## The three parts
 
 <table><thead><tr><th width="180">Part</th><th width="230">What it is</th><th>Where you set it</th></tr></thead><tbody><tr><td><strong>The background</strong></td><td>The image the layers are drawn on — a product photo, or one you upload</td><td>Once per option set, from the builder's preview panel</td></tr><tr><td><strong>The layers</strong></td><td>One per option with the Personalizer on. Text or image</td><td>Per option, on its <strong>Personalizer</strong> tab</td></tr><tr><td><strong>Customer controls</strong></td><td>Which layers the customer may move, resize, or rotate</td><td>Per option, per layer</td></tr></tbody></table>

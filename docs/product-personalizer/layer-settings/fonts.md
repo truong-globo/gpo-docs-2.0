@@ -11,6 +11,10 @@ The **Font family** setting controls which typeface the text layer is drawn in. 
 
 **Applies to:** [Text](../../option-types/input-types/text.md), [Textarea](../../option-types/input-types/textarea.md), [Number](../../option-types/input-types/number.md).
 
+**Watch it done — 2:13.** Letting customers pick the font and the color on a live preview, and watching the product image change as they do.
+
+{% embed url="https://www.youtube.com/watch?v=ih-wLs-KkyE" %}
+
 ## The three choices
 
 <table><thead><tr><th width="200">Choice</th><th width="290">What it uses</th><th>Reveals</th></tr></thead><tbody><tr><td><strong>Default</strong></td><td>The app's standard typeface</td><td>Nothing further</td></tr><tr><td><strong>Google</strong></td><td>A font from Google's library</td><td><strong>Select Google font</strong></td></tr><tr><td><strong>Custom</strong></td><td>A font file you uploaded to the app</td><td><strong>Select Custom font</strong></td></tr></tbody></table>

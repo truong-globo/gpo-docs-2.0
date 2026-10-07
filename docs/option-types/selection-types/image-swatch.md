@@ -11,6 +11,10 @@ A grid of pictures, one for each value. Use it when the picture is the decision:
 
 It has more presentation settings than any other selection type, because a grid of images takes the most space on a product page.
 
+**Watch it done — 1:50.** Replacing text values with image swatches, plus the **Text & image** tooltip that enlarges a pattern when a customer hovers over it.
+
+{% embed url="https://www.youtube.com/watch?v=2jHQkSrq1Mg" %}
+
 ## What customers see
 
 A grid of picture swatches at the size you set. Hovering displays the value's name, and optionally a zoomed version of the image. Long lists can be displayed as a slider.

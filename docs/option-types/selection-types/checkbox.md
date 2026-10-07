@@ -11,6 +11,10 @@ A list where the customer can select any number of values. This type is always m
 
 Use it for a menu of extras such as toppings, add-on services, accessories, or upgrades. Each value can have its own price, and the total increases as the customer selects values.
 
+**Watch it done — 1:55.** Letting customers select several add-ons at once — something Shopify variants cannot do — and pricing each one.
+
+{% embed url="https://www.youtube.com/watch?v=3Yv7fGlKsyg" %}
+
 ## What customers see
 
 A list with a check box beside each value. With **Swatch style** set, each value can also display a color chip or a picture.

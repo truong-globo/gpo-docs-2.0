@@ -11,6 +11,8 @@ icon: ruler-combined
 
 Use it for made-to-measure products such as blinds, canvases, worktops, glass, and cut fabric.
 
+A 1:55 video showing a formula built end to end sits at the top of the [Dimension](../option-types/input-types/dimension.md) page, if you would rather watch it than read it.
+
 ## The two fields
 
 Both are on the **Basic** tab, under the axis rows.

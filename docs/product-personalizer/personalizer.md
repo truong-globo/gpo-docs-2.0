@@ -13,6 +13,10 @@ It turns personalization from something customers have to imagine into something
 
 <figure><img src="../.gitbook/assets/2026-09-04_11-41-39.png" alt="A storefront product page with the customer&#x27;s typed text drawn onto the product photo"><figcaption><p>The customer's own words, on the product, before they buy.</p></figcaption></figure>
 
+**Watch it done — 3:48.** Building a live preview from scratch, so customers see their own text on the product image as they type.
+
+{% embed url="https://www.youtube.com/watch?v=Q8EwrbBIs98" %}
+
 ## What it can draw
 
 <table><thead><tr><th width="230">Layer</th><th width="290">From</th><th>Controls you get</th></tr></thead><tbody><tr><td><strong>Text</strong></td><td><a href="../option-types/input-types/text.md">Text</a>, <a href="../option-types/input-types/textarea.md">Textarea</a>, <a href="../option-types/input-types/number.md">Number</a></td><td>Color, size, style, font, five effects, curve, auto-fit</td></tr><tr><td><strong>Images</strong></td><td><a href="../option-types/input-types/file-upload.md">File upload</a> and eight selection types</td><td>Shape masking, fit mode, size</td></tr></tbody></table>

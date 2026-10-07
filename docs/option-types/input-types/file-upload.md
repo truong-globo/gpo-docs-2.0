@@ -9,6 +9,10 @@ icon: paperclip
 
 A field the customer uses to attach files. Use it for print-on-demand products, photo gifts, and custom artwork.
 
+**Watch it done — 1:55.** Collecting artwork from customers at the moment they order, instead of chasing files by email afterwards.
+
+{% embed url="https://www.youtube.com/watch?v=jCeY4rLXULo" %}
+
 ## What customers see
 
 An upload control with your label above it. After uploading, the file is listed as a thumbnail if it is an image, or as a link otherwise, depending on your store-wide **File preview** setting.

@@ -11,6 +11,10 @@ A list where the customer selects one value. Unlike a dropdown, every choice is 
 
 This type is always single-select, so there is no **Allow multiple** setting. To let customers select several values, use [Checkbox](checkbox.md).
 
+**Watch it done — 1:14.** Why upgrades hidden inside a dropdown get missed, and how a radio list puts every choice in front of the customer.
+
+{% embed url="https://www.youtube.com/watch?v=wBJ3TpOU_3g" %}
+
 ## What customers see
 
 A vertical list with a selectable marker beside each value. With **Swatch style** set, each value can also display a color chip or a picture.

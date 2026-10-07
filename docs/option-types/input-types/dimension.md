@@ -15,6 +15,10 @@ Use it for made-to-measure products such as blinds, canvases, worktops, glass, f
 Dimensions are not supported in the Shopify POS app, and the app displays a notice when you add it. For in-person orders, use multiple [Number](number.md) fields to collect measurements instead. See [POS limitations](../../point-of-sale/limitations.md).
 {% endhint %}
 
+**Watch it done — 1:55.** Width and height fields with their own units and limits, and a formula that prices each order from the numbers the customer types.
+
+{% embed url="https://www.youtube.com/watch?v=nSth4ZSHktA" %}
+
 ## What customers see
 
 Two or three numeric fields on one row, each with its own label and unit.

@@ -9,6 +9,8 @@ icon: warehouse
 
 An add-on backed by a Shopify product has its own inventory. When the add-on runs out, the storefront can hide or mark the option automatically, instead of the shortage being discovered when you pack the order.
 
+The 2:47 video on [Add-on pricing](add-on-pricing.md) covers stock tracking alongside pricing, if you would rather watch it than read it.
+
 ## What you need first
 
 Inventory is only available when a product exists. Therefore, the pricing mode you select determines whether inventory can be tracked:

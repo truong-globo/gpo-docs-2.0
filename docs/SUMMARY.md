@@ -126,17 +126,14 @@
 * [Overview](orders/orders.md)
 * [Order details](orders/order-details.md)
 * [Export orders and files](orders/export.md)
-
-## Automations
-
-* [Overview](automations/automations.md)
-* [Email notification](automations/email-notification.md)
-* [Order notes update](automations/update-order-notes.md)
-* [Order tags update](automations/update-order-tags.md)
-* [Google Drive sync](automations/google-drive-sync/README.md)
-  * [What it looks like in Drive](automations/google-drive-sync/folder-structure.md)
-  * [Google Drive sync history](automations/google-drive-sync/google-drive-sync-history.md)
-* [Liquid variables reference](automations/liquid-variables-reference.md)
+* [Automations](automations/automations.md)
+  * [Email notification](automations/email-notification.md)
+  * [Order notes update](automations/update-order-notes.md)
+  * [Order tags update](automations/update-order-tags.md)
+  * [Google Drive sync](automations/google-drive-sync/README.md)
+    * [What it looks like in Drive](automations/google-drive-sync/folder-structure.md)
+    * [Google Drive sync history](automations/google-drive-sync/google-drive-sync-history.md)
+  * [Liquid variables reference](automations/liquid-variables-reference.md)
 
 ## Templates
 

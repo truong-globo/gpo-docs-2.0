@@ -5,11 +5,13 @@ description: >-
 icon: bolt
 ---
 
-# Overview
+# Automations
+
+**Orders** in the app menu, then the **Automations** tab.
 
 An automation runs when a customer places an order containing app options. There are four types, and together they get the option details, and the files, to the people who have to act on them.
 
-**Orders** in the app menu, then the **Automations** tab. Workflows act on orders, so the two sit on the same page: **Orders** is what came in, **Automations** is what happens to it automatically.
+Workflows act on orders, which is why they share a page with them: the **Orders** tab is what came in, the **Automations** tab is what happens to it without you.
 
 ## The four workflows
 
@@ -39,7 +41,7 @@ Workflows cannot run until you approve this.
 
 ### Plan
 
-Automations may not be available on all plans. If the page displays an upgrade prompt, see [Compare plans](../plans-and-billing/compare-plans.md).
+Automations may not be available on all plans. If the tab displays an upgrade prompt, see [Compare plans](../plans-and-billing/compare-plans.md).
 
 ## Adding a workflow
 
@@ -94,4 +96,3 @@ Duplicating is useful for order tags, where you may want one workflow for each o
 * They run after the order is created, so an email or a tag appears a short time later.
 * A workflow set to **Draft** does not run.
 * Workflows are configured per store, and are not included in option set or settings exports.
-* The **Automations** tab is available even on plans where the **Orders** tab is not, because the two have separate plan requirements.

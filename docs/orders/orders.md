@@ -7,15 +7,15 @@ icon: receipt
 
 **Orders** in the app menu lists the orders that came in through your option sets, and totals what your options earned. Shopify's own order list cannot do this — it has no idea which orders used an option set, or how much of a total came from add-ons.
 
-The page has two tabs:
+The page has two tabs, and this section covers both:
 
-<table><thead><tr><th width="230">Tab</th><th>What it is for</th></tr></thead><tbody><tr><td><strong>Orders</strong></td><td>The orders that used your options, and what they earned. This section</td></tr><tr><td><strong>Automations</strong></td><td>Workflows that run on those orders — email, order notes, order tags, Google Drive. See <a href="../automations/automations.md">Automations</a></td></tr></tbody></table>
+<table><thead><tr><th width="230">Tab</th><th>What it is for</th><th>Read</th></tr></thead><tbody><tr><td><strong>Orders</strong></td><td>The orders that used your options, and what they earned</td><td>This page, <a href="order-details.md">Order details</a>, and <a href="export.md">Export orders and files</a></td></tr><tr><td><strong>Automations</strong></td><td>Workflows that run on those orders — email, order notes, order tags, Google Drive</td><td><a href="../automations/automations.md">Automations</a> and the pages under it</td></tr></tbody></table>
 
 {% hint style="info" %}
 Orders are kept for **90 days**. Older ones drop off the list, so export anything you need to keep. See [Export orders and files](export.md).
 {% endhint %}
 
-Viewing orders may not be available on all plans. See [Compare plans](../plans-and-billing/compare-plans.md).
+Neither tab is available on every plan. See [Compare plans](../plans-and-billing/compare-plans.md).
 
 <figure><img src="../.gitbook/assets/order 1.png" alt="The Orders list with its metrics along the top"><figcaption><p>Totals for the period, then the orders behind them.</p></figcaption></figure>
 

@@ -17,7 +17,7 @@ Shopify asks you to approve this access when you install.
 
 Some access is requested later rather than during the install:
 
-* **Write access to orders**, the first time you open [Automations](../automations/automations.md), because the order note and order tag workflows change the order. No workflow runs until you approve it.
+* **Write access to orders**, the first time you open the [Automations](../automations/automations.md) tab, because the order note and order tag workflows change the order. No workflow runs until you approve it.
 * **Customer data**, the first time you select specific customers in a [customer rule](../option-sets/assign-to-customers.md).
 
 In both cases, the app explains what it is requesting and Shopify displays its own approval screen, the same as during the original install.

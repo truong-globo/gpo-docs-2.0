@@ -9,7 +9,7 @@ icon: google-drive
 
 Files a customer uploads are stored with the order, but they stay inside the app. This workflow copies them into your own Google Drive and sorts them into folders, so your production team can work from Drive instead of opening orders one at a time.
 
-**Automations** in the app menu, then **Add workflow** > **Google Drive sync**. It has its own configuration page rather than the standard workflow form, and you can create one per store.
+**Orders** in the app menu, then the **Automations** tab, then **Add workflow** > **Google Drive sync**. It has its own configuration page rather than the standard workflow form, and you can create one per store.
 
 It copies every file attached through a [File upload](../../option-types/input-types/file-upload.md) option, and optionally the [Personalizer](../../product-personalizer/personalizer.md) design image. Only line items created by the app are read, so ordinary products in the same order are skipped.
 

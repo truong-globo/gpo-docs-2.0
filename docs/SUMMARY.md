@@ -127,6 +127,17 @@
 * [Order details](orders/order-details.md)
 * [Export orders and files](orders/export.md)
 
+## Automations
+
+* [Overview](automations/automations.md)
+* [Email notification](automations/email-notification.md)
+* [Order notes update](automations/update-order-notes.md)
+* [Order tags update](automations/update-order-tags.md)
+* [Google Drive sync](automations/google-drive-sync/README.md)
+  * [What it looks like in Drive](automations/google-drive-sync/folder-structure.md)
+  * [Google Drive sync history](automations/google-drive-sync/google-drive-sync-history.md)
+* [Liquid variables reference](automations/liquid-variables-reference.md)
+
 ## Templates
 
 * [Overview](templates/templates.md)
@@ -158,17 +169,6 @@
   * [Display options in packing slip](storefront-display-and-design/show-options-on-orders/packing-slip.md)
   * [Display options in confirmation email](storefront-display-and-design/show-options-on-orders/order-confirmation-email.md)
   * [Display option in staff order notification](storefront-display-and-design/show-options-on-orders/staff-order-notification.md)
-
-## Automations
-
-* [Overview](automations/automations.md)
-* [Email notification](automations/email-notification.md)
-* [Order notes update](automations/update-order-notes.md)
-* [Order tags update](automations/update-order-tags.md)
-* [Google Drive sync](automations/google-drive-sync/README.md)
-  * [What it looks like in Drive](automations/google-drive-sync/folder-structure.md)
-  * [Google Drive sync history](automations/google-drive-sync/google-drive-sync-history.md)
-* [Liquid variables reference](automations/liquid-variables-reference.md)
 
 ## Point of Sale
 

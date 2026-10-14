@@ -56,5 +56,5 @@ Editing your templates directly gives you more control over where the options ap
 * You can create one order notes workflow per store.
 * It runs shortly after the order is created, so the note appears a short time later.
 * A workflow set to **Draft** does not run.
-* This workflow requires order data access, which you approve once when you first open **Automations**.
+* This workflow requires order data access, which you approve once when you first open the **Automations** tab.
 * It writes to the order note only. It does not change line items, prices, or anything else on the order.

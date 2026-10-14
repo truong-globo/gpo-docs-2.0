@@ -9,6 +9,8 @@ icon: bolt
 
 An automation runs when a customer places an order containing app options. There are four types, and together they get the option details, and the files, to the people who have to act on them.
 
+**Orders** in the app menu, then the **Automations** tab. Workflows act on orders, so the two sit on the same page: **Orders** is what came in, **Automations** is what happens to it automatically.
+
 ## The four workflows
 
 The **Add workflow** screen splits them into two groups: **Order updates**, which add the selected options to the order in Shopify, and **Notifications and sync**, which send option data by email or copy uploaded files to cloud storage.
@@ -29,7 +31,7 @@ The **Add workflow** screen splits them into two groups: **Order updates**, whic
 
 ### Order data access
 
-Workflows read order details, so the app requests access to your order data, including customer data, the first time you open **Automations**.
+Workflows read order details, so the app requests access to your order data, including customer data, the first time you open the **Automations** tab.
 
 The app explains what it is requesting and confirms that the data is used only for this feature and is not distributed. Select **Update** to approve. Shopify then displays its own approval screen, the same as during the original install.
 
@@ -45,7 +47,7 @@ Automations may not be available on all plans. If the page displays an upgrade p
 {% step %}
 ### Open Automations
 
-From the app menu.
+Select **Orders** in the app menu, then the **Automations** tab.
 {% endstep %}
 
 {% step %}
@@ -92,3 +94,4 @@ Duplicating is useful for order tags, where you may want one workflow for each o
 * They run after the order is created, so an email or a tag appears a short time later.
 * A workflow set to **Draft** does not run.
 * Workflows are configured per store, and are not included in option set or settings exports.
+* The **Automations** tab is available even on plans where the **Orders** tab is not, because the two have separate plan requirements.

@@ -7,6 +7,10 @@ icon: receipt
 
 **Orders** in the app menu lists the orders that came in through your option sets, and totals what your options earned. Shopify's own order list cannot do this — it has no idea which orders used an option set, or how much of a total came from add-ons.
 
+The page has two tabs:
+
+<table><thead><tr><th width="230">Tab</th><th>What it is for</th></tr></thead><tbody><tr><td><strong>Orders</strong></td><td>The orders that used your options, and what they earned. This section</td></tr><tr><td><strong>Automations</strong></td><td>Workflows that run on those orders — email, order notes, order tags, Google Drive. See <a href="../automations/automations.md">Automations</a></td></tr></tbody></table>
+
 {% hint style="info" %}
 Orders are kept for **90 days**. Older ones drop off the list, so export anything you need to keep. See [Export orders and files](export.md).
 {% endhint %}

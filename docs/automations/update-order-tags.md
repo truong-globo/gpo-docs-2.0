@@ -91,5 +91,5 @@ A dynamic workflow points to a **specific option in a specific option set**. If 
 * Tags are added, never removed. Tags set by Shopify or other apps are not changed.
 * The workflow runs shortly after the order is created, so the tag appears a short time later.
 * A workflow set to **Draft** does not run.
-* This workflow requires order data access, which you approve once when you first open **Automations**.
+* This workflow requires order data access, which you approve once when you first open the **Automations** tab.
 * If a customer selects several values in a multi-select option, test the workflow against such an order to confirm the tags it produces.

@@ -81,7 +81,7 @@ Shopify asks you to approve these permissions during installation. Here’s what
 
 Some permissions are requested later, only when you use a feature that requires them:
 
-* **Permission to write to orders** is requested the first time you open **Automations**, because order-note and order-tag workflows modify orders. Permission to read orders is already covered above.
+* **Permission to write to orders** is requested the first time you open the **Automations** tab, because order-note and order-tag workflows modify orders. Permission to read orders is already covered above.
 * **Customer permissions** are requested the first time you select specific customers in a customer rule.
 
 In both cases, the app shows you what access it needs, and you approve it in Shopify, just as you did during the initial installation.

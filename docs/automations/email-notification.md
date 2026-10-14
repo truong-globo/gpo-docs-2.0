@@ -86,5 +86,5 @@ Test sending is rate-limited, so wait a few seconds between attempts.
 * You can create one email notification workflow per store, with up to 10 recipients on it.
 * It runs shortly after an order containing app options is created.
 * A workflow set to **Draft** does not send anything.
-* This workflow requires order data access, which you approve once when you first open **Automations**.
+* This workflow requires order data access, which you approve once when you first open the **Automations** tab.
 * Provider credentials are stored so the workflow can send email. Where your provider offers one, use an application password or an API key rather than your main account password.

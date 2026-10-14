@@ -15,7 +15,7 @@ Unlike the other two types, you can create **as many order tag workflows as you 
 
 <table><thead><tr><th width="290">Mode</th><th>Tags the order with</th></tr></thead><tbody><tr><td><strong>Fixed tag for every orders containing globo options</strong></td><td>A tag you type, on every order that has options</td></tr><tr><td><strong>Dynamic tag based on selected option element</strong></td><td>The value the customer chose in a specific option</td></tr></tbody></table>
 
-<figure><img src="../.gitbook/assets/2026-09-07_11-41-53.png" alt="The order tags workflow with its type selector"><figcaption><p>A fixed tag on every order with options, or a tag from what the customer chose.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/order8.png" alt="The order tags workflow with its type selector"><figcaption><p>A fixed tag on every order with options, or a tag from what the customer chose.</p></figcaption></figure>
 
 ## Fixed tag
 

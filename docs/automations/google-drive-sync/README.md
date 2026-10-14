@@ -15,7 +15,7 @@ It copies every file attached through a [File upload](../../option-types/input-t
 
 Files are filed into a folder per order and a folder per product. See [What it looks like in Drive](folder-structure.md). Each order's own page has an **Open in Drive** link straight to its folder — see [Order details](../../orders/order-details.md).
 
-<figure><img src="../../.gitbook/assets/ggdrive.png" alt="The Google Drive sync page with its connection, destination, and file name sections"><figcaption><p>The whole automation is configured on one page.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/order9.png" alt="The Google Drive sync page with its connection, destination, and file name sections"><figcaption><p>The whole automation is configured on one page.</p></figcaption></figure>
 
 ## Before you start
 
@@ -30,7 +30,7 @@ Files are filed into a folder per order and a folder per product. See [What it l
 
 A Google window opens and asks for permission to create folders in the destination you select, upload files that customers attach to their orders, and read the storage quota of the account. The app never reads or deletes files outside the folder you select.
 
-<figure><img src="../../.gitbook/assets/drive 2.png" alt="Google's consent screen listing the permissions the app requests"><figcaption><p>Google asks you to approve the access the app needs before the account is connected.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/drive 2.png" alt="Google&#x27;s consent screen listing the permissions the app requests"><figcaption><p>Google asks you to approve the access the app needs before the account is connected.</p></figcaption></figure>
 {% endstep %}
 
 {% step %}

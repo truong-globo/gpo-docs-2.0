@@ -17,7 +17,7 @@ Orders are kept for **90 days**. Older ones drop off the list, so export anythin
 
 Neither tab is available on every plan. See [Compare plans](../plans-and-billing/compare-plans.md).
 
-<figure><img src="../.gitbook/assets/order 1.png" alt="The Orders list with its metrics along the top"><figcaption><p>Totals for the period, then the orders behind them.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/order1.png" alt="The Orders list with its metrics along the top"><figcaption><p>Totals for the period, then the orders behind them.</p></figcaption></figure>
 
 ## The numbers along the top
 

@@ -19,7 +19,7 @@ The workflow editor has three tabs:
 
 <table><thead><tr><th width="230">Tab</th><th>What it holds</th></tr></thead><tbody><tr><td><strong>Preview</strong></td><td>The email as it will arrive, with the subject line above it</td></tr><tr><td><strong>Edit code</strong></td><td><strong>Email subject</strong> and <strong>Email body (HTML)</strong>, plus the Liquid variable reference</td></tr><tr><td><strong>Configure</strong></td><td>Who receives it, which service sends it, and what it is sent from</td></tr></tbody></table>
 
-<figure><img src="../.gitbook/assets/2026-09-07_11-36-29.png" alt="The email notification workflow with its Preview, Edit code, and Configure tabs"><figcaption><p>Preview what will arrive, edit the template, and choose how it is sent.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/order4.png" alt="The email notification workflow with its Preview, Edit code, and Configure tabs"><figcaption><p>Preview what will arrive, edit the template, and choose how it is sent.</p></figcaption></figure>
 
 ## Editing the email
 
@@ -49,7 +49,7 @@ Every address in the list gets its own copy, so each person receives the notific
 
 Use it to put the notification straight into the hands of whoever acts on it — your production inbox, the person who does engraving, a shared team address — instead of forwarding every order by hand.
 
-<figure><img src="../.gitbook/assets/email.png" alt="The Recipients field with several email addresses entered as tags"><figcaption><p>Each address in the list gets its own copy of the notification.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/order5.png" alt="The Recipients field with several email addresses entered as tags"><figcaption><p>Each address in the list gets its own copy of the notification.</p></figcaption></figure>
 
 ## Choosing how it is sent
 

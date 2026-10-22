@@ -1,93 +1,71 @@
 ---
 description: >-
-  Placing a layer on the product photo — axes, width and height, opacity, and
-  rotation.
+  Place an element on the product image by dragging it or typing exact
+  values for position, width, height, rotation, and opacity.
 icon: arrows-up-down-left-right
 ---
 
-# Position, size, and rotation
+# Position and size
 
-Every layer, text or image, is positioned with the same settings.
+The **Position and size** card places an element on the product image. Its own help text sums it up: **Drag the element on the preview, or set exact values.** Dragging on the canvas and typing here change the same settings.
+
+<figure><img src="../../.gitbook/assets/screenshot-personalizer-position-and-size.png" alt="The Position and size card with X position, Y position, Rotation, and Opacity fields for a text element selected on a tote bag"><figcaption><p>Every value in Position and size updates as you drag the element on the canvas.</p></figcaption></figure>
 
 ## The settings
 
-<table><thead><tr><th width="200">Setting</th><th width="150">Range</th><th width="130">Default</th><th>What it does</th></tr></thead><tbody><tr><td><strong>X position</strong></td><td>0 – 100%</td><td><code>50</code></td><td>Horizontal position. 0 is the left edge, 100 the right</td></tr><tr><td><strong>Y position</strong></td><td>0 – 100%</td><td><code>50</code></td><td>Vertical position. 0 is the top, 100 the bottom</td></tr><tr><td><strong>Width</strong></td><td>0 – 100%</td><td><code>25</code></td><td>The layer's width as a share of the image. Image layers and Textarea only</td></tr><tr><td><strong>Height</strong></td><td>0 – 100%</td><td><code>25</code></td><td>The layer's height. Image layers and Textarea only</td></tr><tr><td><strong>Opacity</strong></td><td>0 – 100%</td><td><code>100</code></td><td>Transparency. 100 is solid</td></tr><tr><td><strong>Rotation</strong></td><td>-180 – 180°</td><td><code>0</code></td><td>Rotation in degrees. Negative is anticlockwise</td></tr></tbody></table>
+<table><thead><tr><th width="200">Setting</th><th width="150">Range</th><th width="130">Default</th><th>What it does</th></tr></thead><tbody><tr><td><strong>Width</strong></td><td>0 to 100%</td><td><code>25</code></td><td>The element's width as a share of the image. Image elements and Textarea only</td></tr><tr><td><strong>Height</strong></td><td>0 to 100%</td><td><code>25</code></td><td>The element's height. Image elements and Textarea only</td></tr><tr><td><strong>X position</strong></td><td>0 to 100%</td><td><code>50</code></td><td>The horizontal center of the element. 0 is the left edge, 100 the right</td></tr><tr><td><strong>Y position</strong></td><td>0 to 100%</td><td><code>50</code></td><td>The vertical center. 0 is the top, 100 the bottom</td></tr><tr><td><strong>Rotation</strong></td><td>-180 to 180°</td><td><code>0</code></td><td>Turns the element. Negative values turn it counterclockwise</td></tr><tr><td><strong>Opacity</strong></td><td>0 to 100%</td><td><code>100</code></td><td>Transparency. 100 is solid</td></tr></tbody></table>
 
-All position values are **percentages of the image**, not pixels. This keeps the layer in the same relative place whether the image is displayed on a phone or a large monitor.
+All values are **percentages of the image**, not pixels, so the element stays in the same place on a phone and on a large screen.
 
-<figure><img src="../../.gitbook/assets/person7.png" alt="The position, opacity, and rotation sliders on the Personalizer tab"><figcaption><p>Positions are percentages of the image, so they hold at any display size.</p></figcaption></figure>
+Text and Number have no width or height. Their size comes from **Font size**, and they grow as the customer types. Use [Auto-fit max width](curve-and-auto-fit.md#auto-fit-max-width) to limit them.
 
-## Which types get width and height
-
-<table><thead><tr><th width="290">Type</th><th>Width and height</th><th>Instead they get</th></tr></thead><tbody><tr><td>Image layers — File upload and the eight selection types</td><td><strong>Yes</strong></td><td></td></tr><tr><td>Textarea</td><td><strong>Yes</strong> — it is a block of text</td><td></td></tr><tr><td>Text and Number</td><td>No</td><td><a href="curve-and-auto-fit.md">Curve and Auto-fit max width</a></td></tr></tbody></table>
-
-Text and Number are single-line types. They are sized by the font size and grow as the customer types, so they use auto-fit instead of a fixed width.
-
-## How to position a layer
+## How to place an element
 
 {% stepper %}
 {% step %}
-### Start from the middle
+### Drag it roughly into place
 
-Both axes default to 50, which places the layer in the center. Adjust from there.
-{% endstep %}
-
-{% step %}
-### Set the vertical position first
-
-**Y position** is usually easier to set, because the print or engraving area is at a known height on the product.
-{% endstep %}
-
-{% step %}
-### Then the horizontal position
-
-**X position** at 50 centers the layer, which is correct for most personalization.
+Select the element on the canvas and drag it to the print area. It snaps to the center lines of the image when you get close.
 {% endstep %}
 
 {% step %}
 ### Size it
 
-Image layers: set **Width** and **Height**. Text layers: adjust **Font size** on the [text layer settings](text-layers.md).
+For an image, drag a corner handle or type **Width** and **Height**. For text, set **Font size** in [Text style](text-layers.md#font-size).
+{% endstep %}
+
+{% step %}
+### Fine-tune the values
+
+Type exact **X position** and **Y position** values, or press the arrow keys on the canvas to nudge it 1% at a time. Hold Shift to move 5%.
 {% endstep %}
 
 {% step %}
 ### Rotate only if the product needs it
 
-Rotate a layer only to match a slanted surface or an intended design. On a straight product, rotation looks incorrect.
+Rotate to match a slanted surface or an intended design. On a straight product, rotation looks like a mistake.
 {% endstep %}
 
 {% step %}
-### Test with the extremes
+### Test the extremes
 
-Test a one-character entry and a maximum-length entry, and both a tall and a wide uploaded image. Positioning problems appear at these extremes.
-{% endstep %}
-
-{% step %}
-### Check it on mobile
-
-The percentages are the same, but a layer that is readable on a desktop preview can be too small on a phone.
+In the **Preview**, try a one-character entry, the longest allowed entry, a tall photo, and a wide photo. Placement problems show up at the extremes.
 {% endstep %}
 {% endstepper %}
 
 ## Opacity
 
-<table><thead><tr><th width="230">Value</th><th>Use for</th></tr></thead><tbody><tr><td><code>100</code></td><td>Almost everything. Printing and engraving are opaque</td></tr><tr><td><code>60</code>–<code>90</code></td><td>Etched glass, watermarks, subtle tone-on-tone printing</td></tr><tr><td>Below <code>50</code></td><td>Rarely. The customer may think their text has not registered</td></tr></tbody></table>
+<table><thead><tr><th width="230">Value</th><th>Use for</th></tr></thead><tbody><tr><td><code>100</code></td><td>Almost everything. Print and engraving are solid</td></tr><tr><td><code>60</code> to <code>90</code></td><td>Etched glass, watermarks, tone-on-tone printing</td></tr><tr><td>Below <code>50</code></td><td>Rarely. Customers may think their entry did not register</td></tr></tbody></table>
 
-If a layer does not sit well against the photo, adjust the color before reducing the opacity.
+If an element does not sit well on the photo, adjust its color before lowering opacity.
 
-## Rotation
+## Several elements on one image
 
-<table><thead><tr><th width="230">Value</th><th>Use for</th></tr></thead><tbody><tr><td><code>0</code></td><td>Almost everything</td></tr><tr><td>A few degrees either way</td><td>Matching a product photographed slightly off-square</td></tr><tr><td><code>90</code> or <code>-90</code></td><td>Text running up the side of a product — a spine, a pen barrel</td></tr><tr><td><code>180</code></td><td>Rarely useful outside deliberate design</td></tr></tbody></table>
-
-For text on a curved surface, such as around a mug or a ring, use [Curve](curve-and-auto-fit.md) instead of rotation. Rotation turns the whole line, while curve bends it.
-
-## Several layers on one image
-
-<table><thead><tr><th width="290">Goal</th><th>How</th></tr></thead><tbody><tr><td>A name above a date</td><td>Same <strong>X position</strong>, different <strong>Y position</strong> — for example 40 and 55</td></tr><tr><td>Two layers side by side</td><td>Same <strong>Y position</strong>, different <strong>X position</strong> — for example 30 and 70</td></tr><tr><td>Text over an uploaded photo</td><td>Position the text within the photo layer's area, and give it a <a href="effects.md#stroke">stroke</a> for contrast</td></tr><tr><td>Layers that must never overlap the product edge</td><td>Give each a <a href="clip-area.md">crop area</a></td></tr></tbody></table>
+<table><thead><tr><th width="290">Goal</th><th>How</th></tr></thead><tbody><tr><td>A name above a date</td><td>Same <strong>X position</strong>, different <strong>Y position</strong>, for example 40 and 55</td></tr><tr><td>Two elements side by side</td><td>Same <strong>Y position</strong>, different <strong>X position</strong>, for example 30 and 70</td></tr><tr><td>Text over an uploaded photo</td><td>Place the text inside the photo's area and give it a <a href="effects.md#stroke">stroke</a></td></tr><tr><td>Reaching an element under another one</td><td>Use <strong>Elements</strong> in the editor toolbar. See <a href="../editor.md#elements">Elements</a></td></tr></tbody></table>
 
 ## Notes
 
-* Percentages are relative to the background image, so positions stay accurate across products only if your photos are framed consistently. See [Choosing the background](../setup.md#choosing-the-background).
-* If you let customers move a layer, your position is their starting point. See [Customer controls](customer-controls.md).
-* A [crop area](clip-area.md) limits where a layer can appear. Use one whenever customers can move a layer.
-* Changing the background moves every layer. Set the background first.
+* Positions are relative to the background, so they only line up across products whose photos are framed the same way. See [Choosing the background](../setup.md#choosing-the-background).
+* If customers can move the element, your position is their starting point. See [What customers can change](customer-controls.md).
+* A [print area](clip-area.md) limits where the element can appear. Use one whenever customers can move it.
+* For text on a round surface, use [Curve](curve-and-auto-fit.md#curve) instead of rotation.

@@ -33,9 +33,9 @@ Without it, the closed dropdown displays only the value name, and the customer h
 
 ## Personalizer
 
-Supported as an **image layer**. When a value is selected, its image can be displayed on the product photo. The settings are image shape, background mode, size, position, rotation, crop area, and customer controls.
+Supported as an **image element**. When a value is selected, its image can be displayed on the product photo. The settings are image shape, background mode, size, position, rotation, print area, and what customers can change.
 
-Customers can then select a design from the dropdown and see it on the product in the Personalizer preview. See [Image layers](../../product-personalizer/layer-settings/image-layers.md).
+Customers can then select a design from the dropdown and see it on the product in the Personalizer preview. See [Shape and fill](../../product-personalizer/layer-settings/image-layers.md).
 
 ## Add-on pricing
 

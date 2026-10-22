@@ -1,37 +1,37 @@
 ---
 description: >-
-  Every setting on a layer's Personalizer tab, explained once — styling,
-  placement, boundaries, and what the customer may change.
+  Every card on an option's Personalizer tab, and the page that explains each
+  one.
 icon: layer-group
 ---
 
-# Layer settings
+# Element settings
 
-When the Personalizer is enabled for an option, the remaining settings apply to its **layer**, which is the content drawn on the product photo.
+Once the **Personalizer** switch is on in an option's **Personalizer** tab, the cards below it control the element printed on the product image. Each card is explained on its own page.
 
-These pages describe those settings. For the setup procedure, see [Set up the Personalizer](../setup.md).
+<figure><img src="../../.gitbook/assets/screenshot-personalizer-text-tab-overview.png" alt="The Personalizer tab of a Text option with the Personalizer switch on, showing the Text style and What customers can change cards next to the editor"><figcaption><p>A Text option's Personalizer tab starts with Text style and What customers can change. Position and size and Print area follow further down.</p></figcaption></figure>
 
-## How to find a setting
+## The cards
 
-<table><thead><tr><th width="330">Setting</th><th>Page</th></tr></thead><tbody><tr><td><strong>Color</strong>, <strong>Font size</strong>, <strong>Font style</strong>, <strong>Text alignment</strong></td><td><a href="text-layers.md">Text layers</a></td></tr><tr><td><strong>Font</strong>, Google fonts, custom fonts</td><td><a href="fonts.md">Fonts</a></td></tr><tr><td><strong>Effect</strong>, <strong>Stroke color</strong>, <strong>Effect width</strong>, <strong>Shadow X position</strong>, <strong>Shadow Y position</strong></td><td><a href="effects.md">Text effects</a></td></tr><tr><td><strong>X position</strong>, <strong>Y position</strong>, <strong>Width</strong>, <strong>Height</strong>, <strong>Opacity</strong>, <strong>Rotation</strong></td><td><a href="position-size-rotation.md">Position, size, and rotation</a></td></tr><tr><td><strong>Curve</strong> (<strong>Arc</strong>), <strong>Auto-fit max width</strong></td><td><a href="curve-and-auto-fit.md">Curve and auto-fit width</a></td></tr><tr><td><strong>Crop area</strong>, clip width, height, position, rotation, and hiding</td><td><a href="clip-area.md">Crop area</a></td></tr><tr><td><strong>Image shape</strong>, <strong>Background mode</strong></td><td><a href="image-layers.md">Image layers</a></td></tr><tr><td><strong>Allow customers to</strong> — drag, resize, rotate</td><td><a href="customer-controls.md">Customer controls</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Text style</strong></td><td>Color, font size, alignment, and font style for text elements.</td><td><a href="text-layers.md">text-layers.md</a></td></tr><tr><td><strong>Fonts</strong></td><td>Default, Google, and your own uploaded fonts.</td><td><a href="fonts.md">fonts.md</a></td></tr><tr><td><strong>Text effects</strong></td><td>Stroke, two neon glows, and emboss.</td><td><a href="effects.md">effects.md</a></td></tr><tr><td><strong>Curve and auto-fit width</strong></td><td>Bend a line of text, and shrink it when it gets too long.</td><td><a href="curve-and-auto-fit.md">curve-and-auto-fit.md</a></td></tr><tr><td><strong>Shape and fill</strong></td><td>The shape of an image element, and how the photo fills it.</td><td><a href="image-layers.md">image-layers.md</a></td></tr><tr><td><strong>What customers can change</strong></td><td>Let customers move, resize, or rotate the element on the product image.</td><td><a href="customer-controls.md">customer-controls.md</a></td></tr><tr><td><strong>Let customers pick font and color</strong></td><td>Take the font and color of a text element from another option on the form.</td><td><a href="font-and-color.md">font-and-color.md</a></td></tr><tr><td><strong>Position and size</strong></td><td>X and Y position, width, height, rotation, and opacity.</td><td><a href="position-size-rotation.md">position-size-rotation.md</a></td></tr><tr><td><strong>Print area</strong></td><td>A crop area the element cannot leave.</td><td><a href="clip-area.md">clip-area.md</a></td></tr></tbody></table>
 
-## Which settings a layer has
+## Which cards an element has
 
-A layer is either **text** or an **image**, which determines most of the available settings. For the full table, see [Set up the Personalizer](../setup.md#what-you-get-by-option-type).
+<table><thead><tr><th width="230">Element</th><th width="250">Comes from</th><th>Cards</th></tr></thead><tbody><tr><td><strong>Text</strong></td><td><a href="../../option-types/input-types/text.md">Text</a>, <a href="../../option-types/input-types/textarea.md">Textarea</a>, <a href="../../option-types/input-types/number.md">Number</a></td><td><strong>Text style</strong>, <strong>What customers can change</strong>, <strong>Position and size</strong>, <strong>Print area</strong></td></tr><tr><td><strong>Image</strong></td><td><a href="../../option-types/input-types/file-upload.md">File upload</a> and eight selection types</td><td><strong>Shape and fill</strong>, <strong>What customers can change</strong>, <strong>Position and size</strong>, <strong>Print area</strong></td></tr></tbody></table>
 
-<table><thead><tr><th width="230">Layer</th><th width="250">Comes from</th><th>Gets</th></tr></thead><tbody><tr><td><strong>Text</strong></td><td><a href="../../option-types/input-types/text.md">Text</a>, <a href="../../option-types/input-types/textarea.md">Textarea</a>, <a href="../../option-types/input-types/number.md">Number</a></td><td>Color, size, style, font, effects. Curve and auto-fit on Text and Number; alignment, width, and height on Textarea</td></tr><tr><td><strong>Image</strong></td><td><a href="../../option-types/input-types/file-upload.md">File upload</a> and eight selection types</td><td>Shape and fit mode, width and height</td></tr></tbody></table>
-
-Both types share position, opacity, rotation, a crop area, and customer controls.
+For the settings each option type gets, see [What you get by option type](../setup.md#what-you-get-by-option-type).
 
 {% hint style="warning" %}
-Read these two settings first. They prevent a customer from submitting a design you cannot produce:
+Two settings stop customers from submitting a design you cannot produce:
 
-* [Auto-fit max width](curve-and-auto-fit.md#auto-fit-max-width) reduces the font size of long text instead of letting it extend past the product.
-* [Crop area](clip-area.md) prevents the customer from moving a layer outside the printable area. Set one whenever you enable a [customer control](customer-controls.md).
+* [Auto-fit max width](curve-and-auto-fit.md#auto-fit-max-width) shrinks long text instead of letting it run off the product.
+* [Crop area](clip-area.md) keeps an element on the printable part of the product. Turn it on whenever customers can move or resize the element.
 {% endhint %}
 
 ## Settings are per option
 
-The same option type can be configured differently in two places. For example, a `Name` text layer can use a script font across the front, while a `Date` text layer is small and straight below it. None of these settings are store-wide.
+Each option keeps its own settings. A `Name` text element can use a script font across the front, while a `Date` text element is small and straight below it. Nothing on the **Personalizer** tab is store-wide.
 
-The background is shared by every layer in the option set. See [Choosing the background](../setup.md#choosing-the-background).
+The background is shared by every element in the option set. See [Choosing the background](../setup.md#choosing-the-background).
+
+When the Personalizer is off, the cards stay visible but dimmed, and the option works as a normal form field.

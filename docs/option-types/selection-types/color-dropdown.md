@@ -31,9 +31,11 @@ Use it when the color applies to text, such as thread color, ink color, or foil 
 
 ## Personalizer
 
-Supported as an **image layer**. Each color value can have an image that is displayed on the product photo when it is selected. The settings are image shape, background mode, size, position, rotation, crop area, and customer controls.
+Supported as an **image element**. Each color value can have an image that is displayed on the product photo when it is selected. The settings are image shape, background mode, size, position, rotation, print area, and what customers can change.
 
-Use this when you have a photograph of the product in each color. See [Image layers](../../product-personalizer/layer-settings/image-layers.md).
+Use this when you have a photograph of the product in each color. See [Shape and fill](../../product-personalizer/layer-settings/image-layers.md).
+
+To print a text option in the color the customer picks, link the text option to this option instead. See [Let customers pick font and color](../../product-personalizer/layer-settings/font-and-color.md).
 
 ## Add-on pricing
 

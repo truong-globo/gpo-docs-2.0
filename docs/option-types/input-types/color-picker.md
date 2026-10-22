@@ -55,7 +55,7 @@ Enter text in the text field and change the color. The preview updates.
 {% endstep %}
 {% endstepper %}
 
-To draw the text on the product photo instead of previewing it beside the field, apply the [Personalizer](../../product-personalizer/personalizer.md) to the text option. Color picker has no Personalizer settings of its own.
+To print the text on the product image in the chosen color, turn on the [Personalizer](../../product-personalizer/personalizer.md) for the text option and link it to this Color picker from its **Personalizer** tab. See [Let customers pick font and color](../../product-personalizer/layer-settings/font-and-color.md). Color picker has no Personalizer settings of its own.
 
 ## Add-on pricing
 

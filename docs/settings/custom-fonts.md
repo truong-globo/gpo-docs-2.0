@@ -5,7 +5,7 @@ icon: font
 
 # Custom fonts
 
-Upload a font file once, and it becomes available anywhere the app lets you select a font: the widget's typography, the Personalizer's text layers, and the Font picker option type.
+Upload a font file once, and it becomes available anywhere the app lets you select a font: the widget's typography, the Personalizer's text elements, and the Font picker option type.
 
 Uploading your own fonts makes the preview accurate. If your engraving machine uses a particular typeface, uploading that typeface means the customer sees what they actually receive.
 

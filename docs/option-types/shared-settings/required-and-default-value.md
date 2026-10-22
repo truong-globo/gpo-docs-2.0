@@ -55,11 +55,11 @@ Pre-fills the option so that a customer who makes no changes still submits a val
 * **A default value with an add-on price is charged immediately.** The customer sees the higher price as soon as the page loads, without having to make a selection. This can be useful for a paid upgrade you expect most customers to choose, but it is also the most common reason for questions like, “Why is this product more expensive than the listed price?”
 * On a value-picker type, the default must match one of the option’s current values. If you rename or delete that value, update the default as well.
 * On a **Number** field, a default outside the minimum or maximum is rejected while editing, with the message `The value must be between min and max.`
-* The **Personalizer** displays the default value in the live preview, so a text layer has content to show before the customer starts typing. See [Text layers](../../product-personalizer/layer-settings/text-layers.md).
+* The **Personalizer** displays the default value in the live preview, so a text element has content to show before the customer starts typing. See [Text style](../../product-personalizer/layer-settings/text-layers.md).
 
 **Good uses**
 
-<table><thead><tr><th width="290">Situation</th><th>Default</th></tr></thead><tbody><tr><td>Most customers pick the standard size</td><td>Preselect it — fewer decisions, faster checkout</td></tr><tr><td>Quantity-style number field</td><td><code>1</code></td></tr><tr><td>Free option among paid ones</td><td>Preselect the free one, so nobody is charged by accident</td></tr><tr><td>Personalizer text layer</td><td><code>Your name</code>, so the preview is not blank</td></tr><tr><td>Hidden field carrying fixed information</td><td>The value itself — that is the whole purpose of the type</td></tr></tbody></table>
+<table><thead><tr><th width="290">Situation</th><th>Default</th></tr></thead><tbody><tr><td>Most customers pick the standard size</td><td>Preselect it — fewer decisions, faster checkout</td></tr><tr><td>Quantity-style number field</td><td><code>1</code></td></tr><tr><td>Free option among paid ones</td><td>Preselect the free one, so nobody is charged by accident</td></tr><tr><td>Personalizer text element</td><td><code>Your name</code>, so the preview is not blank</td></tr><tr><td>Hidden field carrying fixed information</td><td>The value itself — that is the whole purpose of the type</td></tr></tbody></table>
 
 <figure><img src="../../.gitbook/assets/2026-08-31_10-21-10.png" alt="An option&#x27;s Basic tab with Required field enabled and a default value selected"><figcaption><p>Required field and Default value, both on the Basic tab.</p></figcaption></figure>
 

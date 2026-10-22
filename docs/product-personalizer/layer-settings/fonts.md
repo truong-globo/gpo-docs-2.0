@@ -1,123 +1,79 @@
 ---
 description: >-
-  Default, Google, and your own uploaded fonts in the live preview — and how to
-  let the customer choose.
+  Print text in the app's default font, a Google font, or your own uploaded
+  font, and let customers choose from a list.
 icon: font-awesome
 ---
 
 # Fonts
 
-The **Font family** setting controls which typeface the text layer is drawn in. Use a font that matches what you produce, so the preview is accurate.
+**Font family**, in the **Text style** card, sets the typeface a text element is printed in. Use the font you produce with, so the design matches the finished product.
 
-**Applies to:** [Text](../../option-types/input-types/text.md), [Textarea](../../option-types/input-types/textarea.md), [Number](../../option-types/input-types/number.md).
-
-**Watch it done — 2:13.** The Personalizer version of font and color preview: the live preview is set up first, then **Font preview** and **Color preview** go on top, so the customer picks a typeface and a shade and watches the product image change.
+**Watch it done (2:13).** The Personalizer version of font and color preview: the live preview is set up first, then the font and color options go on top, so the customer picks a typeface and a shade and watches the product image change.
 
 {% embed url="https://www.youtube.com/watch?v=ih-wLs-KkyE" %}
 
-If you only want the typeface and the shade shown inside the widget, with nothing drawn on the product image, the 1:28 video on [Swatch style and previews](../../option-types/shared-settings/swatch-style-and-previews.md) covers that on its own.
+If you only want the font and color shown inside the form, with nothing printed on the product image, the 1:28 video on [Swatch style and previews](../../option-types/shared-settings/swatch-style-and-previews.md) covers that on its own.
 
 ## The three choices
 
-<table><thead><tr><th width="200">Choice</th><th width="290">What it uses</th><th>Reveals</th></tr></thead><tbody><tr><td><strong>Default</strong></td><td>The app's standard typeface</td><td>Nothing further</td></tr><tr><td><strong>Google</strong></td><td>A font from Google's library</td><td><strong>Select Google font</strong></td></tr><tr><td><strong>Custom</strong></td><td>A font file you uploaded to the app</td><td><strong>Select Custom font</strong></td></tr></tbody></table>
+<table><thead><tr><th width="200">Font family</th><th width="290">What it uses</th><th>Shows</th></tr></thead><tbody><tr><td><strong>Default</strong></td><td>The app's standard typeface</td><td>Nothing more</td></tr><tr><td><strong>Google</strong></td><td>A font from the Google Fonts library</td><td><strong>Select font</strong>, a searchable list</td></tr><tr><td><strong>Custom</strong></td><td>A font file you uploaded to the app</td><td><strong>Select font</strong>, a list of your uploaded fonts</td></tr></tbody></table>
 
-<figure><img src="../../.gitbook/assets/person5.png" alt="The font family setting with Google selected and the font picker open"><figcaption><p>Choosing Google or Custom reveals a picker for the font itself.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/screenshot-personalizer-font-google.png" alt="Font family set to Google with the Select font search list open on a text element"><figcaption><p>Choosing Google or Custom shows Select font, where you pick the font itself.</p></figcaption></figure>
 
 ## Default
 
-The app's own typeface. Use it while building, or when the font is not part of the product.
-
-It is not suitable for engraving or embroidery, because the preview font will not match the font you produce.
+The app's own typeface. Use it while you build, or when the font is not part of the product. It is not a good match for engraving or embroidery, because it will not look like the font you produce.
 
 ## Google
 
-Choose one font from Google's library.
+Search for a font in **Select font** and select it. The text on the canvas changes straight away.
 
-<table><thead><tr><th width="290">Good for</th><th>Watch out for</th></tr></thead><tbody><tr><td>Finding a close match to your production font quickly</td><td>Close is not the same. Check the letterforms your customers will actually use</td></tr><tr><td>Scripts and display faces you do not own</td><td>Very ornate faces read badly at small sizes</td></tr><tr><td>Consistency with your storefront if it already uses a Google font</td><td>Fonts with limited character sets — check accents and non-Latin characters if your customers use them</td></tr></tbody></table>
-
-Test the font with real names, including accented characters, before you publish.
+<table><thead><tr><th width="290">Good for</th><th>Check</th></tr></thead><tbody><tr><td>Finding a close match to your production font quickly</td><td>Close is not the same. Compare the letters your customers will actually use</td></tr><tr><td>Script and display faces you do not own</td><td>Very ornate faces are hard to read at small sizes</td></tr><tr><td>Matching a Google font your storefront already uses</td><td>Accents and non-Latin characters, if your customers use them</td></tr></tbody></table>
 
 ## Custom
 
-Your own font file, uploaded to the app once and then selectable here.
-
-Use this when the font is part of the product. If your engraving machine uses a specific typeface, upload that typeface so the preview matches the result.
+Your own font file, uploaded to the app once and then available in **Select font**. Use it when the font is part of the product, for example the exact typeface your engraving machine uses.
 
 {% stepper %}
 {% step %}
 ### Upload the font
 
-**Settings** > **Settings** > **General** > **Custom fonts**. See [Custom fonts](../../settings/custom-fonts.md).
+Go to **Settings** > **Settings** > **General** > **Custom fonts**. See [Custom fonts](../../settings/custom-fonts.md).
 {% endstep %}
 
 {% step %}
 ### Set Font family to Custom
 
-On the text layer's **Personalizer** tab.
+On the text element's **Personalizer** tab, in **Text style**.
 {% endstep %}
 
 {% step %}
 ### Select the font
 
-From **Select Custom font**.
+Pick it from **Select font**.
 {% endstep %}
 
 {% step %}
-### Check the characters you need
+### Test the characters you need
 
-Upload the font and test it. Check accented letters, punctuation, and digits, because some display fonts do not include them.
+Type accented letters, punctuation, and digits in the **Preview**. Some display fonts do not include them.
 {% endstep %}
 {% endstepper %}
 
 Custom fonts may not be available on all plans. See [Compare plans](../../plans-and-billing/compare-plans.md).
 
-## Letting the customer choose the font
+## Letting customers choose the font
 
-The layer's font is fixed. To let customers select the font, add a [Font picker](../../option-types/selection-types/font-picker.md) option.
-
-{% stepper %}
-{% step %}
-### Add the text option with its Personalizer layer
-
-Set its **Font family** to your most commonly selected font. This becomes the starting font.
-{% endstep %}
-
-{% step %}
-### Add a Font picker option
-
-List only the fonts you can produce. You can add up to 30 Google fonts, plus your custom fonts.
-{% endstep %}
-
-{% step %}
-### Turn on Font preview on the picker
-
-This draws each font name in its own typeface.
-{% endstep %}
-
-{% step %}
-### Point Select text box at the text option
-
-This displays the customer's own text in the selected font, rather than only the font name.
-{% endstep %}
-
-{% step %}
-### Test on a real product page
-
-Change the font and check that the preview updates.
-{% endstep %}
-{% endstepper %}
+The **Font family** you set here is fixed. To let customers choose, add a [Font picker](../../option-types/selection-types/font-picker.md) option and link the text element to it from the **What customers can change** card. The customer's choice then replaces your font on the product image. See [Let customers pick font and color](font-and-color.md).
 
 ## Choosing fonts you can produce
 
-Offer fonts based on what you can produce, not only on their appearance.
-
-<table><thead><tr><th width="290">Ask</th><th>Because</th></tr></thead><tbody><tr><td>Can our machine or supplier actually use this font?</td><td>Otherwise every order needs renegotiating</td></tr><tr><td>Does it include every character our customers type?</td><td>Accents, apostrophes, digits</td></tr><tr><td>Is it legible at the size we engrave?</td><td>Fine hairlines disappear when cut small</td></tr><tr><td>Are we licensed to use it commercially?</td><td>Font licensing applies to your production as well as your website</td></tr></tbody></table>
-
-A short list of fonts you can produce is more useful than a long list you cannot.
+<table><thead><tr><th width="290">Ask</th><th>Because</th></tr></thead><tbody><tr><td>Can our machine or supplier use this font?</td><td>Otherwise every order needs a conversation</td></tr><tr><td>Does it include every character customers type?</td><td>Accents, apostrophes, and digits are often missing</td></tr><tr><td>Is it readable at the size we print?</td><td>Fine strokes disappear when engraved small</td></tr><tr><td>Are we licensed to use it commercially?</td><td>Font licenses cover production as well as your website</td></tr></tbody></table>
 
 ## Notes
 
-* One font per layer. For two fonts on one product, use two options.
-* [Font style](text-layers.md#font-style), which controls bold and italic, is a separate setting. It requires the font to include those versions.
-* Google fonts load from Google when the page renders; custom fonts load from your store's files.
-* Every font in a Font picker list is loaded for the preview, so a long list takes longer to display.
+* One font per element. For two fonts on one product, use two text options.
+* [Font style](text-layers.md#font-style) (bold and italic) is a separate setting and needs the font to include those versions.
+* Google fonts load from Google. Custom fonts load from the app.
+* Every font in a Font picker list is loaded for the preview, so a long list takes longer to show.

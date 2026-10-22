@@ -1,82 +1,66 @@
 ---
 description: >-
   What the customer and your team see after a personalized item is added to the
-  cart.
+  cart and ordered.
 icon: cart-shopping
 ---
 
 # Designs in cart and orders
 
-This page describes what happens to a personalized design after the customer selects **Add to cart**.
+When the customer selects **Add to cart**, the app saves an image of their finished design with the cart line, together with everything they entered.
 
 ## What the customer sees in the cart
 
-The item is listed with its option details below it: the text the customer entered, the design they selected, and any file they uploaded. This is the same as for any other option.
+<table><thead><tr><th width="230">In the cart</th><th>What it shows</th></tr></thead><tbody><tr><td>The product image</td><td>The customer's design, so they recognize their item at a glance</td></tr><tr><td>The option details</td><td>The text they typed, the values they picked, and a thumbnail of any uploaded photo</td></tr><tr><td><strong>Preview Your Design</strong></td><td>A link that opens the full design image</td></tr></tbody></table>
 
-Personalized items also include a link to view the design. The default wording is **Preview Your Design**, and it can be edited in the widget text.
+<figure><img src="../.gitbook/assets/screenshot-personalizer-cart-design.png" alt="A cart line for a personalized t-shirt showing the design as the product image, the uploaded photo, the text, color, and font chosen, and a Preview Your Design link"><figcaption><p>The cart line shows the design, every choice the customer made, and a link to see the design full size.</p></figcaption></figure>
 
 {% hint style="info" %}
-The link appears on your cart page only. If you use a [cart drawer app](../integrations/cart-drawer-apps/), customers cannot preview their design from the drawer and have to open the cart page.
+**Preview Your Design** appears on your cart page. If you use a [cart drawer app](../integrations/cart-drawer-apps/), customers open the cart page to see the full design.
 {% endhint %}
 
-## Preview mode
+## Personalizer preview mode
 
-How the design is displayed is controlled by a store-wide setting.
+How **Preview Your Design** opens is a store-wide setting: **Settings** > **Settings** > **General** > **Cart page** > **Personalizer preview mode**.
 
-**Settings** > **Settings** > **General** > **Cart page** > **Personalize preview mode**
+<table><thead><tr><th width="230">Mode</th><th>What happens</th></tr></thead><tbody><tr><td><strong>View in modal</strong> (default)</td><td>The design opens in a window on the cart page</td></tr><tr><td><strong>Download file</strong></td><td>The design downloads as an image file</td></tr></tbody></table>
 
-<table><thead><tr><th width="230">Mode</th><th width="290">Behavior</th><th>Use when</th></tr></thead><tbody><tr><td><strong>View in modal</strong></td><td>The design opens in a dialog on the cart page. The default</td><td>Almost always. The customer checks it without leaving the cart</td></tr><tr><td><strong>Download file</strong></td><td>The design is downloaded as a file</td><td>Customers need to keep or forward a copy — approving artwork with a colleague, for instance</td></tr></tbody></table>
+**View in modal** suits most stores, because customers check the design without leaving the cart. This setting may not be available on all plans. See [Cart page](../storefront-display-and-design/cart-page.md#personalize-preview-mode).
 
-**View in modal** is the recommended value. It lets the customer check the design without downloading a file.
+<figure><img src="../.gitbook/assets/2026-09-04_16-38-28.png" alt="A cart line with its option details and the design preview open in a modal"><figcaption><p>With View in modal, the customer checks the design without leaving the cart.</p></figcaption></figure>
 
-This setting may not be available on all plans. See [Compare plans](../plans-and-billing/compare-plans.md).
+## Letting customers fix a mistake
 
-<figure><img src="../.gitbook/assets/2026-09-04_16-38-28.png" alt="A cart line with its option details and the design preview open in a modal"><figcaption><p>The customer can check their design from the cart before paying.</p></figcaption></figure>
+**Show "Edit Options" button in cart**, under **Settings** > **Settings** > **General** > **Cart page**, lets customers reopen the form from the cart and change their choices, including the design. Without it, a customer who spots a typo has to remove the item and start again. See [Cart page](../storefront-display-and-design/cart-page.md#show-edit-options-button-in-cart).
 
-## Letting customers change their mind
+## What your team sees on the order
 
-**Show "Edit Options" button in cart**, also under **Settings** > **Settings** > **General** > **Cart page**, lets customers reopen the option form from the cart and change their selections, including their personalization.
+The order in Shopify admin lists the item with the customer's choices: the text, the selected values, the font and color, and a link to the uploaded photo.
 
-Enable this for personalized products. Without it, a customer who finds a typo in their engraving after adding to cart has to remove the item and start again.
+In the app, the **Orders** page shows the same order with its option summary and files, and can export the design images. See [Order details](../orders/order-details.md).
 
-This setting may not be available on all plans. See [Cart page](../storefront-display-and-design/cart-page.md).
+<table><thead><tr><th width="290">To get the files out</th><th>Use</th></tr></thead><tbody><tr><td>One order at a time</td><td><strong>Download</strong> or <strong>Download all</strong> on the order. See <a href="../orders/order-details.md#files">Order details</a></td></tr><tr><td>Many orders at once</td><td><strong>Export files</strong> with <strong>Personalization previews</strong> ticked. See <a href="../orders/export.md#exporting-files">Export orders and files</a></td></tr><tr><td>Automatically, as orders arrive</td><td><a href="../automations/google-drive-sync/README.md">Google Drive sync</a>, with <strong>Also sync personalizer design images</strong> turned on</td></tr><tr><td>Printed paperwork</td><td>Order emails, invoices, and packing slips. See <a href="../storefront-display-and-design/show-options-on-orders/">Show options on orders</a></td></tr></tbody></table>
 
-## What you see on the order
+Two habits make orders easier to produce:
 
-The order in Shopify admin lists the item with its option details: the text, the selected values, and links to any uploaded files.
-
-Your production team works from these details. Two settings determine how clear they are:
-
-<table><thead><tr><th width="290">Do this</th><th>Because</th></tr></thead><tbody><tr><td>Give every option a readable <strong>Name</strong></td><td>The Name is what appears on the order. <code>Engraving text: Forever yours</code> is actionable; <code>text: Forever yours</code> is not. See <a href="../option-types/shared-settings/labels-and-visibility.md">Label and Name</a></td></tr><tr><td>Include everything production needs as an option</td><td>If the font matters, ask for it as a <a href="../option-types/selection-types/font-picker.md">Font picker</a> option so it is recorded, rather than relying on a default nobody wrote down</td></tr></tbody></table>
-
-## Getting the details out of Shopify admin
-
-There are three options, depending on how your team works:
-
-<table><thead><tr><th width="290">Route</th><th>Good for</th></tr></thead><tbody><tr><td>Reading the order in Shopify admin</td><td>Low volume. Nothing to set up</td></tr><tr><td>Order confirmation emails, invoices, and packing slips</td><td>Anybody who works from printed paperwork. Option details appear automatically. See <a href="../storefront-display-and-design/show-options-on-orders/">Show options on orders</a></td></tr><tr><td>An <a href="../automations/automations.md">automation</a></td><td>Higher volume — email yourself the options as each order arrives, or write them into the order notes so they appear everywhere the note does</td></tr></tbody></table>
-
-If you sell personalized products regularly, set up the automations early. See [Email notification](../automations/email-notification.md) and [Order notes update](../automations/update-order-notes.md).
+* **Give each option a clear Name on cart page.** It is the label your team reads on the order. `Engraving text: Forever yours` is clear. `text-1: Forever yours` is not. See [Labels and visibility](../option-types/shared-settings/labels-and-visibility.md).
+* **Ask for everything production needs.** If the font matters, offer it in a [Font picker](../option-types/selection-types/font-picker.md) so it is recorded on the order.
 
 ## Uploaded files
 
-Uploaded files are attached to the order, so your team can download the originals from the order in Shopify admin.
+The customer's original upload is kept with the order, separate from the design image, so you can print from the full-size file.
 
-Two points to note:
+* State the size you need in the File upload option's [help text](../option-types/shared-settings/placeholder-and-help-text.md#help-text). The design accepts small files that may not print well.
+* Turn on the File upload option's image editor so customers crop their photo before uploading. See [File upload](../option-types/input-types/file-upload.md).
 
-* State the resolution you need in the option's [help text](../option-types/shared-settings/placeholder-and-help-text.md#help-text). The preview also displays low-resolution files that are not suitable for printing.
-* Enable the upload option's image editor so customers crop their own photos before uploading. See [File upload](../option-types/input-types/file-upload.md).
+## Set expectations about the design
 
-## Set expectations about the preview
+The design is a guide, not a print proof. Screens are not color-calibrated, and final placement can vary slightly. Add help text such as "The preview is a guide. Colors may vary slightly from your screen."
 
-The preview is a representation, not a print proof. Screens are not color-calibrated, and final placement can vary slightly.
-
-Add a line of help text such as "The preview is a guide. Colors may vary slightly from your screen."
-
-For high-value personalized items, add your own proofing step. Use a [Switch](../option-types/input-types/switch.md) that offers an emailed proof before production, either free or priced.
+For expensive items, offer a proof before production, for example with a [Switch](../option-types/input-types/switch.md) labeled `Email me a proof first`.
 
 ## Notes
 
-* Option values, including personalization text, reach the order as line item properties. See [Line item properties](../storefront-display-and-design/show-options-on-orders/).
-* Add-on products attached to personalization appear as their own cart lines unless you merge them. See [Merge main product and add-ons](../add-on-pricing/merge-as-bundle.md).
-* Orders keep the option names they were placed with. Renaming an option later does not change existing orders.
-* The **Preview Your Design** and **Your Design** wording can be edited for each language under **Settings > Translations**.
+* Add-on products appear as their own cart lines unless you merge them. See [Merge main product and add-ons](../add-on-pricing/merge-as-bundle.md).
+* Orders keep the option names they were placed with. Renaming an option later does not change past orders.
+* The **Preview Your Design** wording can be translated under **Settings > Translations**.

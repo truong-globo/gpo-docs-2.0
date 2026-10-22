@@ -35,7 +35,9 @@ Larger chips push the **Add to cart** button further down the page. With more th
 
 ## Personalizer
 
-Supported as an **image layer**. Each color value can have an image, usually a photograph of the product in that color, that is drawn onto the product photo when the value is selected. The settings are image shape, background mode, size, position, rotation, crop area, and customer controls. See [Image layers](../../product-personalizer/layer-settings/image-layers.md).
+Supported as an **image element**. Each color value can have an image, usually a photograph of the product in that color, that is drawn onto the product photo when the value is selected. The settings are image shape, background mode, size, position, rotation, print area, and what customers can change. See [Shape and fill](../../product-personalizer/layer-settings/image-layers.md).
+
+To print a text option in the color the customer picks, link the text option to this option instead. See [Let customers pick font and color](../../product-personalizer/layer-settings/font-and-color.md).
 
 ## Add-on pricing
 

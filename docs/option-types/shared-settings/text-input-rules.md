@@ -67,6 +67,6 @@ They are independent and combine cleanly. A typical engraving field:
 
 ## Notes
 
-* The Personalizer live preview displays the transformed text, so what the customer sees on the product photo matches the value that will be produced. See [Text layers](../../product-personalizer/layer-settings/text-layers.md).
+* The Personalizer live preview displays the transformed text, so what the customer sees on the product photo matches the value that will be produced. See [Text style](../../product-personalizer/layer-settings/text-layers.md).
 * Neither setting affects the option’s **Label**, **Name**, or **Help text** — they apply only to the customer’s input.
 * Neither setting applies to other option types. For example, a dropdown’s values are predefined by you, so there is nothing for the customer to restrict or normalize.

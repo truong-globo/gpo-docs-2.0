@@ -1,65 +1,57 @@
 ---
-description: Color, size, style, and alignment for text drawn on the product photo.
+description: >-
+  Color, font size, alignment, font style, font family, and effect for text
+  printed on the product image.
 icon: font
 ---
 
-# Text layers
+# Text style
 
-A text layer draws the text the customer entered onto the product image. These settings control its appearance.
+The **Text style** card controls how a text element looks on the product image. It is the first card on the **Personalizer** tab of a Text, Textarea, or Number option.
 
-**Applies to:** [Text](../../option-types/input-types/text.md), [Textarea](../../option-types/input-types/textarea.md), [Number](../../option-types/input-types/number.md).
+<figure><img src="../../.gitbook/assets/screenshot-personalizer-text-style.png" alt="The Text style card with Color, Font size, Auto-fit max width, Curve, Font style, Font family, and Effect settings for a text element on a tote bag"><figcaption><p>Text style holds everything about how the text itself looks.</p></figcaption></figure>
 
 ## The settings
 
-<table><thead><tr><th width="230">Setting</th><th width="170">Default</th><th>What it does</th></tr></thead><tbody><tr><td><strong>Text color</strong></td><td>Black</td><td>The color the text is drawn in.</td></tr><tr><td><strong>Font size</strong></td><td><code>6</code></td><td>The size, on a scale from 0 to 50 relative to the image.</td></tr><tr><td><strong>Text alignment</strong></td><td><strong>Center</strong></td><td><strong>Left</strong>, <strong>Center</strong>, or <strong>Right</strong>. <strong>Textarea only.</strong></td></tr><tr><td><strong>Font style</strong></td><td><strong>Normal</strong></td><td><strong>Normal</strong>, <strong>Italic</strong>, or <strong>Bold</strong>.</td></tr><tr><td><strong>Font family</strong></td><td><strong>Default</strong></td><td><strong>Default</strong>, <strong>Google</strong>, or <strong>Custom</strong>. See <a href="fonts.md">Fonts</a>.</td></tr></tbody></table>
+<table><thead><tr><th width="230">Setting</th><th width="170">Default</th><th>What it does</th></tr></thead><tbody><tr><td><strong>Color</strong></td><td><code>#000000</code></td><td>The color the text is printed in</td></tr><tr><td><strong>Font size</strong></td><td><code>6</code></td><td>The text size, from 0 to 50, relative to the image</td></tr><tr><td><strong>Auto-fit max width</strong></td><td>Off</td><td>Shrinks long text to fit a width. Text and Number only. See <a href="curve-and-auto-fit.md#auto-fit-max-width">Auto-fit max width</a></td></tr><tr><td><strong>Curve</strong></td><td><code>0%</code></td><td>Bends the line of text. Text and Number only. See <a href="curve-and-auto-fit.md#curve">Curve</a></td></tr><tr><td><strong>Text alignment</strong></td><td><strong>Center</strong></td><td><strong>Left</strong>, <strong>Center</strong>, or <strong>Right</strong>. Textarea only</td></tr><tr><td><strong>Font style</strong></td><td><strong>Normal</strong></td><td><strong>Normal</strong>, <strong>Italic</strong>, or <strong>Bold</strong></td></tr><tr><td><strong>Font family</strong></td><td><strong>Default</strong></td><td><strong>Default</strong>, <strong>Google</strong>, or <strong>Custom</strong>. See <a href="fonts.md">Fonts</a></td></tr><tr><td><strong>Effect</strong></td><td><strong>No effect</strong></td><td><strong>Stroke</strong>, <strong>Neon 1</strong>, <strong>Neon 2</strong>, or <strong>Emboss</strong>. See <a href="effects.md">Text effects</a></td></tr></tbody></table>
 
-The remaining text layer settings are documented on their own pages: [effects](effects.md), [position, size, and rotation](position-size-rotation.md), [curve and auto-fit](curve-and-auto-fit.md), [crop area](clip-area.md), and [customer controls](customer-controls.md).
+## Color
 
-<figure><img src="../../.gitbook/assets/person4.png" alt="The text layer settings for color, font size, font style, and font family"><figcaption><p>The first group on the Personalizer tab styles the text itself.</p></figcaption></figure>
+Pick a color you can actually produce. If you engrave in silver, a light gray preview is closer to the result than black.
+
+Check the color against the product image, not the settings panel. Dark text on a dark product is hard to read.
+
+To let customers choose the color, link the text to a Color picker, Color swatch, or Color dropdown option. Your **Color** is then shown only until the customer picks one. See [Let customers pick font and color](font-and-color.md).
 
 ## Font size
 
-The scale runs from 0 to 50 and is relative to the background image rather than measured in points. This keeps the layer in proportion at any display size, from a phone to a large monitor.
+The scale runs from 0 to 50 and is relative to the background image, not measured in points. The text keeps its proportion on a phone and on a large screen.
 
-The default value is `6`. The value you need depends on how much of the image the personalization should cover.
+<table><thead><tr><th width="230">Roughly</th><th>Suits</th></tr></thead><tbody><tr><td><code>3</code> to <code>5</code></td><td>Small engraving, such as a monogram or the inside of a ring</td></tr><tr><td><code>6</code> to <code>10</code></td><td>A typical engraved or printed name</td></tr><tr><td><code>12</code> to <code>20</code></td><td>A bold statement, such as a jersey number</td></tr><tr><td><code>25</code> and up</td><td>Text as the main design</td></tr></tbody></table>
 
-<table><thead><tr><th width="230">Roughly</th><th>Suits</th></tr></thead><tbody><tr><td><code>3</code>–<code>5</code></td><td>Small discreet engraving — the inside of a ring, a subtle monogram</td></tr><tr><td><code>6</code>–<code>10</code></td><td>Typical engraving or printed name</td></tr><tr><td><code>12</code>–<code>20</code></td><td>A bold statement — a jersey number, a large printed word</td></tr><tr><td><code>25</code>+</td><td>Text as the main design element</td></tr></tbody></table>
-
-Set the value against your own background image, then check it with the longest entry your **Max character** limit allows.
-
-## Text color
-
-Two points to consider:
-
-**Contrast.** Dark text on a dark product is difficult to read. Check the color against the background image you configured, not against the builder panel.
-
-**Accuracy.** Use a color you can produce. If you engrave in silver, a preview in black is closer to the result than a preview in bright blue.
-
-The color set here is fixed. To let the customer select the color and see it applied to their text, use the **Color preview** and **Select text box** settings on a [Color picker](../../option-types/input-types/color-picker.md) or [Color swatch](../../option-types/selection-types/color-swatch.md) option. See [Swatch style and previews](../../option-types/shared-settings/swatch-style-and-previews.md#color-preview).
+Set the size against your own product image, then test it with the longest entry your **Max character** limit allows.
 
 ## Text alignment
 
-Available on **Textarea** only, because it is the only text type that produces more than one line.
+Available on Textarea only, because it is the only text type with several lines. Alignment works inside the element's **Width**, set in [Position and size](position-size-rotation.md).
 
-<table><thead><tr><th width="200">Alignment</th><th>Use for</th></tr></thead><tbody><tr><td><strong>Left</strong></td><td>Addresses, lists, anything read as a block</td></tr><tr><td><strong>Center</strong></td><td>Messages, verses, greetings. The default and usually right</td></tr><tr><td><strong>Right</strong></td><td>Rarely — a signature, or a deliberately asymmetric design</td></tr></tbody></table>
-
-Alignment applies within the layer's **Width**, which Textarea also has. Without a width, alignment has no visible effect.
+<table><thead><tr><th width="200">Alignment</th><th>Use for</th></tr></thead><tbody><tr><td><strong>Left</strong></td><td>Addresses, lists, anything read as a block</td></tr><tr><td><strong>Center</strong></td><td>Messages and greetings. The default</td></tr><tr><td><strong>Right</strong></td><td>A signature or a deliberately one-sided design</td></tr></tbody></table>
 
 ## Font style
 
-The values are **Normal**, **Italic**, and **Bold**. The style applies to the whole layer. You cannot apply it to part of the text.
+**Normal**, **Italic**, or **Bold** applies to the whole element. You cannot style part of the text.
 
-Not every font includes a true italic or bold version. If a custom font does not, the text may appear artificially slanted or thickened. Test the result.
+If a font has no real italic or bold version, the text may look slanted or thickened artificially. Test the result.
 
-## A worked example
+## Example
 
 An engraved bracelet:
 
-<table><thead><tr><th width="290">Setting</th><th>Value</th></tr></thead><tbody><tr><td>Option type</td><td>Text, <strong>Max character</strong> 15</td></tr><tr><td>Default value</td><td><code>Your name</code></td></tr><tr><td>Text color</td><td>A light gray, matching engraved silver</td></tr><tr><td>Font size</td><td><code>5</code></td></tr><tr><td>Font style</td><td><strong>Normal</strong></td></tr><tr><td>Font family</td><td><strong>Google</strong>, a clean script</td></tr><tr><td>Position</td><td>Centered on the bracelet plate</td></tr><tr><td>Auto-fit max width</td><td>On, so long names shrink rather than overflow</td></tr></tbody></table>
+<table><thead><tr><th width="290">Setting</th><th>Value</th></tr></thead><tbody><tr><td>Option</td><td>Text, <strong>Max character</strong> 15, <strong>Default value</strong> <code>Your name</code></td></tr><tr><td><strong>Color</strong></td><td>A light gray, like engraved silver</td></tr><tr><td><strong>Font size</strong></td><td><code>5</code></td></tr><tr><td><strong>Auto-fit max width</strong></td><td>On, so long names shrink instead of running off the plate</td></tr><tr><td><strong>Font family</strong></td><td><strong>Google</strong>, a clean script</td></tr><tr><td><strong>Effect</strong></td><td><strong>Emboss</strong> with small offsets</td></tr></tbody></table>
 
 ## Notes
 
-* Set a **Default value** on the **Basic** tab so the preview is never empty.
-* [Text transform](../../option-types/shared-settings/text-input-rules.md#text-transform) is applied before the text is rendered, so the layer displays the transformed text.
-* The layer displays the current entry, so a **Max character** limit also limits how far the text can extend.
-* Number layers work the same way as Text layers. Use them for jersey numbers, years, and other numeric values.
+* Set a **Default value** on the **Basic** tab so the design is never empty.
+* [Text transform](../../option-types/shared-settings/text-input-rules.md#text-transform) is applied before the text is printed, so the element shows the transformed text.
+* A **Max character** limit also limits how far the text can run.
+* Number elements work like Text elements. Use them for jersey numbers and years.

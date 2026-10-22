@@ -1,73 +1,58 @@
 ---
 description: >-
-  Let customers move, resize, and rotate a layer themselves — and how to do it
-  without breaking your production.
+  Choose what customers can adjust on the product image: move, resize, or
+  rotate an element, and for text, pick the font and color.
 icon: hand
 ---
 
-# Customer controls
+# What customers can change
 
-**Allow customers to** controls which adjustments the customer can make to a layer directly on the product image.
+The **What customers can change** card decides what customers may adjust themselves on the product image. Its help text sums up the rule: **Whatever you leave off stays exactly where you put it.**
 
-These permissions let the customer arrange the design themselves. They can also produce designs you cannot produce, so always use them together with a crop area.
+All options are off by default, so customers only change the content: the text they type or the photo they upload.
 
-**Applies to:** all twelve option types that support the Personalizer.
+## On a text element
+
+The card has two parts.
+
+<table><thead><tr><th width="230">Part</th><th>What it controls</th></tr></thead><tbody><tr><td><strong>Font and color</strong></td><td>Lets customers pick the font and color in another option on the form. See <a href="font-and-color.md">Let customers pick font and color</a></td></tr><tr><td><strong>Position and size</strong></td><td><strong>Change position</strong>, <strong>Resize</strong>, and <strong>Rotate</strong> on the product image</td></tr></tbody></table>
+
+<figure><img src="../../.gitbook/assets/screenshot-personalizer-text-what-customers-can-change.png" alt="The What customers can change card of a text element with the Font and color links and the Change position, Resize, and Rotate checkboxes"><figcaption><p>On a text element, the card covers both the font and color source and what customers can move.</p></figcaption></figure>
+
+## On an image element
+
+The card has the three checkboxes only.
+
+<figure><img src="../../.gitbook/assets/screenshot-personalizer-image-customer-controls.png" alt="The What customers can change card of an image element with Change position and Resize ticked and Rotate unticked"><figcaption><p>For a photo upload, Change position and Resize let customers frame their own photo.</p></figcaption></figure>
 
 ## The three permissions
 
-<table><thead><tr><th width="230">Permission</th><th>What the customer can do</th></tr></thead><tbody><tr><td><strong>Change position</strong></td><td>Drag the layer around the image</td></tr><tr><td><strong>Resize</strong></td><td>Make the layer larger or smaller</td></tr><tr><td><strong>Rotate</strong></td><td>Turn the layer</td></tr></tbody></table>
-
-All three are off by default, and you can enable any combination. With none enabled, the layer stays where you placed it, and the customer changes its content only.
-
-<figure><img src="../../.gitbook/assets/person12.png" alt="The Allow customers to setting with change position, resize, and rotate"><figcaption><p>Three permissions, all off by default.</p></figcaption></figure>
-
-## Always pair them with a crop area
+<table><thead><tr><th width="230">Permission</th><th>What the customer can do</th></tr></thead><tbody><tr><td><strong>Change position</strong></td><td>Drag the element on the product image</td></tr><tr><td><strong>Resize</strong></td><td>Drag the handles to make it bigger or smaller. Text has corner handles only, so it keeps its shape</td></tr><tr><td><strong>Rotate</strong></td><td>Drag the handle above it to turn it</td></tr></tbody></table>
 
 {% hint style="warning" %}
-If you enable any of these permissions, set a [crop area](clip-area.md) as well.
+If you turn on any of these, also turn on **Crop area** in the [Print area](clip-area.md) card. Without it, a customer can drag a photo onto the handle of a mug or stretch text across the whole product, and the order is placed with that design.
 
-Without one, a customer can drag their photo onto the handle of a mug, resize their text to cover the whole product, or rotate a design to an angle you cannot print. The preview displays the result, and the order is placed with it.
-
-A crop area limits their adjustments to the area you can produce on.
+Leave **Hide the outline** off so customers can see the area they can work in.
 {% endhint %}
-
-When customers can drag a layer, leave the crop area outline **visible** and do not enable **Hide the outline**. The outline shows them the area they can work in.
-
-## When to enable them
-
-<table><thead><tr><th width="290">Situation</th><th>Enable</th><th>Why</th></tr></thead><tbody><tr><td>A customer photo in a frame</td><td><strong>Change position</strong>, <strong>Resize</strong></td><td>Only they know which part of their photo matters</td></tr><tr><td>A logo on a garment</td><td><strong>Change position</strong>, <strong>Resize</strong></td><td>Placement is part of what they are buying</td></tr><tr><td>An engraved name on a plate</td><td>Nothing</td><td>You know where the plate is. Let them type, not position</td></tr><tr><td>A design chosen from your own list</td><td>Nothing</td><td>You positioned it correctly already</td></tr><tr><td>A free-form collage or sticker layout</td><td>All three</td><td>The arrangement is the product</td></tr><tr><td>Text on a curved surface</td><td>Nothing</td><td><a href="curve-and-auto-fit.md">Curve</a> handles it better than a customer can</td></tr></tbody></table>
-
-Enable these permissions when **placement is the customer's decision**. Leave them off when placement is **a production constraint**.
-
-## Rotation
-
-Rotation causes the most problems. A rotated engraving is often not producible, and a slightly rotated photo in a frame looks like an error.
-
-Enable it only where an angled result is a valid product, such as a free-form collage, a scattered sticker layout, or a hand-arranged design.
 
 ## What the customer sees
 
-With any permission enabled, selecting the layer on the product image displays handles. The app also displays short instructions telling the customer to drag to move the layer, and to use the handles to resize or rotate it.
+On the product page, the customer clicks or taps the element to select it. Handles appear for what you allowed, and they can drag the element itself if **Change position** is on. On phones and tablets the handles are larger, so they are easier to grab.
 
-This wording is part of the widget text and can be edited for each language under **Settings > Translations**. See [Translate widget text](../../translations-and-languages/translate-widget-text.md).
+<figure><img src="../../.gitbook/assets/screenshot-personalizer-storefront-move-resize.png" alt="A storefront t-shirt with the customer&#x27;s photo selected, showing resize handles inside the dashed print area"><figcaption><p>On the storefront, selecting the photo shows handles for resizing, and the dashed outline shows where it can go.</p></figcaption></figure>
 
-## Where their adjustments go
+Your **Position and size** values are the starting point. The customer's final arrangement is what goes into the design saved with the order. See [Designs in cart and orders](../cart-and-orders.md).
 
-The customer's final arrangement is included in the design stored with the order, so you produce what they arranged.
+## When to turn them on
 
-Your position, size, and rotation settings are the **starting point** the customer adjusts from, so set them correctly. A layer that starts in the right place requires fewer adjustments.
+<table><thead><tr><th width="290">Situation</th><th width="200">Turn on</th><th>Why</th></tr></thead><tbody><tr><td>A customer photo in a frame or print area</td><td><strong>Change position</strong>, <strong>Resize</strong></td><td>Only they know which part of the photo matters</td></tr><tr><td>A logo on a garment</td><td><strong>Change position</strong>, <strong>Resize</strong></td><td>Placement is part of what they are buying</td></tr><tr><td>An engraved name on a plate</td><td>Nothing</td><td>You know where the plate is</td></tr><tr><td>A design chosen from your own list</td><td>Nothing</td><td>You placed it already</td></tr><tr><td>A free-form sticker or collage layout</td><td>All three</td><td>The arrangement is the product</td></tr><tr><td>Text on a curved surface</td><td>Nothing</td><td><a href="curve-and-auto-fit.md#curve">Curve</a> handles it better</td></tr></tbody></table>
 
-See [Designs in cart and orders](../cart-and-orders.md).
+Turn them on when placement is the customer's decision. Leave them off when placement is a production limit.
 
-## Example configuration
-
-A photo frame where the customer positions their own photo:
-
-<table><thead><tr><th width="290">Setting</th><th>Value</th></tr></thead><tbody><tr><td>Option</td><td>File upload, required, image editor on</td></tr><tr><td>Image shape</td><td>Matching the frame aperture</td></tr><tr><td>Background mode</td><td><strong>Cover</strong></td></tr><tr><td>Position and size</td><td>Filling the aperture — a sensible starting point</td></tr><tr><td>Crop area</td><td>On, matching the aperture, outline visible</td></tr><tr><td>Allow customers to</td><td><strong>Change position</strong>, <strong>Resize</strong></td></tr><tr><td>Rotate</td><td>Off</td></tr><tr><td>Help text</td><td><code>Drag your photo to position it. Anything outside the frame will not be printed.</code></td></tr></tbody></table>
+**Rotate** causes the most trouble. A slightly turned photo in a frame looks like a mistake, and turned engraving is often impossible to produce. Use it only where an angled result is a real product.
 
 ## Notes
 
-* Permissions are per layer, so one layer can be adjustable while another is fixed.
-* They affect the preview and the recorded design only. They do not affect other layers.
-* Both touch and mouse input are supported, but a small layer is difficult to position on a phone. Do not rely on precise dragging on mobile.
-* State in the help text what happens to any part of the design outside the printable area.
+* Permissions are per element, so one element can move while another stays fixed.
+* Small elements are hard to drag on a phone. Set a starting position that most customers will keep.
+* Say in the option's help text what happens to anything outside the print area, for example "Anything outside the dashed line is not printed."

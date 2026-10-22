@@ -59,7 +59,7 @@ When enabled, the **Select text box** setting appears. Use it to select a text o
 
 <figure><img src="../../.gitbook/assets/color preview.png" alt=""><figcaption></figcaption></figure>
 
-To draw the customer's text onto the product image, use the [Personalizer](../../product-personalizer/personalizer.md) instead.
+To print the customer's text onto the product image in the chosen color, turn on the [Personalizer](../../product-personalizer/personalizer.md) for the text option and link it to this color option. The link sets **Color preview** and **Select text box** for you. See [Let customers pick font and color](../../product-personalizer/layer-settings/font-and-color.md).
 
 ## Font preview
 

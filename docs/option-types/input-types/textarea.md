@@ -31,11 +31,11 @@ Textarea has exactly the same settings as [Text](text.md), on both tabs:
 
 Text and Textarea behave differently in the live preview, because Text is a single line and Textarea is a block.
 
-<table><thead><tr><th width="250">Personalizer setting</th><th width="130">Text</th><th>Textarea</th></tr></thead><tbody><tr><td>Text color, Font size, Font style, Font family</td><td>Yes</td><td>Yes</td></tr><tr><td><strong>Text alignment</strong></td><td>No</td><td><strong>Yes</strong> — left, centre, or right</td></tr><tr><td><strong>Width</strong> and <strong>Height</strong></td><td>No</td><td><strong>Yes</strong> — the block the text wraps inside</td></tr><tr><td><strong>Curve</strong></td><td><strong>Yes</strong></td><td>No</td></tr><tr><td><strong>Auto-fit max width</strong></td><td><strong>Yes</strong></td><td>No</td></tr><tr><td>Position, opacity, rotation</td><td>Yes</td><td>Yes</td></tr><tr><td>Text effects</td><td>Yes</td><td>Yes</td></tr><tr><td>Crop area, customer controls</td><td>Yes</td><td>Yes</td></tr></tbody></table>
+<table><thead><tr><th width="250">Personalizer setting</th><th width="130">Text</th><th>Textarea</th></tr></thead><tbody><tr><td>Color, Font size, Font style, Font family</td><td>Yes</td><td>Yes</td></tr><tr><td><strong>Text alignment</strong></td><td>No</td><td><strong>Yes</strong>: left, center, or right</td></tr><tr><td><strong>Width</strong> and <strong>Height</strong></td><td>No</td><td><strong>Yes</strong>: the block the text wraps inside</td></tr><tr><td><strong>Curve</strong></td><td><strong>Yes</strong></td><td>No</td></tr><tr><td><strong>Auto-fit max width</strong></td><td><strong>Yes</strong></td><td>No</td></tr><tr><td>Position, opacity, rotation</td><td>Yes</td><td>Yes</td></tr><tr><td>Text effects</td><td>Yes</td><td>Yes</td></tr><tr><td>Print area, What customers can change</td><td>Yes</td><td>Yes</td></tr></tbody></table>
 
-A Textarea layer is a block that you size and align, and the customer's lines wrap inside it. A Text layer is a single line that you can bend along a curve.
+A Textarea element is a block that you size and align, and the customer's lines wrap inside it. A Text element is a single line that you can bend along a curve.
 
-See [Text layers](../../product-personalizer/layer-settings/text-layers.md) and [Position, size, and rotation](../../product-personalizer/layer-settings/position-size-rotation.md).
+See [Text style](../../product-personalizer/layer-settings/text-layers.md) and [Position and size](../../product-personalizer/layer-settings/position-size-rotation.md).
 
 ## Add-on pricing
 

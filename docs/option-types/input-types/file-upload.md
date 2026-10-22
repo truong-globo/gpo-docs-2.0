@@ -52,10 +52,10 @@ Its personalizer settings are:
 * **Image shape**: a preset shape to mask the image into, or a shape you upload
 * **Background mode**: how the image fits the shape. The values are **Stretch**, **Cover**, **Contain**, **Full width**, and **Full height**
 * **Width**, **Height**, **X position**, **Y position**, **Opacity**, **Rotation**
-* **Crop area**: a region the image cannot be moved outside of
-* **Allow customers to**: change position, resize, or rotate the image
+* **Crop area**, in **Print area**: a region the image cannot be moved outside of
+* **What customers can change**: **Change position**, **Resize**, or **Rotate**
 
-Use these settings to let a customer upload a photo and see it on the product. See [Image layers](../../product-personalizer/layer-settings/image-layers.md) and [Customer controls](../../product-personalizer/layer-settings/customer-controls.md).
+Use these settings to let a customer upload a photo and see it on the product. See [Shape and fill](../../product-personalizer/layer-settings/image-layers.md) and [What customers can change](../../product-personalizer/layer-settings/customer-controls.md).
 
 ## Add-on pricing
 

@@ -30,6 +30,10 @@ Because the preview does not use your theme's styling, differences in font and c
 
 <figure><img src="../.gitbook/assets/2026-08-28_13-46-30.png" alt="The builder header controls for editor and preview, viewport, inspector, and language"><figcaption><p>The header controls change what the preview shows, not what customers get.</p></figcaption></figure>
 
+## With the Personalizer on
+
+Once an option has the Personalizer turned on, the builder adds the Personalizer editor, where you place the design on the product image. On a wide screen it sits next to the preview. On a smaller screen, or in desktop view, the preview gets two tabs: **Option form** and **Personalizer**. What you enter in the preview form is drawn in the editor. See [The Personalizer editor](../product-personalizer/editor.md) and [Test like a customer](../product-personalizer/test-like-a-customer.md).
+
 ## The inspector
 
 Turn on the inspector to make the preview interactive. Hover over an option to highlight it, then click it to open its settings in the panel. This lets you quickly go from spotting an issue in the preview to editing the corresponding option.

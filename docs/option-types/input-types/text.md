@@ -43,7 +43,7 @@ Pair **Per character** with a **Max character** so the charge has a clear ceilin
 
 **Text** is fully supported by the live preview: the customer’s text appears on the product photo as they type.
 
-Its personalizer settings include color, font size, font style, font family — including a default font, a Google font, or one of your uploaded fonts — as well as position, opacity, rotation, five text effects, a crop area, and the transformations customers are allowed to apply.
+Its Personalizer settings include color, font size, font style, and font family (the default font, a Google font, or one of your uploaded fonts), four text effects, position, rotation, opacity, a print area, and what customers can change. Customers can also pick the font and color in a Font picker or color option. See [Let customers pick font and color](../../product-personalizer/layer-settings/font-and-color.md).
 
 Two settings are specific to **Text** and **Number** because they are single-line types: **Curve**, which bends the text along an arc, and **Auto-fit max width**, which reduces the font size when the text becomes too long for the available space. See [Curve and auto-fit width](../../product-personalizer/layer-settings/curve-and-auto-fit.md).
 

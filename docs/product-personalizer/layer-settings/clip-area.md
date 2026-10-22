@@ -1,32 +1,30 @@
 ---
 description: >-
-  Define a region a layer cannot leave — the setting that makes customer freedom
-  safe.
+  Draw a crop area an element cannot leave, so customer photos and text stay
+  on the printable part of the product.
 icon: crop-simple
 ---
 
-# Crop area
+# Print area
 
-A crop area is a rectangle you define on the image. Any part of the layer outside it is not drawn.
+The **Print area** card holds the **Crop area**: a rectangle on the product image. Any part of the element outside it is cut off. Use it to give customers freedom without letting them put the design where you cannot print.
 
-Use it to give customers control of a layer without allowing them to place personalization where you cannot produce it.
+It is the last card on the **Personalizer** tab of every supported option type.
 
-**Applies to:** all twelve option types that support the Personalizer, both text and image.
+<figure><img src="../../.gitbook/assets/screenshot-personalizer-print-area.png" alt="The Print area card with Crop area turned on and its position, size, rotation, and Hide the outline settings, with the dashed crop area drawn on the product image"><figcaption><p>With Crop area on, its dashed outline appears on the canvas, where you can also drag and resize it.</p></figcaption></figure>
 
 ## The settings
 
-<table><thead><tr><th width="230">Setting</th><th width="150">Default</th><th>What it does</th></tr></thead><tbody><tr><td><strong>Crop area</strong></td><td>Off</td><td>Turns it on and reveals the rest</td></tr><tr><td><strong>X position</strong></td><td><code>50</code>%</td><td>Horizontal position of the region</td></tr><tr><td><strong>Y position</strong></td><td><code>50</code>%</td><td>Vertical position of the region</td></tr><tr><td><strong>Width</strong></td><td><code>50</code>%</td><td>How wide the region is</td></tr><tr><td><strong>Height</strong></td><td><code>50</code>%</td><td>How tall the region is</td></tr><tr><td><strong>Rotation</strong></td><td><code>0</code>°</td><td>Rotates the region, from -180 to 180</td></tr><tr><td><strong>Hide the outline</strong></td><td>Off</td><td>Hides the dashed outline for the customer. The crop area still applies</td></tr></tbody></table>
+<table><thead><tr><th width="230">Setting</th><th width="150">Default</th><th>What it does</th></tr></thead><tbody><tr><td><strong>Crop area</strong></td><td>Off</td><td>Turns the crop area on and shows the settings below</td></tr><tr><td><strong>X position</strong></td><td><code>50</code>%</td><td>Horizontal center of the area</td></tr><tr><td><strong>Y position</strong></td><td><code>50</code>%</td><td>Vertical center of the area</td></tr><tr><td><strong>Width</strong></td><td><code>50</code>%</td><td>How wide the area is</td></tr><tr><td><strong>Height</strong></td><td><code>50</code>%</td><td>How tall the area is</td></tr><tr><td><strong>Rotation</strong></td><td><code>0</code>°</td><td>Turns the area, from -180 to 180</td></tr><tr><td><strong>Hide the outline</strong></td><td>Off</td><td>Hides the dashed outline from customers. The crop area still applies</td></tr></tbody></table>
 
-All values are percentages of the image, as with [layer positions](position-size-rotation.md).
-
-<figure><img src="../../.gitbook/assets/person9.png" alt="The crop area settings with the region outlined on the product preview"><figcaption><p>The crop area is visible while you position it, and can be hidden from customers.</p></figcaption></figure>
+All values are percentages of the image, like [element positions](position-size-rotation.md).
 
 ## When to use it
 
-<table><thead><tr><th width="290">Situation</th><th>Why a crop area helps</th></tr></thead><tbody><tr><td>You let customers drag a layer</td><td>They cannot drag it off the printable area</td></tr><tr><td>You let customers resize a layer</td><td>An oversized layer is cropped instead of covering the whole product</td></tr><tr><td>An uploaded photo goes into a fixed window</td><td>The photo fills the window and nothing spills outside it</td></tr><tr><td>Your printable area is not the whole product</td><td>The preview shows the real boundary</td></tr><tr><td>Text must stay inside an engraved panel</td><td>Long entries are cut at the panel edge rather than running over the product</td></tr></tbody></table>
+<table><thead><tr><th width="290">Situation</th><th>Why it helps</th></tr></thead><tbody><tr><td>Customers can move an element</td><td>They cannot drag it off the printable area</td></tr><tr><td>Customers can resize an element</td><td>An oversized photo is cut at the edge instead of covering the product</td></tr><tr><td>A photo goes into a fixed window</td><td>The photo fills the window and nothing spills out</td></tr><tr><td>Text must stay on an engraved panel</td><td>Long entries are cut at the panel edge</td></tr></tbody></table>
 
-{% hint style="info" %}
-If you enable any [customer control](customer-controls.md), such as move, resize, or rotate, set a crop area as well. Without one, a customer can place their design anywhere on the image, including areas you cannot print.
+{% hint style="warning" %}
+If you turn on anything in [What customers can change](customer-controls.md), turn on **Crop area** too. Without it, customers can place the design anywhere on the image, including places you cannot print.
 {% endhint %}
 
 ## How to set one up
@@ -35,63 +33,49 @@ If you enable any [customer control](customer-controls.md), such as move, resize
 {% step %}
 ### Turn on Crop area
 
-The region is displayed in the preview with a visible outline.
+In the **Print area** card. A dashed outline appears on the canvas.
 {% endstep %}
 
 {% step %}
-### Size it to your real printable area
+### Match it to your printable area
 
-Set **Width** and **Height** to match the area you can produce on.
+Drag the outline on the canvas and pull its handles, or type **X position**, **Y position**, **Width**, and **Height**. Click the outline first to select it.
 {% endstep %}
 
 {% step %}
-### Move it into place
+### Rotate it if the surface is angled
 
-Use **X position** and **Y position** to align the outline with the printable area in your photo.
+Use **Rotation**, or the handle above the selected outline.
 {% endstep %}
 
 {% step %}
-### Rotate it if the surface is not square
+### Place the element inside it
 
-Use **Rotation** to match the region to an angled surface.
+The element's own position is set separately in [Position and size](position-size-rotation.md). Put it where the design should start.
 {% endstep %}
 
 {% step %}
-### Position the layer inside it
+### Test the edge
 
-The layer's position is a separate setting. Set it where you want the design to start.
-{% endstep %}
-
-{% step %}
-### Test the boundary
-
-Enter a long value, or drag the layer if you allowed that, and check that it is cut at the edge of the region.
+In the **Preview**, type a long entry or drag the element toward the edge. It should be cut at the outline.
 {% endstep %}
 
 {% step %}
 ### Decide whether customers see the outline
 
-**Hide the outline** removes the outline from the customer's view. See below.
+Leave **Hide the outline** off when customers can move the element, so they can see where it fits. Turn it on when the boundary is obvious from the product itself.
 {% endstep %}
 {% endstepper %}
 
-## Hide the outline
-
-<table><thead><tr><th width="230">Setting</th><th>Effect on the customer</th><th>Use when</th></tr></thead><tbody><tr><td>Off</td><td>They see the region's outline</td><td>You want them to understand where they can place things — useful when they can drag</td></tr><tr><td>On</td><td>The outline is invisible; the cropping still happens</td><td>The boundary is obvious from the product itself, and an outline would look like a flaw</td></tr></tbody></table>
-
-If customers can move a layer, leave the outline **visible**. It shows them the limits of the printable area.
-
 ## Crop area or auto-fit?
 
-Both settings prevent text from extending outside the area, but they work differently.
+<table><thead><tr><th width="230"></th><th width="290">Crop area</th><th>Auto-fit max width</th></tr></thead><tbody><tr><td>What it does</td><td>Cuts off whatever is outside the area</td><td>Shrinks text so it fits</td></tr><tr><td>Works on</td><td>Text and image elements</td><td>Text and Number</td></tr><tr><td>Long entry</td><td>Cut off</td><td>Smaller but complete</td></tr><tr><td>Best for</td><td>A hard boundary, especially when customers can move things</td><td>Keeping the whole entry visible</td></tr></tbody></table>
 
-<table><thead><tr><th width="230"></th><th width="290">Crop area</th><th>Auto-fit max width</th></tr></thead><tbody><tr><td>What it does</td><td>Cuts off whatever is outside the region</td><td>Shrinks the text so it fits</td></tr><tr><td>Applies to</td><td>Text and image layers</td><td><a href="../../option-types/input-types/text.md">Text</a> and <a href="../../option-types/input-types/number.md">Number</a> only</td></tr><tr><td>Result with a long entry</td><td>Truncated in the preview</td><td>Smaller but complete</td></tr><tr><td>Best for</td><td>Enforcing a boundary, especially with customer controls</td><td>Keeping the whole entry visible</td></tr></tbody></table>
-
-For engraving text, use [auto-fit](curve-and-auto-fit.md#auto-fit-max-width) first, as reducing the font size is usually better than cutting off the text. Add a **Crop area** when customers can move the layer or when the printable area is limited by your production process.
+For engraved text, use [auto-fit](curve-and-auto-fit.md#auto-fit-max-width) first. A smaller complete name is better than a cut-off one. Add a crop area when customers can move the element or your print area is tight.
 
 ## Notes
 
-* You can add one **Crop area** per layer. Each layer can have its own crop area.
-* The **Crop area** does not move with the layer. It remains fixed while the layer moves within it.
-* The **Crop area** affects the preview only. Set it to match your actual printable area.
-* Rotating the crop area and rotating the layer are separate settings.
+* Each element has its own crop area.
+* The crop area stays put while the element moves inside it.
+* The crop area only shapes the design image. Match it to your real print area.
+* Rotating the crop area and rotating the element are separate settings.

@@ -41,9 +41,9 @@ Touch devices do not have a hover state, so put anything essential in the value'
 
 ## Personalizer
 
-Supported as an **image layer**. The selected value's image is drawn onto the product photo. The settings are image shape, background mode, size, position, rotation, crop area, and customer controls.
+Supported as an **image element**. The selected value's image is drawn onto the product photo. The settings are image shape, background mode, size, position, rotation, print area, and what customers can change.
 
-This gives the customer a grid of designs and shows the selected design on the product immediately. See [Image layers](../../product-personalizer/layer-settings/image-layers.md).
+This gives the customer a grid of designs and shows the selected design on the product immediately. See [Shape and fill](../../product-personalizer/layer-settings/image-layers.md).
 
 ## Add-on pricing
 

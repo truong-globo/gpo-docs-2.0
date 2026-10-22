@@ -63,5 +63,5 @@ The builder's preview panel does not reflect these settings. It is a functional 
 
 * These settings are store-wide. There is no per-option-set design.
 * **Match theme style** and the manual settings work together, so you can turn on the setting and then adjust individual values.
-* The Personalizer's own colors and fonts are set per layer, separately from these. See [Text layers](../product-personalizer/layer-settings/text-layers.md) and [Fonts](../product-personalizer/layer-settings/fonts.md).
+* The Personalizer's own colors and fonts are set per element, separately from these. See [Text style](../product-personalizer/layer-settings/text-layers.md) and [Fonts](../product-personalizer/layer-settings/fonts.md).
 * Custom fonts have to be uploaded in **General** before you can select them here. See [Custom fonts](custom-fonts.md).

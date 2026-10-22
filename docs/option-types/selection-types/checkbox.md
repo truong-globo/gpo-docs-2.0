@@ -47,7 +47,7 @@ See [Advanced add-on modes](../../add-on-pricing/advanced-add-on-modes.md).
 
 ## Personalizer
 
-Supported as an **image layer**. Each selected value can draw an image onto the product photo. The settings are image shape, background mode, size, position, rotation, crop area, and customer controls. See [Image layers](../../product-personalizer/layer-settings/image-layers.md).
+Supported as an **image element**. Each selected value can draw an image onto the product photo. The settings are image shape, background mode, size, position, rotation, print area, and what customers can change. See [Shape and fill](../../product-personalizer/layer-settings/image-layers.md).
 
 Several selected values mean several layers, which can overlap. Use the position settings to place each one.
 

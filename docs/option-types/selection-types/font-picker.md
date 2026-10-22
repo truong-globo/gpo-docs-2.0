@@ -49,29 +49,31 @@ If a particular font costs you more, for example a licensed script or a font tha
 
 ## Personalizer
 
-The Personalizer is not set on the picker. It belongs to the **text** option, and the font choice is applied to it.
+A Font picker is not printed itself. It chooses the font of a text element that is printed.
 
-To let customers choose a font and see their text in it on the product photo:
+To let customers choose a font and see their text in it on the product image:
 
 {% stepper %}
 {% step %}
 ### Add a text option and turn on its Personalizer
 
-Configure it as a text layer. See [Text layers](../../product-personalizer/layer-settings/text-layers.md).
+See [Set up the Personalizer](../../product-personalizer/setup.md).
 {% endstep %}
 
 {% step %}
 ### Set its Font family
 
-Select **Google** or **Custom** and choose the font. This is the starting font. See [Fonts](../../product-personalizer/layer-settings/fonts.md).
+Select **Google** or **Custom** and choose the font. Customers see it until they pick one. See [Fonts](../../product-personalizer/layer-settings/fonts.md).
 {% endstep %}
 
 {% step %}
-### Add a Font picker for the customer's choice
+### Link the text to the Font picker
 
-Turn on **Font preview** and set **Select text box** to the text option.
+On the text option's **Personalizer** tab, in **What customers can change**, tick **Font from a Font Picker option**. If you have no Font picker yet, select **Add font option** to add one. See [Let customers pick font and color](../../product-personalizer/layer-settings/font-and-color.md).
 {% endstep %}
 {% endstepper %}
+
+Linking turns on **Font preview** on the Font picker and adds the text option to its **Select text box**. Changing either setting updates the other.
 
 ## Examples
 

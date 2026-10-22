@@ -52,7 +52,7 @@ A dropdown hides that text until it is opened, and a button row has no space for
 
 ## Personalizer
 
-Supported as an **image layer**. Each value can have an image that is drawn onto the product photo when the value is selected. The settings are image shape, background mode, size, position, rotation, crop area, and customer controls. See [Image layers](../../product-personalizer/layer-settings/image-layers.md).
+Supported as an **image element**. Each value can have an image that is drawn onto the product photo when the value is selected. The settings are image shape, background mode, size, position, rotation, print area, and what customers can change. See [Shape and fill](../../product-personalizer/layer-settings/image-layers.md).
 
 ## Add-on pricing
 

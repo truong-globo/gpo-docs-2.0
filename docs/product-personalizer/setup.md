@@ -1,138 +1,189 @@
 ---
 description: >-
-  The background, the layers, and the order to build them in — everything
-  between a plain product photo and a working live preview.
+  Turn the Personalizer on for an option, set the product image, place the
+  design, and check it on your storefront.
 icon: sliders
 ---
 
 # Set up the Personalizer
 
-A live preview requires two things: a **background** and one or more **layers**.
+This page takes one option from a plain form field to a design printed on the product image, on your live product page. Repeat steps 2 to 6 for every option you want printed.
 
-The background belongs to the **option set**, and the layers belong to individual **options**.
-
-The two are connected: **Change background** lives on the preview panel's **Personalize** tab, and that tab only appears once at least one option has the Personalizer turned on. So you cannot set the background before you have an option with the Personalizer enabled.
-
-Layer positions are measured against the background, so set the background before you position any layer. If you change it later, you have to reposition every layer.
-
-**Watch it done — 1:48.** An engraving field on a necklace, wired to a live preview so the customer reads their own text on the product before checking out.
+**Watch it done (1:48).** An engraving field on a necklace, wired to a live preview so the customer reads their own text on the product before checking out.
 
 {% embed url="https://www.youtube.com/watch?v=0sODGWkR_cw" %}
 
-## The three parts
+## Before you start
 
-<table><thead><tr><th width="180">Part</th><th width="230">What it is</th><th>Where you set it</th></tr></thead><tbody><tr><td><strong>The background</strong></td><td>The image the layers are drawn on — a product photo, or one you upload</td><td>Once per option set, from the builder's preview panel</td></tr><tr><td><strong>The layers</strong></td><td>One per option with the Personalizer on. Text or image</td><td>Per option, on its <strong>Personalizer</strong> tab</td></tr><tr><td><strong>Customer controls</strong></td><td>Which layers the customer may move, resize, or rotate</td><td>Per option, per layer</td></tr></tbody></table>
+* An option set with at least one [supported option](personalizer.md#the-twelve-supported-option-types), such as a Text or File upload option. See [Build your options](../option-sets/build-options.md).
+* At least one product assigned to the option set, with a clear, front-facing photo. See [Assign to products](../option-sets/assign-to-products.md).
+* The [app embed](../getting-started/enable-the-app-embed.md) turned on in your live theme.
+* A plan that includes the Personalizer. See [Compare plans](../plans-and-billing/compare-plans.md).
 
-## The order to work in
+## Steps
 
-1. **Build the options.** Add the options you want personalized, and set their labels, limits, prices, and conditional logic. See [Build your options](../option-sets/build-options.md).
-2. **Turn the Personalizer on for each option.** This is what makes the **Personalize** tab appear in the preview panel. See [Turning it on as an option](setup.md#turning-it-on-as-an-option) below.
-3. **Set the background.** See [Choosing the background](setup.md#choosing-the-background) below.
-4. **Give every text layer a default value.** Without one the layer is not drawn, so the preview looks empty. See [Always give a text layer a default value](setup.md#always-give-a-text-layer-a-default-value) below.
-5. **Style and position each layer.** Positions are measured against the background, so do this after step 3. See [Layer settings](layer-settings/).
-6. **Select what the customer can adjust.** See [Customer controls](layer-settings/customer-controls.md). Add a [crop area](layer-settings/clip-area.md) if you allow any adjustment.
-7. **Test on a real product page** using **View in Store**. Enter realistic content, such as a full name rather than `test`, and check the result on a phone.
+{% stepper %}
+{% step %}
+### Open the option
+
+Open the option set, go to **Setup flow** > **Build option**, and select the option you want printed on the product.
+{% endstep %}
+
+{% step %}
+### Turn on the Personalizer
+
+Select the **Personalizer** tab, next to **Basic** and **Advanced**, and turn on the **Personalizer** switch.
+
+The setting cards below the checkbox become active, the option gets a **Personalizer** badge in the option list, and the Personalizer editor appears. On a wide screen it sits between the settings panel and the **Preview**. On a smaller screen it is a **Personalizer** tab at the top of the preview.
+
+<figure><img src="../.gitbook/assets/screenshot-personalizer-turn-on.png" alt="The Personalizer tab of an option with the Personalizer switch outlined and still off, and its setting cards dimmed below"><figcaption><p>Until the Personalizer switch is on, the cards below it stay dimmed and nothing is printed for that option.</p></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Set the background
+
+Until a background is set, the editor shows **Add a product image to see the print area.** Select **Change background**.
+
+<figure><img src="../.gitbook/assets/screenshot-personalizer-no-background.png" alt="The Personalizer editor with a banner asking for a product image and a Change background button"><figcaption><p>The editor asks for a background before you position anything.</p></figcaption></figure>
+
+In **Select background**:
+
+1. Under **Background**, choose **Product image**.
+2. Under **Apply to**, choose which of the product's images shows the design. **First product image only** suits most stores.
+3. Select a product to work against, then select **Select**.
+
+<figure><img src="../.gitbook/assets/screenshot-personalizer-background-product-image.png" alt="The Select background dialog with Product image chosen, First product image only selected under Apply to, and a product listed below"><figcaption><p>The product you select here is only for working in the editor. On the storefront, each product shows its own photo.</p></figcaption></figure>
+
+For the other choices, see [Choosing the background](setup.md#choosing-the-background) below.
+{% endstep %}
+
+{% step %}
+### Place the element
+
+Drag the element on the product image to where it should be printed. For exact values, use the **Position and size** card on the **Personalizer** tab.
+
+<figure><img src="../.gitbook/assets/screenshot-personalizer-position-and-size.png" alt="The Position and size card with X position, Y position, Rotation, and Opacity fields next to the element selected on the canvas"><figcaption><p>Dragging on the canvas and typing values in Position and size change the same settings.</p></figcaption></figure>
+
+See [The Personalizer editor](editor.md) for dragging, snapping, zoom, and keyboard nudges.
+{% endstep %}
+
+{% step %}
+### Style it
+
+For text, set the color, font size, font, and effect in **Text style**. See [Text style](layer-settings/text-layers.md).
+
+For an image, choose the shape and how the photo fills it in **Shape and fill**. See [Shape and fill](layer-settings/image-layers.md).
+{% endstep %}
+
+{% step %}
+### Decide what customers can change
+
+In **What customers can change**, tick what customers may adjust on the product image: **Change position**, **Resize**, or **Rotate**. For text, you can also let them pick the font and color in another option. See [What customers can change](layer-settings/customer-controls.md).
+
+If customers can move or resize the element, turn on **Crop area** in **Print area** so the design stays on the printable part of the product. See [Print area](layer-settings/clip-area.md).
+{% endstep %}
+
+{% step %}
+### Add the other options
+
+To print another option, select **Add element** in the editor toolbar and pick the option. Its Personalizer turns on and its settings open, ready to place.
+{% endstep %}
+
+{% step %}
+### Test it in the preview
+
+Fill in the form in the **Preview** panel as a customer would. Type text, upload a photo, and pick values. The editor shows the result on the product image. See [Test like a customer](test-like-a-customer.md).
+{% endstep %}
+
+{% step %}
+### Save and check your storefront
+
+Select **Save**. Then select **View in Store** in the builder header, and **Preview** next to a product.
+
+The design appears on the product image as customers fill in the form.
+
+<figure><img src="../.gitbook/assets/screenshot-personalizer-storefront-tee.png" alt="A storefront product page with the customer&#x27;s photo and text drawn on a t-shirt image"><figcaption><p>On the storefront, the design is drawn on the product image the customer is viewing.</p></figcaption></figure>
+
+{% hint style="success" %}
+If the design appears on your product page, the setup is complete. If it does not, see [Troubleshooting personalizer](troubleshooting.md).
+{% endhint %}
+{% endstep %}
+{% endstepper %}
 
 ## Choosing the background
 
-Select **Change background** in the preview panel. You then choose which image to use, and which of the product's images it applies to.
-
-<figure><img src="../.gitbook/assets/person1.png" alt="The background panel with the Background and Apply to choices"><figcaption><p>Turn on Personalizer on the option, then select Change background in the preview panel.</p></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/person2.png" alt="The Change background panel, with the image source and the product images it applies to"><figcaption><p>Two decisions: which image, and which of the product’s images it applies to.</p></figcaption></figure>
+The background is the image the design is drawn on. It belongs to the option set, so every element in the set shares it. Open it with **Change background** above the canvas.
 
 ### Product image or custom image
 
-<table><thead><tr><th width="200">Choice</th><th width="250">What it uses</th><th>Best for</th></tr></thead><tbody><tr><td><strong>Product image</strong></td><td>The product's own photographs. You also pick a product to preview against while you work in the builder; on the storefront each customer's actual product is used</td><td>Almost everything. One option set works across a whole catalog, and every product shows its own photo</td></tr><tr><td><strong>Custom image</strong></td><td>One image you upload, used for every product this option set applies to</td><td>Products that photograph badly for personalization, or where a clean mock-up sells better than the real photo</td></tr></tbody></table>
+<table><thead><tr><th width="200">Background</th><th width="290">What it uses</th><th>Best for</th></tr></thead><tbody><tr><td><strong>Product image</strong></td><td>The product's own photos. You pick one product to work against in the editor. On the storefront, each product uses its own photo</td><td>Most stores. One option set works across many products</td></tr><tr><td><strong>Custom image</strong></td><td>One image you upload, shown instead of the product photo for every product in the option set</td><td>Products that photograph badly, or a clean mock-up that sells better than the real photo</td></tr></tbody></table>
 
-Selecting **Custom image** also displays the **When to replace product image** setting.
+With **Custom image**, select **Upload** and choose your image. **Apply to** then decides which product image your image replaces.
 
-### Apply to: which of the product images
+<figure><img src="../.gitbook/assets/screenshot-personalizer-background-custom-image.png" alt="The Select background dialog with Custom image chosen and an Upload button"><figcaption><p>A custom image replaces the product photo for every product in the option set.</p></figcaption></figure>
 
-With **Product image** selected, this setting controls which photograph the layers are drawn on.
+### Apply to
 
-<table><thead><tr><th width="250">Choice</th><th width="200">Behavior</th><th>Use when</th></tr></thead><tbody><tr><td><strong>All product images</strong></td><td>Every image gets the layers</td><td>All your photographs show the same personalizable face</td></tr><tr><td><strong>First product image only</strong></td><td>Only the first</td><td>The first image is your clean front-on shot and the rest are details</td></tr><tr><td><strong>Last product image only</strong></td><td>Only the last</td><td>You keep a dedicated personalization mock-up at the end of the gallery</td></tr><tr><td><strong>Specific product image</strong></td><td>The one at the position number you enter</td><td>Your personalizable shot is always, say, the third image</td></tr></tbody></table>
+<table><thead><tr><th width="250">Choice</th><th>Which product image shows the design</th></tr></thead><tbody><tr><td><strong>All product images</strong></td><td>Every image in the gallery</td></tr><tr><td><strong>First product image only</strong></td><td>The first image only</td></tr><tr><td><strong>Last product image only</strong></td><td>The last image only</td></tr><tr><td><strong>Specific product image</strong></td><td>The image at the position you enter, counting from 1</td></tr></tbody></table>
 
 {% hint style="warning" %}
-**All product images** is rarely the right choice. A layer positioned for a front-facing photo may appear in the wrong place on close-up or lifestyle photos.
+**All product images** is rarely right. An element placed for a front-facing photo lands in the wrong place on close-ups and lifestyle shots.
 
-Select a single product image and keep it in the same gallery position across your products. **First product image only**, using a consistent front-facing photo, is the most reliable option. **Specific product image** requires all product galleries to use the same image order, so check several products before using this setting.
+Choose **First product image only** and keep a front-facing photo first in every gallery. **Specific product image** only works if every product uses the same image order.
 {% endhint %}
 
-### When to replace product image
-
-This setting is displayed only when **Custom image** is selected. It controls when the customer sees your uploaded image instead of the product photo.
-
-<table><thead><tr><th width="250">Choice</th><th width="230">Behavior</th><th>Use when</th></tr></thead><tbody><tr><td><strong>Immediately on page load</strong></td><td>Your image is shown from the start</td><td>The mock-up is the best sales image you have</td></tr><tr><td><strong>Only after personalization</strong></td><td>The product photo shows first; your image appears once they start personalizing</td><td>The real photograph sells better, and the mock-up is only there to show their design</td></tr></tbody></table>
-
-**Only after personalization** is usually the better choice. Customers see the real product first, and your image appears when they start personalizing.
-
 <details>
 
-<summary>What makes a good background photograph</summary>
+<summary>What makes a good background photo</summary>
 
-The quality of the preview depends on this image.
+<table><thead><tr><th width="290">Do</th><th>Avoid</th></tr></thead><tbody><tr><td>A flat, front-on view of the surface you print on</td><td>Angled shots. Flat text on a slanted surface looks wrong</td></tr><tr><td>Even, soft lighting</td><td>Strong shadows or highlights across the print area</td></tr><tr><td>A plain area where the design sits</td><td>Busy patterns behind the design</td></tr><tr><td>The same framing across products</td><td>Different crops per product when one option set covers many</td></tr><tr><td>A large image that stays sharp</td><td>Small images that blur when enlarged</td></tr></tbody></table>
 
-<table><thead><tr><th width="290">Do</th><th>Avoid</th></tr></thead><tbody><tr><td>A flat, front-on view of the surface being personalized</td><td>Angled or three-quarter shots — flat text on a perspective surface looks wrong</td></tr><tr><td>Even, diffuse lighting</td><td>Strong shadows or highlights across the personalization area</td></tr><tr><td>A plain area where the text will sit</td><td>Busy patterns behind the text</td></tr><tr><td>Consistent framing across your products</td><td>Different crops per product, when one option set covers many</td></tr><tr><td>Large enough to stay sharp on a big screen</td><td>Small images that soften when scaled up</td></tr></tbody></table>
-
-If your products are photographed at an angle, use a flat **Custom image** mock-up instead. It is less authentic but produces a more accurate preview.
+If your products are photographed at an angle, use a flat **Custom image** mock-up instead.
 
 </details>
 
-## Turning it on as an option
+{% hint style="info" %}
+Positions are percentages of the background. Set the background before you place elements. If you change it later, check every element again.
+{% endhint %}
 
-Open the option and go to the **Personalizer** tab, beside **Basic** and **Advanced**. Turn on **Enable personalize**. No other settings are displayed until you do.
+## What you get by option type
 
-The tab is available on the [twelve supported option types](personalizer.md#the-twelve-supported-option-types) only. If the tab is missing, the option type does not support the Personalizer. If it is grayed out, the Personalizer is not included in your plan.
+The **Personalizer** tab shows different cards for text and image elements.
 
-<figure><img src="../.gitbook/assets/person3.png" alt="The Personalizer tab with Enable personalize turned on and its settings revealed"><figcaption><p>Nothing on the tab appears until the switch is on.</p></figcaption></figure>
+<table><thead><tr><th width="290">Card or setting</th><th width="200">Text, Textarea, Number</th><th>File upload and the eight selection types</th></tr></thead><tbody><tr><td><strong>Text style</strong>: color, font size, font style, font family, effect</td><td><strong>Yes</strong></td><td>No</td></tr><tr><td>Curve and auto-fit max width</td><td>Text and Number</td><td>No</td></tr><tr><td>Text alignment</td><td>Textarea</td><td>No</td></tr><tr><td><strong>Shape and fill</strong>: image shape, background mode</td><td>No</td><td><strong>Yes</strong></td></tr><tr><td><strong>What customers can change</strong>: position, size, rotation</td><td><strong>Yes</strong></td><td><strong>Yes</strong></td></tr><tr><td>Font and color from another option</td><td><strong>Yes</strong></td><td>No</td></tr><tr><td><strong>Position and size</strong>: X and Y position, rotation, opacity</td><td><strong>Yes</strong></td><td><strong>Yes</strong></td></tr><tr><td>Width and height</td><td>Textarea</td><td><strong>Yes</strong></td></tr><tr><td><strong>Print area</strong></td><td><strong>Yes</strong></td><td><strong>Yes</strong></td></tr></tbody></table>
 
-### What you get by option type
+Text and Number are single lines, so they get curve and auto-fit instead of a width and height. Textarea is a block, so it gets alignment, width, and height.
 
-The available settings depend on whether the option produces text or an image.
+## Always give a text element a default value
 
-<table><thead><tr><th width="290">Setting group</th><th width="230">Text, Textarea, Number</th><th>File upload and the eight selection types</th></tr></thead><tbody><tr><td>Color, font size, font style, font family</td><td><strong>Yes</strong></td><td>No</td></tr><tr><td>Text alignment</td><td>Textarea only</td><td>No</td></tr><tr><td>Text effects</td><td><strong>Yes</strong></td><td>No</td></tr><tr><td>Curve and auto-fit max width</td><td>Text and Number only</td><td>No</td></tr><tr><td>Image shape and background mode</td><td>No</td><td><strong>Yes</strong></td></tr><tr><td>Width and height</td><td>Textarea only</td><td><strong>Yes</strong></td></tr><tr><td>X position, Y position, opacity, rotation</td><td><strong>Yes</strong></td><td><strong>Yes</strong></td></tr><tr><td>Crop area</td><td><strong>Yes</strong></td><td><strong>Yes</strong></td></tr><tr><td>Allow customers to</td><td><strong>Yes</strong></td><td><strong>Yes</strong></td></tr></tbody></table>
+A text element with no text is not drawn, so the design looks empty until the customer types.
 
-Text and Number are single-line types, so they support curve and auto-fit instead of width and height. Textarea is a block, so it supports alignment, width, and height. Image types support shape and fit mode.
-
-### Always give a text layer a default value
-
-A text layer with no content is not drawn, so the preview appears empty until the customer enters text.
-
-Set a **Default value** on the **Basic** tab, such as `Your name` or `Your text`. The preview then always has content to display.
-
-The default value is also submitted if the customer does not change it, so choose a suitable value.
+Set a **Default value** on the option's **Basic** tab, such as `Your name` or `Your text here`. The design then always has something to show. The default value is also submitted if the customer leaves it unchanged, so choose wording that makes sense on an order.
 
 <details>
 
-<summary>Several personalized options on one product</summary>
+<summary>Several printed options on one product</summary>
 
-Layers are drawn together on one background, and they can overlap.
+All elements are drawn on the same background and can overlap.
 
-<table><thead><tr><th width="290">Combination</th><th>What to watch</th></tr></thead><tbody><tr><td>A name and a date</td><td>Different <strong>Y position</strong> values so they sit on separate lines</td></tr><tr><td>Text over an uploaded photo</td><td>Contrast — dark text on a dark photo disappears. Consider a <a href="layer-settings/effects.md">stroke effect</a></td></tr><tr><td>Two alternative designs, never both</td><td><a href="../conditional-logic/conditional-logic.md">Conditional logic</a>, so only one is ever visible</td></tr><tr><td>Layers that must stay inside a printable area</td><td>Give each one a <a href="layer-settings/clip-area.md">crop area</a></td></tr><tr><td>Many layers</td><td>Performance on older phones. Keep it to what the product really needs</td></tr></tbody></table>
-
-A hidden option draws no layer, so you can use conditional logic to switch between alternative designs.
+<table><thead><tr><th width="290">Combination</th><th>What to check</th></tr></thead><tbody><tr><td>A name and a date</td><td>Different <strong>Y position</strong> values, so they sit on separate lines</td></tr><tr><td>Text over an uploaded photo</td><td>Contrast. Dark text disappears on a dark photo. Consider a <a href="layer-settings/effects.md#stroke">stroke</a></td></tr><tr><td>Two alternative designs, never both</td><td><a href="../conditional-logic/conditional-logic.md">Conditional logic</a>, so only one is visible. A hidden option draws nothing</td></tr><tr><td>Elements that must stay on the printable area</td><td>A <a href="layer-settings/clip-area.md">print area</a> on each one</td></tr><tr><td>Many elements</td><td>Speed on older phones. Keep to what the product needs</td></tr></tbody></table>
 
 </details>
 
 <details>
 
-<summary>What the preview is, and is not</summary>
+<summary>What the design is, and is not</summary>
 
-<table><thead><tr><th width="290">It is</th><th>It is not</th></tr></thead><tbody><tr><td>A representation of the finished product, good enough to sell from</td><td>A print-ready proof</td></tr><tr><td>Live, updating as the customer types</td><td>Color-accurate — screens are not calibrated</td></tr><tr><td>A record of what the customer intended</td><td>A guarantee that production will match it exactly</td></tr></tbody></table>
+<table><thead><tr><th width="290">It is</th><th>It is not</th></tr></thead><tbody><tr><td>A realistic picture of the finished product</td><td>A print-ready proof</td></tr><tr><td>Live, updating as the customer types</td><td>Color-accurate. Screens are not calibrated</td></tr><tr><td>A record of what the customer asked for</td><td>A promise that production matches it exactly</td></tr></tbody></table>
 
-State this where it matters. Add a line of [help text](../option-types/shared-settings/placeholder-and-help-text.md#help-text) such as "The preview is a guide. Final placement may vary slightly."
+Add a line of [help text](../option-types/shared-settings/placeholder-and-help-text.md#help-text) such as "The preview is a guide. Final placement may vary slightly."
 
 </details>
 
 ## Notes
 
-* One background per option set. For products framed very differently, use separate option sets. See [Assign to products](../option-sets/assign-to-products.md).
-* Layer positions are percentages rather than pixels, so a layer keeps its relative position at any display size. This works only if your product photos are framed consistently.
-* The builder preview uses the product you selected under **Change background**. The storefront uses the product the customer is viewing.
-* A custom background image is uploaded to your store's files.
-* Turning the Personalizer off leaves the option working normally. It stops drawing the layer, and no settings are lost.
-* Layer settings are per option, so the same option type can be configured differently in two places.
-* The customer's text or file is stored in the order in both cases. The Personalizer adds the visual design record. See [Designs in cart and orders](cart-and-orders.md).
-
-If the Personalizer does not behave as described here, see [Troubleshooting personalizer](troubleshooting.md).
+* One background per option set. For products framed very differently, use separate option sets.
+* Turning the Personalizer off keeps the option working as a normal field and keeps its Personalizer settings for later.
+* Settings are per option, so two Text options can look completely different.
+* A custom background image is stored with your app files.
+* The customer's text or file is always saved on the order. The Personalizer adds an image of the design. See [Designs in cart and orders](cart-and-orders.md).

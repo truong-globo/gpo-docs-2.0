@@ -64,7 +64,7 @@ Separately, and with no setting needed, the app keeps the add-on products it [ge
 
 You can edit the button's text for each language as **Choose options** in the **Cart widget** group. See [Translate widget text](../translations-and-languages/translate-widget-text.md).
 
-## Personalize preview mode
+## Personalizer preview mode <a href="#personalize-preview-mode" id="personalize-preview-mode"></a>
 
 | Default | **View in modal** |
 | ------- | ----------------- |
@@ -93,7 +93,7 @@ See [Show options on orders](show-options-on-orders/).
 
 ## Recommended configuration for personalized products
 
-<table><thead><tr><th width="330">Setting</th><th>Value</th></tr></thead><tbody><tr><td>Hide quantity box and remove button for add-on products</td><td><strong>On</strong></td></tr><tr><td>Show "Edit Options" button in cart</td><td><strong>On</strong></td></tr><tr><td>Personalize preview mode</td><td><strong>View in modal</strong></td></tr><tr><td>Merge Main product &#x26; Add-on products</td><td><strong>On</strong>, unless you want add-on prices itemised</td></tr></tbody></table>
+<table><thead><tr><th width="330">Setting</th><th>Value</th></tr></thead><tbody><tr><td>Hide quantity box and remove button for add-on products</td><td><strong>On</strong></td></tr><tr><td>Show "Edit Options" button in cart</td><td><strong>On</strong></td></tr><tr><td>Personalizer preview mode</td><td><strong>View in modal</strong></td></tr><tr><td>Merge Main product &#x26; Add-on products</td><td><strong>On</strong>, unless you want add-on prices itemised</td></tr></tbody></table>
 
 ## Notes
 

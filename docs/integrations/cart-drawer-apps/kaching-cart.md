@@ -23,7 +23,7 @@ Without this, a customer could switch a `Small` gift box to `Large` in the drawe
 
 ## Upsell filtering works differently here
 
-The app keeps the add-on products it generated for you out of a drawer's upsell list, so an auto-generated gift box is never offered as an upsell. With the other two apps it does that through their own filter, before the list is drawn.
+The app keeps the add-on products it generated for you out of a drawer's upsell list, so an auto-generated gift box is never offered as an upsell. With UpCart and Monster Cart, it does that through their own filter, before the list is drawn.
 
 Kaching does not offer such a filter. Instead, the app checks each upsell product's tags after the list is drawn and hides the ones that are yours. Two things follow, and shoppers can see both:
 
@@ -35,4 +35,4 @@ That second setting is worth turning on here even if you would leave it off else
 
 * [Set up](./#set-up) — the two settings, with screenshots
 * [What a drawer cannot do](./#what-a-drawer-cannot-do) — Edit Options, design previews, and the other limits
-* [UpCart](upcart.md) and [Monster Cart](monster-cart.md) — the other recognized cart drawer apps
+* [UpCart](upcart.md), [Monster Cart](monster-cart.md), and [Qikify Slide Cart](qikify-slide-cart.md) — the other recognized cart drawer apps

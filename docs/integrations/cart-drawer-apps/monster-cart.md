@@ -42,4 +42,4 @@ The app leaves your generated add-on products out of that list on its own. For p
 * [Set up](./#set-up) — the two settings, with screenshots
 * [What a drawer cannot do](./#what-a-drawer-cannot-do) — Edit Options, design previews, and the other limits
 * [Merge main product and add-ons](../../add-on-pricing/merge-as-bundle.md) — now optional rather than required
-* [UpCart](upcart.md) and [Kaching Cart](kaching-cart.md) — the other recognized cart drawer apps
+* [UpCart](upcart.md), [Kaching Cart](kaching-cart.md), and [Qikify Slide Cart](qikify-slide-cart.md) — the other recognized cart drawer apps

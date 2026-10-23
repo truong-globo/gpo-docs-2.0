@@ -22,7 +22,7 @@ Prevents customers from changing the quantity of an add-on line, or removing it,
 
 It applies to product-backed add-ons, because those are the ones with their own cart line. A [Fixed amount](../add-on-pricing/add-price-directly.md) charge has no separate line.
 
-This setting also covers theme cart drawers and the [UpCart, Monster Cart, and Kaching](../integrations/cart-drawer-apps/) drawers, not only your full cart page.
+This setting also covers theme cart drawers and the [UpCart, Monster Cart, Kaching, and Qikify](../integrations/cart-drawer-apps/) drawers, not only your full cart page.
 
 ## Show "Edit Options" button in cart
 
@@ -48,7 +48,7 @@ The button appears on your cart page only. If you use a [cart drawer app](../int
 | Default | Off |
 | ------- | --- |
 
-This one only matters if you use a cart drawer app. [UpCart, Monster Cart, and Kaching](../integrations/cart-drawer-apps/) show upsells inside the drawer, and their Add button puts the product in the cart in one click, without opening a product page.
+This one only matters if you use a cart drawer app. [UpCart, Monster Cart, Kaching, and Qikify](../integrations/cart-drawer-apps/) show upsells inside the drawer, and their Add button puts the product in the cart in one click, without opening a product page.
 
 If an upsell product has options, the customer never sees the form. You receive an order with no engraving text, no size, and no uploaded file.
 

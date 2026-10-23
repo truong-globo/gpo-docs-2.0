@@ -15,13 +15,13 @@ Many themes and apps add a bar with a buy button that follows the customer down 
 
 <table><thead><tr><th width="230">Risk</th><th>What to check</th></tr></thead><tbody><tr><td>The bar's button bypasses the options</td><td>Scroll down until the bar appears, then use its button. Are required options enforced? Are add-ons priced?</td></tr><tr><td>The bar covers the widget on mobile</td><td>Whether the last option is reachable on a phone</td></tr></tbody></table>
 
-The app supports the most common patterns. If a bar's button bypasses validation, report it, as this can create orders with missing information that you cannot fulfill.
+The app supports the most common patterns, including the sticky bar of [Qikify Slide Cart](cart-drawer-apps/qikify-slide-cart.md#the-sticky-add-to-cart-bar-checks-your-options). If a bar's button bypasses validation, report it, as this can create orders with missing information that you cannot fulfill.
 
 ## Cart drawer apps
 
 An app that replaces your theme's cart drawer takes over where add-on lines are displayed after a customer adds to cart.
 
-The app recognizes the [UpCart, Monster Cart, and Kaching](cart-drawer-apps/) drawers automatically, with no setup needed on either side. All three require **Go to cart immediately after adding to cart** to be turned off, because that setting redirects the customer before the drawer can open.
+The app recognizes the [UpCart, Monster Cart, Kaching, and Qikify](cart-drawer-apps/) drawers automatically, with no setup needed on either side. All four require **Go to cart immediately after adding to cart** to be turned off, because that setting redirects the customer before the drawer can open.
 
 Two things are worth a second look whichever app you use. Drawer upsells add a product in one click, which skips the option form. And a drawer shows less than your cart page does — no **Edit Options** button and no design preview. See [Cart drawer apps](cart-drawer-apps/).
 

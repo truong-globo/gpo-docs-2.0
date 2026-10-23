@@ -29,4 +29,4 @@ Reading down the drawer:
 
 * [Set up](./#set-up) — the two settings, with screenshots
 * [What a drawer cannot do](./#what-a-drawer-cannot-do) — Edit Options, design previews, and the other limits
-* [Monster Cart](monster-cart.md) and [Kaching Cart](kaching-cart.md) — the other recognized cart drawer apps
+* [Monster Cart](monster-cart.md), [Kaching Cart](kaching-cart.md), and [Qikify Slide Cart](qikify-slide-cart.md) — the other recognized cart drawer apps

@@ -9,13 +9,13 @@ icon: basket-shopping
 
 A cart drawer app replaces your theme's cart with its own slide-out drawer, usually to show upsells and free-gift offers there. That drawer is where your customers see add-on lines after adding a personalized product, so the app has to work inside it.
 
-Three cart drawer apps are recognized automatically. There is nothing to connect and no selector to enter.
+Four cart drawer apps are recognized automatically. There is nothing to connect and no selector to enter.
 
-**The setup on this page is the same for all three.** Do it once, then read your app's page for the few things specific to it.
+**The setup on this page is the same for all four.** Do it once, then read your app's page for the few things specific to it.
 
 ## Pages in this section
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>UpCart</strong></td><td>Nothing specific — the setup below is all of it.</td><td><a href="upcart.md">upcart.md</a></td></tr><tr><td><strong>Monster Cart</strong></td><td>You no longer have to merge add-ons.</td><td><a href="monster-cart.md">monster-cart.md</a></td></tr><tr><td><strong>Kaching Cart</strong></td><td>Hidden variant selectors, and upsell filtering that works differently.</td><td><a href="kaching-cart.md">kaching-cart.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>UpCart</strong></td><td>Nothing specific — the setup below is all of it.</td><td><a href="upcart.md">upcart.md</a></td></tr><tr><td><strong>Monster Cart</strong></td><td>You no longer have to merge add-ons.</td><td><a href="monster-cart.md">monster-cart.md</a></td></tr><tr><td><strong>Kaching Cart</strong></td><td>Hidden variant selectors, and upsell filtering that works differently.</td><td><a href="kaching-cart.md">kaching-cart.md</a></td></tr><tr><td><strong>Qikify Slide Cart</strong></td><td>Locked add-on lines, a sticky add-to-cart bar that checks your options, and upsell filtering.</td><td><a href="qikify-slide-cart.md">qikify-slide-cart.md</a></td></tr></tbody></table>
 
 ## Set up
 
@@ -99,7 +99,7 @@ The button text is translatable per language, as **Choose options** in the **Car
 
 ## What a drawer cannot do
 
-A cart drawer is the upsell app's own interface, not your cart page. These limits apply whichever of the three you use, and they are worth knowing before you decide to run personalized products through a drawer.
+A cart drawer is the upsell app's own interface, not your cart page. These limits apply whichever of the four you use, and they are worth knowing before you decide to run personalized products through a drawer.
 
 <table><thead><tr><th width="290">Limitation</th><th>What it means for you</th></tr></thead><tbody><tr><td><strong>Edit Options is not available</strong></td><td>The <strong>Edit Options</strong> button is only rendered on your cart page. A customer who spots a misspelled engraving in the drawer has to open the cart page to fix it, or remove the item and start again. See <a href="../../storefront-display-and-design/cart-page.md">Cart page</a></td></tr><tr><td><strong>A personalized design cannot be previewed</strong></td><td><strong>Preview Your Design</strong> is also cart-page only, for the same reason. Customers using the <a href="../../product-personalizer/personalizer.md">Personalizer</a> cannot check their artwork from the drawer</td></tr><tr><td><strong>A quantity correction reloads the page</strong></td><td>If an add-on's quantity no longer matches the item it belongs to, or the add-on product does not have the stock for it, the app writes the correction to the cart and the page reloads, which closes the drawer. The cart is right afterwards, but the customer sees the drawer disappear</td></tr><tr><td><strong>Add-on quantities cannot be edited by the customer</strong></td><td>By design. Add-on quantities follow their <a href="../../add-on-pricing/advanced-add-on-modes.md">quantity mode</a>, and the controls are hidden rather than made editable</td></tr><tr><td><strong>Whether option details are listed is up to the drawer app</strong></td><td>The choices a customer made are stored on the cart line either way, and they always appear at checkout and on the order. Whether the drawer prints them under the item is the drawer app's own setting, not ours</td></tr><tr><td><strong>The upsell redirect is all or nothing</strong></td><td>Turning on <strong>Send cart drawer app upsells to the product page</strong> changes every upsell button in the drawer, not only the ones for products with options</td></tr></tbody></table>
 
@@ -153,7 +153,7 @@ If it still looks wrong, [contact support](../../help/contact-support.md) with y
 
 ## If you use another cart drawer app
 
-Only the three above are recognized. With any other one, test that add-on lines appear in the drawer and that their quantity boxes and Remove buttons are hidden. If they are not, [contact support](../../help/contact-support.md) with the app's name.
+Only the four above are recognized. With any other one, test that add-on lines appear in the drawer and that their quantity boxes and Remove buttons are hidden. If they are not, [contact support](../../help/contact-support.md) with the app's name.
 
 Your theme's own cart drawer is a separate case and is supported on a wide range of themes. See [Ajax cart and redirect to cart](../../storefront-display-and-design/ajax-cart-and-redirect.md).
 
@@ -162,4 +162,5 @@ Your theme's own cart drawer is a separate case and is supported on a wide range
 * [UpCart](upcart.md)
 * [Monster Cart](monster-cart.md)
 * [Kaching Cart](kaching-cart.md)
+* [Qikify Slide Cart](qikify-slide-cart.md)
 * [Cart page](../../storefront-display-and-design/cart-page.md) — every setting that affects add-on lines in the cart

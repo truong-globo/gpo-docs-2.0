@@ -23,7 +23,7 @@ The location of the price field depends on the option type. Check the tables bel
 
 These five option types have a single **Price** field for the whole option:
 
-<table><thead><tr><th width="230">Type</th><th>Typical use</th></tr></thead><tbody><tr><td><a href="../option-types/input-types/text.md">Text</a></td><td>An engraving fee, flat or per character</td></tr><tr><td><a href="../option-types/input-types/textarea.md">Textarea</a></td><td>A message printing fee</td></tr><tr><td><a href="../option-types/input-types/number.md">Number</a></td><td>A per-unit charge driven by the number entered</td></tr><tr><td><a href="../option-types/input-types/switch.md">Switch</a></td><td>One paid extra, on or off</td></tr><tr><td><a href="../option-types/input-types/color-picker.md">Color picker</a></td><td>A custom-color surcharge</td></tr></tbody></table>
+<table><thead><tr><th width="230">Type</th><th>Typical use</th></tr></thead><tbody><tr><td><a href="../option-types/input-types/text.md">Text</a></td><td>An engraving fee: flat, per character, or by character range</td></tr><tr><td><a href="../option-types/input-types/textarea.md">Textarea</a></td><td>A message printing fee</td></tr><tr><td><a href="../option-types/input-types/number.md">Number</a></td><td>A per-unit charge driven by the number entered</td></tr><tr><td><a href="../option-types/input-types/switch.md">Switch</a></td><td>One paid extra, on or off</td></tr><tr><td><a href="../option-types/input-types/color-picker.md">Color picker</a></td><td>A custom-color surcharge</td></tr></tbody></table>
 
 ### Option value level
 

@@ -39,7 +39,7 @@ See [Text style](../../product-personalizer/layer-settings/text-layers.md) and [
 
 ## Add-on pricing
 
-Add-on pricing works the same way as on Text, including the **Per character** mode. Customers usually enter more text in a Textarea, so a per-character charge can become large. Set a **Max character** value to limit it.
+Add-on pricing works the same way as on Text, including the **Per character** and **Character range** modes. Customers usually enter more text in a Textarea, so a per-character charge can become large. Set a **Max character** value to limit it, or use **Character range** for flat price tiers.
 
 For a gift message, use no charge or a single flat fee. See [Advanced add-on modes](../../add-on-pricing/advanced-add-on-modes.md).
 

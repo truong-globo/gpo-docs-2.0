@@ -43,7 +43,7 @@ The dialog closes and the price is applied to the option.
 {% step %}
 ### Set how it scales
 
-On **Advanced**, the **Add-on quantity** dropdown controls whether the charge follows the product quantity or uses a value the customer enters. Three of the modes cannot be used with Fixed amount — see [What it cannot do](add-price-directly.md#what-it-cannot-do) below. See also [Advanced add-on modes](advanced-add-on-modes.md).
+In the **Add-on** card, the **Add-on quantity** mode controls whether the charge follows the product quantity or uses a value the customer enters. Three of the modes cannot be used with Fixed amount — see [What it cannot do](add-price-directly.md#what-it-cannot-do) below. See also [Advanced add-on modes](advanced-add-on-modes.md).
 {% endstep %}
 
 {% step %}
@@ -74,7 +74,7 @@ See [Add-on price display settings](price-display-settings.md).
 * **Fixed quantity**
 * **Fixed quantity (by customer)**
 
-In the **Add-on quantity** dropdown those three are greyed out while Fixed amount is in use, with the note *Not available with Fixed amount.* Coming the other way — picking **Fixed amount** while one of them is already set — the dialog says *Fixed amount doesn't work with …* and will not let you select it.
+In the **Add-on quantity** dialog those three are greyed out while Fixed amount is in use, with the note *Not available with Fixed amount.* Coming the other way — picking **Fixed amount** while one of them is already set — the dialog says *Fixed amount doesn't work with …* and will not let you select it.
 
 To charge a flat fee once per order, use [New product](auto-generate-a-product.md) with **One time charge** instead.
 {% endhint %}

@@ -66,22 +66,22 @@ Controls how the add-on charge scales with the main product's quantity.
 <table><thead><tr><th width="180">Tab</th><th>Basic, in the <strong>Add-on</strong> card</th></tr></thead><tbody><tr><td>Default</td><td><strong>Default</strong></td></tr><tr><td>Available on</td><td>Every type that can carry an add-on</td></tr></tbody></table>
 
 {% hint style="warning" %}
-This dropdown applies only when the option has a charge. On an option with no add-on, it has no effect — the app says so in the field's own tooltip.
+This setting applies only when the option has a charge. On an option with no add-on, it has no effect, as the field's own tooltip says.
 {% endhint %}
 
-The dropdown groups the eight modes by who decides the quantity.
+In the **Add-on** card, the field is labeled **Quantity** and shows the mode in use. Select it to open the **Add-on quantity** dialog, which groups the nine modes by who decides the quantity.
 
-<table><thead><tr><th width="230">Group</th><th width="250">Mode</th><th>Behavior</th></tr></thead><tbody><tr><td rowspan="2"><strong>Counted automatically</strong></td><td><strong>Default</strong></td><td>Matches the main product quantity.</td></tr><tr><td><strong>One time charge</strong></td><td>Always 1, whatever the main quantity.</td></tr><tr><td rowspan="2"><strong>Set by you</strong></td><td><strong>Fixed quantity</strong></td><td>A fixed number you set.</td></tr><tr><td><strong>Dynamic quantity</strong></td><td>Quantity you set × main product quantity.</td></tr><tr><td rowspan="4"><strong>Set by the customer</strong></td><td><strong>Fixed quantity (by customer)</strong></td><td>Customer enters a quantity; that’s the number of add-ons.</td></tr><tr><td><strong>Dynamic quantity (by customer)</strong></td><td>Customer’s quantity × main product quantity.</td></tr><tr><td><strong>Mixed quantity</strong></td><td>A quantity box per option value. Multi-select options only.</td></tr><tr><td><strong>Per character</strong></td><td>Charged by how many characters the customer typed. <a href="../../option-types/input-types/text.md">Text</a> and <a href="../../option-types/input-types/textarea.md">Textarea</a> only.</td></tr></tbody></table>
+<table><thead><tr><th width="230">Group</th><th width="250">Mode</th><th>Behavior</th></tr></thead><tbody><tr><td rowspan="2"><strong>Counted automatically</strong></td><td><strong>Default</strong></td><td>Matches the main product quantity.</td></tr><tr><td><strong>One time charge</strong></td><td>Always 1, whatever the main quantity.</td></tr><tr><td rowspan="2"><strong>Set by you</strong></td><td><strong>Fixed quantity</strong></td><td>A fixed number you set.</td></tr><tr><td><strong>Dynamic quantity</strong></td><td>Quantity you set × main product quantity.</td></tr><tr><td rowspan="5"><strong>Set by the customer</strong></td><td><strong>Fixed quantity (by customer)</strong></td><td>Customer enters a quantity; that’s the number of add-ons.</td></tr><tr><td><strong>Dynamic quantity (by customer)</strong></td><td>Customer’s quantity × main product quantity.</td></tr><tr><td><strong>Mixed quantity</strong></td><td>A quantity box per option value. Multi-select options only.</td></tr><tr><td><strong>Per character</strong></td><td>Charged per character the customer types. <a href="../../option-types/input-types/text.md">Text</a> and <a href="../../option-types/input-types/textarea.md">Textarea</a> only.</td></tr><tr><td><strong>Character range</strong></td><td>A price for each range of character counts. <a href="../../option-types/input-types/text.md">Text</a> and <a href="../../option-types/input-types/textarea.md">Textarea</a> only.</td></tr></tbody></table>
 
-Three of them — **One time charge**, **Fixed quantity**, and **Fixed quantity (by customer)** — are unavailable when the option's price uses [Fixed amount](../../add-on-pricing/add-price-directly.md), and are greyed out in the dropdown.
+Three of them — **One time charge**, **Fixed quantity**, and **Fixed quantity (by customer)** — are unavailable when the option's price uses [Fixed amount](../../add-on-pricing/add-price-directly.md), and are greyed out in the dialog.
 
-Each mode is explained with a worked example in [Advanced add-on modes](../../add-on-pricing/advanced-add-on-modes.md).
+**Per character** adds **Free characters** and **Count spaces as characters** to the card, and **Character range** adds a **Price by character count** table. Each mode is explained with a worked example in [Advanced add-on modes](../../add-on-pricing/advanced-add-on-modes.md).
 
 ## Quantity
 
 Sets the number used by two of the modes above.
 
-<table><thead><tr><th width="180">Tab</th><th>Basic, in the <strong>Add-on</strong> card</th></tr></thead><tbody><tr><td>Default</td><td>Empty</td></tr><tr><td>Available on</td><td>Appears only when <strong>Add-on quantity</strong> is <strong>Fixed quantity</strong> or <strong>Dynamic quantity</strong> — the two <strong>Set by you</strong> modes</td></tr></tbody></table>
+<table><thead><tr><th width="180">Tab</th><th>Basic, in the <strong>Add-on</strong> card</th></tr></thead><tbody><tr><td>Default</td><td>Empty</td></tr><tr><td>Available on</td><td>Appears in the <strong>Add-on quantity</strong> dialog only for <strong>Fixed quantity</strong> or <strong>Dynamic quantity</strong>, the two <strong>Set by you</strong> modes</td></tr></tbody></table>
 
 * With **Fixed quantity**, this is the exact number of add-ons added, regardless of the main product's quantity.
 * With **Dynamic quantity**, this is multiplied by the main product's quantity.

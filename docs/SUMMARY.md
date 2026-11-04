@@ -198,6 +198,7 @@
   * [Monster Cart](integrations/cart-drawer-apps/monster-cart.md)
   * [Kaching Cart](integrations/cart-drawer-apps/kaching-cart.md)
   * [Qikify Slide Cart](integrations/cart-drawer-apps/qikify-slide-cart.md)
+  * [Unicorn Cart Drawer](integrations/cart-drawer-apps/unicorn-cart-drawer.md)
 * [Theme and third-party notes](integrations/theme-and-third-party-notes.md)
 
 ## Plans and billing

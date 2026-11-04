@@ -55,7 +55,7 @@ The dialog closes, and a **Product** column is added to the values table with a 
 {% step %}
 ### Set how it scales
 
-The **Add-on quantity** dropdown on the **Advanced** tab controls how the quantity is calculated. See [Advanced add-on modes](advanced-add-on-modes.md).
+The **Add-on quantity** mode, in the **Add-on** card on the **Basic** tab, controls how the quantity is calculated. See [Advanced add-on modes](advanced-add-on-modes.md).
 {% endstep %}
 {% endstepper %}
 

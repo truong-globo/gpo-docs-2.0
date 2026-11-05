@@ -7,10 +7,72 @@ icon: table
 
 The app has three paid plans above the free plan, and a version of the top plan with a larger file limit.
 
-<table><thead><tr><th width="180">Plan</th><th>Built around</th></tr></thead><tbody><tr><td><strong>Free</strong></td><td>Unlimited option sets, all three product targeting methods, basic conditional logic, the fifteen most-used option types, option templates, and quickview support</td></tr><tr><td><strong>Premium</strong></td><td>Everything in Free, plus advanced conditional logic, add-on pricing, import and export, multi-language option content, default values and limits, swatch sliders, custom widget styling, basic analytics, five more option types, file upload up to 20 MB, priority support, and no watermark</td></tr><tr><td><strong>Advanced</strong></td><td>Everything in Premium, plus every remaining option type and setting: the Personalizer, advanced add-on modes, option groups, out-of-stock handling, custom fonts, date restrictions, POS, customer and country rules, editing options in the cart, automations, advanced analytics, and file upload up to 100 MB</td></tr><tr><td><strong>Advanced 200</strong></td><td>Identical to Advanced, with file upload raised to 200 MB</td></tr><tr><td>Monthly AI credits (Auto-translate)</td><td>—</td><td>✅</td><td>✅</td></tr><tr><td>Orders</td><td>—</td><td>—</td><td>✅</td></tr></tbody></table>
+## Plans at a glance
+
+{% columns %}
+{% column %}
+### Free
+
+* Unlimited option sets
+* All three ways to assign products: manual selection, automatic rules, and all products
+* Basic conditional logic
+* The 15 most-used option types
+* Option templates
+* Options in quickview
+{% endcolumn %}
+
+{% column %}
+### Premium
+
+Everything in Free, plus:
+
+* Advanced conditional logic
+* Add-on pricing: Existing product, New product, and Fixed amount
+* Import and export
+* Multi-language option content
+* Default values and min/max limits
+* Swatch sliders and custom widget styling
+* Five more option types
+* File upload up to 20 MB
+* Monthly AI credits for auto-translate
+* Basic analytics
+* Priority support, and no watermark
+{% endcolumn %}
+{% endcolumns %}
+
+{% columns %}
+{% column %}
+### Advanced
+
+Everything in Premium, plus:
+
+* Every remaining option type and setting
+* The Product Personalizer
+* **Percentage add-ons**: charge a % of the product's price
+* Add-on quantity modes
+* Option groups
+* Out-of-stock handling
+* Custom fonts and date restrictions
+* Point of Sale (POS)
+* Customer and country rules
+* Edit options in the cart
+* The Orders tab
+* Automations: email, order notes, order tags, and Google Drive
+* Advanced analytics
+* File upload up to 100 MB
+{% endcolumn %}
+
+{% column %}
+### Advanced 200
+
+Everything in Advanced, plus:
+
+* File upload up to 200 MB
+{% endcolumn %}
+{% endcolumns %}
 
 {% hint style="info" %}
-You do not need to memorize this table. Features not included in your plan are clearly marked in the app where you use them: a grayed-out field with an upgrade link, an option type that prompts you when selected, or a banner when you reach a limit.
+You do not need to memorize any of this. Features not included in your plan are clearly marked in the app where you use them: a grayed-out field with an upgrade link, an option type that prompts you when selected, or a banner when you reach a limit.
 
 Selecting an upgrade link opens **Pricing** and highlights the relevant feature.
 {% endhint %}
@@ -39,7 +101,7 @@ These groups match the groups on the **Pricing** page.
 
 ### Features
 
-<table><thead><tr><th width="290">Feature</th><th width="110">Free</th><th width="110">Premium</th><th>Advanced</th></tr></thead><tbody><tr><td>Show options in quickview</td><td>✅</td><td>✅</td><td>✅</td></tr><tr><td>Option templates</td><td>✅</td><td>✅</td><td>✅</td></tr><tr><td>Custom option style</td><td>—</td><td>✅</td><td>✅</td></tr><tr><td>Edit options in cart page</td><td>—</td><td>—</td><td>✅</td></tr><tr><td>Point of Sale (POS)</td><td>—</td><td>—</td><td>✅</td></tr><tr><td>Analytic</td><td>—</td><td>Basic</td><td>Advanced</td></tr></tbody></table>
+<table><thead><tr><th width="290">Feature</th><th width="110">Free</th><th width="110">Premium</th><th>Advanced</th></tr></thead><tbody><tr><td>Show options in quickview</td><td>✅</td><td>✅</td><td>✅</td></tr><tr><td>Option templates</td><td>✅</td><td>✅</td><td>✅</td></tr><tr><td>Custom option style</td><td>—</td><td>✅</td><td>✅</td></tr><tr><td>Edit options in cart page</td><td>—</td><td>—</td><td>✅</td></tr><tr><td>Point of Sale (POS)</td><td>—</td><td>—</td><td>✅</td></tr><tr><td>Analytic</td><td>—</td><td>Basic</td><td>Advanced</td></tr><tr><td>Monthly AI credits (Auto-translate)</td><td>—</td><td>✅</td><td>✅</td></tr><tr><td>Orders</td><td>—</td><td>—</td><td>✅</td></tr></tbody></table>
 
 ### Automations
 

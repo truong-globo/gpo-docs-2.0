@@ -9,67 +9,9 @@ The app has three paid plans above the free plan, and a version of the top plan 
 
 ## Plans at a glance
 
-{% columns %}
-{% column %}
-### Free
+<table><thead><tr><th width="300">Feature</th><th width="100">Free</th><th width="120">Premium</th><th width="110">Advanced</th><th>Advanced 200</th></tr></thead><tbody><tr><td>Option sets</td><td>Unlimited</td><td>Unlimited</td><td>Unlimited</td><td>Unlimited</td></tr><tr><td>Assign products manually, by rules, or to all products</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr><tr><td>Option templates</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr><tr><td>Options in quickview</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr><tr><td>Option types</td><td>15</td><td>20, plus File upload</td><td>All</td><td>All</td></tr><tr><td>File upload limit</td><td>—</td><td>20 MB</td><td>100 MB</td><td>200 MB</td></tr><tr><td>Conditional logic</td><td>Basic</td><td>Advanced</td><td>Advanced</td><td>Advanced</td></tr><tr><td><a href="../add-on-pricing/add-on-pricing.md">Add-on pricing</a>: Existing product, New product, Fixed amount</td><td>—</td><td>✅</td><td>✅</td><td>✅</td></tr><tr><td><strong><a href="../add-on-pricing/percentage.md">Percentage add-ons</a></strong>: a % of the product's price</td><td>—</td><td>—</td><td>✅</td><td>✅</td></tr><tr><td><a href="../add-on-pricing/advanced-add-on-modes.md">Add-on quantity modes</a></td><td>—</td><td>—</td><td>✅</td><td>✅</td></tr><tr><td>Import and export option sets</td><td>—</td><td>✅</td><td>✅</td><td>✅</td></tr><tr><td>Multi-language option content</td><td>—</td><td>✅</td><td>✅</td><td>✅</td></tr><tr><td>Monthly AI credits for auto-translate</td><td>—</td><td>✅</td><td>✅</td><td>✅</td></tr><tr><td>Default values and min/max limits</td><td>—</td><td>✅</td><td>✅</td><td>✅</td></tr><tr><td>Swatch sliders and custom option style</td><td>—</td><td>✅</td><td>✅</td><td>✅</td></tr><tr><td>Analytics</td><td>—</td><td>Basic</td><td>Advanced</td><td>Advanced</td></tr><tr><td><a href="../product-personalizer/personalizer.md">Product Personalizer</a></td><td>—</td><td>—</td><td>✅</td><td>✅</td></tr><tr><td>Option groups</td><td>—</td><td>—</td><td>✅</td><td>✅</td></tr><tr><td>Out-of-stock options</td><td>—</td><td>—</td><td>✅</td><td>✅</td></tr><tr><td>Custom fonts and date restrictions</td><td>—</td><td>—</td><td>✅</td><td>✅</td></tr><tr><td>Customer and country rules</td><td>—</td><td>—</td><td>✅</td><td>✅</td></tr><tr><td>Edit options in the cart</td><td>—</td><td>—</td><td>✅</td><td>✅</td></tr><tr><td><a href="../point-of-sale/pos.md">Point of Sale (POS)</a></td><td>—</td><td>—</td><td>✅</td><td>✅</td></tr><tr><td><a href="../orders/orders.md">Orders</a> tab</td><td>—</td><td>—</td><td>✅</td><td>✅</td></tr><tr><td><a href="../automations/automations.md">Automations</a>: email, order notes, order tags, Google Drive</td><td>—</td><td>—</td><td>✅</td><td>✅</td></tr><tr><td>Priority support and no watermark</td><td>—</td><td>✅</td><td>✅</td><td>✅</td></tr></tbody></table>
 
-* Unlimited option sets
-* All three ways to assign products: manual selection, automatic rules, and all products
-* Basic conditional logic
-* The 15 most-used option types
-* Option templates
-* Options in quickview
-{% endcolumn %}
-
-{% column %}
-### Premium
-
-Everything in Free, plus:
-
-* Advanced conditional logic
-* Add-on pricing: Existing product, New product, and Fixed amount
-* Import and export
-* Multi-language option content
-* Default values and min/max limits
-* Swatch sliders and custom widget styling
-* Five more option types
-* File upload up to 20 MB
-* Monthly AI credits for auto-translate
-* Basic analytics
-* Priority support, and no watermark
-{% endcolumn %}
-{% endcolumns %}
-
-{% columns %}
-{% column %}
-### Advanced
-
-Everything in Premium, plus:
-
-* Every remaining option type and setting
-* The Product Personalizer
-* **Percentage add-ons**: charge a % of the product's price
-* Add-on quantity modes
-* Option groups
-* Out-of-stock handling
-* Custom fonts and date restrictions
-* Point of Sale (POS)
-* Customer and country rules
-* Edit options in the cart
-* The Orders tab
-* Automations: email, order notes, order tags, and Google Drive
-* Advanced analytics
-* File upload up to 100 MB
-{% endcolumn %}
-
-{% column %}
-### Advanced 200
-
-Everything in Advanced, plus:
-
-* File upload up to 200 MB
-{% endcolumn %}
-{% endcolumns %}
+**Advanced 200** is the same as Advanced, with a larger file upload limit.
 
 {% hint style="info" %}
 You do not need to memorize any of this. Features not included in your plan are clearly marked in the app where you use them: a grayed-out field with an upgrade link, an option type that prompts you when selected, or a banner when you reach a limit.
@@ -78,7 +20,7 @@ Selecting an upgrade link opens **Pricing** and highlights the relevant feature.
 {% endhint %}
 
 {% hint style="warning" %}
-**Check Pricing for your own store.** The tables below show the current plans for new stores. Plans can change over time, and stores that signed up under an earlier pricing version keep their existing plan. What the app shows is what applies to your store.
+**Check Pricing for your own store.** The tables on this page show the current plans for new stores. Plans can change over time, and stores that signed up under an earlier pricing version keep their existing plan. What the app shows is what applies to your store.
 
 Prices also vary for Shopify Plus stores, so this page does not list them.
 {% endhint %}

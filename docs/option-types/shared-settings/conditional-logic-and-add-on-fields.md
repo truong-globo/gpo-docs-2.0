@@ -40,7 +40,7 @@ For full detail, see [Conditional logic](../../conditional-logic/conditional-log
 
 Adds an extra charge to the option.
 
-| Tab          | Basic tab, under **Add-on Settings**                                                                                                                                                                                      |
+| Tab          | Basic tab, in the **Add-on** card                                                                                                                                                                                         |
 | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Default      | No add-on                                                                                                                                                                                                                      |
 | Available on | At **option** level: Text, Textarea, Number, Switch, Color picker. At **option value** level, in the values table's **Price** column: all nine selection types with values. **Dimension** has its own price and formula fields |
@@ -49,11 +49,11 @@ Adds an extra charge to the option.
 Where the price is set depends on the option type. An input option has one answer, so it has one price. A selection option has several choices that may cost different amounts, so the price is set on each value. See [Where you can set add-ons](../../add-on-pricing/where-you-can-set-add-ons.md).
 {% endhint %}
 
-Selecting the field opens a dialog with three tabs, which are three different ways to charge:
+Selecting the field opens a dialog with four tabs, which are four different ways to charge:
 
-<table><thead><tr><th width="290">Tab</th><th>What it does</th><th>Stock tracked?</th></tr></thead><tbody><tr><td><strong>Existing product</strong></td><td>Links a product and variant you already sell. The price comes from that variant.</td><td>Yes</td></tr><tr><td><strong>New product</strong></td><td>The app creates a product at the price you type.</td><td>Yes</td></tr><tr><td><strong>Fixed amount</strong></td><td>Adds money to the order with no product behind it.</td><td>No</td></tr></tbody></table>
+<table><thead><tr><th width="290">Tab</th><th>What it does</th><th>Stock tracked?</th></tr></thead><tbody><tr><td><strong>Existing product</strong></td><td>Links a product and variant you already sell. The price comes from that variant.</td><td>Yes</td></tr><tr><td><strong>New product</strong></td><td>The app creates a product at the price you type.</td><td>Yes</td></tr><tr><td><strong>Fixed amount</strong></td><td>Adds money to the order with no product behind it.</td><td>No</td></tr><tr><td><strong>Percentage</strong></td><td>Adds a share of the main product's price, with no product behind it.</td><td>No</td></tr></tbody></table>
 
-**Fixed amount** is not supported on Shopify POS. If you sell in person, use one of the product-backed modes. See [POS limitations](../../point-of-sale/limitations.md).
+**Fixed amount** and **Percentage** are not supported on Shopify POS. If you sell in person, use one of the product-backed modes. See [POS limitations](../../point-of-sale/limitations.md).
 
 Once a value is linked to a product, a **Product** column appears in the values table, with a link to open that product in Shopify admin.
 

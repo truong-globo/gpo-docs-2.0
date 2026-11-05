@@ -56,7 +56,7 @@ Supported as an **image element**. Each value can have an image that is drawn on
 
 ## Add-on pricing
 
-Prices are set on each value, and each value supports all three modes. The option-level **Add-on quantity** controls how the charge scales.
+Prices are set on each value, and each value supports all four modes. The option-level **Add-on quantity** controls how the charge scales.
 
 Because only one value can be selected, there is either one charge or none. This makes Radio button a good type for tiered upgrades where the customer selects one level.
 

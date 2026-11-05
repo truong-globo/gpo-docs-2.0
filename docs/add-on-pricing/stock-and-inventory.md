@@ -15,9 +15,9 @@ The 2:47 video on [Add-on pricing](add-on-pricing.md) covers stock tracking alon
 
 Inventory is only available when a product exists. Therefore, the pricing mode you select determines whether inventory can be tracked:
 
-<table><thead><tr><th width="290">Mode</th><th>Stock?</th></tr></thead><tbody><tr><td><a href="use-an-existing-product.md">Existing product</a></td><td><strong>Yes</strong> — the linked variant's inventory</td></tr><tr><td><a href="auto-generate-a-product.md">New product</a></td><td><strong>Yes</strong> — but tracking must be turned on first</td></tr><tr><td><a href="add-price-directly.md">Fixed amount</a></td><td><strong>No.</strong> There is no product, so nothing to count</td></tr></tbody></table>
+<table><thead><tr><th width="290">Mode</th><th>Stock?</th></tr></thead><tbody><tr><td><a href="use-an-existing-product.md">Existing product</a></td><td><strong>Yes</strong> — the linked variant's inventory</td></tr><tr><td><a href="auto-generate-a-product.md">New product</a></td><td><strong>Yes</strong> — but tracking must be turned on first</td></tr><tr><td><a href="add-price-directly.md">Fixed amount</a></td><td><strong>No.</strong> There is no product, so nothing to count</td></tr><tr><td><a href="percentage.md">Percentage</a></td><td><strong>No.</strong> There is no product, so nothing to count</td></tr></tbody></table>
 
-If you need inventory behavior and your values use **Fixed amount**, change them to a product-backed mode.
+If you need inventory behavior and your values use **Fixed amount** or **Percentage**, change them to a product-backed mode.
 
 ## Setting it up
 

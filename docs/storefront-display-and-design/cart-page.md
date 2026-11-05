@@ -20,9 +20,9 @@ Prevents customers from changing the quantity of an add-on line, or removing it,
 
 **Keep this on.** Without it, a customer can remove the gift box while keeping the "gift wrapped" option on the main item, so you receive an order for something that was not paid for.
 
-It applies to product-backed add-ons, because those are the ones with their own cart line. A [Fixed amount](../add-on-pricing/add-price-directly.md) charge has no separate line.
+It applies to product-backed add-ons, because those are the ones with their own cart line. A [Fixed amount](../add-on-pricing/add-price-directly.md) or [Percentage](../add-on-pricing/percentage.md) charge has no separate line.
 
-This setting also covers theme cart drawers and the [UpCart, Monster Cart, Kaching, Qikify, and Unicorn](../integrations/cart-drawer-apps/) drawers, not only your full cart page.
+This setting also covers theme cart drawers and the [UpCart, Monster Cart, Kaching, Qikify, Unicorn, and Essent](../integrations/cart-drawer-apps/) drawers, not only your full cart page.
 
 ## Show "Edit Options" button in cart
 
@@ -48,7 +48,7 @@ The button appears on your cart page only. If you use a [cart drawer app](../int
 | Default | Off |
 | ------- | --- |
 
-This one only matters if you use a cart drawer app. [UpCart, Monster Cart, Kaching, Qikify, and Unicorn](../integrations/cart-drawer-apps/) show upsells inside the drawer, and their Add button puts the product in the cart in one click, without opening a product page.
+This one only matters if you use a cart drawer app. [UpCart, Monster Cart, Kaching, Qikify, Unicorn, and Essent](../integrations/cart-drawer-apps/) show upsells inside the drawer, and their Add button puts the product in the cart in one click, without opening a product page.
 
 If an upsell product has options, the customer never sees the form. You receive an order with no engraving text, no size, and no uploaded file.
 

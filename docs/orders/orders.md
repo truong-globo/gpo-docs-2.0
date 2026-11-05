@@ -34,7 +34,7 @@ Two rankings sit below the metrics.
 <table><thead><tr><th width="250">Ranking</th><th>Based on</th></tr></thead><tbody><tr><td><strong>Top option sets</strong></td><td>Add-on revenue, counting both add-on prices and add-on products</td></tr><tr><td><strong>Top option values</strong></td><td>Only values that added an <strong>add-on product</strong>, ranked by that product's revenue</td></tr></tbody></table>
 
 {% hint style="warning" %}
-The two rankings do not use the same figure. **Top option values** leaves out [Fixed amount](../add-on-pricing/add-price-directly.md) charges, because a fixed amount has no product behind it to attribute revenue to.
+The two rankings do not use the same figure. **Top option values** leaves out [Fixed amount](../add-on-pricing/add-price-directly.md) and [Percentage](../add-on-pricing/percentage.md) charges, because they have no product behind them to attribute revenue to.
 
 If a value earns well through a fixed amount, it will not appear there. Use **Top option sets** for the complete picture.
 {% endhint %}

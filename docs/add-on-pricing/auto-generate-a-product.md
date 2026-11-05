@@ -17,7 +17,7 @@ This is the recommended mode for most physical add-ons.
 {% step %}
 ### Open the price field and choose the New product tab
 
-**Price** under **Add-on Settings** on an input type, or the **Price** cell on an option value's row for a selection type.
+**Price** in the **Add-on** card on an input type, or the **Price** cell on an option value's row for a selection type.
 {% endstep %}
 
 {% step %}

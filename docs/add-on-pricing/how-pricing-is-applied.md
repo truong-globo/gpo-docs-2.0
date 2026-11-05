@@ -47,7 +47,7 @@ If add-on pricing is not applied at checkout at all, and the amount is genuinely
 
 ## What reaches the order
 
-<table><thead><tr><th width="290">On the order you see</th><th>Where it comes from</th></tr></thead><tbody><tr><td>The main product, at its price plus any <strong>Fixed amount</strong> amounts</td><td>Your product, adjusted at checkout</td></tr><tr><td>The option details, listed under the item</td><td>The customer's choices, as line item properties</td></tr><tr><td>One line per product-backed add-on, at its own price</td><td>The linked or generated products</td></tr><tr><td>A few technical properties linking the add-ons to their parent item</td><td>The app, so the pieces stay associated</td></tr></tbody></table>
+<table><thead><tr><th width="290">On the order you see</th><th>Where it comes from</th></tr></thead><tbody><tr><td>The main product, at its price plus any <strong>Fixed amount</strong> and <strong>Percentage</strong> charges</td><td>Your product, adjusted at checkout</td></tr><tr><td>The option details, listed under the item</td><td>The customer's choices, as line item properties</td></tr><tr><td>One line per product-backed add-on, at its own price</td><td>The linked or generated products</td></tr><tr><td>A few technical properties linking the add-ons to their parent item</td><td>The app, so the pieces stay associated</td></tr></tbody></table>
 
 For more information, see [Show options on orders](../storefront-display-and-design/show-options-on-orders/).
 

@@ -61,7 +61,7 @@ To print the text on the product image in the chosen color, turn on the [Persona
 
 The price applies to the whole option, so it is a charge for selecting a custom color. This is common when a custom color costs more to produce than a standard one.
 
-All three modes are available. Typically:
+All four modes are available. Typically:
 
 * **Fixed amount** for a flat custom color surcharge with no inventory to track.
 * **New product** to track how many custom color orders you receive.

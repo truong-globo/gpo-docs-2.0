@@ -41,7 +41,7 @@ This makes Dropdown a compact way to offer many visual designs. The list stays s
 
 ## Add-on pricing
 
-Prices are set on each option value, and each value supports all three modes. The option-level **Add-on quantity** controls how the charge scales, including **Mixed quantity** when **Allow multiple** is on, which gives every value its own quantity box.
+Prices are set on each option value, and each value supports all four modes. The option-level **Add-on quantity** controls how the charge scales, including **Mixed quantity** when **Allow multiple** is on, which gives every value its own quantity box.
 
 See [Add-on pricing](../../add-on-pricing/add-on-pricing.md) and [Advanced add-on modes](../../add-on-pricing/advanced-add-on-modes.md).
 

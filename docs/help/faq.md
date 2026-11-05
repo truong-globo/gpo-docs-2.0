@@ -41,9 +41,9 @@ Yes. The product page displays a preview, and the actual amount is applied at ch
 
 <details>
 
-<summary>What is the difference between the three add-on modes?</summary>
+<summary>What is the difference between the four add-on modes?</summary>
 
-**Fixed amount** adds a charge with no product behind it. It is the simplest mode, but it has no inventory and is not supported in POS. **Existing product** links to a product you already sell, so inventory and SKU are real. **New product** creates the product for you. Use the first mode for services, and one of the other two for anything physical. See [Add-on pricing](../add-on-pricing/add-on-pricing.md).
+**Fixed amount** adds a charge with no product behind it. It is the simplest mode, but it has no inventory and is not supported in POS. **Percentage** works the same way, but the charge is a share of the main product's price. **Existing product** links to a product you already sell, so inventory and SKU are real. **New product** creates the product for you. Use Fixed amount or Percentage for services, and one of the product-backed modes for anything physical. See [Add-on pricing](../add-on-pricing/add-on-pricing.md).
 
 </details>
 

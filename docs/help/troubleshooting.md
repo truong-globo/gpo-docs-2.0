@@ -54,7 +54,7 @@ The app embed is not enabled on the new theme. The app embed is per theme, inclu
 
 <summary>Options show on the storefront but not in POS, or the reverse</summary>
 
-Check the option set's **Sales channels**. It has to be published to the channel you expect it on. Then confirm that the option types you used are supported in POS. [Dimension](../option-types/input-types/dimension.md) and [Product links](../option-types/selection-types/product-links.md) are not supported, and **Fixed amount** add-ons are not charged there. See [POS limitations](../point-of-sale/limitations.md).
+Check the option set's **Sales channels**. It has to be published to the channel you expect it on. Then confirm that the option types you used are supported in POS. [Dimension](../option-types/input-types/dimension.md) and [Product links](../option-types/selection-types/product-links.md) are not supported, and **Fixed amount** and **Percentage** add-ons are not charged there. See [POS limitations](../point-of-sale/limitations.md).
 
 </details>
 

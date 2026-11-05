@@ -37,7 +37,7 @@ Use Select when the list is short and simple, and you prefer the native look and
 
 ## Add-on pricing
 
-Prices are set for each option value in the values table’s **Price** column. Each value supports all three pricing modes, while the option-level **Add-on quantity** dropdown controls how the charge is calculated.
+Prices are set for each option value in the values table’s **Price** column. Each value supports all four pricing modes, while the option-level **Add-on quantity** mode controls how the charge is calculated.
 
 Because **Select** cannot display out-of-stock states, avoid using it for values linked to limited inventory. A customer could select a sold-out value without seeing a warning. Use [Dropdown](dropdown.md) instead.
 

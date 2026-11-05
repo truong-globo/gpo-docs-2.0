@@ -94,6 +94,7 @@
 * [Overview](add-on-pricing/add-on-pricing.md)
 * [Where you can set add-ons](add-on-pricing/where-you-can-set-add-ons.md)
 * [Fixed amount](add-on-pricing/add-price-directly.md)
+* [Percentage](add-on-pricing/percentage.md)
 * [Existing product](add-on-pricing/use-an-existing-product.md)
 * [New product](add-on-pricing/auto-generate-a-product.md)
 * [Advanced add-on modes](add-on-pricing/advanced-add-on-modes.md)
@@ -199,6 +200,7 @@
   * [Kaching Cart](integrations/cart-drawer-apps/kaching-cart.md)
   * [Qikify Slide Cart](integrations/cart-drawer-apps/qikify-slide-cart.md)
   * [Unicorn Cart Drawer](integrations/cart-drawer-apps/unicorn-cart-drawer.md)
+  * [Essent Cart Drawer](integrations/cart-drawer-apps/essent-cart-drawer.md)
 * [Theme and third-party notes](integrations/theme-and-third-party-notes.md)
 
 ## Plans and billing

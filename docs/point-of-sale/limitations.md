@@ -9,16 +9,16 @@ Read this before you build anything for POS. None of these limitations produces 
 
 ## The three limitations
 
-<table><thead><tr><th width="290">Not supported in POS</th><th>Use instead</th></tr></thead><tbody><tr><td><a href="../option-types/input-types/dimension.md">Dimension</a></td><td><a href="../option-types/input-types/number.md">Number</a> fields, one per measurement</td></tr><tr><td><a href="../option-types/selection-types/product-links.md">Product links</a></td><td>Nothing needed — staff can find the other product in POS directly</td></tr><tr><td>The <a href="../add-on-pricing/add-price-directly.md">Fixed amount</a> add-on mode</td><td><a href="../add-on-pricing/use-an-existing-product.md">Existing product</a> or <a href="../add-on-pricing/auto-generate-a-product.md">New product</a></td></tr></tbody></table>
+<table><thead><tr><th width="290">Not supported in POS</th><th>Use instead</th></tr></thead><tbody><tr><td><a href="../option-types/input-types/dimension.md">Dimension</a></td><td><a href="../option-types/input-types/number.md">Number</a> fields, one per measurement</td></tr><tr><td><a href="../option-types/selection-types/product-links.md">Product links</a></td><td>Nothing needed — staff can find the other product in POS directly</td></tr><tr><td>The <a href="../add-on-pricing/add-price-directly.md">Fixed amount</a> and <a href="../add-on-pricing/percentage.md">Percentage</a> add-on modes</td><td><a href="../add-on-pricing/use-an-existing-product.md">Existing product</a> or <a href="../add-on-pricing/auto-generate-a-product.md">New product</a></td></tr></tbody></table>
 
 The app warns you about the two option types when you add them. Each one displays a notice saying it is not supported on the POS channel.
 
-## Fixed amount is the one to check
+## Fixed amount and Percentage are the ones to check
 
-Staff notice a missing field, so the two option types are visible problems. **Fixed amount** is not. The option appears, the customer selects it, the sale completes, and the charge is not applied.
+Staff notice a missing field, so the two option types are visible problems. **Fixed amount** and **Percentage** are not. The option appears, the customer selects it, the sale completes, and the charge is not applied.
 
 {% hint style="danger" %}
-If an option set is published to **Point of Sale**, check every add-on it contains. Any value using **Fixed amount** is not charged at the counter.
+If an option set is published to **Point of Sale**, check every add-on it contains. Any value using **Fixed amount** or **Percentage** is not charged at the counter.
 
 Both product-backed modes work in POS. To switch, open the value's **Price** field and change the tab.
 {% endhint %}
@@ -35,13 +35,13 @@ On the **Option Sets** list, check the sales channels shown on each row.
 {% step %}
 ### Open each one and check every priced option
 
-For input types, check the **Price** field under **Add-on Settings**. For selection types, check the **Price** column for each value.
+For input types, check the **Price** field in the **Add-on** card. For selection types, check the **Price** column for each value.
 {% endstep %}
 
 {% step %}
-### Change any Fixed amount value to a product-backed mode
+### Change any Fixed amount or Percentage value to a product-backed mode
 
-**New product** is the simplest replacement. It charges the same price and works in POS.
+**New product** is the simplest replacement, and it works in POS. It charges a set price, so a former **Percentage** value becomes one amount for every product.
 {% endstep %}
 
 {% step %}

@@ -9,7 +9,7 @@ icon: dollar-sign
 
 The **Fixed amount** mode increases the amount the customer pays. No Shopify product is created or linked.
 
-Use it for services with no inventory to track and nothing to ship separately, such as engraving, express production, or a design fee.
+Use it for services with no inventory to track and nothing to ship separately, such as engraving, express production, or a design fee. To charge a share of the product's price instead, use [Percentage](percentage.md).
 
 ## Steps
 
@@ -17,15 +17,15 @@ Use it for services with no inventory to track and nothing to ship separately, s
 {% step %}
 ### Open the price field
 
-On an input type, that is **Price** under **Add-on Settings** on the **Basic** tab. On a selection type, it is the **Price** cell on the option value's row. See [Where you can set add-ons](where-you-can-set-add-ons.md).
+On an input type, that is **Price** in the **Add-on** card on the **Basic** tab. On a selection type, it is the **Price** cell on the option value's row. See [Where you can set add-ons](where-you-can-set-add-ons.md).
 {% endstep %}
 
 {% step %}
 ### Choose the Fixed amount tab
 
-The dialog opens with three tabs. **Fixed amount** is the third.
+The **Add-on Configuration** dialog has four tabs. **Fixed amount** is the third.
 
-A note confirms that this mode increases the price of the main product without creating an add-on product.
+A note confirms that this mode increases the price of the main product without creating an add-on product. A second note warns that this add-on type is not supported on the POS channel.
 {% endstep %}
 
 {% step %}
@@ -53,7 +53,7 @@ Add the product to a cart and check the total. The charge is applied at checkout
 {% endstep %}
 {% endstepper %}
 
-<figure><img src="../.gitbook/assets/2026-09-04_13-50-27.png" alt="The Fixed amount tab of the add-on dialog with a price entered"><figcaption><p>The Fixed amount tab has a single price field and creates no product.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/screenshot-addon-fixed-amount-tab.png" alt="The Add-on Configuration dialog on the Fixed amount tab with a $15 price, an info note, and the POS warning"><figcaption><p>The Fixed amount tab has a single price field and creates no product.</p></figcaption></figure>
 
 ## What the customer sees
 
@@ -93,7 +93,7 @@ This mode also has no SKU, no weight, and no separate line in your Shopify produ
 
 ## When to use something else
 
-<table><thead><tr><th width="330">Add-on</th><th>Use instead</th></tr></thead><tbody><tr><td>Gift wrap, boxes, ribbon — anything you can run out of</td><td><a href="auto-generate-a-product.md">New product</a></td></tr><tr><td>Something you already sell</td><td><a href="use-an-existing-product.md">Existing product</a></td></tr><tr><td>Anything you also sell in person</td><td>Either product-backed mode</td></tr><tr><td>Anything that changes the shipping weight</td><td>Either product-backed mode</td></tr><tr><td>Anything you want to see in Shopify product reports</td><td>Either product-backed mode</td></tr></tbody></table>
+<table><thead><tr><th width="330">Add-on</th><th>Use instead</th></tr></thead><tbody><tr><td>Gift wrap, boxes, ribbon — anything you can run out of</td><td><a href="auto-generate-a-product.md">New product</a></td></tr><tr><td>Something you already sell</td><td><a href="use-an-existing-product.md">Existing product</a></td></tr><tr><td>Anything you also sell in person</td><td>Either product-backed mode</td></tr><tr><td>Anything that changes the shipping weight</td><td>Either product-backed mode</td></tr><tr><td>Anything you want to see in Shopify product reports</td><td>Either product-backed mode</td></tr><tr><td>A charge that should grow with the price of the item, such as a warranty</td><td><a href="percentage.md">Percentage</a></td></tr></tbody></table>
 
 ## Examples
 

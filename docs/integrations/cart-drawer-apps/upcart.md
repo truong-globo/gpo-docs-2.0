@@ -29,4 +29,4 @@ Reading down the drawer:
 
 * [Set up](./#set-up) — the two settings, with screenshots
 * [What a drawer cannot do](./#what-a-drawer-cannot-do) — Edit Options, design previews, and the other limits
-* [Monster Cart](monster-cart.md), [Kaching Cart](kaching-cart.md), [Qikify Slide Cart](qikify-slide-cart.md), and [Unicorn Cart Drawer](unicorn-cart-drawer.md) — the other recognized cart drawer apps
+* [Monster Cart](monster-cart.md), [Kaching Cart](kaching-cart.md), [Qikify Slide Cart](qikify-slide-cart.md), [Unicorn Cart Drawer](unicorn-cart-drawer.md), and [Essent Cart Drawer](essent-cart-drawer.md) — the other recognized cart drawer apps

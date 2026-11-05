@@ -32,7 +32,7 @@ The two **Set by you** modes are the only ones that show the **Quantity** field 
 <figure><img src="../.gitbook/assets/screenshot-addon-quantity-dialog.png" alt="The Add-on quantity dialog with nine modes in three groups and Character range selected"><figcaption><p>The Add-on quantity dialog groups the modes by who decides the quantity. Per character and Character range appear on Text and Textarea only.</p></figcaption></figure>
 
 {% hint style="warning" %}
-**One time charge**, **Fixed quantity**, and **Fixed quantity (by customer)** cannot be used with a [Fixed amount](add-price-directly.md) price. The dialog greys them out with the note **Not available with Fixed amount.** If one of them was already selected, the **Add-on** card shows a warning with a **Switch to Default** button. Use [New product](auto-generate-a-product.md) or [Existing product](use-an-existing-product.md) for those modes.
+**One time charge**, **Fixed quantity**, and **Fixed quantity (by customer)** cannot be used with a [Fixed amount](add-price-directly.md) or [Percentage](percentage.md) price. The dialog greys them out with the note **Not available with Fixed amount.**, which covers Percentage too. If one of them was already selected, the **Add-on** card shows a warning with a **Switch to Default** button. Use [New product](auto-generate-a-product.md) or [Existing product](use-an-existing-product.md) for those modes.
 {% endhint %}
 
 ## Worked calculations
@@ -129,7 +129,7 @@ You set a price for each range of text lengths, and the customer pays the price 
 
 Selecting it replaces the **Price** field with a **Price by character count** table:
 
-<table><thead><tr><th width="250">Column</th><th>What it holds</th></tr></thead><tbody><tr><td><strong>Min characters</strong></td><td>The shortest length in the range, starting from 1</td></tr><tr><td><strong>Max characters</strong></td><td>The longest length in the range</td></tr><tr><td><strong>Price</strong></td><td>The add-on for that range. It opens the same <strong>Add-on Configuration</strong> dialog as any price, with <strong>Existing product</strong>, <strong>New product</strong>, and <strong>Fixed amount</strong></td></tr></tbody></table>
+<table><thead><tr><th width="250">Column</th><th>What it holds</th></tr></thead><tbody><tr><td><strong>Min characters</strong></td><td>The shortest length in the range, starting from 1</td></tr><tr><td><strong>Max characters</strong></td><td>The longest length in the range</td></tr><tr><td><strong>Price</strong></td><td>The add-on for that range. It opens the same <strong>Add-on Configuration</strong> dialog as any price. Use <strong>Existing product</strong>, <strong>New product</strong>, or <strong>Fixed amount</strong>. A range priced with <strong>Percentage</strong> is not charged</td></tr></tbody></table>
 
 <figure><img src="../.gitbook/assets/screenshot-addon-character-range-table.png" alt="The Price by character count table with two ranges, 1 to 10 characters at $5.00 and 11 to 20 characters at $8.00"><figcaption><p>Each row is a range of text lengths with its own price. The table replaces the single Price field.</p></figcaption></figure>
 

@@ -57,13 +57,13 @@ Most selection types support help text for individual values. **Select**, **Prod
 
 ## Pricing a value
 
-Select the **Price** cell to open the add-on dialog. It offers three modes:
+Select the **Price** cell to open the add-on dialog. It offers four modes:
 
-<table><thead><tr><th width="270">Mode</th><th>Use it when</th></tr></thead><tbody><tr><td><strong>Existing product</strong></td><td>You already sell the item as a product. The app uses the price and stock from a variant of an existing product.</td></tr><tr><td><strong>New product</strong></td><td>You want stock tracking without creating the product manually. The app creates a product automatically at the price you specify, allowing the add-on to have its own stock tracking.</td></tr><tr><td><strong>Fixed amount</strong></td><td>You only need to charge an additional amount. No stock is tracked. Not supported on Shopify POS.</td></tr></tbody></table>
+<table><thead><tr><th width="270">Mode</th><th>Use it when</th></tr></thead><tbody><tr><td><strong>Existing product</strong></td><td>You already sell the item as a product. The app uses the price and stock from a variant of an existing product.</td></tr><tr><td><strong>New product</strong></td><td>You want stock tracking without creating the product manually. The app creates a product automatically at the price you specify, allowing the add-on to have its own stock tracking.</td></tr><tr><td><strong>Fixed amount</strong></td><td>You only need to charge an additional amount. No stock is tracked. Not supported on Shopify POS.</td></tr><tr><td><strong>Percentage</strong></td><td>The charge should be a share of the main product's price, such as a protection plan. No stock is tracked. Not supported on Shopify POS.</td></tr></tbody></table>
 
 Values without a price are free.
 
-See [Add-on pricing](../add-on-pricing/add-on-pricing.md) for an in-depth guide to all three modes, and [Advanced add-on modes](../add-on-pricing/advanced-add-on-modes.md) for how charges can scale with quantity.
+See [Add-on pricing](../add-on-pricing/add-on-pricing.md) for an in-depth guide to all four modes, and [Advanced add-on modes](../add-on-pricing/advanced-add-on-modes.md) for how charges can scale with quantity.
 
 ## Colors and images on a value
 

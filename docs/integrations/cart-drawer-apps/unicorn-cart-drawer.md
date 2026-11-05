@@ -55,4 +55,4 @@ Your generated add-on products are not in it. With the upsell redirect on, the b
 
 * [Set up](./#set-up): the two settings, with screenshots
 * [What a drawer cannot do](./#what-a-drawer-cannot-do): Edit Options, design previews, and the other limits
-* [UpCart](upcart.md), [Monster Cart](monster-cart.md), [Kaching Cart](kaching-cart.md), and [Qikify Slide Cart](qikify-slide-cart.md): the other recognized cart drawer apps
+* [UpCart](upcart.md), [Monster Cart](monster-cart.md), [Kaching Cart](kaching-cart.md), [Qikify Slide Cart](qikify-slide-cart.md), and [Essent Cart Drawer](essent-cart-drawer.md): the other recognized cart drawer apps

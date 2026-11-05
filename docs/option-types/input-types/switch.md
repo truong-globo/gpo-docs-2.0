@@ -33,9 +33,9 @@ A toggle with your label above it and a short label beside the toggle. The switc
 
 ## Add-on pricing
 
-The price applies to the whole option and is charged when the switch is on. All three modes are available:
+The price applies to the whole option and is charged when the switch is on. All four modes are available:
 
-<table><thead><tr><th width="290">Mode</th><th>Use for</th></tr></thead><tbody><tr><td><strong>Existing product</strong></td><td>Something you already sell and stock, such as a gift box.</td></tr><tr><td><strong>New product</strong></td><td>Something physical you want to count and stock without building a product by hand.</td></tr><tr><td><strong>Fixed amount</strong></td><td>A service with nothing to stock, such as express production. Not supported on POS.</td></tr></tbody></table>
+<table><thead><tr><th width="290">Mode</th><th>Use for</th></tr></thead><tbody><tr><td><strong>Existing product</strong></td><td>Something you already sell and stock, such as a gift box.</td></tr><tr><td><strong>New product</strong></td><td>Something physical you want to count and stock without building a product by hand.</td></tr><tr><td><strong>Fixed amount</strong></td><td>A service with nothing to stock, such as express production. Not supported on POS.</td></tr><tr><td><strong>Percentage</strong></td><td>A charge that grows with the item's price, such as a protection plan. Not supported on POS.</td></tr></tbody></table>
 
 The **Add-on quantity** mode is especially important on a Switch:
 
@@ -74,7 +74,7 @@ Label `Premium gift box`, **Selected by default** on, a price attached, and help
 ## Notes
 
 * Available on all plans.
-* Works in Shopify POS, provided the add-on is product-backed rather than **Fixed amount**.
+* Works in Shopify POS, provided the add-on is product-backed rather than **Fixed amount** or **Percentage**.
 * No Personalizer support.
 * When the switch is on, the **Switch label** text is stored in the order. Use a switch label that reads clearly on an order line. `Yes, wrap it` is clearer than `Yes`.
 * Conditional logic on a Switch offers two operators: **is enabled** and **is disabled**. See [Operators reference](../../conditional-logic/operators-reference.md).

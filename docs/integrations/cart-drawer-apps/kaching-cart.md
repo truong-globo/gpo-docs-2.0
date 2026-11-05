@@ -35,4 +35,4 @@ That second setting is worth turning on here even if you would leave it off else
 
 * [Set up](./#set-up) — the two settings, with screenshots
 * [What a drawer cannot do](./#what-a-drawer-cannot-do) — Edit Options, design previews, and the other limits
-* [UpCart](upcart.md), [Monster Cart](monster-cart.md), [Qikify Slide Cart](qikify-slide-cart.md), and [Unicorn Cart Drawer](unicorn-cart-drawer.md) — the other recognized cart drawer apps
+* [UpCart](upcart.md), [Monster Cart](monster-cart.md), [Qikify Slide Cart](qikify-slide-cart.md), [Unicorn Cart Drawer](unicorn-cart-drawer.md), and [Essent Cart Drawer](essent-cart-drawer.md) — the other recognized cart drawer apps

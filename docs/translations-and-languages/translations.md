@@ -39,7 +39,7 @@ This is the language you work in.
 {% step %}
 ### Translate your option content, per option set
 
-On the option set's **Translations** tab, by hand or with **Auto-translate**. This is done separately for each option set.
+In the option set's **Translations** panel, by hand or with **Auto-translate**. This is done separately for each option set.
 {% endstep %}
 
 {% step %}

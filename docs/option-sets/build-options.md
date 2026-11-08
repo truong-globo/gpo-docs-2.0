@@ -106,7 +106,7 @@ The builder validates as you type and blocks **Save** until the problems are fix
 
 ## Working in another language
 
-If your storefront supports multiple languages, use the option set's **Translations** tab to enter translated **labels**, **values**, and **help text** for each language. The tab lists every language with its translation status, and shows each field beside its source text.
+If your storefront supports multiple languages, use the **Translations** panel of the option set editor to enter translated **labels**, **values**, and **help text** for each language. Its language menu shows each language's translation status, and each field is shown beside its source text.
 
 **Name** is intentionally not translatable so your order data stays consistent across languages. See [Translate option content](../translations-and-languages/translate-option-content.md).
 

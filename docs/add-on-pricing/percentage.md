@@ -121,7 +121,7 @@ To charge something once per order, use [New product](auto-generate-a-product.md
 
 A percentage cannot be negative, even on stores that allow negative add-on prices. Like Fixed amount, this mode has no SKU, no weight, and no separate line in your Shopify product reports.
 
-**Not for Character range prices.** The price dialog of each range in a [Character range](advanced-add-on-modes.md#character-range) table also shows the **Percentage** tab, but a range priced this way is not charged on the storefront. Price each range with **Fixed amount**, **New product**, or **Existing product**.
+**Not for Character range prices.** The price dialog of each range in a [Character range](advanced-add-on-modes.md#character-range) table does not offer **Percentage**. A range that was already saved with a percentage is flagged with *Percentage isn't available for character ranges. Choose another add-on type.* Price it with **Fixed amount**, **New product**, or **Existing product**.
 
 ## Percentage or Fixed amount?
 

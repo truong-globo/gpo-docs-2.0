@@ -1,7 +1,7 @@
 ---
 description: >-
   Enter a price and let the app create the add-on product. What it creates, how
-  it names the product, and how to keep it out of your storefront.
+  it names the product, and how it stays out of your storefront.
 icon: wand-magic-sparkles
 ---
 
@@ -27,13 +27,17 @@ This is the recommended mode for most physical add-ons.
 
 Set a clear **Label** before you generate the product. `Frame color` produces a readable product name, while `Select` does not.
 
-Enter the price in your store's currency. Negative amounts are rejected.
+Enter the price in your store's currency, such as `10` or `1.50`. A comma works as the decimal mark too. The price must be above zero, and a price the app cannot read shows **Enter a valid price, like 10 or 1.50.** If your currency has no decimals, enter a whole number, such as `1500`.
 {% endstep %}
 
 {% step %}
 ### Select Select, then Save the option set
 
-The product is created in the background after you save, not while the dialog is open. Reload the page, and a **Product** column is added to the values table with a link to the product in Shopify admin.
+The product is created on Shopify after you save, not while the dialog is open. While it runs, the price field shows **Creating add-on product on Shopify…**, or **Updating add-on product on Shopify…** when you change a price later. Once it is done, a **Product** column in the values table links to the product in Shopify admin.
+
+If Shopify rejects a product, the field shows **Not saved on Shopify** and a banner lists the add-ons under **Some add-on products weren't saved on Shopify**. Fix them, then save again or use **Sync Add-on data** from the editor's more-actions menu.
+
+A price the app cannot save blocks **Save** with an error on the field, so a wrong price never reaches your storefront.
 {% endstep %}
 
 {% step %}
@@ -49,7 +53,7 @@ The product is created in the background after you save, not while the dialog is
 
 The following table describes the products you will find in your catalog.
 
-<table><thead><tr><th width="230">Property</th><th>Value</th></tr></thead><tbody><tr><td>Title</td><td>The option's <strong>Label</strong></td></tr><tr><td>Variants</td><td>One per priced option value, named after that value. An input type gets a single variant</td></tr><tr><td>Status</td><td><strong>Active</strong></td></tr><tr><td>Sales channels</td><td>Published, so it can be purchased through the widget</td></tr><tr><td>Tags</td><td><code>globo-product-options</code>, plus an identifier for the option it belongs to</td></tr><tr><td>Inventory policy</td><td>Set to continue selling when out of stock — so by default it never blocks a sale</td></tr></tbody></table>
+<table><thead><tr><th width="230">Property</th><th>Value</th></tr></thead><tbody><tr><td>Title</td><td>The option's <strong>Label</strong></td></tr><tr><td>Variants</td><td>One per priced option value, named after that value. An input type gets a single variant</td></tr><tr><td>Status</td><td><strong>Unlisted</strong>. Products the app created before this change are <strong>Active</strong></td></tr><tr><td>Sales channels</td><td>Online Store and Point of Sale, so it can be purchased through the widget</td></tr><tr><td>Tags</td><td><code>globo-product-options</code>, plus an identifier for the option it belongs to</td></tr><tr><td>Inventory policy</td><td>Set to continue selling when out of stock — so by default it never blocks a sale</td></tr></tbody></table>
 
 {% hint style="info" %}
 Use the `globo-product-options` tag to quickly find all generated products and exclude them from automated collections. In Shopify, search your products by this tag to view all generated products in one place.
@@ -71,12 +75,14 @@ For more information, see [Stock and inventory](stock-and-inventory.md).
 
 ## Keeping them out of the way
 
-Generated products are published so that customers can buy them, which also means they can appear when customers browse your store.
+New add-on products are created as **Unlisted**. Shopify keeps unlisted products out of collections, storefront search, and product recommendations, while they can still be bought through the widget. There is nothing to set up.
 
-<table><thead><tr><th width="290">Problem</th><th>Fix</th></tr></thead><tbody><tr><td>They appear in automated collections</td><td>Add a condition to those collections excluding the tag <code>globo-product-options</code></td></tr><tr><td>They appear in storefront search</td><td>Exclude them in whatever controls your search — a search app's settings, or your theme's search template</td></tr><tr><td>They clutter your product list in admin</td><td>Filter or sort by tag. There is no need to delete them</td></tr><tr><td>They appear in a sitemap or feed</td><td>Exclude by tag in the tool that builds it</td></tr></tbody></table>
+Add-on products created before this change are **Active**, so they can still appear when customers browse. Change their status to **Unlisted** in Shopify admin, or use the fixes below.
+
+<table><thead><tr><th width="290">Problem with an Active add-on product</th><th>Fix</th></tr></thead><tbody><tr><td>It appears in automated collections</td><td>Add a condition to those collections excluding the tag <code>globo-product-options</code></td></tr><tr><td>It appears in storefront search</td><td>Exclude it in whatever controls your search — a search app's settings, or your theme's search template</td></tr><tr><td>It appears in a sitemap or feed</td><td>Exclude it by tag in the tool that builds it</td></tr><tr><td>It clutters your product list in admin</td><td>Filter or sort by tag. There is no need to delete them</td></tr></tbody></table>
 
 {% hint style="warning" %}
-Do not **unpublish** these products from the Online Store. A product that is not published to the Online Store cannot be added to the cart, which breaks the add-on. Exclude them from collections and search instead. This hides them from browsing while keeping them purchasable.
+Do not set add-on products to **Draft** or **Archived**, and do not remove them from the Online Store. Customers can then no longer add them to the cart, which breaks the add-on. **Unlisted** is the status that hides them and keeps them purchasable.
 {% endhint %}
 
 ## When to use this mode
@@ -107,5 +113,5 @@ A Text option for the engraving, with a generated product so the metal plate is 
 * Editing the price in the app updates the generated variant.
 * Renaming the option's **Label** does not rename the existing product. The product keeps the title it had when it was created.
 * Deleting an option set does **not** delete its generated products. They remain in your catalog. See [Duplicate and delete](../option-sets/duplicate-and-delete.md).
-* Duplicating an option set does not duplicate its products. Both option sets link to the same products and share their inventory.
-* If a generated product is out of sync in the app, use **Sync Add-on data** from the builder's more-actions menu.
+* Duplicating or importing an option set creates new add-on products for the copy. Changing a price in one option set no longer changes it in the other.
+* If a generated product is out of sync in the app, use **Sync Add-on data** from the editor's more-actions menu. Unsaved changes are lost when it reloads the add-on data, so save first.

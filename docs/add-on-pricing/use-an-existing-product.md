@@ -95,7 +95,7 @@ A Checkbox labeled `Add the matching case`, linked to the case product, with the
 
 ## Keeping it working
 
-<table><thead><tr><th width="290">If you do this in Shopify</th><th>Then</th></tr></thead><tbody><tr><td>Change the variant's price</td><td>Nothing to do — the add-on price follows</td></tr><tr><td>Change its stock</td><td>Nothing to do — availability follows</td></tr><tr><td>Delete the product or variant</td><td><strong>The link breaks.</strong> The app tells you the product or variant no longer exists when you next open the dialog. Relink to something else</td></tr><tr><td>Rename the product</td><td>The link holds — it is not by name</td></tr><tr><td>Unpublish it from the Online Store</td><td>It can no longer be purchased through the widget. Keep add-on products published</td></tr></tbody></table>
+<table><thead><tr><th width="290">If you do this in Shopify</th><th>Then</th></tr></thead><tbody><tr><td>Change the variant's price</td><td>Nothing to do — the add-on price follows</td></tr><tr><td>Change its stock</td><td>Nothing to do — availability follows</td></tr><tr><td>Delete the product or variant</td><td><strong>The link breaks.</strong> In the editor, the price field shows <strong>Variant deleted on Shopify</strong>. Relink to something else. Until you do, a customer who selects that value sees a message naming the option that is no longer available, and the product is not added to the cart</td></tr><tr><td>Rename the product</td><td>The link holds — it is not by name</td></tr><tr><td>Unpublish it from the Online Store</td><td>It can no longer be purchased through the widget. Keep add-on products published</td></tr></tbody></table>
 
 ## Notes
 

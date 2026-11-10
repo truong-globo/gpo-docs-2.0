@@ -28,9 +28,9 @@ After duplicating, we recommend doing these two things immediately:
 
 Everything else is copied too, including all options and their settings, values, prices, images, help text, conditional logic, all three targeting rules, and the Personalizer background.
 
-One thing is **not** copied: **add-on products are shared**. If a value in the original option set is linked to a generated add-on product, the duplicate uses the same product. Both option sets will sell from the same product inventory.
+**Add-on products are created again for the copy.** If a value in the original option set uses a [New product](../add-on-pricing/auto-generate-a-product.md) add-on, the duplicate gets its own new product. Changing a price or inventory in one option set does not affect the other.
 
-This is usually what you want. If you need separate inventory, reconfigure the add-on product in the duplicate. See [Add-on pricing](../add-on-pricing/add-on-pricing.md).
+Values linked to an [Existing product](../add-on-pricing/use-an-existing-product.md) keep pointing to that same product, because it is yours rather than the app's.
 
 {% hint style="info" %}
 If you reuse the same structure regularly, consider saving it as a [custom template](../templates/custom-templates.md). Templates are designed for reuse and keep your option set list easier to manage.

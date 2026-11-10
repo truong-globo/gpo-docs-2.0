@@ -119,6 +119,8 @@ With **Free characters** set to `5`, only 7 of them are charged:
 
 Use this for engraving and embroidery priced by length. **Free characters** suits offers such as "the first five letters are included".
 
+In the cart and on the order, the option shows only the text the customer typed, such as `Forever yours`, without a character count after it.
+
 {% hint style="info" %}
 Always use **Per character** together with a [Max character](../option-types/shared-settings/limits.md#min-and-max-character) limit, so the charge has a maximum. Enable the [Character counter](../option-types/shared-settings/limits.md#character-counter) so the customer can see how many characters they have entered.
 {% endhint %}
@@ -129,7 +131,7 @@ You set a price for each range of text lengths, and the customer pays the price 
 
 Selecting it replaces the **Price** field with a **Price by character count** table:
 
-<table><thead><tr><th width="250">Column</th><th>What it holds</th></tr></thead><tbody><tr><td><strong>Min characters</strong></td><td>The shortest length in the range, starting from 1</td></tr><tr><td><strong>Max characters</strong></td><td>The longest length in the range</td></tr><tr><td><strong>Price</strong></td><td>The add-on for that range. It opens the same <strong>Add-on Configuration</strong> dialog as any price. Use <strong>Existing product</strong>, <strong>New product</strong>, or <strong>Fixed amount</strong>. A range priced with <strong>Percentage</strong> is not charged</td></tr></tbody></table>
+<table><thead><tr><th width="250">Column</th><th>What it holds</th></tr></thead><tbody><tr><td><strong>Min characters</strong></td><td>The shortest length in the range, starting from 1</td></tr><tr><td><strong>Max characters</strong></td><td>The longest length in the range</td></tr><tr><td><strong>Price</strong></td><td>The add-on for that range. It opens the same <strong>Add-on Configuration</strong> dialog as any price. Choose <strong>Existing product</strong>, <strong>New product</strong>, or <strong>Fixed amount</strong>. <strong>Percentage</strong> is not offered for ranges</td></tr></tbody></table>
 
 <figure><img src="../.gitbook/assets/screenshot-addon-character-range-table.png" alt="The Price by character count table with two ranges, 1 to 10 characters at $5.00 and 11 to 20 characters at $8.00"><figcaption><p>Each row is a range of text lengths with its own price. The table replaces the single Price field.</p></figcaption></figure>
 

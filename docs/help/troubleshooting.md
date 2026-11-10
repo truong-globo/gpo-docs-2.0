@@ -98,7 +98,7 @@ There are three causes. The values use **Add Price,** which has no product and t
 
 <summary>Generated add-on products appear in my collections and search</summary>
 
-Exclude the tag `globo-product-options` from those collections. Do not unpublish the products from the Online Store, because an unpublished product cannot be added to the cart. See [New product](../add-on-pricing/auto-generate-a-product.md).
+Add-on products the app creates now are **Unlisted**, so Shopify keeps them out of collections and search. Older ones were created as **Active**: change their status to **Unlisted** in Shopify admin, or exclude the tag `globo-product-options` from those collections. Do not set them to Draft or remove them from the Online Store, because they then cannot be added to the cart. See [New product](../add-on-pricing/auto-generate-a-product.md).
 
 </details>
 

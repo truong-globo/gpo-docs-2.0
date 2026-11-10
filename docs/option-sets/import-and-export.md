@@ -118,7 +118,8 @@ Exported option sets contain their own configuration. Store-wide settings are ha
 * Colors, borders, typography, custom CSS, widget position and behavior — export from **Settings**. See [Import and export settings](../settings/import-export-settings.md).
 * Widget text and validation messages — **Settings > Translations**.
 * Automations — configured per store.
-* **Add-on products** — the file records which product an add-on was linked to, but that product may not exist in the destination store. Reconnect add-ons after importing between stores.
+* **Add-on products** — add-ons priced with **New product** get new products created in the destination store when you import. Add-ons linked to an **Existing product** point to a product in the original store, so relink them after importing between stores.
+* **Invalid add-on prices** — an option set with prices the app cannot save is skipped, and the import names the options: *Add-on prices in … can't be saved. Use numbers, no negative prices, and percentages above 0.* Fix those prices in the file and import it again.
 
 ## Notes
 
